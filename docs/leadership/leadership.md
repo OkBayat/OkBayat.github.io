@@ -22,8 +22,9 @@ direction: rtl
 
 - [دوره‌ی راهبری - 2022](/assets/SSRN-id1263835.pdf)
 - [دوره‌ی راهبری - 2021](/assets/UCLA2021CumulativeSlideDeck.pdf)
+- [ترجمه‌ی دوره‌ی راهبری - آذر ۱۴۰۲](/assets/leadership-fa-2023-12.pdf)
+- [ترجمه‌ی دوره‌ی راهبری - خرداد ۱۴۰۲](/assets/Leadership-fa-2023-05.pdf)
 - [ترجمه‌ی دوره‌ی راهبری - قدیمی](/assets/SSRN-id3081564.pdf)
-- [ترجمه‌ی دوره‌ی راهبری - خرداد ۱۴۰۲](/assets/Leadership-majid-2023-05.pdf)
 - [کتاب نوع بودن](/assets/speaking-being-werner-erhard-martin-heidegger.pdf)
 - [خلاصه تمامیت](/assets/SSRN-id1511274.pdf)
 - [ترجمه تمامیت](/assets/integrity.pdf)
