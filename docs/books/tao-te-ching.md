@@ -1,6 +1,6 @@
 ---
 layout: default
-title: تتائو تِ چینگ
+title: تائو تِ چینگ
 parent: Books
 direction: rtl
 ---
