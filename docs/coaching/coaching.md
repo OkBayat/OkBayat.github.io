@@ -4,6 +4,7 @@ title: Coaching
 nav_order: 5
 has_children: true
 direction: rtl
+permalink: /coaching
 ---
 
 # کوچینگ چیست؟
