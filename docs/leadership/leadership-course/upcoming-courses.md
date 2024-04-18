@@ -4,7 +4,7 @@ title: دوره‌های پیش‌رو
 parent: دوره‌ی راهبری
 grand_parent: Leadership
 direction: rtl
-permalink: /leadership/courses/upcoming-courses
+permalink: /leadership/course/upcoming-courses
 ---
 
 # دوره‌های پیش‌رو

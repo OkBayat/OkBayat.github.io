@@ -4,7 +4,7 @@ title: مدل جدید راهبری
 parent: دوره‌ی راهبری
 grand_parent: Leadership
 direction: rtl
-permalink: /leadership/courses/a-new-model-of-leadership
+permalink: /leadership/course/a-new-model-of-leadership
 ---
 
 # مدل جدید راهبری
