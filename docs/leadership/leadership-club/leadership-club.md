@@ -2,7 +2,6 @@
 layout: default
 title: باشگاه راهبری
 parent: Leadership
-has_children: true
 direction: rtl
 permalink: /leadership/club
 ---
