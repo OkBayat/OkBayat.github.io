@@ -1,8 +1,7 @@
 ---
 layout: default
 title: قلم رو گفتگویی
-parent: قلم رو گفتگویی
-grand_parent: Leadership
+parent: Leadership
 has_children: true
 direction: rtl
 ---
