@@ -1,6 +1,6 @@
 ---
 layout: default
-title: دوره‌ه‌ی راهبری
+title: دوره‌‌ی راهبری
 parent: Leadership
 has_children: true
 direction: rtl
