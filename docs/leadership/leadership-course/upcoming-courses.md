@@ -1,7 +1,7 @@
 ---
 layout: default
 title: دوره‌های پیش‌رو
-parent: دوره‌ی راهبری
+parent: دوره‌‌ی راهبری
 grand_parent: Leadership
 direction: rtl
 permalink: /leadership/course/upcoming-courses

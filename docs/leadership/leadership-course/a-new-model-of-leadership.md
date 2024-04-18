@@ -1,7 +1,7 @@
 ---
 layout: default
 title: مدل جدید راهبری
-parent: دوره‌ی راهبری
+parent: دوره‌‌ی راهبری
 grand_parent: Leadership
 direction: rtl
 permalink: /leadership/course/a-new-model-of-leadership
