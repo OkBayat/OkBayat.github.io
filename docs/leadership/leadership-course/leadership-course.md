@@ -1,10 +1,10 @@
 ---
 layout: default
-title: دوره‌های راهبری
+title: دوره‌ه‌ی راهبری
 parent: Leadership
 has_children: true
 direction: rtl
-permalink: /leadership/courses
+permalink: /leadership/course
 ---
 
 # دوره‌ی راهبر بودن و راهبری ورزیدن به طور موثر
