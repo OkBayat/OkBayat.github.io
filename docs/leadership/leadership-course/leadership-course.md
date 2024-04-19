@@ -17,23 +17,23 @@ permalink: /leadership/course
 
 ## چه چیزی این راهبری را منحصر به فرد می‌کند
 
-<style>
-.h_iframe-aparat_embed_frame{position:relative;}
-.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}
-.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}
-</style>
-
+<div dir="ltr">
 <div id="88333913263"><script type="text/JavaScript" src="https://www.aparat.com/embed/QPYRG?data[rnddiv]=88333913263&data[responsive]=yes"></script></div>
 
 Michael C. Jensen, Jesse Isidor Straus Professor of Business Administration, Emeritus
+</div>
 
+<div dir="ltr">
 <div id="28009985926"><script type="text/JavaScript" src="https://www.aparat.com/embed/CKWGH?data[rnddiv]=28009985926&data[responsive]=yes"></script></div>
 
 Jeri Echeverria, Former Executive Vice Chancellor and Chief Academic Officer of California State University System
+</div>
 
-<div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/jCTMO/vt/frame"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+<div dir="ltr">
+<div id="93742416013"><script type="text/JavaScript" src="https://www.aparat.com/embed/YyWtE?data[rnddiv]=93742416013&data[responsive]=yes"></script></div>
 
 Access to Being a Leader in Any Circumstance
+</div>
 
 این دوره سابقه‌ی درخشانی در ایجاد تفاوت های چشمگیر برای شرکت کنندگان دارد، چه آن‌ها در حال حاضر در یک موقعیت راهبری مهم باشند و چه تجربه راهبری کمی یا هیچ تجربه‌ای نداشته باشند.
 
