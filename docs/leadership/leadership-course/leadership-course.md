@@ -17,26 +17,29 @@ permalink: /leadership/course
 
 ## چه چیزی این راهبری را منحصر به فرد میکند
 
-<div class="code-example" markdown="1">
+<style>
+.h_iframe-aparat_embed_frame{position:relative;}
+.h_iframe-aparat_embed_frame .ratio{display:block;width:100%;height:auto;}
+.h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}
+</style>
+
+<div class="code-example" markdown="1" dir="ltr">
 <iframe loading="lazy" src="https://player.vimeo.com/video/430189045" width="640" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
-</div>
-```markdown
+
 Michael C. Jensen, Jesse Isidor Straus Professor of Business Administration, Emeritus
-```
+</div>
 
-<div class="code-example" markdown="1">
+<div class="code-example" markdown="1" dir="ltr">
 <iframe loading="lazy" src="https://player.vimeo.com/video/391601414" width="640" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
-</div>
-```markdown
-Jeri Echeverria, Former Executive Vice Chancellor and Chief Academic Officer of California State University System
-```
 
-<div class="code-example" markdown="1">
-<iframe loading="lazy" src="https://player.vimeo.com/video/459999816" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+Jeri Echeverria, Former Executive Vice Chancellor and Chief Academic Officer of California State University System
 </div>
-```markdown
+
+<div class="code-example" markdown="1" dir="ltr">
+<div class="h_iframe-aparat_embed_frame"><span style="display: block;padding-top: 57%"></span><iframe src="https://www.aparat.com/video/video/embed/videohash/jCTMO/vt/frame"  allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe></div>
+
 Access to Being a Leader in Any Circumstance
-```
+</div>
 
 این دوره سابقه‌ی درخشانی در ایجاد تفاوت های چشمگیر برای شرکت کنندگان دارد، چه آن‌ها در حال حاضر در یک موقعیت راهبری مهم باشند و چه تجربه راهبری کمی یا هیچ تجربه‌ای نداشته باشند.
 
