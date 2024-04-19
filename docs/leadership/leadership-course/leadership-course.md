@@ -15,7 +15,7 @@ permalink: /leadership/course
 
 > اساتید راهنمای "راهنمای تدریس راهبری هاروارد"، اسکات اسنوک (استاد ارشد)، نیتین نوحریا (رئیس دانشکده کسب و کار هاروارد) و راکش خورانا (رئیس دانشکده هاروارد) در مورد این دوره می‌گویند: "... با دنبال کردن یک روش شناسی دقیق و مبتنی بر پدیدارشناسی، دانشجویان فرصت ایجاد فضایی برای خود را پیدا می‌کنند که به آن‌ها امکان می‌دهد در واقع راهبر شوند و ورزش موثر راهبری به عنوان ابرازی طبیعی خودشان شود."
 
-## چه چیزی این راهبری را منحصر به فرد میکند
+## چه چیزی این راهبری را منحصر به فرد می‌کند
 
 <style>
 .h_iframe-aparat_embed_frame{position:relative;}
@@ -23,11 +23,11 @@ permalink: /leadership/course
 .h_iframe-aparat_embed_frame iframe{position:absolute;top:0;left:0;width:100%;height:100%;}
 </style>
 
-<iframe loading="lazy" src="https://player.vimeo.com/video/430189045" width="640" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+<div id="88333913263"><script type="text/JavaScript" src="https://www.aparat.com/embed/QPYRG?data[rnddiv]=88333913263&data[responsive]=yes"></script></div>
 
 Michael C. Jensen, Jesse Isidor Straus Professor of Business Administration, Emeritus
 
-<iframe loading="lazy" src="https://player.vimeo.com/video/391601414" width="640" height="361" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+<div id="28009985926"><script type="text/JavaScript" src="https://www.aparat.com/embed/CKWGH?data[rnddiv]=28009985926&data[responsive]=yes"></script></div>
 
 Jeri Echeverria, Former Executive Vice Chancellor and Chief Academic Officer of California State University System
 
