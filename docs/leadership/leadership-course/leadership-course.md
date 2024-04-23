@@ -40,4 +40,4 @@ permalink: /leadership/course
 این دوره سابقه‌ی درخشانی در ایجاد تفاوت های چشمگیر برای شرکت کنندگان دارد، چه آن‌ها در حال حاضر در یک موقعیت راهبری مهم باشند و چه تجربه راهبری کمی یا هیچ تجربه‌ای نداشته باشند.
 
 [مطالعه‌ی بیشتر](./course/a-new-model-of-leadership){: .btn .btn-outline }
-[ ثبتنام ](./course/upcoming-courses){: .btn .btn-green .btn-outline }
+[ ثبت نام ](./course/upcoming-courses){: .btn .btn-outline }
