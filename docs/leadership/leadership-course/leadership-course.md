@@ -34,10 +34,11 @@ permalink: /leadership/course
         <div id="93742416013"><script type="text/JavaScript" src="https://www.aparat.com/embed/YyWtE?data[rnddiv]=93742416013&data[responsive]=yes"></script></div>
 
         { Access to Being a Leader in Any Circumstance | sub }
-
     </div>
 </div>
 
 این دوره سابقه‌ی درخشانی در ایجاد تفاوت های چشمگیر برای شرکت کنندگان دارد، چه آن‌ها در حال حاضر در یک موقعیت راهبری مهم باشند و چه تجربه راهبری کمی یا هیچ تجربه‌ای نداشته باشند.
 
-[مطالعه‌ی بیشتر](./course/a-new-model-of-leadership){: .btn .btn-purple }
+[مطالعه‌ی بیشتر](./course/a-new-model-of-leadership){: .btn .btn-outline }
+
+[ثبتنام](./course/upcoming-courses){: .btn .btn-green }
