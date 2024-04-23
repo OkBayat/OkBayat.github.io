@@ -17,22 +17,25 @@ permalink: /leadership/course
 
 ## چه چیزی این راهبری را منحصر به فرد می‌کند
 
-<div dir="ltr">
-<div id="88333913263"><script type="text/JavaScript" src="https://www.aparat.com/embed/QPYRG?data[rnddiv]=88333913263&data[responsive]=yes"></script></div>
+<div class="row" dir="ltr">
+    <div class="col-md-4 col-sm-12">
+        <div id="88333913263"><script type="text/JavaScript" src="https://www.aparat.com/embed/QPYRG?data[rnddiv]=88333913263&data[responsive]=yes"></script></div>
 
-Michael C. Jensen, Jesse Isidor Straus Professor of Business Administration, Emeritus
-</div>
+        Michael C. Jensen, Jesse Isidor Straus Professor of Business Administration, Emeritus
+    </div>
 
-<div dir="ltr">
-<div id="28009985926"><script type="text/JavaScript" src="https://www.aparat.com/embed/CKWGH?data[rnddiv]=28009985926&data[responsive]=yes"></script></div>
+    <div class="col-md-4 col-sm-12">
+        <div id="28009985926"><script type="text/JavaScript" src="https://www.aparat.com/embed/CKWGH?data[rnddiv]=28009985926&data[responsive]=yes"></script></div>
 
-Jeri Echeverria, Former Executive Vice Chancellor and Chief Academic Officer of California State University System
-</div>
+        Jeri Echeverria, Former Executive Vice Chancellor and Chief Academic Officer of California State University System
+    </div>
 
-<div dir="ltr">
-<div id="93742416013"><script type="text/JavaScript" src="https://www.aparat.com/embed/YyWtE?data[rnddiv]=93742416013&data[responsive]=yes"></script></div>
+    <div class="col-md-4 col-sm-12">
+        <div id="93742416013"><script type="text/JavaScript" src="https://www.aparat.com/embed/YyWtE?data[rnddiv]=93742416013&data[responsive]=yes"></script></div>
 
-Access to Being a Leader in Any Circumstance
+        Access to Being a Leader in Any Circumstance
+
+    </div>
 </div>
 
 این دوره سابقه‌ی درخشانی در ایجاد تفاوت های چشمگیر برای شرکت کنندگان دارد، چه آن‌ها در حال حاضر در یک موقعیت راهبری مهم باشند و چه تجربه راهبری کمی یا هیچ تجربه‌ای نداشته باشند.
