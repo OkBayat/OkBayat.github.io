@@ -19,7 +19,7 @@ permalink: /leadership/course/upcoming-courses
 ---
 
 ## دوره‌ی آنلاین راهبر بودن و ورزش موثر راهبری
-{: .d-inline-block }
+{: .d-inline-block .mt-0 }
 در حال ثبت‌نام
 {: .label .label-green }
 
@@ -37,7 +37,7 @@ permalink: /leadership/course/upcoming-courses
 ---
 
 ## دوره‌ی آنلاین راهبری دعوت
-{: .d-inline-block }
+{: .d-inline-block .mt-0 }
 در حال برگزاری
 {: .label .label-yellow }
 
@@ -54,7 +54,7 @@ permalink: /leadership/course/upcoming-courses
 ---
 
 ## دوره‌ی آنلاین راهبر بودن و ورزش موثر راهبری
-{: .d-inline-block }
+{: .d-inline-block .mt-0 }
 در حال برگزاری
 {: .label .label-yellow }
 
