@@ -11,9 +11,9 @@ permalink: /leadership/course
 
 { این دوره منحصر به فرد راهبری این وعده جسورانه را می‌دهد: | fs-5 }  
 *"شما این دوره را در حالی ‌ترک می‌کنید که راهبر هستید و ورزش موثر راهبری به‌عنوان ابراز طبیعی‌تان هست."*
-{: .d-inline-block .fs-6 px-8 }
+{: .d-inline-block .fs-6 }
 
-[ ثبت‌نام در دوره‌ها ](./course/upcoming-courses){: .btn .btn-blue .mr-4 }
+[ ثبت‌نام در دوره ](./course/upcoming-courses){: .btn .btn-blue }
 {: .text-center }
 
 {: .note-title }
@@ -45,5 +45,5 @@ permalink: /leadership/course
 
 این دوره سابقه‌ی درخشانی در ایجاد تفاوت های چشمگیر برای شرکت کنندگان دارد، چه آن‌ها در حال حاضر در یک موقعیت راهبری مهم باشند و چه تجربه راهبری کمی یا هیچ تجربه‌ای نداشته باشند. [مطالعه‌ی بیشتر](./course/a-new-model-of-leadership)
 
-[ ثبت‌نام در دوره‌ها ](./course/upcoming-courses){: .btn .btn-blue .mr-4 }
+[ ثبت‌نام در دوره ](./course/upcoming-courses){: .btn .btn-blue }
 {: .text-center }
