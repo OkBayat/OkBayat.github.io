@@ -1,10 +1,10 @@
 ---
 layout: default
 title: پروژه‌ی راهبری
-parent: دوره‌‌ی راهبری
 grand_parent: Leadership
 direction: rtl
-permalink: /leadership/course/leadership-project
+nav_order: 3
+permalink: /leadership/leadership-project
 ---
 
 # پروژه‌ی راهبری

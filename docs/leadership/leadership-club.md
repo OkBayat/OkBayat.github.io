@@ -3,6 +3,7 @@ layout: default
 title: باشگاه راهبری
 parent: Leadership
 direction: rtl
+nav_order: 9
 permalink: /leadership/club
 ---
 

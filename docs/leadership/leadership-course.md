@@ -2,8 +2,8 @@
 layout: default
 title: دوره‌‌ی راهبری
 parent: Leadership
-has_children: true
 direction: rtl
+nav_order: 1
 permalink: /leadership/course
 ---
 
@@ -13,7 +13,7 @@ permalink: /leadership/course
 *"شما این دوره را در حالی ‌ترک می‌کنید که راهبر هستید و ورزش موثر راهبری به‌عنوان ابراز طبیعی‌تان هست."*
 {: .d-inline-block .fs-6 }
 
-[ ثبت‌نام در دوره ](./course/upcoming-courses){: .btn .btn-blue }
+[ ثبت‌نام در دوره ](./upcoming-courses){: .btn .btn-blue }
 {: .text-center }
 
 {: .note-title }
@@ -43,7 +43,7 @@ permalink: /leadership/course
     </div>
 </div>
 
-این دوره سابقه‌ی درخشانی در ایجاد تفاوت های چشمگیر برای شرکت کنندگان دارد، چه آن‌ها در حال حاضر در یک موقعیت راهبری مهم باشند و چه تجربه راهبری کمی یا هیچ تجربه‌ای نداشته باشند. [مطالعه‌ی بیشتر](./course/a-new-model-of-leadership)
+این دوره سابقه‌ی درخشانی در ایجاد تفاوت های چشمگیر برای شرکت کنندگان دارد، چه آن‌ها در حال حاضر در یک موقعیت راهبری مهم باشند و چه تجربه راهبری کمی یا هیچ تجربه‌ای نداشته باشند. [مطالعه‌ی بیشتر](./a-new-model-of-leadership)
 
-[ ثبت‌نام در دوره ](./course/upcoming-courses){: .btn .btn-blue }
+[ ثبت‌نام در دوره ](./upcoming-courses){: .btn .btn-blue }
 {: .text-center }

@@ -3,6 +3,7 @@ layout: default
 title: قلم رو گفتگویی
 parent: Leadership
 has_children: true
+nav_order: 10
 direction: rtl
 ---
 

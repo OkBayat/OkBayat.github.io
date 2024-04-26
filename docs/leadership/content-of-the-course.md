@@ -1,10 +1,10 @@
 ---
 layout: default
 title: محتوای این دوره
-parent: دوره‌‌ی راهبری
 grand_parent: Leadership
 direction: rtl
-permalink: /leadership/course/content-of-the-course
+nav_order: 5
+permalink: /leadership/content-of-the-course
 ---
 
 # محتوای این دوره

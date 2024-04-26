@@ -1,10 +1,10 @@
 ---
 layout: default
 title: مدل جدید راهبری
-parent: دوره‌‌ی راهبری
 grand_parent: Leadership
 direction: rtl
-permalink: /leadership/course/a-new-model-of-leadership
+nav_order: 2
+permalink: /leadership/a-new-model-of-leadership
 ---
 
 # مدل جدید راهبری
