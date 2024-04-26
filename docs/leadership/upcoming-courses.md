@@ -1,7 +1,7 @@
 ---
 layout: default
 title: دوره‌های پیش‌رو
-grand_parent: Leadership
+parent: Leadership
 direction: rtl
 nav_order: 4
 permalink: /leadership/upcoming-courses

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: پروژه‌ی راهبری
-grand_parent: Leadership
+parent: Leadership
 direction: rtl
 nav_order: 3
 permalink: /leadership/leadership-project

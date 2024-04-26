@@ -1,7 +1,7 @@
 ---
 layout: default
 title: بوته‌های آزمایش راهبری
-grand_parent: Leadership
+parent: Leadership
 direction: rtl
 nav_order: 5
 permalink: /leadership/crucibles-of-leadership

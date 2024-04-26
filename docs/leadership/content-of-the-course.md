@@ -1,7 +1,7 @@
 ---
 layout: default
 title: محتوای این دوره
-grand_parent: Leadership
+parent: Leadership
 direction: rtl
 nav_order: 5
 permalink: /leadership/content-of-the-course

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: مدل جدید راهبری
-grand_parent: Leadership
+parent: Leadership
 direction: rtl
 nav_order: 2
 permalink: /leadership/a-new-model-of-leadership
