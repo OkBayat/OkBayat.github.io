@@ -11,6 +11,7 @@ permalink: /leadership
 { این دوره منحصر به فرد راهبری این وعده جسورانه را می‌دهد: | fs-5 mb-1 }
 
 { _"شما این دوره را در حالی ‌ترک می‌کنید که راهبر هستید و اِعمال موثر راهبری به‌عنوان ابراز طبیعی‌تان هست."_ | fs-6 mb-0 text-center }
+{: .text-center }
 
 [ ثبت‌نام در دوره ](./leadership/upcoming-courses){: .btn .btn-blue }
 {: .text-center }
