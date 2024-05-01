@@ -4,7 +4,7 @@ title: اصول اخلاقی
 parent: Coaching
 nav_order: 3
 direction: rtl
-permalink: /coaching/ethics-fundamental
+permalink: /coaching/code-of-ethics
 ---
 
 # اصول اخلاقی
