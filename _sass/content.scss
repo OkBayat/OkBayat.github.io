@@ -62,18 +62,18 @@
     }
   }
 
-  /* ul {
-    list-style: none;
+  ul {
+    // list-style: none;
 
     > li {
       &::before {
-        position: absolute;
-        margin-left: -1.4em;
+        // position: absolute;
+        // margin-left: -1.4em;
         color: $grey-dk-000;
-        content: "•";
+        // content: "•";
       }
     }
-  } */
+  }
 
   .task-list-item {
     &::before {
