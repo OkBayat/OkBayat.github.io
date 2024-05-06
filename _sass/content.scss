@@ -39,9 +39,9 @@
         // position: absolute;
         // top: 0.2em;
         // left: -1.6em;
-        color: $grey-dk-000;
         // content: counter(step-counter);
         // counter-increment: step-counter;
+        color: $grey-dk-000;
         @include fs-3;
 
         // @include mq(sm) {
@@ -69,8 +69,8 @@
       &::before {
         // position: absolute;
         // margin-left: -1.4em;
-        color: $grey-dk-000;
         // content: "•";
+        color: $grey-dk-000;
       }
     }
   }
