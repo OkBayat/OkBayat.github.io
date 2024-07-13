@@ -63,3 +63,7 @@ iframe.calendar {
   border: none;
   overflow: auto;
 }
+
+span[title] {
+  border-bottom: 1px dashed #7253ed;
+}
