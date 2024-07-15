@@ -17,8 +17,8 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
     # { bage bold new | Example text } to <span class="bage bold new">Example text</span>
     non_frozen_string.gsub!(/\{\s*(.+?)\s*\|\s*sub\s*\}/, '<sub>\1</sub>')
     non_frozen_string.gsub!(/\{\s*(.+?)\s*\|\s*ltr\s*\}/, '<span dir="ltr">\1</span>')
-    # non_frozen_string.gsub!(/\{\s*(.+?)\s*\|\s*([a-z]+)\s*=\s*(.+?)\s*\}/, '<span \2="\3">\1</span>')
-    non_frozen_string.gsub!(/\{\s*(.+?)\s*\|\s*(.+?)\s*\}/, '<span title="\2">\1</span>')
+    non_frozen_string.gsub!(/\{\s*(.+?)\s*\|\s*([a-z]+)\s*=\s*(.+?)\s*\}/, '<span \2="\3">\1</span>')
+    # non_frozen_string.gsub!(/\{\s*(.+?)\s*\|\s*(.+?)\s*\}/, '<span title="\2">\1</span>')
     non_frozen_string.gsub!(/\{(?!:)\s*([^\}]+?)\s*\|\s*([^|]+?)\s*\}/, '<span class="\2">\1</span>')
     non_frozen_string.gsub!(/\{(?!:)\s*([^|]+?)\s*\\\s*(.+?)\s*\}/, '<span class="\1">\2</span>')
 
