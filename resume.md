@@ -23,7 +23,7 @@ Full Stack Developer with 14+ years of experience working with high-tech startup
 ### K2-Group
 {: .d-inline-block }
 
-May 1010 - Present
+May 2010 - Present
 {: .label .label-green }
 
 #### Team Lead
