@@ -39,6 +39,7 @@ As a team leader and entrepreneur, I am passionate about building innovative and
 As the founder and Software Developer of K2-Group, I have dedicated my career to developing cutting-edge algorithmic trading solutions. With over 13 years of experience in the industry, I have gained a deep understanding of capital market dynamics and have built a proven track record of delivering exceptional results for trading strategies.
 
 Some of my key achievements include:
+
 - Developing over 10,000 trading strategies, of which over 3,000 are currently in use in applications. These strategies leverage data analysis techniques to identify and execute high-probability trading opportunities in real time.
 - Analyzing application-specific requirements and making necessary software adaptations. I have a deep understanding of various programming languages and am proficient in both front-end and back-end development.
 - Managing the hardware and configuration of servers, ensuring that our systems are always running optimally and efficiently.
