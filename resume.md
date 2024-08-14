@@ -7,6 +7,11 @@ nav_order: 7
 # Mohammad Bayat Resume
 {: .no_toc }
 
+As the Founder of K2-Group, I’m passionate about driving innovation and creating impactful solutions.
+With over 10 years of experience as a Full Stack Developer, I’ve worked with high-tech startups to enhance the performance of web applications and streamline development processes through effective tools and testing.
+
+In addition to my technical expertise, I’m also a Leadership Coach, committed to improving team dynamics and productivity. Through K2-Clearing, I’m deeply engaged in the continuous exploration of leadership practices, helping individuals and teams achieve meaningful transformation.
+
 <details open markdown="block">
   <summary>Table of contents</summary>
   {: .text-delta }
@@ -15,9 +20,6 @@ nav_order: 7
 </details>
 ---
 
-Full Stack Developer with 14+ years of experience working with high-tech startups. Enhanced the performance of several web applications and sought to reduce development time by writing tests and development tools. Leadership coach with experience improving team productivity for over 2 years.
-
-
 ## Experience
 
 ### K2-Group
@@ -25,6 +27,9 @@ Full Stack Developer with 14+ years of experience working with high-tech startup
 
 May 2010 - Present
 {: .label .label-green }
+
+#### Leadership Facilitator and Researcher
+Since around 2017, I've been on an exciting journey to explore and understand the intricacies of leadership. Each day, I am thrilled by new discoveries and insights that enhance my approach. To deepen this exploration, I initiated the K2-Clearing project, where I actively engage in experience-based leadership facilitation and research. This initiative is not just about teaching leadership; it’s about profoundly transforming the way we lead within our company and in our personal lives. Through K2-Clearing, I am committed to driving meaningful change and fostering a culture of continuous growth and improvement.
 
 #### Team Lead
 As a team leader and entrepreneur, I am passionate about building innovative and collaborative communities that drive real change. I am currently leading a team of talented professionals to develop a partially open-source project, with a focus on creating a friendly and inclusive environment where all contributors are valued and treated as shareholders. I am committed to building a community that is focused on achieving our goals together, and that supports one another every step of the way. Ultimately, my goal is to create a sustainable and profitable business model that benefits us all and to lead each of us to become a part of the capital market.
