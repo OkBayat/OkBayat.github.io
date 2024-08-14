@@ -7,12 +7,12 @@ nav_order: 7
 # Mohammad Bayat Resume
 {: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
+<details open markdown="block">
+  <summary>Table of contents</summary>
+  {: .text-delta }
+  - TOC
+  {:toc}
+</details>
 ---
 
 Full Stack Developer with 14+ years of experience working with high-tech startups. Enhanced the performance of several web applications and sought to reduce development time by writing tests and development tools. Leadership coach with experience improving team productivity for over 2 years.
