@@ -4,6 +4,7 @@ title: K2 Group
 nav_order: 2
 has_children: true
 direction: rtl
+permalink: /k2-group
 ---
 
 ![k2-groups-logo](https://github.com/OkBayat/OkBayat.github.io/assets/24451494/247912e3-275c-439a-9f15-2f0e012eba6b)
