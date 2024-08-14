@@ -21,6 +21,7 @@ In addition to my technical expertise, I’m also a Leadership Coach, committed 
 ---
 
 ## Experience
+{: .no_toc }
 
 ### K2-Group
 {: .d-inline-block }
