@@ -17,7 +17,7 @@ permalink: /leadership-programs/research/course-experiments
 
 <details open markdown="block">
   <summary>فهرست مطالب</summary>
-  1. TOC
+  - TOC
   {:toc}
 </details>
 ---
