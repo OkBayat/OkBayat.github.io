@@ -4,7 +4,7 @@ title: تجربه‌گری‌های دوره
 parent: پژوهش‌های ما
 grand-parent: Leadership Programs
 direction: rtl
-permalink: /leadership-programs/*
+permalink: /leadership-programs/research/course-experiments
 ---
 
 # تجربه‌گری‌های دوره
