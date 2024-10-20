@@ -4,15 +4,24 @@ layout: default
 
 <h1 class="no_toc" id="section">{{ page.course_title }}</h1>
 
-<div>{{ page.course_tuition }}</div>
+<p class="fs-5 mb-1">این دوره منحصر به فرد این قول جسورانه را به شما می‌دهد:</p>
 
-<div>{{ page.course_state }}</div>
+<p class="fs-6 mb-0 text-center"><em>"{{ page.course_promise }}"</em></div>
+
+<p class="fs-4 text-purple-000">هزینه‌ی دوره: {{ page.course_tuition }}</p>
+
+{% if page.course_state == 'registering' %}
+    <p class="label label-green">در حال ثبت‌نام</p>
+{% elif page.course_state == 'inProgress' %}
+    <p class="label label-yellow">در حال برگزاری</p>
+{% elif page.course_state == 'end' %}
+    <p class="label label-red">پایان دوره</p>
+{% endif %}
 
 <div>تجربه‌ساز: {{ page.course_facilitator }}</div>
 
 <p>همه‌ی راهبران واقعی، ساخته می‌شوند، راهبر به دنیا نمی‌آیند. حتی کسانی که برای راهبری به دنیا می‌آیند، اگر خودشان را به عنوان راهبر توسعه ندهند، با شکست مواجه خواهند شد، یعنی اگر بر راهبر بودن و اِعمال موثر راهبری تسلط پیدا نکنند، در راهبری شکست می‌خورند.</p>
 
-<div>قول دوره: {{ page.course_promise }}</div>
 
 <div>محل برگزاری دوره: {{ page.course_venue }}</div>
 
