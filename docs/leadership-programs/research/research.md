@@ -4,6 +4,7 @@ title: پژوهش‌های ما
 parent: Leadership Programs
 has_children: true
 direction: rtl
+permalink: /research
 ---
 
 # پژوهش‌های ما
