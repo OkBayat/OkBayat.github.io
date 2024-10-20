@@ -2,7 +2,6 @@
 layout: course
 direction: rtl
 permalink: /leadership-programs/courses/3rd-leadership
-course_facilitator: محمد بیات
 parent: دوره‌ها
 title: دوره‌ی سوم راهبری
 course_title: دوره‌ی آنلاین راهبر بودن و اِعمال موثر راهبری
