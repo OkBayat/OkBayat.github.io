@@ -2,13 +2,17 @@
 layout: default
 ---
 
+<section>
 <h1 class="no_toc" id="section">{{ page.course_title }}</h1>
 
 <p class="fs-5 mb-1">این دوره منحصر به فرد این قول جسورانه را به شما می‌دهد:</p>
 
 <p class="fs-6 mb-0 text-center"><em>"{{ page.course_promise }}"</em></div>
 
-<p class="fs-4 text-purple-000">هزینه‌ی دوره: {{ page.course_tuition }}</p>
+<strong class="fs-4 text-blue-000">
+    <small>هزینه‌ی دوره:</small>
+    {{ page.course_tuition }}
+</p>
 
 {% if page.course_state == 'registering' %}
     <p class="label label-green">در حال ثبت‌نام</p>
@@ -38,5 +42,6 @@ layout: default
 <div>اعتبار تحصیلی: دانشجویان و دانش‌آموزان می‌توانند جهت استفاده از اعتبار ۵۰ درصدی ثبت‌نام، با مسئول مربوطه تماس بگیرند.</div>
 
 <div>قوانین انصراف از دوره</div>
+</section>
 
 {{ content }}
