@@ -5,7 +5,6 @@ permalink: /leadership-programs/courses/1st-leadership
 parent: دوره‌ها
 title: دوره‌ی اول راهبری
 summary: در حال برگزاری
-course_type: leadership
 course_state: inProgress
 course_title: دوره‌ی آنلاین راهبر بودن و اِعمال موثر راهبری
 course_tuition: ۵۰ میلیون تومان

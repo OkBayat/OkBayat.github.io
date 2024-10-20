@@ -5,7 +5,6 @@ permalink: /leadership-programs/courses/3rd-leadership
 parent: دوره‌ها
 title: دوره‌ی سوم راهبری
 summary: در حال ثبت‌نام
-course_type: leadership
 course_state: registering
 course_title: دوره‌ی آنلاین راهبر بودن و اِعمال موثر راهبری
 course_tuition: ۵۰ میلیون تومان
