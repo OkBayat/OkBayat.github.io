@@ -15,7 +15,7 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
     non_frozen_string = content.dup
 
     # Find the Markdown file and replace the placeholder with compiled content
-    non_frozen_string.gsub!(/\{\s*([a-zA-Z0-9_\.\-]+\.md)\s*\|\s* component\s*\}/) do |match|
+    non_frozen_string.gsub!(/\{\s*([a-zA-Z0-9_\.\-]+\.md)\s*\|\s*component\s*\}/) do |match|
       filename = $1.strip
       if File.exist?('./_includes/' + filename)
         file_content = File.read('./_includes/' + filename)
