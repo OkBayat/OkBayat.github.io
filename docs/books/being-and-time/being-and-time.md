@@ -2,7 +2,6 @@
 layout: default
 title: هستی و زمان
 parent: Books
-has_children: true
 direction: rtl
 ---
 

@@ -2,7 +2,6 @@
 layout: default
 title: Coaching
 nav_order: 6
-has_children: true
 direction: rtl
 permalink: /coaching
 ---

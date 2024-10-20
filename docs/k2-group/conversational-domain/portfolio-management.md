@@ -2,7 +2,6 @@
 layout: default
 title: سبدگردانی
 parent: قلمروی گفتگویی
-grand_parent: K2 Group
 direction: rtl
 ---
 

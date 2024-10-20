@@ -2,7 +2,6 @@
 layout: default
 title: Leadership Resources
 nav_order: 4
-has_children: true
 direction: rtl
 permalink: /leadership-resources
 ---

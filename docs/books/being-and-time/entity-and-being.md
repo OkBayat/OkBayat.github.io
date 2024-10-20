@@ -2,7 +2,6 @@
 layout: default
 title: هستی و هستنده
 parent: هستی و زمان
-grand_parent: Books
 direction: rtl
 ---
 

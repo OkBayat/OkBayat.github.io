@@ -2,7 +2,6 @@
 layout: default
 title: مقدمه
 parent: اقدام‌های گفتاری
-grand_parent: Books
 nav_order: 1
 direction: rtl
 ---

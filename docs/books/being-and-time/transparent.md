@@ -2,7 +2,6 @@
 layout: default
 title: شفاف
 parent: هستی و زمان
-grand_parent: Books
 direction: rtl
 ---
 
