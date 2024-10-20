@@ -4,7 +4,7 @@ title: بافتمان مالی دوره‌ها
 parent: پژوهش‌های ما
 grand_parent: Leadership Programs
 direction: rtl
-permalink: /leadership-programs/research/created-future
+permalink: /leadership-programs/research/commitment-context
 ---
 
 # نگاه اولیه به پویایی‌های مشارکت در دوره‌های رایگان و پولی
