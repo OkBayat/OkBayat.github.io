@@ -14,3 +14,5 @@ course_calendar: روز و ساعت برگزاری دوره پس از تکمیل
 course_quorum: ۲۰
 course_sessions: ۱۰۰
 ---
+ 
+{ leadership.md | component }

@@ -200,7 +200,9 @@ kramdown:
     block:
       line_numbers: false
 
-markdown: MyCustomProcessor
+markdown:
+  - MyCustomProcessor
+  - ComponentCompiler
 
 compress_html:
   clippings: all
