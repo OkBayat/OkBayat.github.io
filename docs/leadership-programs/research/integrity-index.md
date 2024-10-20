@@ -2,7 +2,6 @@
 layout: default
 title: شاخص یکپارچگی
 parent: پژوهش‌های ما
-grand_parent: Leadership Programs
 direction: rtl
 permalink: /leadership-programs/research/integrity-index
 ---

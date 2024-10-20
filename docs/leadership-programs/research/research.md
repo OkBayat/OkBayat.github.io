@@ -2,7 +2,6 @@
 layout: default
 title: پژوهش‌های ما
 parent: Leadership Programs
-has_children: true
 direction: rtl
 permalink: /leadership-programs/research
 ---
