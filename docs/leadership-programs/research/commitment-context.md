@@ -1,6 +1,6 @@
 ---
 layout: default
-title: بافتمان مالی دوره‌ها
+title: بافتمان تعهد
 parent: پژوهش‌های ما
 grand_parent: Leadership Programs
 direction: rtl
