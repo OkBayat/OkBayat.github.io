@@ -1,10 +1,10 @@
 ---
 layout: default
-title: دوره‌های پیش‌رو
+title: دوره‌ها
 parent: Leadership Programs
 direction: rtl
 nav_order: 4
-permalink: /leadership-programs/upcoming-courses
+permalink: /leadership-programs/courses
 ---
 
 # دوره‌های پیش‌رو
