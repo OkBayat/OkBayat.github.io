@@ -2,6 +2,7 @@
 layout: course
 direction: rtl
 permalink: /leadership-programs/courses/3rd-leadership
+nav_order: 1
 parent: دوره‌ها
 title: دوره‌ی سوم راهبری
 summary: در حال ثبت‌نام
