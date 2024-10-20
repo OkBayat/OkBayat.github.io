@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Home
+layout: home
 nav_order: 1
 description: "این وب‌سایت شخصی محمد بیات است؛ جایی که او درباره‌ی خود، استارت‌آپ K2، رزومه‌ی حرفه‌ای و دنیای تحول به اشتراک می‌گذارد."
 permalink: /
