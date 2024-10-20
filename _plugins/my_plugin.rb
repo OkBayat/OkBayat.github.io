@@ -16,9 +16,9 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
 
     # Find the Markdown file and replace the placeholder with compiled content
     non_frozen_string.gsub!(/\{\s*([a-zA-Z0-9_\.\-]+\.md)\s*\|\s*component\s*\}/) do |match|
-      filename = $1.strip
-      if File.exist?('./_includes/components/' + filename)
-        file_content = File.read('./_includes/components/' + filename)
+      filename = './_includes/components/' + $1.strip
+      if File.exist?(filename)
+        file_content = File.read(filename)
         compiled_content = Kramdown::Document.new(file_content).to_html
         compiled_content
       else

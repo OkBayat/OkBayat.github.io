@@ -14,3 +14,5 @@ course_calendar: یکشنبه‌ها ۱۷:۰۰ تا ۱۹:۰۰ و چهار‌شن
 course_quorum: ۴۰
 course_sessions: ۱۰۰
 ---
+
+{ leadership.md | component }
