@@ -64,6 +64,12 @@ layout: default
 
 <hr>
 
+{% if page.course_type == 'leadership' %}
+    {% include components/leadership.html %}
+{% elsif page.course_type == 'integrity' %}
+    {% include components/integrity.html %}
+{% endif %}
+
 {{ content }}
 
 <a href="#">قوانین انصراف از دوره</a>
