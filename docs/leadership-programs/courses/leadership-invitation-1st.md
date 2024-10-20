@@ -2,7 +2,7 @@
 layout: course
 direction: rtl
 permalink: /leadership-programs/courses/1st-leadership-invitation
-nav_order: 5
+nav_order: 4
 parent: دوره‌ها
 title: دوره‌ی اول دعوت راهبری
 summary: پایان دوره
