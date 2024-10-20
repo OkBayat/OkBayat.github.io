@@ -1,7 +1,7 @@
 ---
 layout: default
 title: مقدمه
-parent: اقدام‌های گفتاری
+parent: اصطلاحات تخصصی
 nav_order: 1
 direction: rtl
 ---

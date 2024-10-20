@@ -1,7 +1,7 @@
 ---
 layout: default
 title: یتیم
-parent: قلمروی گفتگویی
+parent: اصطلاحات تخصصی
 nav_order: 1
 direction: rtl
 ---

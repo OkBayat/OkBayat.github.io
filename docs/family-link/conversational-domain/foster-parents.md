@@ -1,7 +1,7 @@
 ---
 layout: default
 title: والدین-فرزندپذیر
-parent: قلمروی گفتگویی
+parent: اصطلاحات تخصصی
 direction: rtl
 ---
 

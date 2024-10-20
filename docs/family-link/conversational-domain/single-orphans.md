@@ -1,7 +1,7 @@
 ---
 layout: default
 title: یک-طرف-یتیم
-parent: قلمروی گفتگویی
+parent: اصطلاحات تخصصی
 direction: rtl
 ---
 
