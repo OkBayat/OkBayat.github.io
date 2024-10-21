@@ -2,7 +2,6 @@
 layout: course
 direction: rtl
 permalink: /leadership-programs/courses/1st-leadership
-nav_order: 3
 parent: دوره‌ها
 title: دوره‌ی اول راهبری
 summary: در حال برگزاری
