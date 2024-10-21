@@ -18,13 +18,5 @@ permalink: /leadership-resources
 
 لینک‌های زیر شامل فایل اصلی "دوره‌ی راهبری" و ترجمه‌های مختلفی است که من آن‌ها را مطالعه کرده‌ام:
 
-- [دوره‌ی راهبری - 2022](/assets/SSRN-id1263835.pdf)
-- [دوره‌ی راهبری - 2021](/assets/UCLA2021CumulativeSlideDeck.pdf)
-- [ترجمه‌ی دوره‌ی راهبری - آذر ۱۴۰۲](/assets/leadership-fa-2023-12.pdf)
-- [ترجمه‌ی دوره‌ی راهبری - خرداد ۱۴۰۲](/assets/Leadership-fa-2023-05.pdf)
-- [ترجمه‌ی دوره‌ی راهبری - بهمن ۱۴۰۲](/assets/leadership-1402-11-12)
-- [ترجمه‌ی دوره‌ی راهبری - قدیمی](/assets/SSRN-id3081564.pdf)
-- [خلاصه تمامیت](/assets/SSRN-id1511274.pdf)
-- [ترجمه تمامیت](/assets/integrity.pdf)
-- [تمامیت](/assets/SSRN-id920625.pdf)
+- [ترجمه یکپارچگی](/assets/integrity.pdf)
 - [سه قانون عملکرد](/assets/The-Three-Laws-of-Performance.pdf)
