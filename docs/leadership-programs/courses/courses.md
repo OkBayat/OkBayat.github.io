@@ -21,4 +21,4 @@ permalink: /leadership-programs/courses
 
 ## دوره‌های پیش رو
 
-- [دوره‌ی پنجم یکپارچگی](./5th-integrity)
+- [دوره‌ی پنجم یکپارچگی](./courses/5th-integrity)
