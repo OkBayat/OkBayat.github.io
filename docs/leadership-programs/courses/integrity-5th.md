@@ -2,6 +2,7 @@
 layout: course
 direction: rtl
 permalink: /leadership-programs/courses/5th-integrity
+nav_order: 16
 parent: دوره‌ها
 title: دوره‌ی پنجم یکپارچگی
 summary: در حال ثبتنام

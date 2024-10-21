@@ -2,6 +2,7 @@
 layout: course
 direction: rtl
 permalink: /leadership-programs/courses/3rd-integrity
+nav_order: 18
 parent: دوره‌ها
 title: دوره‌ی سوم یکپارچگی
 summary: پایان دوره

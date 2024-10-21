@@ -3,7 +3,7 @@ layout: default
 title: پروژه‌ی راهبری
 parent: Leadership Programs
 direction: rtl
-nav_order: 3
+nav_order: 5
 permalink: /leadership-programs/leadership-project
 ---
 

@@ -3,7 +3,7 @@ layout: default
 title: تجربه‌های شرکت‌کنندگان
 parent: Leadership Programs
 direction: rtl
-nav_order: 10
+nav_order: 7
 permalink: /leadership-programs/testimonials
 ---
 

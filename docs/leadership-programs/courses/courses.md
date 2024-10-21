@@ -3,7 +3,7 @@ layout: default
 title: دوره‌ها
 parent: Leadership Programs
 direction: rtl
-nav_order: 4
+nav_order: 1
 permalink: /leadership-programs/courses
 ---
 

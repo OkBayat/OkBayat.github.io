@@ -3,7 +3,7 @@ layout: default
 title: محتوای دوره‌ی راهبری
 parent: Leadership Programs
 direction: rtl
-nav_order: 5
+nav_order: 3
 permalink: /leadership-programs/content-of-the-course
 ---
 

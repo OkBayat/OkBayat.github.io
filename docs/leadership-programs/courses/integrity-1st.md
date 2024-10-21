@@ -2,6 +2,7 @@
 layout: course
 direction: rtl
 permalink: /leadership-programs/courses/1st-integrity
+nav_order: 20
 parent: دوره‌ها
 title: دوره‌ی اول یکپارچگی
 summary: پایان دوره
