@@ -1,7 +1,9 @@
 ---
 layout: default
-title: ساختار جادو
-parent: Books
+title: فصل اول
+summary: ساختار انتخاب
+parent: ساختار جادو
+nav_order: 3
 direction: rtl
 ---
 
