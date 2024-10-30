@@ -30,7 +30,7 @@ May 2010 - Present
 {: .label .label-green }
 
 #### Leadership Facilitator and Researcher
-Since around 2017, I've been on an exciting journey to explore and understand the intricacies of leadership. Each day, I am thrilled by new discoveries and insights that enhance my approach. To deepen this exploration, I initiated the K2-Clearing project, where I actively engage in experience-based leadership facilitation and research. This initiative is not just about teaching leadership; it’s about profoundly transforming the way we lead within our company and in our personal lives. Through K2-Clearing, I am committed to driving meaningful change and fostering a culture of continuous growth and improvement.
+Since around 2017-2018, I've been on an exciting journey to explore and understand the intricacies of leadership. Each day, I am thrilled by new discoveries and insights that enhance my approach. To deepen this exploration, I initiated the K2-Clearing project, where I actively engage in experience-based leadership facilitation and research. This initiative is not just about teaching leadership; it’s about profoundly transforming the way we lead within our company and in our personal lives. Through K2-Clearing, I am committed to driving meaningful change and fostering a culture of continuous growth and improvement.
 
 #### Team Lead
 As a team leader and entrepreneur, I am passionate about building innovative and collaborative communities that drive real change. I am currently leading a team of talented professionals to develop a partially open-source project, with a focus on creating a friendly and inclusive environment where all contributors are valued and treated as shareholders. I am committed to building a community that is focused on achieving our goals together, and that supports one another every step of the way. Ultimately, my goal is to create a sustainable and profitable business model that benefits us all and to lead each of us to become a part of the capital market.
@@ -69,9 +69,9 @@ Apr 2020 - PRESENT
 {: .label .label-green }
 
 #### Leadership Coach, Life Coach, Business Coach
-With over 1000 hours in direct coaching, I have provided guidance to numerous clients and employers. I've facilitated leadership development in several startups, boosting productivity. My approach combines effective listening, powerful questioning, and timely feedback to inspire personal growth. Skilled in building relationships across all organizational levels, I foster environments for continuous development.
+With over 2,000 hours in direct coaching, I have provided guidance to numerous clients and employers. I've facilitated leadership development in several startups, boosting productivity. My approach combines effective listening, powerful questioning, and timely feedback to inspire personal growth. Skilled in building relationships across all organizational levels, I foster environments for continuous development.
 
-- I have conducted over 1,000 hours of direct coaching for employers and clients.
+- I have conducted over 2,000 hours of direct coaching for groups, organizations, and individuals.
 - Served as a leadership coach for several prominent startups, aimed at increasing productivity and developing leadership skills organization-wide.
 - My primary skills include effective listening, appropriate feedback, asking powerful questions to guide individuals toward personal growth, and establishing strong and effective relationships with coaches and employees.
 - My coaching process involves continuous interaction, regular assessment, and real-time feedback for constant growth and development.
