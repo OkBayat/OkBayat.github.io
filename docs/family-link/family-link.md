@@ -2,7 +2,7 @@
 layout: default
 title: FamilyLink
 nav_order: 3
-direction: rtl
+permalink: /family-link
 ---
 
 # FamilyLink
