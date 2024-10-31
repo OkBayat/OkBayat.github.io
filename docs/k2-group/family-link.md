@@ -1,7 +1,7 @@
 ---
 layout: default
-title: FamilyLink
-parent: K2 Group
+title: K2-FamilyLink
+parent: K2-Group Structure
 direction: rtl
 ---
 
