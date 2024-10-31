@@ -28,7 +28,7 @@ In this environment, every member of K2 Group actively participates in creating 
 ## Looking to the Future
 Our commitment is to transform K2 Group into a land of endless opportunities—a place where the brightest and most creative minds from around the world gather to collaborate and co-create a new world. We focus on attracting talent who, in addition to scientific excellence, are dedicated to creating a better world for everyone—individuals whose scientific passion inspires others.
 
-> "At K2 Group, we see ourselves on a path that not only introduces us as pioneers in the fields of collaboration and innovation but also establishes us as a prominent example for others to draw inspiration and learn from. We are building a legacy that companies and individuals around the world will be eager to understand and emulate by witnessing our achievements.
+> At K2 Group, we see ourselves on a path that not only introduces us as pioneers in the fields of collaboration and innovation but also establishes us as a prominent example for others to draw inspiration and learn from. We are building a legacy that companies and individuals around the world will be eager to understand and emulate by witnessing our achievements.
 > 
 > We foresee talented individuals from every corner of the world striving to join our movement, for we are not just an organization; we are a revolution—a transformation that, by shifting the boundaries of knowledge and technology, has sparked a wave of change worldwide. In this new world, every member of K2 Group is a leader, an innovator who uses technology and knowledge to improve everyday life and set new standards for success.
 >
