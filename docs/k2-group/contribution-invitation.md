@@ -1,6 +1,6 @@
 ---
 layout: default
-title: دعوت به همکاری
+title: Contribution Invitation
 parent: K2 Group
 nav_order: 2
 direction: rtl
