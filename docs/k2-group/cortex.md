@@ -1,7 +1,7 @@
 ---
 layout: default
 title: K2-Cortex
-parent: K2 Group
+parent: K2-Group Structure
 direction: rtl
 ---
 
