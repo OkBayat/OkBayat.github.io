@@ -9,7 +9,7 @@ permalink: /k2-group
 
 # K2 Group Overview
 
-{ “At K2 Group, by pushing the boundaries of knowledge, we create an environment where the quality of life for each person is continuously elevated.” | fs-5 }
+{ “At K2 Group, by pushing the boundaries of knowledge, we create an environment where the quality of life for each person is continuously elevated.” | fs-6 }
 
 We are committed to creating opportunities where every member actively participates, thrives in freedom, and embraces creativity and innovation.
 
