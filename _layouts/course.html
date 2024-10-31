@@ -2,6 +2,14 @@
 layout: default
 ---
 
+{% capture course_support_text %}
+    {% if page.course_support %}
+        {{ page.course_support }}
+    {% else %}
+        OkBayat
+    {% endif %}
+{% endcapture %}
+
 <h1 class="no_toc">{{ page.course_title }}</h1>
 
 <p class="fs-5 mb-2">ما به شما این قول جسورانه را می‌دهیم:</p>
@@ -28,6 +36,13 @@ layout: default
     <a href="https://www.okbayat.com/resume">محمد بیات</a>  بنیانگذار K2-Group
 </p>
 
+{% if page.course_support %}
+    <p class="my-2">
+        <strong>تسهیلگر: </strong>
+        {{ page.course_facilitator }}
+    </p>
+{% endif %}
+
 <p class="my-2">
     <strong>محل برگزاری دوره: </strong>
     {{ page.course_venue }}
@@ -48,9 +63,18 @@ layout: default
     {{ page.course_quorum }} نفر
 </p>
 
+{% if page.course_support %}
+    <p class="my-2">
+        <strong>هزینه: </strong>
+        {{ page.course_tuition_off }}
+    </p>
+{% endif %}
+
 <p class="my-2">
     <strong>امکان پرداخت اقساط: </strong>
-    جهت پرداخت اقساطی می‌توانید با شناسه‌ی  <span dir="ltr"><a href="https://t.me/OKBayat">@OkBayat</a></span> در تلگرام در ارتباط باشید.
+    جهت پرداخت اقساطی می‌توانید با شناسه‌ی  <span dir="ltr">
+        <a href="https://t.me/{{ course_support_text }}">@{{ course_support_text }}</a>
+    </span> در تلگرام در ارتباط باشید.
 </p>
 
 <!-- <p>
@@ -60,7 +84,9 @@ layout: default
 
 <p>ثبت‌نام و حضور شما در این دوره به منزله پذیرش و انتخاب قول و قوانین دوره می‌باشد.</p>
 
-<p>جهت ثبت‌نام شما می‌توانید با شناسه‌ی <span dir="ltr"><a href="https://t.me/OKBayat">@OkBayat</a></span> در تلگرام در ارتباط باشید.</p>
+<p>جهت ثبت‌نام شما می‌توانید با شناسه‌ی <span dir="ltr">
+        <a href="https://t.me/{{ course_support_text }}">@{{ course_support_text }}</a>
+    </span> در تلگرام در ارتباط باشید.</p>
 
 <hr>
 
