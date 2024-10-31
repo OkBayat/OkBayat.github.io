@@ -2,6 +2,7 @@
 layout: default
 title: K2-Group Structure
 parent: K2 Group
+nav_order: 1
 permalink: /k2-group/structure
 ---
 
