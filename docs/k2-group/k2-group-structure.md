@@ -2,6 +2,7 @@
 layout: default
 title: K2-Group Structure
 parent: K2 Group
+permalink: /k2-group/structure
 ---
 
 # K2 Group: A Journey of Transformation
