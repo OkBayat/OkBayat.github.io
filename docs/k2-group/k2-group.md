@@ -2,7 +2,6 @@
 layout: default
 title: K2 Group
 nav_order: 2
-direction: rtl
 permalink: /k2-group
 ---
 
