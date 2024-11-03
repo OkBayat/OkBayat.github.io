@@ -2,7 +2,6 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
   def initialize(config)
     require 'kramdown'
     require 'yaml'
-    require 'liquid'
 
     @config = config
 
@@ -28,15 +27,15 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
         raise "YAML content in audio block did not parse as a Hash: #{yaml_content}"
       end
 
-      # ساختن include برای پاس دادن متغیرها به فایل audio.html
-      include_tag = "{% include ./_includes/components/audio.html"
+      # ساختن include به عنوان یک رشته برای Markdown
+      include_tag = "{% include audio.html"
       audio_data.each do |key, value|
         include_tag += " #{key}='#{value}'"
       end
       include_tag += " %}"
 
-      # استفاده از Liquid برای پردازش include به عنوان کد Liquid
-      Liquid::Template.parse(include_tag).render
+      # برگرداندن include به عنوان یک رشته متنی که Jekyll آن را پردازش کند
+      include_tag
     end
 
     # Find the Markdown file and replace the placeholder with compiled content
