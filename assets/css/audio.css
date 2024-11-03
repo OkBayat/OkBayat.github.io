@@ -3,6 +3,7 @@
   align-items: center;
   gap: 10px;
   font-family: Arial, sans-serif;
+  direction: ltr;
 }
 
 .play-btn {
