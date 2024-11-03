@@ -14,6 +14,22 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
     # تبدیل به یک رشته قابل تغییر با استفاده از `dup`
     non_frozen_string = content.dup
 
+    # Find the HTML file and replace the placeholder with compiled content
+    non_frozen_string.gsub!(/```audio\s+([\s\S]+?)\s+```/) do |match|
+      # محتوای YAML را استخراج می‌کنیم
+      yaml_content = $1.strip
+      audio_data = YAML.load(yaml_content)
+
+      # ساختن include برای پاس دادن متغیرها به فایل audio.html
+      include_tag = "{% include ./_includes/components/audio.html"
+      audio_data.each do |key, value|
+        include_tag += " #{key}='#{value}'"
+      end
+      include_tag += " %}"
+
+      include_tag
+    end
+
     # Find the Markdown file and replace the placeholder with compiled content
     non_frozen_string.gsub!(/\{\s*([a-zA-Z0-9_\.\-]+\.md)\s*\|\s*component\s*\}/) do |match|
       filename = './_includes/components/' + $1.strip

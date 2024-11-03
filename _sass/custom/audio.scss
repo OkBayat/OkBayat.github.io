@@ -1,0 +1,71 @@
+.audio-player {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.play-btn {
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url('https://img.icons8.com/ios-filled/24/000000/play--v1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.playing .play-btn {
+  background-image: url('https://img.icons8.com/ios-filled/24/000000/pause--v1.png');
+}
+
+.progress-container {
+  flex: 1;
+}
+
+#progress {
+  width: 100%;
+  appearance: none;
+  height: 4px;
+  background: #ddd;
+  border-radius: 2px;
+}
+
+#progress::-webkit-slider-thumb {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background-color: orange;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.volume-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.volume-icon {
+  width: 24px;
+  height: 24px;
+}
+
+#volume {
+  width: 80px;
+  appearance: none;
+  background-color: orange;
+  height: 4px;
+  border-radius: 2px;
+}
+
+#volume::-webkit-slider-thumb {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background-color: orange;
+  border-radius: 50%;
+  cursor: pointer;
+}
