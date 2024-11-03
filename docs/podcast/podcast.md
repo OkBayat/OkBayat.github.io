@@ -19,7 +19,7 @@ permalink: /podcast
 ## اپیزود 0 - معرفی پادکست و هدف ما
 
 <audio controls>
-  <source src="/assets/inja-anja-episode0.mp3" type="audio/mpeg">
+  <source src="/assets/inja-anja-episode0.MP3" type="audio/mpeg">
   مرورگر شما از این نوع فایل صوتی پشتیبانی نمی‌کند.
 </audio>
 
