@@ -2,6 +2,7 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
   def initialize(config)
     require 'kramdown'
     require 'yaml'
+    require 'liquid'
 
     @config = config
 
@@ -57,6 +58,9 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
     # ابتدا محتوای اصلی را با استفاده از تبدیل‌کننده‌ی پیش‌فرض Markdown به HTML تبدیل می‌کنیم
     html = Kramdown::Document.new(non_frozen_string).to_html
 
-    html
+    # Process Liquid tags in the HTML to allow includes
+    processed_html = Liquid::Template.parse(html).render({}, registers: { site: Jekyll.sites.first })
+
+    processed_html
   end
 end
