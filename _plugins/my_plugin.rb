@@ -1,6 +1,7 @@
 class Jekyll::Converters::Markdown::MyCustomProcessor
   def initialize(config)
     require 'kramdown'
+    require 'yaml'
     @config = config
 
   rescue LoadError
