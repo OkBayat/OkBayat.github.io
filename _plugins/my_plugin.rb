@@ -32,8 +32,6 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
         include_tag += " #{key}=&#39;#{value}&#39;"
       end
       include_tag += " %}"
-      # Ensure include_tag is not nil, then replace any non-standard single quotes
-      # include_tag = include_tag.gsub("’", "'").gsub("‘", "'") unless include_tag.nil?
 
       include_tag
     end
