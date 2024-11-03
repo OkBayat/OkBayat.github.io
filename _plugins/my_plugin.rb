@@ -27,11 +27,11 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
       end
 
       # Build the include tag for audio component
-      include_tag = "{% raw %} {% include components/audio.html"
+      include_tag = "{% include components/audio.html"
       audio_data.each do |key, value|
-        include_tag += " #{key}='#{value}'"
+        include_tag += " #{key}=&#39;#{value}&#39;"
       end
-      include_tag += " %} {% endraw %}"
+      include_tag += " %}"
       # Ensure include_tag is not nil, then replace any non-standard single quotes
       # include_tag = include_tag.gsub("’", "'").gsub("‘", "'") unless include_tag.nil?
 
