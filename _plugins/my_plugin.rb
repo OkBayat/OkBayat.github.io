@@ -26,12 +26,12 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
         raise "YAML content in audio block did not parse as a Hash: #{yaml_content}"
       end
 
-      # Build the include tag for audio component
-      include_tag = "{{ '{%' }} include ./_includes/components/audio.html"
-      audio_data.each do |key, value|
-        include_tag += " #{key}='#{value}'"
-      end
-      include_tag += " {{ '%}' }}"
+       # Build the include tag for audio component
+       include_tag = "{% include ./_includes/components/audio.html"
+       audio_data.each do |key, value|
+         include_tag += " #{key}='#{value}'"
+       end
+       include_tag += " %}"
 
       include_tag
     end
