@@ -43,8 +43,7 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
       filename = './_includes/components/' + $1.strip
       if File.exist?(filename)
         file_content = File.read(filename)
-        compiled_content = Kramdown::Document.new(file_content).to_html
-        compiled_content
+        Kramdown::Document.new(file_content).to_html
       else
         "<!-- File #{filename} not found -->"
       end
