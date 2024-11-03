@@ -2,6 +2,8 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
   def initialize(config)
     require 'kramdown'
     require 'yaml'
+    require 'liquid'
+
     @config = config
 
   rescue LoadError
@@ -21,6 +23,11 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
       yaml_content = $1.strip
       audio_data = YAML.load(yaml_content)
 
+      # بررسی اینکه آیا audio_data یک Hash است
+      unless audio_data.is_a?(Hash)
+        raise "YAML content in audio block did not parse as a Hash: #{yaml_content}"
+      end
+
       # ساختن include برای پاس دادن متغیرها به فایل audio.html
       include_tag = "{% include ./_includes/components/audio.html"
       audio_data.each do |key, value|
@@ -28,7 +35,8 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
       end
       include_tag += " %}"
 
-      include_tag
+      # استفاده از Liquid برای پردازش include به عنوان کد Liquid
+      Liquid::Template.parse(include_tag).render
     end
 
     # Find the Markdown file and replace the placeholder with compiled content
