@@ -16,25 +16,22 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
     # تبدیل به یک رشته قابل تغییر با استفاده از `dup`
     non_frozen_string = content.dup
 
-    # Find the HTML file and replace the placeholder with compiled content
-    non_frozen_string.gsub!(/```audio\s+([\s\S]+?)\s+```/) do |match|
-      # محتوای YAML را استخراج می‌کنیم
+    # Process audio block for YAML content
+    non_frozen_string.gsub!(/```audio\s+([\s\S]+?)\s+```/) do
       yaml_content = $1.strip
       audio_data = YAML.load(yaml_content)
 
-      # بررسی اینکه آیا audio_data یک Hash است
       unless audio_data.is_a?(Hash)
         raise "YAML content in audio block did not parse as a Hash: #{yaml_content}"
       end
 
-      # ساختن include به عنوان یک رشته برای Markdown
-      include_tag = "{% include audio.html"
+      # Build the include tag for audio component
+      include_tag = "{{ '{%' }} include ./_includes/components/audio.html"
       audio_data.each do |key, value|
         include_tag += " #{key}='#{value}'"
       end
-      include_tag += " %}"
+      include_tag += " {{ '%}' }}"
 
-      # برگرداندن include به عنوان یک رشته متنی که Jekyll آن را پردازش کند
       include_tag
     end
 
