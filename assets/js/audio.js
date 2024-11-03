@@ -5,7 +5,10 @@ const currentTimeDisplay = document.getElementById("currentTime")
 const durationDisplay = document.getElementById("duration")
 const volumeControl = document.getElementById("volume")
 
-playPauseBtn.addEventListener("click", () => {
+playPauseBtn.addEventListener("click", togglePlayPause)
+playPauseBtn.addEventListener("touchstart", togglePlayPause)
+
+function togglePlayPause() {
   if (audio.paused) {
     audio.play()
     playPauseBtn.classList.add("playing")
@@ -13,7 +16,7 @@ playPauseBtn.addEventListener("click", () => {
     audio.pause()
     playPauseBtn.classList.remove("playing")
   }
-})
+}
 
 audio.addEventListener("timeupdate", () => {
   const currentTime = audio.currentTime
