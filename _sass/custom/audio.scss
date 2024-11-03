@@ -15,10 +15,10 @@
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
-}
 
-.playing .play-btn {
-  background-image: url('https://img.icons8.com/ios-filled/24/000000/pause--v1.png');
+  &.playing {
+    background-image: url('https://img.icons8.com/ios-filled/24/000000/pause--v1.png');
+  }
 }
 
 .progress-container {
