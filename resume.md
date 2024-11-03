@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resume
-nav_order: 7
+nav_order: 14
 ---
 
 # Mohammad Bayat Resume
