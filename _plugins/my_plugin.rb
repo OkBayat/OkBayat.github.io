@@ -75,11 +75,11 @@ end
     
     # ابتدا محتوای اصلی را با استفاده از تبدیل‌کننده‌ی پیش‌فرض Markdown به HTML تبدیل می‌کنیم
     html = Kramdown::Document.new(non_frozen_string).to_html
-    
+    html.gsub!('&lt;p&gt;</p>', '')
     # Process Liquid tags in the HTML to allow includes
     processed_html = Liquid::Template.parse(html).render({}, registers: { site: Jekyll.sites.first })
     # processed_html = validate_and_fix_html(processed_html)
-    processed_html.gsub!('&lt;p&gt;</p>', '')
+    
     processed_html
   end
 end
