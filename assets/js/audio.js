@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function () {
   const audio = document.getElementById("audio")
   const playPauseBtn = document.getElementById("play-pause")
   const currentTimeEl = document.getElementById("current-time")
@@ -54,24 +54,32 @@ window.onload = function() {
     element.addEventListener("touchstart", (e) => {
       setDraggingFlag(true)
       updateFunction(e.touches[0])
-      window.addEventListener("touchmove", (event) => {
+      window.addEventListener("touchmove", (event) =>
         updateFunction(event.touches[0])
-      })
+      )
       window.addEventListener("touchend", () => {
         setDraggingFlag(false)
-        window.removeEventListener("touchmove", (event) => {
+        window.removeEventListener("touchmove", (event) =>
           updateFunction(event.touches[0])
-        })
+        )
       })
     })
   }
 
-  addEventListenersForDrag(progressContainer, updateProgress, (flag) => (isDraggingProgress = flag))
-  addEventListenersForDrag(volumeContainer, updateVolume, (flag) => (isDraggingVolume = flag))
+  addEventListenersForDrag(
+    progressContainer,
+    updateProgress,
+    (flag) => (isDraggingProgress = flag)
+  )
+  addEventListenersForDrag(
+    volumeContainer,
+    updateVolume,
+    (flag) => (isDraggingVolume = flag)
+  )
 
   function updateProgress(e) {
     const rect = progressContainer.getBoundingClientRect()
-    let offsetX = e.clientX || e.pageX - rect.left
+    let offsetX = e.clientX - rect.left
     offsetX = Math.max(0, Math.min(offsetX, rect.width))
     const duration = audio.duration
     const newTime = (offsetX / rect.width) * duration
@@ -86,7 +94,7 @@ window.onload = function() {
 
   function updateVolume(e) {
     const rect = volumeContainer.getBoundingClientRect()
-    let offsetX = e.clientX || e.pageX - rect.left
+    let offsetX = e.clientX - rect.left
     offsetX = Math.max(0, Math.min(offsetX, rect.width))
     const volume = offsetX / rect.width
 
@@ -110,14 +118,8 @@ window.onload = function() {
   function formatTime(time) {
     const minutes = Math.floor(time / 60)
     const seconds = Math.floor(time % 60)
-    return `${minutes < 10 ? "0" : ""}${minutes}:${seconds < 10 ? "0" : ""}${seconds}`
+    return `${minutes < 10 ? "0" : ""}${minutes}:${
+      seconds < 10 ? "0" : ""
+    }${seconds}`
   }
-
-  // Prevent default touch event behavior to fix the issue
-  volumeContainer.addEventListener("touchmove", (e) => {
-    e.preventDefault()
-  })
-  progressContainer.addEventListener("touchmove", (e) => {
-    e.preventDefault()
-  })
 }
