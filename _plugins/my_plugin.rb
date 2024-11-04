@@ -36,16 +36,6 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
       include_tag
     end
 
-    # حذف تگ‌های بسته شدن p اضافی که تگ باز شدن ندارند
-    non_frozen_string.gsub!(/<\/p>/) do |match|
-      # اگر هیچ تگ باز شدنی برای این تگ بسته وجود نداشت، آن را حذف کنید
-      if non_frozen_string.scan(/<p>/).count <= non_frozen_string.scan(/<\/p>/).count
-        ''
-      else
-        match
-      end
-    end
-
     # Find the Markdown file and replace the placeholder with compiled content
     non_frozen_string.gsub!(/\{\s*([a-zA-Z0-9_\.\-]+\.md)\s*\|\s*component\s*\}/) do |match|
       filename = './_includes/components/' + $1.strip
@@ -64,6 +54,16 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
     # non_frozen_string.gsub!(/\{\s*(.+?)\s*\|\s*(.+?)\s*\}/, '<span title="\2">\1</span>')
     non_frozen_string.gsub!(/\{(?!:)\s*([^\}]+?)\s*\|\s*([^|]+?)\s*\}/, '<span class="\2">\1</span>')
     non_frozen_string.gsub!(/\{(?!:)\s*([^|]+?)\s*\\\s*(.+?)\s*\}/, '<span class="\1">\2</span>')
+
+    # حذف تگ‌های بسته شدن p اضافی که تگ باز شدن ندارند
+    non_frozen_string.gsub!(/<\/p>/) do |match|
+      # اگر هیچ تگ باز شدنی برای این تگ بسته وجود نداشت، آن را حذف کنید
+      if non_frozen_string.scan(/<p>/).count <= non_frozen_string.scan(/<\/p>/).count
+        ''
+      else
+        match
+      end
+    end
 
     # ابتدا محتوای اصلی را با استفاده از تبدیل‌کننده‌ی پیش‌فرض Markdown به HTML تبدیل می‌کنیم
     html = Kramdown::Document.new(non_frozen_string).to_html
