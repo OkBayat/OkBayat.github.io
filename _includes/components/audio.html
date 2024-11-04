@@ -1,17 +1,9 @@
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        background-color: #f0f0f0;
-    }
     .audio-player {
         display: flex;
         align-items: center;
         gap: 10px;
+        direction: ltr;
     }
     .progress-container {
         position: relative;
@@ -73,7 +65,7 @@
     <button id="mute-unmute" class="unmuted"></button>
     <input type="range" id="volume-control" min="0" max="1" step="0.01">
 </div>
-<audio id="audio" src="https://okbayat.com/assets/inja-anja-episode0.MP3"></audio>
+<audio id="audio" src="{{ include.src }}"></audio>
 
 <script>
     const audio = document.getElementById('audio');
@@ -85,7 +77,7 @@
     const volumeControl = document.getElementById('volume-control');
     const muteUnmuteBtn = document.getElementById('mute-unmute');
 
-    // Play/Pause Button
+   
     playPauseBtn.addEventListener('click', () => {
         if (audio.paused) {
             audio.play();
@@ -98,7 +90,7 @@
         }
     });
 
-    // Update Progress and Time
+   
     audio.addEventListener('timeupdate', () => {
         const currentTime = formatTime(audio.currentTime);
         currentTimeEl.textContent = currentTime;
@@ -107,12 +99,12 @@
         progress.style.width = `${progressPercent}%`;
     });
 
-    // Update Duration
+    
     audio.addEventListener('loadedmetadata', () => {
         durationEl.textContent = formatTime(audio.duration);
     });
 
-    // Seek Audio
+    
     progressContainer.addEventListener('click', (e) => {
         const width = progressContainer.clientWidth;
         const clickX = e.offsetX;
@@ -121,12 +113,12 @@
         audio.currentTime = (clickX / width) * duration;
     });
 
-    // Volume Control
+    
     volumeControl.addEventListener('input', () => {
         audio.volume = volumeControl.value;
     });
 
-    // Mute/Unmute Button
+    
     muteUnmuteBtn.addEventListener('click', () => {
         if (audio.muted) {
             audio.muted = false;
@@ -139,7 +131,7 @@
         }
     });
 
-    // Format Time Helper Function
+    
     function formatTime(time) {
         const minutes = Math.floor(time / 60);
         const seconds = Math.floor(time % 60);
