@@ -12,6 +12,23 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
     raise FatalException.new("Missing dependency: funky_markdown")
   end
 
+def validate_and_fix_html(content)
+  require 'nokogiri'
+  
+  # پارس کردن HTML با استفاده از Nokogiri
+  document = Nokogiri::HTML::DocumentFragment.parse(content)
+  
+  # بررسی مشکلات احتمالی با تگ‌های بسته نشده
+  document.errors.each do |error|
+    STDERR.puts "HTML Validation Error: #{error.message}"
+  end
+
+  # اصلاح ساختار HTML در صورت وجود خطا
+  fixed_html = document.to_html
+
+  fixed_html
+end
+
   def convert(content)
 
     # تبدیل به یک رشته قابل تغییر با استفاده از `dup`
@@ -27,7 +44,7 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
       end
 
       # Build the include tag for audio component
-      include_tag = "<p>"
+      include_tag = "<p></p>"
       include_tag += "{% include components/audio.html"
       audio_data.each do |key, value|
         include_tag += " #{key}='#{value}'"
@@ -58,7 +75,7 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
 
     # ابتدا محتوای اصلی را با استفاده از تبدیل‌کننده‌ی پیش‌فرض Markdown به HTML تبدیل می‌کنیم
     html = Kramdown::Document.new(non_frozen_string).to_html
-
+    html = validate_and_fix_html(html)
     # Process Liquid tags in the HTML to allow includes
     processed_html = Liquid::Template.parse(html).render({}, registers: { site: Jekyll.sites.first })
 
