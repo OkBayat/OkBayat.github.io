@@ -12,23 +12,6 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
     raise FatalException.new("Missing dependency: funky_markdown")
   end
 
-def validate_and_fix_html(content)
-  require 'nokogiri'
-  
-  # پارس کردن HTML با استفاده از Nokogiri
-  document = Nokogiri::HTML::DocumentFragment.parse(content)
-  
-  # بررسی مشکلات احتمالی با تگ‌های بسته نشده
-  document.errors.each do |error|
-    STDERR.puts "HTML Validation Error: #{error.message}"
-  end
-
-  # اصلاح ساختار HTML در صورت وجود خطا
-  fixed_html = document.to_html
-
-  fixed_html
-end
-
   def convert(content)
 
     # تبدیل به یک رشته قابل تغییر با استفاده از `dup`
@@ -75,7 +58,7 @@ end
     
     # ابتدا محتوای اصلی را با استفاده از تبدیل‌کننده‌ی پیش‌فرض Markdown به HTML تبدیل می‌کنیم
     html = Kramdown::Document.new(non_frozen_string).to_html
-    html.gsub!('&lt;p&gt;</p>', '')
+
     # Process Liquid tags in the HTML to allow includes
     processed_html = Liquid::Template.parse(html).render({}, registers: { site: Jekyll.sites.first })
     # processed_html = validate_and_fix_html(processed_html)
