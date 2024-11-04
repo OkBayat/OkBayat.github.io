@@ -44,10 +44,10 @@ end
       end
 
       # Build the include tag for audio component
-      include_tag = "<p></p>"
-      include_tag += "{% include components/audio.html"
+      # include_tag = "<p></p>"
+      include_tag = "{% include components/audio.html"
       audio_data.each do |key, value|
-        include_tag += " #{key}='#{value}'"
+        include_tag += " #{key}=&#39;#{value}&#39;"
       end
       include_tag += " %}"
 
