@@ -49,7 +49,7 @@ end
       audio_data.each do |key, value|
         include_tag += " #{key}=&#39;#{value}&#39;"
       end
-      include_tag += " %}"
+      include_tag += " %} <p>"
 
       include_tag
     end
