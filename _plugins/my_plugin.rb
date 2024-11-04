@@ -50,7 +50,6 @@ end
         include_tag += " #{key}=&#39;#{value}&#39;"
       end
       include_tag += " %}"
-      include_tag += " <p>"
 
       include_tag
     end
@@ -73,7 +72,7 @@ end
     # non_frozen_string.gsub!(/\{\s*(.+?)\s*\|\s*(.+?)\s*\}/, '<span title="\2">\1</span>')
     non_frozen_string.gsub!(/\{(?!:)\s*([^\}]+?)\s*\|\s*([^|]+?)\s*\}/, '<span class="\2">\1</span>')
     non_frozen_string.gsub!(/\{(?!:)\s*([^|]+?)\s*\\\s*(.+?)\s*\}/, '<span class="\1">\2</span>')
-
+    non_frozen_string.gsub!('&lt;p&gt;</p>', '')
     # ابتدا محتوای اصلی را با استفاده از تبدیل‌کننده‌ی پیش‌فرض Markdown به HTML تبدیل می‌کنیم
     html = Kramdown::Document.new(non_frozen_string).to_html
     
