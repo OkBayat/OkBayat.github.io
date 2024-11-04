@@ -13,6 +13,8 @@ window.onload = function () {
   let isDraggingProgress = false
   let isDraggingVolume = false
 
+  durationEl.textContent = formatTime(audio.duration)
+
   playPauseBtn.addEventListener("click", () => {
     if (audio.paused) {
       audio.play()
