@@ -53,15 +53,14 @@ window.onload = function () {
 
     element.addEventListener("touchstart", (e) => {
       setDraggingFlag(true)
-      updateFunction(e.touches[0])
-      window.addEventListener("touchmove", (event) =>
+      updateFunction(e.touches[0]);
+      function eventListener(event) {
         updateFunction(event.touches[0])
-      )
+      }
+      window.addEventListener("touchmove", eventListener)
       window.addEventListener("touchend", () => {
         setDraggingFlag(false)
-        window.removeEventListener("touchmove", (event) =>
-          updateFunction(event.touches[0])
-        )
+        window.removeEventListener("touchmove", eventListener)
       })
     })
   }
