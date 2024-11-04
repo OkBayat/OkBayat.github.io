@@ -36,7 +36,15 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
       include_tag
     end
 
-    non_frozen_string.gsub!(/<p>\s*({% include components\/audio\.html.*?%})\s*<\/p>/, '\1')
+    # حذف تگ‌های بسته شدن p اضافی که تگ باز شدن ندارند
+    non_frozen_string.gsub!(/<\/p>/) do |match|
+      # اگر هیچ تگ باز شدنی برای این تگ بسته وجود نداشت، آن را حذف کنید
+      if non_frozen_string.scan(/<p>/).count <= non_frozen_string.scan(/<\/p>/).count
+        ''
+      else
+        match
+      end
+    end
 
     # Find the Markdown file and replace the placeholder with compiled content
     non_frozen_string.gsub!(/\{\s*([a-zA-Z0-9_\.\-]+\.md)\s*\|\s*component\s*\}/) do |match|
