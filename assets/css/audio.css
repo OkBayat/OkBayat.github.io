@@ -1,72 +1,110 @@
 .audio-player {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-family: Arial, sans-serif;
-  direction: ltr;
-}
-
-.play-btn {
-  width: 30px;
-  height: 30px;
-  border: 2px solid black;
-  border-radius: 50%;
-  background-color: white;
-  background-image: url('https://img.icons8.com/ios-filled/24/000000/play--v1.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
-
-.playing.play-btn {
-  background-image: url('https://img.icons8.com/ios-filled/24/000000/pause--v1.png');
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    direction: ltr;
 }
 
 .progress-container {
-  flex: 1;
+    flex: 1;
+    height: 3px;
+    background-color: #ddd;
+    position: relative;
+    cursor: pointer;
 }
 
-#progress {
-  width: 100%;
-  appearance: none;
-  height: 4px;
-  background: #ddd;
-  border-radius: 2px;
+.progress {
+    width: 0;
+    height: 100%;
+    background-color: orange;
 }
 
-#progress::-webkit-slider-thumb {
-  appearance: none;
-  width: 12px;
-  height: 12px;
-  background-color: orange;
-  border-radius: 50%;
-  cursor: pointer;
+.progress-thumb {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.time {
+    font-size: 14px;
+    width: 40px;
+    text-align: center;
+}
+
+#play-pause {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: unset;
+}
+
+.playing {
+    background-image: url('https://img.icons8.com/ios-filled/24/000000/pause--v1.png');
+}
+
+.paused {
+    background-image: url('https://img.icons8.com/ios-filled/24/000000/play--v1.png');
+}
+
+#mute-unmute {
+    width: 24px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+    background-color: unset;
+    background-image: url('https://img.icons8.com/ios-filled/24/000000/high-volume.png');
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.muted {
+    background-image: url('https://img.icons8.com/ios-filled/24/000000/mute.png') !important;
+}
+
+.unmuted {
+    background-image: url('https://img.icons8.com/ios-filled/24/000000/high-volume.png');
 }
 
 .volume-container {
-  display: flex;
-  align-items: center;
-  gap: 5px;
+    width: 100px;
+    height: 3px;
+    background-color: #ddd;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
 }
 
-.volume-icon {
-  width: 24px;
-  height: 24px;
+.volume-progress {
+    width: 50%;
+    height: 100%;
+    background-color: orange;
+    border-radius: 5px;
 }
 
-#volume {
-  width: 80px;
-  appearance: none;
-  background-color: orange;
-  height: 4px;
-  border-radius: 2px;
-}
-
-#volume::-webkit-slider-thumb {
-  appearance: none;
-  width: 12px;
-  height: 12px;
-  background-color: orange;
-  border-radius: 50%;
-  cursor: pointer;
+.volume-thumb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
 }
