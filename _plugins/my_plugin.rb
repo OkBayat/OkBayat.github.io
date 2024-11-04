@@ -27,10 +27,10 @@ class Jekyll::Converters::Markdown::MyCustomProcessor
       end
 
       # Build the include tag for audio component
-      include_tag = ""
+      include_tag = "<p>"
       include_tag += "{% include components/audio.html"
       audio_data.each do |key, value|
-        include_tag += " #{key}=&#39;#{value}&#39;"
+        include_tag += " #{key}='#{value}'"
       end
       include_tag += " %}"
 
