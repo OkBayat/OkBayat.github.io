@@ -72,13 +72,14 @@ end
     # non_frozen_string.gsub!(/\{\s*(.+?)\s*\|\s*(.+?)\s*\}/, '<span title="\2">\1</span>')
     non_frozen_string.gsub!(/\{(?!:)\s*([^\}]+?)\s*\|\s*([^|]+?)\s*\}/, '<span class="\2">\1</span>')
     non_frozen_string.gsub!(/\{(?!:)\s*([^|]+?)\s*\\\s*(.+?)\s*\}/, '<span class="\1">\2</span>')
-    non_frozen_string.gsub!('&lt;p&gt;</p>', '')
+    
     # ابتدا محتوای اصلی را با استفاده از تبدیل‌کننده‌ی پیش‌فرض Markdown به HTML تبدیل می‌کنیم
     html = Kramdown::Document.new(non_frozen_string).to_html
     
     # Process Liquid tags in the HTML to allow includes
     processed_html = Liquid::Template.parse(html).render({}, registers: { site: Jekyll.sites.first })
     # processed_html = validate_and_fix_html(processed_html)
+    processed_html.gsub!('&lt;p&gt;</p>', '')
     processed_html
   end
 end
