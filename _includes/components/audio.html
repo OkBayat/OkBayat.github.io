@@ -1,18 +1,149 @@
-<link rel="stylesheet" href="/assets/css/audio.css">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+    }
+    .audio-player {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .progress-container {
+        position: relative;
+        width: 300px;
+        height: 5px;
+        background-color: #ddd;
+    }
+    .progress {
+        width: 0;
+        height: 100%;
+        background-color: orange;
+    }
+    .time {
+        font-size: 14px;
+        width: 40px;
+        text-align: center;
+    }
+    #play-pause {
+        width: 30px;
+        height: 30px;
+        background-size: cover;
+        border: none;
+        cursor: pointer;
+        border: 2px solid black;
+        border-radius: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50%;
+    }
+    .playing {
+        background-image: url('https://img.icons8.com/ios-filled/24/000000/pause--v1.png');
+    }
+    .paused {
+        background-image: url('https://img.icons8.com/ios-filled/24/000000/play--v1.png');
+    }
+    #mute-unmute {
+        width: 24px;
+        height: 24px;
+        background-size: cover;
+        border: none;
+        cursor: pointer;
+        background-image: url('https://img.icons8.com/ios-filled/24/000000/high-volume.png');
+    }
+    .muted {
+        background-image: url('https://img.icons8.com/ios-filled/24/000000/mute.png')!important;
+    }
+    .unmuted {
+        background-image: url('https://img.icons8.com/ios-filled/24/000000/high-volume.png');
+    }
+</style>
 
 <div class="audio-player">
-    <button id="playPause" class="play-btn"></button>
-    <span id="currentTime">0:00</span>
-    <div class="progress-container">
-        <input type="range" id="progress" value="0" max="100">
+    <button id="play-pause" class="paused"></button>
+    <span class="time" id="current-time">00:00</span>
+    <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
     </div>
-    <span id="duration">0:00</span>
-    <div class="volume-container">
-        <img src="https://img.icons8.com/ios-filled/24/000000/low-volume.png" class="volume-icon" alt="low volume"/>
-        <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
-    </div>
+    <span class="time" id="duration">00:00</span>
+    <button id="mute-unmute" class="unmuted"></button>
+    <input type="range" id="volume-control" min="0" max="1" step="0.01">
 </div>
-<audio id="audio" src="{{ include.src }}"></audio>
+<audio id="audio" src="https://okbayat.com/assets/inja-anja-episode0.MP3"></audio>
 
-<script src="/assets/js/audio.js"></script>
+<script>
+    const audio = document.getElementById('audio');
+    const playPauseBtn = document.getElementById('play-pause');
+    const currentTimeEl = document.getElementById('current-time');
+    const durationEl = document.getElementById('duration');
+    const progressContainer = document.getElementById('progress-container');
+    const progress = document.getElementById('progress');
+    const volumeControl = document.getElementById('volume-control');
+    const muteUnmuteBtn = document.getElementById('mute-unmute');
+
+    // Play/Pause Button
+    playPauseBtn.addEventListener('click', () => {
+        if (audio.paused) {
+            audio.play();
+            playPauseBtn.classList.remove('paused');
+            playPauseBtn.classList.add('playing');
+        } else {
+            audio.pause();
+            playPauseBtn.classList.remove('playing');
+            playPauseBtn.classList.add('paused');
+        }
+    });
+
+    // Update Progress and Time
+    audio.addEventListener('timeupdate', () => {
+        const currentTime = formatTime(audio.currentTime);
+        currentTimeEl.textContent = currentTime;
+
+        const progressPercent = (audio.currentTime / audio.duration) * 100;
+        progress.style.width = `${progressPercent}%`;
+    });
+
+    // Update Duration
+    audio.addEventListener('loadedmetadata', () => {
+        durationEl.textContent = formatTime(audio.duration);
+    });
+
+    // Seek Audio
+    progressContainer.addEventListener('click', (e) => {
+        const width = progressContainer.clientWidth;
+        const clickX = e.offsetX;
+        const duration = audio.duration;
+
+        audio.currentTime = (clickX / width) * duration;
+    });
+
+    // Volume Control
+    volumeControl.addEventListener('input', () => {
+        audio.volume = volumeControl.value;
+    });
+
+    // Mute/Unmute Button
+    muteUnmuteBtn.addEventListener('click', () => {
+        if (audio.muted) {
+            audio.muted = false;
+            muteUnmuteBtn.classList.remove('muted');
+            muteUnmuteBtn.classList.add('unmuted');
+        } else {
+            audio.muted = true;
+            muteUnmuteBtn.classList.remove('unmuted');
+            muteUnmuteBtn.classList.add('muted');
+        }
+    });
+
+    // Format Time Helper Function
+    function formatTime(time) {
+        const minutes = Math.floor(time / 60);
+        const seconds = Math.floor(time % 60);
+        return `${minutes < 10 ? '0' : ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+    }
+</script>
 
