@@ -50,6 +50,7 @@ end
         include_tag += " #{key}=&#39;#{value}&#39;"
       end
       include_tag += " %}"
+      include_tag += " <p>"
 
       include_tag
     end
@@ -78,7 +79,7 @@ end
     
     # Process Liquid tags in the HTML to allow includes
     processed_html = Liquid::Template.parse(html).render({}, registers: { site: Jekyll.sites.first })
-    processed_html = validate_and_fix_html(processed_html)
+    # processed_html = validate_and_fix_html(processed_html)
     processed_html
   end
 end
