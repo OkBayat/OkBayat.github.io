@@ -16,6 +16,7 @@ window.onload = function () {
   durationEl.textContent = formatTime(audio.duration)
 
   playPauseBtn.addEventListener("click", () => {
+    durationEl.textContent = formatTime(audio.duration)
     if (audio.paused) {
       audio.play()
       playPauseBtn.classList.remove("paused", "play-icon")
