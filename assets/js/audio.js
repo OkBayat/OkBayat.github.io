@@ -13,17 +13,17 @@ window.onload = function () {
   let isDraggingProgress = false
   let isDraggingVolume = false
 
-  playPauseBtn.addEventListener("click", () => {
+  playPauseBtn.addEventListener('click', () => {
     if (audio.paused) {
-      audio.play()
-      playPauseBtn.classList.remove("paused")
-      playPauseBtn.classList.add("playing")
+      audio.play();
+      playPauseBtn.classList.remove('paused', 'play-icon');
+      playPauseBtn.classList.add('playing', 'pause-icon');
     } else {
-      audio.pause()
-      playPauseBtn.classList.remove("playing")
-      playPauseBtn.classList.add("paused")
+      audio.pause();
+      playPauseBtn.classList.remove('playing', 'pause-icon');
+      playPauseBtn.classList.add('paused', 'play-icon');
     }
-  })
+  });
 
   audio.addEventListener("timeupdate", () => {
     if (!isDraggingProgress) {
