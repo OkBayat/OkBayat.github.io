@@ -13,17 +13,17 @@ window.onload = function () {
   let isDraggingProgress = false
   let isDraggingVolume = false
 
-  playPauseBtn.addEventListener('click', () => {
+  playPauseBtn.addEventListener("click", () => {
     if (audio.paused) {
-      audio.play();
-      playPauseBtn.classList.remove('paused', 'play-icon');
-      playPauseBtn.classList.add('playing', 'pause-icon');
+      audio.play()
+      playPauseBtn.classList.remove("paused", "play-icon")
+      playPauseBtn.classList.add("playing", "pause-icon")
     } else {
-      audio.pause();
-      playPauseBtn.classList.remove('playing', 'pause-icon');
-      playPauseBtn.classList.add('paused', 'play-icon');
+      audio.pause()
+      playPauseBtn.classList.remove("playing", "pause-icon")
+      playPauseBtn.classList.add("paused", "play-icon")
     }
-  });
+  })
 
   audio.addEventListener("timeupdate", () => {
     if (!isDraggingProgress) {
@@ -53,7 +53,7 @@ window.onload = function () {
 
     element.addEventListener("touchstart", (e) => {
       setDraggingFlag(true)
-      updateFunction(e.touches[0]);
+      updateFunction(e.touches[0])
       function eventListener(event) {
         updateFunction(event.touches[0])
       }

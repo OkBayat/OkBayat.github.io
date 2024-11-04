@@ -85,10 +85,12 @@
 #mute-unmute {
     width: 24px;
     height: 24px;
-    background-size: cover;
     border: none;
     cursor: pointer;
     background-color: unset;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
     background-image: url('https://img.icons8.com/ios-filled/24/000000/high-volume.png');
 }
 
