@@ -26,14 +26,6 @@ jobs:
           ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: false
 
-      - name: Remove Gemfile.lock freeze
-        run: bundle config set frozen false
-        env:
-          BUNDLE_GEMFILE: fixtures/Gemfile-github-pages
-
-      - name: Delete Gemfile.lock (if necessary)
-        run: rm -f Gemfile.lock
-        
       - name: Bundle Install (Jekyll ${{ matrix.jekyll-version }})
         run: bundle install
         env:
@@ -58,14 +50,6 @@ jobs:
         with:
           ruby-version: "3.3"
           bundler-cache: false
-      
-      - name: Remove Gemfile.lock freeze
-        run: bundle config set frozen false
-        env:
-          BUNDLE_GEMFILE: fixtures/Gemfile-github-pages
-
-      - name: Delete Gemfile.lock (if necessary)
-        run: rm -f Gemfile.lock
       
       - name: Bundle Install
         run: bundle install
