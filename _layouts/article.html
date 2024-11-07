@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-{% capture words %}
-{{ content | number_of_words | minus: 180 }}
-{% endcapture %}
 
 {{ content }}
 
@@ -17,7 +14,7 @@ layout: default
         readTime.textContent = "زمان تقریبی مطالعه: {{ words | plus: 150 | divided_by: 150 }} دقیقه";
 
         /* Insert the <p> element immediately after the <h1> tag */
-        
+        h1.insertAdjacentElement("afterend", readTime);
       }
     });
 </script>
