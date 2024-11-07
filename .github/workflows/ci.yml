@@ -25,20 +25,20 @@ jobs:
         with:
           ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: false
-
-      - name: Remove Gemfile.lock
-        run: rm -f fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}.lock
-        env:
-          BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}
       
       - name: Remove Gemfile.lock freeze
         run: bundle config set frozen false
         env:
           BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}
+
+      - name: Delete Gemfile.lock (if necessary)
+        run: rm -f fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}.lock
+      
       - name: Bundle Install (Jekyll ${{ matrix.jekyll-version }})
         run: bundle install
         env:
           BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}
+      
       - name: Init Search
         run: bundle exec rake search:init
         env:
