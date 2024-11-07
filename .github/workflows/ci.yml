@@ -25,12 +25,10 @@ jobs:
         with:
           ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: false
-
       - name: Bundle Install (Jekyll ${{ matrix.jekyll-version }})
         run: bundle install
         env:
           BUNDLE_GEMFILE: fixtures/Gemfile-jekyll-${{ matrix.jekyll-version }}
-      
       - name: Init Search
         run: bundle exec rake search:init
         env:
@@ -50,7 +48,6 @@ jobs:
         with:
           ruby-version: "3.3"
           bundler-cache: false
-      
       - name: Bundle Install
         run: bundle install
         env:
