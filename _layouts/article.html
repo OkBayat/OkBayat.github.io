@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      /* Find the first <h1> tag within the content */
+      const h1 = document.querySelector("main h1");
+      if (h1) {
+        /* Create a <p> element to display the reading time */
+        const readTime = document.createElement("p");
+        readTime.textContent = "زمان تقریبی مطالعه: {{ page.reading_time }} دقیقه";
+
+        /* Insert the <p> element immediately after the <h1> tag */
+        h1.insertAdjacentElement("afterend", readTime);
+      }
+    });
+</script>

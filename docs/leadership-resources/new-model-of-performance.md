@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: مدل جدید عملکرد
 parent: Leadership Resources
 direction: rtl
