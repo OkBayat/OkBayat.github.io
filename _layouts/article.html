@@ -8,19 +8,7 @@ layout: default
 {{ content | number_of_words | minus: 180 }}
 {% endcapture %}
 
-{% raw %}
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-      /* Find the first <h1> tag within the content */
-      const h1 = document.querySelector("h1#section");
-      if (h1) {
-        /* Create a <p> element to display the reading time */
-        const readTime = document.createElement("p");
-        readTime.textContent = "زمان تقریبی مطالعه: {{ words | plus: 150 | divided_by: 150 }} دقیقه";
 
-        /* Insert the <p> element immediately after the <h1> tag */
-        h1.insertAdjacentElement("afterend", readTime);
-      }
-    });
+<script>
+    
 </script>
-{% endraw %}
