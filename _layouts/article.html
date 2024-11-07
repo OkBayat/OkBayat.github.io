@@ -11,7 +11,11 @@ layout: default
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-         const h1 = document.querySelector("h1#section");
-      
+      const h1 = document.querySelector("h1#section");
+      if (h1) {
+        const readTime = document.createElement("p");
+        readTime.textContent = "زمان تقریبی مطالعه: {{ words | plus: 150 | divided_by: 150 }} دقیقه";
+        h1.insertAdjacentElement("afterend", readTime);
+      }
     });
 </script>
