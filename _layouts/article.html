@@ -5,7 +5,7 @@ layout: default
 {{ content | number_of_words | minus: 180 }}
 {% endcapture %}
 {% unless words contains '-' %}
-{{ words | plus: 150 | divided_by: 150 | append: ' minutes to read' }}
+{{ words | plus: 150 | divided_by: 150 }}
 {% endunless %}
 
 {{ content }}
@@ -17,7 +17,7 @@ layout: default
       if (h1) {
         /* Create a <p> element to display the reading time */
         const readTime = document.createElement("p");
-        readTime.textContent = "زمان تقریبی مطالعه: {{ words | plus: 150 | divided_by: 150 }} دقیقه";
+        readTime.textContent = "زمان تقریبی مطالعه: {{ words }} دقیقه";
 
         /* Insert the <p> element immediately after the <h1> tag */
         h1.insertAdjacentElement("afterend", readTime);
