@@ -1,5 +1,6 @@
 function audioPalyer(audioId) {
-  window.onload = function () {
+  setTimeout(() => a(audioId), 1000);
+  function a (audioId) {
   const audio = document.getElementById("audio-" + audioId)
   const playPauseBtn = document.getElementById("play-pause-" + audioId)
   const currentTimeEl = document.getElementById("current-time-" + audioId)
