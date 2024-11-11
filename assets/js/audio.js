@@ -8,7 +8,7 @@ function audioPalyer(audioId) {
   const progressContainer = document.getElementById("progress-container-" + audioId)
   const progress = document.getElementById("progress-" + audioId)
   const progressThumb = document.getElementById("progress-thumb-" + audioId)
-  const volumeContainer = document.getElementById(".volume-container-" + audioId)
+  const volumeContainer = document.getElementById("volume-container-" + audioId)
   const volumeProgress = document.getElementById("volume-progress-" + audioId)
   const volumeThumb = document.getElementById("volume-thumb-" + audioId)
   const muteUnmuteBtn = document.getElementById("mute-unmute-" + audioId)
