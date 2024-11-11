@@ -1,4 +1,4 @@
-function (audioId) {
+function audioPalyer(audioId) {
   const audio = document.getElementById("audio-" + audioId)
   const playPauseBtn = document.getElementById("play-pause-" + audioId)
   const currentTimeEl = document.getElementById("current-time-" + audioId)
@@ -6,7 +6,7 @@ function (audioId) {
   const progressContainer = document.getElementById("progress-container-" + audioId)
   const progress = document.getElementById("progress-" + audioId)
   const progressThumb = document.getElementById("progress-thumb-" + audioId)
-  const volumeContainer = document.querySelector(".volume-container-" + audioId)
+  const volumeContainer = document.getElementById(".volume-container-" + audioId)
   const volumeProgress = document.getElementById("volume-progress-" + audioId)
   const volumeThumb = document.getElementById("volume-thumb-" + audioId)
   const muteUnmuteBtn = document.getElementById("mute-unmute-" + audioId)
