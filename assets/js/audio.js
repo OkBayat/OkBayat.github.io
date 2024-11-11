@@ -1,15 +1,15 @@
-window.onload = function () {
-  const audio = document.getElementById("audio")
-  const playPauseBtn = document.getElementById("play-pause")
-  const currentTimeEl = document.getElementById("current-time")
-  const durationEl = document.getElementById("duration")
-  const progressContainer = document.getElementById("progress-container")
-  const progress = document.getElementById("progress")
-  const progressThumb = document.getElementById("progress-thumb")
-  const volumeContainer = document.querySelector(".volume-container")
-  const volumeProgress = document.getElementById("volume-progress")
-  const volumeThumb = document.getElementById("volume-thumb")
-  const muteUnmuteBtn = document.getElementById("mute-unmute")
+function (audioId) {
+  const audio = document.getElementById("audio-" + audioId)
+  const playPauseBtn = document.getElementById("play-pause-" + audioId)
+  const currentTimeEl = document.getElementById("current-time-" + audioId)
+  const durationEl = document.getElementById("duration-" + audioId)
+  const progressContainer = document.getElementById("progress-container-" + audioId)
+  const progress = document.getElementById("progress-" + audioId)
+  const progressThumb = document.getElementById("progress-thumb-" + audioId)
+  const volumeContainer = document.querySelector(".volume-container-" + audioId)
+  const volumeProgress = document.getElementById("volume-progress-" + audioId)
+  const volumeThumb = document.getElementById("volume-thumb-" + audioId)
+  const muteUnmuteBtn = document.getElementById("mute-unmute-" + audioId)
   let isDraggingProgress = false
   let isDraggingVolume = false
 
