@@ -61,8 +61,6 @@
 
 .pause-icon {
     position: relative;
-    width: 5px;
-    height: 24px;
 }
 
 .pause-icon::before, .pause-icon::after {
