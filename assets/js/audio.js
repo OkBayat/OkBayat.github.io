@@ -1,4 +1,5 @@
 function audioPalyer(audioId) {
+  window.onload = function () {
   const audio = document.getElementById("audio-" + audioId)
   const playPauseBtn = document.getElementById("play-pause-" + audioId)
   const currentTimeEl = document.getElementById("current-time-" + audioId)
@@ -123,5 +124,6 @@ function audioPalyer(audioId) {
     return `${minutes < 10 ? "0" : ""}${minutes}:${
       seconds < 10 ? "0" : ""
     }${seconds}`
+  }
   }
 }
