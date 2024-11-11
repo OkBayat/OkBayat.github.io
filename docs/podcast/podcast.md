@@ -26,6 +26,7 @@ permalink: /podcast
 ## اپیزود 0 - معرفی پادکست و هدف ما
 
 ```audio
+id: episode0
 src: /assets/inja-anja-episode0.MP3
 ```
 
@@ -38,6 +39,7 @@ src: /assets/inja-anja-episode0.MP3
 ### اپیزود ۱ - معرفی پادکست و هدف ما
 
 ```audio
+id: episode1
 src: /assets/inja-anja-S01-E01.MP3
 ```
 
