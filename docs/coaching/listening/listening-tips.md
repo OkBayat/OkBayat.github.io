@@ -3,7 +3,7 @@ layout: article
 title: نکات گوش دادن
 parent: گوش دادن
 direction: rtl
-permalink: /coaching/listening
+permalink: /coaching/listening/listening-tips
 ---
 
 # نکات گوش دادن
