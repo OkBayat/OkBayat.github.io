@@ -5,8 +5,8 @@ permalink: /leadership-programs/courses/6th-integrity
 nav_order: 15
 parent: دوره‌ها
 title: دوره‌ی ششم یکپارچگی
-summary: در حال ثبتنام
-course_state: registering
+summary: در حال برگزاری
+course_state: inProgress
 course_support: Soroush_Rezaei78
 course_facilitator: سروش رضائی، استاد المپیاد ریاضی
 course_title: دوره‌ی آنلاین مدل جدید یکپارچگی
