@@ -1,8 +1,9 @@
 ---
 layout: default
 title: تفکر سریع و کند
-parent: Books
+parent: Blog
 direction: rtl
+permalink: /blog/thinking-fast-and-slow
 ---
 
 # تفکر سریع و کند
