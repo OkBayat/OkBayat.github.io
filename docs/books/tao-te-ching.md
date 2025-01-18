@@ -1,8 +1,9 @@
 ---
 layout: default
 title: تائو تِ چینگ
-parent: Books
+parent: Blog
 direction: rtl
+permalink: /blog/tao-te-ching
 ---
 
 # تائو تِ چینگ
