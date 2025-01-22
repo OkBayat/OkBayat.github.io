@@ -11,7 +11,7 @@ Please note that meetings are scheduled based on my priorities and availability.
 
 Looking forward to meeting with you!
 
-<details close markdown="block">
+<details close markdown="block" class="mb-5 mt-2">
   <summary>متن فارسی</summary>
   <div dir="rtl">
     <p>اینجا من برنامه‌ی خودم رو با شما به اشتراک گذاشته‌ام. اگر می‌خواهید با من جلسه‌ای یا قراری تنظیم کنید، اینجا شما این امکان را دارید که جاهای خالی برنامه‌ام را بررسی کنید و زمان مناسبی را انتخاب کنید. اگر زمان مناسبی پیدا کردید، درخواست خودتان را به ایمیل me@OkBayat.com ارسال کنید و یا در calendar خود ایمیل من را وارد کنید، من درخواست شما را بررسی خواهم کرد و اگر بتوانم، آن را تایید می‌کنم.</p>
