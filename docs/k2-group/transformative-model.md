@@ -1,6 +1,6 @@
 ---
 layout: default
-title: K2-Group Structure
+title: K2 Transformative Model
 parent: K2 Group
 nav_order: 1
 permalink: /k2-group/transformative-model
