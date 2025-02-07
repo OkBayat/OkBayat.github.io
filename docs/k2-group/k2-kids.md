@@ -8,15 +8,15 @@ permalink: /k2/k2-kids
 # K2-Kids
 { Empowering Children to Take Control of Their Learning and Growth | fs-6 }
 
-K2-Kids is an initiative designed to teach children the fundamentals of programming while fostering _essential life skills_. Using platforms like [code.org](https://code.org/) -With thanks to the creative and forward-thinking team at code.org- we introduce children to coding, but our vision extends far beyond technical education. { We aim to *empower children as creators*, enabling them to shape their own future. | mark }
+K2-Kids is an initiative designed to teach children the fundamentals of programming while fostering essential life skills. Using platforms like [code.org](https://code.org/) -With thanks to the creative and forward-thinking team at code.org- we introduce children to coding, but our vision extends far beyond technical education. { We aim to *empower children as creators*, enabling them to shape their own future. | mark }
 
 We bleave traditional education often *limits creativity* by enforcing adults predefined [worldviews](/leadership-resources/world-view). At K2-Kids, we encourage children to **take ownership** of their learning, *explore independently*, and develop *critical thinking skills*. More importantly, we integrate [leadership](/leadership-resources) training in a way that feels natural and engaging, even in an environment that may not typically be associated with leadership development.
 
-In this program, children learn to _step beyond their fears_, take initiative for their future, and understand that _individual growth is deeply connected to collective growth_. They discover that people _evolve together rather than in isolation_ Through a uniquely designed **context where they set their own rules**, children take charge of their learning process, utilizing their creativity to shape the experience.
+In this program, children learn to step beyond their fears, take initiative for their future, and understand that individual growth is deeply connected to collective growth. They discover that people evolve together rather than in isolation Through a uniquely designed **context where they set their own rules**, children take charge of their learning process, utilizing their creativity to shape the experience.
 
-Beyond structured activities, K2-Kids provides an environment where children _naturally adopt leadership responsibilities_, making commitment to others an instinctive act. By fostering a space of _fearless [self-expression](/leadership-resources/discover-for-yourself)_, we enable children to develop an organic sense of responsibility for helping others grow. More importantly, we create a _bold and transformative [context](/leadership-resources/context)_ where children, without hesitation, _take action to create meaningful change_—not just for themselves, but for all of humanity. 
+Beyond structured activities, K2-Kids provides an environment where children naturally adopt leadership responsibilities, making commitment to others an instinctive act. By fostering a space of fearless [self-expression](/leadership-resources/discover-for-yourself), we enable children to develop an organic sense of responsibility for helping others grow. More importantly, we create a bold and transformative [context](/leadership-resources/context) where children, without hesitation, take action to create meaningful change—not just for themselves, but for all of humanity. 
 
-This _fearless approach_ ensures that children not only _embrace responsibility_ but also develop the _confidence to lead with impact_. They learn that change does not come from waiting but from actively shaping the world around them. In K2-Kids, we cultivate a culture where **self-expression and creating difference** are not just encouraged—they become second nature.
+This fearless approach ensures that children not only embrace responsibility but also develop the confidence to lead with impact. They learn that change does not come from waiting but from actively shaping the world around them. In K2-Kids, we cultivate a culture where **self-expression and creating difference** are not just encouraged—they become second nature.
 
 Our program begins with a small group learning the basics of programming. Once they gain confidence, they teach their peers, reinforcing their understanding while developing leadership, teamwork, and communication skills. This peer-teaching model fosters collaboration and instills the idea that personal growth is linked to helping others succeed.
 
@@ -33,16 +33,6 @@ K2-Kids gives children the *freedom to explore, the confidence to lead, and the 
 After 10 months of guidance, a once hesitant child gained confidence, now independently seeking students to teach. Beyond academics, they now approach personal tasks with greater initiative, shaping an ambitious future.
 
 We proudly share their created future, envisioning a path to **NASA**, serving **humanity**, and a lifelong journey of **learning**.
-
-
-### The Created Future of This Child (English Translation):
-
-**Going to NASA**  
-_"I will go with my uncle, maybe with my parents. I want my family happy because I am going to NASA.  
-My goal is to go to space, help people, and experience perseverance. Every day, I will research and eventually immigrate."_
-
-
-This is the **impact** of K2-Kids—empowering children with self-belief, leadership, and fearless learning, helping them dream big and take action toward their aspirations.
 
 
 
