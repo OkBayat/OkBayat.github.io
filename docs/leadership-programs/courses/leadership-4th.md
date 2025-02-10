@@ -2,7 +2,7 @@
 layout: course
 direction: rtl
 permalink: /leadership-programs/courses/4rd-leadership
-nav_order: 8
+nav_order: 7
 parent: دوره‌ها
 title: دوره‌ی چهارم راهبری
 summary: در حال برگزاری
