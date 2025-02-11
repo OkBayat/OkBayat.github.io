@@ -15,7 +15,7 @@ Since I can remember, I have always been in search of a deeper meaning in life. 
 
 This website is the result of my efforts to share with you the steps I have taken along this path, along with my insights and experiences in the realm of transformation. My writings are not merely a collection of articles, notes, or reflections; rather, they are an invitation to an inner journey that guides you to experience true transformation firsthand. My commitment is to bring you closer to yourself, one small step at a time, so that you may experience transformation as a living, in-the-moment phenomenon, and ultimately, together, we can move forward for all of humanity.
 
-Within the various sections of this website, you can access content related to transformation, the K2 startup, and my professional resume. The bold ideas we are working on at K2—such as space travel, immortality, creating love, and fearlessness—are all part of my effort to create a new, boundless world. These ideas represent the power of personal transformation and the infinite capacity of human beings to bring about remarkable changes.
+Within the various sections of this website, you can access [content related to transformation](/leadership-resources), the [K2](/k2-group) startup, and my professional [resume](/resume). The bold ideas we are working on at K2—such as space travel, immortality, creating love, and fearlessness—are all part of my effort to create a new, boundless world. These ideas represent the power of personal transformation and the infinite capacity of human beings to bring about remarkable changes.
 
 I love this piece by Werner, and I want to be as bold and fearless on this journey as he is.
 
@@ -27,8 +27,7 @@ If not here, where?”_ { (Werner Erhard) | sub }
 
 ---
 
-<div dir="rtl">
-  
+{{
 ## محمد بیات
 { در مسیر تحول و بی‌پروایی | fs-6 }
 
@@ -38,7 +37,7 @@ If not here, where?”_ { (Werner Erhard) | sub }
 
 این سایت، نتیجه‌ی تلاش های من است تا قدم‌هایی که در این مسیر برداشتم و دیدگاه‌ها و تجربیات خود را در زمینه‌ی تحول با شما به اشتراک بگذارم. نوشته‌هایم تنها مجموعه‌ای از مقالات، یادداشت‌ها یا تفکرات نیستند؛ بلکه دعوتی‌اند به سفری درونی که شما را به تجربه‌ای از تحول واقعی هدایت می‌کند. تعهد من این است که هر بار فقط با یک قدم کوچک، شما به خودتان نزدیک‌تر کنم تا تحول را به‌عنوان یک تجربه‌ی زنده و در لحظه تجربه کنید و در نهایت باهم و در کنار هم برای تمام بشریت قدم برداریم.
 
-در بخش‌های مختلف این وب‌سایت، می‌توانید به محتوای مرتبط با تحول، استارت‌آپ K2 و رزومه‌ی حرفه‌ای من دسترسی پیدا کنید. ایده‌های جسورانه‌ای که در K2 بر روی آنها کار می‌کنیم، مانند سفر به فضا، جاودانگی، ایجاد عشق و بی‌پروایی، همه بخشی از تلاش من برای ایجاد دنیایی نو و بی‌مرز هستند. این ایده‌ها نمایانگر قدرت تحول شخصی و ظرفیت بی‌نهایت انسان برای ایجاد تغییرات شگرف هستند.
+در بخش‌های مختلف این وب‌سایت، می‌توانید به [محتوای مرتبط با تحول](/leadership-resources)، استارت‌آپ [K2](/k2-group) و [رزومه‌ی](/resume) حرفه‌ای من دسترسی پیدا کنید. ایده‌های جسورانه‌ای که در K2 بر روی آنها کار می‌کنیم، مانند سفر به فضا، جاودانگی، ایجاد عشق و بی‌پروایی، همه بخشی از تلاش من برای ایجاد دنیایی نو و بی‌مرز هستند. این ایده‌ها نمایانگر قدرت تحول شخصی و ظرفیت بی‌نهایت انسان برای ایجاد تغییرات شگرف هستند.
 
 من عاشق این نوشته‌ی ورنر هستم و می‌خواهم در این مسیر، بی‌پروا و جسور باشم، درست مانند او.
 
@@ -47,4 +46,5 @@ _"ما می‌توانیم انتخاب کنیم که به اندازه‌ی ک�
 اگر الان نه، پس کی؟  
 اگر اینجا نه، پس کجا؟"_ { (ورنر ارهارد) | sub }
 {: .mx-5 }
-</div>
+
+| rtl }}
