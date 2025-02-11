@@ -6,7 +6,7 @@ nav_order: 9
 parent: دوره‌ها
 title: دوره‌ی دوم راهبری
 summary: در حال برگزاری
-course_state: inProgress
+course_state: end
 course_title: دوره‌ی آنلاین راهبر بودن و اِعمال موثر راهبری
 course_tuition: ۱۵ میلیون تومان
 course_promise: شما در حالی دوره را ترک می‌کنید که راهبر هستید و اِعمال موثر راهبری ابراز طبیعی‌تان است
