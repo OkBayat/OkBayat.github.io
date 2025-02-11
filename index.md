@@ -27,7 +27,9 @@ If not here, where?”_ { (Werner Erhard) | sub }
 
 ---
 
-<div dir="rtl">{{
+<div dir="rtl">
+  {% raw %}
+  {{
   
 ## محمد بیات
 { در مسیر تحول و بی‌پروایی | fs-6 }
@@ -47,4 +49,6 @@ _"ما می‌توانیم انتخاب کنیم که به اندازه‌ی ک�
 اگر الان نه، پس کی؟  
 اگر اینجا نه، پس کجا؟"_ { (ورنر ارهارد) | sub }
 {: .mx-5 }
-| markdownify }}</div>
+  | markdownify }}
+  {% endraw %}
+</div>
