@@ -6,7 +6,7 @@ nav_order: 15
 parent: دوره‌ها
 title: دوره‌ی ششم یکپارچگی
 summary: در حال برگزاری
-course_state: inProgress
+course_state: end
 course_support: Soroush_Rezaei78
 course_facilitator: سروش رضائی، استاد المپیاد ریاضی
 course_title: دوره‌ی آنلاین مدل جدید یکپارچگی
