@@ -21,4 +21,4 @@ permalink: /leadership-programs/courses
 
 ## دوره‌های پیش رو
 
-- [دوره‌ی پنجم راهبری](./courses/5th-leadership)
+- [دوره‌ی اول چیرگی بر زندگی](./courses/1st-mastery-for-life)
