@@ -1,3 +1,4 @@
+---
 layout: course
 direction: rtl
 permalink: /leadership-programs/courses/1st-mastery-for-life
