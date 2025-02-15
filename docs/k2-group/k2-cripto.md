@@ -2,6 +2,7 @@
 layout: default
 title: K2-Cripto
 parent: K2-Group Structure
+permalink: /k2/k2-cripto
 ---
 
 # K2-Cripto
