@@ -21,4 +21,5 @@ permalink: /leadership-programs/courses
 
 ## دوره‌های پیش رو
 
+- [دوره‌ی اول کوچینگ](./courses/1st-coaching)
 - [دوره‌ی اول چیرگی بر زندگی](./courses/1st-mastery-for-life)
