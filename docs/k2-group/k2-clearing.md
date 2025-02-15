@@ -2,6 +2,7 @@
 layout: default
 title: K2-Clearing
 parent: K2-Group Structure
+permalink: /k2/k2-clearing
 ---
 
 # K2 Clearing: Pioneering Transformative Solutions
