@@ -3,6 +3,7 @@ layout: default
 title: Join Us at K2-Group
 parent: K2 Group
 nav_order: 2
+permalink: /k2/contribution-invitation
 ---
 
 # Join Us at K2 Group
