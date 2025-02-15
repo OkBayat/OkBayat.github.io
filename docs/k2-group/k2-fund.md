@@ -2,6 +2,7 @@
 layout: default
 title: K2-Fund
 parent: K2-Group Structure
+permalink: /k2/k2-fund
 ---
 
 # K2-Fund
