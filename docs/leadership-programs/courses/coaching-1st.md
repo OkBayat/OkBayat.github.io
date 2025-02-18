@@ -11,7 +11,7 @@ course_title: دوره‌ی آنلاین کوچینگ
 course_tuition: ۵۰ میلیون تومان
 course_promise: شما این دوره را در حالی ترک خواهید کرد که کوچ هستید و اِعمال موثر کوچینگ ابراز طبیعی‌تان است
 course_venue: پلتفرم زوم به صورت آنلاین
-course_calendar: سال اول جمعه‌ها ۱۲:۰۰ تا ۱۴:۰۰ از تاریخ ۱۰ اسفند ۱۴۰۳ تا ۱۵ اسفند ۱۴۰۴
+course_calendar: سال اول جمعه‌ها ۱۲:۰۰ تا ۱۴:۰۰ پس از تکمیل ظرفیت
 course_quorum: ۲۰
 course_sessions: سال اول ۵۰
 course_skip_description: true
