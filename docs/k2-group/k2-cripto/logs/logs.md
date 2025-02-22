@@ -12,4 +12,4 @@ The following trading log represents the actual buy and sell transactions execut
 
 It is important to note that this log does **not** represent the final profit or loss of an investor. Instead, it simply reflects the signals and trades executed by the bot. The actual returns depend on several factors, including the investor’s capital, chosen risk level, and personal investment decisions.  
 
-Ultimately, it is up to each investor to review these logs and determine whether they wish to engage in trading based on the provided data. For more details, please refer to our terms and conditions: [K2 Crypto Terms & Conditions](../terms-and-conditions).
+Ultimately, it is up to each investor to review these logs and determine whether they wish to engage in trading based on the provided data. For more details, please refer to our terms and conditions: [K2 Crypto Terms & Conditions](./terms-and-conditions).
