@@ -26,7 +26,7 @@ If not here, where?”_ { (Werner Erhard) | sub }
 {: .mx-5 }
 
 
-<details markdown="block" class="mb-5 mt-2">
+<details markdown="block" class="mb-5 mt-2" style="text-align: justify">
   <summary>متن فارسی</summary>
   <div dir="rtl">
     <h2>محمد بیات</h2>
