@@ -45,7 +45,7 @@ Upon project completion, participants can choose new projects and engage in the 
 
 To join and participate in K2 projects, follow these steps:
 
-1. Submit an official request via email and attach your resume to **[k2@OkBayat.com](mailto\:k2@OkBayat.com)**.
+1. Submit an official request via email and attach your resume to **[k2@OkBayat.com](mailto:k2@OkBayat.com)**.
 2. Upon review and approval, you will receive further details on available projects.
 3. Each member can request to join any project based on their expertise and participate for the project’s duration.
 
@@ -56,7 +56,7 @@ Each participant is responsible for assembling a specialized team to execute the
 - Selected from existing K2 members.
 - Composed of external professionals (who must undergo an approval process before joining).
 
-External professionals interested in joining a project must submit a request and resume via email to **[k2@OkBayat.com](mailto\:k2@OkBayat.com)**. Upon approval, they will be added to the designated project.
+External professionals interested in joining a project must submit a request and resume via email to **[k2@OkBayat.com](mailto:k2@OkBayat.com)**. Upon approval, they will be added to the designated project.
 
 ## Project Development Cycle and Release
 
@@ -64,4 +64,4 @@ All K2 projects follow the [Shape-Up](https://basecamp.com/shapeup) methodology,
 
 Members engage in cutting-edge economic and technological projects, benefiting from generated revenue. This model enhances both individual and collective efficiency, fostering continuous innovation and the emergence of new ideas.
 
-To submit your resume and apply for participation in K2 projects, email **[k2@OkBayat.com](mailto\:k2@OkBayat.com)**.
+To submit your resume and apply for participation in K2 projects, email **[k2@OkBayat.com](mailto:k2@OkBayat.com)**.
