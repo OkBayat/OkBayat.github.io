@@ -1,13 +1,14 @@
 ---
 layout: default
-title: تاثیر ژرنال نویسی
+title: پروتوکل ژرنال نویسی
 parent: Blog
 direction: rtl
 permalink: /blog/journaling
 ---
 
-# ژورنال‌نویسی برای بهبود سلامت ذهنی و جسمی
+# پروتوکل ژورنال نویسی
 {: .no_toc }
+{ ژورنال‌نویسی برای بهبود سلامت ذهنی و جسمی | fs-6 }
 
 { **گردآورنده:** محمد بیات | sub }  
 { **منبع:** [A Science-Supported Journaling Protocol to Improve Mental & Physical Health](https://www.youtube.com/watch?v=wAZn9dF3XTo) | sub}  
