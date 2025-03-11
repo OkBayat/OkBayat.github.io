@@ -1,9 +1,9 @@
 ---
 layout: default
-title: ژرنال نویسی
+title: تاثیر ژرنال نویسی
 parent: Blog
 direction: rtl
-permalink: /blog/how-your-brain-finds-patterns
+permalink: /blog/journaling
 ---
 
 # ژورنال‌نویسی برای بهبود سلامت ذهنی و جسمی
