@@ -20,4 +20,4 @@ Our goal is to transform K2 Group into a land of endless opportunities—a place
 >
 > — Mohammad Bayat (OkBayat)
 
-For more information, please visit our official website: [www.K2Group.tech](www.K2Group.tech).
+For more information, please visit our official website: [K2Group.tech](https://www.K2Group.tech).
