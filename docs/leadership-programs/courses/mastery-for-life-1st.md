@@ -5,8 +5,8 @@ permalink: /leadership-programs/courses/1st-mastery-for-life
 nav_order: 50
 parent: دوره‌ها
 title: دوره‌ی اول چیرگی بر زندگی
-summary: در حال ثبتنام
-course_state: registering
+summary: در حال برگزاری
+course_state: inProgress
 course_title: دوره‌ی آنلاین چیرگی بر زندگی
 course_tuition: ۵۰۰ هزار تومان
 course_promise: شما این دوره را در حالی ترک خواهید کرد که به درک عمیقی از رابطه با خود و دیگران دست یافته‌اید
