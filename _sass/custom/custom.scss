@@ -42,6 +42,10 @@
   background-color: rgba($yellow-200, 0.15)
 }
 
+.dark-mark {
+  background-color: $yellow-200;
+}
+
 .site-nav {
   &::-webkit-scrollbar {
     width: 5px;
