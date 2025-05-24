@@ -7,8 +7,8 @@ nav_order: 14
 # Mohammad Bayat Resume
 {: .no_toc }
 
-As the Founder of K2-Group, I’m passionate about driving innovation and creating impactful solutions.
-With over 10 years of experience as a Full Stack Developer, I’ve worked with high-tech startups to enhance the performance of web applications and streamline development processes through effective tools and testing.
+As a Founder of K2-Group, I’m passionate about driving innovation and creating impactful solutions.
+With over 15 years of experience as a Full Stack Developer, I’ve worked with high-tech startups to enhance the performance of web applications and streamline development processes through effective tools and testing.
 
 In addition to my technical expertise, I’m also a Leadership Coach, committed to improving team dynamics and productivity. Through K2-Clearing, I’m deeply engaged in the continuous exploration of leadership practices, helping individuals and teams achieve meaningful transformation.
 
