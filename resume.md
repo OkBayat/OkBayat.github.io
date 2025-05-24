@@ -62,6 +62,26 @@ Node.js
 
 ---
 
+### Gruccia
+{: .d-inline-block }
+
+Jul 2024 - Present
+{: .label .label-green }
+
+#### Leadership Facilitator
+In this role, I’ve taken on the responsibility of working within Gruccia, one of K2-Group’s subsidiaries, to enhance employee well-being and develop a sales strategy that ensures the lowest possible prices for all Iranians. My work is centered on creating a sustainable and people-first approach to leadership, fostering a culture of growth and improvement both within the company and in the broader market.
+
+***Skills:*** 
+{: .d-inline-block }
+Leadership
+{: .label }
+Business Coaching
+{: .label }
+Coaching
+{: .label }
+
+---
+
 ### Transformation and Personal Development
 {: .d-inline-block }
 
@@ -86,26 +106,6 @@ Feedback
 Powerful Questions
 {: .label }
 Relationship Building
-{: .label }
-Coaching
-{: .label }
-
----
-
-### Gruccia
-{: .d-inline-block }
-
-Jul 2024 - Present
-{: .label .label-green }
-
-#### Leadership Facilitator
-In this role, I’ve taken on the responsibility of working within Gruccia, one of K2-Group’s subsidiaries, to enhance employee well-being and develop a sales strategy that ensures the lowest possible prices for all Iranians. My work is centered on creating a sustainable and people-first approach to leadership, fostering a culture of growth and improvement both within the company and in the broader market.
-
-***Skills:*** 
-{: .d-inline-block }
-Leadership
-{: .label }
-Business Coaching
 {: .label }
 Coaching
 {: .label }
