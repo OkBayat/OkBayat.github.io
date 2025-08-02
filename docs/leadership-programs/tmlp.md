@@ -4,7 +4,7 @@ title: سطح-اول TMLP
 parent: Leadership Programs
 direction: rtl
 nav_order: 4
-permalink: /leadership-programs/content-of-the-course
+permalink: /leadership-programs/tmlp
 ---
 
 # آشنایی کامل با سطح-اول در برنامه مدیریت و راهبری تیم (Landmark TMLP)
