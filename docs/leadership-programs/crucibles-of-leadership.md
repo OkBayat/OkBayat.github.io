@@ -3,7 +3,7 @@ layout: default
 title: بوته‌های آزمایش راهبری
 parent: Leadership Programs
 direction: rtl
-nav_order: 4
+nav_order: 5
 permalink: /leadership-programs/crucibles-of-leadership
 ---
 
