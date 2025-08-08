@@ -1,13 +1,13 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership-programs/courses/5th-leadership
+permalink: /leadership-programs/courses/1st-leadership-in-action
 nav_order: 6
 parent: دوره‌ها
-title: دوره‌ی پنجم راهبری
+title: دوره‌ی اول راهبری در عمل
 summary: در حال ثبتنام
 course_state: registering
-course_title: دوره‌ی آنلاین راهبر بودن و اِعمال موثر راهبری
+course_title: دوره‌ی آنلاین پیشرفته‌ی راهبری در عمل
 course_tuition: هزار دلار
 course_promise: شما در حالی دوره را ترک می‌کنید که راهبر هستید و اِعمال موثر راهبری ابراز طبیعی‌تان است
 course_venue: پلتفرم زوم به صورت آنلاین
@@ -15,5 +15,7 @@ course_calendar: پنجشنبه‌ها و جمعه‌ها ساعت ۸:۰۰ تا 
 course_quorum: ۱۶
 course_sessions: ۷۰
 ---
- 
+
+شروع به شرکت در سطح-اول راهبری در عمل، مستلزم گذراندن دوره‌های مقدماتی (یا همان راهبری) است، شرکت‌کنندگان باید پیش‌تر دوره‌ی راهبری و دو دوره از مجموعه ارتباطات یعنی **ارتباط: دسترسی به قدرت** و **ارتباط پیشرفته: قدرت برای خلق** را تکمیل کرده باشند. این دوره‌ها پیش‌نیاز ورود به Leadership-in-Action هستند و مهارت‌های پایه‌ای را فراهم می‌کنند که در برنامه سطح-اول گسترش می‌یابد.
+
 { leadership.md | component }
