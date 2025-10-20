@@ -10,7 +10,7 @@ course_state: registering
 course_title: دوره‌ی آنلاین چیرگی بر زندگی
 course_tuition: ۵ میلیون تومان
 course_promise: شما این دوره را در حالی ترک خواهید کرد که به درک عمیقی از رابطه با خود و دیگران دست یافته‌اید
-course_summary: false
+course_skip_description: true
 course_venue: پلتفرم زوم به صورت آنلاین
 course_calendar: جمعه‌ها ۰۸:۰۰ تا ۱۰:۰۰ از تاریخ ۲ آبان ۱۴۰۴ تا ۲۶ دی ۱۴۰۴
 course_quorum: ۱۰۰
