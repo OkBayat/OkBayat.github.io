@@ -1,104 +1,243 @@
-<p align="right">
-    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/just-the-docs/just-the-docs/actions/workflows/ci.yml"><img src="https://github.com/just-the-docs/just-the-docs/actions/workflows/ci.yml/badge.svg" alt="CI Build status"></a> <a href="https://app.netlify.com/sites/just-the-docs/deploys"><img src="https://api.netlify.com/api/v1/badges/9dc0386d-c2a4-4077-ad83-f02c33a6c0ca/deploy-status" alt="Netlify Status"></a>
-</p>
-<br><br>
-<p align="center">
-    <h1 align="center">Just the Docs</h1>
-    <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://just-the-docs.com/">See it in action!</a></strong></p>
-    <br><br><br>
-</p>
+# okbayat.com — Content Architecture & Editorial Guide
 
-<p align="center">A video walkthrough of various Just the Docs features</p>
+This document is the reference guide (README) for the content structure, navigation, and editorial direction of **okbayat.com**.
 
-https://user-images.githubusercontent.com/85418632/211225192-7e5d1116-2f4f-4305-bb9b-437fe47df071.mp4
+Its purpose is to ensure that, even if context or memory is lost in the future, it is always clear:
 
-## Installation
+* What kind of content is produced
+* Where each piece of content belongs
+* Why this structure was chosen
 
-### Use the template
+---
 
-The [Just the Docs Template] provides the simplest, quickest, and easiest way to create a new website that uses the Just the Docs theme. To get started with creating a site, just click "[use the template]"!
+## 1. Site Mission
 
-Note: To use the theme, you do ***not*** need to clone or fork the [Just the Docs repo]! You should do that only if you intend to browse the theme docs locally, contribute to the development of the theme, or develop a new theme based on Just the Docs.
+okbayat.com is a **thinking‑driven personal website** — not a news blog, not a sales landing page, and not a simple résumé.
 
-You can easily set the site created by the template to be published on [GitHub Pages] – the [template README] file explains how to do that, along with other details.
+The mission of the site is:
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^2] And you will be able to deploy your local build to a different platform than GitHub Pages.
+* Deep thinking about **entrepreneurship, startups, building systems, decision‑making, and leadership**
+* Capturing and publishing ideas with long‑term value (Evergreen Content)
+* Building a personal intellectual archive, similar in spirit to essay‑based websites
 
-More specifically, the created site:
+This site is meant to be a **home for thinking**, not a **content factory for algorithms**.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+---
 
-Other than that, you're free to customize sites that you create with the template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+## 2. Content Principles (Non‑Negotiables)
 
-### Use as a Ruby Gem
+These principles must always be respected:
 
-Alternatively, you can install the theme as a Ruby Gem, without creating a new site.
+1. **Ideas over format**
 
-Add this line to your Jekyll site's `Gemfile`:
+   * Articles, podcasts, and translations are tools; ideas are the core.
 
-```ruby
-gem "just-the-docs"
-```
+2. **Quality over quantity**
 
-And add this line to your Jekyll site's `_config.yml`:
+   * Publish less, but publish work that lasts.
 
-```yaml
-theme: just-the-docs
-```
+3. **Thinking, not shallow education**
 
-And then install all relevant dependencies:
+   * Pure how‑tos, generic checklists, and motivational filler are explicitly excluded.
 
-```shell
-$ bundle
-```
+4. **The site must remain uncluttered**
 
-## Usage
+   * Minimal navigation, clear categorization.
 
-[View the documentation][Just the Docs] for usage information.
+---
 
-## Contributing
+## 3. Canonical Navigation Structure
 
-Bug reports, proposals of new features, and pull requests are welcome on GitHub at https://github.com/just-the-docs/just-the-docs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+The main navigation of the site must include only the following sections:
 
-### Submitting code changes:
+1. Essays
+2. Translations
+3. Podcast
+4. Projects
+5. Leadership & Personal Development
+6. About
 
-- Submit an [Issue](https://github.com/just-the-docs/just-the-docs/issues) that motivates the changes, using the appropriate template
-- Discuss the proposed changes with other users and the maintainers
-- Open a [Pull Request](https://github.com/just-the-docs/just-the-docs/pulls)
-- Ensure all CI tests pass
-- Provide instructions to check the effect of the changes
-- Await code review
+No additional top‑level items should be added without revisiting the entire architecture.
 
-### Design and development principles of this theme:
+---
 
-1. As few dependencies as possible
-2. No build script needed
-3. First class mobile experience
-4. Make the content shine
+## 4. Precise Definition of Each Section
 
-## Development
+### 4.1 Essays
 
-To set up your environment to develop this theme: fork this repo, the run `bundle install` from the root directory.
+**The core of the site**
 
-A modern [devcontainer configuration](https://code.visualstudio.com/docs/remote/containers) for VSCode is included.
+Definition:
 
-Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+* Original analytical writing authored by the site owner
+* Long‑form, idea‑driven essays
 
-When this theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be included in the gem.
+Topics include:
 
-## License
+* Entrepreneurship
+* Startups
+* Founder Mode and management
+* Decision‑making
+* Building systems and leverage
+* Personal experiences that can be generalized
 
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+Guidelines:
 
-[^2]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+* Every essay should still be worth reading five years from now
+* Shallow technical tutorials or news‑driven content do not belong here
 
-[Jekyll]: https://jekyllrb.com
-[Just the Docs Template]: https://just-the-docs.github.io/just-the-docs-template/
-[Just the Docs]: https://just-the-docs.com
-[Just the Docs repo]: https://github.com/just-the-docs/just-the-docs
-[GitHub Pages]: https://pages.github.com/
-[Template README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use the template]: https://github.com/just-the-docs/just-the-docs-template/generate
+---
+
+### 4.2 Translations
+
+**Curated translations with high intellectual value**
+
+Definition:
+
+* Translations of carefully selected texts from thinkers and writers in startups, technology, and thinking
+
+Rules:
+
+* Every translation must include a short introduction explaining why the text matters
+* Blind or neutral translation without intent or editorial judgment is not allowed
+
+Typical content:
+
+* Startup‑related essays
+* Long‑form, idea‑centric writing
+
+---
+
+### 4.3 Podcast
+
+**The voice of the written thinking**
+
+Definition:
+
+* A complement to the written work, not a replacement for it
+
+Preferred format:
+
+* Solo episodes
+* Deep analysis of a single idea or experience
+
+Key rule:
+
+* Every episode should either originate from an essay or lead back to one
+
+---
+
+### 4.4 Projects
+
+**Proof of execution, not claims**
+
+Definition:
+
+* Real projects, startups, and systems that have been actively worked on
+
+Includes:
+
+* Startups
+* Products
+* Systems
+* Practical experiments
+
+Note:
+
+* Failures are as important as successes and should be documented
+
+---
+
+### 4.5 Leadership & Personal Development
+
+**A supporting domain, not the center of gravity**
+
+Definition:
+
+* Content related to leadership, coaching, personal development, and mental models
+
+Includes:
+
+* Leadership Resources
+* Coaching
+* Programs
+
+Rule:
+
+* This section must never overshadow the core identity of the site
+
+---
+
+### 4.6 About
+
+**Identity, not a dry résumé**
+
+Includes:
+
+* Personal introduction
+* Intellectual and professional trajectory
+* Why this site exists
+* Résumé (linked, not central)
+
+---
+
+## 5. Mapping Existing Content to the New Structure
+
+* Current Blog → Essays
+* Leadership Resources → Leadership & Personal Development
+* Leadership Programs → Leadership & Personal Development
+* Coaching → Leadership & Personal Development
+* Existing Podcast → Podcast
+* K2 Group → Projects
+* Resume → About
+* Calendar → About (or removed if unused)
+
+---
+
+## 6. Editorial Direction & Content Mix
+
+Recommended production ratio:
+
+* 60% Essays
+* 20% Translations
+* 20% Podcast
+
+Writing is always the primary medium.
+
+---
+
+## 7. Deliberately Excluded Sections
+
+The following are intentionally not part of the structure:
+
+* Blog (in the disposable, content‑marketing sense)
+* Generic Resources
+* News
+* Courses / Products (for now)
+
+If any of these are added in the future, this document must be revised.
+
+---
+
+## 8. Success Criteria
+
+The success of okbayat.com is measured by:
+
+* Readers returning voluntarily
+* Intellectual references, not likes or views
+* Longevity of content
+* Clarity of intellectual identity
+
+---
+
+## 9. Final Note
+
+Whenever you hesitate and ask:
+
+“Should this be published?”
+
+Return to this question:
+
+> Does this writing / voice / idea clarify something — or is it just content production?
+
+If the answer is not clear, do not publish it.
