@@ -1,6 +1,6 @@
 ---
 layout: default
-parrent: K2 OS
+parent: K2 OS
 title: Before You Begin
 nav_order: 1
 permalink: /k2-os/before-you-begin
