@@ -1,9 +1,9 @@
 ---
 layout: default
-parrent: K2 Group
+parrent: K2 OS
 title: Before You Begin
 nav_order: 1
-permalink: /k2/before-you-begin
+permalink: /k2-os/before-you-begin
 ---
 
 # Before You Begin
