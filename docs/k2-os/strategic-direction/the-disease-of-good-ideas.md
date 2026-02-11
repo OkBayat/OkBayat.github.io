@@ -190,9 +190,9 @@ That’s when I realized what I was missing wasn’t willpower.
 It wasn’t knowledge.  
 It wasn’t even capital.
 
-What I was missing was a **North Star**.
+What I was missing was a *North Star*.
 
-A North Star is a simple answer to a simple question:  
+A *North Star* is a simple answer to a simple question:  
 When a new idea arrives, what is my answer?
 
 If the answer isn’t clear,  
@@ -207,7 +207,7 @@ Brilliant ideas.
 Multiple paths at once.  
 And a missing center.
 
-Until I came across the book Essentialism.  
+Until I came across the book *Essentialism*.  
 And there I understood this isn’t a personal mistake.  
 It’s a recurring breaking point.  
 A point that starts exactly from an abundance of choices—and an inability to remove.
