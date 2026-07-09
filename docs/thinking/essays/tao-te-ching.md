@@ -1,9 +1,9 @@
 ---
 layout: default
 title: تائو تِ چینگ
-parent: Blog
+parent: Essays
 direction: rtl
-permalink: /blog/tao-te-ching
+permalink: /thinking/essays/tao-te-ching
 ---
 
 # تائو تِ چینگ

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: باهوش‌تر، سریع‌تر، بهتر
-parent: Blog
+parent: Essays
 direction: rtl
-permalink: /blog/smarter-faster-better
+permalink: /thinking/essays/smarter-faster-better
 ---
 
 # باهوش‌تر، سریع‌تر، بهتر

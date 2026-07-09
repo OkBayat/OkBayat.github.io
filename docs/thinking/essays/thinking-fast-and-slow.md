@@ -1,9 +1,9 @@
 ---
 layout: default
 title: تفکر سریع و کند
-parent: Blog
+parent: Essays
 direction: rtl
-permalink: /blog/thinking-fast-and-slow
+permalink: /thinking/essays/thinking-fast-and-slow
 ---
 
 # تفکر سریع و کند

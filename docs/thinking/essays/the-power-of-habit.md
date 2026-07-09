@@ -1,9 +1,9 @@
 ---
 layout: default
 title: قدرت عادت
-parent: Blog
+parent: Essays
 direction: rtl
-permalink: /blog/the-power-of-habit
+permalink: /thinking/essays/the-power-of-habit
 ---
 
 # قدرت عادت

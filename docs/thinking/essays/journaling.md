@@ -1,9 +1,9 @@
 ---
 layout: default
 title: پروتکل ژرنال نویسی
-parent: Blog
+parent: Essays
 direction: rtl
-permalink: /blog/journaling
+permalink: /thinking/essays/journaling
 ---
 
 # پروتکل ژورنال نویسی

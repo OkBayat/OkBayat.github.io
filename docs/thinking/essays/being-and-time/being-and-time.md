@@ -1,7 +1,7 @@
 ---
 layout: default
 title: هستی و زمان
-parent: Blog
+parent: Essays
 direction: rtl
 ---
 

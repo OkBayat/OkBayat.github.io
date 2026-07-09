@@ -1,9 +1,9 @@
 ---
 layout: default
 title: بازی بی‌نهایت
-parent: Blog
+parent: Essays
 direction: rtl
-permalink: /blog/the-infinite-game
+permalink: /thinking/essays/the-infinite-game
 ---
 
 # بازی بی‌نهایت

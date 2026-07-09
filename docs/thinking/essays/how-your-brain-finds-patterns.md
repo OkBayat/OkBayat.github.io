@@ -1,9 +1,9 @@
 ---
 layout: default
 title: الگوهای زبانی مغز
-parent: Blog
+parent: Essays
 direction: rtl
-permalink: /blog/how-your-brain-finds-patterns
+permalink: /thinking/essays/how-your-brain-finds-patterns
 ---
 
 # چگونه مغز شما الگوهای زبانی را ردیابی می‌کند
@@ -12,7 +12,7 @@ permalink: /blog/how-your-brain-finds-patterns
 { مغز شما همیشه در حال گوش دادن است این‌گونه است که آنچه می‌شنوید را درک می‌کند! | fs-6 }
 
 { **نویسنده:** Cindy Blanco, Ph.D. | sub }  
-{ **منبع:** [The original AI: how your brain tracks language patterns](https://blog.duolingo.com/how-your-brain-finds-patterns/) | sub}  
+{ **منبع:** [The original AI: how your brain tracks language patterns](https://thinking/essays.duolingo.com/how-your-brain-finds-patterns/) | sub}  
 
 مغز ما برای یادگیری طراحی شده... اما چگونه این کار را انجام می‌دهد؟ یادگیری چیزی است که انسان‌ها به طور طبیعی انجام می‌دهند، اغلب بدون اینکه متوجه آن شوند. مغز ما از ابزارهای مختلفی برای کشف الگوها برخوردار است که به ما کمک می‌کند از لحظه تولد شروع به یادگیری کنیم. یکی از این ابزارهای قدرتمند یادگیری، چیزی به نام «یادگیری آماری» است. این فرآیند پشت‌صحنه به مغز ما کمک می‌کند تا تبدیل به بهترین کامپیوتر جهان شود! در ادامه، می‌بینیم چگونه یادگیری آماری ما را به یادگیرندگان برتری تبدیل می‌کند.
 

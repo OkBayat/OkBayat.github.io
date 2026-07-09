@@ -1,9 +1,9 @@
 ---
 layout: default
 title: ساختار جادو
-parent: Blog
+parent: Essays
 direction: rtl
-permalink: /blog/the-structure-of-magic
+permalink: /thinking/essays/the-structure-of-magic
 ---
 
 # ساختار جادو

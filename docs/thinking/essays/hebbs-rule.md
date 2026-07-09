@@ -1,9 +1,9 @@
 ---
 layout: default
 title: قانون هب
-parent: Blog
+parent: Essays
 direction: rtl
-permalink: /blog/hebbs-rule
+permalink: /thinking/essays/hebbs-rule
 ---
 
 # استفاده از قانون هب برای تغییر تجربه‌های منفی در جمع‌های خانوادگی
