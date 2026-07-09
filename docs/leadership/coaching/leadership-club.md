@@ -3,7 +3,7 @@ layout: default
 title: Leadership Club
 parent: Coaching
 direction: rtl
-permalink: /coaching/leadership-club
+permalink: /leadership/coaching/leadership-club
 ---
 
 # باشگاه راهبری
