@@ -61,6 +61,6 @@ It points to the kind of life and work I am trying to build: courageous enough t
 
 You can explore my work through:
 
-- [Leadership Resources](/leadership-resources)
+- [Leadership Resources](/leadership/resources)
 - [K2Quant](/k2-group)
 - [Resume](/resume)
