@@ -22,12 +22,11 @@ I write for founders, executives, academics, builders, coaches, researchers, and
 I use this website to think in public about subjects that continue to shape my life and work:
 
 - Leadership, responsibility, and human performance
+- Coaching, transformation, and personal development
 - Entrepreneurship, startups, and company-building
 - Decision-making, systems thinking, and leverage
 - Software, artificial intelligence, and quantitative systems
-- Coaching, transformation, and personal development
 - Books, papers, and ideas worth studying deeply
-- Longevity, human potential, and the future of work
 
 ## What I Am Building
 
