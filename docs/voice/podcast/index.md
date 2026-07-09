@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Podcast
-nav_order: 7
-direction: rtl
-permalink: /podcast
+parent: Voice
+nav_order: 1
+direction: ltr
+permalink: /voice/podcast
 ---
 
 # اینجا-آنجا: پادکستی برای تحول و آگاهی
