@@ -3,7 +3,7 @@ layout: course
 direction: rtl
 permalink: /leadership/courses/4rd-leadership
 nav_order: 7
-parent: دوره‌ها
+parent: Courses
 title: دوره‌ی چهارم راهبری
 summary: در حال برگزاری
 course_state: inProgress

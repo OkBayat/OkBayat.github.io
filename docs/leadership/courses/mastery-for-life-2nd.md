@@ -3,7 +3,7 @@ layout: course
 direction: rtl
 permalink: /leadership/courses/2nd-mastery-for-life
 nav_order: 49
-parent: دوره‌ها
+parent: Courses
 title: دوره‌ی دوم چیرگی بر زندگی
 summary: در حال ثبتنام
 course_state: registering

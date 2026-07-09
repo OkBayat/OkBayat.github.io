@@ -1,7 +1,7 @@
 ---
 layout: default
 title: قوانین انصراف از دوره
-parent: دوره‌ها
+parent: Courses
 direction: rtl
 nav_order: 100
 permalink: /leadership/courses/refund

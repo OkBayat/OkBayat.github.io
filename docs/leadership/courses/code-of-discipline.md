@@ -1,7 +1,7 @@
 ---
 layout: default
 title: قوانین شرکت در دوره
-parent: دوره‌ها
+parent: Courses
 direction: rtl
 nav_order: 99
 permalink: /leadership/courses/code-of-discipline

@@ -3,7 +3,7 @@ layout: course
 direction: rtl
 permalink: /leadership/courses/2nd-leadership
 nav_order: 9
-parent: دوره‌ها
+parent: Courses
 title: دوره‌ی دوم راهبری
 summary: در حال برگزاری
 course_state: end

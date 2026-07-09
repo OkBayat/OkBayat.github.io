@@ -3,7 +3,7 @@ layout: course
 direction: rtl
 permalink: /leadership/courses/4th-integrity
 nav_order: 17
-parent: دوره‌ها
+parent: Courses
 title: دوره‌ی چهارم یکپارچگی
 summary: در حال برگزاری
 course_state: end

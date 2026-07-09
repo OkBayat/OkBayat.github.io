@@ -1,7 +1,7 @@
 ---
 layout: default
 title: پروژه‌ی مشترک
-parent: پژوهش‌های ما
+parent: Research
 direction: rtl
 permalink: /leadership/research/created-future
 ---

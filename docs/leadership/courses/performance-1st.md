@@ -3,7 +3,7 @@ layout: course
 direction: rtl
 permalink: /leadership/courses/1st-performance
 nav_order: 30
-parent: دوره‌ها
+parent: Courses
 title: دوره‌ی اول مدل جدید عملکرد
 summary: پایان دوره
 course_state: end

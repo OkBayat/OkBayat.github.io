@@ -1,7 +1,7 @@
 ---
 layout: default
 title: بافتمان تعهد
-parent: پژوهش‌های ما
+parent: Research
 direction: rtl
 permalink: /leadership/research/commitment-context
 ---

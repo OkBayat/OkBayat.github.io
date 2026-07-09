@@ -3,7 +3,7 @@ layout: course
 direction: rtl
 permalink: /leadership/courses/1st-leadership
 nav_order: 10
-parent: دوره‌ها
+parent: Courses
 title: دوره‌ی اول راهبری
 summary: در حال برگزاری
 course_state: inProgress

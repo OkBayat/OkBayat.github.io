@@ -1,10 +1,10 @@
 ---
 layout: default
 title: بوته‌های آزمایش راهبری
-parent: Courses
+parent: Research
 direction: rtl
 nav_order: 5
-permalink: /leadership/courses/crucibles-of-leadership
+permalink: /leadership/research/crucibles-of-leadership
 ---
 
 # بوته‌های آزمایش راهبری

@@ -3,7 +3,7 @@ layout: course
 direction: rtl
 permalink: /leadership/courses/1st-mastery-for-life
 nav_order: 50
-parent: دوره‌ها
+parent: Courses
 title: دوره‌ی اول چیرگی بر زندگی
 summary: در حال برگزاری
 course_state: inProgress

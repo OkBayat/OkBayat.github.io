@@ -3,7 +3,7 @@ layout: course
 direction: rtl
 permalink: /leadership/courses/1st-coaching
 nav_order: 60
-parent: دوره‌ها
+parent: Courses
 title: دوره‌ی اول کوچینگ
 summary: در حال ثبتنام
 course_state: registering

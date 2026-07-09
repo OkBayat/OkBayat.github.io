@@ -1,7 +1,7 @@
 ---
 layout: default
 title: تجربه‌گری‌های دوره
-parent: پژوهش‌های ما
+parent: Research
 direction: rtl
 permalink: /leadership/research/course-experiments
 ---

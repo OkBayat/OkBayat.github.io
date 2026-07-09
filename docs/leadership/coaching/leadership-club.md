@@ -1,10 +1,9 @@
 ---
 layout: default
-title: باشگاه راهبری
-parent: Courses
+title: Leadership Club
+parent: Coaching
 direction: rtl
-nav_order: 6
-permalink: /leadership/courses/club
+permalink: /coaching/leadership-club
 ---
 
 # باشگاه راهبری

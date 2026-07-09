@@ -1,7 +1,7 @@
 ---
 layout: default
 title: بافتمان دعوت
-parent: پژوهش‌های ما
+parent: Research
 direction: rtl
 permalink: /leadership/research/invitation-context
 ---

@@ -3,7 +3,7 @@ layout: course
 direction: rtl
 permalink: /leadership/courses/2nd-integrity
 nav_order: 19
-parent: دوره‌ها
+parent: Courses
 title: دوره‌ی دوم یکپارچگی
 summary: پایان دوره
 course_state: end

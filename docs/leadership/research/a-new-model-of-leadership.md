@@ -1,10 +1,10 @@
 ---
 layout: default
 title: مدل جدید راهبری
-parent: Courses
+parent: Research
 direction: rtl
 nav_order: 2
-permalink: /leadership/courses/a-new-model-of-leadership
+permalink: /leadership/research/a-new-model-of-leadership
 ---
 
 # مدل جدید راهبری

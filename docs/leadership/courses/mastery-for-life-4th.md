@@ -3,7 +3,7 @@ layout: course
 direction: rtl
 permalink: /leadership/courses/4th-mastery-for-life
 nav_order: 48
-parent: دوره‌ها
+parent: Courses
 title: دوره‌ی چهارم چیرگی بر زندگی
 summary: در حال ثبتنام
 course_state: registering

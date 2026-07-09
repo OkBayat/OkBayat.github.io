@@ -3,7 +3,7 @@ layout: course
 direction: rtl
 permalink: /leadership/courses/1st-leadership-invitation
 nav_order: 40
-parent: دوره‌ها
+parent: Courses
 title: دوره‌ی اول دعوت راهبری
 summary: پایان دوره
 course_state: end

@@ -3,7 +3,7 @@ layout: course
 direction: rtl
 permalink: /leadership/courses/1st-leadership-in-action
 nav_order: 6
-parent: دوره‌ها
+parent: Courses
 title: دوره‌ی اول راهبری در عمل
 summary: در حال ثبتنام
 course_state: registering
