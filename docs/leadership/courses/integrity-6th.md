@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership/courses/courses/6th-integrity
+permalink: /leadership/courses/6th-integrity
 nav_order: 15
 parent: دوره‌ها
 title: دوره‌ی ششم یکپارچگی

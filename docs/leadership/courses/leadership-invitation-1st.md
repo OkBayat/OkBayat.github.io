@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership/courses/courses/1st-leadership-invitation
+permalink: /leadership/courses/1st-leadership-invitation
 nav_order: 40
 parent: دوره‌ها
 title: دوره‌ی اول دعوت راهبری

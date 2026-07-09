@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership/courses/courses/5th-integrity
+permalink: /leadership/courses/5th-integrity
 nav_order: 16
 parent: دوره‌ها
 title: دوره‌ی پنجم یکپارچگی

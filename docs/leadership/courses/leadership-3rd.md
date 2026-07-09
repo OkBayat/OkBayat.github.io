@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership/courses/courses/3rd-leadership
+permalink: /leadership/courses/3rd-leadership
 nav_order: 8
 parent: دوره‌ها
 title: دوره‌ی سوم راهبری

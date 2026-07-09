@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership/courses/courses/4rd-leadership
+permalink: /leadership/courses/4rd-leadership
 nav_order: 7
 parent: دوره‌ها
 title: دوره‌ی چهارم راهبری

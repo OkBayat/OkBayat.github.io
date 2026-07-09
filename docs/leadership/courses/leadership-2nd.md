@@ -1,19 +1,19 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership/courses/courses/1st-leadership
-nav_order: 10
+permalink: /leadership/courses/2nd-leadership
+nav_order: 9
 parent: دوره‌ها
-title: دوره‌ی اول راهبری
+title: دوره‌ی دوم راهبری
 summary: در حال برگزاری
-course_state: inProgress
+course_state: end
 course_title: دوره‌ی آنلاین راهبر بودن و اِعمال موثر راهبری
-course_tuition: ۵۰ میلیون تومان
+course_tuition: ۱۵ میلیون تومان
 course_promise: شما در حالی دوره را ترک می‌کنید که راهبر هستید و اِعمال موثر راهبری ابراز طبیعی‌تان است
 course_venue: پلتفرم زوم به صورت آنلاین
-course_calendar: شنبه‌ها ۱۷:۳۰ تا ۱۹:۳۰ و چهارشنبه‌ها ۱۶:۰۰ تا ۱۸:۰۰ از تاریخ ۱۶ اسفند ۱۴۰۲ تا ۲۵ اسفند ۱۴۰۳
-course_quorum: ۱۵
-course_sessions: ۱۰۲
+course_calendar: یکشنبه‌ها ۱۷:۰۰ تا ۱۹:۰۰ و چهار‌شنبه‌ها ۱۸:۰۰ تا ۲۰:۰۰ از تاریخ ۳ تیر ۱۴۰۳ تا ۴ تیر ۱۴۰۴
+course_quorum: ۴۰
+course_sessions: ۱۰۰
 ---
 
 { leadership.md | component }
