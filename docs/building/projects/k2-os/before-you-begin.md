@@ -3,7 +3,7 @@ layout: default
 parent: K2 OS
 title: Before You Begin
 nav_order: 1
-permalink: /k2-os/before-you-begin
+permalink: /building/projects/k2-os/before-you-begin
 ---
 
 # Before You Begin

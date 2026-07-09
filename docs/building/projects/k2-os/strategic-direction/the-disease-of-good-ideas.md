@@ -3,7 +3,7 @@ layout: default
 parent: Strategic Direction
 title: The Disease of Good Ideas
 nav_order: 1
-permalink: /k2-os/strategic-direction/the-disease-of-good-ideas
+permalink: /building/projects/k2-os/before-you-begin/strategic-direction/the-disease-of-good-ideas
 ---
 
 # The Disease of Good Ideas
