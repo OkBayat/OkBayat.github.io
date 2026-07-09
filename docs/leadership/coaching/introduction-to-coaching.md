@@ -4,7 +4,7 @@ title: معرفی کوچینگ
 parent: Coaching
 nav_order: 2
 direction: rtl
-permalink: /coaching/introduction-to-coaching
+permalink: /leadership/coaching/introduction-to-coaching
 ---
 
 # معرفی کوچینگ

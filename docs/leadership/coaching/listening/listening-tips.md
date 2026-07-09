@@ -3,7 +3,7 @@ layout: article
 title: نکات گوش دادن
 parent: گوش دادن
 direction: rtl
-permalink: /coaching/listening/listening-tips
+permalink: /leadership/coaching/listening/listening-tips
 ---
 
 # ده نکته کلیدی برای تقویت مهارت‌های گوش دادن

@@ -4,7 +4,7 @@ title: صلاحیت‌ها
 parent: Coaching
 nav_order: 1
 direction: rtl
-permalink: /coaching/competencies
+permalink: /leadership/coaching/competencies
 ---
 
 # صلاحیت‌های کوچینگ

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Calendar
-nav_order: 15
+parent: About
+permalink: /about/calendar
 ---
 
 # My Scheduling Calendar
