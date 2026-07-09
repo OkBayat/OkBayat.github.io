@@ -1,9 +1,10 @@
 ---
 layout: default
-title: پژوهش‌های ما
-parent: Courses
+title: Research
+parent: Leadership
+nav_order: 1
 direction: rtl
-permalink: /leadership/courses/research
+permalink: /leadership/research
 ---
 
 # پژوهش‌های ما
@@ -30,3 +31,5 @@ _چیزی که ما با هم خلق می‌کنیم رابطه‌ای است ک
 
 _من فرصتی بی‌نظیر را برای همه فرا می‌خوانم تا به‌صورت جهانی روی تمام دغدغه‌های بشریت کار کنیم."_ { (ورنر ارهارد) | sub }
 {: .mx-5 }
+
+

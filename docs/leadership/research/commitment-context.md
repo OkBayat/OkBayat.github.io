@@ -3,7 +3,7 @@ layout: default
 title: بافتمان تعهد
 parent: پژوهش‌های ما
 direction: rtl
-permalink: /leadership/courses/research/commitment-context
+permalink: /leadership/research/commitment-context
 ---
 
 # نگاه اولیه به پویایی‌های مشارکت در دوره‌های رایگان و پولی

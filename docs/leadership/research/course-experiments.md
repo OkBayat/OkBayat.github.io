@@ -3,7 +3,7 @@ layout: default
 title: تجربه‌گری‌های دوره
 parent: پژوهش‌های ما
 direction: rtl
-permalink: /leadership/courses/research/course-experiments
+permalink: /leadership/research/course-experiments
 ---
 
 # تجربه‌گری‌های دوره

@@ -3,7 +3,7 @@ layout: default
 title: پروژه‌ی مشترک
 parent: پژوهش‌های ما
 direction: rtl
-permalink: /leadership/courses/research/created-future
+permalink: /leadership/research/created-future
 ---
 
 # پروژه‌ی مشترک

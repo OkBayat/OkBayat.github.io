@@ -3,7 +3,7 @@ layout: default
 title: شاخص یکپارچگی
 parent: پژوهش‌های ما
 direction: rtl
-permalink: /leadership/courses/research/integrity-index
+permalink: /leadership/research/integrity-index
 ---
 
 # شاخص یکپارچگی

@@ -3,7 +3,7 @@ layout: default
 title: بافتمان دعوت
 parent: پژوهش‌های ما
 direction: rtl
-permalink: /leadership/courses/research/invitation-context
+permalink: /leadership/research/invitation-context
 ---
 
 # تاثیر دعوت بر خلق بافتمان‌های جدید و اثر اتخاذ ایستمان منشاء بودن در دعوت از دیگران
