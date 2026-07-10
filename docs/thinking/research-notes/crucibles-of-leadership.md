@@ -1,10 +1,25 @@
 ---
 layout: default
 title: بوته‌های آزمایش راهبری
-parent: Research
+description: "مروری بر پژوهش وارن بنیس و رابرت توماس درباره بوته‌های آزمایش راهبری: تجربه‌های دشوار چگونه می‌توانند به تحول هویت، یادگیری و ظرفیت راهبری تبدیل شوند؟"
+parent: Research Notes
 direction: rtl
-nav_order: 5
-permalink: /leadership/research/crucibles-of-leadership
+lang: fa
+locale: fa_IR
+author: Mohammad Bayat
+permalink: /thinking/research-notes/crucibles-of-leadership
+categories:
+  - thinking
+  - research-notes
+tags:
+  - رهبری
+  - راهبری
+  - تحول فردی
+  - یادگیری
+  - وارن بنیس
+  - رابرت توماس
+  - Harvard Business Review
+sitemap: true
 ---
 
 # بوته‌های آزمایش راهبری

@@ -1,10 +1,24 @@
 ---
 layout: default
 title: مدل جدید راهبری
-parent: Research
+description: "مروری بر مدل هستی‌شناختی و پدیدارشناختی راهبریِ ارهارد، جنسن و گرنجر: تفاوت میان دانستن درباره راهبری و راهبر بودن در عمل چیست؟"
+parent: Research Notes
 direction: rtl
-nav_order: 2
-permalink: /leadership/research/a-new-model-of-leadership
+lang: fa
+locale: fa_IR
+author: Mohammad Bayat
+permalink: /thinking/research-notes/a-new-model-of-leadership
+categories:
+  - thinking
+  - research-notes
+tags:
+  - راهبری
+  - رهبری هستی‌شناختی
+  - پدیدارشناسی
+  - آموزش راهبری
+  - ورنر ارهارد
+  - مایکل جنسن
+sitemap: true
 ---
 
 # مدل جدید راهبری

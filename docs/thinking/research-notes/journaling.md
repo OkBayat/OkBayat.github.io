@@ -1,9 +1,24 @@
 ---
 layout: default
-title: پروتکل ژرنال نویسی
-parent: Essays
+title: پروتکل ژورنال‌نویسی
+description: "نگاهی به پروتکل ژورنال‌نویسی پن‌بیکر و پژوهش‌های مرتبط با نوشتن ابرازگر؛ این روش چگونه به ساختن روایت، پردازش تجربه‌های دشوار و تنظیم هیجان کمک می‌کند؟"
+parent: Research Notes
 direction: rtl
-permalink: /thinking/essays/journaling
+lang: fa
+locale: fa_IR
+author: Mohammad Bayat
+permalink: /thinking/research-notes/journaling
+categories:
+  - thinking
+  - research-notes
+tags:
+  - ژورنال‌نویسی
+  - نوشتن ابرازگر
+  - جیمز پن‌بیکر
+  - سلامت روان
+  - تنظیم هیجان
+  - علوم اعصاب
+sitemap: true
 ---
 
 # پروتکل ژورنال نویسی

@@ -1,9 +1,24 @@
 ---
 layout: default
 title: قانون هب
-parent: Essays
+description: "قانون هب چگونه توضیح می‌دهد که تجربه‌های منفی در روابط و جمع‌های خانوادگی تثبیت می‌شوند؟ نگاهی به یادگیری عصبی، تداعی‌ها و امکان ساختن الگوهای تازه."
+parent: Research Notes
 direction: rtl
-permalink: /thinking/essays/hebbs-rule
+lang: fa
+locale: fa_IR
+author: Mohammad Bayat
+permalink: /thinking/research-notes/hebbs-rule
+categories:
+  - thinking
+  - research-notes
+tags:
+  - علوم اعصاب
+  - قانون هب
+  - نوروپلاستیسیته
+  - روابط
+  - یادگیری
+  - الگوهای رفتاری
+sitemap: true
 ---
 
 # استفاده از قانون هب برای تغییر تجربه‌های منفی در جمع‌های خانوادگی
