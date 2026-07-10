@@ -1,9 +1,28 @@
 ---
 layout: default
-title: بازی بی‌نهایت
-parent: Essays
+title: "بازی بی‌نهایت"
+description: "خوانشی از کتاب بازی بی‌نهایت اثر سایمون سینک؛ درباره راهبری، هدف آرمانی، اعتماد، تاب‌آوری و ساختن سازمانی که برای آینده‌ای فراتر از موفقیت کوتاه‌مدت کار می‌کند."
+parent: Book Notes
 direction: rtl
-permalink: /thinking/essays/the-infinite-game
+lang: fa
+locale: fa_IR
+author: Mohammad Bayat
+date: 2026-07-10
+last_modified_date: 2026-07-10
+permalink: /thinking/book-notes/the-infinite-game
+categories:
+  - thinking
+  - book-notes
+tags:
+  - سایمون سینک
+  - بازی بی‌نهایت
+  - راهبری
+  - تفکر بلندمدت
+  - هدف آرمانی
+  - فرهنگ سازمانی
+  - اعتماد
+  - کسب و کار
+sitemap: true
 ---
 
 # بازی بی‌نهایت

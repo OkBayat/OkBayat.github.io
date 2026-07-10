@@ -1,9 +1,28 @@
 ---
 layout: default
-title: تفکر سریع و کند
-parent: Essays
+title: "تفکر سریع و کند"
+description: "یادداشت‌هایی از تفکر سریع و کند دانیل کانمن؛ درباره دو نظام ذهنی، سوگیری‌های شناختی، شهود و تصمیم‌گیری در زندگی و کار."
+parent: Book Notes
 direction: rtl
-permalink: /thinking/essays/thinking-fast-and-slow
+lang: fa
+locale: fa_IR
+author: Mohammad Bayat
+date: 2026-07-10
+last_modified_date: 2026-07-10
+permalink: /thinking/book-notes/thinking-fast-and-slow
+categories:
+  - thinking
+  - book-notes
+tags:
+  - دانیل کانمن
+  - تفکر سریع و کند
+  - تصمیم‌گیری
+  - سوگیری شناختی
+  - سیستم یک
+  - سیستم دو
+  - روان‌شناسی
+  - اقتصاد رفتاری
+sitemap: true
 ---
 
 # تفکر سریع و کند

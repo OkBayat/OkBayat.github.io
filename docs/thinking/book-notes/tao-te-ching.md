@@ -1,9 +1,28 @@
 ---
 layout: default
-title: تائو تِ چینگ
-parent: Essays
+title: "تائو تِ چینگ"
+description: "یادداشت‌هایی از تائو تِ چینگ منسوب به لائوتسه؛ تأملی بر تائو، فضیلت، سادگی، عمل بی‌تکلف و نسبت حکمت شرقی با زندگی و راهبری."
+parent: Book Notes
 direction: rtl
-permalink: /thinking/essays/tao-te-ching
+lang: fa
+locale: fa_IR
+author: Mohammad Bayat
+date: 2026-07-10
+last_modified_date: 2026-07-10
+permalink: /thinking/book-notes/tao-te-ching
+categories:
+  - thinking
+  - book-notes
+tags:
+  - تائو تِ چینگ
+  - لائوتسه
+  - تائو
+  - فلسفه چین
+  - حکمت شرقی
+  - سادگی
+  - راهبری
+  - خودشناسی
+sitemap: true
 ---
 
 # تائو تِ چینگ

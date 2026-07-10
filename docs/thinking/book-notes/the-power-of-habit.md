@@ -1,9 +1,27 @@
 ---
 layout: default
-title: قدرت عادت
-parent: Essays
+title: "قدرت عادت"
+description: "خلاصه و یادداشت‌هایی از کتاب قدرت عادت اثر چارلز دوهیگ؛ درباره چرخه عادت، عادت‌های کلیدی و نقش آن‌ها در تغییر فردی، سازمانی و اجتماعی."
+parent: Book Notes
 direction: rtl
-permalink: /thinking/essays/the-power-of-habit
+lang: fa
+locale: fa_IR
+author: Mohammad Bayat
+date: 2026-07-10
+last_modified_date: 2026-07-10
+permalink: /thinking/book-notes/the-power-of-habit
+categories:
+  - thinking
+  - book-notes
+tags:
+  - چارلز دوهیگ
+  - قدرت عادت
+  - عادت
+  - تغییر رفتار
+  - عادت‌های کلیدی
+  - فرهنگ سازمانی
+  - راهبری
+sitemap: true
 ---
 
 # قدرت عادت
