@@ -2,7 +2,6 @@
 layout: default
 title: Research Log
 parent: Vocora
-grand_parent: Building
 nav_order: 3
 direction: ltr
 description: "A dated record of Vocora research notes, design decisions, revisions, and future experiment results."
