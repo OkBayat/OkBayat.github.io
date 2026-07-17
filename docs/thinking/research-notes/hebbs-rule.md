@@ -3,7 +3,7 @@ layout: default
 title: قانون هب و شکل‌گیری تداعی‌ها
 description: "یادداشتی محتاطانه درباره قانون هب، یادگیری تداعی‌محور و محدودیت استفاده از آن برای توضیح تجربه‌های عاطفی."
 parent: Research Notes
-nav_exclude: true
+grand_parent: Thinking
 direction: rtl
 lang: fa
 locale: fa_IR
