@@ -33,9 +33,11 @@ A page should make clear which statements come from published sources, which are
 
 Research notes and project pages may change as evidence and experience change. Use `last_modified_date`, a status label, or a revision history where useful.
 
-### Keep the navigation small
+### Keep navigation structured
 
-Section indexes belong in the sidebar. Most individual notes should use `nav_exclude: true` and be linked from an index page.
+Published articles should appear under their canonical section in the sidebar. Use `nav_exclude: true` only for drafts, utility pages, redirects, or material that is intentionally unlisted.
+
+Each section must have only one navigation page. Do not keep both an `index.md` file and another section file with the same `title` and `permalink`.
 
 ## 3. Canonical navigation
 
@@ -141,7 +143,7 @@ layout: default
 title: Example title
 description: "A precise one-sentence description."
 parent: Research Notes
-nav_exclude: true
+grand_parent: Thinking
 direction: rtl
 lang: fa
 locale: fa_IR
@@ -183,11 +185,12 @@ Use a content label near the beginning of the page when readers could otherwise 
 
 Before publishing or merging a structural change:
 
-1. Confirm that every `parent` matches an existing page title exactly.
-2. Check that every permalink is unique.
-3. Keep individual articles out of the sidebar unless they are intentionally featured.
+1. Confirm that every `parent` and `grand_parent` matches an existing page title exactly.
+2. Confirm that each section has only one navigation page and that no two pages share the same permalink.
+3. Keep published articles visible under their canonical section; use `nav_exclude` only for intentional exclusions.
 4. Check internal links and the Jekyll build.
-5. Update this guide when navigation or definitions change.
+5. Review the generated sidebar, not only the source files.
+6. Update this guide when navigation or definitions change.
 
 ## 9. Success criteria
 
