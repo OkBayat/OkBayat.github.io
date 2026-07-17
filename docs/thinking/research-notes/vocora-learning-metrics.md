@@ -3,7 +3,7 @@ layout: default
 title: What Should Vocora Measure as Learning?
 description: "A working note on separating practice activity, current performance, and longer-term retention in Vocora."
 parent: Research Notes
-nav_exclude: true
+grand_parent: Thinking
 direction: ltr
 lang: en
 locale: en_US
