@@ -3,7 +3,6 @@ layout: default
 title: Retrieval Practice in Vocora
 description: "A working note on what retrieval practice can support, what it does not prove, and how Vocora uses it."
 parent: Research Notes
-grand_parent: Thinking
 direction: ltr
 lang: en
 locale: en_US
