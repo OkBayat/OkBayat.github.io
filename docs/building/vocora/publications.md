@@ -2,7 +2,6 @@
 layout: default
 title: Publications & Notes
 parent: Vocora
-grand_parent: Building
 nav_order: 2
 direction: ltr
 description: "A curated index of research notes, translations, and design documentation connected to Vocora."
