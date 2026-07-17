@@ -76,7 +76,7 @@ Thinking
 Human Transformation
 ├── Research Agenda
 ├── Field Projects
-│   └── K2-Kids
+│   └── Learning Circle
 ├── Practice & Programs
 │   └── Mastery for Life
 ├── Leadership
@@ -483,5 +483,5 @@ The site is succeeding when a reader can quickly understand:
 - what he is actually building and studying now;
 - which pages are original, translated, exploratory, observed, reported, or tested;
 - what evidence supports a claim and what remains uncertain;
-- how K2Quant, Vocora, FamilyLink, K2-Kids, leadership practice, and facilitated programs relate without being collapsed into one kind of work;
+- how K2Quant, Vocora, FamilyLink, Learning Circle, leadership practice, and facilitated programs relate without being collapsed into one kind of work;
 - how questions, methods, and interpretations change over time.
