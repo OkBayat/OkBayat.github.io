@@ -42,7 +42,7 @@ A question does not need a final answer before it can be published. An open ques
 
 ### Treat revision as part of the work
 
-Research notes, agendas, field records, and project pages may change as evidence and experience change. Use `last_modified_date`, a status label, a research log, or a revision history where useful.
+Revise the current canonical page in place as evidence, experience, or editorial judgment changes. Do not create archival copies, legacy versions, or duplicate pages merely to preserve earlier wording. If material remains useful, update it; if it is no longer useful, delete it. Use `last_modified_date`, a status label, a research log, or a revision history only when it helps readers understand the current work.
 
 ### Separate inquiry from promotion
 
@@ -54,11 +54,13 @@ Every published article-like page must satisfy the metadata, language, SEO, and 
 
 ### Keep navigation structured
 
-Only durable section hubs belong in the global sidebar. Detailed concepts, old cohorts, course records, individual notes, and archive pages may use `nav_exclude: true` and remain accessible through their canonical index, internal links, and search.
+Only durable section hubs belong in the global sidebar. Detailed concepts, old cohorts, course records, and individual notes may use `nav_exclude: true` and remain accessible through their canonical index, internal links, and search.
 
 Each section must have only one navigation page. Do not keep two pages with the same `title` and `permalink`.
 
 Use only `parent` to declare a page's immediate parent. The theme resolves the rest of the hierarchy from the parent chain, so page front matter must never include `grand_parent`.
+
+Do not add `has_children: true` to page front matter. The theme derives child relationships automatically from `parent`, so `has_children` is redundant and must never be used.
 
 Parent pages with child pages already receive an automatically generated child-page table of contents from the theme. Do not add a manual `Explore` or `Table of Contents` section that repeats those links.
 
@@ -117,10 +119,6 @@ K2Quant and Vocora are ongoing bodies of work rather than bounded side projects:
 - **Vocora** is an independent research-and-building project about learning, memory, language practice, and learning technology.
 
 `Projects` is reserved for more bounded products, systems, organizations, and initiatives with a distinct scope and operating history, such as K2 OS and FamilyLink. Projects may be active, paused, completed, discontinued, or inconclusive. `Experiments` is reserved for explicit protocols and results.
-
-### Reading Notes and the legacy Book Notes path
-
-`Reading Notes` is the user-facing section for notes developed from books, papers, talks, and other identifiable sources. The existing `/thinking/book-notes` path remains available as a legacy book-specific archive so old URLs and parent relationships are not broken.
 
 ## 4. Content types
 
@@ -280,7 +278,7 @@ Pages involving minors must:
 
 ## 9. Article metadata, SEO, and table of contents
 
-The rules in this section are mandatory for every published article-like page: Essays, Research Notes, Reading Notes, Translations, Project Pages, Field Notes, Program Records, and Experiment Reports. They do not apply to section indexes, navigation pages, redirects, or short utility pages.
+The rules in this section are mandatory for every published article-like page: Essays, Research Notes, Reading Notes, Translations, Project Pages, Field Notes, Program Records, and Experiment Reports. They do not apply to section indexes, navigation pages, or short utility pages.
 
 ### SEO metadata
 
@@ -450,9 +448,11 @@ One or more opening paragraphs that explain the article's question, value, and s
 
 ## 10. URL, navigation, and language rules
 
-- Preserve an existing permalink whenever the content still represents the same page.
-- When a canonical URL changes, add an explicit redirect or transition page before removing the old path.
-- Keep section indexes in the sidebar and deep archives out of it unless they are intentionally featured.
+- Every page has one current canonical URL.
+- When a URL changes, update its `permalink`, search the entire repository for the old URL or path, and update every internal reference in the same change.
+- Never retain an old URL through a redirect, transition page, legacy page, duplicate page, or compatibility path.
+- Edit useful content in place and delete obsolete content; do not create archives merely to preserve previous versions.
+- Keep section indexes in the sidebar and detailed pages out of it unless they are intentionally featured.
 - Use one primary language per page and set `direction`, `lang`, and `locale` accordingly.
 - Central hub pages may link to Persian and English material; do not switch language mid-paragraph without a clear reason.
 - A translated page must not be presented as Mohammad's original argument.
@@ -462,18 +462,20 @@ One or more opening paragraphs that explain the article's question, value, and s
 Before publishing or merging a structural change:
 
 1. Confirm that every `parent` matches the immediate parent page's `title` exactly.
-2. Confirm that page front matter does not contain `grand_parent`.
+2. Confirm that page front matter contains neither `grand_parent` nor `has_children`.
 3. Confirm that each section has only one navigation page and that no two pages share the same permalink.
-4. Confirm that old paths remain available when canonical URLs change.
-5. Keep published articles discoverable through their canonical index; use `nav_exclude` only intentionally.
-6. Confirm that every article has the required SEO front matter, language values, dates, and `seo.type`.
-7. Confirm that every article has exactly one generated table of contents after its introduction and before its first main `##` section.
-8. Confirm that project pages state current status, evidence basis, operating dependencies, and what has not been demonstrated.
-9. Confirm that human-related claims identify evidence level, alternative explanations, and limitations.
-10. Confirm that pages involving people satisfy the privacy and consent rules; apply the additional safeguards for children.
-11. Check internal links and the Jekyll build.
-12. Inspect generated pages, SEO tags, redirects, and the sidebar.
-13. Update this guide when navigation, definitions, or evidence standards change.
+4. When a URL or file path changes, search the entire repository and update every reference to the old value.
+5. Confirm that no redirect, transition page, legacy page, duplicate page, or compatibility path preserves an obsolete URL.
+6. Confirm that useful material was edited in place and obsolete material was deleted rather than archived.
+7. Keep published articles discoverable through their canonical index; use `nav_exclude` only intentionally.
+8. Confirm that every article has the required SEO front matter, language values, dates, and `seo.type`.
+9. Confirm that every article has exactly one generated table of contents after its introduction and before its first main `##` section.
+10. Confirm that project pages state current status, evidence basis, operating dependencies, and what has not been demonstrated.
+11. Confirm that human-related claims identify evidence level, alternative explanations, and limitations.
+12. Confirm that pages involving people satisfy the privacy and consent rules; apply the additional safeguards for children.
+13. Check internal links and the Jekyll build.
+14. Inspect generated pages, SEO tags, and the sidebar.
+15. Update this guide when navigation, definitions, or evidence standards change.
 
 ## 12. Success criteria
 

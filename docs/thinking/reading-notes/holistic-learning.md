@@ -2,15 +2,15 @@
 layout: default
 title: "یادگیری کلنگر"
 description: "مروری انتقادی و میان‌رشته‌ای بر پژوهش‌های یادگیری کل‌نگر، شیوه‌ی بودن در کار ورنر ارهارد، و هستی‌ـ‌درـ‌جهان در هستی و زمان هایدگر؛ با طرحی برای راهبریِ مبتنی بر شواهد."
-parent: Book Notes
+parent: Reading Notes
 direction: rtl
 lang: fa
 locale: fa_IR
 author: Mohammad Bayat
-permalink: /thinking/book-notes/holistic-learning
+permalink: /thinking/reading-notes/holistic-learning
 categories:
   - thinking
-  - book-notes
+  - reading-notes
 tags:
   - هستی و زمان
   - مارتین هایدگر

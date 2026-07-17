@@ -2,17 +2,17 @@
 layout: default
 title: "باهوش‌تر، سریع‌تر، بهتر"
 description: "یادداشت‌هایی از کتاب باهوش‌تر، سریع‌تر، بهتر اثر چارلز دوهیگ؛ درباره تصمیم‌گیری، تمرکز، انگیزه، تیم‌سازی و ساختن بهره‌وری پایدار."
-parent: Book Notes
+parent: Reading Notes
 direction: rtl
 lang: fa
 locale: fa_IR
 author: Mohammad Bayat
 date: 2026-07-10
 last_modified_date: 2026-07-10
-permalink: /thinking/book-notes/smarter-faster-better
+permalink: /thinking/reading-notes/smarter-faster-better
 categories:
   - thinking
-  - book-notes
+  - reading-notes
 tags:
   - چارلز دوهیگ
   - بهره‌وری
