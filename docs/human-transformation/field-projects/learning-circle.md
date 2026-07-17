@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Learning Circle as a Field Project in Independent Learning
+title: Learning Circle
 description: "A practice-based record of Learning Circle and the questions it raises about children's autonomy, peer teaching, group coordination, and facilitator withdrawal."
 parent: Field Projects
 direction: ltr
@@ -30,10 +30,10 @@ sitemap: true
 permalink: /human-transformation/field-projects/learning-circle
 ---
 
-# Learning Circle as a Field Project in Independent Learning
+# Learning Circle
 {: .no_toc }
 
-{ Field Project Record · Active · Longitudinal practice-based observation | fs-6 }
+{ A field project in independent learning · Active · Longitudinal practice-based observation | fs-6 }
 
 Learning Circle began as a small programming activity and became a setting for a broader question: can children learn to coordinate, continue learning, and teach others without remaining dependent on a central adult instructor?
 
