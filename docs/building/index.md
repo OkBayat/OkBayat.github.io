@@ -3,13 +3,13 @@ layout: default
 title: Building
 nav_order: 4
 direction: ltr
-description: "Companies, software projects, systems, and documented experiments by Mohammad Bayat."
+description: "Companies, software projects, systems, social-impact initiatives, and documented experiments by Mohammad Bayat."
 permalink: /building
 ---
 
 # Building
 
-This section documents work that exists in practice: companies, software, systems, and experiments.
+This section documents work that exists in practice: companies, software, systems, bounded initiatives, and experiments.
 
 It is organized by what is being built rather than by every question that the work raises. Cross-cutting questions about learning, language, identity, context, performance, leadership, and coordination are indexed separately under [Human Transformation](/human-transformation).
 
@@ -27,5 +27,5 @@ Vocora is a concrete software project and also one bounded setting inside the br
 
 ## Other Work
 
-- [Projects](/building/projects) contains more bounded products and systems, including K2 OS.
+- [Projects](/building/projects) contains bounded products, systems, organizations, and initiatives, including K2 OS and the paused FamilyLink project.
 - [Experiments](/building/experiments) is reserved for explicit protocols and results. A product feature, facilitated program, or field observation is not called an experiment unless its question, method, metrics, comparison, ethics, and limitations are documented.
