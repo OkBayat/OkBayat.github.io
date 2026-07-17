@@ -3,7 +3,7 @@ layout: default
 title: Ethical Gamification in Vocora
 description: "A working design note on using goals, streaks, and progress feedback without overstating learning or pressuring users."
 parent: Research Notes
-nav_exclude: true
+grand_parent: Thinking
 direction: ltr
 lang: en
 locale: en_US
