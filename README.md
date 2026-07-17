@@ -39,6 +39,8 @@ Published articles should appear under their canonical section in the sidebar. U
 
 Each section must have only one navigation page. Do not keep both an `index.md` file and another section file with the same `title` and `permalink`.
 
+Use only `parent` to declare a page's immediate parent. The theme resolves the rest of the hierarchy from the parent chain, so page front matter must never include `grand_parent`.
+
 Parent pages with child pages already receive an automatically generated child-page table of contents from the theme. Do not add a manual `Explore` or `Table of Contents` section that repeats those links.
 
 ## 3. Canonical navigation
@@ -137,7 +139,7 @@ The publications page links to these items; it does not duplicate them.
 
 ## 6. Recommended page metadata
 
-Research-related pages should include as many of these fields as apply:
+Research-related pages should include as many of these fields as apply. Declare only the immediate `parent`; do not repeat higher levels of the hierarchy.
 
 ```yaml
 ---
@@ -145,7 +147,6 @@ layout: default
 title: Example title
 description: "A precise one-sentence description."
 parent: Research Notes
-grand_parent: Thinking
 direction: rtl
 lang: fa
 locale: fa_IR
@@ -187,12 +188,13 @@ Use a content label near the beginning of the page when readers could otherwise 
 
 Before publishing or merging a structural change:
 
-1. Confirm that every `parent` and `grand_parent` matches an existing page title exactly.
-2. Confirm that each section has only one navigation page and that no two pages share the same permalink.
-3. Keep published articles visible under their canonical section; use `nav_exclude` only for intentional exclusions.
-4. Check internal links and the Jekyll build.
-5. Review the generated sidebar, not only the source files.
-6. Update this guide when navigation or definitions change.
+1. Confirm that every `parent` matches the immediate parent page's `title` exactly.
+2. Confirm that page front matter does not contain `grand_parent`; the theme resolves ancestors from the parent chain.
+3. Confirm that each section has only one navigation page and that no two pages share the same permalink.
+4. Keep published articles visible under their canonical section; use `nav_exclude` only for intentional exclusions.
+5. Check internal links and the Jekyll build.
+6. Review the generated sidebar, not only the source files.
+7. Update this guide when navigation or definitions change.
 
 ## 9. Success criteria
 
