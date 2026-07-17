@@ -18,8 +18,10 @@ A page belongs here when its main contribution is the author's own reasoning. Ot
 - reading-specific reflections belong in [Reading Notes](/thinking/reading-notes);
 - work written by another author belongs in [Translations](/thinking/translations) with clear attribution.
 
-An essay may draw on books and papers, but it should identify those sources and distinguish their claims from the author's interpretation.
+An essay may draw on books, papers, field observations, and practice, but it should identify those sources and distinguish evidence, observation, participant self-report, and interpretation.
 
 ## Published Essays
 
 - [Ten Years of FamilyLink: What We Built, Why It Paused, and What Remains](/thinking/essays/ten-years-of-familylink) — a reflection on a long-running social-impact project, the limits of its evidence, and the failure of its funding model.
+- [پیش از تغییر، پذیرش؛ درباره‌ی ماهیت انسان و رابطه](/thinking/essays/acceptance-before-change) — Persian essay on acceptance, boundaries, learning, and transformation in relationships, groups, and organizations.
+- [Acceptance Before Change; On Human Nature and Relationships](/thinking/essays/acceptance-before-change-en) — English version of the essay.
