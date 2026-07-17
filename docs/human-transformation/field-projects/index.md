@@ -14,7 +14,7 @@ Field projects document questions and observations that arise in real settings. 
 
 ## Published Field Records
 
-### [K2-Kids](/human-transformation/field-projects/k2-kids)
+### [Learning Circle](/human-transformation/field-projects/learning-circle)
 
 A longitudinal field project about children's independent learning, peer teaching, group coordination, and the gradual withdrawal of the adult facilitator.
 
