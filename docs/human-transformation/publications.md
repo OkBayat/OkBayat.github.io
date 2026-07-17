@@ -25,6 +25,11 @@ This page is a curated index. Each item remains in its canonical content section
 - [بوته‌های آزمایش راهبری](/thinking/research-notes/crucibles-of-leadership) — source-based notes on difficult experience, identity, and leadership.
 - [مدل جدید راهبری](/thinking/research-notes/a-new-model-of-leadership) — source-based material on ontological and phenomenological leadership.
 
+## Relationships, Acceptance, and Completion
+
+- [پیش از تغییر، پذیرش؛ درباره‌ی ماهیت انسان و رابطه](/thinking/essays/acceptance-before-change) — Persian essay on resistance, acceptance, boundaries, learning, and transformation in relationships, groups, and organizations.
+- [Acceptance Before Change; On Human Nature and Relationships](/thinking/essays/acceptance-before-change-en) — English version of the essay.
+
 ## Learning and Memory
 
 - [Vocora](/building/vocora) — a bounded research-and-building project about learning and learning technology.
