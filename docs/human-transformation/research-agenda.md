@@ -66,7 +66,7 @@ This agenda records questions, not settled conclusions. A question may lead to a
 - What roles do curiosity, ability, goals, relationships, group norms, and access to tools play?
 - How should independence be measured without turning it into another form of adult control?
 
-The first public field record is [K2-Kids](/human-transformation/field-projects/k2-kids).
+The first public field record is [Learning Circle](/human-transformation/field-projects/learning-circle).
 
 ## 5. Groups, Leadership, and Coordination
 
