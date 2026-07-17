@@ -3,7 +3,6 @@ layout: default
 title: مغز چگونه الگوهای زبان را دنبال می‌کند
 description: "ترجمه و بازنویسی یک نوشته عمومی درباره یادگیری آماری و تشخیص الگوهای زبان در مغز."
 parent: Translations
-grand_parent: Thinking
 direction: rtl
 lang: fa
 locale: fa_IR
