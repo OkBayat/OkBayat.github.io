@@ -8,7 +8,6 @@ direction: rtl
 lang: fa
 locale: fa_IR
 author: Mohammad Bayat
-date: 2025-01-01
 last_modified_date: 2026-07-17
 status: working-note
 project: vocora
