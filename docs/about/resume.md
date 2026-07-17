@@ -14,7 +14,7 @@ permalink: /about/resume
 
 Founder, software engineer, leadership facilitator, and independent researcher with more than 15 years of experience building web, market, and quantitative software systems.
 
-My current work is centered on [K2Quant](/building/k2quant) and an independent inquiry into [Human Transformation](/human-transformation), including K2-Kids, facilitated programs, leadership and organizational practice, and [Vocora](/building/vocora). My longer project history also includes [FamilyLink](/family-link), a family-support initiative that is currently paused.
+My current work is centered on [K2Quant](/building/k2quant) and an independent inquiry into [Human Transformation](/human-transformation), including [Learning Circle](/human-transformation/field-projects/learning-circle), facilitated programs, leadership and organizational practice, and [Vocora](/building/vocora). My longer project history also includes [FamilyLink](/family-link), a family-support initiative that is currently paused.
 
 <details open markdown="block">
   <summary>Table of contents</summary>
@@ -47,11 +47,11 @@ This work is independent and is not presented as an academic affiliation, clinic
 
 [Program overview](/human-transformation) · [Research agenda](/human-transformation/research-agenda)
 
-#### K2-Kids — Field Project Designer and Facilitator
+#### Learning Circle — Field Project Designer and Facilitator
 
 **Approximately 2023 – Present**
 
-K2-Kids began as a small programming activity with children roughly eight to twelve years old and became a longitudinal field project about independent learning and group coordination.
+Learning Circle began as a small programming activity with children roughly eight to twelve years old and became a longitudinal field project about independent learning and group coordination.
 
 - Used Code.org and programming as a medium for learning how to learn.
 - Designed early sessions around peer support, learner ownership, and teaching others.
@@ -62,7 +62,7 @@ K2-Kids began as a small programming activity with children roughly eight to twe
 
 The current record is a practice-based field observation, not a causal experiment or a claim of permanent transformation.
 
-[Field project record](/human-transformation/field-projects/k2-kids)
+[Field project record](/human-transformation/field-projects/learning-circle)
 
 #### Mastery for Life — Program Designer and Facilitator
 
