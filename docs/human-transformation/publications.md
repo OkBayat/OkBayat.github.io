@@ -15,7 +15,7 @@ This page is a curated index. Each item remains in its canonical content section
 ## Program and Field Records
 
 - [Human Transformation Research Agenda](/human-transformation/research-agenda) — active questions and boundaries.
-- [Learning Circle as a Field Project in Independent Learning](/human-transformation/field-projects/learning-circle) — children's autonomy, peer teaching, group coordination, and facilitator withdrawal.
+- [Learning Circle](/human-transformation/field-projects/learning-circle) — children's autonomy, peer teaching, group coordination, and facilitator withdrawal.
 - [Mastery for Life Program Record](/human-transformation/practice-programs/mastery-for-life) — program history, questions, participant self-reports, limitations, and evaluation needs.
 
 ## Leadership and Identity
