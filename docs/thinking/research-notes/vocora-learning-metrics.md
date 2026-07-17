@@ -136,7 +136,7 @@ Until such a measure is implemented and evaluated, Vocora should describe box mo
 
 ## Current Interpretation
 
-Retrieval and spacing are reasonable foundations for the product, but the scientific quality of Vocora will depend less on naming those ideas and more on how carefully the implementation, measurement, comparison, and limitations are documented.
+Retrieval and spacing are reasonable foundations for the product, but the credibility of Vocora's research claims will depend less on naming those ideas and more on how carefully the implementation, measurement, comparison, and limitations are documented.
 
 The practical standard is simple:
 
@@ -145,8 +145,8 @@ The practical standard is simple:
 ## References
 
 - Karpicke, J. D., & Roediger, H. L. (2008). [The Critical Importance of Retrieval for Learning](https://doi.org/10.1126/science.1152408). *Science, 319*(5865), 966–968.
-- Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). [Distributed Practice in Verbal Recall Tasks: A Review and Quantitative Synthesis](https://pubmed.ncbi.nlm.nih.gov/16719566/). *Psychological Bulletin, 132*(3), 354–380.
-- Ryan, R. M., & Deci, E. L. (2020). [Intrinsic and extrinsic motivation from a self-determination theory perspective](https://selfdeterminationtheory.org/wp-content/uploads/2020/04/2020_RyanDeci_CEP_PrePrint.pdf). *Contemporary Educational Psychology, 61*.
+- Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). [Distributed Practice in Verbal Recall Tasks: A Review and Quantitative Synthesis](https://doi.org/10.1037/0033-2909.132.3.354). *Psychological Bulletin, 132*(3), 354–380.
+- Ryan, R. M., & Deci, E. L. (2020). [Intrinsic and Extrinsic Motivation from a Self-Determination Theory Perspective](https://doi.org/10.1016/j.cedpsych.2020.101860). *Contemporary Educational Psychology, 61*, 101860.
 - [Vocora Gamification and Sharing Principles](https://github.com/OkBayat/vocora/blob/main/docs/GAMIFICATION.md).
 
 ## Revision History
