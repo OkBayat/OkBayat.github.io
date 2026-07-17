@@ -3,7 +3,6 @@ layout: default
 title: Acceptance Before Change; On Human Nature and Relationships
 description: "Why resistance to the realities of people and relationships blocks learning, and how acceptance can make room for boundaries, dialogue, and transformation."
 parent: Essays
-nav_exclude: true
 direction: ltr
 lang: en
 locale: en_US
