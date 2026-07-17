@@ -11,17 +11,21 @@ permalink: /building
 
 This section documents work that exists in practice: companies, software, systems, and experiments.
 
+It is organized by what is being built rather than by every question that the work raises. Cross-cutting questions about learning, language, identity, context, performance, leadership, and coordination are indexed separately under [Human Transformation](/human-transformation).
+
 ## Main Bodies of Work
 
 ### [K2Quant](/building/k2quant)
 
-My main company-building work around quantitative systems, software development, and the operation of a technical organization.
+My main company-building work around quantitative systems, software development, artificial intelligence, and the operation of a technical organization.
 
 ### [Vocora](/building/vocora)
 
 An independent research-and-building project about learning, memory, language practice, and learning technology. Its first working artifact is a vocabulary-practice application.
 
+Vocora is a concrete software project and also one bounded setting inside the broader Human Transformation inquiry. It does not represent every question in that program.
+
 ## Other Work
 
 - [Projects](/building/projects) contains more bounded products and systems, including K2 OS.
-- [Experiments](/building/experiments) is reserved for explicit protocols and results. A product feature is not called an experiment unless its question, method, metrics, and limitations are documented.
+- [Experiments](/building/experiments) is reserved for explicit protocols and results. A product feature, facilitated program, or field observation is not called an experiment unless its question, method, metrics, comparison, ethics, and limitations are documented.

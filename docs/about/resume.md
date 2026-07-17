@@ -4,7 +4,7 @@ title: Resume
 parent: About
 nav_order: 2
 direction: ltr
-description: "Selected professional experience, technical work, leadership practice, and independent projects by Mohammad Bayat."
+description: "Selected professional experience, quantitative systems work, human transformation inquiry, leadership practice, and independent projects by Mohammad Bayat."
 last_modified_date: 2026-07-17
 permalink: /about/resume
 ---
@@ -14,19 +14,70 @@ permalink: /about/resume
 
 Founder, software engineer, leadership facilitator, and independent researcher with more than 15 years of experience building web, market, and quantitative software systems.
 
-My current work is centered on [K2Quant](/building/k2quant), leadership and organizational development, and [Vocora](/building/vocora), an independent project about learning and learning technology.
+My current work is centered on [K2Quant](/building/k2quant) and an independent inquiry into [Human Transformation](/human-transformation), including K2-Kids, facilitated programs, leadership and organizational practice, and [Vocora](/building/vocora).
 
 <details open markdown="block">
   <summary>Table of contents</summary>
   {: .text-delta }
-  - TOC
-  {:toc}
+1. TOC
+{:toc}
 </details>
 
 ---
 
 ## Selected Independent Research and Projects
 {: .no_toc }
+
+### Human Transformation
+
+#### Independent Researcher and Practitioner
+
+An independent, practice-based inquiry into human learning, language, identity, context, performance, leadership, group coordination, and durable change.
+
+Current work includes:
+
+- maintaining a public research agenda of open questions and revisions;
+- distinguishing published evidence, direct observation, participant self-report, interpretation, and hypothesis;
+- documenting field projects and facilitated programs without presenting them as controlled research;
+- reviewing work across learning science, cognitive science, philosophy, leadership, and organizational research;
+- developing privacy, consent, and evidence standards for public field records;
+- connecting questions from software, company-building, coaching, groups, and education.
+
+This work is independent and is not presented as an academic affiliation, clinical program, or peer-reviewed research institution.
+
+[Program overview](/human-transformation) · [Research agenda](/human-transformation/research-agenda)
+
+#### K2-Kids — Field Project Designer and Facilitator
+
+**Approximately 2023 – Present**
+
+K2-Kids began as a small programming activity with children roughly eight to twelve years old and became a longitudinal field project about independent learning and group coordination.
+
+- Used Code.org and programming as a medium for learning how to learn.
+- Designed early sessions around peer support, learner ownership, and teaching others.
+- Gradually transferred session coordination to the children and withdrew from regular attendance.
+- Continued observing the group's self-coordination, progress, peer teaching, and requests for occasional guidance.
+- Documented alternative explanations, facilitator bias, family relationships, privacy constraints, and the absence of a control group or standardized outcome.
+- Established a public record that avoids repeating children's names, certificates, school details, or unnecessary identifying information.
+
+The current record is a practice-based field observation, not a causal experiment or a claim of permanent transformation.
+
+[Field project record](/human-transformation/field-projects/k2-kids)
+
+#### Mastery for Life — Program Designer and Facilitator
+
+**2020 – Present**
+
+A recurring facilitated program in Persian concerned with language, identity, worldview, responsibility, relationships, and the possibility of human change.
+
+- Facilitated cohorts ranging from small groups to larger groups and, in some instances, several hundred participants.
+- Used live dialogue, individual and group practice, feedback, reflection, and follow-up.
+- Collected facilitator observations and participant accounts across multiple cohorts.
+- Began separating source lineage, program design, participant self-report, observed behavior, and claims of efficacy.
+- Documented current limitations, including the absence of standardized baseline, comparison group, longitudinal outcome, and independent evaluation.
+- Removed expired registration language from the permanent research-facing record.
+
+[Program record](/human-transformation/practice-programs/mastery-for-life)
 
 ### Vocora
 
@@ -102,6 +153,7 @@ Work with the organization on employee well-being, leadership practice, team coo
 - Work with clients on listening, feedback, responsibility, decision-making, and action.
 - Facilitate regular reflection, assessment, and follow-up.
 - Work with people at different organizational levels, from individual contributors to managers.
+- Treat private coaching material as confidential by default and separate client experience from public research claims.
 
 **Skills:** Effective listening, feedback, questioning, relationship-building, coaching
 

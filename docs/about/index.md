@@ -3,7 +3,7 @@ layout: default
 title: About
 nav_order: 6
 direction: ltr
-description: "Biography, professional background, current interests, and public contact points for Mohammad Bayat."
+description: "Biography, professional background, current work, and public contact information for Mohammad Bayat."
 permalink: /about
 ---
 
@@ -12,8 +12,8 @@ permalink: /about
 This section provides context for the work published on okbayat.com.
 
 - [Biography](/about/biography) — a short professional and intellectual background
-- [Resume](/about/resume) — selected work experience and projects
-- [Current Interests](/about/current-interests) — questions and subjects receiving active attention
-- [Calendar](/about/calendar) — scheduling information, when available
+- [Resume](/about/resume) — selected experience, projects, and practice
+- [Current Work](/about/current-interests) — the two active bodies of work and current priorities
+- [Contact](/about/contact) — public contact and scheduling information
 
-For ongoing work, see [Building](/building). For written work, see [Thinking](/thinking).
+For the two main bodies of work, see [K2Quant](/building/k2quant) and [Human Transformation](/human-transformation). For written work, see [Thinking](/thinking).
