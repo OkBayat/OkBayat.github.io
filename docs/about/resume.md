@@ -4,7 +4,7 @@ title: Resume
 parent: About
 nav_order: 2
 direction: ltr
-description: "Selected professional experience, quantitative systems work, human transformation inquiry, leadership practice, and independent projects by Mohammad Bayat."
+description: "Selected professional experience, quantitative systems work, social-impact projects, human transformation inquiry, leadership practice, and independent projects by Mohammad Bayat."
 last_modified_date: 2026-07-17
 permalink: /about/resume
 ---
@@ -14,7 +14,7 @@ permalink: /about/resume
 
 Founder, software engineer, leadership facilitator, and independent researcher with more than 15 years of experience building web, market, and quantitative software systems.
 
-My current work is centered on [K2Quant](/building/k2quant) and an independent inquiry into [Human Transformation](/human-transformation), including K2-Kids, facilitated programs, leadership and organizational practice, and [Vocora](/building/vocora).
+My current work is centered on [K2Quant](/building/k2quant) and an independent inquiry into [Human Transformation](/human-transformation), including K2-Kids, facilitated programs, leadership and organizational practice, and [Vocora](/building/vocora). My longer project history also includes [FamilyLink](/family-link), a family-support initiative that is currently paused.
 
 <details open markdown="block">
   <summary>Table of contents</summary>
@@ -78,6 +78,24 @@ A recurring facilitated program in Persian concerned with language, identity, wo
 - Removed expired registration language from the permanent research-facing record.
 
 [Program record](/human-transformation/practice-programs/mastery-for-life)
+
+### FamilyLink
+
+#### Founder and Project Lead
+
+**Approximately ten years of work — Paused in 2026**
+
+FamilyLink was a K2-supported family-support and social-impact initiative intended to reduce avoidable family separation when material hardship and lack of opportunity were major parts of the problem.
+
+- Coordinated clothing production and distribution, practical assistance, and selected counseling or legal-support referrals.
+- Supported mothers and other caregivers through training, direct assistance, and livelihood-related efforts.
+- Used K2 resources and external production relationships to operate the project over approximately a decade.
+- Reached thousands of children and caregivers according to internal records and current recollection; exact totals are being reconciled before publication as audited figures.
+- Paused the project when K2 could no longer provide stable financial support and the project lacked sufficiently independent funding, reserves, governance, and continuity planning.
+- Documented the difference between services delivered and outcomes that were not consistently measured, including whether family separation was prevented or household income became durable.
+- Defined safeguarding, privacy, measurement, governance, and funding conditions for any future restart.
+
+[Project record](/family-link) · [Project reflection](/thinking/essays/ten-years-of-familylink)
 
 ### Vocora
 
