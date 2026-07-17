@@ -3,7 +3,7 @@ layout: default
 title: Spaced Practice and the Leitner System
 description: "A working note on spacing effects, the role of review timing, and the limits of Vocora's current Leitner-style schedule."
 parent: Research Notes
-nav_exclude: true
+grand_parent: Thinking
 direction: ltr
 lang: en
 locale: en_US
