@@ -8,7 +8,7 @@ okbayat.com is a durable public record of what Mohammad Bayat is building, study
 
 The work has two connected bodies:
 
-1. **Building systems and organizations** — quantitative systems, software engineering, artificial intelligence, K2Quant, company-building, technical decisions, and operating systems.
+1. **Building systems and organizations** — quantitative systems, software engineering, artificial intelligence, K2Quant, company-building, technical decisions, operating systems, and bounded social-impact initiatives.
 2. **Studying human learning and transformation** — learning, memory, language, identity, context, performance, leadership, group coordination, and quality of life.
 
 The site is not a stream of promotional posts and does not present open questions as settled answers. It should help a reader distinguish among:
@@ -91,7 +91,8 @@ Building
 │   ├── Publications & Notes
 │   └── Research Log
 ├── Projects
-│   └── K2 OS
+│   ├── K2 OS
+│   └── FamilyLink
 └── Experiments
 
 Podcast
@@ -115,7 +116,7 @@ K2Quant and Vocora are ongoing bodies of work rather than bounded side projects:
 - **K2Quant** is the main company-building and quantitative-systems work.
 - **Vocora** is an independent research-and-building project about learning, memory, language practice, and learning technology.
 
-`Projects` is reserved for more bounded products and systems, such as K2 OS. `Experiments` is reserved for explicit protocols and results.
+`Projects` is reserved for more bounded products, systems, organizations, and initiatives with a distinct scope and operating history, such as K2 OS and FamilyLink. Projects may be active, paused, completed, discontinued, or inconclusive. `Experiments` is reserved for explicit protocols and results.
 
 ### Reading Notes and the legacy Book Notes path
 
@@ -160,7 +161,21 @@ Translations or adaptations of work written by someone else. Every page must nam
 
 ### Project Pages
 
-Stable descriptions of real work: what exists, why it is being built, its present status, current questions, and what has not yet been demonstrated.
+Stable descriptions of real work: what existed or exists, why it was built, its operating model, present status, evidence basis, current questions, limitations, and what has not been demonstrated.
+
+Accepted project-status labels include **Planned**, **Active**, **Paused**, **Completed**, **Discontinued**, and **Inconclusive**. A paused, completed, discontinued, or unsuccessful project may remain important enough to publish when its record clarifies execution, decisions, evidence, failure modes, and lessons. The page must not imply that a paused or discontinued project is currently operating.
+
+A durable project record should normally include:
+
+- purpose, scope, and approximate operating period;
+- the author's role and relevant partners;
+- what was built or delivered;
+- funding and operating dependencies;
+- the evidence supporting any scale or outcome claim;
+- what was not measured or demonstrated;
+- current status and the reason for it;
+- privacy, consent, safeguarding, or conflict-of-role issues where relevant;
+- conditions for continuation, restart, transfer, or closure.
 
 ### Program Records
 
@@ -265,7 +280,7 @@ Pages involving minors must:
 
 ## 9. Article metadata, SEO, and table of contents
 
-The rules in this section are mandatory for every published article-like page: Essays, Research Notes, Reading Notes, Translations, Field Notes, Program Records, and Experiment Reports. They do not apply to section indexes, navigation pages, redirects, or short utility pages.
+The rules in this section are mandatory for every published article-like page: Essays, Research Notes, Reading Notes, Translations, Project Pages, Field Notes, Program Records, and Experiment Reports. They do not apply to section indexes, navigation pages, redirects, or short utility pages.
 
 ### SEO metadata
 
@@ -364,6 +379,7 @@ Use a content label near the beginning of the page when readers could otherwise 
 - Literature Review
 - Reading Note
 - Design Note
+- Project Record
 - Program Record
 - Experiment Report
 - Translation or Adaptation
@@ -452,11 +468,12 @@ Before publishing or merging a structural change:
 5. Keep published articles discoverable through their canonical index; use `nav_exclude` only intentionally.
 6. Confirm that every article has the required SEO front matter, language values, dates, and `seo.type`.
 7. Confirm that every article has exactly one generated table of contents after its introduction and before its first main `##` section.
-8. Confirm that human-related claims identify evidence level, alternative explanations, and limitations.
-9. Confirm that pages involving people satisfy the privacy and consent rules; apply the additional safeguards for children.
-10. Check internal links and the Jekyll build.
-11. Inspect generated pages, SEO tags, redirects, and the sidebar.
-12. Update this guide when navigation, definitions, or evidence standards change.
+8. Confirm that project pages state current status, evidence basis, operating dependencies, and what has not been demonstrated.
+9. Confirm that human-related claims identify evidence level, alternative explanations, and limitations.
+10. Confirm that pages involving people satisfy the privacy and consent rules; apply the additional safeguards for children.
+11. Check internal links and the Jekyll build.
+12. Inspect generated pages, SEO tags, redirects, and the sidebar.
+13. Update this guide when navigation, definitions, or evidence standards change.
 
 ## 12. Success criteria
 
@@ -466,5 +483,5 @@ The site is succeeding when a reader can quickly understand:
 - what he is actually building and studying now;
 - which pages are original, translated, exploratory, observed, reported, or tested;
 - what evidence supports a claim and what remains uncertain;
-- how K2Quant, Vocora, K2-Kids, leadership practice, and facilitated programs relate without being collapsed into one kind of work;
+- how K2Quant, Vocora, FamilyLink, K2-Kids, leadership practice, and facilitated programs relate without being collapsed into one kind of work;
 - how questions, methods, and interpretations change over time.
