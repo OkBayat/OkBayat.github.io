@@ -87,7 +87,7 @@ liquid:
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: 'Copyright &copy; 2023&ndash;{{ "now" | date: "%Y" }} Mohammad Bayat. Website source is available under the MIT license.'
+footer_content: "Copyright &copy; 2023&ndash;2026 Mohammad Bayat. Website source is available under the MIT license."
 
 last_edit_timestamp: true
 last_edit_time_format: "%b %e %Y at %I:%M %p"
