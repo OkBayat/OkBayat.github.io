@@ -33,6 +33,10 @@ A page should make clear which statements come from published sources, which are
 
 Research notes and project pages may change as evidence and experience change. Use `last_modified_date`, a status label, or a revision history where useful.
 
+### Publish articles with complete metadata and in-page navigation
+
+Every published article-like page must satisfy the metadata, language, SEO, and table-of-contents rules in Section 6. Missing required front matter or a missing in-page table of contents blocks publication.
+
 ### Keep navigation structured
 
 Published articles should appear under their canonical section in the sidebar. Use `nav_exclude: true` only for drafts, utility pages, redirects, or material that is intentionally unlisted.
@@ -137,34 +141,97 @@ Vocora content is distributed by type, with one canonical home for each page:
 
 The publications page links to these items; it does not duplicate them.
 
-## 6. Recommended page metadata
+## 6. Article metadata, SEO, and table of contents
 
-Research-related pages should include as many of these fields as apply. Declare only the immediate `parent`; do not repeat higher levels of the hierarchy.
+The rules in this section are mandatory for every published article-like page: Essays, Research Notes, Book Notes, Translations, and Experiment Reports. They do not apply to section indexes, navigation pages, redirects, or short utility pages.
+
+### SEO metadata
+
+The shared site head already invokes `jekyll-seo-tag` with `{% seo %}`. Article Markdown must therefore provide complete YAML front matter and must not contain hand-written HTML `<meta>` tags. The plugin uses front matter to generate the page title, meta description, canonical URL, Open Graph and Twitter metadata, and JSON-LD.
+
+Every article must include:
+
+- a unique, accurate `title` in the article's primary language;
+- a specific, natural-language `description` that summarizes the page in one sentence and does not merely repeat the title;
+- `author`, plus `translator` for translated or adapted work;
+- `date` for first publication;
+- `date_modified` for SEO metadata and `last_modified_date` for the theme; update both when the article changes materially;
+- `direction`, `lang`, and `locale` using the language rules below;
+- `seo.type: Article` so article pages are identified as articles in JSON-LD;
+- one canonical `permalink` and `sitemap: true`;
+- canonical `categories` for site structure;
+- three to eight focused `tags` that describe the actual subject of the article.
+
+Add `image` when a relevant social-sharing image exists. Do not use an irrelevant placeholder image. Do not add `<meta name="keywords">`: search engines do not need it, and front matter `tags` must not be used for keyword stuffing.
+
+The article language determines all reader-facing metadata. Product and project names such as `Vocora` and `K2Quant` may retain their canonical spelling.
+
+| Article language | `direction` | `lang` | `locale` | `title`, `description`, and topical `tags` |
+|---|---|---|---|---|
+| Persian | `rtl` | `fa` | `fa_IR` | Persian |
+| English | `ltr` | `en` | `en_US` | English |
+
+`locale` is the value used by `jekyll-seo-tag` for locale-specific SEO metadata and takes priority over `lang`. Keep both fields present because they serve different consumers.
+
+#### Persian front matter example
 
 ```yaml
 ---
 layout: default
-title: Example title
-description: "A precise one-sentence description."
-parent: Research Notes
+title: عنوان دقیق و یکتای مقاله
+description: "یک توضیح یک‌جمله‌ای دقیق و طبیعی درباره مسئله و محتوای اصلی مقاله."
+parent: Essays
 direction: rtl
 lang: fa
 locale: fa_IR
 author: Mohammad Bayat
 date: 2026-07-17
+date_modified: 2026-07-17
 last_modified_date: 2026-07-17
-status: working-note
-project: vocora
+seo:
+  type: Article
 categories:
   - thinking
-  - research-notes
+  - essays
 tags:
-  - vocora
-  - learning
+  - کارآفرینی
+  - تصمیم‌گیری
+  - سیستم‌سازی
 sitemap: true
-permalink: /thinking/research-notes/example
+permalink: /thinking/essays/example
 ---
 ```
+
+#### English front matter example
+
+```yaml
+---
+layout: default
+title: A Precise and Unique Article Title
+description: "A specific one-sentence summary of the article's central question and contribution."
+parent: Essays
+direction: ltr
+lang: en
+locale: en_US
+author: Mohammad Bayat
+date: 2026-07-17
+date_modified: 2026-07-17
+last_modified_date: 2026-07-17
+seo:
+  type: Article
+categories:
+  - thinking
+  - essays
+tags:
+  - entrepreneurship
+  - decision-making
+  - systems-building
+sitemap: true
+permalink: /thinking/essays/example
+---
+```
+
+Add content-type fields such as `status`, `project`, `translator`, or `image` when they apply. Declare only the immediate `parent`; never repeat higher levels of the hierarchy with `grand_parent`.
 
 Use a content label near the beginning of the page when readers could otherwise misunderstand its status:
 
@@ -174,6 +241,72 @@ Use a content label near the beginning of the page when readers could otherwise 
 - Design Note
 - Experiment Report
 - Translation or Adaptation
+
+### In-page table of contents
+
+Every article must contain exactly one Kramdown-generated in-page table of contents. This is different from the automatic child-page navigation shown on section index pages.
+
+Use this order at the beginning of every article:
+
+1. the page `#` heading, immediately followed by `{: .no_toc }`;
+2. an optional subtitle, content label, status block, or source block;
+3. a concise introduction, abstract, or editorial note that explains the article's question, value, and scope;
+4. the table of contents;
+5. the first main `##` section.
+
+The table of contents therefore belongs **after the introduction or summary and before the first main section**. Do not place it before the opening context, at the end of the article, or inside YAML front matter.
+
+Use the following blocks exactly. In particular, do not indent the `1. TOC` or `{:toc}` lines. The `open` attribute is part of the site standard so the table of contents is expanded by default.
+
+#### Persian article
+
+```markdown
+# عنوان مقاله
+{: .no_toc }
+
+{ زیرعنوان یا برچسب محتوا | fs-6 }
+
+> بلوک وضعیت، نویسنده یا منبع در صورت نیاز
+
+یک یا چند پاراگراف مقدمه یا خلاصه که مسئله، ارزش و محدوده متن را روشن می‌کند.
+
+<details open markdown="block">
+  <summary>
+    فهرست مطالب
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+## بخش اول
+```
+
+#### English article
+
+```markdown
+# Article title
+{: .no_toc }
+
+{ Subtitle or content label | fs-6 }
+
+> Status, author, or source block when needed
+
+One or more opening paragraphs that explain the article's question, value, and scope.
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+## First section
+```
+
+`{:toc}` may appear only once on a page. To omit a heading from the generated table of contents, place `{: .no_toc }` immediately after that heading. Never maintain a manual list of heading links when the generated table of contents can be used.
 
 ## 7. Source and evidence rules
 
@@ -192,9 +325,12 @@ Before publishing or merging a structural change:
 2. Confirm that page front matter does not contain `grand_parent`; the theme resolves ancestors from the parent chain.
 3. Confirm that each section has only one navigation page and that no two pages share the same permalink.
 4. Keep published articles visible under their canonical section; use `nav_exclude` only for intentional exclusions.
-5. Check internal links and the Jekyll build.
-6. Review the generated sidebar, not only the source files.
-7. Update this guide when navigation or definitions change.
+5. Confirm that every article has the required SEO front matter, including the correct `direction`, `lang`, `locale`, `date_modified`, `last_modified_date`, and `seo.type` values.
+6. Confirm that every article has exactly one generated table of contents after its introduction and before its first main `##` section.
+7. Check internal links and the Jekyll build.
+8. Inspect the generated page, including the table of contents and the SEO tags in `<head>`.
+9. Review the generated sidebar, not only the source files.
+10. Update this guide when navigation or definitions change.
 
 ## 9. Success criteria
 
