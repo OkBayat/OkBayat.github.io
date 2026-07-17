@@ -4,17 +4,18 @@ title: Essays
 parent: Thinking
 nav_order: 1
 direction: ltr
+description: "Original long-form arguments, interpretations, and conceptual syntheses by Mohammad Bayat."
 permalink: /thinking/essays
 ---
 
-# کتاب‌هایی و مقالاتی که من خوانده‌ام
+# Essays
 
-در بخش **بلاگ** وبسایتم، کتاب‌ها و مقالاتی را که می‌خوانم و برایم جذاب و ارزشمند هستند با شما به اشتراک می‌گذارم. هدفم این است که تجربه‌ها و دیدگاه‌هایم را درباره این منابع با شما در میان بگذارم و به گسترش دانش و الهام‌بخشی کمک کنم.
+Essays are original long-form writing by Mohammad Bayat. They develop an argument, interpretation, or synthesis rather than only summarizing a source.
 
-**چه چیزی در این بخش پیدا می‌کنید؟**
-- معرفی کتاب‌ها و مقالاتی که خوانده‌ام.
-- توضیحات و تحلیل‌هایی درباره محتوای آن‌ها.
-- ترجمه بخش‌هایی از کتاب‌ها و مقالات (در صورت نیاز).
-- نکات کلیدی و آموزنده‌ای که از آن‌ها یاد گرفته‌ام.
+A page belongs here when its main contribution is the author's own reasoning. Other content has a separate home:
 
-اگر به دنبال منابع تازه برای یادگیری یا ایده‌های جدید هستید، امیدوارم این بخش از وبسایت برای شما مفید باشد!
+- unfinished investigations and evidence reviews belong in [Research Notes](/thinking/research-notes);
+- reading-specific reflections belong in [Book Notes](/thinking/book-notes);
+- work written by another author belongs in [Translations](/thinking/translations) with clear attribution.
+
+An essay may draw on books and papers, but it should identify those sources and distinguish their claims from the author's interpretation.
