@@ -37,7 +37,7 @@ Through [Human Transformation](/human-transformation), I am currently examining:
 - the role of language in attention, interpretation, commitment, and action;
 - identity, worldview, and frames of reference;
 - why a change may depend on the context in which it was created;
-- children's independent learning and peer teaching through [K2-Kids](/human-transformation/field-projects/k2-kids);
+- children's independent learning and peer teaching through [Learning Circle](/human-transformation/field-projects/learning-circle);
 - group coordination, leadership, coaching, and facilitator withdrawal;
 - the design and documentation of programs such as [Mastery for Life](/human-transformation/practice-programs/mastery-for-life);
 - the relationship between external conditions, lived experience, and quality of life.
@@ -64,7 +64,7 @@ Vocora does not stand for every question about human transformation. It provides
 The immediate priorities are:
 
 1. document the Human Transformation research agenda and its revisions;
-2. turn K2-Kids observations into a clearer longitudinal field record;
+2. turn Learning Circle observations into a clearer longitudinal field record;
 3. separate program history, participant self-report, and efficacy claims in leadership material;
 4. publish open questions and field notes without pretending they are final answers;
 5. continue documenting K2Quant and Vocora as the work changes.
