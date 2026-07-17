@@ -4,7 +4,7 @@ title: Vocora
 parent: Building
 nav_order: 2
 direction: ltr
-description: "An independent research-and-building project about learning, memory, language practice, and learning technology."
+description: "An open-source research-and-building project about learning, memory, language practice, and learning technology."
 permalink: /building/vocora
 ---
 
@@ -12,7 +12,7 @@ permalink: /building/vocora
 
 { An independent research-and-building project about human learning | fs-6 }
 
-Vocora is my independent project for studying how people practice, retain, and retrieve knowledge, and for turning some of those questions into working software.
+Vocora is my independent open-source project for studying how people practice, retain, and retrieve knowledge, and for turning some of those questions into working software.
 
 The long-term motivation is broad: to understand learning and memory more carefully. The current work is deliberately narrower and easier to examine: vocabulary practice, retrieval, spacing, feedback, motivation, progress measurement, and language learning.
 
@@ -36,7 +36,9 @@ The application currently includes:
 - optional progress-story generation with privacy constraints;
 - automated tests and a Docker-based development environment.
 
-The source code is available in the [Vocora GitHub repository](https://github.com/OkBayat/vocora).
+The official application is available at [vocora.ir](https://vocora.ir), where anyone can register and use it.
+
+Vocora is open source. The code is available in the [Vocora GitHub repository](https://github.com/OkBayat/vocora), and anyone who would like to improve the software, documentation, or related research tooling is welcome to contribute.
 
 ## What Vocora Is Studying
 
@@ -75,10 +77,3 @@ At this stage, Vocora is an independent software and research project informed b
 - Progress should be represented honestly.
 - Privacy and user choice are product requirements.
 - Unsupported and inconclusive hypotheses should be documented, not hidden.
-
-## Explore
-
-- [Research Agenda](/building/vocora/research-agenda)
-- [Publications & Notes](/building/vocora/publications)
-- [Research Log](/building/vocora/research-log)
-- [Vocora on GitHub](https://github.com/OkBayat/vocora)
