@@ -2,17 +2,17 @@
 layout: default
 title: "قدرت عادت"
 description: "خلاصه و یادداشت‌هایی از کتاب قدرت عادت اثر چارلز دوهیگ؛ درباره چرخه عادت، عادت‌های کلیدی و نقش آن‌ها در تغییر فردی، سازمانی و اجتماعی."
-parent: Book Notes
+parent: Reading Notes
 direction: rtl
 lang: fa
 locale: fa_IR
 author: Mohammad Bayat
 date: 2026-07-10
 last_modified_date: 2026-07-10
-permalink: /thinking/book-notes/the-power-of-habit
+permalink: /thinking/reading-notes/the-power-of-habit
 categories:
   - thinking
-  - book-notes
+  - reading-notes
 tags:
   - چارلز دوهیگ
   - قدرت عادت

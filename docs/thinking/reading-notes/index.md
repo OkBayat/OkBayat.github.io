@@ -34,7 +34,3 @@ Each note should distinguish among:
 - questions that require additional evidence.
 
 A Reading Note is not a substitute for the original source and should link to it whenever possible.
-
-## Legacy Book Notes
-
-The existing [Book Notes archive](/thinking/book-notes) is retained to preserve old URLs and book-specific child pages. Those pages can be migrated individually when their metadata and source attribution are reviewed.

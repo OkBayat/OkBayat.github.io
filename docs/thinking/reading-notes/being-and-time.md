@@ -2,15 +2,15 @@
 layout: default
 title: از هستی تا راهبری
 description: "خوانشی از هستی و زمان در گفت‌وگو با Speaking Being و تجربه من در راهبری؛ درباره اینکه جهانِ زیسته، زبان و شیوه بودن چگونه امکان عمل را می‌سازند."
-parent: Book Notes
+parent: Reading Notes
 direction: rtl
 lang: fa
 locale: fa_IR
 author: Mohammad Bayat
-permalink: /thinking/book-notes/being-and-time
+permalink: /thinking/reading-notes/being-and-time
 categories:
   - thinking
-  - book-notes
+  - reading-notes
 tags:
   - هستی و زمان
   - مارتین هایدگر
