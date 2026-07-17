@@ -2,7 +2,6 @@
 layout: default
 title: K2 OS
 parent: Projects
-grand_parent: Building
 nav_order: 1
 direction: ltr
 description: "A working project for documenting and organizing recurring business operations."
