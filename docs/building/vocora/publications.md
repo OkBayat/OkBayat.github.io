@@ -22,6 +22,27 @@ This page collects work related to Vocora. Each item remains in its canonical se
 
 Distinguishes practice activity, same-session performance, and longer-term retention, and explains the current product metrics and guardrails.
 
+### [Retrieval Practice in Vocora](/thinking/research-notes/retrieval-practice)
+
+**Type:** Working research note  
+**Status:** Published; application-specific effects not yet evaluated
+
+Reviews why active recall is used, which claims the evidence can support, and what a delayed recall measure still needs to establish.
+
+### [Spaced Practice and the Leitner System](/thinking/research-notes/spaced-practice-and-leitner)
+
+**Type:** Working research and design note  
+**Status:** Published; current schedule not empirically optimized
+
+Separates the general spacing effect from the practical but unvalidated intervals used by Vocora's current Leitner-style scheduler.
+
+### [Ethical Gamification in Vocora](/thinking/research-notes/ethical-gamification)
+
+**Type:** Working research and design note  
+**Status:** Published; current feature effects not causally evaluated
+
+Defines autonomy, competence, privacy, and guardrail requirements for goals, streaks, progress feedback, and sharing.
+
 ### [قانون هب و شکل‌گیری تداعی‌ها](/thinking/research-notes/hebbs-rule)
 
 **Type:** Working conceptual note  
@@ -39,6 +60,10 @@ A cautious introduction to Hebbian learning and its limits when used to think ab
 A general introduction to statistical learning in language, published with clear attribution to the original source.
 
 ## Project Documentation
+
+### [Research Log](/building/vocora/research-log)
+
+A dated record of substantive changes in questions, interpretations, measurements, and project decisions.
 
 ### [Gamification and Sharing Principles](https://github.com/OkBayat/vocora/blob/main/docs/GAMIFICATION.md)
 
