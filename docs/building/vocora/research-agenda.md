@@ -2,7 +2,6 @@
 layout: default
 title: Research Agenda
 parent: Vocora
-grand_parent: Building
 nav_order: 1
 direction: ltr
 description: "The current questions, methods, evidence standards, and boundaries guiding Vocora."
