@@ -54,7 +54,8 @@ Building
 ├── K2Quant
 ├── Vocora
 │   ├── Research Agenda
-│   └── Publications & Notes
+│   ├── Publications & Notes
+│   └── Research Log
 ├── Projects
 │   └── K2 OS
 └── Experiments
@@ -122,6 +123,7 @@ Vocora content is distributed by type, with one canonical home for each page:
 - `/building/vocora` — project overview and current state;
 - `/building/vocora/research-agenda` — questions, methods, and boundaries;
 - `/building/vocora/publications` — curated index of related output;
+- `/building/vocora/research-log` — dated changes in questions, evidence, measurements, and decisions;
 - `/thinking/research-notes/...` — research and design notes;
 - `/thinking/essays/...` — original essays;
 - `/thinking/translations/...` — translated work;
