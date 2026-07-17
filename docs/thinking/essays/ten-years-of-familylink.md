@@ -3,7 +3,7 @@ layout: default
 title: "Ten Years of FamilyLink: What We Built, Why It Paused, and What Remains"
 description: "A reflective account of FamilyLink's decade of family-support work, the limits of its evidence, the failure of its funding model, and the conditions required for a responsible return."
 parent: Essays
-nav_exclude: true
+nav_exclude: false
 direction: ltr
 lang: en
 locale: en_US
