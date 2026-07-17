@@ -2,65 +2,51 @@
 title: Home
 layout: home
 nav_order: 1
-description: "Mohammad Bayat — researcher, founder, engineer, and leadership thinker. Essays, research notes, projects, and reflections on leadership, entrepreneurship, technology, and human potential."
+description: "Mohammad Bayat — founder, software engineer, and independent researcher. Notes on building companies and software, human learning, leadership, and decision-making."
 permalink: /
 ---
 
-# Mohammad Bayat  
-{ Researcher, Founder, Engineer, and Leadership Thinker | fs-6 }
+# Mohammad Bayat
+{ Founder, Software Engineer, and Independent Researcher | fs-6 }
 
-I build, study, and write about the systems that shape human performance: companies, technologies, markets, leadership, and the inner architecture of growth.
+I build software and organizations, and I study the questions that appear while doing that work: how people learn, make decisions, coordinate, lead, and improve systems.
 
-OkBayat.com is my public intellectual archive — a place where I organize what I am learning, building, researching, and questioning. It is not a conventional blog, a résumé page, or a personal marketing website. It is a long-term home for serious thinking.
-
-My work sits at the intersection of entrepreneurship, software engineering, quantitative systems, leadership, coaching, and human development. I am interested in how people make better decisions, how founders build resilient organizations, how technology expands human capability, and how disciplined learning can transform both individuals and institutions.
-
-I write for founders, executives, academics, builders, coaches, researchers, and serious learners — people who care about depth, responsibility, execution, and the long arc of personal and professional growth.
+OkBayat.com is where I document what I am building, reading, testing, and revising. Some pages are finished essays; others are working notes. I try to distinguish between published evidence, my interpretation, and questions that remain open.
 
 ## What I Explore
 
-I use this website to think in public about subjects that continue to shape my life and work:
-
-- Leadership, responsibility, and human performance
-- Coaching, transformation, and personal development
+- Quantitative systems, software engineering, and artificial intelligence
 - Entrepreneurship, startups, and company-building
-- Decision-making, systems thinking, and leverage
-- Software, artificial intelligence, and quantitative systems
-- Books, papers, and ideas worth studying deeply
+- Human learning, memory, language practice, and motivation
+- Leadership, coaching, responsibility, and team coordination
+- Decision-making, systems thinking, and measurement
+- Books and papers that influence the work
 
 ## What I Am Building
 
-A central part of my work is K2Quant — a company and research-driven environment focused on intelligent quantitative systems.
+### K2Quant
 
-For me, building a company is not only an act of execution. It is also a laboratory for studying judgment, leadership, markets, technology, and human coordination under uncertainty.
+[K2Quant](/building/k2quant) is the main company-building part of my work. It brings together quantitative systems, software development, and the practical work of building and operating an organization.
 
-That is why I treat projects, companies, experiments, and even failures as part of my research. They are evidence of thinking in action.
+### Vocora
 
-## Why This Site Exists
+[Vocora](/building/vocora) is an independent research-and-building project about learning, memory, language practice, and learning technology. Its current software is a vocabulary-practice application based on Leitner-style spaced review, with an initial focus on spelling for IELTS Listening.
 
-I believe ideas become more powerful when they are written clearly, tested seriously, and shared generously.
+Vocora is still an evolving project. I do not present the application as a validated cognitive intervention. The site documents the sources, design decisions, open questions, and future evaluations behind it.
 
-This website exists to document that process.
+## How I Publish
 
-Some writings will be essays. Some will be research notes. Some will become podcast episodes, courses, translations, or reflections on books and papers. The format may change, but the purpose remains the same: to clarify important ideas and make them useful for people who are building, leading, learning, and growing.
-
-I am not trying to produce content for algorithms.
-
-I am trying to build a durable body of work.
-
-## A Note That Guides My Work
-
-> “If not you, who? If not now, when? If not here, where?”  
-> — Werner Erhard
-
-For me, this is not a motivational quote. It is a standard of responsibility.
-
-It points to the kind of life and work I am trying to build: courageous enough to take responsibility, rigorous enough to study deeply, and generous enough to make the work useful to others.
+- **Essays** contain original arguments and interpretation.
+- **Research Notes** contain work in progress, evidence reviews, and open questions.
+- **Book Notes** document reading and interpretation.
+- **Translations** clearly identify the original author and source.
+- **Building** documents companies, software, projects, and experiments.
 
 ## Start Here
 
-You can explore my work through:
-
+- [Vocora](/building/vocora)
+- [Research Notes](/thinking/research-notes)
+- [K2Quant](/building/k2quant)
 - [Leadership Resources](/leadership/resources)
-- [K2Quant](/buiding/k2quant)
+- [Current Interests](/about/current-interests)
 - [Resume](/about/resume)
