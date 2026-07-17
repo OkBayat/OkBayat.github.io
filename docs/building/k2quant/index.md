@@ -1,23 +1,26 @@
 ---
 layout: default
 title: K2Quant
-parent: Building 
+parent: Building
 nav_order: 1
 direction: ltr
+description: "Mohammad Bayat's company-building work in quantitative systems and software."
 permalink: /building/k2quant
 ---
 
 # K2Quant
 
-{ At K2Quant, by pushing the boundaries of knowledge, we create an environment where the quality of life for each person is continuously elevated. | fs-6 }
+{ Quantitative systems, software, and company-building | fs-6 }
 
-We are committed to creating opportunities where every member actively participates, thrives in freedom, and embraces creativity and innovation.
+K2Quant is the main company-building part of my work. It is where I develop and operate software for quantitative and market-related systems while working on the practical problems of reliability, decision-making, team coordination, and organizational development.
 
-## Looking to the Future
-Our goal is to transform K2Quant into a land of endless opportunities—a place where the brightest minds collaborate to co-create a better world. We focus on attracting individuals who, alongside their scientific excellence, aspire to make the world a better place. We are not just an organization; we are a movement—a transformation driving change globally. In this world, every K2Quant member is a leader and innovator.
+## Current Focus
 
-> _“At K2Quant, we believe in a new reality where every individual can make a significant impact. We are not just writing history; we are shaping the future.”_
->
-> — Mohammad Bayat (OkBayat)
+- Building and maintaining quantitative software systems
+- Improving the reliability and clarity of technical processes
+- Developing tools that support research, analysis, and operations
+- Learning from the day-to-day work of building a technical organization
 
-For more information, please visit our official website: [K2Quant](https://www.K2Quant.com).
+This page is intended to document concrete systems, decisions, and lessons as they become suitable for public release. It does not treat ambition as evidence or present future goals as completed work.
+
+For more information, visit the [K2Quant website](https://www.k2quant.com).

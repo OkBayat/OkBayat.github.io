@@ -1,243 +1,200 @@
-# okbayat.com — Content Architecture & Editorial Guide
+# okbayat.com — Content Architecture and Editorial Guide
 
-This document is the reference guide (README) for the content structure, navigation, and editorial direction of **okbayat.com**.
+This document defines how content on **okbayat.com** is organized and described. It should be updated whenever the site's main navigation or editorial model changes.
 
-Its purpose is to ensure that, even if context or memory is lost in the future, it is always clear:
+## 1. Purpose of the site
 
-* What kind of content is produced
-* Where each piece of content belongs
-* Why this structure was chosen
+okbayat.com documents what Mohammad Bayat is building, studying, testing, and revising.
 
+The site is not intended to be a stream of promotional posts. Its purpose is to keep a durable public record of:
+
+- original thinking and interpretation;
+- working research notes;
+- books, papers, and translations worth returning to;
+- companies, software projects, and experiments;
+- professional experience and current interests.
+
+## 2. Editorial principles
+
+### State only what can be supported
+
+Do not use titles or claims that are larger than the work. In particular:
+
+- Do not describe a working note as a scientific paper.
+- Do not describe an early product feature as a validated learning intervention.
+- Do not claim permanent learning, mastery, or cognitive improvement from short-term product activity.
+- Do not use words such as *groundbreaking*, *revolutionary*, or *proven* without clear evidence.
+
+### Separate evidence from interpretation
+
+A page should make clear which statements come from published sources, which are the author's interpretation, and which remain open questions.
+
+### Treat revision as part of the work
+
+Research notes and project pages may change as evidence and experience change. Use `last_modified_date`, a status label, or a revision history where useful.
+
+### Keep the navigation small
+
+Section indexes belong in the sidebar. Most individual notes should use `nav_exclude: true` and be linked from an index page.
+
+## 3. Canonical navigation
+
+```text
+Home
+
+Thinking
+├── Essays
+├── Research Notes
+├── Book Notes
+└── Translations
+
+Leadership
+
+Building
+├── K2Quant
+├── Vocora
+│   ├── Research Agenda
+│   ├── Publications & Notes
+│   └── Research Log
+├── Projects
+│   └── K2 OS
+└── Experiments
+
+Voice
+
+About
+├── Biography
+├── Resume
+├── Current Interests
+└── Calendar
+```
+
+### Why K2Quant and Vocora are directly under Building
+
+K2Quant and Vocora are ongoing bodies of work rather than bounded side projects:
+
+- **K2Quant** is the main company-building and quantitative-systems work.
+- **Vocora** is an independent research-and-building project about learning, memory, language practice, and learning technology.
+
+`Projects` is reserved for more bounded products and systems, such as K2 OS. `Experiments` is reserved for explicit protocols and results.
+
+## 4. Content types
+
+### Essays
+
+Original long-form arguments, interpretations, and syntheses written by Mohammad Bayat.
+
+An essay should not be used for a direct translation, a book summary, or an unfinished collection of notes.
+
+### Research Notes
+
+Working investigations of a question, source, concept, or design decision. A research note may be incomplete and is not assumed to be peer reviewed.
+
+A useful research note normally includes:
+
+- the question;
+- why it matters;
+- evidence reviewed;
+- the current interpretation;
+- limitations and uncertainty;
+- implications or next questions;
+- references.
+
+### Book Notes
+
+Notes, interpretations, and questions developed while reading a specific book. These pages should distinguish the book author's position from Mohammad's interpretation.
+
+### Translations
+
+Translations or adaptations of work written by someone else. Every page must name the original author, source, and translator or adapter. A short editorial note should explain why the text is being included.
+
+### Project Pages
+
+Stable descriptions of real work: what exists, why it is being built, its present status, and what has not yet been demonstrated.
+
+### Experiment Reports
+
+Reports with an explicit question, hypothesis, method, metrics, results, limitations, and status. `Planned`, `Running`, `Completed`, and `Inconclusive` are all acceptable statuses.
+
+## 5. Vocora publishing model
+
+Vocora content is distributed by type, with one canonical home for each page:
+
+- `/building/vocora` — project overview and current state;
+- `/building/vocora/research-agenda` — questions, methods, and boundaries;
+- `/building/vocora/publications` — curated index of related output;
+- `/building/vocora/research-log` — dated changes in questions, evidence, measurements, and decisions;
+- `/thinking/research-notes/...` — research and design notes;
+- `/thinking/essays/...` — original essays;
+- `/thinking/translations/...` — translated work;
+- `/building/experiments/...` — protocols and results when formal experiments exist.
+
+The publications page links to these items; it does not duplicate them.
+
+## 6. Recommended page metadata
+
+Research-related pages should include as many of these fields as apply:
+
+```yaml
 ---
-
-## 1. Site Mission
-
-okbayat.com is a **thinking‑driven personal website** — not a news blog, not a sales landing page, and not a simple résumé.
-
-The mission of the site is:
-
-* Deep thinking about **entrepreneurship, startups, building systems, decision‑making, and leadership**
-* Capturing and publishing ideas with long‑term value (Evergreen Content)
-* Building a personal intellectual archive, similar in spirit to essay‑based websites
-
-This site is meant to be a **home for thinking**, not a **content factory for algorithms**.
-
+layout: default
+title: Example title
+description: "A precise one-sentence description."
+parent: Research Notes
+nav_exclude: true
+direction: rtl
+lang: fa
+locale: fa_IR
+author: Mohammad Bayat
+date: 2026-07-17
+last_modified_date: 2026-07-17
+status: working-note
+project: vocora
+categories:
+  - thinking
+  - research-notes
+tags:
+  - vocora
+  - learning
+sitemap: true
+permalink: /thinking/research-notes/example
 ---
+```
 
-## 2. Content Principles (Non‑Negotiables)
+Use a content label near the beginning of the page when readers could otherwise misunderstand its status:
 
-These principles must always be respected:
+- Essay
+- Working Research Note
+- Literature Review
+- Design Note
+- Experiment Report
+- Translation or Adaptation
 
-1. **Ideas over format**
+## 7. Source and evidence rules
 
-   * Articles, podcasts, and translations are tools; ideas are the core.
+- Prefer primary papers, systematic reviews, meta-analyses, and official documentation.
+- Link to the original source whenever possible.
+- Do not turn a general finding into a claim that the current product has already produced that effect.
+- State when a conclusion is an inference.
+- Include limitations when evidence is narrow, indirect, or disputed.
+- Preserve the distinction between short-term task performance and durable learning.
 
-2. **Quality over quantity**
+## 8. Maintenance checklist
 
-   * Publish less, but publish work that lasts.
+Before publishing or merging a structural change:
 
-3. **Thinking, not shallow education**
+1. Confirm that every `parent` matches an existing page title exactly.
+2. Check that every permalink is unique.
+3. Keep individual articles out of the sidebar unless they are intentionally featured.
+4. Check internal links and the Jekyll build.
+5. Update this guide when navigation or definitions change.
 
-   * Pure how‑tos, generic checklists, and motivational filler are explicitly excluded.
+## 9. Success criteria
 
-4. **The site must remain uncluttered**
+The site is succeeding when a reader can quickly understand:
 
-   * Minimal navigation, clear categorization.
-
----
-
-## 3. Canonical Navigation Structure
-
-The main navigation of the site must include only the following sections:
-
-1. Essays
-2. Translations
-3. Podcast
-4. Projects
-5. Leadership & Personal Development
-6. About
-
-No additional top‑level items should be added without revisiting the entire architecture.
-
----
-
-## 4. Precise Definition of Each Section
-
-### 4.1 Essays
-
-**The core of the site**
-
-Definition:
-
-* Original analytical writing authored by the site owner
-* Long‑form, idea‑driven essays
-
-Topics include:
-
-* Entrepreneurship
-* Startups
-* Founder Mode and management
-* Decision‑making
-* Building systems and leverage
-* Personal experiences that can be generalized
-
-Guidelines:
-
-* Every essay should still be worth reading five years from now
-* Shallow technical tutorials or news‑driven content do not belong here
-
----
-
-### 4.2 Translations
-
-**Curated translations with high intellectual value**
-
-Definition:
-
-* Translations of carefully selected texts from thinkers and writers in startups, technology, and thinking
-
-Rules:
-
-* Every translation must include a short introduction explaining why the text matters
-* Blind or neutral translation without intent or editorial judgment is not allowed
-
-Typical content:
-
-* Startup‑related essays
-* Long‑form, idea‑centric writing
-
----
-
-### 4.3 Podcast
-
-**The voice of the written thinking**
-
-Definition:
-
-* A complement to the written work, not a replacement for it
-
-Preferred format:
-
-* Solo episodes
-* Deep analysis of a single idea or experience
-
-Key rule:
-
-* Every episode should either originate from an essay or lead back to one
-
----
-
-### 4.4 Projects
-
-**Proof of execution, not claims**
-
-Definition:
-
-* Real projects, startups, and systems that have been actively worked on
-
-Includes:
-
-* Startups
-* Products
-* Systems
-* Practical experiments
-
-Note:
-
-* Failures are as important as successes and should be documented
-
----
-
-### 4.5 Leadership & Personal Development
-
-**A supporting domain, not the center of gravity**
-
-Definition:
-
-* Content related to leadership, coaching, personal development, and mental models
-
-Includes:
-
-* Leadership Resources
-* Coaching
-* Programs
-
-Rule:
-
-* This section must never overshadow the core identity of the site
-
----
-
-### 4.6 About
-
-**Identity, not a dry résumé**
-
-Includes:
-
-* Personal introduction
-* Intellectual and professional trajectory
-* Why this site exists
-* Résumé (linked, not central)
-
----
-
-## 5. Mapping Existing Content to the New Structure
-
-* Current Blog → Essays
-* Leadership Resources → Leadership & Personal Development
-* Leadership Programs → Leadership & Personal Development
-* Coaching → Leadership & Personal Development
-* Existing Podcast → Podcast
-* K2 Group → Projects
-* Resume → About
-* Calendar → About (or removed if unused)
-
----
-
-## 6. Editorial Direction & Content Mix
-
-Recommended production ratio:
-
-* 60% Essays
-* 20% Translations
-* 20% Podcast
-
-Writing is always the primary medium.
-
----
-
-## 7. Deliberately Excluded Sections
-
-The following are intentionally not part of the structure:
-
-* Blog (in the disposable, content‑marketing sense)
-* Generic Resources
-* News
-* Courses / Products (for now)
-
-If any of these are added in the future, this document must be revised.
-
----
-
-## 8. Success Criteria
-
-The success of okbayat.com is measured by:
-
-* Readers returning voluntarily
-* Intellectual references, not likes or views
-* Longevity of content
-* Clarity of intellectual identity
-
----
-
-## 9. Final Note
-
-Whenever you hesitate and ask:
-
-“Should this be published?”
-
-Return to this question:
-
-> Does this writing / voice / idea clarify something — or is it just content production?
-
-If the answer is not clear, do not publish it.
+- what Mohammad is actually working on;
+- which pages are original, translated, exploratory, or tested;
+- what evidence supports a claim;
+- what remains uncertain;
+- how the work changes over time.

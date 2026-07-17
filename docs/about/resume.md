@@ -4,17 +4,17 @@ title: Resume
 parent: About
 nav_order: 2
 direction: ltr
+description: "Selected professional experience, technical work, leadership practice, and independent projects by Mohammad Bayat."
+last_modified_date: 2026-07-17
 permalink: /about/resume
 ---
 
-
-# Mohammad Bayat Resume
+# Mohammad Bayat
 {: .no_toc }
 
-As a Founder of K2-Group, I’m passionate about driving innovation and creating impactful solutions.
-With over 15 years of experience as a Full Stack Developer, I’ve worked with high-tech startups to enhance the performance of web applications and streamline development processes through effective tools and testing.
+Founder, software engineer, leadership facilitator, and independent researcher with more than 15 years of experience building web, market, and quantitative software systems.
 
-In addition to my technical expertise, I’m also a Leadership Coach, committed to improving team dynamics and productivity. Through K2-Clearing, I’m deeply engaged in the continuous exploration of leadership practices, helping individuals and teams achieve meaningful transformation.
+My current work is centered on [K2Quant](/building/k2quant), leadership and organizational development, and [Vocora](/building/vocora), an independent project about learning and learning technology.
 
 <details open markdown="block">
   <summary>Table of contents</summary>
@@ -22,214 +22,160 @@ In addition to my technical expertise, I’m also a Leadership Coach, committed 
   - TOC
   {:toc}
 </details>
+
+---
+
+## Selected Independent Research and Projects
+{: .no_toc }
+
+### Vocora
+
+#### Independent Researcher and Builder
+
+Vocora is an independent research-and-building project about learning, memory, language practice, motivation, and learning technology.
+
+Current work includes:
+
+- designing and developing a full-stack vocabulary-practice application based on Leitner-style review;
+- storing user accounts and learning state in MySQL for access across devices;
+- defining product metrics that distinguish activity, current performance, and longer-term retention;
+- documenting privacy and ethical constraints for progress sharing and gamification;
+- reviewing relevant work in retrieval practice, spaced practice, motivation, and language learning;
+- publishing assumptions, limitations, research notes, and planned evaluation steps.
+
+Vocora is not presented as an academic affiliation, clinical project, or validated neuroscience intervention. Its current output is software and independent research documentation.
+
+[Project overview](/building/vocora) · [Source code](https://github.com/OkBayat/vocora)
+
 ---
 
 ## Experience
 {: .no_toc }
 
-### K2-Group
-{: .d-inline-block }
+### K2 Group / K2Quant
 
-May 2010 - Present
-{: .label .label-green }
+**May 2010 – Present**
 
-#### Leadership Facilitator and Researcher
-Since around 2017-2018, I've been on an exciting journey to explore and understand the intricacies of leadership. Each day, I am thrilled by new discoveries and insights that enhance my approach. To deepen this exploration, I initiated the K2-Clearing project, where I actively engage in experience-based leadership facilitation and research. This initiative is not just about teaching leadership; it’s about profoundly transforming the way we lead within our company and in our personal lives. Through K2-Clearing, I am committed to driving meaningful change and fostering a culture of continuous growth and improvement.
+#### Founder and Software Engineer
+
+- Build and maintain software for quantitative and market-related systems.
+- Work across front-end, back-end, infrastructure, data analysis, and technical operations.
+- Developed and maintained a large library of algorithmic trading strategies and technical indicators used by internal applications.
+- Manage application-specific adaptations, server configuration, and operational reliability.
+- Lead technical and organizational decisions across ongoing K2 work.
+
+#### Leadership Facilitator
+
+Since approximately 2017–2018, I have studied and facilitated leadership, team coordination, and organizational practice through K2-related programs and K2 Clearing.
+
+The work includes facilitating conversations, examining recurring operating problems, documenting concepts, and testing how leadership practices affect day-to-day coordination. These activities are practice-based and should not be confused with peer-reviewed organizational research.
 
 #### Team Lead
-As a team leader and entrepreneur, I am passionate about building innovative and collaborative communities that drive real change. I am currently leading a team of talented professionals to develop a partially open-source project, with a focus on creating a friendly and inclusive environment where all contributors are valued and treated as shareholders. I am committed to building a community that is focused on achieving our goals together, and that supports one another every step of the way. Ultimately, my goal is to create a sustainable and profitable business model that benefits us all and to lead each of us to become a part of the capital market.
 
-#### Full-Stack Development
-As the founder and Software Developer of K2-Group, I have dedicated my career to developing cutting-edge algorithmic trading solutions. With over 13 years of experience in the industry, I have gained a deep understanding of capital market dynamics and have built a proven track record of delivering exceptional results for trading strategies.
+- Coordinate contributors working on technical and organizational projects.
+- Develop structures for shared responsibility, communication, and decision-making.
+- Work on sustainable business and contribution models for long-term projects.
 
-Some of my key achievements include:
-
-- Developing over 10,000 trading strategies, of which over 3,000 are currently in use in applications. These strategies leverage data analysis techniques to identify and execute high-probability trading opportunities in real time.
-- Analyzing application-specific requirements and making necessary software adaptations. I have a deep understanding of various programming languages and am proficient in both front-end and back-end development.
-- Managing the hardware and configuration of servers, ensuring that our systems are always running optimally and efficiently.
-- Developing several technical trading indicators based on mathematical principles that are used in trading strategies. These indicators leverage my expertise in data analysis and are highly effective in identifying trading opportunities.
-
-Overall, I am passionate about building a company that is at the forefront of the algorithmic trading industry, and that delivers exceptional value to our clients through innovative and data-driven solutions.
-
-***Skills:***
-{: .d-inline-block }
-C++
-{: .label }
-Java
-{: .label }
-Python
-{: .label }
-JavaScript
-{: .label }
-Node.js
-{: .label }
+**Technical skills:** C++, Java, Python, JavaScript, Node.js, databases, quantitative systems, server operations
 
 ---
 
 ### Gruccia
-{: .d-inline-block }
 
-Jul 2024 - Present
-{: .label .label-green }
+**July 2024 – Present**
 
 #### Leadership Facilitator
-In this role, I’ve taken on the responsibility of working within Gruccia, one of K2-Group’s subsidiaries, to enhance employee well-being and develop a sales strategy that ensures the lowest possible prices for all Iranians. My work is centered on creating a sustainable and people-first approach to leadership, fostering a culture of growth and improvement both within the company and in the broader market.
 
-***Skills:***
-{: .d-inline-block }
-Leadership
-{: .label }
-Business Coaching
-{: .label }
-Coaching
-{: .label }
+Work with the organization on employee well-being, leadership practice, team coordination, and sales strategy. The role includes structured conversations, feedback, and support for operating changes.
+
+**Skills:** Leadership facilitation, business coaching, coaching, organizational communication
 
 ---
 
 ### Transformation and Personal Development
-{: .d-inline-block }
 
-Apr 2020 - PRESENT
-{: .label .label-green }
+**April 2020 – Present**
 
-#### Leadership Coach, Life Coach, Business Coach
-With over 2,000 hours in direct coaching, I have provided guidance to numerous clients and employers. I've facilitated leadership development in several startups, boosting productivity. My approach combines effective listening, powerful questioning, and timely feedback to inspire personal growth. Skilled in building relationships across all organizational levels, I foster environments for continuous development.
+#### Leadership, Life, and Business Coach
 
-- I have conducted over 2,000 hours of direct coaching for groups, organizations, and individuals.
-- Served as a leadership coach for several prominent startups, aimed at increasing productivity and developing leadership skills organization-wide.
-- My primary skills include effective listening, appropriate feedback, asking powerful questions to guide individuals toward personal growth, and establishing strong and effective relationships with coaches and employees.
-- My coaching process involves continuous interaction, regular assessment, and real-time feedback for constant growth and development.
-- Ability to work with individuals across all levels of an organization, from senior managers to new employees.
+- Completed more than 2,000 hours of direct coaching with individuals, groups, and organizations.
+- Work with clients on listening, feedback, responsibility, decision-making, and action.
+- Facilitate regular reflection, assessment, and follow-up.
+- Work with people at different organizational levels, from individual contributors to managers.
 
-***Skills:***
-{: .d-inline-block }
-Effective Listening
-{: .label }
-Feedback
-{: .label }
-Powerful Questions
-{: .label }
-Relationship Building
-{: .label }
-Coaching
-{: .label }
+**Skills:** Effective listening, feedback, questioning, relationship-building, coaching
 
 ---
 
 ### Radin Bourse
-{: .d-inline-block }
 
-Mar 2020 - Present
-{: .label .label-green }
+**March 2020 – Present**
 
 #### Full-Stack Developer
-- Developed a Jasmine helper library, which helped us write more maintainable, understandable, and flexible unit tests and integration tests.
-- Wrote lots of contract and e2e tests that covered all real user scenarios by using Cypress and Cucumber.
-- Created a TS library for transforming plain objects into instances of classes in order to benefit from OOP, which eliminated recurring plain object bugs to nearly 0%.
-- Team working with Java backend developers helped to get lots of ideas to use in TypeScript and motivated to learn about different development principles.
-- Implemented a search-based feature to improve application accessibility, which improved customer survey scores by 60%.
-- Listening actively, giving feedback, motivating, and hardworking attitude helped to become a more respectful role model team member.
 
-***Skills:***
-{: .d-inline-block }
-Cypress
-{: .label }
-Test Automation
-{: .label }
-Java
-{: .label }
-Angular
-{: .label }
-TypeScript
-{: .label }
+- Developed Jasmine helpers for more maintainable unit and integration tests.
+- Built contract and end-to-end tests with Cypress and Cucumber.
+- Created a TypeScript library for transforming plain objects into class instances.
+- Worked with Java back-end developers on shared design and development principles.
+- Implemented a search-based accessibility feature for the application.
+
+**Technologies:** Cypress, test automation, Java, Angular, TypeScript
 
 ---
 
 ### Eghtesad Bidar Securities
-{: .d-inline-block }
 
-Oct 2018 - Mar 2020
-{: .label .label-green }
+**October 2018 – March 2020**
 
 #### Full-Stack Developer
-Develop an online trading platform for stock market traders and investors.
 
-- Contributed to increasing application performance, which led to a 200% increase in new users in one year.
-- Designed a JS library to handle thousands of web socket messages per second, which helped to decrease development time by 200%.
-- Developed several JS libraries for handling real-time data and displaying data as a stock market technical analysis chart.
-- Perform automated testing cases that covered more than 90% of the application's code, resulting in a 300% reduction in development time.
-- Involved in wireframing and prototyping the application, which led to a simple, user-friendly design.
-- Participated in Continuous Integration and Continuous Deployment CI/CD of the application using Microsoft Team Foundation Server (TFS).
-- Trained and mentored team members to apply OOP concepts to the project.
-- Cooperated with UX research and UI testing.
+Worked on an online trading platform for stock-market traders and investors.
 
-***Skills:***
-{: .d-inline-block }
-MongoDB
-{: .label }
-Test Automation
-{: .label }
-NodeJs
-{: .label }
-Angular
-{: .label }
-TypeScript
-{: .label }
+- Developed JavaScript libraries for processing high-volume WebSocket data.
+- Built real-time data and technical-analysis charting components.
+- Added automated tests covering most application code and user flows.
+- Participated in wireframing, prototyping, user-interface testing, CI, and CD.
+- Trained team members in object-oriented design and reusable application structure.
+
+**Technologies:** MongoDB, Node.js, Angular, TypeScript, automated testing
 
 ---
 
 ### Alibaba Travels Co.
-{: .d-inline-block }
 
-May 2017 - Oct 2018
-{: .label .label-green }
+**May 2017 – October 2018**
 
 #### Full-Stack Developer
-As a Front-End developer responsible for participating in the full lifecycle of a new SPA development project for online booking back-office, and for implementing and maintaining best practice procedures in all areas of work.
 
-- Responsible to develop NodeJS compiler to generate custom website templates based on the main site, which reduced development time from one week to less than an hour.
-- Experienced with backend programming languages such as C# and SQL Server.
-- Implemented reactive programming with RxJS, which eliminated HTTP request/response common errors.
-- Participated in developing and maintaining responsive web applications providing good user experiences on multiple platforms.
-- Hands-on experience in design using Object Oriented Programming Principles like Encapsulation, Inheritance, Polymorphism, Reusability, and SOLID principle.
-- Collaborated with teammates to solve problems, resolve errors, and optimize performance.
+- Worked across the development lifecycle of a single-page booking back-office application.
+- Developed a Node.js compiler that generated custom website templates from a shared base, reducing a previously manual process from days to under an hour.
+- Worked with C#, SQL Server, Angular, RxJS, and responsive web interfaces.
+- Applied object-oriented and SOLID design principles.
+- Collaborated on debugging, performance, maintenance, and user experience.
 
-***Skills:***
-{: .d-inline-block }
-Bootstrap
-{: .label }
-Wijmo5
-{: .label }
-NodeJs
-{: .label }
-Angular
-{: .label }
-TypeScript
-{: .label }
+**Technologies:** Node.js, Angular, TypeScript, RxJS, Bootstrap, C#, SQL Server
 
 ---
 
 ### Tadbir Pardaz IT Group Ltd.
-{: .d-inline-block }
 
-Feb 2016 - Apr 2018
-{: .label .label-green }
+**February 2016 – April 2018**
 
 #### Developer
-As a Front-End developer and UI/UX designer responsible for participating in the full lifecycle of a new SPA development project for stock markets, and for implementing and maintaining best practice procedures in all areas of work.
+
+Worked as a front-end developer and UI/UX designer on single-page applications for capital-market products, including implementation, maintenance, and interface design.
 
 ---
 
-### Personal Project
-{: .d-inline-block }
+### Personal Software Project
 
-Apr 2012 - May 2017
-{: .label .label-green }
+**April 2012 – May 2017**
 
-#### Full-stack Developer
-I was working on a JavaScript library, which was used to develop a powerful platform for visualizing stock market diagrams. Some characteristic features were data visualization, drawing 8 kinds of charts, drawing shapes on charts and editing or removing them, adding several areas on them to drawing and modifying indicators, and so on.
+#### Full-Stack Developer
 
-- I worked professionally with HTML SVG and Canvas.
-- I developed a JavaScript library to simplify HTML DOM tree (especially SVG) traversal and event handling.
-- I developed a JavaScript library to simplify working with HTML Canvas.
-- I developed a functional reactive library to handle complex events and manage complex data.
+Developed JavaScript libraries for stock-market data visualization and interactive charting.
+
+- Built multiple chart types and editable drawing tools.
+- Worked extensively with SVG and Canvas.
+- Developed utilities for DOM and SVG traversal and event handling.
+- Built a functional reactive library for complex events and data flows.
