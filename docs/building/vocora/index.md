@@ -16,6 +16,12 @@ Vocora is my independent project for studying how people practice, retain, and r
 
 The long-term motivation is broad: to understand learning and memory more carefully. The current work is deliberately narrower and easier to examine: vocabulary practice, retrieval, spacing, feedback, motivation, progress measurement, and language learning.
 
+## Why It Exists
+
+Learning applications can measure activity easily, but activity is not the same as durable learning. Vocora gives me a concrete system in which to examine that difference: define what a metric means, implement a small decision, observe its limits, and revise it.
+
+The goal is not to attach scientific language to an ordinary product. It is to make the questions, sources, assumptions, measurements, and corrections behind the product visible.
+
 ## What Exists Today
 
 The first working artifact is a full-stack vocabulary-practice application based on the Leitner system, currently focused on spelling for IELTS Listening.
@@ -74,4 +80,5 @@ At this stage, Vocora is an independent software and research project informed b
 
 - [Research Agenda](/building/vocora/research-agenda)
 - [Publications & Notes](/building/vocora/publications)
+- [Research Log](/building/vocora/research-log)
 - [Vocora on GitHub](https://github.com/OkBayat/vocora)
