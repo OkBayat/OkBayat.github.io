@@ -3,7 +3,6 @@ layout: default
 title: پیش از تغییر، پذیرش؛ درباره‌ی ماهیت انسان و رابطه
 description: "چرا مقاومت در برابر واقعیت انسان و رابطه، یادگیری را متوقف می‌کند و پذیرش چگونه راه مرزبندی، گفت‌وگو و تحول را باز می‌کند."
 parent: Essays
-nav_exclude: true
 direction: rtl
 lang: fa
 locale: fa_IR
