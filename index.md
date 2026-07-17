@@ -35,9 +35,9 @@ The evolving set of questions is recorded in the [Human Transformation Research 
 
 ## Current Work and Field Projects
 
-### K2-Kids
+### Learning Circle
 
-[K2-Kids](/human-transformation/field-projects/k2-kids) is a field project about children's independent learning, peer teaching, group coordination, and what happens when the facilitator gradually leaves the center of the learning process.
+[Learning Circle](/human-transformation/field-projects/learning-circle) is a field project about children's independent learning, peer teaching, group coordination, and what happens when the facilitator gradually leaves the center of the learning process.
 
 ### Mastery for Life
 
@@ -63,7 +63,7 @@ The evolving set of questions is recorded in the [Human Transformation Research 
 ## Start Here
 
 - [Human Transformation Research Agenda](/human-transformation/research-agenda)
-- [K2-Kids Field Project](/human-transformation/field-projects/k2-kids)
+- [Learning Circle Field Project](/human-transformation/field-projects/learning-circle)
 - [Vocora](/building/vocora)
 - [K2Quant](/building/k2quant)
 - [Research Notes](/thinking/research-notes)
