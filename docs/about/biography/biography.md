@@ -18,9 +18,9 @@ Over approximately a decade, he also led [FamilyLink](/family-link), a K2-suppor
 
 Alongside engineering, he maintains an independent program of inquiry into [Human Transformation](/human-transformation). Its questions concern human learning, language, identity, worldview, context, performance, leadership, group coordination, and the conditions under which change becomes durable rather than dependent on a single environment.
 
-This work is informed by reading and by practice-based observation through leadership facilitation, coaching, organizational work, [K2-Kids](/human-transformation/field-projects/k2-kids), [Mastery for Life](/human-transformation/practice-programs/mastery-for-life), and [Vocora](/building/vocora).
+This work is informed by reading and by practice-based observation through leadership facilitation, coaching, organizational work, [Learning Circle](/human-transformation/field-projects/learning-circle), [Mastery for Life](/human-transformation/practice-programs/mastery-for-life), and [Vocora](/building/vocora).
 
-K2-Kids examines children's independent learning, peer teaching, and what happens when an adult facilitator gradually leaves the center of a learning group. Mastery for Life is being documented as a facilitated-program record rather than presented as a validated universal intervention. Vocora is an open-source research-and-building project that turns a narrower set of questions about learning, memory, language practice, motivation, and measurement into working software.
+Learning Circle examines children's independent learning, peer teaching, and what happens when an adult facilitator gradually leaves the center of a learning group. Mastery for Life is being documented as a facilitated-program record rather than presented as a validated universal intervention. Vocora is an open-source research-and-building project that turns a narrower set of questions about learning, memory, language practice, motivation, and measurement into working software.
 
 These activities are independent and practice-based. They are not presented as academic affiliation, clinical research, or a peer-reviewed neuroscience program. The purpose is to connect careful reading, explicit questions, field records, working systems, transparent limitations, and public revision.
 
