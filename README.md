@@ -39,6 +39,8 @@ Published articles should appear under their canonical section in the sidebar. U
 
 Each section must have only one navigation page. Do not keep both an `index.md` file and another section file with the same `title` and `permalink`.
 
+Parent pages with child pages already receive an automatically generated child-page table of contents from the theme. Do not add a manual `Explore` or `Table of Contents` section that repeats those links.
+
 ## 3. Canonical navigation
 
 ```text
