@@ -1,7 +1,7 @@
 # Site settings
 # These values are available to Jekyll templates through the `site` object.
 title: OkBayat
-description: "Mohammad Bayat — founder, software engineer, and independent researcher."
+description: "Mohammad Bayat — building quantitative systems and studying human learning and transformation."
 baseurl: ""
 url: "https://www.okbayat.com"
 repository: OkBayat/OkBayat.github.io
@@ -14,6 +14,40 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+
+  # Keep detailed legacy material accessible through its section hub and search
+  # without allowing every course, concept, cohort, or source page to crowd the
+  # global sidebar. Section index pages explicitly opt back in with
+  # `nav_exclude: false`.
+  - scope:
+      path: "docs/leadership/courses"
+      type: "pages"
+    values:
+      nav_exclude: true
+
+  - scope:
+      path: "docs/leadership/research"
+      type: "pages"
+    values:
+      nav_exclude: true
+
+  - scope:
+      path: "docs/leadership/resources"
+      type: "pages"
+    values:
+      nav_exclude: true
+
+  - scope:
+      path: "docs/leadership/coaching"
+      type: "pages"
+    values:
+      nav_exclude: true
+
+  - scope:
+      path: "docs/about/calendar"
+      type: "pages"
+    values:
+      nav_exclude: true
 
 exclude:
   - .sass-cache/

@@ -16,6 +16,10 @@ Vocora is my independent open-source project for studying how people practice, r
 
 The long-term motivation is broad: to understand learning and memory more carefully. The current work is deliberately narrower and easier to examine: vocabulary practice, retrieval, spacing, feedback, motivation, progress measurement, and language learning.
 
+## Relationship to Human Transformation
+
+Vocora is one bounded project within the broader [Human Transformation](/human-transformation) inquiry. It provides a concrete software setting for a limited set of questions about learning and measurement. It is not the container for the wider questions about identity, worldview, leadership, children's learning, group coordination, or quality of life.
+
 ## Why It Exists
 
 Learning applications can measure activity easily, but activity is not the same as durable learning. Vocora gives me a concrete system in which to examine that difference: define what a metric means, implement a small decision, observe its limits, and revise it.

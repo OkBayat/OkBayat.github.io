@@ -10,14 +10,16 @@ permalink: /about/biography
 
 # Biography
 
-Mohammad Bayat is a founder and software engineer whose work spans quantitative systems, web applications, technical architecture, company-building, and leadership development.
+Mohammad Bayat is a founder and software engineer whose work spans quantitative systems, web applications, technical architecture, artificial intelligence, company-building, and leadership practice.
 
 He has worked in software development since the early 2010s, including front-end and back-end systems, real-time market applications, testing infrastructure, data visualization, and quantitative trading software. His main company-building work is organized around [K2Quant](/building/k2quant).
 
-Alongside engineering, he has spent several years studying and facilitating leadership, coaching, team coordination, and personal development. His writing treats these areas as subjects to examine and revise rather than as a collection of fixed formulas.
+Alongside engineering, he maintains an independent program of inquiry into [Human Transformation](/human-transformation). Its questions concern human learning, language, identity, worldview, context, performance, leadership, group coordination, and the conditions under which change becomes durable rather than dependent on a single environment.
 
-He is documenting [Vocora](/building/vocora) as an independent research-and-building project about learning, memory, language practice, motivation, and learning technology. Vocora's first software artifact is a full-stack vocabulary-practice application based on Leitner-style review.
+This work is informed by reading and by practice-based observation through leadership facilitation, coaching, organizational work, [K2-Kids](/human-transformation/field-projects/k2-kids), [Mastery for Life](/human-transformation/practice-programs/mastery-for-life), and [Vocora](/building/vocora).
 
-The Vocora work is independent and is not presented as academic affiliation, clinical research, or a peer-reviewed neuroscience program. Its purpose is to connect careful reading, explicit questions, working software, transparent measurement, and public revision.
+K2-Kids examines children's independent learning, peer teaching, and what happens when an adult facilitator gradually leaves the center of a learning group. Mastery for Life is being documented as a facilitated-program record rather than presented as a validated universal intervention. Vocora is an open-source research-and-building project that turns a narrower set of questions about learning, memory, language practice, motivation, and measurement into working software.
 
-OkBayat.com is the public record of these activities: finished essays, working research notes, books and translations, software projects, and lessons from building organizations.
+These activities are independent and practice-based. They are not presented as academic affiliation, clinical research, or a peer-reviewed neuroscience program. The purpose is to connect careful reading, explicit questions, field records, working systems, transparent limitations, and public revision.
+
+OkBayat.com is the public record of these activities: essays, open questions, research and field notes, reading notes, attributed translations, software projects, program records, and lessons from building organizations.
