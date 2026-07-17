@@ -18,7 +18,7 @@ This log records material changes in the inquiry. It is not a diary of every act
 
 - Human Transformation was established as a parent program broader than Leadership or Vocora.
 - The inquiry was organized around performance and durable change; language and action; identity and worldview; children and independent learning; groups and coordination; and quality of life.
-- K2-Kids was documented as a field project rather than called an experiment.
+- Learning Circle was documented as a field project rather than called an experiment.
 - Mastery for Life was documented as a program record rather than an enrollment or efficacy page.
 - Evidence layers were separated into published evidence, direct observation, participant self-report, interpretation, and open question.
 - Additional privacy and consent safeguards were defined for work involving children and identifiable participant stories.
@@ -27,7 +27,7 @@ This log records material changes in the inquiry. It is not a diary of every act
 ### What remains unresolved
 
 - Operational definitions for transformation, identity change, transfer, and durability.
-- A practical measurement plan for independence and peer teaching in K2-Kids.
+- A practical measurement plan for independence and peer teaching in Learning Circle.
 - A consent-aware process for collecting and publishing participant accounts.
 - A longitudinal follow-up design for facilitated programs.
 - A source-by-source review of older leadership translations and concept pages.
