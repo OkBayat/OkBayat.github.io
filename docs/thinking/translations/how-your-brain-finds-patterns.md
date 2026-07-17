@@ -30,7 +30,7 @@ sitemap: true
 > **نوع متن:** ترجمه و بازنویسی  
 > **نویسنده اصلی:** Cindy Blanco, Ph.D.  
 > **مترجم و بازنویس:** Mohammad Bayat  
-> **منبع:** [The original AI: how your brain tracks language patterns](https://blog.duolingo.com/how-your-brain-finds-patterns/)
+> **منبع:** [How Does Your Brain Learn a New Language?](https://blog.duolingo.com/how-your-brain-finds-patterns/)
 
 این صفحه ترجمه و بازنویسی یک مطلب عمومی از Duolingo است و مقاله یا نتیجه پژوهشی مستقل من محسوب نمی‌شود. مثال‌ها و تعبیرهای استعاری متن اصلی نیز نباید به‌عنوان ادعای علمی Vocora خوانده شوند.
 
