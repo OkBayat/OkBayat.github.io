@@ -4,7 +4,7 @@ title: Research Notes
 parent: Thinking
 nav_order: 2
 direction: ltr
-description: "Working investigations, open questions, field observations, literature reviews, design decisions, and revisions."
+description: "Working investigations, evidence reviews, field observations, and design decisions grouped by their primary body of work."
 permalink: /thinking/research-notes
 ---
 
@@ -13,6 +13,28 @@ permalink: /thinking/research-notes
 Research Notes contain work in progress: a question being clarified, evidence being reviewed, a field observation being documented, a design assumption being examined, or an interpretation being revised.
 
 They are not automatically scientific papers and are not assumed to be peer reviewed. A strong note should make its status, evidence level, alternative explanations, and uncertainty visible.
+
+Each note remains canonical here because **Research Note** describes its epistemic and editorial status. Project and subject indexes provide additional discovery without moving or duplicating the page.
+
+## Building, Product Design & Learning Technology
+
+{% for work in site.data.publications.works %}
+{% if work.content_type == "research-note" and work.primary_body == "building" %}
+- {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %} — {{ work.summary }}
+{% endif %}
+{% endfor %}
+
+These notes are also collected in [Building Publications & Notes](/building/publications) and, when connected to the project, [Vocora Publications & Notes](/building/vocora/publications).
+
+## Human Learning, Leadership & Transformation
+
+{% for work in site.data.publications.works %}
+{% if work.content_type == "research-note" and work.primary_body == "human-transformation" %}
+- {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %} — {{ work.summary }}
+{% endif %}
+{% endfor %}
+
+These notes are also collected in [Human Transformation Publications & Notes](/human-transformation/publications).
 
 ## Common Note Types
 
@@ -45,10 +67,3 @@ A record of a project or program decision, the assumptions behind it, alternativ
 9. Limitations, privacy, and uncertainty
 10. Open questions and next step
 11. References
-
-## Related Programs
-
-- Notes connected to Vocora are also collected in [Vocora Publications & Notes](/building/vocora/publications).
-- Notes connected to learning, language, identity, context, performance, leadership, and quality of life are indexed in [Human Transformation Publications & Notes](/human-transformation/publications).
-
-Each note remains here as its canonical page.
