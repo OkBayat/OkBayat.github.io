@@ -54,7 +54,7 @@
   
     {%- include components/nav/children.html node=node ancestors=include.ancestors all=include.all -%}
 
-    <li class="nav-list-item{% if nav_fa_page %} nav-list-item--bilingual{% endif %}{% if nav_children.size >= 1 %} nav-list-item--has-children{% endif %}">
+    <li class="nav-list-item{% if nav_fa_page %} nav-list-item-bilingual{% endif %}{% if nav_children.size >= 1 %} nav-list-item-has-children{% endif %}">
       {%- if nav_children.size >= 1 -%}
       <button class="nav-list-expander btn-reset" aria-label="toggle items in {{ node.title }} category" aria-pressed="false">
         <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>

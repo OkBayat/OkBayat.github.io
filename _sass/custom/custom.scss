@@ -39,7 +39,7 @@
 }
 
 .mark {
-  background-color: rgba($yellow-200, 0.15)
+  background-color: rgba($yellow-200, 0.15);
 }
 
 .dark-mark {
@@ -99,7 +99,7 @@
     }
   }
 
-  .nav-list-item--bilingual {
+  .nav-list-item-bilingual {
     > .nav-list-link {
       padding-right: $nav-list-item-height-sm + $sp-2;
 
@@ -109,7 +109,7 @@
     }
 
     @if $nav-list-expander-right {
-      &.nav-list-item--has-children {
+      &.nav-list-item-has-children {
         > .nav-list-link {
           padding-right: ($nav-list-item-height-sm * 2) + $sp-2;
 
