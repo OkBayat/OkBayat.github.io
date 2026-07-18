@@ -4,15 +4,15 @@
 jtd.onReady(function () {
   var activeLanguageLink = document.querySelector(
     "#site-nav .nav-list-language-link.active"
-  );
+  )
 
   if (!activeLanguageLink) {
-    return;
+    return
   }
 
-  var primaryLink = activeLanguageLink.previousElementSibling;
+  var primaryLink = activeLanguageLink.previousElementSibling
 
   if (primaryLink && primaryLink.classList.contains("nav-list-link")) {
-    primaryLink.classList.add("active");
+    primaryLink.classList.add("active")
   }
-});
+})
