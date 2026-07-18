@@ -2,7 +2,7 @@
 layout: default
 title: K2Quant
 parent: Building
-nav_order: 1
+nav_order: 2
 direction: ltr
 description: "Mohammad Bayat's company-building work in quantitative systems, software, artificial intelligence, and technical operations."
 permalink: /building/k2quant
@@ -21,6 +21,16 @@ K2Quant is the main company-building part of my work. It is where I develop and 
 - Developing artificial-intelligence tools, skills, and agent-based workflows
 - Developing tools that support research, analysis, and operations
 - Learning from the day-to-day work of building a technical organization
+
+## Related Writing
+
+{% for work in site.data.publications.works %}
+{% if work.project == "k2quant" %}
+- **{{ work.content_type | replace: "-", " " | capitalize }}:** {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %} — {{ work.summary }}
+{% endif %}
+{% endfor %}
+
+The wider technical, organizational, and company-building archive is collected in [Building Publications & Notes](/building/publications).
 
 ## Relationship to Human Transformation
 
