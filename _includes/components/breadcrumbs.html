@@ -97,7 +97,7 @@
         nav_split_next.size | minus: nav_list_end_less.size | divided_by: 5 -%}
   {% for nav_end_index in (1..nav_list_end_count) %}
     {%- assign nav_breadcrumbs = nav_breadcrumbs | pop -%}
-  {%- endfor %}
+  {%- endfor -%}
 {%- endif -%}
 
 {%- endunless -%}
