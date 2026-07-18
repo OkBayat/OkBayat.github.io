@@ -3,6 +3,7 @@ layout: default
 title: Essays
 parent: Thinking
 nav_order: 1
+nav_exclude: false
 direction: ltr
 description: "Original long-form arguments and syntheses, organized by body of work and theme without duplicating their canonical pages."
 permalink: /thinking/essays
