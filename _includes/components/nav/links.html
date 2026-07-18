@@ -5,11 +5,36 @@
     includes links to pages excluded from the main navigation when all is true.
   Includes: components/nav/sorted.html, components/nav/children.html, components/nav/links.html.
   Overwrites:
-    node, nav_children, nav_ancestors.
+    node, nav_children, nav_ancestors,
+    nav_node_path, nav_node_suffix, nav_counterpart_path,
+    nav_en_page, nav_fa_page, nav_hide_node.
 {%- endcomment -%}
 
 <ul class="nav-list">
   {%- for node in include.pages -%}
+  {%- assign nav_node_path = node.path | default: "" -%}
+  {%- assign nav_node_suffix = nav_node_path | slice: -6, 6 -%}
+  {%- assign nav_en_page = nil -%}
+  {%- assign nav_fa_page = nil -%}
+  {%- assign nav_hide_node = false -%}
+
+  {%- if nav_node_suffix == "-fa.md" -%}
+    {%- assign nav_counterpart_path = nav_node_path | replace: "-fa.md", "-en.md" -%}
+    {%- assign nav_en_page = include.pages | where: "path", nav_counterpart_path | first -%}
+    {%- if nav_en_page -%}
+      {%- if include.all == true or nav_en_page.nav_exclude != true -%}
+        {%- assign nav_hide_node = true -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- elsif nav_node_suffix == "-en.md" -%}
+    {%- assign nav_counterpart_path = nav_node_path | replace: "-en.md", "-fa.md" -%}
+    {%- assign nav_fa_page = include.pages | where: "path", nav_counterpart_path | first -%}
+    {%- if nav_fa_page and include.all != true and nav_fa_page.nav_exclude == true -%}
+      {%- assign nav_fa_page = nil -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- unless nav_hide_node -%}
   {%- if include.all == true or node.nav_exclude != true -%}
 
   {%- if include.ancestors contains node.title -%}
@@ -29,13 +54,16 @@
   
     {%- include components/nav/children.html node=node ancestors=include.ancestors all=include.all -%}
 
-    <li class="nav-list-item">
+    <li class="nav-list-item{% if nav_fa_page %} nav-list-item-bilingual{% endif %}{% if nav_children.size >= 1 %} nav-list-item-has-children{% endif %}">
       {%- if nav_children.size >= 1 -%}
       <button class="nav-list-expander btn-reset" aria-label="toggle items in {{ node.title }} category" aria-pressed="false">
         <svg viewBox="0 0 24 24" aria-hidden="true"><use xlink:href="#svg-arrow-right"></use></svg>
       </button>
       {%- endif -%}
       <a href="{{ node.url | relative_url }}" class="nav-list-link" title="{{ node.title | escape }}">{{ node.title }}</a>
+      {%- if nav_fa_page -%}
+      <a href="{{ nav_fa_page.url | relative_url }}" class="nav-list-language-link" lang="fa" hreflang="fa" aria-label="Open the Persian version of {{ node.title | escape }}" title="Persian version">FA</a>
+      {%- endif -%}
       {%- if nav_children.size >= 1 -%}
         {%- if node.child_nav_order == 'desc' or node.child_nav_order == 'reversed' -%}
           {%- assign nav_children = nav_children | reverse -%}
@@ -48,6 +76,7 @@
   {%- endif -%}
   
   {%- endif -%}
+  {%- endunless -%}
   {%- endfor -%}
 </ul>
 {%- comment -%}{%- endcomment -%}
