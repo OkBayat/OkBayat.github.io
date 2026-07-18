@@ -9,6 +9,7 @@ ROOT = Pathname.new(__dir__).join("..").expand_path
 SITE_DIR = Pathname.new(ARGV.fetch(0, ROOT.join("_site").to_s)).expand_path
 REGISTRY_PATH = ROOT.join("_data/publications.yml")
 INDEX_PATH = SITE_DIR.join("index.html")
+CONTENT_ROOT = ROOT.join("docs")
 
 unless INDEX_PATH.file?
   warn "Generated site index is missing: #{INDEX_PATH}"
@@ -30,13 +31,18 @@ unless nav_match
   exit 1
 end
 
-nav_html = nav_match[1]
-errors = []
-works = registry.fetch("works")
+
+def normalize_url(url)
+  value = url.to_s
+  return "/" if value == "/"
+
+  value.sub(%r{/\z}, "")
+end
 
 
 def href_variants(url)
-  [url, "#{url}/"].uniq
+  normalized = normalize_url(url)
+  [normalized, "#{normalized}/"].uniq
 end
 
 
@@ -44,6 +50,32 @@ def href_count(html, url)
   href_variants(url).sum do |href|
     html.scan(/href=["']#{Regexp.escape(href)}["']/).length
   end
+end
+
+
+def front_matter(path)
+  content = path.read(encoding: "UTF-8")
+  match = content.match(/\A---\s*\n(.*?)\n---\s*(?:\n|\z)/m)
+  return {} unless match
+
+  YAML.safe_load(
+    match[1],
+    permitted_classes: [Date, Time],
+    permitted_symbols: [],
+    aliases: true
+  ) || {}
+end
+
+nav_html = nav_match[1]
+errors = []
+works = registry.fetch("works")
+pages_by_permalink = {}
+
+CONTENT_ROOT.glob("**/*.md").sort.each do |path|
+  permalink = front_matter(path)["permalink"]
+  next unless permalink
+
+  pages_by_permalink[normalize_url(permalink)] = path
 end
 
 publication_urls = works.flat_map do |work|
@@ -56,16 +88,37 @@ publication_urls.each do |url|
   end
 end
 
+bilingual_count = 0
+
 works.each do |work|
   editions = work.fetch("editions")
   next unless editions.length > 1
 
-  english = editions.find { |edition| edition["lang"] == "en" }
-  persian = editions.find { |edition| edition["lang"] == "fa" }
-  next unless english && persian
+  edition_sources = editions.filter_map do |edition|
+    url = normalize_url(edition.fetch("url"))
+    path = pages_by_permalink[url]
+    [url, path] if path
+  end
 
-  english_url = english.fetch("url")
-  persian_url = persian.fetch("url")
+  english = edition_sources.find { |(_url, path)| path.basename.to_s.end_with?("-en.md") }
+  persian = edition_sources.find { |(_url, path)| path.basename.to_s.end_with?("-fa.md") }
+
+  unless english && persian
+    errors << "bilingual work must use matching <stem>-en.md and <stem>-fa.md source filenames: #{work.fetch('id')}"
+    next
+  end
+
+  english_url, english_path = english
+  persian_url, persian_path = persian
+  english_stem = english_path.to_s.delete_suffix("-en.md")
+  persian_stem = persian_path.to_s.delete_suffix("-fa.md")
+
+  unless english_stem == persian_stem
+    errors << "bilingual source filenames do not share the same stem: #{work.fetch('id')}"
+    next
+  end
+
+  bilingual_count += 1
   english_position = href_variants(english_url).filter_map { |href| nav_html.index(%(href="#{href}")) }.min
   english_position ||= href_variants(english_url).filter_map { |href| nav_html.index(%(href='#{href}')) }.min
 
@@ -113,8 +166,7 @@ required_hubs.each do |url|
 end
 
 if errors.empty?
-  bilingual_count = works.count { |work| work.fetch("editions").length > 1 }
-  puts "Publication navigation validation passed: #{publication_urls.length} canonical editions visible, #{bilingual_count} bilingual works grouped, #{required_hubs.length} hubs visible"
+  puts "Publication navigation validation passed: #{publication_urls.length} canonical editions visible, #{bilingual_count} filename-paired bilingual works grouped, #{required_hubs.length} hubs visible"
   exit 0
 end
 
