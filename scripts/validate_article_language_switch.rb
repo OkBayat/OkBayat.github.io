@@ -158,12 +158,19 @@ registry.fetch("works").each do |work|
       errors << "language switch label must be #{expected_label.inspect}, found #{visible_label.inspect}: #{current_url}"
     end
 
-    heading_match = main_html.match(
-      /<div\b[^>]*class=["'][^"']*\barticle-heading-row\b[^>]*>(.*?)<\/div>/mi
-    )
+    heading_match = main_html.match(/<h1\b[^>]*>(.*?)<\/h1>/mi)
 
-    unless heading_match && heading_match[1].match?(/<h1\b/i) && heading_match[1].include?(switch_html)
-      errors << "language switch must be rendered beside the first h1: #{current_url}"
+    unless heading_match && heading_match[1].include?(switch_html)
+      errors << "language switch must be rendered inside the first h1: #{current_url}"
+    else
+      heading_body = heading_match[1].lstrip
+      unless heading_body.start_with?(switch_html)
+        errors << "language switch must be the first element inside the first h1: #{current_url}"
+      end
+    end
+
+    if main_html.match?(/\barticle-heading-row\b/)
+      errors << "article must not render the obsolete article-heading-row wrapper: #{current_url}"
     end
 
     counterpart_links = href_count(main_html, counterpart_url)
@@ -176,7 +183,7 @@ registry.fetch("works").each do |work|
 end
 
 if errors.empty?
-  puts "Article language-switch validation passed: #{checked_pages} bilingual pages link to their counterpart once beside h1"
+  puts "Article language-switch validation passed: #{checked_pages} bilingual pages link to their counterpart once at the start of h1"
   exit 0
 end
 
