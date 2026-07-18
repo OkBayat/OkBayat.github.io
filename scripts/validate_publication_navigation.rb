@@ -82,58 +82,57 @@ publication_urls.each do |url|
   end
 end
 
-filename_pairs = CONTENT_ROOT.glob("**/*-en.md").sort.filter_map do |english_path|
-  persian_path = Pathname.new(english_path.to_s.sub(/-en\.md\z/, "-fa.md"))
-  next unless persian_path.file?
+language_paths = (
+  CONTENT_ROOT.glob("**/*-en.md") +
+  CONTENT_ROOT.glob("**/*-fa.md")
+).sort
 
-  english_url = front_matter(english_path)["permalink"]
-  persian_url = front_matter(persian_path)["permalink"]
+sources_by_permalink = language_paths.each_with_object({}) do |path, index|
+  permalink = front_matter(path)["permalink"]
+  next unless permalink
 
-  unless english_url && persian_url
-    errors << "filename-paired bilingual pages must both declare permalinks: #{english_path.relative_path_from(ROOT)}"
-    next
-  end
-
-  {
-    english_path: english_path,
-    persian_path: persian_path,
-    english_url: normalize_url(english_url),
-    persian_url: normalize_url(persian_url)
-  }
+  index[normalize_url(permalink)] = path
 end
 
-filename_pair_url_sets = filename_pairs.map do |pair|
-  [pair.fetch(:english_url), pair.fetch(:persian_url)].sort
-end
+bilingual_count = 0
 
 works.each do |work|
   editions = work.fetch("editions")
   next unless editions.length > 1
 
-  registered_urls = editions.map { |edition| normalize_url(edition.fetch("url")) }.sort
-  next if filename_pair_url_sets.include?(registered_urls)
+  work_id = work.fetch("id")
+  registered_urls = editions.map { |edition| normalize_url(edition.fetch("url")) }
+  source_paths = registered_urls.map { |url| sources_by_permalink[url] }
 
-  errors << "multi-edition work must resolve to one exact <stem>-en.md / <stem>-fa.md source pair: #{work.fetch('id')}"
-end
-
-filename_pairs.each do |pair|
-  english_path = pair.fetch(:english_path)
-  persian_path = pair.fetch(:persian_path)
-  english_url = pair.fetch(:english_url)
-  persian_url = pair.fetch(:persian_url)
-  pair_name = english_path.relative_path_from(CONTENT_ROOT).to_s.delete_suffix("-en.md")
-
-  expected_persian_path = Pathname.new(english_path.to_s.sub(/-en\.md\z/, "-fa.md"))
-  unless expected_persian_path == persian_path
-    errors << "bilingual source filenames do not share the same path and stem: #{pair_name}"
+  if source_paths.any?(&:nil?)
+    errors << "multi-edition work must resolve to language-suffixed source files: #{work_id}"
     next
   end
 
+  english_path = source_paths.find { |path| path.basename.to_s.end_with?("-en.md") }
+  persian_path = source_paths.find { |path| path.basename.to_s.end_with?("-fa.md") }
+
+  unless english_path && persian_path
+    errors << "multi-edition work must use one <stem>-en.md and one <stem>-fa.md source file: #{work_id}"
+    next
+  end
+
+  english_stem = english_path.to_s.delete_suffix("-en.md")
+  persian_stem = persian_path.to_s.delete_suffix("-fa.md")
+
+  unless english_stem == persian_stem
+    errors << "bilingual source files must share the same directory and filename stem: #{work_id}"
+    next
+  end
+
+  bilingual_count += 1
+  english_url = normalize_url(front_matter(english_path).fetch("permalink"))
+  persian_url = normalize_url(front_matter(persian_path).fetch("permalink"))
   english_position = href_variants(english_url).filter_map { |href| nav_html.index(%(href="#{href}")) }.min
   english_position ||= href_variants(english_url).filter_map { |href| nav_html.index(%(href='#{href}')) }.min
 
   unless english_position
-    errors << "filename-paired work has no English primary navigation link: #{pair_name}"
+    errors << "bilingual work has no English primary navigation link: #{work_id}"
     next
   end
 
@@ -142,21 +141,21 @@ filename_pairs.each do |pair|
   row_html = row_start && row_end ? nav_html[row_start..(row_end + 4)] : nil
 
   unless row_html&.match?(/class=["'][^"']*\bnav-list-item-bilingual\b/)
-    errors << "filename-paired work is not rendered as one bilingual navigation row: #{pair_name}"
+    errors << "bilingual work is not rendered as one bilingual navigation row: #{work_id}"
     next
   end
 
   unless href_variants(persian_url).any? { |href| row_html.match?(/href=["']#{Regexp.escape(href)}["'][^>]*class=["'][^"']*\bnav-list-language-link\b/) }
-    errors << "filename-paired work is missing its Persian language switch: #{pair_name}"
+    errors << "bilingual work is missing its Persian language switch: #{work_id}"
   end
 
   unless row_html.match?(/>\s*FA\s*<\/a>/)
-    errors << "filename-paired Persian switch must be labelled FA: #{pair_name}"
+    errors << "bilingual work Persian switch must be labelled FA: #{work_id}"
   end
 
   persian_count = href_count(nav_html, persian_url)
   unless persian_count == 1
-    errors << "filename-paired work must expose the Persian URL exactly once in navigation, found #{persian_count}: #{pair_name}"
+    errors << "bilingual work must expose the Persian URL exactly once in navigation, found #{persian_count}: #{work_id}"
   end
 end
 
@@ -176,7 +175,7 @@ required_hubs.each do |url|
 end
 
 if errors.empty?
-  puts "Publication navigation validation passed: #{publication_urls.length} canonical editions visible, #{filename_pairs.length} filename-paired bilingual works grouped, #{required_hubs.length} hubs visible"
+  puts "Publication navigation validation passed: #{publication_urls.length} canonical editions visible, #{bilingual_count} filename-paired bilingual works grouped, #{required_hubs.length} hubs visible"
   exit 0
 end
 
