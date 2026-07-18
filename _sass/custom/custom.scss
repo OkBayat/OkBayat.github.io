@@ -126,43 +126,14 @@
   }
 }
 
-.article-heading-row {
-  display: flex;
-  align-items: baseline;
-  gap: $sp-2;
-
-  > h1 {
-    flex: 1 1 auto;
-    min-width: 0;
-  }
-}
-
 .article-language-switch {
-  flex: 0 0 auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 1.75rem;
-  height: 1.25rem;
-  padding: 0 $sp-1;
+  display: inline-block;
+  margin: 0 10px;
   direction: ltr;
-  font-size: 0.625rem;
-  font-weight: 600;
-  line-height: 1;
-  color: $link-color;
-  text-align: center;
-  text-decoration: none;
+  font-size: 1rem;
+  unicode-bidi: isolate;
+  vertical-align: baseline;
   white-space: nowrap;
-  background-color: $body-background-color;
-  border: $border $border-color;
-  border-radius: 2px;
-
-  &:hover,
-  &:focus {
-    color: $link-color;
-    text-decoration: none;
-    background-color: $feedback-color;
-  }
 }
 
 iframe.calendar {
