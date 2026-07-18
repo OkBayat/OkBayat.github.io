@@ -3,6 +3,7 @@ layout: default
 title: Reading Notes
 parent: Thinking
 nav_order: 3
+nav_exclude: false
 direction: ltr
 description: "Source-specific notes and interpretations, grouped by their primary relevance to building systems or human transformation."
 permalink: /thinking/reading-notes
