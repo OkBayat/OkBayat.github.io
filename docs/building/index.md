@@ -13,6 +13,12 @@ This section documents work that exists in practice: companies, software, system
 
 It is organized by what is being built rather than by every question that the work raises. Cross-cutting questions about learning, language, identity, context, performance, leadership, and coordination are indexed separately under [Human Transformation](/human-transformation).
 
+## Publications & Notes
+
+[Building Publications & Notes](/building/publications) is the topical index for essays, research notes, reading notes, translations, project reflections, and experiment reports about software, AI, agent systems, entrepreneurship, company-building, operations, and decision-making.
+
+The writing remains in its canonical content-type section. This index creates a coherent Building lens without creating separate copies or parallel technical and startup blogs.
+
 ## Main Bodies of Work
 
 ### [K2Quant](/building/k2quant)
