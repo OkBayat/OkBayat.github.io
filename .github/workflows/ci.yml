@@ -110,6 +110,8 @@ jobs:
         run: ruby scripts/validate_list_and_sidebar_styles.rb
       - name: Build Site
         run: bundle exec jekyll build
+      - name: Validate automatic child-page lists
+        run: ruby scripts/validate_child_page_navigation.rb _site
       - name: Validate publication navigation
         run: ruby scripts/validate_publication_navigation.rb _site
       - name: Validate article language switches
