@@ -101,9 +101,15 @@ sources_by_permalink = language_paths.each_with_object({}) do |path, index|
   index[normalize_url(permalink)] = path
 end
 
-bilingual_rows = nav_html.scan(
-  /<li\b[^>]*class=["'][^"']*\bnav-list-item-bilingual\b[^"']*["'][^>]*>.*?<\/li>/mi
-)
+# The generated HTML omits optional </li> tags. Splitting at each opening <li>
+# produces one navigation-item fragment without assuming an explicit closing tag.
+nav_items = nav_html.split(/(?=<li\b)/).select do |fragment|
+  fragment.match?(/\A<li\b/)
+end
+
+bilingual_rows = nav_items.select do |fragment|
+  fragment.match?(/\A<li\b[^>]*class=["'][^"']*\bnav-list-item-bilingual\b/)
+end
 
 bilingual_count = 0
 
