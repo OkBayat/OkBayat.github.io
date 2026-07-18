@@ -55,8 +55,8 @@ end
 
 def front_matter(path)
   content = path.read(encoding: "UTF-8")
-  match = content.match(/\A---\s*\n(.*?)\n---\s*(?:\n|\z)/m)
-  return {} unless match
+  match = content.match(/\A(?:\uFEFF)?---\s*\r?\n(.*?)\r?\n---\s*(?:\r?\n|\z)/m)
+  raise "Missing YAML front matter: #{path}" unless match
 
   YAML.safe_load(
     match[1],
@@ -64,19 +64,13 @@ def front_matter(path)
     permitted_symbols: [],
     aliases: true
   ) || {}
+rescue Psych::Exception => error
+  raise "Invalid YAML front matter in #{path}: #{error.message}"
 end
 
 nav_html = nav_match[1]
 errors = []
 works = registry.fetch("works")
-pages_by_permalink = {}
-
-CONTENT_ROOT.glob("**/*.md").sort.each do |path|
-  permalink = front_matter(path)["permalink"]
-  next unless permalink
-
-  pages_by_permalink[normalize_url(permalink)] = path
-end
 
 publication_urls = works.flat_map do |work|
   work.fetch("editions").map { |edition| edition.fetch("url") }
@@ -88,42 +82,58 @@ publication_urls.each do |url|
   end
 end
 
-bilingual_count = 0
+filename_pairs = CONTENT_ROOT.glob("**/*-en.md").sort.filter_map do |english_path|
+  persian_path = Pathname.new(english_path.to_s.sub(/-en\.md\z/, "-fa.md"))
+  next unless persian_path.file?
+
+  english_url = front_matter(english_path)["permalink"]
+  persian_url = front_matter(persian_path)["permalink"]
+
+  unless english_url && persian_url
+    errors << "filename-paired bilingual pages must both declare permalinks: #{english_path.relative_path_from(ROOT)}"
+    next
+  end
+
+  {
+    english_path: english_path,
+    persian_path: persian_path,
+    english_url: normalize_url(english_url),
+    persian_url: normalize_url(persian_url)
+  }
+end
+
+filename_pair_url_sets = filename_pairs.map do |pair|
+  [pair.fetch(:english_url), pair.fetch(:persian_url)].sort
+end
 
 works.each do |work|
   editions = work.fetch("editions")
   next unless editions.length > 1
 
-  edition_sources = editions.filter_map do |edition|
-    url = normalize_url(edition.fetch("url"))
-    path = pages_by_permalink[url]
-    [url, path] if path
-  end
+  registered_urls = editions.map { |edition| normalize_url(edition.fetch("url")) }.sort
+  next if filename_pair_url_sets.include?(registered_urls)
 
-  english = edition_sources.find { |(_url, path)| path.basename.to_s.end_with?("-en.md") }
-  persian = edition_sources.find { |(_url, path)| path.basename.to_s.end_with?("-fa.md") }
+  errors << "multi-edition work must resolve to one exact <stem>-en.md / <stem>-fa.md source pair: #{work.fetch('id')}"
+end
 
-  unless english && persian
-    errors << "bilingual work must use matching <stem>-en.md and <stem>-fa.md source filenames: #{work.fetch('id')}"
+filename_pairs.each do |pair|
+  english_path = pair.fetch(:english_path)
+  persian_path = pair.fetch(:persian_path)
+  english_url = pair.fetch(:english_url)
+  persian_url = pair.fetch(:persian_url)
+  pair_name = english_path.relative_path_from(CONTENT_ROOT).to_s.delete_suffix("-en.md")
+
+  expected_persian_path = Pathname.new(english_path.to_s.sub(/-en\.md\z/, "-fa.md"))
+  unless expected_persian_path == persian_path
+    errors << "bilingual source filenames do not share the same path and stem: #{pair_name}"
     next
   end
 
-  english_url, english_path = english
-  persian_url, persian_path = persian
-  english_stem = english_path.to_s.delete_suffix("-en.md")
-  persian_stem = persian_path.to_s.delete_suffix("-fa.md")
-
-  unless english_stem == persian_stem
-    errors << "bilingual source filenames do not share the same stem: #{work.fetch('id')}"
-    next
-  end
-
-  bilingual_count += 1
   english_position = href_variants(english_url).filter_map { |href| nav_html.index(%(href="#{href}")) }.min
   english_position ||= href_variants(english_url).filter_map { |href| nav_html.index(%(href='#{href}')) }.min
 
   unless english_position
-    errors << "bilingual work has no English primary navigation link: #{work.fetch('id')}"
+    errors << "filename-paired work has no English primary navigation link: #{pair_name}"
     next
   end
 
@@ -132,21 +142,21 @@ works.each do |work|
   row_html = row_start && row_end ? nav_html[row_start..(row_end + 4)] : nil
 
   unless row_html&.match?(/class=["'][^"']*\bnav-list-item-bilingual\b/)
-    errors << "bilingual work is not rendered as one bilingual navigation row: #{work.fetch('id')}"
+    errors << "filename-paired work is not rendered as one bilingual navigation row: #{pair_name}"
     next
   end
 
   unless href_variants(persian_url).any? { |href| row_html.match?(/href=["']#{Regexp.escape(href)}["'][^>]*class=["'][^"']*\bnav-list-language-link\b/) }
-    errors << "bilingual work is missing its Persian language switch: #{work.fetch('id')}"
+    errors << "filename-paired work is missing its Persian language switch: #{pair_name}"
   end
 
   unless row_html.match?(/>\s*FA\s*<\/a>/)
-    errors << "bilingual work Persian switch must be labelled FA: #{work.fetch('id')}"
+    errors << "filename-paired Persian switch must be labelled FA: #{pair_name}"
   end
 
   persian_count = href_count(nav_html, persian_url)
   unless persian_count == 1
-    errors << "bilingual work must expose the Persian URL exactly once in navigation, found #{persian_count}: #{work.fetch('id')}"
+    errors << "filename-paired work must expose the Persian URL exactly once in navigation, found #{persian_count}: #{pair_name}"
   end
 end
 
@@ -166,7 +176,7 @@ required_hubs.each do |url|
 end
 
 if errors.empty?
-  puts "Publication navigation validation passed: #{publication_urls.length} canonical editions visible, #{bilingual_count} filename-paired bilingual works grouped, #{required_hubs.length} hubs visible"
+  puts "Publication navigation validation passed: #{publication_urls.length} canonical editions visible, #{filename_pairs.length} filename-paired bilingual works grouped, #{required_hubs.length} hubs visible"
   exit 0
 end
 
