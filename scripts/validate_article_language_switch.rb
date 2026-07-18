@@ -163,9 +163,9 @@ registry.fetch("works").each do |work|
     unless heading_match && heading_match[1].include?(switch_html)
       errors << "language switch must be rendered inside the first h1: #{current_url}"
     else
-      heading_body = heading_match[1].lstrip
-      unless heading_body.start_with?(switch_html)
-        errors << "language switch must be the first element inside the first h1: #{current_url}"
+      heading_body = heading_match[1].rstrip
+      unless heading_body.end_with?(switch_html)
+        errors << "language switch must be the final element inside the first h1: #{current_url}"
       end
     end
 
@@ -183,7 +183,7 @@ registry.fetch("works").each do |work|
 end
 
 if errors.empty?
-  puts "Article language-switch validation passed: #{checked_pages} bilingual pages link to their counterpart once at the start of h1"
+  puts "Article language-switch validation passed: #{checked_pages} bilingual pages link to their counterpart once at the end of h1"
   exit 0
 end
 
