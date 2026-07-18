@@ -28,7 +28,7 @@ tags:
   - deterministic-systems
   - lazy-loading
 sitemap: true
-permalink: /thinking/essays/phase-oriented-agent-skills
+permalink: /thinking/essays/phase-oriented-agent-skills-en
 ---
 
 # Designing Large Agent Skills as Deterministic, Phase-Oriented Systems
