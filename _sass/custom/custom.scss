@@ -65,6 +65,69 @@
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+
+  .nav-list-language-link {
+    position: absolute;
+    top: calc((#{$nav-list-item-height-sm} - 1.25rem) / 2);
+    right: $sp-2;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.75rem;
+    height: 1.25rem;
+    padding: 0 $sp-1;
+    font-size: 0.625rem;
+    font-weight: 600;
+    line-height: 1;
+    color: $link-color;
+    text-decoration: none;
+    background-color: $body-background-color;
+    border: $border $border-color;
+    border-radius: 2px;
+
+    @include mq(md) {
+      top: calc((#{$nav-list-item-height} - 1.25rem) / 2);
+      right: $sp-3;
+    }
+
+    &:hover,
+    &:focus {
+      color: $link-color;
+      text-decoration: none;
+      background-color: $feedback-color;
+    }
+  }
+
+  .nav-list-item--bilingual {
+    > .nav-list-link {
+      padding-right: $nav-list-item-height-sm + $sp-2;
+
+      @include mq(md) {
+        padding-right: $nav-list-item-height + $sp-2;
+      }
+    }
+
+    @if $nav-list-expander-right {
+      &.nav-list-item--has-children {
+        > .nav-list-link {
+          padding-right: ($nav-list-item-height-sm * 2) + $sp-2;
+
+          @include mq(md) {
+            padding-right: ($nav-list-item-height * 2) + $sp-2;
+          }
+        }
+
+        > .nav-list-language-link {
+          right: $nav-list-item-height-sm + $sp-1;
+
+          @include mq(md) {
+            right: $nav-list-item-height + $sp-1;
+          }
+        }
+      }
+    }
+  }
 }
 
 iframe.calendar {
