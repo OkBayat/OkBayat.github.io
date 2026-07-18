@@ -50,7 +50,7 @@ works:
       - lang: en
         label: English
         title: Designing Large Agent Skills as Deterministic, Phase-Oriented Systems
-        url: /thinking/essays/phase-oriented-agent-skills
+        url: /thinking/essays/phase-oriented-agent-skills-en
 
   - id: ten-years-of-familylink
     content_type: essay
