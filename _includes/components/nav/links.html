@@ -7,37 +7,18 @@
   Overwrites:
     node, nav_children, nav_ancestors,
     nav_node_path, nav_node_suffix, nav_counterpart_path,
-    nav_pair_pages, nav_en_page, nav_fa_page, nav_hide_node.
+    nav_en_page, nav_fa_page, nav_hide_node.
 {%- endcomment -%}
 
 <ul class="nav-list">
   {%- for node in include.pages -%}
   {%- assign nav_node_path = node.path | default: "" -%}
   {%- assign nav_node_suffix = nav_node_path | slice: -6, 6 -%}
-  {%- assign nav_pair_pages = "" | split: "" -%}
   {%- assign nav_en_page = nil -%}
   {%- assign nav_fa_page = nil -%}
   {%- assign nav_hide_node = false -%}
 
-  {%- comment -%}
-    translation_key is the authoritative bilingual relationship. The filename
-    convention remains a fallback for older pages that do not declare it.
-  {%- endcomment -%}
-  {%- if node.translation_key -%}
-    {%- assign nav_pair_pages = include.pages | where: "translation_key", node.translation_key -%}
-    {%- assign nav_en_page = nav_pair_pages | where: "lang", "en" | first -%}
-    {%- assign nav_fa_page = nav_pair_pages | where: "lang", "fa" | first -%}
-
-    {%- if node.lang == "fa" and nav_en_page -%}
-      {%- if include.all == true or nav_en_page.nav_exclude != true -%}
-        {%- assign nav_hide_node = true -%}
-      {%- endif -%}
-    {%- elsif node.lang == "en" -%}
-      {%- if nav_fa_page and include.all != true and nav_fa_page.nav_exclude == true -%}
-        {%- assign nav_fa_page = nil -%}
-      {%- endif -%}
-    {%- endif -%}
-  {%- elsif nav_node_suffix == "-fa.md" -%}
+  {%- if nav_node_suffix == "-fa.md" -%}
     {%- assign nav_counterpart_path = nav_node_path | replace: "-fa.md", "-en.md" -%}
     {%- assign nav_en_page = include.pages | where: "path", nav_counterpart_path | first -%}
     {%- if nav_en_page -%}
