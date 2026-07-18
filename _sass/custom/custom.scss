@@ -59,6 +59,12 @@
     background-color: #e4e4e4;
     border-radius: 2px;
   }
+
+  .nav-list-link {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 }
 
 iframe.calendar {
