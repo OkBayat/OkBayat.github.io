@@ -122,7 +122,11 @@ Project Records, Program Records, and Experiment Reports remain indexed manually
 
 Persian and English editions of the same conceptual work belong under one registry entry. Each edition keeps its own URL, language metadata, title, and page content. Index pages display them as language choices for one work rather than as unrelated publications.
 
-When article files are paired, use a shared `translation_key` and the established `-en.md` / `-fa.md` filename convention.
+The sidebar language switch is driven by page front matter. Every paired edition must declare the same non-empty `translation_key`, use the exact language values `lang: en` and `lang: fa`, and share the same immediate `parent`. The English edition is the primary navigation row; the Persian edition appears as its `FA` switch rather than as a separate row. `nav_exclude` may hide an edition only when that exclusion is intentional.
+
+Use the established `-en.md` / `-fa.md` filename convention for clarity and as a fallback for older pages, but do not change a stable permalink merely to mirror a filename. A registry entry by itself does not create the sidebar language switch; the page metadata must also be complete and consistent.
+
+Before merging a bilingual publication, inspect both generated pages and confirm one bilingual sidebar row, one `FA` link, no standalone Persian duplicate, and a complete breadcrumb chain in both languages.
 
 ### Controlled body-of-work identifiers
 
