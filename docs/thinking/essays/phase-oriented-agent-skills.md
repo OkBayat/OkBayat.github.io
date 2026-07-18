@@ -12,6 +12,7 @@ date: 2026-07-18
 date_modified: 2026-07-18
 last_modified_date: 2026-07-18
 status: essay
+translation_key: phase-oriented-agent-skills
 evidence_level: architectural-proposal-informed-by-implementation-experience-and-primary-sources
 seo:
   type: Article
