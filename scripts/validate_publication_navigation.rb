@@ -46,6 +46,13 @@ def href_variants(url)
 end
 
 
+def contains_href?(html, url)
+  href_variants(url).any? do |href|
+    html.match?(/href=["']#{Regexp.escape(href)}["']/)
+  end
+end
+
+
 def href_count(html, url)
   href_variants(url).sum do |href|
     html.scan(/href=["']#{Regexp.escape(href)}["']/).length
@@ -77,7 +84,7 @@ publication_urls = works.flat_map do |work|
 end
 
 publication_urls.each do |url|
-  unless href_variants(url).any? { |href| nav_html.match?(/href=["']#{Regexp.escape(href)}["']/) }
+  unless contains_href?(nav_html, url)
     errors << "canonical publication is missing from its sidebar submenu: #{url}"
   end
 end
@@ -93,6 +100,10 @@ sources_by_permalink = language_paths.each_with_object({}) do |path, index|
 
   index[normalize_url(permalink)] = path
 end
+
+bilingual_rows = nav_html.scan(
+  /<li\b[^>]*class=["'][^"']*\bnav-list-item-bilingual\b[^"']*["'][^>]*>.*?<\/li>/mi
+)
 
 bilingual_count = 0
 
@@ -128,19 +139,11 @@ works.each do |work|
   bilingual_count += 1
   english_url = normalize_url(front_matter(english_path).fetch("permalink"))
   persian_url = normalize_url(front_matter(persian_path).fetch("permalink"))
-  english_position = href_variants(english_url).filter_map { |href| nav_html.index(%(href="#{href}")) }.min
-  english_position ||= href_variants(english_url).filter_map { |href| nav_html.index(%(href='#{href}')) }.min
-
-  unless english_position
-    errors << "bilingual work has no English primary navigation link: #{work_id}"
-    next
+  row_html = bilingual_rows.find do |row|
+    contains_href?(row, english_url) && contains_href?(row, persian_url)
   end
 
-  row_start = nav_html.rindex("<li", english_position)
-  row_end = nav_html.index("</li>", english_position)
-  row_html = row_start && row_end ? nav_html[row_start..(row_end + 4)] : nil
-
-  unless row_html&.match?(/class=["'][^"']*\bnav-list-item-bilingual\b/)
+  unless row_html
     errors << "bilingual work is not rendered as one bilingual navigation row: #{work_id}"
     next
   end
@@ -169,7 +172,7 @@ required_hubs = %w[
 ]
 
 required_hubs.each do |url|
-  unless href_variants(url).any? { |href| nav_html.match?(/href=["']#{Regexp.escape(href)}["']/) }
+  unless contains_href?(nav_html, url)
     errors << "required publication hub is missing from the global sidebar: #{url}"
   end
 end
