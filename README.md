@@ -122,7 +122,16 @@ Project Records, Program Records, and Experiment Reports remain indexed manually
 
 Persian and English editions of the same conceptual work belong under one registry entry. Each edition keeps its own URL, language metadata, title, and page content. Index pages display them as language choices for one work rather than as unrelated publications.
 
-When article files are paired, use a shared `translation_key` and the established `-en.md` / `-fa.md` filename convention.
+The sidebar language switch and paired breadcrumbs are determined exclusively by source filenames. A bilingual pair must be stored in the same directory and use the exact same filename stem:
+
+- `<stem>-en.md` for the English edition;
+- `<stem>-fa.md` for the Persian edition.
+
+The English file is the primary navigation row. The Persian file appears as its `FA` switch and is not rendered as a separate row. `translation_key`, `lang`, and publication-registry metadata do not participate in discovering the pair. Files that do not follow the exact matching filename convention are treated as independent pages.
+
+Canonical URLs remain controlled by each page's `permalink`; renaming a source file to satisfy the bilingual filename convention must not change a stable public URL.
+
+Before merging a bilingual publication, inspect both generated pages and confirm one bilingual sidebar row, one `FA` link, no standalone Persian duplicate, and a complete breadcrumb chain in both languages.
 
 ### Controlled body-of-work identifiers
 
@@ -495,7 +504,7 @@ Before publishing or merging a structural change:
 3. Confirm that each section has only one navigation page and that no two pages share the same permalink.
 4. Confirm that every registered work and edition has a unique ID and URL.
 5. Confirm that every canonical Essay, Research Note, Reading Note, and Translation is represented once in `_data/publications.yml`.
-6. Confirm that bilingual editions share one conceptual registry entry.
+6. Confirm that bilingual editions share one conceptual registry entry, use exact matching `<stem>-en.md` and `<stem>-fa.md` source filenames, and render as one navigation row.
 7. Confirm that all body and theme identifiers come from the controlled vocabulary.
 8. Confirm that type indexes group by `primary_body` and topical indexes filter by `bodies_of_work` and `themes`.
 9. Confirm that cross-listing links to the canonical page and never copies the article body.
