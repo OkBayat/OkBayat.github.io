@@ -155,12 +155,12 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
 
+markdown: kramdown
 kramdown:
+  input: GFM
   syntax_highlighter_opts:
     block:
       line_numbers: false
-
-markdown: MyCustomProcessor
 
 compress_html:
   clippings: all
