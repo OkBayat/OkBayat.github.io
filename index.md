@@ -19,9 +19,13 @@ OkBayat.com is a public record of the questions, field projects, evidence, softw
 
 [K2Quant](/building/k2quant) is the main company-building part of my work. It brings together quantitative systems, software engineering, artificial intelligence, decision-support tools, and the practical work of operating a technical organization.
 
+Writing about software, AI, agent systems, entrepreneurship, company-building, operations, and project lessons is collected in [Building Publications & Notes](/building/publications).
+
 ### Studying Human Transformation
 
 [Human Transformation](/human-transformation) is an independent inquiry into learning, language, identity, context, performance, leadership, group coordination, and quality of life. It connects reading with field projects and practice-based observation without treating those observations as formal scientific proof.
+
+Related essays, research notes, reading notes, translations, and field records are collected in [Human Transformation Publications & Notes](/human-transformation/publications).
 
 ## Questions I Am Working On
 
@@ -60,11 +64,14 @@ The evolving set of questions is recorded in the [Human Transformation Research 
 - **Building** documents companies, software, projects, and formal experiments when they exist.
 - **Program Records** distinguish program history and participant self-report from evidence of efficacy.
 
+Content type determines the canonical home of a page. Body-of-work and theme indexes create additional ways to discover it without copying the article or fragmenting the site into separate technical, startup, and human blogs.
+
 ## Start Here
 
+- [Essays](/thinking/essays)
+- [Building Publications & Notes](/building/publications)
+- [Human Transformation Publications & Notes](/human-transformation/publications)
 - [Human Transformation Research Agenda](/human-transformation/research-agenda)
-- [Learning Circle Field Project](/human-transformation/field-projects/learning-circle)
 - [Vocora](/building/vocora)
 - [K2Quant](/building/k2quant)
-- [Research Notes](/thinking/research-notes)
 - [Current Work](/about/current-interests)
