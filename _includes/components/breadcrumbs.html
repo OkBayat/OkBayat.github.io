@@ -5,7 +5,7 @@
   Results in: HTML for the breadcrumbs component.
   Overwrites:
     breadcrumb_page, breadcrumb_page_path, breadcrumb_page_suffix,
-    breadcrumb_pair_pages, breadcrumb_counterpart_path, breadcrumb_counterpart,
+    breadcrumb_counterpart_path, breadcrumb_counterpart,
     nav_list_link, site_nav, nav_list_simple, nav_list_link_class, nav_category,
     nav_anchor_splits, nav_breadcrumbs, nav_split, nav_split_next, nav_split_test,
     nav_breadcrumb_link, nav_list_end_less, nav_list_end_count, nav_end_index, nav_breadcrumb.
@@ -16,25 +16,19 @@
 {%- assign breadcrumb_page = page -%}
 {%- assign breadcrumb_page_path = page.path | default: "" -%}
 {%- assign breadcrumb_page_suffix = breadcrumb_page_path | slice: -6, 6 -%}
-{%- assign breadcrumb_pair_pages = "" | split: "" -%}
 {%- assign breadcrumb_counterpart = nil -%}
 
 {%- comment -%}
   A paired Persian page is intentionally absent from the visible navigation.
   Use its English sibling to locate the shared parent chain, while keeping the
-  current Persian page title as the final breadcrumb. translation_key is the
-  authoritative relationship; the filename convention remains a legacy fallback.
+  current Persian page title as the final breadcrumb.
 {%- endcomment -%}
-{%- if page.translation_key and page.lang == "fa" -%}
-  {%- assign breadcrumb_pair_pages = site.html_pages | where: "translation_key", page.translation_key -%}
-  {%- assign breadcrumb_counterpart = breadcrumb_pair_pages | where: "lang", "en" | first -%}
-{%- elsif breadcrumb_page_suffix == "-fa.md" -%}
+{%- if breadcrumb_page_suffix == "-fa.md" -%}
   {%- assign breadcrumb_counterpart_path = breadcrumb_page_path | replace: "-fa.md", "-en.md" -%}
   {%- assign breadcrumb_counterpart = site.html_pages | where: "path", breadcrumb_counterpart_path | first -%}
-{%- endif -%}
-
-{%- if breadcrumb_counterpart -%}
-  {%- assign breadcrumb_page = breadcrumb_counterpart -%}
+  {%- if breadcrumb_counterpart -%}
+    {%- assign breadcrumb_page = breadcrumb_counterpart -%}
+  {%- endif -%}
 {%- endif -%}
 
 {%- capture site_nav -%}
@@ -103,7 +97,7 @@
         nav_split_next.size | minus: nav_list_end_less.size | divided_by: 5 -%}
   {% for nav_end_index in (1..nav_list_end_count) %}
     {%- assign nav_breadcrumbs = nav_breadcrumbs | pop -%}
-  {%- endfor -%}
+  {%- endfor %}
 {%- endif -%}
 
 {%- endunless -%}
