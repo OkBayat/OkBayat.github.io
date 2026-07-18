@@ -33,36 +33,12 @@
   }
 
   ol {
-    // list-style-type: none;
-    counter-reset: step-counter;
-
     > li {
       position: relative;
 
-      // &::before {
       &::marker {
-        // position: absolute;
-        // top: 0.2em;
-        // left: -1.6em;
-        // content: counter(step-counter);
-        // counter-increment: step-counter;
         color: $grey-dk-000;
         @include fs-3;
-
-        // @include mq(sm) {
-          // top: 0.11em;
-        // }
-      }
-
-      ol {
-        counter-reset: sub-counter;
-
-        > li {
-          &::before {
-            content: counter(sub-counter, lower-alpha);
-            counter-increment: sub-counter;
-          }
-        }
       }
     }
   }
