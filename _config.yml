@@ -15,6 +15,33 @@ defaults:
     values:
       layout: "default"
 
+  # Keep canonical article pages discoverable through their type index, topical
+  # indexes, internal links, and search without crowding the global sidebar.
+  # The four section indexes explicitly opt back in with `nav_exclude: false`.
+  - scope:
+      path: "docs/thinking/essays"
+      type: "pages"
+    values:
+      nav_exclude: true
+
+  - scope:
+      path: "docs/thinking/research-notes"
+      type: "pages"
+    values:
+      nav_exclude: true
+
+  - scope:
+      path: "docs/thinking/reading-notes"
+      type: "pages"
+    values:
+      nav_exclude: true
+
+  - scope:
+      path: "docs/thinking/translations"
+      type: "pages"
+    values:
+      nav_exclude: true
+
   # Keep detailed legacy material accessible through its section hub and search
   # without allowing every course, concept, cohort, or source page to crowd the
   # global sidebar. Section index pages explicitly opt back in with
@@ -60,8 +87,6 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - bin/
-  - lib/
   - "*.gemspec"
   - "*.gem"
   - LICENSE.txt
