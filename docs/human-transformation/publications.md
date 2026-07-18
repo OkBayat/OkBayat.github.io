@@ -4,44 +4,61 @@ title: Publications & Notes
 parent: Human Transformation
 nav_order: 6
 direction: ltr
-description: "A curated index of canonical essays, research notes, field records, translations, and project pages related to human transformation."
+description: "A curated index of canonical essays, research notes, reading notes, translations, field records, and project pages related to human transformation."
 permalink: /human-transformation/publications
 ---
 
 # Human Transformation Publications & Notes
 
-This page is a curated index. Each item remains in its canonical content section so authorship, evidence status, and revision history are not duplicated or blurred.
+This page is a topical index. Each item remains in its canonical content section so authorship, evidence status, language metadata, and revision history are not duplicated or blurred.
+
+A work may appear under more than one theme because learning, identity, relationships, leadership, language, and worldview overlap. Cross-listing does not create a second copy of the page.
 
 ## Program and Field Records
 
-- [Human Transformation Research Agenda](/human-transformation/research-agenda) — active questions and boundaries.
+- [Human Transformation Research Agenda](/human-transformation/research-agenda) — active questions, evidence boundaries, and methods.
 - [Learning Circle](/human-transformation/field-projects/learning-circle) — children's autonomy, peer teaching, group coordination, and facilitator withdrawal.
 - [Mastery for Life Program Record](/human-transformation/practice-programs/mastery-for-life) — program history, questions, participant self-reports, limitations, and evaluation needs.
+- [Leadership](/leadership) — hub for the existing practice, coaching, course, research, and source archive.
 
-## Leadership and Identity
+## Relationships, Acceptance & Completion
 
-- [Leadership](/leadership) — hub for the existing practice and source archive.
-- [Leadership Field Inquiry](/leadership/research) — current status and evidence boundaries.
-- [بوته‌های آزمایش راهبری](/thinking/research-notes/crucibles-of-leadership) — source-based notes on difficult experience, identity, and leadership.
-- [مدل جدید راهبری](/thinking/research-notes/a-new-model-of-leadership) — source-based material on ontological and phenomenological leadership.
+{% for work in site.data.publications.works %}
+{% if work.bodies_of_work contains "human-transformation" and work.themes contains "relationships-acceptance" %}
+- **{{ work.content_type | replace: "-", " " | capitalize }}:** {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %}<br>{% endunless %}{% endfor %} — {{ work.summary }}
+{% endif %}
+{% endfor %}
 
-## Relationships, Acceptance, and Completion
+## Leadership, Identity & Coordination
 
-- [پیش از تغییر، پذیرش؛ درباره‌ی ماهیت انسان و رابطه](/thinking/essays/acceptance-before-change) — Persian essay on resistance, acceptance, boundaries, learning, and transformation in relationships, groups, and organizations.
-- [Acceptance Before Change; On Human Nature and Relationships](/thinking/essays/acceptance-before-change-en) — English version of the essay.
+{% for work in site.data.publications.works %}
+{% if work.bodies_of_work contains "human-transformation" and work.themes contains "leadership-identity-coordination" %}
+- **{{ work.content_type | replace: "-", " " | capitalize }}:** {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %}<br>{% endunless %}{% endfor %} — {{ work.summary }}
+{% endif %}
+{% endfor %}
 
-## Learning and Memory
+## Learning, Memory & Language
 
-- [Vocora](/building/vocora) — a bounded research-and-building project about learning and learning technology.
-- [Vocora Research Agenda](/building/vocora/research-agenda) — retrieval, spacing, feedback, motivation, language practice, and measurement.
-- [Research Notes](/thinking/research-notes) — canonical home for current evidence reviews and design notes.
+{% for work in site.data.publications.works %}
+{% if work.bodies_of_work contains "human-transformation" and work.themes contains "learning-memory-language" %}
+- **{{ work.content_type | replace: "-", " " | capitalize }}:** {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %}<br>{% endunless %}{% endfor %} — {{ work.summary }}
+{% endif %}
+{% endfor %}
 
-## Language, Worldview, and Context
+Vocora is a bounded software project within this wider inquiry. Its project-specific writing is collected in [Vocora Publications & Notes](/building/vocora/publications).
+
+## Philosophy, Worldview & Context
+
+{% for work in site.data.publications.works %}
+{% if work.bodies_of_work contains "human-transformation" and work.themes contains "philosophy-worldview" %}
+- **{{ work.content_type | replace: "-", " " | capitalize }}:** {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %}<br>{% endunless %}{% endfor %} — {{ work.summary }}
+{% endif %}
+{% endfor %}
 
 - [Podcast: Inja-Anja](/voice/podcast) — conversations about worldview, frames of reference, perception, language, and integrity.
-- [Leadership Source Library](/leadership/resources) — translations and concept material whose source lineage should remain visible.
-- [Translations](/thinking/translations) — canonical attributed translations and adaptations.
+- [Human Transformation Source Library](/human-transformation/source-library) — source lineage and concept maps.
+- [Leadership Source Library](/leadership/resources) — translations and concept material whose source lineage remains visible.
 
 ## Publication Rule
 
-A page is added here because it contributes to an active question, not because it confirms a preferred answer. Inconclusive notes, revised interpretations, and negative observations are eligible when they are documented clearly.
+A page is added here because it contributes to an active question, not because it confirms a preferred answer. Inconclusive notes, revised interpretations, negative observations, and contradictory evidence are eligible when they are documented clearly.

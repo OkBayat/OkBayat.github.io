@@ -13,6 +13,27 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  publications:
+    name: Validate publication registry
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          show-progress: false
+      - name: Validate publication registry
+        shell: bash
+        run: |
+          set -o pipefail
+          ruby scripts/validate_publications.rb 2>&1 | tee publication-validation.txt
+      - name: Upload publication validation diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: publication-validation
+          path: publication-validation.txt
+          if-no-files-found: error
+          retention-days: 7
+
   jekyll-build:
     name: Build (jekyll gem)
     strategy:
@@ -62,7 +83,7 @@ jobs:
           BUNDLE_GEMFILE: fixtures/Gemfile-github-pages
 
   validate:
-    name: Validate HTML
+    name: Validate HTML and navigation
     strategy:
       fail-fast: false
       matrix:
@@ -85,6 +106,8 @@ jobs:
           key: ${{ runner.os }}-htmlproofer
       - name: Build Site
         run: bundle exec jekyll build
+      - name: Validate publication navigation
+        run: ruby scripts/validate_publication_navigation.rb _site
       - name: Test with Nu Validator
         uses: Cyb3r-Jak3/html5validator-action@2a593a9f2c10593cbac84791a6fc4c47e9a106c8
         with:

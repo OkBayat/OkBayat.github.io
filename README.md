@@ -1,6 +1,6 @@
 # okbayat.com — Content Architecture and Editorial Guide
 
-This document defines how content on **okbayat.com** is organized, described, reviewed, and revised. It is the canonical guide for the site's navigation and editorial model and must be updated whenever either changes.
+This document defines how content on **okbayat.com** is organized, described, reviewed, and revised. It is the canonical guide for the site's navigation, editorial model, publication taxonomy, and maintenance rules. Update it whenever any of those systems changes.
 
 ## 1. Purpose of the site
 
@@ -8,8 +8,8 @@ okbayat.com is a durable public record of what Mohammad Bayat is building, study
 
 The work has two connected bodies:
 
-1. **Building systems and organizations** — quantitative systems, software engineering, artificial intelligence, K2Quant, company-building, technical decisions, operating systems, and bounded social-impact initiatives.
-2. **Studying human learning and transformation** — learning, memory, language, identity, context, performance, leadership, group coordination, and quality of life.
+1. **Building systems and organizations** — quantitative systems, software engineering, artificial intelligence, agent systems, K2Quant, company-building, technical decisions, operating systems, and bounded social-impact initiatives.
+2. **Studying human learning and transformation** — learning, memory, language, identity, context, performance, leadership, group coordination, relationships, and quality of life.
 
 The site is not a stream of promotional posts and does not present open questions as settled answers. It should help a reader distinguish among:
 
@@ -19,7 +19,7 @@ The site is not a stream of promotional posts and does not present open question
 - field observations and participant self-reports;
 - software and organizational work that exists in practice;
 - formal experiments, when an appropriate method exists;
-- limitations, uncertainty, and revisions.
+- limitations, uncertainty, failure, and revision.
 
 ## 2. Editorial principles
 
@@ -50,11 +50,11 @@ Program records explain what a program is, where it came from, how it has been r
 
 ### Publish articles with complete metadata and in-page navigation
 
-Every published article-like page must satisfy the metadata, language, SEO, and table-of-contents rules in Section 9. Missing required front matter or a missing in-page table of contents blocks publication.
+Every published article-like page must satisfy the metadata, language, SEO, and table-of-contents rules in this guide. Missing required front matter or a missing in-page table of contents blocks publication.
 
 ### Keep navigation structured
 
-Only durable section hubs belong in the global sidebar. Detailed concepts, old cohorts, course records, and individual notes may use `nav_exclude: true` and remain accessible through their canonical index, internal links, and search.
+Only durable section hubs belong in the global sidebar. Detailed concepts, old cohorts, course records, and individual notes may use `nav_exclude: true` and remain accessible through their canonical index, topical indexes, internal links, and search.
 
 Each section must have only one navigation page. Do not keep two pages with the same `title` and `permalink`.
 
@@ -64,7 +64,100 @@ Do not add `has_children: true` to page front matter. The theme derives child re
 
 Parent pages with child pages already receive an automatically generated child-page table of contents from the theme. Do not add a manual `Explore` or `Table of Contents` section that repeats those links.
 
-## 3. Canonical navigation
+## 3. The two-axis publication architecture
+
+The site organizes writing on two independent axes. They answer different questions and must not be collapsed into one hierarchy.
+
+### Axis 1: content type determines the canonical home
+
+Content type describes authorship, evidence status, and the relationship between the page and its sources:
+
+- Essay
+- Research Note
+- Reading Note
+- Translation
+- Project Record
+- Program Record
+- Experiment Report
+
+A software essay and a relationship essay are both Essays when their main contribution is Mohammad's original argument. A startup book note remains a Reading Note because it depends on a specific source. A translated AI article remains a Translation because its authorship belongs to another writer.
+
+### Axis 2: body of work and theme determine discovery
+
+A canonical page may be linked from one or more topical lenses:
+
+- Building Publications & Notes
+- Human Transformation Publications & Notes
+- Vocora Publications & Notes
+- future project- or series-specific indexes when enough durable work exists
+
+Cross-listing is intentional. It creates several ways to find one work without copying its text or creating competing URLs.
+
+### One conceptual work, one registry entry
+
+`_data/publications.yml` is the machine-readable registry for canonical written works. It currently covers Essays, Research Notes, Reading Notes, and Translations.
+
+Each conceptual work appears exactly once and declares:
+
+```yaml
+- id: stable-work-id
+  content_type: essay
+  primary_body: building
+  bodies_of_work:
+    - building
+  themes:
+    - software-ai-agent-systems
+  project: k2quant
+  summary: A concise description used by publication indexes.
+  editions:
+    - lang: en
+      label: English
+      title: Canonical page title
+      url: /canonical/url
+```
+
+Project Records, Program Records, and Experiment Reports remain indexed manually until their volume justifies extending the registry. They still follow the same one-page and topical-index principles.
+
+### Bilingual and multilingual works
+
+Persian and English editions of the same conceptual work belong under one registry entry. Each edition keeps its own URL, language metadata, title, and page content. Index pages display them as language choices for one work rather than as unrelated publications.
+
+When article files are paired, use a shared `translation_key` and the established `-en.md` / `-fa.md` filename convention.
+
+### Controlled body-of-work identifiers
+
+Use only these body identifiers unless this guide is revised:
+
+- `building`
+- `human-transformation`
+
+A work may belong to both. `primary_body` determines its primary grouping in type indexes; `bodies_of_work` determines all topical indexes where it may appear.
+
+### Controlled theme identifiers
+
+Use focused, durable themes rather than creating a tag for every phrase:
+
+- `software-ai-agent-systems`
+- `entrepreneurship-company-building`
+- `systems-operations-decision-making`
+- `project-reflections-social-impact`
+- `learning-memory-language`
+- `leadership-identity-coordination`
+- `relationships-acceptance`
+- `philosophy-worldview`
+
+A work may use several themes. Add a new controlled theme only when multiple durable works require a distinction that the existing vocabulary cannot express clearly.
+
+### Categories, tags, and taxonomy fields serve different jobs
+
+- `categories` describe canonical site structure and content type, such as `thinking` and `essays`.
+- `tags` describe the specific subject of one page for SEO and search.
+- `bodies_of_work` and `themes` in the central registry control curated discovery across the site.
+- `project`, `program`, and `translation_key` record durable relationships when applicable.
+
+Do not use tags as a substitute for publication architecture.
+
+## 4. Canonical navigation
 
 ```text
 Home
@@ -87,6 +180,7 @@ Human Transformation
 └── Research Log
 
 Building
+├── Publications & Notes
 ├── K2Quant
 ├── Vocora
 │   ├── Research Agenda
@@ -107,6 +201,14 @@ About
 └── Contact
 ```
 
+### Why Thinking is organized by type
+
+Thinking answers: **What kind of written work is this?** Keeping content types distinct protects authorship and evidence boundaries. It also prevents a translated technical article, an unfinished product investigation, and an original essay from being presented as equivalent work.
+
+### Why Building and Human Transformation are topical lenses
+
+Building and Human Transformation answer: **Which body of work or active question does this page inform?** They collect canonical pages from across Thinking, projects, programs, and experiments without republishing them.
+
 ### Why Human Transformation is separate from Leadership
 
 Leadership is one setting in which questions about language, identity, context, performance, and durable change appear. It is not broad enough to contain the full inquiry. Human Transformation is therefore the parent program; Leadership remains a substantial subdomain with its existing resources, programs, coaching material, and field notes.
@@ -120,11 +222,13 @@ K2Quant and Vocora are ongoing bodies of work rather than bounded side projects:
 
 `Projects` is reserved for more bounded products, systems, organizations, and initiatives with a distinct scope and operating history, such as K2 OS and FamilyLink. Projects may be active, paused, completed, discontinued, or inconclusive. `Experiments` is reserved for explicit protocols and results.
 
-## 4. Content types
+## 5. Content types
 
 ### Essays
 
 Original long-form arguments, interpretations, and syntheses written by Mohammad Bayat. An essay should not be used for a direct translation, a source summary, or an unfinished collection of notes.
+
+Essays remain together under `/thinking/essays`. Do not create separate canonical sections such as Technical Essays, Startup Essays, or Human Essays. Use the Building and Human Transformation indexes, controlled themes, and project indexes for subject discovery.
 
 ### Research Notes
 
@@ -157,7 +261,7 @@ Notes, interpretations, disagreements, and questions developed while reading a s
 
 Translations or adaptations of work written by someone else. Every page must name the original author, original title and source, translator or adapter, and whether the page is a complete translation, selected translation, summary, or adaptation. Commentary added by Mohammad must be labelled.
 
-### Project Pages
+### Project Records
 
 Stable descriptions of real work: what existed or exists, why it was built, its operating model, present status, evidence basis, current questions, limitations, and what has not been demonstrated.
 
@@ -191,7 +295,28 @@ Durable descriptions of a facilitated program or recurring practice. A program r
 
 Reports with an explicit question, hypothesis, method, participants or dataset, comparison, predeclared metrics, results, limitations, ethics, and status. `Planned`, `Running`, `Completed`, and `Inconclusive` are all acceptable statuses.
 
-## 5. Human Transformation publishing model
+## 6. Publishing models
+
+### Essays publishing model
+
+- `/thinking/essays/...` is the canonical home for original arguments and synthesis.
+- `/thinking/essays` groups works by primary body and durable theme.
+- bilingual editions appear as one conceptual work with multiple language links.
+- Building and Human Transformation indexes may cross-list the same essay.
+
+### Building publishing model
+
+- `/building` — body-of-work overview;
+- `/building/publications` — curated topical index of writing and records;
+- `/building/k2quant` — K2Quant overview and related writing;
+- `/building/vocora` — Vocora overview and current state;
+- `/building/projects` — bounded project records;
+- `/building/experiments` — protocols and results;
+- `/thinking/...` — canonical written works according to content type.
+
+The Building publications page may group the same work under software, company-building, operations, project reflection, and learning technology when those relationships are real.
+
+### Human Transformation publishing model
 
 Human Transformation is a cross-cutting inquiry rather than a claim that a complete theory of human change already exists.
 
@@ -202,7 +327,7 @@ Each page has one canonical home:
 - `/human-transformation/field-projects` — index of practice-based field projects;
 - `/human-transformation/practice-programs` — index of durable program records;
 - `/human-transformation/source-library` — source lineage and concept-library index;
-- `/human-transformation/publications` — curated index of related output;
+- `/human-transformation/publications` — curated topical index of related output;
 - `/human-transformation/research-log` — dated changes in questions, evidence, methods, and interpretations;
 - `/thinking/research-notes/...` — canonical research, field, literature, and design notes;
 - `/thinking/essays/...` — original arguments and synthesis;
@@ -212,17 +337,16 @@ Each page has one canonical home:
 
 The publications page links to canonical pages; it does not duplicate them.
 
-## 6. Vocora publishing model
+### Vocora publishing model
 
 Vocora content is distributed by type, with one canonical home for each page:
 
 - `/building/vocora` — project overview and current state;
 - `/building/vocora/research-agenda` — questions, methods, and boundaries;
-- `/building/vocora/publications` — curated index of related output;
-- `/building/vocora/research-log` — dated changes in questions, evidence, measurements, and decisions;
+- `/building/vocora/publications` — curated project index;
+- `/building/vocora/research-log` — dated changes in evidence, measurements, and decisions;
 - `/thinking/research-notes/...` — research and design notes;
-- `/thinking/essays/...` — original essays;
-- `/thinking/translations/...` — translated work;
+- `/thinking/translations/...` — translated work, even when an older stable permalink does not mirror the current folder;
 - `/building/experiments/...` — protocols and results when formal experiments exist.
 
 The publications page links to these items; it does not duplicate them.
@@ -276,26 +400,26 @@ Pages involving minors must:
 - report group-level observations where possible;
 - acknowledge selection effects, maturation, family relationships, and observer bias.
 
-## 9. Article metadata, SEO, and table of contents
+## 9. Article metadata, taxonomy, SEO, and table of contents
 
-The rules in this section are mandatory for every published article-like page: Essays, Research Notes, Reading Notes, Translations, Project Pages, Field Notes, Program Records, and Experiment Reports. They do not apply to section indexes, navigation pages, or short utility pages.
+The rules in this section are mandatory for every published article-like page: Essays, Research Notes, Reading Notes, Translations, Project Records, Field Notes, Program Records, and Experiment Reports. They do not apply to section indexes, navigation pages, or short utility pages.
 
-### SEO metadata
-
-The shared site head invokes `jekyll-seo-tag` with `{% seo %}`. Article Markdown must therefore provide complete YAML front matter and must not contain hand-written HTML `<meta>` tags.
+### Required front matter
 
 Every article must include:
 
 - a unique, accurate `title` in the article's primary language;
 - a specific, natural-language `description` that summarizes the page in one sentence and does not merely repeat the title;
 - `author`, plus `translator` for translated or adapted work;
-- `date` for first publication;
+- `date` for first publication when known;
 - `date_modified` for SEO metadata and `last_modified_date` for the theme; update both when the article changes materially;
-- `direction`, `lang`, and `locale` using the language rules below;
-- `seo.type: Article` so article pages are identified as articles in JSON-LD;
+- `direction`, `lang`, and `locale`;
+- `seo.type: Article`;
 - one canonical `permalink` and `sitemap: true`;
 - canonical `categories` for site structure;
 - three to eight focused `tags` that describe the actual subject of the article.
+
+Add content-type fields such as `status`, `project`, `program`, `note_type`, `evidence_level`, `privacy`, `translation_key`, or `image` when they apply. Declare only the immediate `parent`; never repeat higher levels of the hierarchy with `grand_parent`.
 
 Add `image` when a relevant social-sharing image exists. Do not use an irrelevant placeholder image. Do not add `<meta name="keywords">`; front matter `tags` must not be used for keyword stuffing.
 
@@ -306,69 +430,23 @@ Add `image` when a relevant social-sharing image exists. Do not use an irrelevan
 
 `locale` is used by `jekyll-seo-tag` for locale-specific SEO metadata and takes priority over `lang`. Keep both fields present because they serve different consumers.
 
-#### Persian front matter example
+### Publication registry requirement
 
-```yaml
----
-layout: default
-title: عنوان دقیق و یکتای مقاله
-description: "یک توضیح یک‌جمله‌ای دقیق و طبیعی درباره مسئله و محتوای اصلی مقاله."
-parent: Research Notes
-direction: rtl
-lang: fa
-locale: fa_IR
-author: Mohammad Bayat
-date: 2026-07-17
-date_modified: 2026-07-17
-last_modified_date: 2026-07-17
-status: working-note
-seo:
-  type: Article
-categories:
-  - thinking
-  - research-notes
-tags:
-  - یادگیری
-  - زبان
-  - تحول
-sitemap: true
-permalink: /thinking/research-notes/example
----
-```
+Before a canonical Essay, Research Note, Reading Note, or Translation is published, add or update its entry in `_data/publications.yml`.
 
-#### English front matter example
+Validation must confirm:
 
-```yaml
----
-layout: default
-title: A Precise and Unique Article Title
-description: "A specific one-sentence summary of the article's central question and contribution."
-parent: Research Notes
-direction: ltr
-lang: en
-locale: en_US
-author: Mohammad Bayat
-date: 2026-07-17
-date_modified: 2026-07-17
-last_modified_date: 2026-07-17
-status: working-note
-seo:
-  type: Article
-categories:
-  - thinking
-  - research-notes
-tags:
-  - learning
-  - language
-  - transformation
-sitemap: true
-permalink: /thinking/research-notes/example
----
-```
+- every registered `id` is unique;
+- every canonical edition URL is unique;
+- every `content_type`, body identifier, and theme identifier is supported;
+- every registry URL resolves to a published page;
+- every published canonical written work is represented exactly once;
+- language editions of one conceptual work share one registry entry;
+- index pages do not hard-code a second competing classification for the same work.
 
-Add content-type fields such as `status`, `project`, `program`, `note_type`, `evidence_level`, `privacy`, `translator`, or `image` when they apply. Declare only the immediate `parent`; never repeat higher levels of the hierarchy with `grand_parent`.
+### Content labels
 
-Use a content label near the beginning of the page when readers could otherwise misunderstand its status:
+Use a content label near the beginning of a page when readers could otherwise misunderstand its status:
 
 - Essay
 - Open Question
@@ -394,63 +472,14 @@ Use this order at the beginning of every article:
 4. the table of contents;
 5. the first main `##` section.
 
-The table of contents belongs **after the introduction or summary and before the first main section**.
-
-#### Persian article
-
-```markdown
-# عنوان مقاله
-{: .no_toc }
-
-{ زیرعنوان یا برچسب محتوا | fs-6 }
-
-> بلوک وضعیت، نویسنده یا منبع در صورت نیاز
-
-یک یا چند پاراگراف مقدمه یا خلاصه که مسئله، ارزش و محدوده متن را روشن می‌کند.
-
-<details open markdown="block">
-  <summary>
-    فهرست مطالب
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
-## بخش اول
-```
-
-#### English article
-
-```markdown
-# Article title
-{: .no_toc }
-
-{ Subtitle or content label | fs-6 }
-
-> Status, author, or source block when needed
-
-One or more opening paragraphs that explain the article's question, value, and scope.
-
-<details open markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
-## First section
-```
-
-`{:toc}` may appear only once on a page. To omit a heading from the generated table of contents, place `{: .no_toc }` immediately after that heading. Never maintain a manual list of heading links when the generated table of contents can be used.
+The table of contents belongs **after the introduction or summary and before the first main section**. `{:toc}` may appear only once on a page. To omit a heading from the generated table of contents, place `{: .no_toc }` immediately after that heading. Never maintain a manual list of heading links when the generated table of contents can be used.
 
 ## 10. URL, navigation, and language rules
 
 - Every page has one current canonical URL.
-- When a URL changes, update its `permalink`, search the entire repository for the old URL or path, and update every internal reference in the same change.
+- When a URL changes, update its `permalink`, the publication registry, and every internal reference in the same change.
 - Never retain an old URL through a redirect, transition page, legacy page, duplicate page, or compatibility path.
+- Do not change a stable URL merely to make its path mirror a new taxonomy. Canonical type, parent, categories, and indexes can change without unnecessary URL churn.
 - Edit useful content in place and delete obsolete content; do not create archives merely to preserve previous versions.
 - Keep section indexes in the sidebar and detailed pages out of it unless they are intentionally featured.
 - Use one primary language per page and set `direction`, `lang`, and `locale` accordingly.
@@ -464,18 +493,24 @@ Before publishing or merging a structural change:
 1. Confirm that every `parent` matches the immediate parent page's `title` exactly.
 2. Confirm that page front matter contains neither `grand_parent` nor `has_children`.
 3. Confirm that each section has only one navigation page and that no two pages share the same permalink.
-4. When a URL or file path changes, search the entire repository and update every reference to the old value.
-5. Confirm that no redirect, transition page, legacy page, duplicate page, or compatibility path preserves an obsolete URL.
-6. Confirm that useful material was edited in place and obsolete material was deleted rather than archived.
-7. Keep published articles discoverable through their canonical index; use `nav_exclude` only intentionally.
-8. Confirm that every article has the required SEO front matter, language values, dates, and `seo.type`.
-9. Confirm that every article has exactly one generated table of contents after its introduction and before its first main `##` section.
-10. Confirm that project pages state current status, evidence basis, operating dependencies, and what has not been demonstrated.
-11. Confirm that human-related claims identify evidence level, alternative explanations, and limitations.
-12. Confirm that pages involving people satisfy the privacy and consent rules; apply the additional safeguards for children.
-13. Check internal links and the Jekyll build.
-14. Inspect generated pages, SEO tags, and the sidebar.
-15. Update this guide when navigation, definitions, or evidence standards change.
+4. Confirm that every registered work and edition has a unique ID and URL.
+5. Confirm that every canonical Essay, Research Note, Reading Note, and Translation is represented once in `_data/publications.yml`.
+6. Confirm that bilingual editions share one conceptual registry entry.
+7. Confirm that all body and theme identifiers come from the controlled vocabulary.
+8. Confirm that type indexes group by `primary_body` and topical indexes filter by `bodies_of_work` and `themes`.
+9. Confirm that cross-listing links to the canonical page and never copies the article body.
+10. When a URL or file path changes, search the entire repository and update every reference to the old value.
+11. Confirm that no redirect, transition page, legacy page, duplicate page, or compatibility path preserves an obsolete URL.
+12. Confirm that useful material was edited in place and obsolete material was deleted rather than archived.
+13. Keep published articles discoverable through their canonical index and relevant topical indexes; use `nav_exclude` only intentionally.
+14. Confirm that every article has the required SEO front matter, language values, dates when known, and `seo.type`.
+15. Confirm that every article has exactly one generated table of contents after its introduction and before its first main `##` section.
+16. Confirm that project pages state current status, evidence basis, operating dependencies, and what has not been demonstrated.
+17. Confirm that human-related claims identify evidence level, alternative explanations, and limitations.
+18. Confirm that pages involving people satisfy the privacy and consent rules; apply the additional safeguards for children.
+19. Check internal links and the Jekyll build.
+20. Inspect generated pages, registry-rendered indexes, SEO tags, breadcrumbs, language switches, and the sidebar.
+21. Update this guide when navigation, definitions, controlled vocabularies, or evidence standards change.
 
 ## 12. Success criteria
 
@@ -484,6 +519,8 @@ The site is succeeding when a reader can quickly understand:
 - the two main bodies of Mohammad's work;
 - what he is actually building and studying now;
 - which pages are original, translated, exploratory, observed, reported, or tested;
+- where a work canonically belongs and which subjects or projects it informs;
+- how to browse technical, company-building, human, and cross-disciplinary writing without encountering separate competing archives;
 - what evidence supports a claim and what remains uncertain;
 - how K2Quant, Vocora, FamilyLink, Learning Circle, leadership practice, and facilitated programs relate without being collapsed into one kind of work;
 - how questions, methods, and interpretations change over time.

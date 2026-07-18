@@ -11,11 +11,20 @@ permalink: /thinking
 
 This section contains written work at different stages and with different purposes. The label matters: an essay, open question, field note, source note, and translation should not be presented as the same kind of authorship or evidence.
 
+## How the Writing Is Organized
+
+The site uses two complementary axes:
+
+1. **Content type determines the canonical home.** Essays, Research Notes, Reading Notes, and Translations each describe a different relationship to authorship, evidence, and completeness.
+2. **Body of work and theme determine discovery.** The same canonical page may also be linked from [Building Publications & Notes](/building/publications), [Human Transformation Publications & Notes](/human-transformation/publications), or a project-specific index such as [Vocora Publications & Notes](/building/vocora/publications).
+
+A page is never copied merely because it belongs to more than one subject. Cross-listing creates multiple ways to find the work while preserving one URL, one text, and one revision history.
+
 ## Sections
 
 ### [Essays](/thinking/essays)
 
-Original long-form arguments, interpretation, and synthesis written by Mohammad Bayat.
+Original long-form arguments, interpretations, and syntheses written by Mohammad Bayat. Essays are grouped by body of work and theme without being split into separate technical, startup, or human essay archives.
 
 ### [Research Notes](/thinking/research-notes)
 
@@ -42,5 +51,3 @@ Research-related pages should distinguish among:
 - questions that remain open.
 
 The purpose is not to make every page sound final. It is to make the status of each idea visible.
-
-Questions and writing connected to learning, language, identity, context, performance, leadership, and quality of life are also indexed in [Human Transformation Publications & Notes](/human-transformation/publications).
