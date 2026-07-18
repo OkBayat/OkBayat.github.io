@@ -92,7 +92,8 @@
     }
 
     &:hover,
-    &:focus {
+    &:focus,
+    &.active {
       color: $link-color;
       text-decoration: none;
       background-color: $feedback-color;
