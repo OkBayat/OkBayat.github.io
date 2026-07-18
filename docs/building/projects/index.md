@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 parent: Building
-nav_order: 3
+nav_order: 4
 direction: ltr
 description: "Bounded products, systems, organizations, and social-impact initiatives built, operated, or explored by Mohammad Bayat."
 permalink: /building/projects
