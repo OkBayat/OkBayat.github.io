@@ -106,6 +106,8 @@ jobs:
           key: ${{ runner.os }}-htmlproofer
       - name: Validate custom Markdown processor
         run: bundle exec ruby scripts/validate_custom_markdown_processor.rb
+      - name: Validate list and sidebar styles
+        run: ruby scripts/validate_list_and_sidebar_styles.rb
       - name: Build Site
         run: bundle exec jekyll build
       - name: Validate publication navigation
