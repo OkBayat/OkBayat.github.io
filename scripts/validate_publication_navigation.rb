@@ -32,15 +32,68 @@ end
 
 nav_html = nav_match[1]
 errors = []
+works = registry.fetch("works")
 
-publication_urls = registry.fetch("works").flat_map do |work|
+
+def href_variants(url)
+  [url, "#{url}/"].uniq
+end
+
+
+def href_count(html, url)
+  href_variants(url).sum do |href|
+    html.scan(/href=["']#{Regexp.escape(href)}["']/).length
+  end
+end
+
+publication_urls = works.flat_map do |work|
   work.fetch("editions").map { |edition| edition.fetch("url") }
 end
 
 publication_urls.each do |url|
-  hrefs = [url, "#{url}/"].uniq
-  unless hrefs.any? { |href| nav_html.match?(/href=["']#{Regexp.escape(href)}["']/) }
+  unless href_variants(url).any? { |href| nav_html.match?(/href=["']#{Regexp.escape(href)}["']/) }
     errors << "canonical publication is missing from its sidebar submenu: #{url}"
+  end
+end
+
+works.each do |work|
+  editions = work.fetch("editions")
+  next unless editions.length > 1
+
+  english = editions.find { |edition| edition["lang"] == "en" }
+  persian = editions.find { |edition| edition["lang"] == "fa" }
+  next unless english && persian
+
+  english_url = english.fetch("url")
+  persian_url = persian.fetch("url")
+  english_position = href_variants(english_url).filter_map { |href| nav_html.index(%(href="#{href}")) }.min
+  english_position ||= href_variants(english_url).filter_map { |href| nav_html.index(%(href='#{href}')) }.min
+
+  unless english_position
+    errors << "bilingual work has no English primary navigation link: #{work.fetch('id')}"
+    next
+  end
+
+  row_start = nav_html.rindex("<li", english_position)
+  row_end = nav_html.index("</li>", english_position)
+  row_html = row_start && row_end ? nav_html[row_start..(row_end + 4)] : nil
+
+  unless row_html&.match?(/class=["'][^"']*\bnav-list-item-bilingual\b/)
+    errors << "bilingual work is not rendered as one bilingual navigation row: #{work.fetch('id')}"
+    next
+  end
+
+  unless href_variants(persian_url).any? { |href| row_html.match?(/href=["']#{Regexp.escape(href)}["'][^>]*class=["'][^"']*\bnav-list-language-link\b/) }
+    errors << "bilingual work is missing its Persian language switch: #{work.fetch('id')}"
+  end
+
+  unless row_html.match?(/>\s*FA\s*<\/a>/)
+    errors << "bilingual work Persian switch must be labelled FA: #{work.fetch('id')}"
+  end
+
+  persian_count = href_count(nav_html, persian_url)
+  unless persian_count == 1
+    errors << "bilingual work must expose the Persian URL exactly once in navigation, found #{persian_count}: #{work.fetch('id')}"
   end
 end
 
@@ -54,14 +107,14 @@ required_hubs = %w[
 ]
 
 required_hubs.each do |url|
-  hrefs = [url, "#{url}/"].uniq
-  unless hrefs.any? { |href| nav_html.match?(/href=["']#{Regexp.escape(href)}["']/) }
+  unless href_variants(url).any? { |href| nav_html.match?(/href=["']#{Regexp.escape(href)}["']/) }
     errors << "required publication hub is missing from the global sidebar: #{url}"
   end
 end
 
 if errors.empty?
-  puts "Publication navigation validation passed: #{publication_urls.length} canonical editions visible in submenus, #{required_hubs.length} hubs visible"
+  bilingual_count = works.count { |work| work.fetch("editions").length > 1 }
+  puts "Publication navigation validation passed: #{publication_urls.length} canonical editions visible, #{bilingual_count} bilingual works grouped, #{required_hubs.length} hubs visible"
   exit 0
 end
 
