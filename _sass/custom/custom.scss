@@ -34,6 +34,14 @@
   }
 }
 
+// The migration headings already contain their numeric step labels. Suppress
+// the theme's generated nested counters in this TOC branch so it does not
+// render combinations such as `1. a1.` before each step.
+#markdown-toc a[href="#a-practical-migration-path"] ~ ol li::before {
+  content: none;
+  counter-increment: none;
+}
+
 .footnotes {
   font-size: 0.9rem;
 }
