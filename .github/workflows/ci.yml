@@ -77,6 +77,8 @@ jobs:
           ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Validate publication registry
+        run: ruby scripts/validate_publications.rb
       - name: Cache HTMLProofer
         id: cache-htmlproofer
         uses: actions/cache@v3
