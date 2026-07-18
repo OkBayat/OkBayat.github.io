@@ -18,11 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.4"
-          bundler-cache: false
+          show-progress: false
       - name: Validate publication registry
         run: ruby scripts/validate_publications.rb
 
