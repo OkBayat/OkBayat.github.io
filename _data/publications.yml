@@ -1,0 +1,331 @@
+# Canonical publication registry for okbayat.com.
+#
+# Each conceptual work appears once. Language editions share one work entry.
+# A page keeps one canonical URL in its content-type section; bodies_of_work and
+# themes provide additional discovery lenses without duplicating the page.
+
+bodies_of_work:
+  building:
+    label: Building Systems & Organizations
+    url: /building
+  human-transformation:
+    label: Human Transformation
+    url: /human-transformation
+
+themes:
+  software-ai-agent-systems:
+    label: Software, AI & Agent Systems
+  entrepreneurship-company-building:
+    label: Entrepreneurship & Company Building
+  systems-operations-decision-making:
+    label: Systems, Operations & Decision-Making
+  project-reflections-social-impact:
+    label: Project Reflections & Social Impact
+  learning-memory-language:
+    label: Learning, Memory & Language
+  leadership-identity-coordination:
+    label: Leadership, Identity & Coordination
+  relationships-acceptance:
+    label: Relationships, Acceptance & Completion
+  philosophy-worldview:
+    label: Philosophy, Worldview & Context
+
+works:
+  - id: phase-oriented-agent-skills
+    content_type: essay
+    primary_body: building
+    bodies_of_work:
+      - building
+    themes:
+      - software-ai-agent-systems
+      - systems-operations-decision-making
+    project: k2quant
+    summary: A reference architecture for explicit phases, lazy loading, bounded side effects, resumable handoffs, and testable agent execution.
+    editions:
+      - lang: en
+        label: English
+        title: Designing Large Agent Skills as Deterministic, Phase-Oriented Systems
+        url: /thinking/essays/phase-oriented-agent-skills
+
+  - id: ten-years-of-familylink
+    content_type: essay
+    primary_body: building
+    bodies_of_work:
+      - building
+    themes:
+      - entrepreneurship-company-building
+      - systems-operations-decision-making
+      - project-reflections-social-impact
+    project: familylink
+    summary: A reflection on a decade-long social-impact project, the limits of its evidence, and the failure of its funding and continuity model.
+    editions:
+      - lang: en
+        label: English
+        title: "Ten Years of FamilyLink: What We Built, Why It Paused, and What Remains"
+        url: /thinking/essays/ten-years-of-familylink
+
+  - id: acceptance-before-change
+    content_type: essay
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+    themes:
+      - relationships-acceptance
+      - leadership-identity-coordination
+      - learning-memory-language
+    program: human-transformation
+    translation_key: acceptance-before-change
+    summary: An argument about seeing human and relational reality clearly enough to set boundaries, learn, and make responsible change possible.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: پیش از تغییر، پذیرش؛ درباره‌ی ماهیت انسان و رابطه
+        url: /thinking/essays/acceptance-before-change-fa
+      - lang: en
+        label: English
+        title: Acceptance Before Change; On Human Nature and Relationships
+        url: /thinking/essays/acceptance-before-change-en
+
+  - id: vocora-learning-metrics
+    content_type: research-note
+    primary_body: building
+    bodies_of_work:
+      - building
+      - human-transformation
+    themes:
+      - learning-memory-language
+      - systems-operations-decision-making
+    project: vocora
+    summary: Separates practice activity, current performance, and longer-term retention, and defines what Vocora should and should not call learning.
+    editions:
+      - lang: en
+        label: English
+        title: What Should Vocora Measure as Learning?
+        url: /thinking/research-notes/vocora-learning-metrics
+
+  - id: retrieval-practice
+    content_type: research-note
+    primary_body: building
+    bodies_of_work:
+      - building
+      - human-transformation
+    themes:
+      - learning-memory-language
+    project: vocora
+    summary: Reviews what retrieval practice can support, what it does not prove, and how the mechanism is currently used in Vocora.
+    editions:
+      - lang: en
+        label: English
+        title: Retrieval Practice in Vocora
+        url: /thinking/research-notes/retrieval-practice
+
+  - id: spaced-practice-and-leitner
+    content_type: research-note
+    primary_body: building
+    bodies_of_work:
+      - building
+      - human-transformation
+    themes:
+      - learning-memory-language
+      - systems-operations-decision-making
+    project: vocora
+    summary: Distinguishes the general spacing effect from the practical but not yet optimized schedule used by Vocora.
+    editions:
+      - lang: en
+        label: English
+        title: Spaced Practice and the Leitner System
+        url: /thinking/research-notes/spaced-practice-and-leitner
+
+  - id: ethical-gamification
+    content_type: research-note
+    primary_body: building
+    bodies_of_work:
+      - building
+      - human-transformation
+    themes:
+      - learning-memory-language
+      - software-ai-agent-systems
+      - systems-operations-decision-making
+    project: vocora
+    summary: Defines autonomy, motivation, privacy, and evidence guardrails for goals, streaks, progress feedback, and sharing.
+    editions:
+      - lang: en
+        label: English
+        title: Ethical Gamification in Vocora
+        url: /thinking/research-notes/ethical-gamification
+
+  - id: hebbs-rule
+    content_type: research-note
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+      - building
+    themes:
+      - learning-memory-language
+      - relationships-acceptance
+    project: vocora
+    summary: A cautious conceptual note on Hebbian learning, association, and the limits of using one neural principle to explain emotion or behavior.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: قانون هب و شکل‌گیری تداعی‌ها
+        url: /thinking/research-notes/hebbs-rule
+
+  - id: crucibles-of-leadership
+    content_type: research-note
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+    themes:
+      - leadership-identity-coordination
+      - learning-memory-language
+    summary: Notes on Warren Bennis and Robert Thomas's account of difficult experience, identity, learning, and leadership development.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: بوته‌های آزمایش راهبری
+        url: /thinking/research-notes/crucibles-of-leadership
+
+  - id: a-new-model-of-leadership
+    content_type: research-note
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+    themes:
+      - leadership-identity-coordination
+      - philosophy-worldview
+    summary: A source-based note on the ontological and phenomenological model of leadership and the difference between knowing about leadership and leading in action.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: مدل جدید راهبری
+        url: /thinking/research-notes/a-new-model-of-leadership
+
+  - id: being-and-time
+    content_type: reading-note
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+    themes:
+      - philosophy-worldview
+      - leadership-identity-coordination
+      - learning-memory-language
+    summary: A reading of Being and Time in dialogue with Speaking Being and the author's experience of leadership, language, and human action.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: از هستی تا راهبری
+        url: /thinking/reading-notes/being-and-time
+
+  - id: holistic-learning
+    content_type: reading-note
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+    themes:
+      - learning-memory-language
+      - leadership-identity-coordination
+      - philosophy-worldview
+    summary: A critical interdisciplinary review of holistic learning, ways of being, Heidegger, and the possibility of evidence-aware leadership education.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: یادگیری کلنگر
+        url: /thinking/reading-notes/holistic-learning
+
+  - id: smarter-faster-better
+    content_type: reading-note
+    primary_body: building
+    bodies_of_work:
+      - building
+      - human-transformation
+    themes:
+      - systems-operations-decision-making
+      - leadership-identity-coordination
+    summary: Notes on decision-making, focus, motivation, teams, and the design of sustainable productivity.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: باهوش‌تر، سریع‌تر، بهتر
+        url: /thinking/reading-notes/smarter-faster-better
+
+  - id: tao-te-ching
+    content_type: reading-note
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+    themes:
+      - philosophy-worldview
+      - leadership-identity-coordination
+    summary: Notes on the Tao Te Ching, simplicity, effortless action, Eastern philosophy, life, and leadership.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: تائو تِ چینگ
+        url: /thinking/reading-notes/tao-te-ching
+
+  - id: the-infinite-game
+    content_type: reading-note
+    primary_body: building
+    bodies_of_work:
+      - building
+      - human-transformation
+    themes:
+      - entrepreneurship-company-building
+      - leadership-identity-coordination
+      - systems-operations-decision-making
+    summary: A reading of long-term leadership, purpose, trust, resilience, and organizations built for more than short-term wins.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: بازی بی‌نهایت
+        url: /thinking/reading-notes/the-infinite-game
+
+  - id: the-power-of-habit
+    content_type: reading-note
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+      - building
+    themes:
+      - learning-memory-language
+      - leadership-identity-coordination
+      - systems-operations-decision-making
+    summary: Notes on habit loops, keystone habits, and behavior change in individuals, organizations, and societies.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: قدرت عادت
+        url: /thinking/reading-notes/the-power-of-habit
+
+  - id: thinking-fast-and-slow
+    content_type: reading-note
+    primary_body: building
+    bodies_of_work:
+      - building
+      - human-transformation
+    themes:
+      - systems-operations-decision-making
+      - learning-memory-language
+    summary: Notes on fast and slow thinking, cognitive bias, intuition, judgment, and decision-making in life and work.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: تفکر سریع و کند
+        url: /thinking/reading-notes/thinking-fast-and-slow
+
+  - id: how-your-brain-finds-patterns
+    content_type: translation
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+      - building
+    themes:
+      - learning-memory-language
+    project: vocora
+    summary: A Persian translation and adaptation of a general introduction to statistical learning and language-pattern detection.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: مغز چگونه الگوهای زبان را دنبال می‌کند
+        url: /thinking/essays/how-your-brain-finds-patterns
