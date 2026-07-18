@@ -39,8 +39,8 @@ end
 
 publication_urls.each do |url|
   hrefs = [url, "#{url}/"].uniq
-  if hrefs.any? { |href| nav_html.match?(/href=["']#{Regexp.escape(href)}["']/) }
-    errors << "canonical publication leaked into the global sidebar: #{url}"
+  unless hrefs.any? { |href| nav_html.match?(/href=["']#{Regexp.escape(href)}["']/) }
+    errors << "canonical publication is missing from its sidebar submenu: #{url}"
   end
 end
 
@@ -61,7 +61,7 @@ required_hubs.each do |url|
 end
 
 if errors.empty?
-  puts "Publication navigation validation passed: #{publication_urls.length} canonical editions hidden, #{required_hubs.length} hubs visible"
+  puts "Publication navigation validation passed: #{publication_urls.length} canonical editions visible in submenus, #{required_hubs.length} hubs visible"
   exit 0
 end
 
