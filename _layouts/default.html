@@ -22,11 +22,58 @@ layout: table_wrappers
       {% include components/breadcrumbs.html %}
       <div id="main-content" class="main-content" dir="{{ page.direction | default: 'ltr' }}">
         <main>
-          {% if site.heading_anchors != false %}
-            {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#svg-link\"></use></svg>" anchorClass="anchor-heading" anchorAttrs="aria-labelledby=\"%html_id%\"" %}
-          {% else %}
-            {{ content }}
+          {% capture rendered_content %}
+            {% if site.heading_anchors != false %}
+              {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#svg-link\"></use></svg>" anchorClass="anchor-heading" anchorAttrs="aria-labelledby=\"%html_id%\"" %}
+            {% else %}
+              {{ content }}
+            {% endif %}
+          {% endcapture %}
+
+          {% assign article_language_page_path = page.path | default: "" %}
+          {% assign article_language_page_suffix = article_language_page_path | slice: -6, 6 %}
+          {% assign article_language_counterpart_path = nil %}
+
+          {% if article_language_page_suffix == "-en.md" %}
+            {% assign article_language_counterpart_path = article_language_page_path | replace: "-en.md", "-fa.md" %}
+          {% elsif article_language_page_suffix == "-fa.md" %}
+            {% assign article_language_counterpart_path = article_language_page_path | replace: "-fa.md", "-en.md" %}
           {% endif %}
+
+          {% assign article_language_counterpart = nil %}
+          {% if article_language_counterpart_path %}
+            {% assign article_language_counterpart = site.html_pages | where: "path", article_language_counterpart_path | first %}
+          {% endif %}
+
+          {% capture article_language_switch %}{% include components/article_language_switch.html %}{% endcapture %}
+          {% assign article_language_switch = article_language_switch | strip %}
+
+          {% if article_language_counterpart and article_language_switch != "" %}
+            {% assign article_language_counterpart_url = article_language_counterpart.url | relative_url %}
+
+            {% comment %}
+              Remove the legacy, hand-authored links used by existing bilingual
+              articles. New articles should rely only on the automatic switch.
+            {% endcomment %}
+            {% capture legacy_english_language_link %}<p><span dir="ltr"><a href="{{ article_language_counterpart_url }}">English version</a></span></p>{% endcapture %}
+            {% capture legacy_persian_language_link %}<p><a href="{{ article_language_counterpart_url }}">نسخه‌ی فارسی</a></p>{% endcapture %}
+            {% assign rendered_content = rendered_content | remove: legacy_english_language_link | remove: legacy_persian_language_link %}
+
+            {% assign article_language_legacy_url = article_language_counterpart_url | replace: "-en", "" %}
+            {% if article_language_legacy_url != article_language_counterpart_url %}
+              {% capture legacy_english_language_link_without_suffix %}<p><span dir="ltr"><a href="{{ article_language_legacy_url }}">English version</a></span></p>{% endcapture %}
+              {% assign rendered_content = rendered_content | remove: legacy_english_language_link_without_suffix %}
+            {% endif %}
+
+            {% if rendered_content contains "<h1" %}
+              {% capture article_heading_open %}<div class="article-heading-row"><h1{% endcapture %}
+              {% capture article_heading_close %}</h1>{{ article_language_switch }}</div>{% endcapture %}
+              {% assign rendered_content = rendered_content | replace_first: "<h1", article_heading_open %}
+              {% assign rendered_content = rendered_content | replace_first: "</h1>", article_heading_close %}
+            {% endif %}
+          {% endif %}
+
+          {{ rendered_content }}
 
           {% if page.has_toc != false %}
             {% include components/children_nav.html %}

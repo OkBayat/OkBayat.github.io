@@ -1,0 +1,40 @@
+{%- comment -%}
+  Render a compact link to the alternate-language edition of the current page.
+
+  Pair discovery intentionally follows the same filename contract as the sidebar
+  and breadcrumbs: sibling files must share a stem and end in -en.md / -fa.md.
+{%- endcomment -%}
+
+{%- assign article_language_page_path = page.path | default: "" -%}
+{%- assign article_language_page_suffix = article_language_page_path | slice: -6, 6 -%}
+{%- assign article_language_counterpart_path = nil -%}
+{%- assign article_language_label = nil -%}
+{%- assign article_language_code = nil -%}
+{%- assign article_language_accessible_label = nil -%}
+
+{%- if article_language_page_suffix == "-en.md" -%}
+  {%- assign article_language_counterpart_path = article_language_page_path | replace: "-en.md", "-fa.md" -%}
+  {%- assign article_language_label = "FA" -%}
+  {%- assign article_language_code = "fa" -%}
+  {%- assign article_language_accessible_label = "Read the Persian version" -%}
+{%- elsif article_language_page_suffix == "-fa.md" -%}
+  {%- assign article_language_counterpart_path = article_language_page_path | replace: "-fa.md", "-en.md" -%}
+  {%- assign article_language_label = "EN" -%}
+  {%- assign article_language_code = "en" -%}
+  {%- assign article_language_accessible_label = "مطالعهٔ نسخهٔ انگلیسی" -%}
+{%- endif -%}
+
+{%- if article_language_counterpart_path -%}
+  {%- assign article_language_counterpart = site.html_pages | where: "path", article_language_counterpart_path | first -%}
+  {%- if article_language_counterpart -%}
+    <a
+      class="article-language-switch"
+      href="{{ article_language_counterpart.url | relative_url }}"
+      lang="{{ article_language_code }}"
+      hreflang="{{ article_language_code }}"
+      rel="alternate"
+      aria-label="{{ article_language_accessible_label }}: {{ article_language_counterpart.title | escape }}"
+      title="{{ article_language_accessible_label }}"
+    >{{ article_language_label }}</a>
+  {%- endif -%}
+{%- endif -%}
