@@ -3,6 +3,7 @@ layout: default
 title: Translations
 parent: Thinking
 nav_order: 4
+nav_exclude: false
 direction: ltr
 description: "Attributed translations and adaptations, organized by the questions and projects they inform."
 permalink: /thinking/translations
