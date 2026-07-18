@@ -201,6 +201,37 @@ works:
         title: مدل جدید راهبری
         url: /thinking/research-notes/a-new-model-of-leadership
 
+  - id: art-groupwork-communication
+    content_type: research-note
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+    themes:
+      - leadership-identity-coordination
+      - relationships-acceptance
+      - learning-memory-language
+    summary: A research note on how art can surface unspoken conflict, fear of judgment, power relations, and recurring interaction patterns inside groups.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: هنر و روابط پنهان یک گروه
+        url: /thinking/research-notes/art-groupwork-communication
+
+  - id: journaling
+    content_type: research-note
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+    themes:
+      - learning-memory-language
+      - relationships-acceptance
+    summary: A source-based note on expressive writing, narrative construction, difficult experiences, emotion regulation, and claims made for the Pennebaker journaling protocol.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: پروتکل ژورنال‌نویسی
+        url: /thinking/research-notes/journaling
+
   - id: being-and-time
     content_type: reading-note
     primary_body: human-transformation
