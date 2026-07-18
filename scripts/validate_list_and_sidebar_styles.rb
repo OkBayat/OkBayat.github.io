@@ -12,7 +12,7 @@ def extract_block(source, selector)
   selector_index = source.index(selector)
   return nil unless selector_index
 
-  opening_brace = source.index("{", selector_index + selector.length)
+  opening_brace = source.index("{", selector_index)
   return nil unless opening_brace
 
   depth = 0
@@ -32,7 +32,7 @@ content = CONTENT_STYLES.read(encoding: "UTF-8")
 custom = CUSTOM_STYLES.read(encoding: "UTF-8")
 errors = []
 
-ordered_list_block = extract_block(content, "\n  ol {")
+ordered_list_block = extract_block(content, "\n  ol {\n    > li {")
 if ordered_list_block.nil?
   errors << "could not find the main ordered-list style block"
 else
