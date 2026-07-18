@@ -66,12 +66,8 @@ layout: table_wrappers
             {% endif %}
 
             {% if rendered_content contains "<h1" %}
-              {% assign article_heading_parts = rendered_content | split: "<h1" %}
-              {% assign article_heading_fragment = article_heading_parts[1] %}
-              {% assign article_heading_attributes = article_heading_fragment | split: ">" | first %}
-              {% capture article_heading_open %}<h1{{ article_heading_attributes }}>{% endcapture %}
-              {% capture article_heading_open_with_switch %}{{ article_heading_open }}{{ article_language_switch }}{% endcapture %}
-              {% assign rendered_content = rendered_content | replace_first: article_heading_open, article_heading_open_with_switch %}
+              {% capture article_heading_close_with_switch %}{{ article_language_switch }}</h1>{% endcapture %}
+              {% assign rendered_content = rendered_content | replace_first: "</h1>", article_heading_close_with_switch %}
             {% endif %}
           {% endif %}
 
