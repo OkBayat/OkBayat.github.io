@@ -155,7 +155,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
 
-markdown: kramdown
+markdown: MyCustomProcessor
 kramdown:
   input: GFM
   syntax_highlighter_opts:
