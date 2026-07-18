@@ -91,6 +91,30 @@ works:
         title: Acceptance Before Change; On Human Nature and Relationships
         url: /thinking/essays/acceptance-before-change-en
 
+  - id: when-the-question-changes
+    content_type: essay
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+      - building
+    themes:
+      - leadership-identity-coordination
+      - philosophy-worldview
+      - entrepreneurship-company-building
+      - systems-operations-decision-making
+    program: human-transformation
+    translation_key: when-the-question-changes
+    summary: An experience-based argument about how shifting from a money worldview to a commitment beyond the self changes attention, coordination, business models, and organizational learning.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: وقتی سؤال عوض می‌شود، سازمان عوض می‌شود؛ از جهان‌بینی پول تا تعهدی فراتر از خود
+        url: /thinking/essays/when-the-question-changes-fa
+      - lang: en
+        label: English
+        title: "When the Question Changes, the Organization Changes: From a Money Worldview to a Commitment Beyond the Self"
+        url: /thinking/essays/when-the-question-changes-en
+
   - id: vocora-learning-metrics
     content_type: research-note
     primary_body: building
