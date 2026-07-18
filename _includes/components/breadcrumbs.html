@@ -4,6 +4,8 @@
   Includes: components/site_nav.html.
   Results in: HTML for the breadcrumbs component.
   Overwrites:
+    breadcrumb_page, breadcrumb_page_path, breadcrumb_page_suffix,
+    breadcrumb_counterpart_path, breadcrumb_counterpart,
     nav_list_link, site_nav, nav_list_simple, nav_list_link_class, nav_category,
     nav_anchor_splits, nav_breadcrumbs, nav_split, nav_split_next, nav_split_test,
     nav_breadcrumb_link, nav_list_end_less, nav_list_end_count, nav_end_index, nav_breadcrumb.
@@ -11,20 +13,41 @@
 
 {%- if page.url != "/" and page.parent and page.title -%}
 
+{%- assign breadcrumb_page = page -%}
+{%- assign breadcrumb_page_path = page.path | default: "" -%}
+{%- assign breadcrumb_page_suffix = breadcrumb_page_path | slice: -6, 6 -%}
+{%- assign breadcrumb_counterpart = nil -%}
+
+{%- comment -%}
+  A paired Persian page is intentionally absent from the visible navigation.
+  Use its English sibling to locate the shared parent chain, while keeping the
+  current Persian page title as the final breadcrumb.
+{%- endcomment -%}
+{%- if breadcrumb_page_suffix == "-fa.md" -%}
+  {%- assign breadcrumb_counterpart_path = breadcrumb_page_path | replace: "-fa.md", "-en.md" -%}
+  {%- assign breadcrumb_counterpart = site.html_pages | where: "path", breadcrumb_counterpart_path | first -%}
+  {%- if breadcrumb_counterpart -%}
+    {%- assign breadcrumb_page = breadcrumb_counterpart -%}
+  {%- endif -%}
+{%- endif -%}
+
 {%- capture site_nav -%}
 {%- include_cached components/site_nav.html all=true -%}
 {%- endcapture -%}
 
+{%- comment -%}
+  Match the stable beginning of the anchor instead of its complete opening tag.
+  Navigation links may contain extra attributes such as `title`.
+{%- endcomment -%}
 {%- capture nav_list_link -%}
-<a href="{{ page.url | relative_url }}" class="nav-list-link">
+<a href="{{ breadcrumb_page.url | relative_url }}" class="nav-list-link"
 {%- endcapture -%}
 
 {%- capture nav_list_simple -%}
 <ul class="nav-list">
 {%- endcapture -%}
 
-{%- capture nav_list_link_class %} class="nav-list-link">
-{%- endcapture -%}
+{%- capture nav_list_link_class -%}class="nav-list-link"{%- endcapture -%}
 
 {%- capture nav_category -%}
 <div class="nav-category">
@@ -64,7 +87,7 @@
 {%- if nav_split_test == nav_split_next -%}
   {%- assign nav_breadcrumb_link =
         nav_split | split: "<a " | last | prepend: "<a " |
-        replace: nav_list_link_class, ">" | append: "</a>" -%}
+        replace: nav_list_link_class, "" | append: "</a>" -%}
   {%- assign nav_breadcrumbs = nav_breadcrumbs | push: nav_breadcrumb_link -%}
 {%- endif -%}
 

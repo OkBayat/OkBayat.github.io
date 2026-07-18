@@ -27,7 +27,7 @@ tags:
   - یادگیری گروهی
   - راهبری
 sitemap: true
-permalink: /thinking/essays/acceptance-before-change
+permalink: /thinking/essays/acceptance-before-change-fa
 ---
 
 # پیش از تغییر، پذیرش؛ درباره‌ی ماهیت انسان و رابطه

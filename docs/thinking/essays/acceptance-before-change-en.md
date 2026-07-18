@@ -35,7 +35,7 @@ permalink: /thinking/essays/acceptance-before-change-en
 
 { Why fighting reality prevents learning | fs-6 }
 
-[نسخه‌ی فارسی](/thinking/essays/acceptance-before-change)
+[نسخه‌ی فارسی](/thinking/essays/acceptance-before-change-fa)
 
 {: .note-title }
 > About this essay
