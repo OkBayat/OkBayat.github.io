@@ -22,6 +22,7 @@ An essay may draw on books, papers, field observations, and practice, but it sho
 
 ## Published Essays
 
+- [Designing Large Agent Skills as Deterministic, Phase-Oriented Systems](/thinking/essays/phase-oriented-agent-skills) — a reference architecture for explicit phases, lazy loading, bounded side effects, resumable handoffs, and testable execution.
 - [Ten Years of FamilyLink: What We Built, Why It Paused, and What Remains](/thinking/essays/ten-years-of-familylink) — a reflection on a long-running social-impact project, the limits of its evidence, and the failure of its funding model.
 - [پیش از تغییر، پذیرش؛ درباره‌ی ماهیت انسان و رابطه](/thinking/essays/acceptance-before-change) — Persian essay on acceptance, boundaries, learning, and transformation in relationships, groups, and organizations.
 - [Acceptance Before Change; On Human Nature and Relationships](/thinking/essays/acceptance-before-change-en) — English version of the essay.
