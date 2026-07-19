@@ -145,7 +145,7 @@
   }
 }
 
-.profile-photo-link--home {
+.profile-photo-link-home {
   width: 8rem;
   margin: 0 auto $sp-5;
 }
@@ -160,19 +160,19 @@
   border-radius: 50%;
 }
 
-.profile-photo--biography {
+.profile-photo-biography {
   width: 12rem;
   margin: 0 auto $sp-5;
 }
 
 @include mq(md) {
-  .profile-photo-link--home {
+  .profile-photo-link-home {
     float: right;
     width: 9rem;
     margin: 0 0 $sp-4 $sp-5;
   }
 
-  .profile-photo--biography {
+  .profile-photo-biography {
     float: right;
     width: 14rem;
     margin: 0 0 $sp-4 $sp-5;
