@@ -2,7 +2,7 @@
 layout: default
 title: Leadership
 parent: Human Transformation
-nav_order: 4
+nav_order: 5
 direction: ltr
 description: "Leadership, coaching, programs, source material, and practice-based inquiry within the broader Human Transformation work."
 permalink: /leadership
