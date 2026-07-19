@@ -2,7 +2,7 @@
 layout: default
 title: Publications & Notes
 parent: Building
-nav_order: 1
+nav_order: 3
 direction: ltr
 description: "A curated index of essays, research notes, reading notes, translations, and project records about software, AI, entrepreneurship, organizations, and systems."
 permalink: /building/publications

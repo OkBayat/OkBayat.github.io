@@ -2,7 +2,7 @@
 layout: default
 title: Current Work
 parent: About
-nav_order: 3
+nav_order: 1.5
 direction: ltr
 description: "The two active bodies of Mohammad Bayat's work: quantitative systems and organizations, and human learning and transformation."
 last_modified_date: 2026-07-17

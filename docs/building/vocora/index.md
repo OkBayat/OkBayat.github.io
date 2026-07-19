@@ -2,7 +2,7 @@
 layout: default
 title: Vocora
 parent: Building
-nav_order: 3
+nav_order: 2
 direction: ltr
 description: "An open-source research-and-building project about learning, memory, language practice, and learning technology."
 permalink: /building/vocora

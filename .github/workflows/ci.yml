@@ -112,6 +112,8 @@ jobs:
         run: bundle exec jekyll build
       - name: Validate profile photos
         run: ruby scripts/validate_profile_photos.rb _site
+      - name: Validate navigation priorities
+        run: ruby scripts/validate_navigation_priorities.rb _site
       - name: Validate automatic child-page lists
         run: ruby scripts/validate_child_page_navigation.rb _site
       - name: Validate publication navigation

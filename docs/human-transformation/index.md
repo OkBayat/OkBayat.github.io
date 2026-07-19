@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Human Transformation
-nav_order: 3
+nav_order: 4
 direction: ltr
 description: "An independent inquiry into learning, language, identity, context, performance, leadership, and durable human change."
-last_modified_date: 2026-07-17
+last_modified_date: 2026-07-19
 permalink: /human-transformation
 ---
 
@@ -25,11 +25,11 @@ A field observation, participant account, conceptual model, and controlled resul
 ## How the Work Is Organized
 
 - **Research Agenda** records the active questions and their status.
+- **Publications & Notes** is a curated index of canonical writing across the site.
 - **Field Projects** document settings in which learning and coordination are observed over time.
 - **Practice & Programs** preserve the history, questions, and limitations of facilitated programs.
 - **Leadership** contains the existing leadership, coaching, course, research, and source archive.
 - **Source Library** maps concepts and source lineages without presenting them as my conclusions.
-- **Publications & Notes** is a curated index of canonical writing across the site.
 - **Research Log** records changes in questions, methods, interpretations, and evidence standards.
 
 ## Working Standard

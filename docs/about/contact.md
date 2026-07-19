@@ -4,7 +4,7 @@ title: Contact
 parent: About
 nav_order: 4
 direction: ltr
-description: "Public contact and scheduling information for Mohammad Bayat."
+description: "Public contact, profile, and scheduling information for Mohammad Bayat."
 permalink: /about/contact
 ---
 
@@ -18,6 +18,12 @@ A useful message should include:
 - the subject or project you are writing about;
 - why you think a conversation or collaboration would be useful;
 - the decision, question, or next step you have in mind.
+
+## Elsewhere
+
+- [GitHub](https://github.com/OkBayat) — source code and public repositories
+- [LinkedIn](https://www.linkedin.com/in/okbayat/) — professional profile
+- [Instagram](https://www.instagram.com/OkBayat) — public updates
 
 ## Scheduling
 

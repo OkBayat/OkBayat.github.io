@@ -2,7 +2,7 @@
 layout: default
 title: Source Library
 parent: Human Transformation
-nav_order: 5
+nav_order: 6
 direction: ltr
 description: "A map of source material, translations, concept notes, and intellectual lineages related to human transformation."
 permalink: /human-transformation/source-library

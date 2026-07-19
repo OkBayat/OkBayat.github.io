@@ -2,7 +2,7 @@
 layout: default
 title: Field Projects
 parent: Human Transformation
-nav_order: 2
+nav_order: 3
 direction: ltr
 description: "Practice-based projects used to document questions about learning, coordination, context, and durable change."
 permalink: /human-transformation/field-projects

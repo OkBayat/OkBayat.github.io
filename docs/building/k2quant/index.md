@@ -2,7 +2,7 @@
 layout: default
 title: K2Quant
 parent: Building
-nav_order: 2
+nav_order: 1
 direction: ltr
 description: "Mohammad Bayat's company-building work in quantitative systems, software, artificial intelligence, and technical operations."
 permalink: /building/k2quant

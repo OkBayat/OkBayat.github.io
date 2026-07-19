@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Building
-nav_order: 4
+nav_order: 3
 direction: ltr
 description: "Companies, software projects, systems, social-impact initiatives, and documented experiments by Mohammad Bayat."
 permalink: /building
@@ -12,12 +12,6 @@ permalink: /building
 This section documents work that exists in practice: companies, software, systems, bounded initiatives, and experiments.
 
 It is organized by what is being built rather than by every question that the work raises. Cross-cutting questions about learning, language, identity, context, performance, leadership, and coordination are indexed separately under [Human Transformation](/human-transformation).
-
-## Publications & Notes
-
-[Building Publications & Notes](/building/publications) is the topical index for essays, research notes, reading notes, translations, project reflections, and experiment reports about software, AI, agent systems, entrepreneurship, company-building, operations, and decision-making.
-
-The writing remains in its canonical content-type section. This index creates a coherent Building lens without creating separate copies or parallel technical and startup blogs.
 
 ## Main Bodies of Work
 
@@ -30,6 +24,12 @@ My main company-building work around quantitative systems, software development,
 An independent research-and-building project about learning, memory, language practice, and learning technology. Its first working artifact is a vocabulary-practice application.
 
 Vocora is a concrete software project and also one bounded setting inside the broader Human Transformation inquiry. It does not represent every question in that program.
+
+## Publications & Notes
+
+[Building Publications & Notes](/building/publications) is the topical index for essays, research notes, reading notes, translations, project reflections, and experiment reports about software, AI, agent systems, entrepreneurship, company-building, operations, and decision-making.
+
+The writing remains in its canonical content-type section. This index creates a coherent Building lens without creating separate copies or parallel technical and startup blogs.
 
 ## Other Work
 

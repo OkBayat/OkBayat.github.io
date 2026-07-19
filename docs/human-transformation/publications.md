@@ -2,7 +2,7 @@
 layout: default
 title: Publications & Notes
 parent: Human Transformation
-nav_order: 6
+nav_order: 2
 direction: ltr
 description: "A curated index of canonical essays, research notes, reading notes, translations, field records, and project pages related to human transformation."
 permalink: /human-transformation/publications
