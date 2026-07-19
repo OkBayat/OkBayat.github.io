@@ -1,9 +1,6 @@
 function closestNavExpander(target, siteNav) {
   while (target && target !== siteNav) {
-    if (
-      target.classList &&
-      target.classList.contains("nav-list-expander")
-    ) {
+    if (target.classList && target.classList.contains("nav-list-expander")) {
       return target
     }
 
@@ -68,8 +65,7 @@ jtd.onReady(function () {
     }
 
     backToTop.hidden =
-      mobileNavigationIsAvailable() &&
-      menuButton.classList.contains("nav-open")
+      mobileNavigationIsAvailable() && menuButton.classList.contains("nav-open")
   }
 
   jtd.addEvent(siteNav, "click", function (event) {
