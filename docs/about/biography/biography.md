@@ -10,6 +10,8 @@ permalink: /about/biography
 
 # Biography
 
+{% include components/profile_photo.html variant="biography" %}
+
 Mohammad Bayat is a founder and software engineer whose work spans quantitative systems, web applications, technical architecture, artificial intelligence, company-building, and leadership practice.
 
 He has worked in software development since the early 2010s, including front-end and back-end systems, real-time market applications, testing infrastructure, data visualization, and quantitative trading software. His main company-building work is organized around [K2Quant](/building/k2quant).
