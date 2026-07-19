@@ -4,11 +4,15 @@ title: Publications & Notes
 parent: Human Transformation
 nav_order: 2
 direction: ltr
+lang: en
+locale: en_US
 description: "A curated index of canonical essays, research notes, reading notes, translations, field records, and project pages related to human transformation."
 permalink: /human-transformation/publications
 ---
 
 # Human Transformation Publications & Notes
+
+[نسخه‌ی فارسی](/human-transformation/publications-fa)
 
 This page is a topical index. Each item remains in its canonical content section so authorship, evidence status, language metadata, and revision history are not duplicated or blurred.
 

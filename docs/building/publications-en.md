@@ -4,11 +4,15 @@ title: Publications & Notes
 parent: Building
 nav_order: 3
 direction: ltr
+lang: en
+locale: en_US
 description: "A curated index of essays, research notes, reading notes, translations, and project records about software, AI, entrepreneurship, organizations, and systems."
 permalink: /building/publications
 ---
 
 # Building Publications & Notes
+
+[نسخه‌ی فارسی](/building/publications-fa)
 
 This page is a topical index for work about building systems and organizations. Each item remains in its canonical content-type section—Essay, Research Note, Reading Note, Translation, Project Record, or Experiment Report—so authorship, evidence status, and revision history remain clear.
 
