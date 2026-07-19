@@ -3,6 +3,7 @@ layout: default
 title: Inja-Anja
 parent: Podcast
 nav_order: 1
+nav_exclude: true
 direction: rtl
 lang: fa
 locale: fa_IR
