@@ -98,6 +98,8 @@ jobs:
           ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Validate canonical README
+        run: ruby scripts/validate_canonical_readme.rb
       - name: Cache HTMLProofer
         id: cache-htmlproofer
         uses: actions/cache@v3
