@@ -1,0 +1,167 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "pathname"
+
+ROOT = Pathname.new(__dir__).join("..").expand_path
+SITE_DIR = Pathname.new(ARGV.fetch(0, ROOT.join("_site").to_s)).expand_path
+
+
+def generated_page_path(site_dir, url)
+  normalized = url.to_s.sub(%r{\A/}, "").sub(%r{/\z}, "")
+  candidates = [
+    site_dir.join("#{normalized}.html"),
+    site_dir.join(normalized, "index.html")
+  ]
+
+  candidates.find(&:file?)
+end
+
+
+def normalize_internal_url(url)
+  normalized = url.to_s.split(/[?#]/, 2).first
+  normalized = normalized.sub(%r{/index\.html\z}, "")
+  normalized = normalized.sub(/\.html\z/, "")
+  normalized = normalized.sub(%r{/\z}, "") unless normalized == "/"
+  normalized.empty? ? "/" : normalized
+end
+
+
+def navigation_hrefs(html)
+  nav_match = html.match(/<nav\b[^>]*id=["']site-nav["'][^>]*>(.*?)<\/nav>/mi)
+
+  unless nav_match
+    warn "Generated page does not contain #site-nav"
+    exit 1
+  end
+
+  nav_match[1].scan(/href=["']([^"']+)["']/i).flatten
+end
+
+
+def assert_order(normalized_hrefs, label, expected_urls)
+  positions = expected_urls.map do |url|
+    normalized = normalize_internal_url(url)
+    index = normalized_hrefs.index(normalized)
+
+    unless index
+      warn "#{label}: missing navigation link #{url}"
+      exit 1
+    end
+
+    index
+  end
+
+  return if positions.each_cons(2).all? { |left, right| left < right }
+
+  warn "#{label}: navigation order is incorrect"
+  expected_urls.zip(positions).each { |url, index| warn "- #{url}: #{index}" }
+  exit 1
+end
+
+
+home_path = generated_page_path(SITE_DIR, "/")
+
+unless home_path
+  warn "Generated Home page is missing"
+  exit 1
+end
+
+home_html = home_path.read(encoding: "UTF-8")
+raw_hrefs = navigation_hrefs(home_html)
+normalized_hrefs = raw_hrefs.map { |href| normalize_internal_url(href) }
+
+assert_order(
+  normalized_hrefs,
+  "Primary navigation",
+  %w[/ /thinking /building /human-transformation /voice /about]
+)
+
+assert_order(
+  normalized_hrefs,
+  "Building navigation",
+  %w[/building/k2quant /building/vocora /building/publications /building/projects]
+)
+
+assert_order(
+  normalized_hrefs,
+  "Human Transformation navigation",
+  %w[
+    /human-transformation/research-agenda
+    /human-transformation/publications
+    /human-transformation/field-projects
+    /human-transformation/practice-programs
+    /leadership
+    /human-transformation/source-library
+    /human-transformation/research-log
+  ]
+)
+
+assert_order(
+  normalized_hrefs,
+  "About navigation",
+  %w[/about/biography /about/current-interests /about/resume /about/contact]
+)
+
+if normalized_hrefs.include?("/building/experiments")
+  warn "Experiments must remain outside the global sidebar until a formal report exists"
+  exit 1
+end
+
+experiments_path = generated_page_path(SITE_DIR, "/building/experiments")
+
+unless experiments_path
+  warn "Experiments must remain published and reachable from section pages"
+  exit 1
+end
+
+social_urls = %w[
+  https://github.com/OkBayat
+  https://www.linkedin.com/in/okbayat/
+  https://www.instagram.com/OkBayat
+]
+
+social_urls.each do |url|
+  if raw_hrefs.include?(url)
+    warn "External profile must not appear in the global sidebar: #{url}"
+    exit 1
+  end
+end
+
+contact_path = generated_page_path(SITE_DIR, "/about/contact")
+
+unless contact_path
+  warn "Generated Contact page is missing"
+  exit 1
+end
+
+contact_html = contact_path.read(encoding: "UTF-8")
+
+social_urls.each do |url|
+  unless contact_html.include?(%(href="#{url}"))
+    warn "Contact page is missing external profile: #{url}"
+    exit 1
+  end
+
+  unless home_html.include?(%(href="#{url}"))
+    warn "Footer is missing external profile: #{url}"
+    exit 1
+  end
+end
+
+javascript_path = SITE_DIR.join("assets/js/just-the-docs.js")
+
+unless javascript_path.file?
+  warn "Generated Just the Docs JavaScript asset is missing"
+  exit 1
+end
+
+javascript = javascript_path.read(encoding: "UTF-8")
+%w[closeSiblingNavBranches syncBackToTopVisibility].each do |marker|
+  unless javascript.include?(marker)
+    warn "Generated JavaScript is missing mobile-navigation behavior: #{marker}"
+    exit 1
+  end
+end
+
+puts "Navigation priority validation passed"
