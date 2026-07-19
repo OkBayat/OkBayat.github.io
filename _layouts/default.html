@@ -71,6 +71,17 @@ layout: table_wrappers
             {% endif %}
           {% endif %}
 
+          {% comment %}
+            Insert the Resume portrait after Markdown conversion. This avoids
+            routing raw multi-line HTML through the custom Markdown processor.
+          {% endcomment %}
+          {% if page.url == "/about/resume" and rendered_content contains "<h1" %}
+            {% capture resume_profile_photo %}{% include components/profile_photo.html variant="resume" %}{% endcapture %}
+            {% assign resume_profile_photo = resume_profile_photo | strip %}
+            {% capture resume_heading_close_with_photo %}</h1>{{ resume_profile_photo }}{% endcapture %}
+            {% assign rendered_content = rendered_content | replace_first: "</h1>", resume_heading_close_with_photo %}
+          {% endif %}
+
           {{ rendered_content }}
 
           {% if page.has_toc != false %}
