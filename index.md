@@ -9,6 +9,8 @@ permalink: /
 # Mohammad Bayat
 { Founder, Software Engineer, and Independent Researcher | fs-6 }
 
+{% include components/profile_photo.html variant="home" link="/about/biography" %}
+
 I build quantitative systems and organizations, and I study how language, identity, context, and learning shape human performance and durable change.
 
 OkBayat.com is a public record of the questions, field projects, evidence, software, and revisions emerging from that work. It is not a catalogue of settled answers. I try to distinguish published evidence from observation, participant report, interpretation, and questions that remain open.
