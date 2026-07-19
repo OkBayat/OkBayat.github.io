@@ -2,20 +2,7 @@
 {%- assign profile_photo_alt = include.alt | default: "Portrait of Mohammad Bayat" -%}
 
 {%- if include.link -%}
-<a
-  class="profile-photo-link profile-photo-link-{{ profile_photo_variant }}"
-  href="{{ include.link | relative_url }}"
-  aria-label="Read Mohammad Bayat's biography"
->
-{%- endif -%}
-<img
-  class="profile-photo profile-photo-{{ profile_photo_variant }}"
-  src="{{ '/assets/images/Mohammad-Bayat-Avatar.jpg' | relative_url }}"
-  alt="{{ profile_photo_alt }}"
-  width="721"
-  height="721"
-  decoding="async"
->
-{%- if include.link -%}
-</a>
+<a class="profile-photo-link profile-photo-link-{{ profile_photo_variant }}" href="{{ include.link | relative_url }}" aria-label="Read Mohammad Bayat's biography"><img class="profile-photo profile-photo-{{ profile_photo_variant }}" src="{{ '/assets/images/Mohammad-Bayat-Avatar.jpg' | relative_url }}" alt="{{ profile_photo_alt | escape }}" width="721" height="721" decoding="async"></a>
+{%- else -%}
+<img class="profile-photo profile-photo-{{ profile_photo_variant }}" src="{{ '/assets/images/Mohammad-Bayat-Avatar.jpg' | relative_url }}" alt="{{ profile_photo_alt | escape }}" width="721" height="721" decoding="async">
 {%- endif -%}

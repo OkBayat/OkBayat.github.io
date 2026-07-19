@@ -165,6 +165,11 @@
   margin: 0 auto $sp-5;
 }
 
+.profile-photo-resume {
+  width: 10rem;
+  margin: 0 auto $sp-5;
+}
+
 @include mq(md) {
   .profile-photo-link-home {
     float: right;
@@ -175,6 +180,12 @@
   .profile-photo-biography {
     float: right;
     width: 14rem;
+    margin: 0 0 $sp-4 $sp-5;
+  }
+
+  .profile-photo-resume {
+    float: right;
+    width: 11rem;
     margin: 0 0 $sp-4 $sp-5;
   }
 }
