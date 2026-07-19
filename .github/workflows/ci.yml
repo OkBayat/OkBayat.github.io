@@ -99,7 +99,18 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
       - name: Validate canonical README
-        run: ruby scripts/validate_canonical_readme.rb
+        shell: bash
+        run: |
+          set -o pipefail
+          ruby scripts/validate_canonical_readme.rb 2>&1 | tee readme-validation.txt
+      - name: Upload canonical README diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: canonical-readme-validation
+          path: readme-validation.txt
+          if-no-files-found: error
+          retention-days: 7
       - name: Cache HTMLProofer
         id: cache-htmlproofer
         uses: actions/cache@v3
