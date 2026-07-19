@@ -115,6 +115,18 @@ unless experiments_path
   exit 1
 end
 
+if normalized_hrefs.include?("/voice/podcast")
+  warn "The single Inja-Anja series must not create a redundant Podcast submenu"
+  exit 1
+end
+
+podcast_path = generated_page_path(SITE_DIR, "/voice/podcast")
+
+unless podcast_path
+  warn "The Inja-Anja page must remain published and reachable from Podcast"
+  exit 1
+end
+
 social_urls = %w[
   https://github.com/OkBayat
   https://www.linkedin.com/in/okbayat/
