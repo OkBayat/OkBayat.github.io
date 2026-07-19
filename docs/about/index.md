@@ -12,8 +12,8 @@ permalink: /about
 This section provides context for the work published on okbayat.com.
 
 - [Biography](/about/biography) — a short professional and intellectual background
-- [Resume](/about/resume) — selected experience, projects, and practice
 - [Current Work](/about/current-interests) — the two active bodies of work and current priorities
+- [Resume](/about/resume) — selected experience, projects, and practice
 - [Contact](/about/contact) — public contact and scheduling information
 
 For the two main bodies of work, see [K2Quant](/building/k2quant) and [Human Transformation](/human-transformation). For written work, see [Thinking](/thinking).
