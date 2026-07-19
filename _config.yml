@@ -100,16 +100,6 @@ aux_links_new_tab: true
 nav_enabled: true
 nav_sort: case_sensitive
 
-nav_external_links:
-  - title: OkBayat on GitHub
-    url: https://github.com/OkBayat
-
-  - title: OkBayat on LinkedIn
-    url: https://www.linkedin.com/in/okbayat/
-
-  - title: OkBayat on Instagram
-    url: https://www.instagram.com/OkBayat
-
 nav_error_report: true
 
 liquid:
@@ -119,7 +109,12 @@ liquid:
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2023&ndash;2026 Mohammad Bayat. Website source is available under the MIT license."
+footer_content: >-
+  Copyright &copy; 2023&ndash;2026 Mohammad Bayat.
+  Connect on <a href="https://github.com/OkBayat" target="_blank" rel="noopener noreferrer">GitHub</a>,
+  <a href="https://www.linkedin.com/in/okbayat/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, or
+  <a href="https://www.instagram.com/OkBayat" target="_blank" rel="noopener noreferrer">Instagram</a>.
+  Website source is available under the MIT license.
 
 last_edit_timestamp: true
 last_edit_time_format: "%b %e %Y at %I:%M %p"
