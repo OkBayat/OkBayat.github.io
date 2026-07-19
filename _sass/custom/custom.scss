@@ -236,8 +236,8 @@
 }
 
 .profile-photo-link-home {
-  width: 8rem;
-  margin: 0 auto $sp-5;
+  width: 7.5rem;
+  margin: $sp-4 auto $sp-5;
 }
 
 .profile-photo {
@@ -251,13 +251,13 @@
 }
 
 .profile-photo-biography {
-  width: 12rem;
-  margin: 0 auto $sp-5;
+  width: 10.5rem;
+  margin: $sp-4 auto $sp-5;
 }
 
 .profile-photo-resume {
-  width: 10rem;
-  margin: 0 auto $sp-5;
+  width: 9.5rem;
+  margin: $sp-4 auto $sp-5;
 }
 
 @include mq(md) {
