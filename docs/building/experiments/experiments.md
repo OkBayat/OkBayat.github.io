@@ -3,6 +3,7 @@ layout: default
 title: Experiments
 parent: Building
 nav_order: 5
+nav_exclude: true
 direction: ltr
 description: "Documented product and research experiments, including methods, results, and limitations."
 permalink: /building/experiments
