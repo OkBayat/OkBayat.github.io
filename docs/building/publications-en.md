@@ -12,7 +12,7 @@ permalink: /building/publications
 
 # Building Publications & Notes
 
-([Persian Version](/building/publications-fa))
+(<bdi dir="rtl"><a href="/building/publications-fa" lang="fa" hreflang="fa" rel="alternate">نسخه‌ی فارسی</a></bdi>)
 
 This page is a topical index for work about building systems and organizations. Each item remains in its canonical content-type section—Essay, Research Note, Reading Note, Translation, Project Record, or Experiment Report—so authorship, evidence status, and revision history remain clear.
 
