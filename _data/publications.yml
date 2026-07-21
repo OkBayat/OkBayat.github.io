@@ -52,6 +52,27 @@ works:
         title: Designing Large Agent Skills as Deterministic, Phase-Oriented Systems
         url: /thinking/essays/phase-oriented-agent-skills-en
 
+  - id: k2-llm-judge
+    content_type: essay
+    primary_body: building
+    bodies_of_work:
+      - building
+    themes:
+      - software-ai-agent-systems
+      - systems-operations-decision-making
+    project: k2quant
+    translation_key: k2-llm-judge
+    summary: A practical architecture for a trusted-base, risk-routed, multi-agent pull request review system with verifier gates, inline publication, and a separate feedback-convergence loop.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: فراتر از یک بازبین هوش مصنوعی؛ چگونه K2 LLM Judge را به‌صورت یک سیستم بازبینی Pull Request ساختیم
+        url: /thinking/essays/k2-llm-judge-fa
+      - lang: en
+        label: English
+        title: "Beyond the AI Reviewer: How We Built K2 LLM Judge as a Governed Pull Request Review System"
+        url: /thinking/essays/k2-llm-judge-en
+
   - id: ten-years-of-familylink
     content_type: essay
     primary_body: building
