@@ -12,7 +12,7 @@ permalink: /human-transformation/publications
 
 # Human Transformation Publications & Notes
 
-([Persian Version](/human-transformation/publications-fa))
+(<bdi dir="rtl"><a href="/human-transformation/publications-fa" lang="fa" hreflang="fa" rel="alternate">نسخه‌ی فارسی</a></bdi>)
 
 This page is a topical index. Each item remains in its canonical content section so authorship, evidence status, language metadata, and revision history are not duplicated or blurred.
 
