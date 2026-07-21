@@ -12,7 +12,7 @@ permalink: /human-transformation/publications-fa
 
 # انتشارات و یادداشت‌های تحول انسان
 
-{ [English version](/human-transformation/publications) | ltr }
+{ ([English Version](/human-transformation/publications)) | ltr }
 
 این صفحه یک نمایه‌ی موضوعی است. هر مورد در بخش محتوایی مرجع خود باقی می‌ماند تا نویسندگی، وضعیت شواهد، فراداده‌ی زبان و تاریخچه‌ی بازنگری تکرار یا مخدوش نشوند.
 

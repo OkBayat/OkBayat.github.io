@@ -12,7 +12,7 @@ permalink: /human-transformation/publications
 
 # Human Transformation Publications & Notes
 
-[نسخه‌ی فارسی](/human-transformation/publications-fa)
+([Persian Version](/human-transformation/publications-fa))
 
 This page is a topical index. Each item remains in its canonical content section so authorship, evidence status, language metadata, and revision history are not duplicated or blurred.
 
@@ -27,37 +27,21 @@ A work may appear under more than one theme because learning, identity, relation
 
 ## Relationships, Acceptance & Completion
 
-{% for work in site.data.publications.works %}
-{% if work.bodies_of_work contains "human-transformation" and work.themes contains "relationships-acceptance" %}
-- **{{ work.content_type | replace: "-", " " | capitalize }}:** {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %}<br>{% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include publication-list-en.html body="human-transformation" theme="relationships-acceptance" %}
 
 ## Leadership, Identity & Coordination
 
-{% for work in site.data.publications.works %}
-{% if work.bodies_of_work contains "human-transformation" and work.themes contains "leadership-identity-coordination" %}
-- **{{ work.content_type | replace: "-", " " | capitalize }}:** {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %}<br>{% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include publication-list-en.html body="human-transformation" theme="leadership-identity-coordination" %}
 
 ## Learning, Memory & Language
 
-{% for work in site.data.publications.works %}
-{% if work.bodies_of_work contains "human-transformation" and work.themes contains "learning-memory-language" %}
-- **{{ work.content_type | replace: "-", " " | capitalize }}:** {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %}<br>{% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include publication-list-en.html body="human-transformation" theme="learning-memory-language" %}
 
 Vocora is a bounded software project within this wider inquiry. Its project-specific writing is collected in [Vocora Publications & Notes](/building/vocora/publications).
 
 ## Philosophy, Worldview & Context
 
-{% for work in site.data.publications.works %}
-{% if work.bodies_of_work contains "human-transformation" and work.themes contains "philosophy-worldview" %}
-- **{{ work.content_type | replace: "-", " " | capitalize }}:** {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %}<br>{% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include publication-list-en.html body="human-transformation" theme="philosophy-worldview" %}
 
 - [Podcast: Inja-Anja](/voice/podcast) — conversations about worldview, frames of reference, perception, language, and integrity.
 - [Human Transformation Source Library](/human-transformation/source-library) — source lineage and concept maps.
