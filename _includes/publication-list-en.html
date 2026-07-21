@@ -1,0 +1,7 @@
+{% for work in site.data.publications.works %}
+{% if work.bodies_of_work contains include.body and work.themes contains include.theme %}
+{% assign english_edition = work.editions | where: "lang", "en" | first %}
+{% assign persian_edition = work.editions | where: "lang", "fa" | first %}
+- **{{ work.content_type | replace: "-", " " | capitalize }}:** {% if english_edition %}[{{ english_edition.title }}]({{ english_edition.url }}){% if persian_edition %} ([Persian Version]({{ persian_edition.url }})){% endif %}{% elsif persian_edition %}[{{ persian_edition.title }}]({{ persian_edition.url }}) (Persian Version){% endif %} — {{ work.summary }}
+{% endif %}
+{% endfor %}
