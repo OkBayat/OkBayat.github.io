@@ -12,7 +12,7 @@ permalink: /building/publications
 
 # Building Publications & Notes
 
-[نسخه‌ی فارسی](/building/publications-fa)
+([Persian Version](/building/publications-fa))
 
 This page is a topical index for work about building systems and organizations. Each item remains in its canonical content-type section—Essay, Research Note, Reading Note, Translation, Project Record, or Experiment Report—so authorship, evidence status, and revision history remain clear.
 
@@ -27,45 +27,25 @@ Some works appear under more than one theme because software, company-building, 
 
 ## Software, AI & Agent Systems
 
-{% for work in site.data.publications.works %}
-{% if work.bodies_of_work contains "building" and work.themes contains "software-ai-agent-systems" %}
-- **{{ work.content_type | replace: "-", " " | capitalize }}:** {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include publication-list-en.html body="building" theme="software-ai-agent-systems" %}
 
 ## Entrepreneurship & Company Building
 
-{% for work in site.data.publications.works %}
-{% if work.bodies_of_work contains "building" and work.themes contains "entrepreneurship-company-building" %}
-- **{{ work.content_type | replace: "-", " " | capitalize }}:** {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include publication-list-en.html body="building" theme="entrepreneurship-company-building" %}
 
 ## Systems, Operations & Decision-Making
 
-{% for work in site.data.publications.works %}
-{% if work.bodies_of_work contains "building" and work.themes contains "systems-operations-decision-making" %}
-- **{{ work.content_type | replace: "-", " " | capitalize }}:** {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include publication-list-en.html body="building" theme="systems-operations-decision-making" %}
 
 ## Project Reflections & Social Impact
 
-{% for work in site.data.publications.works %}
-{% if work.bodies_of_work contains "building" and work.themes contains "project-reflections-social-impact" %}
-- **{{ work.content_type | replace: "-", " " | capitalize }}:** {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include publication-list-en.html body="building" theme="project-reflections-social-impact" %}
 
 - **Project record:** [FamilyLink](/family-link) — the factual record of the project's purpose, operating history, current paused status, evidence limits, and conditions for a responsible return.
 
 ## Learning Technology
 
-{% for work in site.data.publications.works %}
-{% if work.bodies_of_work contains "building" and work.themes contains "learning-memory-language" %}
-- **{{ work.content_type | replace: "-", " " | capitalize }}:** {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include publication-list-en.html body="building" theme="learning-memory-language" %}
 
 Project-specific context, design status, and external documentation remain collected in [Vocora Publications & Notes](/building/vocora/publications).
 
