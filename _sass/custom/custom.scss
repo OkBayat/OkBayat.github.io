@@ -3,6 +3,23 @@
 
 // ---Custom Main Content style
 .main-content {
+  // Code is always rendered with a left-to-right base direction, even when the
+  // surrounding article is Persian. `unicode-bidi: isolate` keeps code from
+  // reordering punctuation and neighboring RTL text.
+  code {
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+
+  pre,
+  .highlighter-rouge,
+  .listingblock > .content,
+  .rouge-table {
+    direction: ltr;
+    text-align: left;
+    unicode-bidi: isolate;
+  }
+
   &[dir="rtl"] {
     text-align: justify;
     font-family: IRANSans, $body-font-family;

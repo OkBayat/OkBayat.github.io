@@ -149,11 +149,11 @@ This distinction resembles the difference Anthropic draws between workflows and 
 
 Teams often use the word *phase* to mean a heading in a long instruction file:
 
-1. inspect;
-2. plan;
-3. implement;
-4. test;
-5. publish.
+1. `inspect`;
+2. `plan`;
+3. `implement`;
+4. `test`;
+5. `publish`.
 
 That is useful for humans, but it is not enough for a runtime.
 
@@ -429,15 +429,15 @@ A reference should not combine several unrelated workflows merely because they o
 
 Scripts should implement deterministic operations:
 
-- parsing;
-- routing;
-- validation;
-- sorting;
-- locking;
-- effect execution;
-- readback;
-- checkpointing;
-- schema enforcement.
+- `parsing`;
+- `routing`;
+- `validation`;
+- `sorting`;
+- `locking`;
+- `effect execution`;
+- `readback`;
+- `checkpointing`;
+- `schema enforcement`.
 
 Scripts can also expose safe, narrow tools to the model. They should return diagnostic errors rather than opaque `null` or generic failure messages.
 
@@ -521,13 +521,13 @@ The third layer is often the most expensive.
 
 A queue scan may need only:
 
-- identifier;
-- title;
-- state;
-- labels;
-- priority;
-- creation time;
-- update time.
+- `identifier`;
+- `title`;
+- `state`;
+- `labels`;
+- `priority`;
+- `creation time`;
+- `update time`.
 
 It does not need every issue body, comment, attachment, review thread, and linked document.
 
@@ -1120,11 +1120,11 @@ Add tests for required references per phase.
 
 Extract:
 
-- command parser;
-- phase registry;
-- result schema;
-- capability gate;
-- dynamic handler loader.
+- `command parser`;
+- `phase registry`;
+- `result schema`;
+- `capability gate`;
+- `dynamic handler loader`.
 
 The kernel should know almost nothing about the domain.
 

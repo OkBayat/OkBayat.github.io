@@ -1098,11 +1098,11 @@ The publication threshold can still reduce noise, but it should be treated as a 
 
 Periodically give maintainers a mixed set of human and automated comments without identifying the source. Ask them to rate:
 
-- correctness;
-- importance;
-- actionability;
-- clarity;
-- duplication;
+- `correctness`;
+- `importance`;
+- `actionability`;
+- `clarity`;
+- `duplication`;
 - whether it should block merge.
 
 This reduces prestige and automation bias.
