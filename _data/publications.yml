@@ -31,6 +31,27 @@ themes:
     label: Philosophy, Worldview & Context
 
 works:
+  - id: k2-llm-judge
+    content_type: essay
+    primary_body: building
+    bodies_of_work:
+      - building
+    themes:
+      - software-ai-agent-systems
+      - systems-operations-decision-making
+    project: k2quant
+    translation_key: k2-llm-judge
+    summary: A practical architecture for secure, SHA-aware, multi-agent pull-request review with evidence gates, low-noise inline findings, and a separate remediation loop.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: "ساختن یک LLM Judge کم‌نویز برای بازبینی Pull Requestها: معماری K2"
+        url: /thinking/essays/k2-llm-judge-fa
+      - lang: en
+        label: English
+        title: "Building a High-Signal LLM Judge for GitHub Pull Requests: The Architecture Behind K2"
+        url: /thinking/essays/k2-llm-judge-en
+
   - id: phase-oriented-agent-skills
     content_type: essay
     primary_body: building
