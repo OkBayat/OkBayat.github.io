@@ -48,6 +48,25 @@ elsif custom_main_content.include?("sub-counter") || custom_main_content.include
   errors << "custom styles must not override ordered-list marker generation"
 end
 
+inline_code_block = extract_block(custom_main_content.to_s, "code {")
+if inline_code_block.nil?
+  errors << "could not find inline-code direction styles"
+else
+  errors << "inline code must render left-to-right" unless inline_code_block.include?("direction: ltr")
+  errors << "inline code must be isolated from surrounding RTL text" unless inline_code_block.include?("unicode-bidi: isolate")
+end
+
+code_container_block = extract_block(custom_main_content.to_s, "pre,")
+if code_container_block.nil?
+  errors << "could not find fenced-code direction styles"
+else
+  errors << "fenced code must render left-to-right" unless code_container_block.include?("direction: ltr")
+  errors << "fenced code must align from the left" unless code_container_block.include?("text-align: left")
+  errors << "fenced code must be isolated from surrounding RTL text" unless code_container_block.include?("unicode-bidi: isolate")
+  errors << "Rouge wrappers must share the LTR direction" unless custom_main_content.include?(".highlighter-rouge")
+  errors << "Rouge line-number tables must share the LTR direction" unless custom_main_content.include?(".rouge-table")
+end
+
 nav_link_block = extract_block(custom, ".nav-list-link")
 if nav_link_block.nil?
   errors << "could not find sidebar link overflow styles"
@@ -75,7 +94,7 @@ else
 end
 
 if errors.empty?
-  puts "List and sidebar style validation passed: one ordered-list marker and bounded bilingual navigation"
+  puts "List, sidebar, and code-direction validation passed"
   exit 0
 end
 

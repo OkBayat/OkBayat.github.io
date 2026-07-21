@@ -52,6 +52,10 @@ Program records explain what a program is, where it came from, how it has been r
 
 Every published article-like page must satisfy the metadata, language, SEO, and table-of-contents rules in this guide. Missing required front matter or a missing in-page table of contents blocks publication.
 
+### Format code and technical identifiers explicitly
+
+Code is always rendered left-to-right, including inside Persian pages. Use inline code for identifiers, paths, commands, field names, and other short technical tokens inside prose. Use a fenced code block for multi-line code, pseudocode, terminal output, or a standalone sequence of technical identifiers such as pass names or role names. Do not imitate a code block with unformatted ASCII-only lines and do not rely on the page direction to keep technical text readable.
+
 ### Keep navigation structured
 
 Only durable section hubs belong in the global sidebar. Detailed concepts, old cohorts, course records, and individual notes may use `nav_exclude: true` and remain accessible through their canonical index, topical indexes, internal links, and search.
