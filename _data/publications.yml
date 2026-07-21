@@ -136,6 +136,27 @@ works:
         title: "When the Question Changes, the Organization Changes: From a Money Worldview to a Commitment Beyond the Self"
         url: /thinking/essays/when-the-question-changes-en
 
+  - id: commitment-context-learning
+    content_type: research-note
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+    themes:
+      - learning-memory-language
+      - leadership-identity-coordination
+    program: human-transformation
+    translation_key: commitment-context-learning
+    summary: A field-based inquiry into how the object of a learner's commitment may organize attention, resource seeking, persistence, and project-based learning.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: "یادگیرنده واقعاً به چه چیزی متعهد است؟ تعهد به‌مثابه بافتار یادگیری"
+        url: /thinking/research-notes/commitment-context-learning-fa
+      - lang: en
+        label: English
+        title: "What Are Learners Actually Committed To? Commitment as a Context for Learning"
+        url: /thinking/research-notes/commitment-context-learning-en
+
   - id: vocora-learning-metrics
     content_type: research-note
     primary_body: building
