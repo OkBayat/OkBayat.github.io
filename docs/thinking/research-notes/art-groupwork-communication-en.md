@@ -35,8 +35,6 @@ permalink: /thinking/research-notes/art-groupwork-communication-en
 # When Conversation Is Not Enough: How Art Reveals a Group's Hidden Dynamics
 {: .no_toc }
 
-([Persian Version](/thinking/research-notes/art-groupwork-communication))
-
 We often assume that many problems would be resolved if the members of a group could talk more—and talk more rationally—with one another. My experience working with groups, however, has shown me that some problems persist precisely because we are not yet able to speak about them directly.
 
 Everyone knows that something in the relationships is not working, but no one can name it clearly. One person is afraid of being judged. Another hides their disagreement to preserve the peace. Some people speak more than others and gradually become the group's dominant voices. The members appear aligned, yet beneath that appearance, fear, resentment, competition, or mistrust may be circulating.
