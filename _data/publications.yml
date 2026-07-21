@@ -281,12 +281,17 @@ works:
       - leadership-identity-coordination
       - relationships-acceptance
       - learning-memory-language
+    translation_key: art-groupwork-communication
     summary: A research note on how art can surface unspoken conflict, fear of judgment, power relations, and recurring interaction patterns inside groups.
     editions:
       - lang: fa
         label: فارسی
         title: هنر و روابط پنهان یک گروه
         url: /thinking/research-notes/art-groupwork-communication
+      - lang: en
+        label: English
+        title: "Art and a Group's Hidden Dynamics"
+        url: /thinking/research-notes/art-groupwork-communication-en
 
   - id: journaling
     content_type: research-note

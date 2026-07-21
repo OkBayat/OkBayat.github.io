@@ -8,6 +8,15 @@ lang: fa
 locale: fa_IR
 author: Mohammad Bayat
 date: 2025-10-13
+date_modified: 2026-07-21
+last_modified_date: 2026-07-21
+status: working-note
+program: human-transformation
+translation_key: art-groupwork-communication
+note_type: literature-review
+evidence_level: published-sources-with-author-interpretation
+seo:
+  type: Article
 permalink: /thinking/research-notes/art-groupwork-communication
 categories:
   - thinking
@@ -41,7 +50,6 @@ sitemap: true
 {:toc}
 </details>
 ---
-
 
 ## وقتی یک گروه ظاهراً خوب است، اما واقعاً خوب کار نمی‌کند
 
