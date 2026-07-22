@@ -3,7 +3,7 @@ layout: default
 title: پروژه‌ی مشترک
 parent: Research Agenda
 direction: rtl
-permalink: /leadership/research/created-future
+permalink: /human-transformation/research-agenda/created-future
 ---
 
 # پروژه‌ی مشترک
