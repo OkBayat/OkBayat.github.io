@@ -1,9 +1,9 @@
 ---
 layout: default
 title: پروژه‌ی مشترک
-parent: Research Agenda
+parent: Leadership Research Archive
 direction: rtl
-permalink: /human-transformation/research-agenda/created-future
+permalink: /archive/leadership-research/created-future
 ---
 
 # پروژه‌ی مشترک

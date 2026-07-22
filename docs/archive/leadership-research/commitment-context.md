@@ -1,9 +1,9 @@
 ---
 layout: default
 title: بافتمان تعهد
-parent: Research Agenda
+parent: Leadership Research Archive
 direction: rtl
-permalink: /human-transformation/research-agenda/commitment-context
+permalink: /archive/leadership-research/commitment-context
 ---
 
 # نگاه اولیه به پویایی‌های مشارکت در دوره‌های رایگان و پولی
