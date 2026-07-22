@@ -2,7 +2,7 @@
 layout: default
 title: Coaching
 parent: Leadership
-nav_order: 2
+nav_order: 1
 nav_exclude: false
 direction: rtl
 lang: fa
