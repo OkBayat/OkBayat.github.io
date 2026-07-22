@@ -100,7 +100,7 @@ The first public field record is [Learning Circle](/human-transformation/field-p
 - How do invitations, payment structures, shared projects, course exercises, and explicit integrity standards affect participation and coordination?
 - How can participant experience be distinguished from a causal or generalizable outcome?
 
-Existing Persian-language working material includes [Commitment Context](/leadership/research/commitment-context), [Invitation Context](/leadership/research/invitation-context), [Course Experiments](/leadership/research/course-experiments), [Integrity Index](/leadership/research/integrity-index), and [Shared Project](/leadership/research/created-future). These pages preserve field observations and developing hypotheses; their presence does not upgrade their evidence level.
+Existing Persian-language working material includes [Commitment Context](/human-transformation/research-agenda/commitment-context), [Invitation Context](/human-transformation/research-agenda/invitation-context), [Course Experiments](/human-transformation/research-agenda/course-experiments), [Integrity Index](/human-transformation/research-agenda/integrity-index), and [Shared Project](/human-transformation/research-agenda/created-future). These pages preserve field observations and developing hypotheses; their presence does not upgrade their evidence level.
 
 ## 6. Quality of Life
 
