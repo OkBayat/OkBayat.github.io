@@ -7,12 +7,15 @@ direction: ltr
 lang: en
 locale: en_US
 author: Mohammad Bayat
-date: 2026-07-21
+date: 2026-07-05
 date_modified: 2026-07-21
 last_modified_date: 2026-07-21
 status: working-note
 program: human-transformation
 translation_key: art-groupwork-communication
+edition_kind: translation
+translator: Mohammad Bayat
+original_edition: /thinking/research-notes/art-groupwork-communication
 note_type: literature-review
 evidence_level: published-sources-with-author-interpretation
 seo:
@@ -42,6 +45,8 @@ Everyone knows that something in the relationships is not working, but no one ca
 In such a situation, direct conversation is not always the solution, because the same fears and power relations that created the problem also enter the conversation. The important question is: how can we see and discuss something for which we do not yet have clear language?
 
 Rosemary Reilly's research offers a thought-provoking answer: sometimes art can enter the conversation before words do.
+
+> **Provenance note:** This article presents my reading and interpretation of Rosemary Reilly’s published research. It is not the result of a collaboration or joint research with her, nor does it report a new field study.
 
 <details open markdown="block">
   <summary>Table of contents</summary>
