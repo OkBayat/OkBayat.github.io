@@ -7,8 +7,9 @@ direction: rtl
 lang: fa
 locale: fa_IR
 author: Mohammad Bayat
-date: 2026-07-10
-last_modified_date: 2026-07-10
+date: 2024-01-07
+date_modified: 2025-04-09
+last_modified_date: 2025-04-09
 permalink: /thinking/reading-notes/tao-te-ching
 categories:
   - thinking
