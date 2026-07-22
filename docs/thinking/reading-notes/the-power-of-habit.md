@@ -7,8 +7,9 @@ direction: rtl
 lang: fa
 locale: fa_IR
 author: Mohammad Bayat
-date: 2026-07-10
-last_modified_date: 2026-07-10
+date: 2023-11-28
+date_modified: 2025-09-14
+last_modified_date: 2025-09-14
 permalink: /thinking/reading-notes/the-power-of-habit
 categories:
   - thinking
