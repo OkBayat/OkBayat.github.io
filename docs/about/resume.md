@@ -5,7 +5,7 @@ parent: About
 nav_order: 2
 direction: ltr
 description: "Selected professional experience, quantitative systems work, social-impact projects, human transformation inquiry, leadership practice, and independent projects by Mohammad Bayat."
-last_modified_date: 2026-07-17
+last_modified_date: 2026-07-23
 permalink: /about/resume
 ---
 
@@ -167,7 +167,7 @@ Work with the organization on employee well-being, leadership practice, team coo
 
 #### Leadership, Life, and Business Coach
 
-- Completed more than 2,000 hours of direct coaching with individuals, groups, and organizations.
+- Completed more than 2,000 hours of direct individual, group, and organizational coaching. This total covers coaching only and excludes teaching, leadership facilitation, and program delivery.
 - Work with clients on listening, feedback, responsibility, decision-making, and action.
 - Facilitate regular reflection, assessment, and follow-up.
 - Work with people at different organizational levels, from individual contributors to managers.
@@ -249,3 +249,12 @@ Developed JavaScript libraries for stock-market data visualization and interacti
 - Worked extensively with SVG and Canvas.
 - Developed utilities for DOM and SVG traversal and event handling.
 - Built a functional reactive library for complex events and data flows.
+
+---
+
+## Education
+{: .no_toc }
+
+### Bachelor of Science in Civil Engineering
+
+**2009–2013 · Zanjan, Iran**
