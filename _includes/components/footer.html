@@ -3,36 +3,38 @@
 {% endcapture %}
 {% if footer_custom != "" or site.last_edit_timestamp or site.gh_edit_link or site.back_to_top %}
   <footer class="content-footer text-left" dir="ltr">
-    <div class="content-footer-top">
-      <span class="content-footer-label">OkBayat.com</span>
-      {% if site.back_to_top %}
-        <a class="content-footer-back-to-top" href="#top" id="back-to-top">{{ site.back_to_top_text }} &uarr;</a>
-      {% endif %}
-    </div>
-
     {{ footer_custom | strip }}
 
-    {% if site.last_edit_timestamp or site.gh_edit_link %}
-      <div class="content-footer-meta">
-        {% if site.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
-          <p>
-            Page last modified: <span class="d-inline-block">{{ page.last_modified_date | date: site.last_edit_time_format }}</span>.
-          </p>
-        {% endif %}
-        {% if
-          site.gh_edit_link and
-          site.gh_edit_link_text and
-          site.gh_edit_repository and
-          site.gh_edit_branch and
-          site.gh_edit_view_mode
-        %}
-          <p>
-            <a href="{{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}{% if page.collection and site.collections_dir %}/{{ site.collections_dir }}{% endif %}/{{ page.path }}" id="edit-this-page">{{ site.gh_edit_link_text }}</a>
-            <span aria-hidden="true">&middot;</span>
-            Content: <a href="https://www.gnu.org/licenses/fdl.html">GNU FDL</a>
-          </p>
-        {% endif %}
+    <div class="content-footer-secondary">
+      <div class="content-footer-identity">
+        <span>&copy; 2023&ndash;2026 Mohammad Bayat</span>
+        <span aria-hidden="true">&middot;</span>
+        <a href="https://github.com/OkBayat/OkBayat.github.io" target="_blank" rel="noopener noreferrer">Source code</a>
+        <span aria-hidden="true">&middot;</span>
+        <a href="https://github.com/OkBayat/OkBayat.github.io/blob/main/LICENSE.txt" target="_blank" rel="noopener noreferrer">MIT License</a>
       </div>
-    {% endif %}
+
+      {% if site.last_edit_timestamp or site.gh_edit_link %}
+        <div class="content-footer-meta">
+          {% assign has_page_timestamp = false %}
+          {% if site.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
+            {% assign has_page_timestamp = true %}
+            <span>Updated <span class="d-inline-block">{{ page.last_modified_date | date: "%b %e, %Y" }}</span></span>
+          {% endif %}
+          {% if
+            site.gh_edit_link and
+            site.gh_edit_link_text and
+            site.gh_edit_repository and
+            site.gh_edit_branch and
+            site.gh_edit_view_mode
+          %}
+            {% if has_page_timestamp %}<span aria-hidden="true">&middot;</span>{% endif %}
+            <a href="{{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}{% if page.collection and site.collections_dir %}/{{ site.collections_dir }}{% endif %}/{{ page.path }}" id="edit-this-page">Edit page</a>
+            <span aria-hidden="true">&middot;</span>
+            <a href="https://www.gnu.org/licenses/fdl.html">Content license</a>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
   </footer>
 {% endif %}
