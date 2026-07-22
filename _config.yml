@@ -113,14 +113,6 @@ liquid:
 back_to_top: true
 back_to_top_text: "Back to top"
 
-footer_content: >-
-  Copyright &copy; 2023&ndash;2026 Mohammad Bayat.
-  Connect on <a href="https://github.com/OkBayat" target="_blank" rel="noopener noreferrer">GitHub</a>,
-  <a href="https://www.linkedin.com/in/okbayat/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, or
-  <a href="https://www.instagram.com/OkBayat" target="_blank" rel="noopener noreferrer">Instagram</a>.
-  Browse the <a href="/archive/">Archive</a>.
-  Website source is available under the MIT license.
-
 last_edit_timestamp: true
 last_edit_time_format: "%b %e %Y at %I:%M %p"
 

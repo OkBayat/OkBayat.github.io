@@ -2,18 +2,20 @@
   {%- include footer_custom.html -%}
 {% endcapture %}
 {% if footer_custom != "" or site.last_edit_timestamp or site.gh_edit_link or site.back_to_top %}
-  <hr>
-  <footer class="text-left" dir="ltr">
-    {% if site.back_to_top %}
-      <p><a href="#top" id="back-to-top">{{ site.back_to_top_text }}</a></p>
-    {% endif %}
+  <footer class="content-footer text-left" dir="ltr">
+    <div class="content-footer-top">
+      <span class="content-footer-label">OkBayat.com</span>
+      {% if site.back_to_top %}
+        <a class="content-footer-back-to-top" href="#top" id="back-to-top">{{ site.back_to_top_text }} &uarr;</a>
+      {% endif %}
+    </div>
 
-    {{ footer_custom }}
+    {{ footer_custom | strip }}
 
     {% if site.last_edit_timestamp or site.gh_edit_link %}
-      <div class="d-flex mt-2">
+      <div class="content-footer-meta">
         {% if site.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
-          <p class="text-small text-grey-dk-000 mb-0 mr-2">
+          <p>
             Page last modified: <span class="d-inline-block">{{ page.last_modified_date | date: site.last_edit_time_format }}</span>.
           </p>
         {% endif %}
@@ -24,10 +26,10 @@
           site.gh_edit_branch and
           site.gh_edit_view_mode
         %}
-          <p class="text-small text-grey-dk-000 mb-0">
+          <p>
             <a href="{{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}{% if page.collection and site.collections_dir %}/{{ site.collections_dir }}{% endif %}/{{ page.path }}" id="edit-this-page">{{ site.gh_edit_link_text }}</a>
-            &nbsp; | &nbsp;
-            All content on this site is published under the <a href="https://www.gnu.org/licenses/fdl.html">GNU Free Documentation License</a>.
+            <span aria-hidden="true">&middot;</span>
+            Content: <a href="https://www.gnu.org/licenses/fdl.html">GNU FDL</a>
           </p>
         {% endif %}
       </div>
