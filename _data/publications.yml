@@ -242,36 +242,6 @@ works:
         title: قانون هب و شکل‌گیری تداعی‌ها
         url: /thinking/research-notes/hebbs-rule
 
-  - id: crucibles-of-leadership
-    content_type: research-note
-    primary_body: human-transformation
-    bodies_of_work:
-      - human-transformation
-    themes:
-      - leadership-identity-coordination
-      - learning-memory-language
-    summary: Notes on Warren Bennis and Robert Thomas's account of difficult experience, identity, learning, and leadership development.
-    editions:
-      - lang: fa
-        label: فارسی
-        title: بوته‌های آزمایش راهبری
-        url: /thinking/research-notes/crucibles-of-leadership
-
-  - id: a-new-model-of-leadership
-    content_type: research-note
-    primary_body: human-transformation
-    bodies_of_work:
-      - human-transformation
-    themes:
-      - leadership-identity-coordination
-      - philosophy-worldview
-    summary: A source-based note on the ontological and phenomenological model of leadership and the difference between knowing about leadership and leading in action.
-    editions:
-      - lang: fa
-        label: فارسی
-        title: مدل جدید راهبری
-        url: /thinking/research-notes/a-new-model-of-leadership
-
   - id: art-groupwork-communication
     content_type: research-note
     primary_body: human-transformation

@@ -38,10 +38,10 @@ permalink: /leadership/courses
 
 ## منابع و مدل‌ها
 
-دو یادداشت فعلی برای آشنایی با بخشی از منابع راهبری عبارت‌اند از:
+دو صفحه از منابع دوره برای آشنایی با بخشی از مدل‌ها و مبانی راهبری عبارت‌اند از:
 
-- [بوته‌های آزمایش راهبری](/thinking/research-notes/crucibles-of-leadership)
-- [مدل جدید راهبری](/thinking/research-notes/a-new-model-of-leadership)
+- [بوته‌های آزمایش راهبری](/leadership/courses/crucibles-of-leadership)
+- [مدل جدید راهبری](/leadership/courses/a-new-model-of-leadership)
 
 وضعیت ترجمه، اقتباس، نقل‌قول و تفسیر شخصی در این صفحات باید به‌روشنی مشخص بماند.
 
