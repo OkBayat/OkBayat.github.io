@@ -25,7 +25,7 @@ permalink: /leadership/resources/shift-in-relation
 ---
 
 {: .highlight }
-دعوت می‌کنم در پایان [داستان تدی استودارد](http://www.okbayat.com/docs/leadership/the-teddy-stoddard-story/) رو هم مطالعه کنید، در درک این مقاله کمکتان خواهد کرد.
+برای ادامه‌ی این بحث می‌توانید مقاله‌ی [پیش از تغییر، پذیرش](/thinking/essays/acceptance-before-change-fa) را نیز بخوانید.
 
 ## بخش اول: فضای امکان و تغییر
 ### مفهوم فضای امکان و مزایای آن در زندگی روزمره

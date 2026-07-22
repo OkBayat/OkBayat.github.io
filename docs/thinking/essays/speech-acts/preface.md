@@ -4,6 +4,8 @@ title: مقدمه
 parent: اصطلاحات تخصصی
 nav_order: 1
 direction: rtl
+lang: fa
+locale: fa_IR
 ---
 
 # مقدمه

@@ -2,12 +2,15 @@
 layout: table_wrappers
 ---
 
+{% capture document_language %}{% include page_language.html %}{% endcapture %}
+{% assign document_language = document_language | strip %}
+
 <!DOCTYPE html>
 
-<html lang="{{ site.lang | default: 'en-US' }}">
+<html lang="{{ document_language }}">
 {% include head.html %}
 <body>
-  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <a class="skip-to-main" href="#main-content">{% if document_language == "fa" %}رفتن به محتوای اصلی{% else %}Skip to main content{% endif %}</a>
   {% include icons/icons.html %}
   {% if page.nav_enabled == true %}
     {% include components/sidebar.html %}

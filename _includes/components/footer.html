@@ -2,13 +2,13 @@
   {%- include footer_custom.html -%}
 {% endcapture %}
 {% if footer_custom != "" or site.last_edit_timestamp or site.gh_edit_link or site.back_to_top %}
-  <footer class="content-footer text-left" dir="ltr">
+  <footer class="content-footer text-left" dir="{% if document_language == 'fa' %}rtl{% else %}ltr{% endif %}">
     {{ footer_custom | strip }}
 
     <div class="content-footer-secondary">
-      <p class="content-footer-copyright">&copy; 2023&ndash;2026 Mohammad Bayat</p>
+      <p class="content-footer-copyright">&copy; 2023&ndash;2026 {% if document_language == "fa" %}محمد بیات{% else %}Mohammad Bayat{% endif %}</p>
 
-      <nav class="content-footer-meta" aria-label="Page information">
+      <nav class="content-footer-meta" aria-label="{% if document_language == 'fa' %}اطلاعات صفحه{% else %}Page information{% endif %}">
         {% if site.gh_edit_link %}
           {% if
             site.gh_edit_link and
@@ -17,16 +17,16 @@
             site.gh_edit_branch and
             site.gh_edit_view_mode
           %}
-            <a href="{{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}{% if page.collection and site.collections_dir %}/{{ site.collections_dir }}{% endif %}/{{ page.path }}" id="edit-this-page">Edit this page</a>
+            <a href="{{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}{% if page.collection and site.collections_dir %}/{{ site.collections_dir }}{% endif %}/{{ page.path }}" id="edit-this-page">{% if document_language == "fa" %}ویرایش این صفحه{% else %}Edit this page{% endif %}</a>
           {% endif %}
         {% endif %}
         <span aria-hidden="true">&middot;</span>
-        <span>Content: <a href="https://www.gnu.org/licenses/fdl.html">GNU FDL</a></span>
+        <span>{% if document_language == "fa" %}محتوا{% else %}Content{% endif %}: <a href="https://www.gnu.org/licenses/fdl.html">GNU FDL</a></span>
         <span aria-hidden="true">&middot;</span>
-        <span>Source: <a href="https://github.com/OkBayat/OkBayat.github.io/blob/main/LICENSE.txt" target="_blank" rel="noopener noreferrer">MIT</a></span>
+        <span>{% if document_language == "fa" %}کد منبع{% else %}Source{% endif %}: <a href="https://github.com/OkBayat/OkBayat.github.io/blob/main/LICENSE.txt" target="_blank" rel="noopener noreferrer">MIT</a></span>
         {% if site.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
           <span aria-hidden="true">&middot;</span>
-          <span>Updated <span class="d-inline-block">{{ page.last_modified_date | date: "%b %e, %Y" }}</span></span>
+          <span>{% if document_language == "fa" %}به‌روزرسانی در{% else %}Updated{% endif %} <span class="d-inline-block">{% if document_language == "fa" %}{{ page.last_modified_date | date: "%Y-%m-%d" }}{% else %}{{ page.last_modified_date | date: "%b %e, %Y" }}{% endif %}</span></span>
         {% endif %}
       </nav>
     </div>
