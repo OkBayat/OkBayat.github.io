@@ -57,7 +57,9 @@ layout: table_wrappers
             {% endcomment %}
             {% capture legacy_english_language_link %}<p><span dir="ltr"><a href="{{ article_language_counterpart_url }}">English version</a></span></p>{% endcapture %}
             {% capture legacy_persian_language_link %}<p><a href="{{ article_language_counterpart_url }}">نسخه‌ی فارسی</a></p>{% endcapture %}
-            {% assign rendered_content = rendered_content | remove: legacy_english_language_link | remove: legacy_persian_language_link %}
+            {% capture legacy_persian_language_link_with_direction %}<p><span dir="rtl"><a href="{{ article_language_counterpart_url }}">نسخه‌ی فارسی</a></span></p>{% endcapture %}
+            {% capture legacy_persian_language_link_with_class %}<p><span class="rtl"><a href="{{ article_language_counterpart_url }}">نسخه‌ی فارسی</a></span></p>{% endcapture %}
+            {% assign rendered_content = rendered_content | remove: legacy_english_language_link | remove: legacy_persian_language_link | remove: legacy_persian_language_link_with_direction | remove: legacy_persian_language_link_with_class %}
 
             {% assign article_language_legacy_url = article_language_counterpart_url | replace: "-en", "" %}
             {% if article_language_legacy_url != article_language_counterpart_url %}
