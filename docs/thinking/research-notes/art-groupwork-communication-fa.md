@@ -7,12 +7,13 @@ direction: rtl
 lang: fa
 locale: fa_IR
 author: Mohammad Bayat
-date: 2025-10-13
+date: 2026-07-05
 date_modified: 2026-07-21
 last_modified_date: 2026-07-21
 status: working-note
 program: human-transformation
 translation_key: art-groupwork-communication
+edition_kind: original
 note_type: literature-review
 evidence_level: published-sources-with-author-interpretation
 seo:
@@ -42,6 +43,8 @@ sitemap: true
 در چنین موقعیتی، گفت‌وگوی مستقیم همیشه راه‌حل نیست؛ چون همان ترس‌ها و روابط قدرتی که مسئله را ساخته‌اند، وارد گفت‌وگو هم می‌شوند. سؤال مهم این است: چگونه می‌توان چیزی را دید و درباره‌اش حرف زد که هنوز زبان روشنی برای بیانش نداریم؟
 
 پژوهش رزماری ریلی پاسخ قابل‌تأملی به این سؤال می‌دهد: گاهی هنر می‌تواند پیش از کلمات وارد گفت‌وگو شود.
+
+> **یادداشت منشأ:** این نوشته، خوانش و تفسیر من از پژوهش منتشرشدهٔ رزماری ریلی است. این متن حاصل همکاری یا پژوهش مشترک با او نیست و گزارش یک مطالعهٔ میدانی تازه نیز محسوب نمی‌شود.
 
 <details open markdown="block">
   <summary>فهرست مطالب</summary>
