@@ -3,7 +3,7 @@ layout: default
 title: تجربه‌گری‌های دوره
 parent: Research Agenda
 direction: rtl
-permalink: /leadership/research/course-experiments
+permalink: /human-transformation/research-agenda/course-experiments
 ---
 
 # تجربه‌گری‌های دوره
