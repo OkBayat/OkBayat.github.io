@@ -4,7 +4,7 @@ title: Human Transformation
 nav_order: 4
 direction: ltr
 description: "An independent inquiry into learning, language, identity, context, performance, leadership, and durable human change."
-last_modified_date: 2026-07-19
+last_modified_date: 2026-07-22
 permalink: /human-transformation
 ---
 
@@ -30,7 +30,6 @@ A field observation, participant account, conceptual model, and controlled resul
 - **Practice & Programs** preserve the history, questions, and limitations of facilitated programs.
 - **Leadership** contains the existing leadership, coaching, course, research, and source archive.
 - **Source Library** maps concepts and source lineages without presenting them as my conclusions.
-- **Research Log** records changes in questions, methods, interpretations, and evidence standards.
 
 ## Working Standard
 
