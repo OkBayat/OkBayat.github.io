@@ -2,7 +2,7 @@
 layout: default
 title: Resources
 parent: Leadership
-nav_order: 4
+nav_order: 3
 nav_exclude: false
 direction: rtl
 lang: fa

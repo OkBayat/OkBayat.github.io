@@ -28,7 +28,7 @@ A field observation, participant account, conceptual model, and controlled resul
 - **Publications & Notes** is a curated index of canonical writing across the site.
 - **Field Projects** document settings in which learning and coordination are observed over time.
 - **Practice & Programs** preserve the history, questions, and limitations of facilitated programs.
-- **Leadership** contains the existing leadership, coaching, course, research, and source archive.
+- **Leadership** contains the existing coaching, course, source, and practice-based field archive.
 - **Source Library** maps concepts and source lineages without presenting them as my conclusions.
 
 ## Working Standard
