@@ -1,7 +1,7 @@
 ---
 layout: default
 title: پروژه‌ی مشترک
-parent: Research
+parent: Research Agenda
 direction: rtl
 permalink: /leadership/research/created-future
 ---
@@ -47,4 +47,3 @@ permalink: /leadership/research/created-future
 
 ## ادامه‌ی پژوهش
 پژوهش حاضر نه تنها در شرکت گروچا ادامه خواهد یافت، بلکه در نظر داریم این متد را در دیگر کلاس‌ها، سازمان‌ها و گروه‌ها نیز اجرا کنیم. هدف از این پژوهش، یافتن نتایج ملموس و قابل اتکا درباره تأثیر انتخاب پروژه‌های آینده‌ی خلق شده بر بهره‌وری و بهبود عملکرد گروه‌ها است.
-
