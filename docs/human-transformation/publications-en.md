@@ -23,7 +23,7 @@ A work may appear under more than one theme because learning, identity, relation
 - [Human Transformation Research Agenda](/human-transformation/research-agenda) — active questions, evidence boundaries, and methods.
 - [Learning Circle](/human-transformation/field-projects/learning-circle) — children's autonomy, peer teaching, group coordination, and facilitator withdrawal.
 - [Mastery for Life Program Record](/human-transformation/practice-programs/mastery-for-life) — program history, questions, participant self-reports, limitations, and evaluation needs.
-- [Leadership](/leadership) — hub for the existing practice, coaching, course, research, and source archive.
+- [Leadership](/leadership) — hub for the existing coaching, course, source, and practice-based field archive.
 
 ## Relationships, Acceptance & Completion
 
