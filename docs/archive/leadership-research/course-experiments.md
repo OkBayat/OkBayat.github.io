@@ -1,9 +1,9 @@
 ---
 layout: default
 title: تجربه‌گری‌های دوره
-parent: Research Agenda
+parent: Leadership Research Archive
 direction: rtl
-permalink: /human-transformation/research-agenda/course-experiments
+permalink: /archive/leadership-research/course-experiments
 ---
 
 # تجربه‌گری‌های دوره

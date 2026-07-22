@@ -25,11 +25,15 @@ defaults:
     values:
       nav_exclude: true
 
+  # Historical material remains reachable from the footer archive, but it does
+  # not compete with current work in navigation, search, or the sitemap.
   - scope:
-      path: "docs/leadership/research"
+      path: "docs/archive"
       type: "pages"
     values:
       nav_exclude: true
+      search_exclude: true
+      sitemap: false
 
   - scope:
       path: "docs/leadership/resources"
@@ -114,6 +118,7 @@ footer_content: >-
   Connect on <a href="https://github.com/OkBayat" target="_blank" rel="noopener noreferrer">GitHub</a>,
   <a href="https://www.linkedin.com/in/okbayat/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, or
   <a href="https://www.instagram.com/OkBayat" target="_blank" rel="noopener noreferrer">Instagram</a>.
+  Browse the <a href="/archive/">Archive</a>.
   Website source is available under the MIT license.
 
 last_edit_timestamp: true

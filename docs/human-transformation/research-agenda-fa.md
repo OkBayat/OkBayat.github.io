@@ -100,8 +100,6 @@ permalink: /human-transformation/research-agenda-fa
 - دعوت، ساختار پرداخت، پروژه‌ی مشترک، تجربه‌گری‌های دوره و استانداردهای صریح یکپارچگی چگونه بر مشارکت و هماهنگی اثر می‌گذارند؟
 - چگونه می‌توان تجربه‌ی شرکت‌کننده را از پیامد علّی یا قابل تعمیم جدا کرد؟
 
-مواد کاری موجود به زبان فارسی شامل [بافتمان تعهد](/human-transformation/research-agenda/commitment-context)، [بافتمان دعوت](/human-transformation/research-agenda/invitation-context)، [تجربه‌گری‌های دوره](/human-transformation/research-agenda/course-experiments)، [شاخص یکپارچگی](/human-transformation/research-agenda/integrity-index) و [پروژه‌ی مشترک](/human-transformation/research-agenda/created-future) است. این صفحه‌ها مشاهده‌های میدانی و فرضیه‌های در حال شکل‌گیری را حفظ می‌کنند؛ حضورشان در این برنامه سطح شواهد آن‌ها را بالاتر نمی‌برد.
-
 ## ۶. کیفیت زندگی
 
 **وضعیت فعلی: باز**

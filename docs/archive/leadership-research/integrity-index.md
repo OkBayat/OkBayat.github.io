@@ -1,9 +1,9 @@
 ---
 layout: default
 title: شاخص یکپارچگی
-parent: Research Agenda
+parent: Leadership Research Archive
 direction: rtl
-permalink: /human-transformation/research-agenda/integrity-index
+permalink: /archive/leadership-research/integrity-index
 ---
 
 # شاخص یکپارچگی
