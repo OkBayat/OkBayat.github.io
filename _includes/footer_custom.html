@@ -1,3 +1,27 @@
-{%- if site.footer_content -%}
-  <p class="text-small text-grey-dk-100 mb-0">{{ site.footer_content }}</p>
-{%- endif -%}
+<div class="content-footer-primary">
+  <a class="content-footer-archive" href="{{ '/archive/' | relative_url }}">
+    <span class="content-footer-archive-copy">
+      <span class="content-footer-label">Explore</span>
+      <span class="content-footer-archive-title">Archive</span>
+      <span class="content-footer-archive-description">Earlier research and materials</span>
+    </span>
+    <span class="content-footer-arrow" aria-hidden="true">&rarr;</span>
+  </a>
+
+  <nav class="content-footer-connect" aria-label="Connect">
+    <span class="content-footer-label">Connect</span>
+    <div class="content-footer-links">
+      <a href="https://www.linkedin.com/in/okbayat/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/OkBayat" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.instagram.com/OkBayat" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+  </nav>
+</div>
+
+<div class="content-footer-identity">
+  <p>&copy; 2023&ndash;2026 Mohammad Bayat</p>
+  <p>
+    <a href="https://github.com/OkBayat/OkBayat.github.io" target="_blank" rel="noopener noreferrer">Website source</a>
+    is available under the MIT License.
+  </p>
+</div>
