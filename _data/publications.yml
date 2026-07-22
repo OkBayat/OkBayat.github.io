@@ -157,6 +157,27 @@ works:
         title: "What Are Learners Actually Committed To? Commitment as a Context for Learning"
         url: /thinking/research-notes/commitment-context-learning-en
 
+  - id: awareness-transformative-learning
+    content_type: research-note
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+    themes:
+      - learning-memory-language
+      - leadership-identity-coordination
+    program: human-transformation
+    translation_key: awareness-transformative-learning
+    summary: A practice-based field inquiry into whether repeated, nonjudgmental awareness of mental and behavioral patterns may help people recognize automaticity, recover choice, and begin changing from within.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: "آیا آگاهی می‌تواند آغازگر تحول باشد؟ چهار مشاهدهٔ میدانی از یادگیری، راهبری و کوچینگ"
+        url: /thinking/research-notes/awareness-transformative-learning-fa
+      - lang: en
+        label: English
+        title: "Can Awareness Initiate Transformation? Four Field Observations from Learning, Leadership, and Coaching"
+        url: /thinking/research-notes/awareness-transformative-learning-en
+
   - id: vocora-learning-metrics
     content_type: research-note
     primary_body: building
