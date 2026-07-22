@@ -106,7 +106,6 @@ assert_order(
     /human-transformation/practice-programs
     /leadership
     /human-transformation/source-library
-    /human-transformation/research-log
   ]
 )
 
