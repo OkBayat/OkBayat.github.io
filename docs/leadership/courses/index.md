@@ -2,7 +2,7 @@
 layout: default
 title: Courses
 parent: Leadership
-nav_order: 3
+nav_order: 2
 nav_exclude: false
 direction: rtl
 lang: fa
