@@ -8,8 +8,8 @@ lang: fa
 locale: fa_IR
 author: Mohammad Bayat
 date: 2026-07-17
-date_modified: 2026-07-17
-last_modified_date: 2026-07-17
+date_modified: 2026-07-23
+last_modified_date: 2026-07-23
 status: program-record
 program: mastery-for-life
 note_type: program-record
@@ -156,7 +156,7 @@ permalink: /human-transformation/practice-programs/mastery-for-life
 6. استفاده از ارزیابی مستقل در صورت امکان؛
 7. سنجش انتقال به محیطی خارج از دوره؛
 8. انتشار نتیجه‌ی نامشخص یا ناموفق بدون پنهان‌کردن آن؛
-9. ثبت تغییرات طراحی در [Research Log](/human-transformation/research-log).
+9. ثبت تغییرات طراحی در همین سابقه‌ی برنامه و پیوند آن‌ها با [برنامه‌ی پژوهشی تحول انسان](/human-transformation/research-agenda-fa).
 
 ## وضعیت فعلی
 

@@ -2,18 +2,21 @@
 layout: table_wrappers
 ---
 
+{% capture document_language %}{% include page_language.html %}{% endcapture %}
+{% assign document_language = document_language | strip %}
+
 <!DOCTYPE html>
 
-<html lang="{{ site.lang | default: 'en-US' }}">
+<html lang="{{ document_language }}">
 {% include head.html %}
 <body>
-  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  <a class="skip-to-main" href="#main-content" lang="en" dir="ltr">Skip to main content</a>
   {% include icons/icons.html %}
-  <div class="main" id="top">
+  <div class="main" id="top" lang="en" dir="ltr">
     {% include components/header.html %}
     <div class="main-content-wrap">
       {% include components/breadcrumbs.html %}
-      <div id="main-content" class="main-content" dir="{{ page.direction | default: 'ltr' }}">
+      <div id="main-content" class="main-content" lang="{{ document_language }}" dir="{{ page.direction | default: 'ltr' }}">
         <main>
           {% if site.heading_anchors != false %}
             {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#svg-link\"></use></svg>" anchorClass="anchor-heading" anchorAttrs="aria-labelledby=\"%html_id%\"" %}

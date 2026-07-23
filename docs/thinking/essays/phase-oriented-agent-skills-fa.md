@@ -9,8 +9,8 @@ lang: fa
 locale: fa_IR
 author: Mohammad Bayat
 date: 2026-07-18
-date_modified: 2026-07-18
-last_modified_date: 2026-07-18
+date_modified: 2026-07-23
+last_modified_date: 2026-07-23
 status: essay
 translation_key: phase-oriented-agent-skills
 evidence_level: architectural-proposal-informed-by-implementation-experience-and-primary-sources
@@ -36,7 +36,7 @@ permalink: /thinking/essays/phase-oriented-agent-skills-fa
 
 { یک معماری مرجع برای جریان‌کارهای قابل اعتماد و بهینه در مصرف کانتکست | fs-6 }
 
-{ [English version](/thinking/essays/phase-oriented-agent-skills) | ltr }
+{ [English version](/thinking/essays/phase-oriented-agent-skills-en) | ltr }
 
 {: .note-title }
 > درباره‌ی این مقاله

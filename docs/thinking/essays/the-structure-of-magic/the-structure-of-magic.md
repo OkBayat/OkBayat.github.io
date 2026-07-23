@@ -3,6 +3,8 @@ layout: default
 title: ساختار جادو
 parent: Essays
 direction: rtl
+lang: fa
+locale: fa_IR
 permalink: /thinking/essays/the-structure-of-magic
 ---
 
