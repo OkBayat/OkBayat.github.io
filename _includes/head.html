@@ -16,36 +16,29 @@
 
   <script>
     (function () {
-      var storageKey = "okbayat-theme";
       var theme = "light";
 
       try {
-        if (window.localStorage.getItem(storageKey) === "dark") {
+        if (window.localStorage.getItem("okbayat-theme") === "dark") {
           theme = "dark";
         }
       } catch (error) {
         theme = "light";
       }
 
-      var root = document.documentElement;
-      root.dataset.theme = theme;
-      root.style.visibility = "hidden";
       window.jtdTheme = theme;
+      document.documentElement.setAttribute("data-theme", theme);
+      document.documentElement.style.colorScheme = theme;
+      document.documentElement.style.backgroundColor = theme === "dark" ? "#27262b" : "#fff";
 
-      var stylesheet = document.createElement("link");
-      stylesheet.rel = "stylesheet";
-      stylesheet.id = "jtd-theme-stylesheet";
-      stylesheet.href =
-        "{{ '/assets/css/just-the-docs-' | relative_url }}" + theme + ".css";
-
-      function revealPage() {
-        root.style.visibility = "";
-      }
-
-      stylesheet.addEventListener("load", revealPage);
-      stylesheet.addEventListener("error", revealPage);
-      window.setTimeout(revealPage, 3000);
-      document.head.appendChild(stylesheet);
+      var themeStylesheet = document.createElement("link");
+      themeStylesheet.rel = "stylesheet";
+      themeStylesheet.id = "jtd-theme-stylesheet";
+      themeStylesheet.href = "{{ '/assets/css/just-the-docs-' | relative_url }}" + theme + ".css";
+      themeStylesheet.onload = function () {
+        document.documentElement.style.removeProperty("background-color");
+      };
+      document.head.appendChild(themeStylesheet);
     })();
   </script>
   <noscript>
