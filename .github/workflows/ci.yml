@@ -180,10 +180,28 @@ jobs:
           path: stylelint.log
           if-no-files-found: error
           retention-days: 7
-      - name: Validate formatting
-        run: npm run lint:formatting
+      - name: Generate canonical formatting
+        id: prettier
+        continue-on-error: true
+        shell: bash
+        run: |
+          npm run format
+          git diff -- assets/css/timeline.scss assets/js/timeline.js package.json > prettier.patch
+          test ! -s prettier.patch
+      - name: Upload Prettier diagnostics
+        if: steps.prettier.outcome == 'failure'
+        uses: actions/upload-artifact@v4
+        with:
+          name: prettier-diagnostics
+          path: |
+            prettier.patch
+            assets/css/timeline.scss
+            assets/js/timeline.js
+            package.json
+          if-no-files-found: error
+          retention-days: 7
       - name: Validate timeline JavaScript
         run: npm run lint:javascript
-      - name: Fail when Stylelint reports errors
-        if: steps.stylelint.outcome == 'failure'
+      - name: Fail when asset validation reports errors
+        if: steps.stylelint.outcome == 'failure' || steps.prettier.outcome == 'failure'
         run: exit 1
