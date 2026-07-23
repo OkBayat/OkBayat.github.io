@@ -5,9 +5,26 @@ parent: Research
 nav_order: 2
 direction: ltr
 description: "The current inquiry into what remains of learning and change after the original learning space, group, or facilitator disappears."
+date: 2026-07-23
 last_modified_date: 2026-07-23
 status: active
 permalink: /research/current-inquiry
+timeline:
+  type: question
+  title: What remains when the learning space disappears?
+  summary: An active inquiry into when changes in learning, performance, identity, or coordination remain available after the original course, facilitator, group, product, or supportive environment is gone.
+  reason: Repeated observations across learning, leadership, software teams, and facilitated programs raised a harder question than whether change can happen inside a supportive setting—whether it can persist across time and changing contexts.
+  thread: Durable learning
+  status: active inquiry
+  themes:
+    - learning-memory-language
+    - leadership-identity-coordination
+    - philosophy-worldview
+  tags:
+    - durable-learning
+    - transfer
+    - context
+    - reflective-practice
 ---
 
 # Current Inquiry
