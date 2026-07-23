@@ -120,6 +120,8 @@ jobs:
         run: ruby scripts/validate_child_page_navigation.rb _site
       - name: Validate publication navigation
         run: ruby scripts/validate_publication_navigation.rb _site
+      - name: Validate research and writing timeline
+        run: ruby scripts/validate_timeline.rb _site
       - name: Validate article language switches
         run: ruby scripts/validate_article_language_switch.rb _site
       - name: Test with Nu Validator
