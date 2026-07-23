@@ -1,0 +1,36 @@
+.theme-toggle {
+  display: inline-flex;
+  width: 2.25rem;
+  height: 2.25rem;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.75rem;
+  cursor: pointer;
+  color: $link-color;
+  background: transparent;
+  border: $border $border-color;
+  border-radius: 50%;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus-visible {
+  background-color: $feedback-color;
+  border-color: $link-color;
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid $link-color;
+  outline-offset: 2px;
+}
+
+.theme-toggle-icon {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+@media (max-width: 49.99rem) {
+  .theme-toggle {
+    margin-left: auto;
+  }
+}
