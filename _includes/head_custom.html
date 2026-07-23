@@ -4,39 +4,62 @@
 <style>
 .theme-toggle {
   display: inline-flex;
-  width: 2.25rem;
-  height: 2.25rem;
+  width: 2rem;
+  height: 2rem;
   align-items: center;
   justify-content: center;
-  margin-left: .75rem;
+  margin-left: 1rem;
+  padding: 0;
   cursor: pointer;
-  color: inherit;
+  color: $link-color;
   background: transparent;
-  border: 1px solid currentColor;
-  border-radius: 50%;
-  opacity: .8;
-  transition: opacity .15s ease, background-color .15s ease;
+  border: 1px solid rgba(128, 128, 128, .45);
+  border-radius: 999px;
+  transition: background-color .15s ease, border-color .15s ease;
 }
 
 .theme-toggle:hover,
 .theme-toggle:focus-visible {
-  opacity: 1;
-  background-color: rgba(128, 128, 128, .12);
+  background-color: rgba(128, 128, 128, .1);
+  border-color: $link-color;
 }
 
 .theme-toggle:focus-visible {
-  outline: 2px solid currentColor;
+  outline: 2px solid $link-color;
   outline-offset: 2px;
 }
 
 .theme-toggle-icon {
-  font-size: 1.1rem;
-  line-height: 1;
+  display: flex;
+  width: 1rem;
+  height: 1rem;
+}
+
+.theme-icon {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.theme-icon-moon {
+  display: none;
+}
+
+[data-theme="dark"] .theme-icon-sun {
+  display: none;
+}
+
+[data-theme="dark"] .theme-icon-moon {
+  display: block;
 }
 
 @media (max-width: 49.99rem) {
   .theme-toggle {
-    margin-left: auto;
+    margin-left: .75rem;
   }
 }
 </style>
