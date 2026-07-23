@@ -49,16 +49,16 @@ This work is independent and is not presented as an academic affiliation, clinic
 
 #### Learning Circle — Field Project Designer and Facilitator
 
-**Approximately 2023 – Present**
+**Ongoing field project**
 
-Learning Circle began as a small programming activity with children roughly eight to twelve years old and became a longitudinal field project about independent learning and group coordination.
+Learning Circle began as a programming activity with children and became a longitudinal field project about independent learning and group coordination.
 
 - Used Code.org and programming as a medium for learning how to learn.
 - Designed early sessions around peer support, learner ownership, and teaching others.
 - Gradually transferred session coordination to the children and withdrew from regular attendance.
 - Continued observing the group's self-coordination, progress, peer teaching, and requests for occasional guidance.
-- Documented alternative explanations, facilitator bias, family relationships, privacy constraints, and the absence of a control group or standardized outcome.
-- Established a public record that avoids repeating children's names, certificates, school details, or unnecessary identifying information.
+- Documented alternative explanations, facilitator bias, pre-existing relationships, privacy constraints, and the absence of a control group or standardized outcome.
+- Established a generalized, group-level public record that excludes exact ages, group size, dates, location, school details, relationships to the facilitator, identifiable work products, and individual learning histories.
 
 The current record is a practice-based field observation, not a causal experiment or a claim of permanent transformation.
 

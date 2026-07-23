@@ -8,13 +8,13 @@ lang: en
 locale: en_US
 author: Mohammad Bayat
 date: 2026-07-17
-date_modified: 2026-07-17
-last_modified_date: 2026-07-17
+date_modified: 2026-07-23
+last_modified_date: 2026-07-23
 status: active-field-project
 project: learning-circle
 note_type: field-project-record
 evidence_level: longitudinal-field-observation
-privacy: anonymized
+privacy: generalized-aggregate
 seo:
   type: Article
 categories:
@@ -50,7 +50,7 @@ This page records the project history as I currently understand it. It separates
 
 ## The Starting Question
 
-The project began around 2023 with a small group of children roughly eight to twelve years old, including children in my extended family. I used [Code.org](https://code.org/) as an accessible path into programming, but teaching programming was not the only purpose.
+The project began with a group of children in a shared learning setting. I used [Code.org](https://code.org/) as an accessible path into programming, but teaching programming was not the only purpose.
 
 I wanted to observe questions such as:
 
@@ -79,7 +79,7 @@ The central intervention was not a single lesson. It was the gradual removal of 
 
 I first missed or delegated parts of sessions for practical reasons. Over time, I began asking individual children to coordinate the session. Eventually I stopped attending directly while continuing to remain available at a distance when the group reached a question it could not resolve.
 
-By the time of this record, the group had continued for approximately a year without my regular presence in the class.
+By the time of this record, the group had continued for a sustained period without my regular presence in the class.
 
 ## What I Directly Observed
 
@@ -89,9 +89,9 @@ The observations available to me include:
 - continued progress through new programming material;
 - children asking for guidance about what to study after completing a stage;
 - peer support when one learner became stuck;
-- learners teaching programming to classmates, relatives, friends, or neighbours;
+- learners teaching programming to other children in their existing social circles;
 - the group expanding through peer teaching rather than only through adult recruitment;
-- certificates and completed activities produced over time.
+- completed learning activities documented over time.
 
 These are meaningful observations, but they do not by themselves show which part of the setting produced them or whether the same pattern would occur with another group.
 
@@ -99,7 +99,7 @@ These are meaningful observations, but they do not by themselves show which part
 
 My current interpretation is that the project may have created a local culture in which learning, helping, and teaching were treated as connected activities. The gradual withdrawal of the adult may also have made room for roles that the children would not have needed to assume if the instructor had remained the permanent source of direction.
 
-This interpretation remains provisional. The children may also have continued because they were unusually motivated, already knew one another, had family support, enjoyed programming, valued my relationship with them, or had access to tools and time that another group would not have.
+This interpretation remains provisional. The children may also have continued because they were unusually motivated, had pre-existing relationships, received support outside the sessions, enjoyed programming, or had access to tools and time that another group would not have.
 
 ## What This Project Does Not Demonstrate
 
@@ -110,17 +110,17 @@ The current record does not demonstrate that:
 - peer teaching produced deeper retention than individual study;
 - the observed children represent children in general;
 - the same results would continue after a longer period or in another social context;
-- certificates measure durable learning, creativity, leadership, or future achievement.
+- completed activities measure durable learning, creativity, leadership, or future achievement.
 
-There was no randomized assignment, control group, predeclared outcome, standardized assessment, or independent evaluator. I was simultaneously designer, facilitator, relative to some participants, and observer.
+There was no randomized assignment, control group, predeclared outcome, standardized assessment, or independent evaluator. I was simultaneously designer, facilitator, and observer, and some participants knew me before the activity.
 
 ## Alternative Explanations and Sources of Bias
 
 Important alternatives and sources of bias include:
 
 - selection of children who were already curious or willing to participate;
-- maturation over several years;
-- family and friendship relationships within the group;
+- maturation over time;
+- pre-existing relationships within and around the group;
 - novelty and enjoyment of programming tools;
 - access to devices and adult support outside the sessions;
 - my expectations as the project designer;
@@ -131,7 +131,11 @@ These explanations do not make the observations unimportant. They define what mu
 
 ## Privacy and Safeguards for Children
 
-This research-facing record intentionally avoids names, school details, identifiable certificates, performance rankings, and personal stories that are not necessary to understand the project.
+This public record is limited to generalized, group-level observations. It does not disclose the group's size, precise age range, dates, location, schools, relationships to the facilitator, identifiable work products, or individual learning histories. No child is quoted, profiled, ranked, or connected to a specific result.
+
+This page does not treat participation in the learning activity as permission for research or public publication. Because this record does not establish a basis for publishing identifiable information, those details are excluded from the public account.
+
+A participant or parent or guardian may request a correction or removal through the site's [contact page](/about/contact). The request does not need to identify the person publicly.
 
 Future public documentation should follow these safeguards:
 
