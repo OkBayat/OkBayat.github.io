@@ -264,7 +264,11 @@ html[data-theme="dark"] .timeline-filters-panel {
 
 .timeline-chip:hover {
   color: var(--timeline-text);
-  border-color: color-mix(in srgb, var(--timeline-muted) 45%, var(--timeline-border));
+  border-color: color-mix(
+    in srgb,
+    var(--timeline-muted) 45%,
+    var(--timeline-border)
+  );
 }
 
 .timeline-chip:focus-visible,
@@ -394,7 +398,11 @@ html[data-theme="dark"] .timeline-filters-panel {
 }
 
 .timeline-entry-card:hover {
-  border-color: color-mix(in srgb, var(--timeline-muted) 26%, var(--timeline-border));
+  border-color: color-mix(
+    in srgb,
+    var(--timeline-muted) 26%,
+    var(--timeline-border)
+  );
   box-shadow: 0 16px 36px rgba(33, 29, 51, 0.075);
   transform: translateY(-2px);
 }
@@ -569,7 +577,12 @@ html[data-theme="dark"] .timeline-entry-card:hover {
   color: var(--timeline-muted);
   text-align: center;
   background: var(--timeline-surface);
-  border: 1px dashed color-mix(in srgb, var(--timeline-muted) 32%, var(--timeline-border));
+  border: 1px dashed
+    color-mix(
+      in srgb,
+      var(--timeline-muted) 32%,
+      var(--timeline-border)
+    );
   border-radius: 12px;
 }
 
