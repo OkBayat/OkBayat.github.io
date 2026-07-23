@@ -14,7 +14,43 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-default.css' | relative_url }}">
+  <script>
+    (function () {
+      var storageKey = "okbayat-theme";
+      var theme = "light";
+
+      try {
+        if (window.localStorage.getItem(storageKey) === "dark") {
+          theme = "dark";
+        }
+      } catch (error) {
+        theme = "light";
+      }
+
+      var root = document.documentElement;
+      root.dataset.theme = theme;
+      root.style.visibility = "hidden";
+      window.jtdTheme = theme;
+
+      var stylesheet = document.createElement("link");
+      stylesheet.rel = "stylesheet";
+      stylesheet.id = "jtd-theme-stylesheet";
+      stylesheet.href =
+        "{{ '/assets/css/just-the-docs-' | relative_url }}" + theme + ".css";
+
+      function revealPage() {
+        root.style.visibility = "";
+      }
+
+      stylesheet.addEventListener("load", revealPage);
+      stylesheet.addEventListener("error", revealPage);
+      window.setTimeout(revealPage, 3000);
+      document.head.appendChild(stylesheet);
+    })();
+  </script>
+  <noscript>
+    <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-light.css' | relative_url }}">
+  </noscript>
 
   <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-head-nav.css' | relative_url }}" id="jtd-head-nav-stylesheet">
 
