@@ -37,6 +37,13 @@ These notes are also discoverable in [All Writing](/writing/all) and, when conne
 
 These notes are also collected in [Research Publications](/research/publications).
 
+## Field Notes
+
+{% assign field_notes = site.pages | where: "note_type", "field-note" | sort: "date" | reverse %}
+{% for note in field_notes %}
+- [{{ note.title }}]({{ note.url }}) — {{ note.description }}
+{% endfor %}
+
 ## Common Note Types
 
 ### Open Question
