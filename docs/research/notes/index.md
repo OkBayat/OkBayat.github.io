@@ -35,6 +35,8 @@ These notes are also discoverable in [All Writing](/writing/all) and, when conne
 {% endif %}
 {% endfor %}
 
+- [What Remains When the Course Ends?](/research/notes/what-remains-when-the-course-ends) — A ten-day exploratory observation on whether leadership learning remains available across changing work and life contexts.
+
 These notes are also collected in [Research Publications](/research/publications).
 
 ## Common Note Types
