@@ -35,6 +35,7 @@ These notes are also discoverable in [All Writing](/writing/all) and, when conne
 {% endif %}
 {% endfor %}
 
+- [Can the Learner Carry the Context?](/research/notes/can-the-learner-carry-the-context) — A reading and inquiry note on reflective practice, double-loop learning, coaching, and learning that remains available across changing contexts.
 - [What Remains When the Course Ends?](/research/notes/what-remains-when-the-course-ends) — A ten-day exploratory observation on whether leadership learning remains available across changing work and life contexts.
 
 These notes are also collected in [Research Publications](/research/publications).
