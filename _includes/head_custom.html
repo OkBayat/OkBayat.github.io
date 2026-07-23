@@ -3,6 +3,13 @@
 
 {% if page.timeline_explorer %}
 <link rel="stylesheet" href="{{ '/assets/css/timeline.css' | relative_url }}">
+<style>
+.timeline-entry-origin,
+.timeline-entry-origin[dir="rtl"] {
+  grid-template-columns: minmax(0, 1fr);
+  gap: .25rem;
+}
+</style>
 <script>document.documentElement.classList.add("timeline-page-document")</script>
 {% endif %}
 
