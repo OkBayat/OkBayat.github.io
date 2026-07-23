@@ -7,73 +7,78 @@ permalink: /
 ---
 
 # Mohammad Bayat
-{ Founder, Software Engineer, and Independent Researcher | fs-6 }
+{ Founder, Software Engineer, Leadership Facilitator, and Independent Researcher | fs-6 }
 
 {% include components/profile_photo.html variant="home" link="/about/biography" %}
 
 I build quantitative systems and organizations, and I study how language, identity, context, and learning shape human performance and durable change.
 
-OkBayat.com is a public record of the questions, field projects, evidence, software, and revisions emerging from that work. It is not a catalogue of settled answers. I try to distinguish published evidence from observation, participant report, interpretation, and questions that remain open.
+OkBayat.com is a research and practice portfolio: a public record of what I am building, what I am asking, what evidence is available, where the limits are, and how the work changes.
 
-## Two Bodies of Work
+## Current Inquiry
 
-### Building Systems and Organizations
+**What remains when the learning space disappears?**
 
-[K2Quant](/building/k2quant) is the main company-building part of my work. It brings together quantitative systems, software engineering, artificial intelligence, decision-support tools, and the practical work of operating a technical organization.
+I am examining what allows learning, performance, identity, or group coordination to persist after the original course, facilitator, team, product, or supportive context is no longer present.
 
-Writing about software, AI, agent systems, entrepreneurship, company-building, operations, and project lessons is collected in [Building Publications & Notes](/building/publications).
+[Read the current inquiry](/research/current-inquiry) · [View the research profile](/research/profile)
 
-### Studying Human Transformation
+## Selected Work
 
-[Human Transformation](/human-transformation) is an independent inquiry into learning, language, identity, context, performance, leadership, group coordination, and quality of life. It connects reading with field projects and practice-based observation without treating those observations as formal scientific proof.
+<div class="evidence-card-grid">
+{% include components/evidence_card.html
+  type="Research direction"
+  status="Active"
+  title="What Remains When the Learning Space Disappears?"
+  question="What distinguishes durable transfer from change that depends on the original context?"
+  role="Practitioner-researcher"
+  evidence="Published sources, bounded field records, professional observation, and explicit open questions"
+  limits="No causal or universal claim; study design is still being narrowed"
+  url="/research/current-inquiry"
+%}
+{% include components/evidence_card.html
+  type="Project"
+  status="Active"
+  title="K2Quant"
+  question="How can quantitative systems, AI-assisted workflows, and a technical organization be built reliably?"
+  role="Founder and software engineer"
+  evidence="Operating software, engineering systems, organizational practice, and published architecture essays"
+  limits="Confidential operations and future goals are not presented as public evidence"
+  url="/projects/k2quant"
+%}
+{% include components/evidence_card.html
+  type="Project"
+  status="Active"
+  title="Vocora"
+  question="How should a learning product distinguish activity, current performance, and durable learning?"
+  role="Independent researcher and builder"
+  evidence="Open-source software, product instrumentation, research notes, and planned delayed measures"
+  limits="Current product use does not yet demonstrate long-term learning effectiveness"
+  url="/projects/vocora"
+%}
+{% include components/evidence_card.html
+  type="Field project"
+  status="Ongoing record"
+  title="Learning Circle"
+  question="What can a learning group continue doing after the facilitator leaves the center?"
+  role="Designer and facilitator"
+  evidence="Generalized practice-based observation and a longitudinal field record"
+  limits="No control group or causal claim; public details are restricted for child privacy"
+  url="/leadership-learning/human-transformation/field-projects/learning-circle"
+%}
+</div>
 
-Related essays, research notes, reading notes, translations, and field records are collected in [Human Transformation Publications & Notes](/human-transformation/publications).
+## Explore the Portfolio
 
-## Questions I Am Working On
+- [About](/about) — biography, professional journey, mastery, values, and resume.
+- [Research](/research) — profile, current inquiry, agenda, methods, ethics, evidence, publications, and notes.
+- [Leadership & Learning](/leadership-learning) — leadership, human transformation, facilitation, coaching, programs, and courses.
+- [Projects](/projects) — K2Quant, Vocora, K2 OS, FamilyLink, and documented experiments.
+- [Writing & Media](/writing) — essays, reading notes, translations, podcast, and the complete writing index.
+- [Contact](/contact) — professional, research, project, or speaking inquiries.
 
-- What distinguishes temporary behavior change from durable learning or transformation?
-- Why does a person sometimes perform well in one context and return to an earlier pattern in another?
-- How do language, identity, and worldview shape what appears possible and how a person acts?
-- Under what conditions can children and groups continue learning without continuous direction or control?
-- What contributes to quality of life beyond tools, status, and material conditions?
+## Publication Standard
 
-The evolving set of questions is recorded in the [Human Transformation Research Agenda](/human-transformation/research-agenda).
+An essay, research note, participant account, project record, and experiment report do not carry the same evidential weight. I try to distinguish published evidence, direct observation, participant self-report, interpretation, and open hypothesis—and to state what the available material cannot establish.
 
-## Current Work and Field Projects
-
-### Learning Circle
-
-[Learning Circle](/human-transformation/field-projects/learning-circle) is a field project about children's independent learning, peer teaching, group coordination, and what happens when the facilitator gradually leaves the center of the learning process.
-
-### Mastery for Life
-
-[Mastery for Life](/human-transformation/practice-programs/mastery-for-life) is documented as a program record: its origins, questions, practice setting, participant reports, limitations, and what has not yet been demonstrated.
-
-### Vocora
-
-[Vocora](/building/vocora) is an independent research-and-building project about learning, memory, language practice, and learning technology. Its current software provides a bounded setting for examining retrieval, spacing, feedback, motivation, measurement, and privacy.
-
-### Leadership and Organizational Practice
-
-[Leadership](/leadership) contains the existing programs, source material, coaching work, and practice-based observations connected to coordination, responsibility, language, identity, and performance.
-
-## How I Publish
-
-- **Essays** contain original arguments and synthesis.
-- **Research Notes** contain open questions, field notes, evidence reviews, and revisions.
-- **Reading Notes** distinguish a source author's position from my interpretation.
-- **Translations** identify the original author, source, translator, and type of adaptation.
-- **Building** documents companies, software, projects, and formal experiments when they exist.
-- **Program Records** distinguish program history and participant self-report from evidence of efficacy.
-
-Content type determines the canonical home of a page. Body-of-work and theme indexes create additional ways to discover it without copying the article or fragmenting the site into separate technical, startup, and human blogs.
-
-## Start Here
-
-- [Essays](/thinking/essays)
-- [Building Publications & Notes](/building/publications)
-- [Human Transformation Publications & Notes](/human-transformation/publications)
-- [Human Transformation Research Agenda](/human-transformation/research-agenda)
-- [Vocora](/building/vocora)
-- [K2Quant](/building/k2quant)
-- [Current Work](/about/current-interests)
+[Read Methods, Ethics & Evidence](/research/methods-ethics-evidence)

@@ -169,12 +169,13 @@ works.each do |work|
 end
 
 required_hubs = %w[
-  /thinking/essays
-  /thinking/research-notes
-  /thinking/reading-notes
-  /thinking/translations
-  /building/publications
-  /human-transformation/publications
+  /writing/essays
+  /research/notes
+  /writing/reading-notes
+  /writing/translations
+  /writing/podcast
+  /writing/all
+  /research/publications
 ]
 
 required_hubs.each do |url|

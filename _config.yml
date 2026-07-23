@@ -20,7 +20,7 @@ defaults:
   # global sidebar. Section index pages explicitly opt back in with
   # `nav_exclude: false`.
   - scope:
-      path: "docs/leadership/courses"
+      path: "docs/leadership-learning/courses"
       type: "pages"
     values:
       nav_exclude: true
@@ -36,13 +36,13 @@ defaults:
       sitemap: false
 
   - scope:
-      path: "docs/leadership/resources"
+      path: "docs/leadership-learning/leadership/resources"
       type: "pages"
     values:
       nav_exclude: true
 
   - scope:
-      path: "docs/leadership/coaching"
+      path: "docs/leadership-learning/learning-facilitation/coaching"
       type: "pages"
     values:
       nav_exclude: true

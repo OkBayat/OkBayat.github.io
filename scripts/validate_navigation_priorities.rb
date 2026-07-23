@@ -87,52 +87,65 @@ normalized_hrefs = raw_hrefs.map { |href| normalize_internal_url(href) }
 assert_order(
   normalized_hrefs,
   "Primary navigation",
-  %w[/ /thinking /building /human-transformation /voice /about]
-)
-
-assert_order(
-  normalized_hrefs,
-  "Building navigation",
-  %w[/building/k2quant /building/vocora /building/publications /building/projects]
-)
-
-assert_order(
-  normalized_hrefs,
-  "Human Transformation navigation",
-  %w[
-    /human-transformation/research-agenda
-    /human-transformation/publications
-    /human-transformation/field-projects
-    /human-transformation/practice-programs
-    /leadership
-    /human-transformation/source-library
-  ]
+  %w[/ /about /research /leadership-learning /projects /writing /contact]
 )
 
 assert_order(
   normalized_hrefs,
   "About navigation",
-  %w[/about/biography /about/current-interests /about/resume /about/contact]
+  %w[/about/biography /about/professional-journey /about/mastery /about/values /about/resume]
 )
 
-if normalized_hrefs.include?("/building/experiments")
-  warn "Experiments must remain outside the global sidebar until a formal report exists"
-  exit 1
-end
+assert_order(
+  normalized_hrefs,
+  "Research navigation",
+  %w[
+    /research/profile
+    /research/current-inquiry
+    /research/agenda
+    /research/methods-ethics-evidence
+    /research/publications
+    /research/notes
+  ]
+)
 
-experiments_path = generated_page_path(SITE_DIR, "/building/experiments")
+assert_order(
+  normalized_hrefs,
+  "Leadership & Learning navigation",
+  %w[
+    /leadership-learning/perspective
+    /leadership-learning/leadership
+    /leadership-learning/human-transformation
+    /leadership-learning/learning-facilitation
+    /leadership-learning/courses
+  ]
+)
+
+assert_order(
+  normalized_hrefs,
+  "Projects navigation",
+  %w[/projects/k2quant /projects/vocora /projects/k2-os /projects/familylink /projects/experiments]
+)
+
+experiments_path = generated_page_path(SITE_DIR, "/projects/experiments")
 
 unless experiments_path
   warn "Experiments must remain published and reachable from section pages"
   exit 1
 end
 
-if normalized_hrefs.include?("/voice/podcast")
-  warn "The single Inja-Anja series must not create a redundant Podcast submenu"
+assert_order(
+  normalized_hrefs,
+  "Writing & Media navigation",
+  %w[/writing/essays /writing/reading-notes /writing/translations /writing/podcast /writing/all]
+)
+
+unless normalized_hrefs.include?("/writing/podcast/inja-anja")
+  warn "The Inja-Anja series must remain visible below Podcast"
   exit 1
 end
 
-podcast_path = generated_page_path(SITE_DIR, "/voice/podcast")
+podcast_path = generated_page_path(SITE_DIR, "/writing/podcast/inja-anja")
 
 unless podcast_path
   warn "The Inja-Anja page must remain published and reachable from Podcast"
@@ -206,7 +219,7 @@ custom_scss = custom_scss_path.read(encoding: "UTF-8")
   end
 end
 
-contact_path = generated_page_path(SITE_DIR, "/about/contact")
+contact_path = generated_page_path(SITE_DIR, "/contact")
 
 unless contact_path
   warn "Generated Contact page is missing"
@@ -215,6 +228,21 @@ end
 
 contact_html = contact_path.read(encoding: "UTF-8")
 main_footer = footer_html(home_html, "text-left", "the main page footer")
+
+footer_discovery_urls = %w[
+  /writing/all
+  /writing/reading-notes
+  /writing/translations
+  /writing/podcast
+  /archive
+]
+
+footer_discovery_urls.each do |url|
+  unless main_footer.include?(%(href="#{url}")) || main_footer.include?(%(href="#{url}/"))
+    warn "Main page footer is missing discovery link: #{url}"
+    exit 1
+  end
+end
 
 social_urls.each do |url|
   unless contact_html.include?(%(href="#{url}"))

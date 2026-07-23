@@ -3,7 +3,7 @@ layout: default
 title: شاخص یکپارچگی
 parent: Leadership Research Archive
 direction: rtl
-permalink: /archive/leadership-research/integrity-index
+permalink: /archive/leadership-learning/leadership-research/integrity-index
 ---
 
 # شاخص یکپارچگی
