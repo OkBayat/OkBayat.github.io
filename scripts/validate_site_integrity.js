@@ -6,11 +6,11 @@ const path = require("path")
 const ROOT = path.resolve(__dirname, "..")
 const SITE_HOSTS = new Set(["okbayat.com", "www.okbayat.com"])
 const PAGE_EXTENSIONS = new Set([".md", ".html"])
-const ARTICLE_ROOTS = new Set([
-  "essays",
-  "research-notes",
-  "reading-notes",
-  "translations",
+const ARTICLE_DIRECTORIES = new Set([
+  "docs/writing/essays",
+  "docs/research/notes",
+  "docs/writing/reading-notes",
+  "docs/writing/translations",
 ])
 const errors = new Set()
 
@@ -101,11 +101,9 @@ function sourceRoute(filePath, frontMatter) {
 
 function isArticle(filePath) {
   const parts = relative(filePath).split("/")
+  const directory = parts.slice(0, -1).join("/")
   return (
-    parts[0] === "docs" &&
-    parts[1] === "thinking" &&
-    ARTICLE_ROOTS.has(parts[2]) &&
-    path.basename(filePath) !== "index.md"
+    ARTICLE_DIRECTORIES.has(directory) && path.basename(filePath) !== "index.md"
   )
 }
 

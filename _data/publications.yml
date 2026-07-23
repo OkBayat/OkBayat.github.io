@@ -7,10 +7,10 @@
 bodies_of_work:
   building:
     label: Building Systems & Organizations
-    url: /building
+    url: /projects
   human-transformation:
     label: Human Transformation
-    url: /human-transformation
+    url: /leadership-learning/human-transformation
 
 themes:
   software-ai-agent-systems:
@@ -46,11 +46,11 @@ works:
       - lang: fa
         label: فارسی
         title: "ساختن یک LLM Judge کم‌نویز برای بازبینی Pull Requestها: معماری K2"
-        url: /thinking/essays/k2-llm-judge-fa
+        url: /writing/essays/k2-llm-judge-fa
       - lang: en
         label: English
         title: "Building a High-Signal LLM Judge for GitHub Pull Requests: The Architecture Behind K2"
-        url: /thinking/essays/k2-llm-judge-en
+        url: /writing/essays/k2-llm-judge-en
 
   - id: phase-oriented-agent-skills
     content_type: essay
@@ -67,11 +67,11 @@ works:
       - lang: fa
         label: فارسی
         title: طراحی اسکیل‌های بزرگ ایجنت به‌صورت سیستم‌های قطعی و فازمحور
-        url: /thinking/essays/phase-oriented-agent-skills-fa
+        url: /writing/essays/phase-oriented-agent-skills-fa
       - lang: en
         label: English
         title: Designing Large Agent Skills as Deterministic, Phase-Oriented Systems
-        url: /thinking/essays/phase-oriented-agent-skills-en
+        url: /writing/essays/phase-oriented-agent-skills-en
 
   - id: ten-years-of-familylink
     content_type: essay
@@ -88,7 +88,7 @@ works:
       - lang: en
         label: English
         title: "Ten Years of FamilyLink: What We Built, Why It Paused, and What Remains"
-        url: /thinking/essays/ten-years-of-familylink
+        url: /writing/essays/ten-years-of-familylink
 
   - id: acceptance-before-change
     content_type: essay
@@ -106,11 +106,11 @@ works:
       - lang: fa
         label: فارسی
         title: پیش از تغییر، پذیرش؛ درباره‌ی ماهیت انسان و رابطه
-        url: /thinking/essays/acceptance-before-change-fa
+        url: /writing/essays/acceptance-before-change-fa
       - lang: en
         label: English
         title: Acceptance Before Change; On Human Nature and Relationships
-        url: /thinking/essays/acceptance-before-change-en
+        url: /writing/essays/acceptance-before-change-en
 
   - id: when-the-question-changes
     content_type: essay
@@ -130,11 +130,11 @@ works:
       - lang: fa
         label: فارسی
         title: وقتی سؤال عوض می‌شود، سازمان عوض می‌شود؛ از جهان‌بینی پول تا تعهدی فراتر از خود
-        url: /thinking/essays/when-the-question-changes-fa
+        url: /writing/essays/when-the-question-changes-fa
       - lang: en
         label: English
         title: "When the Question Changes, the Organization Changes: From a Money Worldview to a Commitment Beyond the Self"
-        url: /thinking/essays/when-the-question-changes-en
+        url: /writing/essays/when-the-question-changes-en
 
   - id: commitment-context-learning
     content_type: research-note
@@ -151,11 +151,11 @@ works:
       - lang: fa
         label: فارسی
         title: "یادگیرنده واقعاً به چه چیزی متعهد است؟ تعهد به‌مثابه بافتار یادگیری"
-        url: /thinking/research-notes/commitment-context-learning-fa
+        url: /research/notes/commitment-context-learning-fa
       - lang: en
         label: English
         title: "What Are Learners Actually Committed To? Commitment as a Context for Learning"
-        url: /thinking/research-notes/commitment-context-learning-en
+        url: /research/notes/commitment-context-learning-en
 
   - id: awareness-transformative-learning
     content_type: research-note
@@ -172,11 +172,11 @@ works:
       - lang: fa
         label: فارسی
         title: "آیا آگاهی می‌تواند آغازگر تحول باشد؟ چهار مشاهدهٔ میدانی از یادگیری، راهبری و کوچینگ"
-        url: /thinking/research-notes/awareness-transformative-learning-fa
+        url: /research/notes/awareness-transformative-learning-fa
       - lang: en
         label: English
         title: "Can Awareness Initiate Transformation? Four Field Observations from Learning, Leadership, and Coaching"
-        url: /thinking/research-notes/awareness-transformative-learning-en
+        url: /research/notes/awareness-transformative-learning-en
 
   - id: vocora-learning-metrics
     content_type: research-note
@@ -193,7 +193,7 @@ works:
       - lang: en
         label: English
         title: What Should Vocora Measure as Learning?
-        url: /thinking/research-notes/vocora-learning-metrics
+        url: /research/notes/vocora-learning-metrics
 
   - id: retrieval-practice
     content_type: research-note
@@ -209,7 +209,7 @@ works:
       - lang: en
         label: English
         title: Retrieval Practice in Vocora
-        url: /thinking/research-notes/retrieval-practice
+        url: /research/notes/retrieval-practice
 
   - id: spaced-practice-and-leitner
     content_type: research-note
@@ -226,7 +226,7 @@ works:
       - lang: en
         label: English
         title: Spaced Practice and the Leitner System
-        url: /thinking/research-notes/spaced-practice-and-leitner
+        url: /research/notes/spaced-practice-and-leitner
 
   - id: ethical-gamification
     content_type: research-note
@@ -244,7 +244,7 @@ works:
       - lang: en
         label: English
         title: Ethical Gamification in Vocora
-        url: /thinking/research-notes/ethical-gamification
+        url: /research/notes/ethical-gamification
 
   - id: hebbs-rule
     content_type: research-note
@@ -261,7 +261,7 @@ works:
       - lang: fa
         label: فارسی
         title: قانون هب و شکل‌گیری تداعی‌ها
-        url: /thinking/research-notes/hebbs-rule
+        url: /research/notes/hebbs-rule
 
   - id: art-groupwork-communication
     content_type: research-note
@@ -278,11 +278,11 @@ works:
       - lang: fa
         label: فارسی
         title: هنر و روابط پنهان یک گروه
-        url: /thinking/research-notes/art-groupwork-communication
+        url: /research/notes/art-groupwork-communication
       - lang: en
         label: English
         title: "Art and a Group's Hidden Dynamics"
-        url: /thinking/research-notes/art-groupwork-communication-en
+        url: /research/notes/art-groupwork-communication-en
 
   - id: journaling
     content_type: research-note
@@ -297,7 +297,7 @@ works:
       - lang: fa
         label: فارسی
         title: پروتکل ژورنال‌نویسی
-        url: /thinking/research-notes/journaling
+        url: /research/notes/journaling
 
   - id: being-and-time
     content_type: reading-note
@@ -313,7 +313,7 @@ works:
       - lang: fa
         label: فارسی
         title: از هستی تا راهبری
-        url: /thinking/reading-notes/being-and-time
+        url: /writing/reading-notes/being-and-time
 
   - id: holistic-learning
     content_type: reading-note
@@ -329,7 +329,7 @@ works:
       - lang: fa
         label: فارسی
         title: یادگیری کلنگر
-        url: /thinking/reading-notes/holistic-learning
+        url: /writing/reading-notes/holistic-learning
 
   - id: smarter-faster-better
     content_type: reading-note
@@ -345,7 +345,7 @@ works:
       - lang: fa
         label: فارسی
         title: باهوش‌تر، سریع‌تر، بهتر
-        url: /thinking/reading-notes/smarter-faster-better
+        url: /writing/reading-notes/smarter-faster-better
 
   - id: tao-te-ching
     content_type: reading-note
@@ -360,7 +360,7 @@ works:
       - lang: fa
         label: فارسی
         title: تائو تِ چینگ
-        url: /thinking/reading-notes/tao-te-ching
+        url: /writing/reading-notes/tao-te-ching
 
   - id: the-infinite-game
     content_type: reading-note
@@ -377,7 +377,7 @@ works:
       - lang: fa
         label: فارسی
         title: بازی بی‌نهایت
-        url: /thinking/reading-notes/the-infinite-game
+        url: /writing/reading-notes/the-infinite-game
 
   - id: the-power-of-habit
     content_type: reading-note
@@ -394,7 +394,7 @@ works:
       - lang: fa
         label: فارسی
         title: قدرت عادت
-        url: /thinking/reading-notes/the-power-of-habit
+        url: /writing/reading-notes/the-power-of-habit
 
   - id: thinking-fast-and-slow
     content_type: reading-note
@@ -410,7 +410,7 @@ works:
       - lang: fa
         label: فارسی
         title: تفکر سریع و کند
-        url: /thinking/reading-notes/thinking-fast-and-slow
+        url: /writing/reading-notes/writing-fast-and-slow
 
   - id: how-your-brain-finds-patterns
     content_type: translation
@@ -426,4 +426,4 @@ works:
       - lang: fa
         label: فارسی
         title: مغز چگونه الگوهای زبان را دنبال می‌کند
-        url: /thinking/essays/how-your-brain-finds-patterns
+        url: /writing/essays/how-your-brain-finds-patterns

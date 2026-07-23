@@ -19,4 +19,4 @@ Translations, quotations, adapted material, images, audio, fonts, and other thir
 
 The website repository has no blanket open-source license. Original source code is all rights reserved unless a specific file says otherwise. Third-party code remains under its own license; retained notices are listed in [`THIRD-PARTY-NOTICES.md`](https://github.com/OkBayat/OkBayat.github.io/blob/main/THIRD-PARTY-NOTICES.md) and in relevant source files or package manifests.
 
-For permission requests or questions about a specific item, [contact Mohammad Bayat](/about/contact).
+For permission requests or questions about a specific item, [contact Mohammad Bayat](/contact).

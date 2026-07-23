@@ -414,7 +414,96 @@
   margin: $sp-4 auto $sp-5;
 }
 
+.evidence-card-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: $sp-4;
+  margin: $sp-5 0;
+}
+
+.evidence-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: $sp-4;
+  background: $body-background-color;
+  border: $border $border-color;
+  border-radius: 8px;
+  box-shadow: 0 0.25rem 1rem rgba($body-heading-color, 0.05);
+}
+
+.evidence-card-heading {
+  display: flex;
+  gap: $sp-2;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: $sp-2;
+}
+
+.evidence-card-type,
+.evidence-card-status {
+  margin: 0;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.evidence-card-type {
+  color: $body-text-color;
+}
+
+.evidence-card-status {
+  padding: 0.25rem 0.5rem;
+  color: $link-color;
+  background: $feedback-color;
+  border-radius: 999px;
+}
+
+.evidence-card-title {
+  margin-top: 0;
+  margin-bottom: $sp-2;
+  font-size: 1.125rem !important;
+}
+
+.evidence-card-question {
+  margin-top: 0;
+  color: $body-heading-color;
+  font-weight: 500;
+}
+
+.evidence-card-details {
+  margin: 0 0 $sp-3;
+
+  div {
+    padding: $sp-2 0;
+    border-top: $border $border-color;
+  }
+
+  dt {
+    margin-bottom: 0.125rem;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  dd {
+    margin: 0;
+  }
+}
+
+.evidence-card-link {
+  margin-top: auto;
+  font-weight: 600;
+}
+
 @include mq(md) {
+  .evidence-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .profile-photo-link-home {
     float: right;
     width: 9rem;

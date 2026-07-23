@@ -1,9 +1,9 @@
 ---
 layout: default
 title: About
-nav_order: 6
+nav_order: 2
 direction: ltr
-description: "Biography, professional background, current work, and public contact information for Mohammad Bayat."
+description: "Biography, professional journey, approach to mastery, values, and resume for Mohammad Bayat."
 permalink: /about
 ---
 
@@ -12,8 +12,9 @@ permalink: /about
 This section provides context for the work published on okbayat.com.
 
 - [Biography](/about/biography) — a short professional and intellectual background
-- [Current Work](/about/current-interests) — the two active bodies of work and current priorities
+- [Professional Journey](/about/professional-journey) — how the work in software, organizations, leadership, and research developed
+- [Mastery](/about/mastery) — an approach to sustained learning, practice, and revision
+- [Values](/about/values) — principles used to guide decisions and public work
 - [Resume](/about/resume) — selected experience, projects, and practice
-- [Contact](/about/contact) — public contact and scheduling information
 
-For the two main bodies of work, see [K2Quant](/building/k2quant) and [Human Transformation](/human-transformation). For written work, see [Thinking](/thinking).
+For active inquiry, see [Research](/research). For practical work, see [Projects](/projects) and [Leadership & Learning](/leadership-learning). For published work, see [Writing & Media](/writing).

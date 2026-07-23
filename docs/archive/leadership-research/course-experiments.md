@@ -3,7 +3,7 @@ layout: default
 title: تجربه‌گری‌های دوره
 parent: Leadership Research Archive
 direction: rtl
-permalink: /archive/leadership-research/course-experiments
+permalink: /archive/leadership-learning/leadership-research/course-experiments
 ---
 
 # تجربه‌گری‌های دوره

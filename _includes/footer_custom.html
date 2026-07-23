@@ -1,7 +1,7 @@
 <div class="content-footer-main">
   <div class="content-footer-about">
     <a class="content-footer-brand" href="{{ '/' | relative_url }}">OkBayat.com</a>
-    <p>Notes on leadership, human transformation, and building.</p>
+    <p>Research, leadership, learning, projects, writing, and revision.</p>
   </div>
 
   <nav class="content-footer-group content-footer-explore" aria-label="Explore">
@@ -10,6 +10,10 @@
       {% if site.back_to_top %}
         <a class="content-footer-back-to-top" href="#top" id="back-to-top">{{ site.back_to_top_text }} <span aria-hidden="true">&uarr;</span></a>
       {% endif %}
+      <a href="{{ '/writing/all' | relative_url }}">All Writing</a>
+      <a href="{{ '/writing/reading-notes' | relative_url }}">Reading Notes</a>
+      <a href="{{ '/writing/translations' | relative_url }}">Translations</a>
+      <a href="{{ '/writing/podcast' | relative_url }}">Podcast</a>
       <a class="content-footer-archive" href="{{ '/archive/' | relative_url }}">Archive <span aria-hidden="true">&rarr;</span></a>
     </div>
   </nav>

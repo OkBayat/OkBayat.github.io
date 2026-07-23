@@ -3,7 +3,7 @@ layout: default
 title: پروژه‌ی مشترک
 parent: Leadership Research Archive
 direction: rtl
-permalink: /archive/leadership-research/created-future
+permalink: /archive/leadership-learning/leadership-research/created-future
 ---
 
 # پروژه‌ی مشترک

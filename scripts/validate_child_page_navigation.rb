@@ -27,12 +27,13 @@ def contains_href?(html, url)
   end
 end
 
-parent_url = "/thinking"
+parent_url = "/writing"
 expected_children = %w[
-  /thinking/essays
-  /thinking/research-notes
-  /thinking/reading-notes
-  /thinking/translations
+  /writing/essays
+  /writing/reading-notes
+  /writing/translations
+  /writing/podcast
+  /writing/all
 ]
 
 page_path = generated_page_path(SITE_DIR, parent_url)

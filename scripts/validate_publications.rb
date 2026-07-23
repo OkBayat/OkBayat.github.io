@@ -9,10 +9,10 @@ ROOT = Pathname.new(__dir__).join("..").expand_path
 REGISTRY_PATH = ROOT.join("_data/publications.yml")
 
 CONTENT_DIRECTORIES = {
-  "essay" => ROOT.join("docs/thinking/essays"),
-  "research-note" => ROOT.join("docs/thinking/research-notes"),
-  "reading-note" => ROOT.join("docs/thinking/reading-notes"),
-  "translation" => ROOT.join("docs/thinking/translations")
+  "essay" => ROOT.join("docs/writing/essays"),
+  "research-note" => ROOT.join("docs/research/notes"),
+  "reading-note" => ROOT.join("docs/writing/reading-notes"),
+  "translation" => ROOT.join("docs/writing/translations")
 }.freeze
 
 VALID_BODIES = %w[building human-transformation].freeze

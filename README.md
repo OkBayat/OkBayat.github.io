@@ -90,8 +90,10 @@ A software essay and a relationship essay are both Essays when their main contri
 
 A canonical page may be linked from one or more topical lenses:
 
-- Building Publications & Notes
-- Human Transformation Publications & Notes
+- All Writing
+- Research Publications
+- essay topic indexes
+- project indexes
 - Vocora Publications & Notes
 - future project- or series-specific indexes when enough durable work exists
 
@@ -125,6 +127,8 @@ Project Records, Program Records, and Experiment Reports remain indexed manually
 ### Bilingual and multilingual works
 
 Persian and English editions of the same conceptual work belong under one registry entry. Each edition keeps its own URL, language metadata, title, and page content. Index pages display them as language choices for one work rather than as unrelated publications.
+
+The site does not maintain separate Persian and English versions of the entire navigation. A language switch appears only when a particular work has a real paired edition. Pages with one language remain independent and do not create a global language choice in the header or footer.
 
 The sidebar language switch and paired breadcrumbs are determined exclusively by source filenames. A bilingual pair must be stored in the same directory and use the exact same filename stem:
 
@@ -163,7 +167,7 @@ A work may use several themes. Add a new controlled theme only when multiple dur
 
 ### Categories, tags, and taxonomy fields serve different jobs
 
-- `categories` describe canonical site structure and content type, such as `thinking` and `essays`.
+- `categories` describe canonical site structure and content type, such as `writing` and `essays`, or `research` and `research-notes`.
 - `tags` describe the specific subject of one page for SEO and search.
 - `bodies_of_work` and `themes` in the central registry control curated discovery across the site.
 - `project`, `program`, and `translation_key` record durable relationships when applicable.
@@ -175,65 +179,81 @@ Do not use tags as a substitute for publication architecture.
 ```text
 Home
 
-Thinking
-├── Essays
-├── Research Notes
-├── Reading Notes
-└── Translations
+About
+├── Biography
+├── Professional Journey
+├── Mastery
+├── Values
+└── Resume
 
-Human Transformation
+Research
+├── Research Profile
+├── Current Inquiry
 ├── Research Agenda
-├── Field Projects
-│   └── Learning Circle
-├── Practice & Programs
-│   └── Mastery for Life
-├── Leadership
-├── Source Library
-├── Publications & Notes
-└── Research Log
+├── Methods, Ethics & Evidence
+├── Research Publications
+└── Research Notes
 
-Building
-├── Publications & Notes
+Leadership & Learning
+├── Perspective
+├── Leadership
+│   └── Resources
+├── Human Transformation
+│   ├── Field Projects
+│   │   └── Learning Circle
+│   ├── Practice & Programs
+│   │   └── Mastery for Life
+│   └── Source Library
+├── Learning & Facilitation
+│   └── Coaching
+└── Courses
+
+Projects
 ├── K2Quant
 ├── Vocora
 │   ├── Research Agenda
 │   ├── Publications & Notes
 │   └── Research Log
-├── Projects
-│   ├── K2 OS
-│   └── FamilyLink
+├── K2 OS
+├── FamilyLink
 └── Experiments
 
-Podcast
-└── Inja-Anja
+Writing & Media
+├── Essays
+│   ├── Artificial Intelligence
+│   ├── Software & Agentic Systems
+│   ├── Startups & Entrepreneurship
+│   ├── Leadership & Organizations
+│   └── Learning & Human Transformation
+├── Reading Notes
+├── Translations
+├── Podcast
+│   └── Inja-Anja
+└── All Writing
 
-About
-├── Biography
-├── Resume
-├── Current Work
-└── Contact
+Contact
 ```
 
-### Why Thinking is organized by type
+The footer provides secondary discovery links to All Writing, Reading Notes, Translations, Podcast, Archive, rights and licensing, and public profiles. It does not contain a global language selector.
 
-Thinking answers: **What kind of written work is this?** Keeping content types distinct protects authorship and evidence boundaries. It also prevents a translated technical article, an unfinished product investigation, and an original essay from being presented as equivalent work.
+### Why Research and Writing are separate
 
-### Why Building and Human Transformation are topical lenses
+Research answers: **What question is being pursued, with what method, evidence, ethical boundary, and uncertainty?**
 
-Building and Human Transformation answer: **Which body of work or active question does this page inform?** They collect canonical pages from across Thinking, projects, programs, and experiments without republishing them.
+Writing & Media answers: **What kind of authored or source-dependent work is this?** Essays, Reading Notes, Translations, and audio work remain distinct. Research Notes live under Research because their status and evidence boundaries are part of the research portfolio.
 
-### Why Human Transformation is separate from Leadership
+### Why Leadership & Learning is separate from Research
 
-Leadership is one setting in which questions about language, identity, context, performance, and durable change appear. It is not broad enough to contain the full inquiry. Human Transformation is therefore the parent program; Leadership remains a substantial subdomain with its existing resources, programs, coaching material, and field notes.
+Leadership & Learning contains practice: leadership material, coaching, facilitation, courses, programs, and the Human Transformation archive. Research may draw questions from those settings, but practice records and participant accounts do not become research evidence merely by moving into a research-facing site.
 
-### Why K2Quant and Vocora are under Building
+### Why projects have their own section
 
-K2Quant and Vocora are ongoing bodies of work rather than bounded side projects:
+Projects documents work Mohammad founded, built, or directly led. Client organizations and products he does not own are not presented as personal projects.
 
 - **K2Quant** is the main company-building and quantitative-systems work.
 - **Vocora** is an independent research-and-building project about learning, memory, language practice, and learning technology.
 
-`Projects` is reserved for more bounded products, systems, organizations, and initiatives with a distinct scope and operating history, such as K2 OS and FamilyLink. Projects may be active, paused, completed, discontinued, or inconclusive. `Experiments` is reserved for explicit protocols and results.
+K2 OS and FamilyLink are bounded project records. Projects may be active, paused, completed, discontinued, or inconclusive. `Experiments` is reserved for explicit protocols and results.
 
 ## 5. Content types
 
@@ -241,7 +261,7 @@ K2Quant and Vocora are ongoing bodies of work rather than bounded side projects:
 
 Original long-form arguments, interpretations, and syntheses written by Mohammad Bayat. An essay should not be used for a direct translation, a source summary, or an unfinished collection of notes.
 
-Essays remain together under `/thinking/essays`. Do not create separate canonical sections such as Technical Essays, Startup Essays, or Human Essays. Use the Building and Human Transformation indexes, controlled themes, and project indexes for subject discovery.
+Essays remain together under `/writing/essays`. Topic pages such as Artificial Intelligence or Startups & Entrepreneurship are discovery indexes; they do not copy articles or create competing canonical URLs.
 
 ### Research Notes
 
@@ -312,55 +332,53 @@ Reports with an explicit question, hypothesis, method, participants or dataset, 
 
 ### Essays publishing model
 
-- `/thinking/essays/...` is the canonical home for original arguments and synthesis.
-- `/thinking/essays` groups works by primary body and durable theme.
+- `/writing/essays/...` is the canonical home for original arguments and synthesis.
+- `/writing/essays` groups works by primary body and durable theme;
+- `/writing/essays/topics/...` provides subject discovery without copying articles;
 - bilingual editions appear as one conceptual work with multiple language links.
-- Building and Human Transformation indexes may cross-list the same essay.
+- All Writing, Research Publications, and project indexes may cross-list the same essay.
 
-### Building publishing model
+### Research publishing model
 
-- `/building` — body-of-work overview;
-- `/building/publications` — curated topical index of writing and records;
-- `/building/k2quant` — K2Quant overview and related writing;
-- `/building/vocora` — Vocora overview and current state;
-- `/building/projects` — bounded project records;
-- `/building/experiments` — protocols and results;
-- `/thinking/...` — canonical written works according to content type.
+- `/research` — research portfolio overview;
+- `/research/profile` — practitioner-researcher identity and position;
+- `/research/current-inquiry` — the single highlighted current inquiry;
+- `/research/agenda` — wider active and open questions;
+- `/research/methods-ethics-evidence` — public evidence and participant-protection standard;
+- `/research/publications` — curated research-related discovery;
+- `/research/notes/...` — canonical research, field, literature, and design notes.
 
-The Building publications page may group the same work under software, company-building, operations, project reflection, and learning technology when those relationships are real.
+### Projects publishing model
 
-### Human Transformation publishing model
+- `/projects` — portfolio of work built or directly led by Mohammad;
+- `/projects/k2quant` — K2Quant overview and related writing;
+- `/projects/vocora` — Vocora overview and current state;
+- `/projects/k2-os` — K2 OS project record;
+- `/projects/familylink` — FamilyLink project record;
+- `/projects/experiments` — protocols and results when formal experiments exist;
+- `/writing/all` — complete discovery index for writing and durable records.
 
-Human Transformation is a cross-cutting inquiry rather than a claim that a complete theory of human change already exists.
+### Leadership & Learning publishing model
 
-Each page has one canonical home:
+- `/leadership-learning` — practice overview;
+- `/leadership-learning/leadership` — leadership practice and source material;
+- `/leadership-learning/human-transformation` — Human Transformation practice archive;
+- `/leadership-learning/learning-facilitation` — facilitation, coaching, and learner-ownership questions;
+- `/leadership-learning/courses` — current and historical course records.
 
-- `/human-transformation` — program overview and boundaries;
-- `/human-transformation/research-agenda` — active questions and their status;
-- `/human-transformation/field-projects` — index of practice-based field projects;
-- `/human-transformation/practice-programs` — index of durable program records;
-- `/human-transformation/source-library` — source lineage and concept-library index;
-- `/human-transformation/publications` — curated topical index of related output;
-- `/human-transformation/research-log` — dated changes in questions, evidence, methods, and interpretations;
-- `/thinking/research-notes/...` — canonical research, field, literature, and design notes;
-- `/thinking/essays/...` — original arguments and synthesis;
-- `/thinking/reading-notes/...` — source-specific reading notes;
-- `/thinking/translations/...` — translated or adapted work;
-- `/building/experiments/...` — protocols and results when formal experiments exist.
-
-The publications page links to canonical pages; it does not duplicate them.
+Practice pages may link to Research and Writing, but do not duplicate those canonical works.
 
 ### Vocora publishing model
 
 Vocora content is distributed by type, with one canonical home for each page:
 
-- `/building/vocora` — project overview and current state;
-- `/building/vocora/research-agenda` — questions, methods, and boundaries;
-- `/building/vocora/publications` — curated project index;
-- `/building/vocora/research-log` — dated changes in evidence, measurements, and decisions;
-- `/thinking/research-notes/...` — research and design notes;
-- `/thinking/translations/...` — translated work, even when an older stable permalink does not mirror the current folder;
-- `/building/experiments/...` — protocols and results when formal experiments exist.
+- `/projects/vocora` — project overview and current state;
+- `/projects/vocora/research-agenda` — questions, methods, and boundaries;
+- `/projects/vocora/publications` — curated project index;
+- `/projects/vocora/research-log` — dated changes in evidence, measurements, and decisions;
+- `/research/notes/...` — research and design notes;
+- `/writing/translations/...` — translated work, even when an older stable permalink does not mirror the current folder;
+- `/projects/experiments/...` — protocols and results when formal experiments exist.
 
 The publications page links to these items; it does not duplicate them.
 
@@ -529,7 +547,7 @@ Before publishing or merging a structural change:
 
 The site is succeeding when a reader can quickly understand:
 
-- the two main bodies of Mohammad's work;
+- Mohammad's identity across research, leadership and learning, projects, and writing;
 - what he is actually building and studying now;
 - which pages are original, translated, exploratory, observed, reported, or tested;
 - where a work canonically belongs and which subjects or projects it informs;

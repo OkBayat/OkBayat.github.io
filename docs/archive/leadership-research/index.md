@@ -3,7 +3,7 @@ layout: default
 title: Leadership Research Archive
 parent: Archive
 direction: ltr
-permalink: /archive/leadership-research/
+permalink: /archive/leadership-learning/leadership-research/
 ---
 
 # Leadership Research Archive

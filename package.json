@@ -13,6 +13,7 @@
   },
   "scripts": {
     "lint": "npm-run-all --parallel --continue-on-error lint:*",
+    "lint:architecture": "node scripts/validate_content_architecture.js",
     "lint:content": "node scripts/validate_site_integrity.js",
     "lint:css": "stylelint '**/*.scss'",
     "lint:formatting": "prettier --check '**/*.{scss,js,json}'",
