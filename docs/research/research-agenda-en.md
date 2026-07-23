@@ -7,9 +7,28 @@ direction: ltr
 lang: en
 locale: en_US
 description: "The active questions, field material, and evidence boundaries guiding Mohammad Bayat's independent inquiry into human learning and transformation."
+date: 2026-07-22
 last_modified_date: 2026-07-22
 status: active-and-evolving
 permalink: /research/agenda
+timeline:
+  type: revision
+  title: Human Transformation Research Agenda
+  summary: Active questions about learning, language, identity, context, leadership, groups, and durable change were consolidated into one canonical research agenda.
+  reason: The leadership questions belonged to a wider inquiry and should not remain in a separate, competing research structure.
+  thread: Research direction
+  status: major revision
+  languages: en fa
+  language_label: EN / FA
+  themes:
+    - learning-memory-language
+    - leadership-identity-coordination
+    - philosophy-worldview
+  tags:
+    - research-agenda
+    - human-transformation
+    - leadership
+    - durable-learning
 ---
 
 # Research Agenda
