@@ -262,6 +262,8 @@ K2 OS and FamilyLink are bounded project records. Projects may be active, paused
 
 Original long-form arguments, interpretations, and syntheses written by Mohammad Bayat. An essay should not be used for a direct translation, a source summary, or an unfinished collection of notes.
 
+An Essay may be labelled **Retrospective Practitioner Reflection** when its primary contribution is a critical examination of Mohammad's own past practice. That subtype must not turn participant messages, private writing, course artifacts, or remembered cases into research data without a prior consent basis. It should distinguish professional recollection from evidence, state role and power conflicts, and use the retrospective account to refine practice or design a prospective inquiry.
+
 Essays remain together under `/writing/essays`. Topic pages such as Artificial Intelligence or Startups & Entrepreneurship are discovery indexes; they do not copy articles or create competing canonical URLs.
 
 ### Research Notes
@@ -481,6 +483,7 @@ Validation must confirm:
 Use a content label near the beginning of a page when readers could otherwise misunderstand its status:
 
 - Essay
+- Essay · Retrospective Practitioner Reflection
 - Open Question
 - Working Research Note
 - Field Note
