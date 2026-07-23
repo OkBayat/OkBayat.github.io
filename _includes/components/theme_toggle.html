@@ -17,23 +17,28 @@
 
     function updateButton(theme) {
       var dark = theme === "dark";
-      button.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+      button.setAttribute(
+        "aria-label",
+        dark ? "Switch to light mode" : "Switch to dark mode"
+      );
       button.setAttribute("aria-pressed", dark ? "true" : "false");
       button.title = dark ? "Switch to light mode" : "Switch to dark mode";
     }
 
     function applyTheme(theme) {
+      var stylesheet = document.getElementById("jtd-theme-stylesheet");
+
       window.jtdTheme = theme;
       document.documentElement.setAttribute("data-theme", theme);
       document.documentElement.style.colorScheme = theme;
 
-      if (window.jtd && typeof window.jtd.setTheme === "function") {
+      if (stylesheet) {
+        stylesheet.href =
+          "{{ '/assets/css/just-the-docs-' | relative_url }}" +
+          theme +
+          ".css";
+      } else if (window.jtd && typeof window.jtd.setTheme === "function") {
         window.jtd.setTheme(theme);
-      } else {
-        var stylesheet = document.getElementById("jtd-theme-stylesheet");
-        if (stylesheet) {
-          stylesheet.href = "{{ '/assets/css/just-the-docs-' | relative_url }}" + theme + ".css";
-        }
       }
 
       try {
