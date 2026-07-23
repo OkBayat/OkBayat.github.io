@@ -1,4 +1,4 @@
-(() => {
+;(() => {
   const initializeTimeline = (explorer) => {
     const timeline = explorer.querySelector("[data-timeline-list]")
     const items = [...explorer.querySelectorAll("[data-timeline-item]")]
