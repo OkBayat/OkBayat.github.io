@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "What Remains When the Course Ends?"
-description: "A ten-day field note on how leadership learning appeared to persist—or fade—after participants returned to changing work and life contexts."
+description: "A ten-day exploratory note on how leadership learning appeared to persist—or fade—after participants returned to changing work and life contexts."
 parent: Research Notes
 direction: ltr
 lang: en
@@ -28,18 +28,18 @@ tags:
   - reflective-practice
   - human-transformation
 sitemap: true
-permalink: /research/field-notes/what-remains-when-the-course-ends
+permalink: /research/notes/what-remains-when-the-course-ends
 ---
 
 # What Remains When the Course Ends?
 {: .no_toc }
 
-{ A ten-day field note on leadership learning, context, and transfer | fs-6 }
+{ A ten-day exploratory note on leadership learning, context, and transfer | fs-6 }
 
 {: .note-title }
 > About this note
 >
-> This is a field note, not a scientific paper or evidence that one program caused lasting transformation. It is based on informal follow-up conversations with people I already knew, my notes as a facilitator, and my interpretation of recurring patterns. Details are kept at an aggregate level.
+> This is an exploratory research note based on field observations, not a scientific paper or evidence that one program caused lasting transformation. It draws on informal follow-up conversations with people I already knew, my notes as a facilitator, and my interpretation of recurring patterns. Details are kept at an aggregate level.
 
 A learning environment can make reflection, openness, and action more available. But what happens when that environment disappears? This question became difficult to ignore after I watched people act differently inside a carefully supported organizational setting, then sometimes return to earlier patterns after moving into another team or company.
 
