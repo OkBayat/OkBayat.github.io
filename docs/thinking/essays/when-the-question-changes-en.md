@@ -8,8 +8,8 @@ lang: en
 locale: en_US
 author: Mohammad Bayat
 date: 2026-07-18
-date_modified: 2026-07-18
-last_modified_date: 2026-07-18
+date_modified: 2026-07-23
+last_modified_date: 2026-07-23
 status: essay
 program: human-transformation
 translation_key: when-the-question-changes
@@ -41,7 +41,7 @@ permalink: /thinking/essays/when-the-question-changes-en
 {: .note-title }
 > About this essay
 >
-> This essay grew out of years of consulting with chief executives, leadership and coaching work with individuals and teams, and experience inside organizations. I have not named the client companies, and I have deliberately withheld, rounded, or generalized the figures because I did not obtain permission to publish their names or exact details. I have also omitted nonessential details to preserve confidentiality.
+> This essay grew out of years of consulting with chief executives, leadership and coaching work with individuals and teams, and experience inside organizations. I do not have written permission from the organizations to publish identifiable case details. The three accounts below have therefore been deliberately generalized: industries, business models, operating methods, geographies, timings, and quantitative outcomes have been removed or abstracted. The text preserves the leadership questions I worked with and my interpretation of how attention and action changed; it is not intended to reconstruct any company.
 >
 > These accounts are not audited reports or controlled case studies. They are my professional observations and interpretations of real engagements. I cannot claim that changing the question was the sole cause of every result; execution quality, team capability, market conditions, regulation, and timing also mattered. The sources at the end support the leadership language used in the essay. They do not prove the outcomes of the client cases.
 
@@ -118,7 +118,7 @@ That future might be:
 
 - carrying part of a country’s culture into the world;
 - making a quality product available on fairer terms;
-- helping customers of a financial service achieve a better result;
+- helping customers of a service achieve a better result;
 - building an organization where people can speak the truth earlier and learn from error;
 - or creating a relationship in which two people become responsible for the quality of a shared future rather than for defeating one another.
 
@@ -153,67 +153,63 @@ This is not a small difference. The first question asks how to win more within t
 
 The following three experiences showed me that when the question changes, not only the answer but the very definition of a possible answer can change.
 
-## Experience one: from selling handicrafts to carrying culture
+## Experience one: from selling products to carrying culture
 
-One company I advised exported Iranian handicrafts to a regional market. As in many businesses, the management question was how to increase sales and profit.
+In one consulting engagement, the leaders of a product business were asking how to increase sales and profit. I am intentionally omitting the industry, products, markets, and operating context.
 
-Inside that framing, the available responses were limited: charge a little more, send a larger volume through the same route, remove a cost, or optimize the current process. The company was also dealing with the complexity of formal export, logistics, regulation, and international constraints. Each obstacle made expansion appear more expensive and remote.
+Inside that framing, the available responses were limited: charge a little more, move a larger volume through the same structure, remove a cost, or optimize the current process. Operational and external constraints made any broader ambition appear more expensive and remote.
 
 We changed the question:
 
-> How can we carry Iranian culture, through handicrafts, into more parts of the world?
+> How can our work carry something valuable from our culture into a wider world?
 
-The new question did not deny money. If the company could not remain economically alive, it could not carry any culture through its work. Profit, however, was no longer the final subject. **Economic sustainability became a condition for continuing a larger commitment.**
+The new question did not deny money. If the company could not remain economically alive, it could not carry cultural value through its work. Profit, however, was no longer the final subject. **Economic sustainability became a condition for continuing a larger commitment.**
 
-Different possibilities became visible. The company began thinking about an international presentation of its products through a website, more formal and scalable export paths, markets beyond its original destination, greater shipping capacity, and redesigned operations for entry into several countries.
+Different possibilities became visible. The team reconsidered how it presented value, which relationships and capabilities the larger commitment required, and which constraints had to be designed around rather than accepted as the limit of its ambition.
 
-Within a relatively short period, the business expanded beyond one limited market into several markets in different regions, and shipment scale multiplied. Revenue grew with it.
+Over time, the work reached more people and the commercial position strengthened. I am deliberately not publishing the geography, sequence of operational changes, timeframe, or magnitude of those outcomes.
 
 I am not claiming that one sentence created the outcome. The team had to research, negotiate, solve operational constraints, build trust, and take risk. The new question determined that these efforts were **worth seeing**. What had looked like an unrelated cost or distant ambition became necessary to the future being pursued.
 
 Money was not removed. It moved from being the direct object of pursuit to becoming **an unpursued by-product of creating value at a larger scale**.
 
-## Experience two: the best possible price, not the largest possible margin
+## Experience two: fairer access, not the largest possible margin
 
-In another engagement, I worked with a relatively large online retailer. Its initial question was straightforward: how can we produce more profit?
+In another engagement with a company that offered physical products, the initial question was straightforward: how can we produce more profit?
 
 The replacement question became:
 
-> How can we make these products available at the best possible price without damaging quality?
+> How can we make quality products available on fairer terms without damaging quality?
 
-“Best possible price” did not mean the lowest price at any cost. It meant reexamining every cost that was not necessary to create value while protecting product quality and the customer experience.
+“Fairer terms” did not mean the lowest price at any cost. It meant reexamining costs and assumptions that were not necessary to create value while protecting product quality and the customer experience.
 
-The question opened several new paths.
+The question opened paths that had not been available inside the margin question. The team examined arrangements it had previously treated as fixed: how it worked with partners, where costs and risks sat across the system, and which resources truly had to remain under the company’s direct control.
 
-First, rather than accepting the existing chain, the team examined unnecessary intermediaries and, in some cases, established direct relationships with producers.
+Some of those arrangements could be redesigned. Instead of optimizing one point in the system, the team began considering the whole path by which value reached the customer. That shift widened what the company could make available and improved its ability to serve customers without abandoning economic discipline.
 
-Second, the assumption that every item had to be purchased outright was challenged. Part of the inventory moved to consignment: producers placed goods in the retailer’s warehouse, and settlement occurred after a sale. Less company capital was locked in inventory, while a much wider range of products could be offered.
-
-Third, outside sellers were added to the platform, and parts of the business moved toward commission or agency models. The company no longer had to absorb the full inventory risk for every unit of variety.
-
-The result was a several-fold expansion in the value and diversity of available inventory, fewer stockouts, more flexible working capital, and multiple growth in sales over roughly a year. I am not publishing the exact figures, but the scale was meaningful for an established company.
+Customer access improved and commercial performance strengthened while quality remained an explicit constraint. I am intentionally omitting the supply arrangements, operating model, timing, and quantitative results because their combination could identify the company.
 
 What mattered to me was that broadly the same people and base resources generated a new set of possibilities. The deepest change was **what the organization held itself responsible for**.
 
-When the question was, “How do we increase our margin?” the supply chain was mainly a mechanism for taking profit. When the question became, “How do we provide the best possible price without reducing quality?” the same supply chain became an object of collaborative design.
+When the question was, “How do we increase our margin?” the system was mainly a mechanism for taking profit. When the question became, “How do we provide fairer access without reducing quality?” that same system became an object of collaborative design.
 
 ## Experience three: from acquiring customers to improving their result
 
-At a brokerage, I encountered another version of the same pattern. The management question was how to attract more customers so that the brokerage could grow revenue and profit.
+In a customer-facing service business, I encountered another version of the same pattern. The management question was how to attract more customers so that the company could grow revenue and profit.
 
 We reversed it:
 
-> What can we do so that people using our brokerage achieve a better financial result?
+> What can we do so that people using our service achieve a better result?
 
-The shift brought attention to something previously treated as an ordinary, low-value feature of the system: unused customer cash balances. Clients might leave money in a brokerage account, but until they made a trade, the balance remained idle.
+The shift turned attention away from promotion alone and toward a part of the customer journey where value was being left unrealized. The organization had previously treated it as an ordinary feature of the existing system. Seen from the customer’s point of view, it became a design problem worth solving.
 
-The founders investigated how, within the applicable rules and with clear customer consent, those balances could be managed through a professionally run investment mechanism so that unused cash could still produce a return for its owner. A specialist team and investment vehicle were established, and customers could opt in through their account interface.
+Within the relevant legal, professional, and consent boundaries, the team redesigned part of the service so that customers could receive more value from a relationship they already had with the company. I am omitting the mechanism because the combination of the mechanism and the industry would make the organization identifiable.
 
-For the customer, the proposition was simple: money not currently being used for trading did not need to remain entirely unproductive. For the brokerage, the result was more than a feature. It created a real reason to stay, trust the platform, and recommend it.
+For the customer, the service became useful beyond its original core interaction. For the company, the change created a stronger reason for trust, continued use, and recommendation.
 
-Without relying on a major advertising campaign, the brokerage attracted more retail users, and its market share multiplied within a number of months. Again, I am withholding the company name and exact figures.
+Customer response and the commercial position improved. The metrics, timeframe, acquisition pattern, and magnitude are deliberately not published.
 
-The question “How do we acquire more customers?” would likely have directed the team toward advertising, fee discounts, or more pressure on sales channels. The question “How do our customers earn more?” revealed a hidden asset and a different service model.
+The question “How do we acquire more customers?” would likely have directed the team toward advertising, discounts, or more pressure on sales channels. The question “How do our customers achieve a better result?” directed attention toward redesigning the value created inside an existing relationship.
 
 This remains one of the clearest examples in my experience that a commitment beyond the self does not merely make a business more “ethical.” In some settings, it makes the **business model more intelligent**.
 
@@ -268,7 +264,7 @@ A commitment beyond the self can change our relationship to the obstacle. When a
 
 > What does this obstacle reveal about our current design, capability, or understanding?
 
-In the consulting experiences described here, that shift allowed teams to reconsider supply chains, export paths, inventory models, and financial product design instead of shrinking the aspiration at the first constraint.
+In the consulting experiences described here, that shift allowed teams to reconsider how value reached people, how relationships and resources were arranged, and how a service was designed instead of shrinking the aspiration at the first constraint.
 
 Commitment does not remove the pain of an obstacle. It prevents the obstacle from automatically meaning “the end.”
 
