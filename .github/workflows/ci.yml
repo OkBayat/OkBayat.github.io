@@ -125,22 +125,9 @@ jobs:
       - name: Validate article language switches
         run: ruby scripts/validate_article_language_switch.rb _site
       - name: Test with Nu Validator
-        id: nu-validator
-        continue-on-error: true
         uses: Cyb3r-Jak3/html5validator-action@2a593a9f2c10593cbac84791a6fc4c47e9a106c8
         with:
           config: fixtures/html5validator-config.yml
-      - name: Upload Nu Validator diagnostics
-        if: steps.nu-validator.outcome == 'failure'
-        uses: actions/upload-artifact@v4
-        with:
-          name: nu-validator-diagnostics
-          path: log.log
-          if-no-files-found: error
-          retention-days: 7
-      - name: Fail when Nu Validator reports errors
-        if: steps.nu-validator.outcome == 'failure'
-        run: exit 1
 #      - name: Test with html-proofer
 #        run: bundle exec htmlproofer _site --ignore-urls "/github.com/,/web.archive.org/"
 #        env:
@@ -166,42 +153,8 @@ jobs:
       - name: Validate source content
         run: npm run lint:content
       - name: Validate stylesheets
-        id: stylelint
-        continue-on-error: true
-        shell: bash
-        run: |
-          set -o pipefail
-          npm run lint:css 2>&1 | tee stylelint.log
-      - name: Upload Stylelint diagnostics
-        if: steps.stylelint.outcome == 'failure'
-        uses: actions/upload-artifact@v4
-        with:
-          name: stylelint-diagnostics
-          path: stylelint.log
-          if-no-files-found: error
-          retention-days: 7
-      - name: Generate canonical formatting
-        id: prettier
-        continue-on-error: true
-        shell: bash
-        run: |
-          npm run format
-          git diff -- assets/css/timeline.scss assets/js/timeline.js package.json > prettier.patch
-          test ! -s prettier.patch
-      - name: Upload Prettier diagnostics
-        if: steps.prettier.outcome == 'failure'
-        uses: actions/upload-artifact@v4
-        with:
-          name: prettier-diagnostics
-          path: |
-            prettier.patch
-            assets/css/timeline.scss
-            assets/js/timeline.js
-            package.json
-          if-no-files-found: error
-          retention-days: 7
+        run: npm run lint:css
+      - name: Validate formatting
+        run: npm run lint:formatting
       - name: Validate timeline JavaScript
         run: npm run lint:javascript
-      - name: Fail when asset validation reports errors
-        if: steps.stylelint.outcome == 'failure' || steps.prettier.outcome == 'failure'
-        run: exit 1
