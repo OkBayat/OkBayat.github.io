@@ -20,7 +20,7 @@
     </p>
   </header>
 
-  <div class="timeline-filters-panel" aria-label="Timeline filters">
+  <div class="timeline-filters-panel" role="search" aria-label="Timeline filters">
     <div class="timeline-filter-topline">
       <div class="timeline-search-wrap">
         <label class="timeline-sr-only" for="timeline-search">Search the timeline</label>
@@ -56,7 +56,7 @@
       </div>
     </div>
 
-    <div class="timeline-filter-group" aria-labelledby="timeline-type-label">
+    <div class="timeline-filter-group" role="group" aria-labelledby="timeline-type-label">
       <span id="timeline-type-label" class="timeline-filter-label">Type</span>
       <div class="timeline-chip-row" data-timeline-type-chips>
         <button class="timeline-chip" type="button" data-filter-value="all" aria-pressed="true">All work</button>
@@ -69,7 +69,7 @@
       </div>
     </div>
 
-    <div class="timeline-filter-group" aria-labelledby="timeline-topic-label">
+    <div class="timeline-filter-group" role="group" aria-labelledby="timeline-topic-label">
       <span id="timeline-topic-label" class="timeline-filter-label">Topic</span>
       <div class="timeline-chip-row" data-timeline-topic-chips>
         <button class="timeline-chip" type="button" data-filter-value="all" aria-pressed="true">All topics</button>
@@ -85,7 +85,7 @@
     <button class="timeline-reset-button" type="button" data-timeline-reset>Reset filters</button>
   </div>
 
-  <div class="timeline-list" data-timeline-list aria-label="Research and writing entries">
+  <div class="timeline-list" role="list" data-timeline-list aria-label="Research and writing entries">
     {% for work in site.data.publications.works %}
       {% assign body_record = site.data.publications.bodies_of_work[work.primary_body] %}
       {% for edition in work.editions %}
@@ -126,6 +126,7 @@
 
         <article
           class="timeline-item"
+          role="listitem"
           data-timeline-item
           data-date="{% if entry_date %}{{ entry_date | date: "%Y-%m-%d" }}{% else %}0000-00-00{% endif %}"
           data-type="{{ work.content_type | escape }}"
@@ -163,7 +164,7 @@
             </div>
 
             <footer class="timeline-entry-footer">
-              <div class="timeline-tag-list" aria-label="Entry tags">
+              <div class="timeline-tag-list" role="group" aria-label="Entry tags">
                 {% if edition_page.tags %}
                   {% for tag in edition_page.tags limit: 4 %}
                     <button class="timeline-tag-button" type="button" data-timeline-tag="{{ tag | escape }}">{{ tag }}</button>
@@ -205,6 +206,7 @@
 
         <article
           class="timeline-item"
+          role="listitem"
           data-timeline-item
           data-date="{% if entry_date %}{{ entry_date | date: "%Y-%m-%d" }}{% else %}0000-00-00{% endif %}"
           data-type="{{ entry_type | escape }}"
@@ -237,7 +239,7 @@
             </div>
 
             <footer class="timeline-entry-footer">
-              <div class="timeline-tag-list" aria-label="Entry tags">
+              <div class="timeline-tag-list" role="group" aria-label="Entry tags">
                 {% for tag in timeline_data.tags limit: 4 %}
                   <button class="timeline-tag-button" type="button" data-timeline-tag="{{ tag | escape }}">{{ tag }}</button>
                 {% endfor %}
