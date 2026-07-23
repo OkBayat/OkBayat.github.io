@@ -1,4 +1,4 @@
-<button class="theme-toggle" type="button" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">
+<button class="theme-toggle" type="button" id="theme-toggle" aria-label="Switch to dark mode" aria-pressed="false" title="Switch to dark mode">
   <span class="theme-toggle-icon" aria-hidden="true">
     <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24">
       <circle cx="12" cy="12" r="4"></circle>
@@ -13,39 +13,44 @@
 <script>
   (function () {
     var storageKey = "okbayat-theme";
+    var button = document.getElementById("theme-toggle");
 
-    function getPreferredTheme() {
-      var saved = localStorage.getItem(storageKey);
-      return saved === "dark" ? "dark" : "light";
+    function updateButton(theme) {
+      var dark = theme === "dark";
+      button.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+      button.setAttribute("aria-pressed", dark ? "true" : "false");
+      button.title = dark ? "Switch to light mode" : "Switch to dark mode";
     }
 
     function applyTheme(theme) {
-      if (window.jtd && window.jtd.setTheme) {
-        window.jtd.setTheme(theme);
-      }
-      document.documentElement.dataset.theme = theme;
+      window.jtdTheme = theme;
+      document.documentElement.setAttribute("data-theme", theme);
+      document.documentElement.style.colorScheme = theme;
 
-      var button = document.getElementById("theme-toggle");
-      if (button) {
-        var dark = theme === "dark";
-        button.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
-        button.title = dark ? "Light mode" : "Dark mode";
+      if (window.jtd && typeof window.jtd.setTheme === "function") {
+        window.jtd.setTheme(theme);
+      } else {
+        var stylesheet = document.getElementById("jtd-theme-stylesheet");
+        if (stylesheet) {
+          stylesheet.href = "{{ '/assets/css/just-the-docs-' | relative_url }}" + theme + ".css";
+        }
       }
+
+      try {
+        window.localStorage.setItem(storageKey, theme);
+      } catch (error) {
+        // The selected theme still applies for the current page.
+      }
+
+      updateButton(theme);
     }
 
-    window.jtdTheme = getPreferredTheme();
+    if (!button) return;
 
-    document.addEventListener("DOMContentLoaded", function () {
-      applyTheme(window.jtdTheme);
+    updateButton(window.jtdTheme === "dark" ? "dark" : "light");
 
-      var button = document.getElementById("theme-toggle");
-      if (!button) return;
-
-      button.addEventListener("click", function () {
-        window.jtdTheme = window.jtdTheme === "dark" ? "light" : "dark";
-        localStorage.setItem(storageKey, window.jtdTheme);
-        applyTheme(window.jtdTheme);
-      });
+    button.addEventListener("click", function () {
+      applyTheme(window.jtdTheme === "dark" ? "light" : "dark");
     });
   })();
 </script>
