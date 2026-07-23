@@ -10,7 +10,7 @@ layout: table_wrappers
 <html lang="{{ document_language }}">
 {% include head.html %}
 <body>
-  <a class="skip-to-main" href="#main-content">{% if document_language == "fa" %}رفتن به محتوای اصلی{% else %}Skip to main content{% endif %}</a>
+  <a class="skip-to-main" href="#main-content" lang="en" dir="ltr">Skip to main content</a>
   {% include icons/icons.html %}
   {% if page.nav_enabled == true %}
     {% include components/sidebar.html %}
@@ -19,11 +19,11 @@ layout: table_wrappers
   {% elsif site.nav_enabled != false and layout.nav_enabled == nil and page.nav_enabled == nil %}
     {% include components/sidebar.html %}
   {% endif %}
-  <div class="main" id="top">
+  <div class="main" id="top" lang="en" dir="ltr">
     {% include components/header.html %}
     <div class="main-content-wrap">
       {% include components/breadcrumbs.html %}
-      <div id="main-content" class="main-content" dir="{{ page.direction | default: 'ltr' }}">
+      <div id="main-content" class="main-content" lang="{{ document_language }}" dir="{{ page.direction | default: 'ltr' }}">
         <main>
           {% capture rendered_content %}
             {% if site.heading_anchors != false %}

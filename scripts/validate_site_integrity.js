@@ -319,6 +319,11 @@ function generatedRoute(filePath, siteDirectory) {
   return `/${file}`
 }
 
+function htmlAttribute(tag, attribute) {
+  if (!tag) return null
+  return tag.match(new RegExp(`\\b${attribute}=["']([^"']+)["']`, "i"))?.[1]
+}
+
 function validateGeneratedSite(siteDirectory) {
   if (!fs.existsSync(siteDirectory)) {
     errors.add(`generated site directory does not exist: ${siteDirectory}`)
@@ -343,20 +348,62 @@ function validateGeneratedSite(siteDirectory) {
       .join("/")
     validateLinks(html, `_site/${label}`, route, routes)
 
-    const htmlLanguage = html.match(/<html\b[^>]*\blang=["']([^"']+)["']/i)?.[1]
-    const contentDirection = html.match(
-      /<div\b(?=[^>]*\bid=["']main-content["'])[^>]*\bdir=["']([^"']+)["']/i
-    )?.[1]
+    const htmlTag = html.match(/<html\b[^>]*>/i)?.[0]
+    const contentTag = html.match(
+      /<div\b(?=[^>]*\bid=["']main-content["'])[^>]*>/i
+    )?.[0]
+    const shellTag = html.match(/<div\b(?=[^>]*\bid=["']top["'])[^>]*>/i)?.[0]
+    const sidebarTag = html.match(
+      /<div\b(?=[^>]*\bclass=["'][^"']*\bside-bar\b[^"']*["'])[^>]*>/i
+    )?.[0]
+    const footerTag = html.match(
+      /<footer\b(?=[^>]*\bclass=["'][^"']*\bcontent-footer\b[^"']*["'])[^>]*>/i
+    )?.[0]
 
+    const htmlLanguage = htmlAttribute(htmlTag, "lang")
     if (!htmlLanguage) {
       errors.add(`_site/${label}: missing html lang attribute`)
       continue
     }
 
-    const expectedLanguage = contentDirection === "rtl" ? "fa" : "en"
+    if (contentTag) {
+      const contentLanguage = htmlAttribute(contentTag, "lang")
+      const contentDirection = htmlAttribute(contentTag, "dir") || "ltr"
+      const expectedLanguage = contentDirection === "rtl" ? "fa" : "en"
+
+      if (contentLanguage !== expectedLanguage) {
+        errors.add(
+          `_site/${label}: article dir=${contentDirection} requires article lang=${expectedLanguage}, found ${contentLanguage || "none"}`
+        )
+      }
+      if (htmlLanguage !== expectedLanguage) {
+        errors.add(
+          `_site/${label}: article lang=${expectedLanguage} requires html lang=${expectedLanguage}, found ${htmlLanguage}`
+        )
+      }
+
+      for (const [name, tag] of [
+        ["shared site shell", shellTag],
+        ["sidebar", sidebarTag],
+        ["footer", footerTag],
+      ]) {
+        if (!tag) continue
+        const language = htmlAttribute(tag, "lang")
+        const direction = htmlAttribute(tag, "dir")
+        if (language !== "en" || direction !== "ltr") {
+          errors.add(
+            `_site/${label}: ${name} must stay lang=en and dir=ltr, found lang=${language || "none"} dir=${direction || "none"}`
+          )
+        }
+      }
+      continue
+    }
+
+    const htmlDirection = htmlAttribute(htmlTag, "dir") || "ltr"
+    const expectedLanguage = htmlDirection === "rtl" ? "fa" : "en"
     if (htmlLanguage !== expectedLanguage) {
       errors.add(
-        `_site/${label}: dir=${contentDirection || "ltr"} requires html lang=${expectedLanguage}, found ${htmlLanguage}`
+        `_site/${label}: dir=${htmlDirection} requires html lang=${expectedLanguage}, found ${htmlLanguage}`
       )
     }
   }

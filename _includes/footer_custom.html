@@ -1,21 +1,21 @@
 <div class="content-footer-main">
   <div class="content-footer-about">
     <a class="content-footer-brand" href="{{ '/' | relative_url }}">OkBayat.com</a>
-    <p>{% if document_language == "fa" %}یادداشت‌هایی درباره‌ی راهبری، تحول انسان و ساختن.{% else %}Notes on leadership, human transformation, and building.{% endif %}</p>
+    <p>Notes on leadership, human transformation, and building.</p>
   </div>
 
-  <nav class="content-footer-group content-footer-explore" aria-label="{% if document_language == 'fa' %}کاوش{% else %}Explore{% endif %}">
-    <p class="content-footer-label">{% if document_language == "fa" %}کاوش{% else %}Explore{% endif %}</p>
+  <nav class="content-footer-group content-footer-explore" aria-label="Explore">
+    <p class="content-footer-label">Explore</p>
     <div class="content-footer-links content-footer-explore-links">
       {% if site.back_to_top %}
-        <a class="content-footer-back-to-top" href="#top" id="back-to-top">{% if document_language == "fa" %}بازگشت به بالا{% else %}{{ site.back_to_top_text }}{% endif %} <span aria-hidden="true">&uarr;</span></a>
+        <a class="content-footer-back-to-top" href="#top" id="back-to-top">{{ site.back_to_top_text }} <span aria-hidden="true">&uarr;</span></a>
       {% endif %}
-      <a class="content-footer-archive" href="{{ '/archive/' | relative_url }}">{% if document_language == "fa" %}بایگانی{% else %}Archive{% endif %} <span aria-hidden="true">&rarr;</span></a>
+      <a class="content-footer-archive" href="{{ '/archive/' | relative_url }}">Archive <span aria-hidden="true">&rarr;</span></a>
     </div>
   </nav>
 
-  <nav class="content-footer-group content-footer-connect" aria-label="{% if document_language == 'fa' %}ارتباط{% else %}Connect{% endif %}">
-    <p class="content-footer-label">{% if document_language == "fa" %}ارتباط{% else %}Connect{% endif %}</p>
+  <nav class="content-footer-group content-footer-connect" aria-label="Connect">
+    <p class="content-footer-label">Connect</p>
     <div class="content-footer-links content-footer-connect-links">
       <a href="https://www.linkedin.com/in/okbayat/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       <a href="https://github.com/OkBayat" target="_blank" rel="noopener noreferrer">GitHub</a>
