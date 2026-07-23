@@ -6,7 +6,7 @@ const path = require("path")
 const ROOT = path.resolve(__dirname, "..")
 const errors = new Set()
 const OBSOLETE_ROUTE =
-  /^\/(?:thinking|building|human-transformation|leadership(?:\/|$)|voice(?:\/|$)|family-link(?:\/|$)|about\/contact(?:\/|$))/
+  /^\/(?:thinking|building|human-transformation|leadership(?:\/|$)|voice(?:\/|$)|family-link(?:\/|$)|about\/(?:calendar|contact)(?:\/|$))/
 
 function walk(directory) {
   if (!fs.existsSync(directory)) return []
@@ -138,6 +138,7 @@ const expectedPages = {
   "docs/projects/index.md": ["/projects", undefined, "5"],
   "docs/writing/index.md": ["/writing", undefined, "6"],
   "docs/contact.md": ["/contact", undefined, "7"],
+  "docs/contact/calendar-en.md": ["/contact/calendar", "Contact", "1"],
   "docs/research/research-profile.md": ["/research/profile", "Research", "1"],
   "docs/research/current-inquiry.md": [
     "/research/current-inquiry",

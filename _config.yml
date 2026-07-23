@@ -47,12 +47,6 @@ defaults:
     values:
       nav_exclude: true
 
-  - scope:
-      path: "docs/about/calendar"
-      type: "pages"
-    values:
-      nav_exclude: true
-
 exclude:
   - .sass-cache/
   - .jekyll-cache/
