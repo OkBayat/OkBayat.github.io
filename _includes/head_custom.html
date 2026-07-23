@@ -2,6 +2,10 @@
 <link rel="stylesheet" href="/assets/css/audio.css">
 
 <style>
+.main-header .aux-nav {
+  padding-right: 0;
+}
+
 .theme-toggle {
   display: inline-flex;
   flex: 0 0 auto;
@@ -10,21 +14,22 @@
   align-self: center;
   align-items: center;
   justify-content: center;
-  margin-left: 1rem;
+  margin-right: .5rem;
+  margin-left: 0;
   padding: 0;
   cursor: pointer;
   color: inherit;
   background-color: transparent;
-  border: 1px solid rgba(128, 128, 128, .45);
-  border-radius: 999px;
+  border: 0;
+  border-radius: 50%;
+  appearance: none;
   transform: translateY(1px);
-  transition: background-color .15s ease, border-color .15s ease, opacity .15s ease;
+  transition: background-color .15s ease, opacity .15s ease;
 }
 
 .theme-toggle:hover,
 .theme-toggle:focus-visible {
   background-color: rgba(128, 128, 128, .1);
-  border-color: currentColor;
 }
 
 .theme-toggle:focus-visible {
@@ -62,7 +67,8 @@
 
 @media (max-width: 49.99rem) {
   .theme-toggle {
-    margin-left: .75rem;
+    margin-right: .5rem;
+    margin-left: 0;
   }
 }
 </style>
