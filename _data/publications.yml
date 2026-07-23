@@ -178,6 +178,23 @@ works:
         title: "Can Awareness Initiate Transformation? Four Field Observations from Learning, Leadership, and Coaching"
         url: /research/notes/awareness-transformative-learning-en
 
+  - id: can-the-learner-carry-the-context
+    content_type: research-note
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+    themes:
+      - learning-memory-language
+      - leadership-identity-coordination
+      - philosophy-worldview
+    program: human-transformation
+    summary: A source-based inquiry into reflective practice, double-loop learning, coaching, and the capacity to continue learning across changing contexts.
+    editions:
+      - lang: en
+        label: English
+        title: "Can the Learner Carry the Context?"
+        url: /research/notes/can-the-learner-carry-the-context
+
   - id: vocora-learning-metrics
     content_type: research-note
     primary_body: building
