@@ -1,3 +1,11 @@
+# Third-party notices
+
+This repository includes code derived from [Just the Docs](https://github.com/just-the-docs/just-the-docs). The MIT license below applies to that third-party code. It does not grant a license to Mohammad Bayat's original content or original source code.
+
+Other third-party components may carry their own notices in source files or package manifests. Those terms apply only to the relevant components and do not license the repository as a whole.
+
+## Just the Docs
+
 The MIT License (MIT)
 
 Copyright (c) 2016 Patrick Marsceill

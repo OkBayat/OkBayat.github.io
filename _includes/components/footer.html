@@ -6,7 +6,7 @@
     {{ footer_custom | strip }}
 
     <div class="content-footer-secondary">
-      <p class="content-footer-copyright">&copy; 2023&ndash;2026 Mohammad Bayat</p>
+      <p class="content-footer-copyright">&copy; 2023&ndash;2026 Mohammad Bayat. Original content: All rights reserved.</p>
 
       <nav class="content-footer-meta" aria-label="Page information">
         {% if site.gh_edit_link %}
@@ -21,9 +21,7 @@
           {% endif %}
         {% endif %}
         <span aria-hidden="true">&middot;</span>
-        <span>Content: <a href="https://www.gnu.org/licenses/fdl.html">GNU FDL</a></span>
-        <span aria-hidden="true">&middot;</span>
-        <span>Source: <a href="https://github.com/OkBayat/OkBayat.github.io/blob/main/LICENSE.txt" target="_blank" rel="noopener noreferrer">MIT</a></span>
+        <a href="{{ '/about/rights' | relative_url }}">Rights &amp; licensing</a>
         {% if site.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
           <span aria-hidden="true">&middot;</span>
           <span>Updated <span class="d-inline-block">{{ page.last_modified_date | date: "%b %e, %Y" }}</span></span>
