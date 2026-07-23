@@ -425,7 +425,7 @@
   display: flex;
   flex-direction: column;
   min-width: 0;
-  padding: $sp-4;
+  padding: $sp-3 $sp-4;
   background: $body-background-color;
   border: $border $border-color;
   border-radius: 8px;
@@ -465,37 +465,58 @@
   margin-top: 0;
   margin-bottom: $sp-2;
   font-size: 1.125rem !important;
+  line-height: 1.35;
 }
 
 .evidence-card-question {
   margin-top: 0;
+  margin-bottom: $sp-3;
   color: $body-heading-color;
+  font-size: 0.9375rem;
   font-weight: 500;
+  line-height: 1.45;
 }
 
-.evidence-card-details {
+.main-content .evidence-card-details {
+  display: grid;
+  grid-template: auto / minmax(0, 1fr);
   margin: 0 0 $sp-3;
 
   div {
-    padding: $sp-2 0;
+    display: grid;
+    grid-template-columns: 4.25rem minmax(0, 1fr);
+    gap: $sp-2;
+    align-items: start;
+    padding: 0.5rem 0;
     border-top: $border $border-color;
   }
 
   dt {
-    margin-bottom: 0.125rem;
+    margin: 0.125rem 0 0;
     font-size: 0.6875rem;
     font-weight: 700;
+    line-height: 1.4;
     letter-spacing: 0.04em;
+    text-align: left;
     text-transform: uppercase;
+
+    &::after {
+      content: none;
+    }
   }
 
   dd {
+    min-width: 0;
     margin: 0;
+    font-size: 0.9375rem;
+    line-height: 1.45;
+    overflow-wrap: break-word;
   }
 }
 
 .evidence-card-link {
   margin-top: auto;
+  font-size: 0.9375rem;
   font-weight: 600;
 }
 
