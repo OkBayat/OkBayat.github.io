@@ -4,28 +4,31 @@
 <style>
 .theme-toggle {
   display: inline-flex;
+  flex: 0 0 auto;
   width: 2rem;
   height: 2rem;
+  align-self: center;
   align-items: center;
   justify-content: center;
   margin-left: 1rem;
   padding: 0;
   cursor: pointer;
-  color: $link-color;
-  background: transparent;
+  color: inherit;
+  background-color: transparent;
   border: 1px solid rgba(128, 128, 128, .45);
   border-radius: 999px;
-  transition: background-color .15s ease, border-color .15s ease;
+  transform: translateY(1px);
+  transition: background-color .15s ease, border-color .15s ease, opacity .15s ease;
 }
 
 .theme-toggle:hover,
 .theme-toggle:focus-visible {
   background-color: rgba(128, 128, 128, .1);
-  border-color: $link-color;
+  border-color: currentColor;
 }
 
 .theme-toggle:focus-visible {
-  outline: 2px solid $link-color;
+  outline: 2px solid currentColor;
   outline-offset: 2px;
 }
 
