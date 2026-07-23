@@ -385,7 +385,6 @@ function validateGeneratedSite(siteDirectory) {
       for (const [name, tag] of [
         ["shared site shell", shellTag],
         ["sidebar", sidebarTag],
-        ["footer", footerTag],
       ]) {
         if (!tag) continue
         const language = htmlAttribute(tag, "lang")
@@ -393,6 +392,16 @@ function validateGeneratedSite(siteDirectory) {
         if (language !== "en" || direction !== "ltr") {
           errors.add(
             `_site/${label}: ${name} must stay lang=en and dir=ltr, found lang=${language || "none"} dir=${direction || "none"}`
+          )
+        }
+      }
+
+      if (footerTag) {
+        const footerLanguage = htmlAttribute(footerTag, "lang")
+        const footerDirection = htmlAttribute(footerTag, "dir")
+        if (footerLanguage || footerDirection !== "ltr") {
+          errors.add(
+            `_site/${label}: footer must omit lang and stay dir=ltr, found lang=${footerLanguage || "none"} dir=${footerDirection || "none"}`
           )
         }
       }
