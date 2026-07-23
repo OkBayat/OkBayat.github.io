@@ -148,4 +148,13 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm install
-      - run: npm test
+      - name: Validate content architecture
+        run: npm run lint:architecture
+      - name: Validate source content
+        run: npm run lint:content
+      - name: Validate stylesheets
+        run: npm run lint:css
+      - name: Validate formatting
+        run: npm run lint:formatting
+      - name: Validate timeline JavaScript
+        run: npm run lint:javascript
