@@ -10,10 +10,10 @@ author: Mohammad Bayat
 date: 2026-07-17
 date_modified: 2026-07-23
 last_modified_date: 2026-07-23
-status: active-field-project
+status: record-under-review
 project: learning-circle
 note_type: field-project-record
-evidence_level: longitudinal-field-observation
+evidence_level: mixed-historical-practice-record
 privacy: generalized-aggregate
 seo:
   type: Article
@@ -33,7 +33,7 @@ permalink: /leadership-learning/human-transformation/field-projects/learning-cir
 # Learning Circle
 {: .no_toc }
 
-{ A field project in independent learning · Active · Longitudinal practice-based observation | fs-6 }
+{ A field project in independent learning · Historical practice record · Safeguarding status unverified | fs-6 }
 
 Learning Circle began as a small programming activity and became a setting for a broader question: can children learn to coordinate, continue learning, and teach others without remaining dependent on a central adult instructor?
 
@@ -75,31 +75,65 @@ This page is the canonical public record of the initiative.
 
 ## Gradual Facilitator Withdrawal
 
-The central intervention was not a single lesson. It was the gradual removal of the facilitator from the center of the class.
+The central instructional change was not a single lesson. It was the gradual removal of the facilitator from the center of teaching and coordination.
 
-I first missed or delegated parts of sessions for practical reasons. Over time, I began asking individual children to coordinate the session. Eventually I stopped attending directly while continuing to remain available at a distance when the group reached a question it could not resolve.
+I first missed or delegated parts of sessions for practical reasons. Over time, I began asking individual children to coordinate the learning activity. Historical records and recollections indicate that I later stopped serving as the regular instructor and occasionally responded to questions remotely.
 
-By the time of this record, the group had continued for a sustained period without my regular presence in the class.
+“Facilitator withdrawal” refers only to my instructional role. The current materials are not sufficient for me to verify the physical supervision and escalation arrangements for every session after that withdrawal. I therefore treat the affected phase only as an **unverified historical report**, not as active field evidence. This page makes no claim that children met without responsible adult safeguarding, that the arrangement was adequate, or that the same model should continue.
 
-## What I Directly Observed
+Some historical artifacts and reports indicate that learning activity continued after I stopped serving as the regular instructor. They are not complete enough to establish a reliable duration, session count, attendance pattern, or safeguarding arrangement. Before any current or future phase involving children is described as active fieldwork, responsible adult supervision, escalation, and safeguarding must be confirmed and documented.
 
-The observations available to me include:
+## How to Read the Evidence
 
-- children coordinating session times with one another;
-- continued progress through new programming material;
-- children asking for guidance about what to study after completing a stage;
-- peer support when one learner became stuck;
-- learners teaching programming to other children in their existing social circles;
-- the group expanding through peer teaching rather than only through adult recruitment;
-- completed learning activities documented over time.
+The project changed over time, and I did not have the same access to every stage. Early sessions included direct facilitation and observation. Material attributed to the later phase comes from historical activity records, coordination messages, requests for help, and accounts from people connected to the group. Treating these materials as direct observation—or as evidence of a safely operating active project—would make the record sound stronger than it is.
 
-These are meaningful observations, but they do not by themselves show which part of the setting produced them or whether the same pattern would occur with another group.
+I now separate **where information came from** from **the status of a claim made from it**.
+
+### Source provenance
+
+| Source | What it means in this record | Current examples |
+|---|---|---|
+| **Direct observation** | An event I personally witnessed during a session | Children progressing at different speeds, helping a peer who was stuck, and taking early coordination roles |
+| **Reported** | An account given by a child, parent, or another person connected to the activity | Reports that learning or peer teaching continued when I was not present |
+| **Artifact** | A record created through the activity rather than a later interpretation | Coordination messages, completed Code.org activities, and requests for guidance about the next stage |
+
+### Claim status
+
+| Status | What it means in this record | Requirement |
+|---|---|---|
+| **Description** | A bounded account of an observation, report, or artifact | Name the source and avoid inferring an unobserved capacity |
+| **Interpretation** | My present explanation of what several sources may mean | State it as provisional and consider competing explanations |
+| **Change over time** | A difference claimed between an earlier and later phase | Identify the evidence available for both phases |
+| **Unknown** | A question the current record cannot answer | Preserve the gap rather than filling it through inference |
+
+The categories should not be collapsed. A message showing that a session was coordinated is an artifact of coordination; it is not proof of independent learning. A participant's account may be meaningful; it is still a report. A claim that responsibility changed requires evidence about both the earlier and later phases. My explanation remains an interpretation.
+
+### Limits of the present record
+
+This page was assembled retrospectively from incomplete practice materials, not from a predeclared observation protocol. It does not provide a public age band, group-size band, date range, session count, attendance pattern, or phase-by-phase record. Some details are withheld to reduce the risk of identifying children; others were not recorded consistently enough to report.
+
+Because those gaps prevent a reader from assessing duration, sampling, and safeguarding, I no longer describe the evidence as a longitudinal field observation. The page is a mixed historical practice record under review and a basis for better prospective documentation.
+
+## What the Record Currently Contains
+
+Across those source types, the current record includes:
+
+- early direct observation of peer support and children taking responsibility for parts of a session;
+- historical activity records indicating continued work through new programming material;
+- historical coordination records from periods when I was not regularly present;
+- historical requests about what to learn after completing a stage;
+- unverified reports of learners teaching programming to other children in their social circles;
+- and unverified reports that participation expanded through peer relationships rather than only through adult recruitment.
+
+These observations, reports, and artifacts are meaningful. They do not show which part of the setting produced the pattern, how consistently or for how long it occurred, or whether the same result would appear in another group.
 
 ## Current Interpretation
 
-My current interpretation is that the project may have created a local culture in which learning, helping, and teaching were treated as connected activities. The gradual withdrawal of the adult may also have made room for roles that the children would not have needed to assume if the instructor had remained the permanent source of direction.
+In the early, directly observed phase, learning, helping, and teaching sometimes appeared as connected activities, and children took some coordination roles. The later artifacts and reports raise a question about whether those practices continued when I was no longer the regular instructor; they do not establish that they did.
 
-This interpretation remains provisional. The children may also have continued because they were unusually motivated, had pre-existing relationships, received support outside the sessions, enjoyed programming, or had access to tools and time that another group would not have.
+Any account of later continuity remains provisional. The children may also have had pre-existing relationships, support outside the sessions, unusual motivation, enjoyment of programming, or access to tools and time that another group would not have.
+
+The most defensible finding is limited to the directly observed phase: some peer support and early coordination occurred. The incomplete later record does not justify a finding about coordination without my regular instructional presence, the size or durability of change, deeper learning, autonomy, or transfer. Those questions remain open.
 
 ## What This Project Does Not Demonstrate
 
@@ -157,8 +191,10 @@ Possible next steps include:
 3. document how session coordination changes when different children lead;
 4. distinguish task completion from later recall and transfer;
 5. record when peer teaching helps, fails, or creates misconceptions;
-6. ask children what they believe keeps the group continuing, using a consent-aware process;
-7. publish negative and inconclusive observations as well as successful ones.
+6. record source provenance (direct observation, report, or artifact) separately from claim status (description, interpretation, change over time, or unknown);
+7. verify and document the adult supervision, escalation, and safeguarding arrangements for each future phase;
+8. ask children what they believe keeps the group continuing, using a consent-aware process;
+9. publish negative and inconclusive observations as well as successful ones.
 
 ## Related Questions
 

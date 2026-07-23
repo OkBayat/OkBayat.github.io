@@ -158,7 +158,7 @@ works:
         url: /research/notes/commitment-context-learning-en
 
   - id: awareness-transformative-learning
-    content_type: research-note
+    content_type: essay
     primary_body: human-transformation
     bodies_of_work:
       - human-transformation
@@ -167,15 +167,15 @@ works:
       - leadership-identity-coordination
     program: human-transformation
     translation_key: awareness-transformative-learning
-    summary: A practice-based field inquiry into whether repeated, nonjudgmental awareness of mental and behavioral patterns may help people recognize automaticity, recover choice, and begin changing from within.
+    summary: A retrospective practitioner reflection on structured self-observation, the limits of interpreting past participant material, and an ethical path for future study.
     editions:
       - lang: fa
         label: فارسی
-        title: "آیا آگاهی می‌تواند آغازگر تحول باشد؟ چهار مشاهدهٔ میدانی از یادگیری، راهبری و کوچینگ"
+        title: "آیا آگاهی می‌تواند فضایی برای تغییر بگشاید؟ تأملی گذشته‌نگر بر عمل تسهیل‌گری"
         url: /research/notes/awareness-transformative-learning-fa
       - lang: en
         label: English
-        title: "Can Awareness Initiate Transformation? Four Field Observations from Learning, Leadership, and Coaching"
+        title: "Can Awareness Open Space for Change? A Retrospective Practitioner Reflection"
         url: /research/notes/awareness-transformative-learning-en
 
   - id: vocora-learning-metrics
@@ -264,7 +264,7 @@ works:
         url: /research/notes/hebbs-rule
 
   - id: art-groupwork-communication
-    content_type: research-note
+    content_type: reading-note
     primary_body: human-transformation
     bodies_of_work:
       - human-transformation
@@ -273,15 +273,15 @@ works:
       - relationships-acceptance
       - learning-memory-language
     translation_key: art-groupwork-communication
-    summary: A research note on how art can surface unspoken conflict, fear of judgment, power relations, and recurring interaction patterns inside groups.
+    summary: A reading of Rosemary Reilly's arts-based action research on making hidden group patterns available for collective inquiry.
     editions:
       - lang: fa
         label: فارسی
-        title: هنر و روابط پنهان یک گروه
+        title: "وقتی گفت‌وگو کافی نیست: هنر چگونه می‌تواند پویایی‌های گروه را گفت‌وگوپذیر کند؟"
         url: /research/notes/art-groupwork-communication
       - lang: en
         label: English
-        title: "Art and a Group's Hidden Dynamics"
+        title: "When Conversation Is Not Enough: How Art Can Make Group Dynamics Discussable"
         url: /research/notes/art-groupwork-communication-en
 
   - id: journaling
@@ -308,11 +308,11 @@ works:
       - philosophy-worldview
       - leadership-identity-coordination
       - learning-memory-language
-    summary: A reading of Being and Time in dialogue with Speaking Being and the author's experience of leadership, language, and human action.
+    summary: A source-specific reading of Being and Time and Speaking Being that separates Heidegger's philosophy, Hyde and Kopp's interpretation, and the author's limited application to leadership.
     editions:
       - lang: fa
         label: فارسی
-        title: از هستی تا راهبری
+        title: از هستی تا امکان
         url: /writing/reading-notes/being-and-time
 
   - id: holistic-learning
@@ -324,11 +324,11 @@ works:
       - learning-memory-language
       - leadership-identity-coordination
       - philosophy-worldview
-    summary: A critical interdisciplinary review of holistic learning, ways of being, Heidegger, and the possibility of evidence-aware leadership education.
+    summary: A critical synthesis of whole-person learning, ways of being, transfer, and the evidence required to evaluate leadership education responsibly.
     editions:
       - lang: fa
         label: فارسی
-        title: یادگیری کلنگر
+        title: یادگیری کل‌نگر
         url: /writing/reading-notes/holistic-learning
 
   - id: smarter-faster-better
