@@ -37,8 +37,6 @@ permalink: /research/notes/awareness-transformative-learning-fa
 
 { جستار · تأمل گذشته‌نگر بر عمل حرفه‌ای | fs-6 }
 
-{ [English version](/research/notes/awareness-transformative-learning-en) | ltr }
-
 سال‌هاست یک پرسش در آموزش راهبری، تسهیل‌گری، کوچینگ و حتی رابطه‌های عادی همراه من مانده است:
 
 > **وقتی فرد بتواند یک الگوی تکرارشونده را بدون قضاوت، تشخیص‌گذاری یا دریافت نسخه‌ای فوری برای تغییر ببیند، چه امکانی گشوده می‌شود؟**

@@ -37,8 +37,6 @@ permalink: /research/notes/commitment-context-learning-en
 
 { Working Research Note · Project-based leadership education | fs-6 }
 
-{ [Persian edition / نسخه‌ی فارسی](/research/notes/commitment-context-learning-fa) | rtl }
-
 In project-based leadership programs, I repeatedly saw people take part in broadly the same course in very different ways. Some entered the world of their projects: they searched beyond assigned material, asked sharper questions, used peers and experts as resources, and stayed with breakdowns—obstacles, failed attempts, or missed agreements that interrupted the expected path. Others attended, planned, wrote, and tried, yet the course seemed to remain outside the work they said mattered.
 
 The difference left me with a question:

@@ -39,8 +39,6 @@ permalink: /research/notes/art-groupwork-communication-en
 
 { Reading Note · Rosemary C. Reilly, “Improving Cohort Functioning” | fs-6 }
 
-{ [Persian edition / نسخه‌ی فارسی](/research/notes/art-groupwork-communication) | rtl }
-
 Groups often assume that a difficult relationship can be repaired if people simply talk more openly. Yet fear of judgment, unequal influence, avoidance, and dependence may contribute both to the difficulty and to the conversation meant to resolve it. People may know that something is wrong without having language that feels safe or precise enough to name it.
 
 Rosemary Reilly's arts-based action research offers a different point of entry. In her study, art did not decorate a meeting or provide a pleasant break from serious work. It helped groups place an experience in front of themselves before asking members to explain or defend it.

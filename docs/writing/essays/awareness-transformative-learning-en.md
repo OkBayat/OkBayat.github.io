@@ -37,8 +37,6 @@ permalink: /research/notes/awareness-transformative-learning-en
 
 { Essay · Retrospective Practitioner Reflection | fs-6 }
 
-{ [Persian edition / نسخه‌ی فارسی](/research/notes/awareness-transformative-learning-fa) | rtl }
-
 For years, one question has followed me through leadership education, facilitation, coaching, and ordinary relationships:
 
 > **What becomes possible when a person can see a recurring pattern without immediately being judged, diagnosed, or told how to change it?**
