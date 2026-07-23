@@ -9,10 +9,14 @@
     const emptyState = explorer.querySelector("[data-timeline-empty]")
     const reset = explorer.querySelector("[data-timeline-reset]")
     const typeChips = [
-      ...explorer.querySelectorAll("[data-timeline-type-chips] [data-filter-value]"),
+      ...explorer.querySelectorAll(
+        "[data-timeline-type-chips] [data-filter-value]"
+      ),
     ]
     const topicChips = [
-      ...explorer.querySelectorAll("[data-timeline-topic-chips] [data-filter-value]"),
+      ...explorer.querySelectorAll(
+        "[data-timeline-topic-chips] [data-filter-value]"
+      ),
     ]
 
     if (
@@ -93,7 +97,9 @@
         if (show) visible += 1
       })
 
-      resultCount.textContent = `${visible} ${visible === 1 ? "entry" : "entries"} shown`
+      resultCount.textContent = `${visible} ${
+        visible === 1 ? "entry" : "entries"
+      } shown`
       emptyState.hidden = visible !== 0
     }
 
