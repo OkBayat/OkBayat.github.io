@@ -232,6 +232,7 @@ Writing & Media
 └── All Writing
 
 Contact
+└── Schedule a Meeting
 ```
 
 The footer provides secondary discovery links to All Writing, Reading Notes, Translations, Podcast, Archive, rights and licensing, and public profiles. It does not contain a global language selector.

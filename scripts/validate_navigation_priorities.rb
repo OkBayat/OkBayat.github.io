@@ -140,6 +140,11 @@ assert_order(
   %w[/writing/essays /writing/reading-notes /writing/translations /writing/podcast /writing/all]
 )
 
+unless normalized_hrefs.include?("/contact/calendar")
+  warn "Contact navigation is missing Schedule a Meeting"
+  exit 1
+end
+
 unless normalized_hrefs.include?("/writing/podcast/inja-anja")
   warn "The Inja-Anja series must remain visible below Podcast"
   exit 1

@@ -26,7 +26,7 @@ A useful message should include:
 
 ## Scheduling
 
-The [calendar page](/about/calendar) remains available as a scheduling utility, but it is not part of the site's main intellectual navigation. A visible opening does not confirm a meeting until the invitation has been reviewed and accepted.
+Use [Schedule a Meeting](/contact/calendar) to review potential times and send a request. A visible opening does not confirm a meeting until the invitation has been reviewed and accepted.
 
 ## Privacy
 
