@@ -106,9 +106,9 @@ unless contains_href?(calendar_item_html, "/contact/calendar-fa")
 end
 
 unless calendar_item_html.match?(
-  /\(\s*<a\b[^>]*href=["']\/contact\/calendar-fa\/?["'][^>]*>\s*FA\s*<\/a>\s*\)/mi
+  /\(\s*<a\b[^>]*href=["']\/contact\/calendar-fa\/?["'][^>]*>\s*نسخه‌ی فارسی\s*<\/a>\s*\)/mi
 )
-  warn "Contact child navigation must render the Persian counterpart as (FA)"
+  warn "Contact child navigation must render the Persian counterpart as (نسخه‌ی فارسی)"
   exit 1
 end
 
@@ -117,6 +117,14 @@ if contact_list_html.include?("تنظیم جلسه")
   exit 1
 end
 
+template_source = ROOT.join("_includes/components/children_nav.html").read(encoding: "UTF-8")
+
+unless template_source.include?('nav_alternate_label = "English Version"')
+  warn "Persian child navigation must label the English counterpart as (English Version)"
+  exit 1
+end
+
 puts "Child-page navigation validation passed:"
 puts "- #{writing_url} lists #{writing_children.length} direct children"
-puts "- #{contact_url} renders one bilingual child row with an (FA) counterpart"
+puts "- #{contact_url} renders one bilingual child row with a (نسخه‌ی فارسی) counterpart"
+puts "- Persian parent pages use (English Version) for paired English children"
