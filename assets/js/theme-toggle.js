@@ -1,4 +1,4 @@
-(function () {
+;(function () {
   var storageKey = "okbayat-theme"
   var button = document.getElementById("theme-toggle")
   var script = document.currentScript
