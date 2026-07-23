@@ -23,6 +23,7 @@ This is an independent research portfolio. It does not present professional expe
 - [Methods, Ethics & Evidence](/research/methods-ethics-evidence) states how I distinguish observation, self-report, interpretation, and research evidence.
 - [Research Publications](/research/publications) curates work that contributes to the portfolio.
 - [Research Notes](/research/notes) contains developing investigations, field notes, evidence reviews, and design questions.
+- [Timeline](/research/timeline) shows how questions, reading, research notes, essays, and translations have developed over time.
 
 ## Relationship to the Rest of the Site
 

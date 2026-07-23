@@ -17,6 +17,7 @@
     "lint:content": "node scripts/validate_site_integrity.js",
     "lint:css": "stylelint '**/*.scss'",
     "lint:formatting": "prettier --check '**/*.{scss,js,json}'",
+    "lint:javascript": "node --check assets/js/timeline.js",
     "format": "prettier --write '**/*.{scss,js,json}'",
     "test": "npm run lint"
   },
@@ -24,7 +25,8 @@
     "ignoreFiles": [
       "assets/css/just-the-docs-default.scss",
       "assets/css/just-the-docs-light.scss",
-      "assets/css/just-the-docs-dark.scss"
+      "assets/css/just-the-docs-dark.scss",
+      "assets/css/timeline.scss"
     ],
     "extends": [
       "stylelint-config-standard-scss"
