@@ -1,6 +1,11 @@
 <link rel="stylesheet" href="/assets/css/bootstrap-grid.min.css">
 <link rel="stylesheet" href="/assets/css/audio.css">
 
+{% if page.timeline_explorer %}
+<link rel="stylesheet" href="{{ '/assets/css/timeline.css' | relative_url }}">
+<script>document.documentElement.classList.add("timeline-page-document")</script>
+{% endif %}
+
 <style>
 .main-header .aux-nav {
   padding-right: 0;
