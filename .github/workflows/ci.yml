@@ -145,11 +145,5 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Install Node dependencies
-        run: npm install
-      - name: Validate site integrity
-        run: npm run lint:content
-      - name: Lint stylesheets
-        run: npm run lint:css
-      - name: Check source formatting
-        run: npm run lint:formatting
+      - run: npm install
+      - run: npm test
