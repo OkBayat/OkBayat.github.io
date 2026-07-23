@@ -93,6 +93,11 @@
 {%- endif -%}
 <ul>
   {% for nav_child in nav_children %}
+    {%- comment -%}
+      Pair only exact sibling source stems such as `entry-en.md` and `entry-fa.md`.
+      The current page language selects the primary title; the other edition is
+      retained as the compact language link.
+    {%- endcomment -%}
     {%- assign nav_child_path = nav_child.path | default: "" -%}
     {%- assign nav_child_suffix = nav_child_path | slice: -6, 6 -%}
     {%- assign nav_en_child = nil -%}
