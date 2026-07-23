@@ -85,7 +85,7 @@
     <button class="timeline-reset-button" type="button" data-timeline-reset>Reset filters</button>
   </div>
 
-  <div class="timeline-list" role="list" data-timeline-list aria-label="Research and writing entries">
+  <div class="timeline-list" data-timeline-list>
     {% for work in site.data.publications.works %}
       {% assign body_record = site.data.publications.bodies_of_work[work.primary_body] %}
       {% for edition in work.editions %}
@@ -126,7 +126,6 @@
 
         <article
           class="timeline-item"
-          role="listitem"
           data-timeline-item
           data-date="{% if entry_date %}{{ entry_date | date: "%Y-%m-%d" }}{% else %}0000-00-00{% endif %}"
           data-type="{{ work.content_type | escape }}"
@@ -134,13 +133,13 @@
           data-lang="{{ edition.lang | escape }}"
           data-search="{{ entry_search | strip_html | strip_newlines | downcase | escape }}"
         >
-          <time class="timeline-date"{% if entry_date %} datetime="{{ entry_date | date: "%Y-%m-%d" }}"{% endif %}>
-            {% if entry_date %}
+          {% if entry_date %}
+            <time class="timeline-date" datetime="{{ entry_date | date: "%Y-%m-%d" }}">
               <strong>{{ entry_date | date: "%-d %b" }}</strong>{{ entry_date | date: "%Y" }}
-            {% else %}
-              <strong>Undated</strong>
-            {% endif %}
-          </time>
+            </time>
+          {% else %}
+            <span class="timeline-date"><strong>Undated</strong></span>
+          {% endif %}
           <span class="timeline-marker" aria-hidden="true"></span>
 
           <div class="timeline-entry-card">
@@ -206,7 +205,6 @@
 
         <article
           class="timeline-item"
-          role="listitem"
           data-timeline-item
           data-date="{% if entry_date %}{{ entry_date | date: "%Y-%m-%d" }}{% else %}0000-00-00{% endif %}"
           data-type="{{ entry_type | escape }}"
@@ -214,9 +212,13 @@
           data-lang="{{ entry_languages | escape }}"
           data-search="{{ entry_search | strip_html | strip_newlines | downcase | escape }}"
         >
-          <time class="timeline-date"{% if entry_date %} datetime="{{ entry_date | date: "%Y-%m-%d" }}"{% endif %}>
-            {% if entry_date %}<strong>{{ entry_date | date: "%-d %b" }}</strong>{{ entry_date | date: "%Y" }}{% else %}<strong>Undated</strong>{% endif %}
-          </time>
+          {% if entry_date %}
+            <time class="timeline-date" datetime="{{ entry_date | date: "%Y-%m-%d" }}">
+              <strong>{{ entry_date | date: "%-d %b" }}</strong>{{ entry_date | date: "%Y" }}
+            </time>
+          {% else %}
+            <span class="timeline-date"><strong>Undated</strong></span>
+          {% endif %}
           <span class="timeline-marker" aria-hidden="true"></span>
 
           <div class="timeline-entry-card">
