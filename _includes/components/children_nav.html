@@ -5,7 +5,10 @@
   Includes: components/nav/sorted.html, toc_heading_custom.html.
   Overwrites:
     nav_ancestor_links, nav_top_node_titles, nav_child_candidates, nav_children,
-    nav_child, nav_child_ok, nav_child_ancestor, nav_sorted.
+    nav_child, nav_child_ok, nav_child_ancestor, nav_sorted,
+    nav_page_pool, nav_child_path, nav_child_suffix, nav_counterpart_path,
+    nav_en_child, nav_fa_child, nav_hide_child, nav_alternate_child,
+    nav_alternate_code, nav_alternate_label, nav_alternate_name.
 {%- endcomment -%}
 
 {%- comment -%}
@@ -41,9 +44,9 @@
         | split: nav_list_link | last
         | split: "</a>" | slice: 1 | first -%}
 
-  {%- assign nav_child_test = nav_child_start 
+  {%- assign nav_child_test = nav_child_start
         | remove_first: nav_list_simple | prepend: nav_list_simple -%}
-    
+
   {%- if nav_child_start != nav_child_test -%}
     {%- assign nav_children = "" | split: "" -%}
   {%- endif -%}
@@ -63,7 +66,8 @@
     {%- assign nav_ancestors = nav_ancestors | push: nav_title -%}
   {%- endfor -%}
 
-  {%- assign nav_parenthood = site[page.collection] | default: site.html_pages
+  {%- assign nav_page_pool = site[page.collection] | default: site.html_pages -%}
+  {%- assign nav_parenthood = nav_page_pool
     | where_exp: "item", "item.title != nil" | group_by: "parent" -%}
 
   {%- assign nav_top_nodes = nav_parenthood
@@ -89,9 +93,49 @@
 {%- endif -%}
 <ul>
   {% for nav_child in nav_children %}
+    {%- assign nav_child_path = nav_child.path | default: "" -%}
+    {%- assign nav_child_suffix = nav_child_path | slice: -6, 6 -%}
+    {%- assign nav_en_child = nil -%}
+    {%- assign nav_fa_child = nil -%}
+    {%- assign nav_hide_child = false -%}
+    {%- assign nav_alternate_child = nil -%}
+    {%- assign nav_alternate_code = nil -%}
+    {%- assign nav_alternate_label = nil -%}
+    {%- assign nav_alternate_name = nil -%}
+
+    {%- if nav_child_suffix == "-en.md" -%}
+      {%- assign nav_counterpart_path = nav_child_path | replace: "-en.md", "-fa.md" -%}
+      {%- assign nav_fa_child = nav_children | where: "path", nav_counterpart_path | first -%}
+      {%- if nav_fa_child -%}
+        {%- if page.lang == "fa" -%}
+          {%- assign nav_hide_child = true -%}
+        {%- else -%}
+          {%- assign nav_alternate_child = nav_fa_child -%}
+          {%- assign nav_alternate_code = "fa" -%}
+          {%- assign nav_alternate_label = "FA" -%}
+          {%- assign nav_alternate_name = "Persian" -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- elsif nav_child_suffix == "-fa.md" -%}
+      {%- assign nav_counterpart_path = nav_child_path | replace: "-fa.md", "-en.md" -%}
+      {%- assign nav_en_child = nav_children | where: "path", nav_counterpart_path | first -%}
+      {%- if nav_en_child -%}
+        {%- if page.lang == "fa" -%}
+          {%- assign nav_alternate_child = nav_en_child -%}
+          {%- assign nav_alternate_code = "en" -%}
+          {%- assign nav_alternate_label = "EN" -%}
+          {%- assign nav_alternate_name = "English" -%}
+        {%- else -%}
+          {%- assign nav_hide_child = true -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- unless nav_hide_child -%}
   <li>
-    <a href="{{ nav_child.url | relative_url }}">{{ nav_child.title }}</a>{% if nav_child.summary %} - <small>{{ nav_child.summary }}</small>{% endif %}
+    <a href="{{ nav_child.url | relative_url }}">{{ nav_child.title }}</a>{% if nav_alternate_child %} <span class="child-nav-language-link" dir="ltr">(<a href="{{ nav_alternate_child.url | relative_url }}" lang="{{ nav_alternate_code }}" hreflang="{{ nav_alternate_code }}" aria-label="Open the {{ nav_alternate_name }} version of {{ nav_child.title | escape }}" title="{{ nav_alternate_name }} version">{{ nav_alternate_label }}</a>)</span>{% endif %}{% if nav_child.summary %} - <small>{{ nav_child.summary }}</small>{% endif %}
   </li>
+    {%- endunless -%}
   {% endfor %}
 </ul>
 
