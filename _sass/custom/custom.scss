@@ -20,7 +20,7 @@
     unicode-bidi: isolate;
   }
 
-  &[dir="rtl"] {
+  &[dir="rtl"] > main {
     text-align: justify;
     font-family: IRANSans, $body-font-family;
     font-weight: 300;
