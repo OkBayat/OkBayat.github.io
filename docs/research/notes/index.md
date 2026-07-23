@@ -39,7 +39,7 @@ These notes are also collected in [Research Publications](/research/publications
 
 ## Field Notes
 
-{% assign field_notes = site.pages | where: "note_type", "field-note" | sort: "date" | reverse %}
+{% assign field_notes = site.pages | where_exp: "note", "note.categories contains 'field-notes'" | sort: "date" | reverse %}
 {% for note in field_notes %}
 - [{{ note.title }}]({{ note.url }}) — {{ note.description }}
 {% endfor %}
