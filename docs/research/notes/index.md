@@ -35,14 +35,9 @@ These notes are also discoverable in [All Writing](/writing/all) and, when conne
 {% endif %}
 {% endfor %}
 
+- [What Remains When the Course Ends?](/research/notes/what-remains-when-the-course-ends) — A ten-day exploratory observation on whether leadership learning remains available across changing work and life contexts.
+
 These notes are also collected in [Research Publications](/research/publications).
-
-## Field Notes
-
-{% assign field_notes = site.pages | where_exp: "note", "note.categories contains 'field-notes'" | sort: "date" | reverse %}
-{% for note in field_notes %}
-- [{{ note.title }}]({{ note.url }}) — {{ note.description }}
-{% endfor %}
 
 ## Common Note Types
 
