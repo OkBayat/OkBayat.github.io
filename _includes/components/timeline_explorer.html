@@ -20,7 +20,7 @@
     </p>
   </header>
 
-  <section class="timeline-filters-panel" aria-label="Timeline filters">
+  <div class="timeline-filters-panel" aria-label="Timeline filters">
     <div class="timeline-filter-topline">
       <div class="timeline-search-wrap">
         <label class="timeline-sr-only" for="timeline-search">Search the timeline</label>
@@ -78,14 +78,14 @@
         {% endfor %}
       </div>
     </div>
-  </section>
+  </div>
 
   <div class="timeline-results-bar">
     <span data-timeline-result-count aria-live="polite">Loading timeline…</span>
     <button class="timeline-reset-button" type="button" data-timeline-reset>Reset filters</button>
   </div>
 
-  <section class="timeline-list" data-timeline-list aria-label="Research and writing entries">
+  <div class="timeline-list" data-timeline-list aria-label="Research and writing entries">
     {% for work in site.data.publications.works %}
       {% assign body_record = site.data.publications.bodies_of_work[work.primary_body] %}
       {% for edition in work.editions %}
@@ -248,7 +248,7 @@
         </article>
       {% endif %}
     {% endfor %}
-  </section>
+  </div>
 
   <div class="timeline-empty-state" data-timeline-empty hidden>
     No timeline entries match these filters.
