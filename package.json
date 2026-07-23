@@ -17,6 +17,7 @@
     "lint:content": "node scripts/validate_site_integrity.js",
     "lint:css": "stylelint '**/*.scss'",
     "lint:formatting": "prettier --check '**/*.{scss,js,json}'",
+    "lint:javascript": "node --check assets/js/timeline.js",
     "format": "prettier --write '**/*.{scss,js,json}'",
     "test": "npm run lint"
   },
