@@ -37,11 +37,11 @@ I am examining what allows learning, performance, identity, or group coordinatio
   url="/research/current-inquiry"
 %}
 {% include components/evidence_card.html
-  type="Project"
+  type="Company"
   status="Active"
   title="K2Quant"
   question="How can quantitative systems, AI-assisted workflows, and a technical organization be built reliably?"
-  role="Founder and software engineer"
+  role="Founder"
   evidence="Operating software, engineering systems, organizational practice, and published architecture essays"
   limits="Confidential operations and future goals are not presented as public evidence"
   url="/projects/k2quant"
@@ -51,7 +51,7 @@ I am examining what allows learning, performance, identity, or group coordinatio
   status="Active"
   title="Vocora"
   question="How should a learning product distinguish activity, current performance, and durable learning?"
-  role="Independent researcher and builder"
+  role="Founder, builder, and independent researcher"
   evidence="Open-source software, product instrumentation, research notes, and planned delayed measures"
   limits="Current product use does not yet demonstrate long-term learning effectiveness"
   url="/projects/vocora"
