@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Methods, Ethics & Evidence
-parent: Research
+parent: Research & Practice
 nav_order: 3
 direction: ltr
 description: "Standards for evidence, consent, privacy, role conflicts, and research-facing public work on okbayat.com."

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Podcast
-parent: Writing & Media
+parent: Writing
 nav_order: 4
 direction: ltr
 description: "Audio conversations connected to Mohammad Bayat's writing and inquiry into human learning, language, identity, and transformation."

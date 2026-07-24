@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Selected Research-Related Work
-parent: Research
+parent: Research & Practice
 nav_order: 2
 direction: ltr
 lang: en

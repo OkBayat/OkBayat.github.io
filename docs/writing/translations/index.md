@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Translations
-parent: Writing & Media
+parent: Writing
 nav_order: 3
 nav_exclude: false
 direction: ltr

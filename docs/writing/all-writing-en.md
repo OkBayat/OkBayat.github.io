@@ -1,7 +1,7 @@
 ---
 layout: default
 title: All Writing
-parent: Writing & Media
+parent: Writing
 nav_order: 5
 direction: ltr
 lang: en

@@ -21,7 +21,7 @@ As the technical systems and organization grew, questions about communication, r
 
 That path also includes [FamilyLink](/projects/familylink), a long-running social-impact initiative that is now paused, and [Vocora](/projects/vocora), an open-source learning project that turns a bounded set of questions about memory, retrieval, language practice, motivation, and measurement into working software.
 
-Today, these experiences inform an independent [Research](/research) portfolio. The portfolio does not treat professional observation as academic proof. It distinguishes published work, evidence type, uncertainty, and ethical boundaries.
+Today, these experiences inform an independent [Research & Practice](/research) portfolio. The portfolio does not treat professional observation as academic proof. It distinguishes published work, evidence type, uncertainty, and ethical boundaries.
 
 ## Current Work
 

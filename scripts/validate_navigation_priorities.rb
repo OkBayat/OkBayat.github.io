@@ -52,24 +52,23 @@ def footer_html(html, required_class, label)
 end
 
 
-def assert_order(normalized_hrefs, label, expected_urls)
-  positions = expected_urls.map do |url|
-    normalized = normalize_internal_url(url)
-    index = normalized_hrefs.index(normalized)
+def assert_page_links(site_dir, page_url, label, expected_urls)
+  path = generated_page_path(site_dir, page_url)
 
-    unless index
-      warn "#{label}: missing navigation link #{url}"
-      exit 1
-    end
-
-    index
+  unless path
+    warn "Generated #{label} page is missing: #{page_url}"
+    exit 1
   end
 
-  return if positions.each_cons(2).all? { |left, right| left < right }
+  html = path.read(encoding: "UTF-8")
+  expected_urls.each do |url|
+    normalized = normalize_internal_url(url)
+    variants = [normalized, "#{normalized}/"].uniq
+    next if variants.any? { |variant| html.include?(%(href="#{variant}")) }
 
-  warn "#{label}: navigation order is incorrect"
-  expected_urls.zip(positions).each { |url, index| warn "- #{url}: #{index}" }
-  exit 1
+    warn "#{label} is missing discovery link #{url}"
+    exit 1
+  end
 end
 
 
@@ -84,21 +83,45 @@ home_html = home_path.read(encoding: "UTF-8")
 raw_hrefs = navigation_hrefs(home_html)
 normalized_hrefs = raw_hrefs.map { |href| normalize_internal_url(href) }
 
-assert_order(
-  normalized_hrefs,
-  "Primary navigation",
-  %w[/ /about /research /leadership-learning /projects /writing /contact]
-)
+expected_primary_urls = %w[/ /about /work /research /writing /contact]
 
-assert_order(
-  normalized_hrefs,
-  "About navigation",
+unless normalized_hrefs == expected_primary_urls
+  warn "Primary navigation must contain exactly the six durable hubs"
+  warn "Expected: #{expected_primary_urls.join(' | ')}"
+  warn "Actual:   #{normalized_hrefs.join(' | ')}"
+  exit 1
+end
+
+if home_html.match?(/<nav\b[^>]*id=["']site-nav["'][^>]*>.*?\bnav-list-expander\b.*?<\/nav>/mi)
+  warn "Primary navigation must not render child-page expanders"
+  exit 1
+end
+
+assert_page_links(
+  SITE_DIR,
+  "/about",
+  "About",
   %w[/about/biography /about/professional-journey /about/mastery /about/values /about/resume]
 )
 
-assert_order(
-  normalized_hrefs,
-  "Research navigation",
+assert_page_links(
+  SITE_DIR,
+  "/work",
+  "Work",
+  %w[
+    /projects
+    /leadership-learning
+    /projects/k2quant
+    /projects/vocora
+    /leadership-learning/leadership
+    /leadership-learning/learning-facilitation
+  ]
+)
+
+assert_page_links(
+  SITE_DIR,
+  "/research",
+  "Research & Practice",
   %w[
     /research/profile
     /research/publications
@@ -108,44 +131,30 @@ assert_order(
   ]
 )
 
-assert_order(
-  normalized_hrefs,
-  "Leadership & Learning navigation",
+assert_page_links(
+  SITE_DIR,
+  "/writing",
+  "Writing",
   %w[
-    /leadership-learning/perspective
-    /leadership-learning/leadership
-    /leadership-learning/human-transformation
-    /leadership-learning/learning-facilitation
-    /leadership-learning/courses
+    /writing/essays
+    /writing/reading-notes
+    /writing/translations
+    /writing/podcast
+    /writing/all
   ]
 )
 
-assert_order(
-  normalized_hrefs,
-  "Projects navigation",
-  %w[/projects/k2quant /projects/vocora /projects/k2-os /projects/familylink /projects/experiments]
+assert_page_links(
+  SITE_DIR,
+  "/contact",
+  "Contact",
+  %w[/contact/calendar]
 )
 
 experiments_path = generated_page_path(SITE_DIR, "/projects/experiments")
 
 unless experiments_path
   warn "Experiments must remain published and reachable from section pages"
-  exit 1
-end
-
-assert_order(
-  normalized_hrefs,
-  "Writing & Media navigation",
-  %w[/writing/essays /writing/reading-notes /writing/translations /writing/podcast /writing/all]
-)
-
-unless normalized_hrefs.include?("/contact/calendar")
-  warn "Contact navigation is missing Schedule a Meeting"
-  exit 1
-end
-
-unless normalized_hrefs.include?("/writing/podcast/inja-anja")
-  warn "The Inja-Anja series must remain visible below Podcast"
   exit 1
 end
 
@@ -273,7 +282,11 @@ unless javascript_path.file?
 end
 
 javascript = javascript_path.read(encoding: "UTF-8")
-%w[closeSiblingNavBranches syncBackToTopVisibility].each do |marker|
+%w[
+  closeSiblingNavBranches
+  syncBackToTopVisibility
+  primaryNavigationHref
+].each do |marker|
   unless javascript.include?(marker)
     warn "Generated JavaScript is missing mobile-navigation behavior: #{marker}"
     exit 1

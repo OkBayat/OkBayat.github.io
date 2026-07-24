@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Reading Notes
-parent: Writing & Media
+parent: Writing
 nav_order: 2
 nav_exclude: false
 direction: ltr

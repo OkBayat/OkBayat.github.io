@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Research Profile
-parent: Research
+parent: Research & Practice
 nav_order: 1
 direction: ltr
 description: "Mohammad Bayat's practice-based research profile across learning, leadership, language, identity, coordination, and durable change."

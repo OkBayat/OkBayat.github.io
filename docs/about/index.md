@@ -2,6 +2,7 @@
 layout: default
 title: About
 nav_order: 2
+primary_nav: true
 direction: ltr
 description: "Biography, professional journey, approach to mastery, values, and resume for Mohammad Bayat."
 permalink: /about
@@ -17,4 +18,4 @@ This section provides context for the work published on okbayat.com.
 - [Values](/about/values) — principles used to guide decisions and public work
 - [Resume](/about/resume) — selected experience, projects, and practice
 
-For active inquiry, see [Research](/research). For practical work, see [Projects](/projects) and [Leadership & Learning](/leadership-learning). For published work, see [Writing & Media](/writing).
+For practical work, see [Work](/work). For inquiry, evidence, and methods, see [Research & Practice](/research). For published work, see [Writing](/writing).

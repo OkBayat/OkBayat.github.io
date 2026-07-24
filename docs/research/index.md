@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Research
-nav_order: 3
+title: Research & Practice
+nav_order: 4
+primary_nav: true
 direction: ltr
 description: "Mohammad Bayat's research profile, selected research-related work, methods, ethics, evidence standards, notes, reviews, and publication timeline."
 permalink: /research
 ---
 
-# Research
+# Research & Practice
 
 { Selected research-related work, evidence, and methods | fs-6 }
 
@@ -25,4 +26,4 @@ This portfolio does not present professional experience as academic proof. It br
 
 ## Relationship to the Rest of the Site
 
-[Leadership & Learning](/leadership-learning) contains the practice settings from which some questions arise. [Projects](/projects) documents systems and organizations that exist in practice. [Writing & Media](/writing) contains essays, reading notes, translations, and audio work. These sections may inform research, but they are not automatically research outputs.
+[Work](/work) brings together the projects and practice settings from which some questions arise. [Writing](/writing) contains essays, reading notes, translations, and audio work. These sections may inform research, but they are not automatically research outputs.

@@ -32,6 +32,17 @@ unless nav_match
 end
 
 
+def generated_page_path(site_dir, url)
+  normalized = url.to_s.sub(%r{\A/}, "").sub(%r{/\z}, "")
+  candidates = [
+    site_dir.join("#{normalized}.html"),
+    site_dir.join(normalized, "index.html")
+  ]
+
+  candidates.find(&:file?)
+end
+
+
 def normalize_url(url)
   value = url.to_s
   return "/" if value == "/"
@@ -49,13 +60,6 @@ end
 def contains_href?(html, url)
   href_variants(url).any? do |href|
     html.match?(/href=["']#{Regexp.escape(href)}["']/)
-  end
-end
-
-
-def href_count(html, url)
-  href_variants(url).sum do |href|
-    html.scan(/href=["']#{Regexp.escape(href)}["']/).length
   end
 end
 
@@ -84,8 +88,52 @@ publication_urls = works.flat_map do |work|
 end
 
 publication_urls.each do |url|
-  unless contains_href?(nav_html, url)
-    errors << "canonical publication is missing from its sidebar submenu: #{url}"
+  if contains_href?(nav_html, url)
+    errors << "canonical publication must not appear in the global sidebar: #{url}"
+  end
+end
+
+canonical_index_urls = {
+  "essay" => "/writing/essays",
+  "research-note" => "/research/notes",
+  "reading-note" => "/writing/reading-notes",
+  "translation" => "/writing/translations"
+}
+
+index_html_by_type = canonical_index_urls.transform_values do |url|
+  path = generated_page_path(SITE_DIR, url)
+  unless path
+    errors << "generated publication index is missing: #{url}"
+    next ""
+  end
+
+  path.read(encoding: "UTF-8")
+end
+
+all_writing_path = generated_page_path(SITE_DIR, "/writing/all")
+unless all_writing_path
+  errors << "generated All Writing index is missing"
+end
+all_writing_html = all_writing_path&.read(encoding: "UTF-8").to_s
+
+works.each do |work|
+  work_id = work.fetch("id")
+  content_type = work.fetch("content_type")
+  canonical_index_html = index_html_by_type[content_type]
+
+  unless canonical_index_html
+    errors << "unsupported publication content type for #{work_id}: #{content_type}"
+    next
+  end
+
+  work.fetch("editions").each do |edition|
+    url = edition.fetch("url")
+    unless contains_href?(canonical_index_html, url)
+      errors << "canonical publication index is missing #{work_id}: #{url}"
+    end
+    unless contains_href?(all_writing_html, url)
+      errors << "All Writing is missing #{work_id}: #{url}"
+    end
   end
 end
 
@@ -99,16 +147,6 @@ sources_by_permalink = language_paths.each_with_object({}) do |path, index|
   next unless permalink
 
   index[normalize_url(permalink)] = path
-end
-
-# The generated HTML omits optional </li> tags. Splitting at each opening <li>
-# produces one navigation-item fragment without assuming an explicit closing tag.
-nav_items = nav_html.split(/(?=<li\b)/).select do |fragment|
-  fragment.match?(/\A<li\b/)
-end
-
-bilingual_rows = nav_items.select do |fragment|
-  fragment.match?(/\A<li\b[^>]*class=["'][^"']*\bnav-list-item-bilingual\b/)
 end
 
 bilingual_count = 0
@@ -143,32 +181,9 @@ works.each do |work|
   end
 
   bilingual_count += 1
-  english_url = normalize_url(front_matter(english_path).fetch("permalink"))
-  persian_url = normalize_url(front_matter(persian_path).fetch("permalink"))
-  row_html = bilingual_rows.find do |row|
-    contains_href?(row, english_url) && contains_href?(row, persian_url)
-  end
-
-  unless row_html
-    errors << "bilingual work is not rendered as one bilingual navigation row: #{work_id}"
-    next
-  end
-
-  unless href_variants(persian_url).any? { |href| row_html.match?(/href=["']#{Regexp.escape(href)}["'][^>]*class=["'][^"']*\bnav-list-language-link\b/) }
-    errors << "bilingual work is missing its Persian language switch: #{work_id}"
-  end
-
-  unless row_html.match?(/>\s*FA\s*<\/a>/)
-    errors << "bilingual work Persian switch must be labelled FA: #{work_id}"
-  end
-
-  persian_count = href_count(nav_html, persian_url)
-  unless persian_count == 1
-    errors << "bilingual work must expose the Persian URL exactly once in navigation, found #{persian_count}: #{work_id}"
-  end
 end
 
-required_hubs = %w[
+secondary_hubs = %w[
   /writing/essays
   /research/notes
   /writing/reading-notes
@@ -178,14 +193,14 @@ required_hubs = %w[
   /research/publications
 ]
 
-required_hubs.each do |url|
-  unless contains_href?(nav_html, url)
-    errors << "required publication hub is missing from the global sidebar: #{url}"
+secondary_hubs.each do |url|
+  if contains_href?(nav_html, url)
+    errors << "secondary publication hub must not appear in the global sidebar: #{url}"
   end
 end
 
 if errors.empty?
-  puts "Publication navigation validation passed: #{publication_urls.length} canonical editions visible, #{bilingual_count} filename-paired bilingual works grouped, #{required_hubs.length} hubs visible"
+  puts "Publication discovery validation passed: #{publication_urls.length} canonical editions absent from the sidebar and present in canonical indexes, #{bilingual_count} filename-paired bilingual works, #{secondary_hubs.length} secondary hubs hidden"
   exit 0
 end
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Timeline
-parent: Research
+parent: Research & Practice
 nav_order: 5
 direction: ltr
 lang: en

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Essays
-parent: Writing & Media
+parent: Writing
 nav_order: 1
 nav_exclude: false
 direction: ltr

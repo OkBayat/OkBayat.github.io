@@ -2,6 +2,7 @@
 title: Home
 layout: home
 nav_order: 1
+primary_nav: true
 description: "Mohammad Bayat is a founder, software engineer, and leadership facilitator whose practice-based inquiry focuses on human learning, reflective practice, leadership, and durable change."
 permalink: /
 ---
@@ -59,10 +60,9 @@ OkBayat.com is a research and practice portfolio: a selected record of the syste
 ## Explore the Portfolio
 
 - [About](/about) — biography, professional journey, mastery, values, and resume.
-- [Research](/research) — profile, selected research-related work, methods, notes, and timeline.
-- [Leadership & Learning](/leadership-learning) — leadership, human transformation, facilitation, coaching, programs, and courses.
-- [Projects](/projects) — K2Quant, Vocora, K2 OS, FamilyLink, and documented experiments.
-- [Writing & Media](/writing) — essays, reading notes, translations, podcast, and the complete writing index.
+- [Work](/work) — companies, software, leadership practice, facilitation, programs, and documented projects.
+- [Research & Practice](/research) — inquiry profile, selected research-related work, methods, notes, and timeline.
+- [Writing](/writing) — essays, reading notes, translations, podcast, and the complete writing index.
 - [Contact](/contact) — professional, research, project, or speaking inquiries.
 
 ## Publication Standard

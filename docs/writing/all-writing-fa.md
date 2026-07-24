@@ -1,7 +1,7 @@
 ---
 layout: default
 title: همه‌ی نوشته‌ها
-parent: Writing & Media
+parent: Writing
 nav_order: 5
 direction: rtl
 lang: fa

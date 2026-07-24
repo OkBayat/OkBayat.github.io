@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Research Notes
-parent: Research
+parent: Research & Practice
 nav_order: 4
 nav_exclude: false
 direction: ltr

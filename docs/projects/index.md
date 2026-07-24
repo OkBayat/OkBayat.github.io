@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Projects
-nav_order: 5
+parent: Work
+nav_order: 1
 direction: ltr
 description: "K2Quant, Vocora, K2 OS, FamilyLink, and other systems or initiatives built and documented by Mohammad Bayat."
 permalink: /projects

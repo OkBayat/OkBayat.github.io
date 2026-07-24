@@ -15,10 +15,8 @@ defaults:
     values:
       layout: "default"
 
-  # Keep detailed legacy material accessible through its section hub and search
-  # without allowing every course, concept, cohort, or source page to crowd the
-  # global sidebar. Section index pages explicitly opt back in with
-  # `nav_exclude: false`.
+  # Keep detailed course material accessible through its section hub and search.
+  # The global sidebar is controlled separately by `primary_nav`.
   - scope:
       path: "docs/leadership-learning/courses"
       type: "pages"

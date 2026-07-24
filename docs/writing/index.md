@@ -1,15 +1,16 @@
 ---
 layout: default
-title: Writing & Media
-nav_order: 6
+title: Writing
+nav_order: 5
+primary_nav: true
 direction: ltr
 description: "Original essays, source-specific reading notes, attributed translations, podcast episodes, and a complete writing index."
 permalink: /writing
 ---
 
-# Writing & Media
+# Writing
 
-This section contains original essays, source-specific reading notes, attributed translations, audio work, and a complete publication index. Research Notes have their own canonical home under [Research](/research), but remain discoverable from the all-writing index.
+This section contains original essays, source-specific reading notes, attributed translations, audio work, and a complete publication index. Research Notes have their own canonical home under [Research & Practice](/research), but remain discoverable from the all-writing index.
 
 ## How the Writing Is Organized
 

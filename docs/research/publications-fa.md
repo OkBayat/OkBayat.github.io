@@ -1,7 +1,7 @@
 ---
 layout: default
 title: آثار برگزیده‌ی مرتبط با پژوهش
-parent: Research
+parent: Research & Practice
 nav_order: 2
 direction: rtl
 lang: fa
