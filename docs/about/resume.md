@@ -12,9 +12,9 @@ permalink: /about/resume
 # Mohammad Bayat
 {: .no_toc }
 
-Founder, software engineer, leadership facilitator, and independent researcher with more than 15 years of experience building web, market, and quantitative software systems.
+Founder, Software Engineer, and Leadership Facilitator with more than 15 years of experience building web, market, and quantitative software systems.
 
-My current work is centered on [K2Quant](/projects/k2quant) and an independent inquiry into [Human Transformation](/leadership-learning/human-transformation), including [Learning Circle](/leadership-learning/human-transformation/field-projects/learning-circle), facilitated programs, leadership and organizational practice, and [Vocora](/projects/vocora). My longer project history also includes [FamilyLink](/projects/familylink), a family-support initiative that is currently paused.
+My practice-based inquiry focuses on human learning, reflective practice, leadership, and durable change. My current work is centered on [K2Quant](/projects/k2quant) and [Human Transformation](/leadership-learning/human-transformation), including [Learning Circle](/leadership-learning/human-transformation/field-projects/learning-circle), facilitated programs, leadership and organizational practice, and [Vocora](/projects/vocora). My longer project history also includes [FamilyLink](/projects/familylink), a family-support initiative that is currently paused.
 
 <details open markdown="block">
   <summary>Table of contents</summary>
@@ -25,14 +25,14 @@ My current work is centered on [K2Quant](/projects/k2quant) and an independent i
 
 ---
 
-## Selected Independent Research and Projects
+## Selected Practice-Based Inquiry and Projects
 {: .no_toc }
 
 ### Human Transformation
 
-#### Independent Researcher and Practitioner
+#### Practice-Based Inquiry
 
-An independent, practice-based inquiry into human learning, language, identity, context, performance, leadership, group coordination, and durable change.
+An inquiry grounded in practice and concerned with human learning, language, identity, context, performance, leadership, group coordination, and durable change.
 
 Selected work includes:
 
@@ -97,9 +97,9 @@ FamilyLink was a family-support and social-impact initiative intended to reduce 
 
 ### Vocora
 
-#### Independent Researcher and Builder
+#### Founder and Builder
 
-Vocora is an independent research-and-building project about learning, memory, language practice, motivation, and learning technology.
+Vocora is a research-and-building project about learning, memory, language practice, motivation, and learning technology.
 
 Current work includes:
 
@@ -110,7 +110,7 @@ Current work includes:
 - reviewing relevant work in retrieval practice, spaced practice, motivation, and language learning;
 - publishing assumptions, limitations, and research and design notes.
 
-Vocora is not presented as an academic affiliation, clinical project, or validated neuroscience intervention. Its current output is software and independent research documentation.
+Vocora is not presented as an academic affiliation, clinical project, or validated neuroscience intervention. Its current output is software and practice-based research documentation.
 
 [Project overview](/projects/vocora) · [Source code](https://github.com/OkBayat/vocora)
 

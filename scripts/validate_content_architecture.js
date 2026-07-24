@@ -93,15 +93,40 @@ const pages = pageFiles.map(parsePage).filter(Boolean)
 const pagesByFile = new Map(pages.map((page) => [page.file, page]))
 const titles = new Set(pages.map((page) => page.data.title).filter(Boolean))
 const permalinks = new Map()
+const PRACTITIONER_RESEARCHER_PAGE = "docs/research/research-profile.md"
+const PROFESSIONAL_IDENTITY_PAGES = new Set([
+  "index.md",
+  "docs/about/biography/biography.md",
+  "docs/about/resume.md",
+  "docs/research/index.md",
+  PRACTITIONER_RESEARCHER_PAGE,
+])
 
 for (const page of pages) {
   const { data, file, body } = page
+  const publicCopy = `${JSON.stringify(data)}\n${body}`
 
   if (data.grand_parent !== undefined) {
     errors.add(`${file}: grand_parent is forbidden`)
   }
   if (data.has_children !== undefined) {
     errors.add(`${file}: has_children is forbidden`)
+  }
+  if (
+    PROFESSIONAL_IDENTITY_PAGES.has(file) &&
+    /\bindependent[ -]researcher\b/i.test(publicCopy)
+  ) {
+    errors.add(
+      `${file}: Independent Researcher must not be used as a public identity`
+    )
+  }
+  if (
+    /\bpractitioner[ -]researcher\b/i.test(publicCopy) &&
+    file !== PRACTITIONER_RESEARCHER_PAGE
+  ) {
+    errors.add(
+      `${file}: practitioner-researcher is reserved for the Research Profile`
+    )
   }
   if (data.parent && !titles.has(data.parent)) {
     errors.add(
