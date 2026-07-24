@@ -414,121 +414,449 @@
   margin: $sp-4 auto $sp-5;
 }
 
-.evidence-card-grid {
+.home-showcase {
+  --home-card-radius: 14px;
+  --home-section-space: clamp(3.5rem, 8vw, 6.5rem);
+}
+
+.home-showcase > .home-section,
+.home-closing {
+  margin-top: var(--home-section-space);
+}
+
+.home-hero {
+  position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: $sp-4;
-  margin: $sp-5 0;
-}
-
-.evidence-card {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  padding: $sp-3 $sp-4;
-  background: $body-background-color;
-  border: $border $border-color;
-  border-radius: 8px;
-  box-shadow: 0 0.25rem 1rem rgba($body-heading-color, 0.05);
-}
-
-.evidence-card-heading {
-  display: flex;
-  gap: $sp-2;
+  gap: $sp-6;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: $sp-2;
+  padding: clamp(1.5rem, 5vw, 3.5rem);
+  overflow: hidden;
+  background:
+    linear-gradient(135deg, rgba($link-color, 0.1), transparent 58%),
+    $body-background-color;
+  border: $border $border-color;
+  border-radius: var(--home-card-radius);
+  box-shadow: 0 1rem 3rem rgba($body-heading-color, 0.06);
+
+  &::before {
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 0.25rem;
+    content: "";
+    background: $link-color;
+  }
 }
 
-.evidence-card-type,
-.evidence-card-status {
-  margin: 0;
+.home-hero-copy,
+.home-section-heading > *,
+.home-writing-copy {
+  min-width: 0;
+}
+
+.home-hero-copy {
+  grid-row: 2;
+}
+
+.home-eyebrow,
+.home-card-label {
+  color: $link-color;
   font-size: 0.6875rem;
   font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 0.04em;
+  line-height: 1.4;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
 }
 
-.evidence-card-type {
-  color: $body-text-color;
-}
-
-.evidence-card-status {
-  padding: 0.25rem 0.5rem;
-  color: $link-color;
-  background: $feedback-color;
-  border-radius: 999px;
-}
-
-.evidence-card-title {
-  margin-top: 0;
-  margin-bottom: $sp-2;
-  font-size: 1.125rem !important;
-  line-height: 1.35;
-}
-
-.evidence-card-question {
-  margin-top: 0;
-  margin-bottom: $sp-3;
-  color: $body-heading-color;
-  font-size: 0.9375rem;
-  font-weight: 500;
-  line-height: 1.45;
-}
-
-.main-content .evidence-card-details {
-  display: grid;
-  grid-template: auto / minmax(0, 1fr);
+.home-eyebrow {
   margin: 0 0 $sp-3;
+}
 
-  div {
-    display: grid;
-    grid-template-columns: 4.25rem minmax(0, 1fr);
-    gap: $sp-2;
-    align-items: start;
-    padding: 0.5rem 0;
-    border-top: $border $border-color;
+.main-content .home-hero-title {
+  max-width: 12ch;
+  margin: 0;
+  font-size: clamp(2.35rem, 8vw, 4.75rem);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+}
+
+.home-hero-role {
+  max-width: 32rem;
+  margin: $sp-4 0 0;
+  color: $body-heading-color;
+  font-size: clamp(1.05rem, 2.5vw, 1.35rem);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.home-hero-intro {
+  max-width: 40rem;
+  margin: $sp-5 0 0;
+  color: $body-heading-color;
+  font-size: clamp(1.05rem, 2.2vw, 1.25rem);
+  line-height: 1.65;
+}
+
+.home-hero-summary {
+  max-width: 39rem;
+  margin: $sp-3 0 0;
+  line-height: 1.65;
+}
+
+.home-hero-links,
+.home-closing-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $sp-2;
+  align-items: center;
+}
+
+.home-hero-links {
+  margin-top: $sp-6;
+}
+
+.home-button {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1rem;
+  color: $body-heading-color;
+  font-size: 0.875rem;
+  font-weight: 650;
+  line-height: 1;
+  text-decoration: none;
+  background: $body-background-color;
+  border: $border $border-color;
+  border-radius: 999px;
+  transition:
+    color 160ms ease,
+    background-color 160ms ease,
+    border-color 160ms ease,
+    transform 160ms ease;
+
+  &:hover {
+    color: $link-color;
+    text-decoration: none;
+    border-color: $link-color;
+    transform: translateY(-1px);
   }
 
-  dt {
-    margin: 0.125rem 0 0;
-    font-size: 0.6875rem;
-    font-weight: 700;
-    line-height: 1.4;
-    letter-spacing: 0.04em;
-    text-align: left;
-    text-transform: uppercase;
+  &:focus-visible {
+    outline: 2px solid $link-color;
+    outline-offset: 3px;
+  }
+}
 
-    &::after {
-      content: none;
+.home-button-primary {
+  color: $white;
+  background: $link-color;
+  border-color: $link-color;
+
+  &:hover {
+    color: $white;
+    background: darken($link-color, 8%);
+  }
+}
+
+.home-hero-portrait {
+  position: relative;
+  z-index: 1;
+  grid-row: 1;
+  justify-self: center;
+}
+
+.home-hero .profile-photo-link-home {
+  float: none;
+  width: clamp(8.5rem, 34vw, 11.5rem);
+  margin: 0;
+  background: $body-background-color;
+  border: 0.4rem solid $body-background-color;
+  box-shadow: 0 1rem 2.5rem rgba($body-heading-color, 0.14);
+}
+
+.home-section-heading {
+  max-width: 42rem;
+  margin-bottom: $sp-7;
+
+  h2 {
+    margin: 0;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+  }
+
+  p:last-child {
+    margin: $sp-4 0 0;
+    font-size: 1.05rem;
+    line-height: 1.65;
+  }
+}
+
+.home-section-heading-split {
+  display: flex;
+  max-width: none;
+  flex-direction: column;
+  gap: $sp-4;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.home-section-link {
+  flex: 0 0 auto;
+  font-size: 0.9375rem;
+  font-weight: 650;
+  text-underline-offset: 0.2em;
+}
+
+.home-axis-grid,
+.home-work-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: $sp-4;
+}
+
+.home-axis-card {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  min-height: 18rem;
+  flex-direction: column;
+  padding: clamp(1.25rem, 4vw, 2rem);
+  color: $body-text-color;
+  text-decoration: none;
+  background: $body-background-color;
+  border: $border $border-color;
+  border-radius: var(--home-card-radius);
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    transform 180ms ease;
+
+  h3 {
+    max-width: 15ch;
+    margin: $sp-8 0 $sp-4;
+    color: $body-heading-color;
+    font-size: clamp(1.35rem, 3vw, 1.7rem) !important;
+    line-height: 1.2;
+  }
+
+  p {
+    margin: 0 0 $sp-5;
+    line-height: 1.6;
+  }
+
+  &:hover {
+    color: $body-text-color;
+    text-decoration: none;
+    border-color: $link-color;
+    box-shadow: 0 0.75rem 2rem rgba($body-heading-color, 0.08);
+    transform: translateY(-3px);
+  }
+
+  &:focus-visible {
+    outline: 2px solid $link-color;
+    outline-offset: 3px;
+  }
+}
+
+.home-axis-number {
+  position: absolute;
+  top: $sp-5;
+  right: $sp-5;
+  color: rgba($body-heading-color, 0.28);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.home-card-link {
+  display: inline-block;
+  margin-top: auto;
+  color: $link-color;
+  font-size: 0.9375rem;
+  font-weight: 650;
+  text-underline-offset: 0.2em;
+}
+
+.home-work-card {
+  display: flex;
+  min-width: 0;
+  min-height: 16rem;
+  flex-direction: column;
+  padding: clamp(1.25rem, 3vw, 1.75rem);
+  background:
+    linear-gradient(180deg, rgba($link-color, 0.045), transparent 40%),
+    $body-background-color;
+  border: $border $border-color;
+  border-radius: var(--home-card-radius);
+
+  h3 {
+    margin: $sp-3 0;
+    font-size: 1.35rem !important;
+    line-height: 1.25;
+  }
+
+  > p:not(.home-card-label) {
+    margin: 0 0 $sp-5;
+    line-height: 1.6;
+  }
+}
+
+.home-card-label {
+  display: block;
+  margin: 0;
+}
+
+.home-writing-list {
+  border-bottom: $border $border-color;
+}
+
+.home-writing-card {
+  display: grid;
+  grid-template-columns: 2.5rem minmax(0, 1fr) auto;
+  gap: $sp-4;
+  align-items: center;
+  padding: clamp(1.25rem, 3vw, 2rem) 0;
+  color: $body-text-color;
+  text-decoration: none;
+  border-top: $border $border-color;
+  transition:
+    color 160ms ease,
+    padding 180ms ease;
+
+  &:hover {
+    color: $body-text-color;
+    text-decoration: none;
+    padding-right: $sp-3;
+    padding-left: $sp-3;
+
+    .home-writing-title,
+    .home-writing-arrow {
+      color: $link-color;
     }
   }
 
-  dd {
-    min-width: 0;
-    margin: 0;
-    font-size: 0.9375rem;
-    line-height: 1.45;
-    overflow-wrap: break-word;
+  &:focus-visible {
+    outline: 2px solid $link-color;
+    outline-offset: 4px;
   }
 }
 
-.evidence-card-link {
-  margin-top: auto;
-  font-size: 0.9375rem;
-  font-weight: 600;
+.home-writing-index {
+  align-self: start;
+  color: rgba($body-heading-color, 0.38);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.home-writing-title {
+  display: block;
+  margin-top: $sp-2;
+  color: $body-heading-color;
+  font-size: clamp(1.15rem, 2.5vw, 1.45rem);
+  font-weight: 650;
+  line-height: 1.35;
+  transition: color 160ms ease;
+}
+
+.home-writing-summary {
+  display: block;
+  max-width: 42rem;
+  margin-top: $sp-2;
+  line-height: 1.55;
+}
+
+.home-writing-arrow {
+  color: $body-heading-color;
+  font-size: 1.25rem;
+  transition: color 160ms ease;
+}
+
+.home-closing {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: $sp-6;
+  align-items: center;
+  padding: clamp(1.5rem, 5vw, 3rem);
+  background: rgba($link-color, 0.07);
+  border: $border $border-color;
+  border-radius: var(--home-card-radius);
+
+  h2 {
+    margin: 0;
+    font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+    line-height: 1.2;
+  }
+
+  p:last-child {
+    max-width: 39rem;
+    margin: $sp-3 0 0;
+    line-height: 1.6;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-button,
+  .home-axis-card,
+  .home-writing-card,
+  .home-writing-title,
+  .home-writing-arrow {
+    transition: none;
+  }
+
+  .home-button:hover,
+  .home-axis-card:hover {
+    transform: none;
+  }
+
+  .home-writing-card:hover {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 31.25rem) {
+  .home-writing-card {
+    grid-template-columns: 2rem minmax(0, 1fr);
+  }
+
+  .home-writing-arrow {
+    display: none;
+  }
 }
 
 @include mq(md) {
-  .evidence-card-grid {
+  .home-hero {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .home-hero-copy,
+  .home-hero-portrait {
+    grid-row: auto;
+  }
+
+  .home-hero-portrait {
+    justify-self: end;
+  }
+
+  .home-axis-grid,
+  .home-work-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .profile-photo-link-home {
-    float: right;
-    width: 9rem;
-    margin: 0 0 $sp-4 $sp-5;
+  .home-section-heading-split {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .home-closing {
+    grid-template-columns: minmax(0, 1.35fr) minmax(16rem, auto);
+  }
+
+  .home-closing-links {
+    justify-content: flex-end;
   }
 
   .profile-photo-biography {

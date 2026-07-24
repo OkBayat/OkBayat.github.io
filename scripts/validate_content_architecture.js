@@ -303,6 +303,41 @@ for (const file of languageFiles) {
   }
 }
 
+const homepage = pagesByFile.get("index.md")
+if (homepage) {
+  const requiredHomepageRoutes = [
+    "/about/biography",
+    "/about/resume",
+    "/contact",
+    "/work/projects",
+    "/work/leadership-learning/human-transformation",
+    "/writing",
+  ]
+
+  for (const route of requiredHomepageRoutes) {
+    if (!extractInternalRoutes(homepage.body).includes(route)) {
+      errors.add(`index.md: professional showcase is missing ${route}`)
+    }
+  }
+
+  for (const requiredSection of ["selected-work", "selected-writing"]) {
+    if (!homepage.body.includes(`id="${requiredSection}"`)) {
+      errors.add(
+        `index.md: professional showcase is missing #${requiredSection}`
+      )
+    }
+  }
+
+  if (
+    /evidence_card|class=["'][^"']*evidence-card/i.test(homepage.body) ||
+    /<(?:dt|span|p)[^>]*>\s*(?:Evidence|Limits)\s*</i.test(homepage.body)
+  ) {
+    errors.add(
+      "index.md: Evidence and Limits belong on detail pages, not homepage cards"
+    )
+  }
+}
+
 const footer = fs.readFileSync(
   path.join(ROOT, "_includes/footer_custom.html"),
   "utf8"
