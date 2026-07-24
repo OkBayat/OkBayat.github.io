@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership-learning/courses/1st-coaching
+permalink: /work/leadership-learning/courses/1st-coaching
 nav_order: 60
 parent: Courses
 title: دوره‌ی اول کوچینگ

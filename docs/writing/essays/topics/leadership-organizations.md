@@ -18,4 +18,4 @@ This topic collects original arguments about leadership, identity, coordination,
 {% endif %}
 {% endfor %}
 
-Programs and practice records remain under [Leadership & Learning](/leadership-learning).
+Programs and practice records remain discoverable through [Work](/work).

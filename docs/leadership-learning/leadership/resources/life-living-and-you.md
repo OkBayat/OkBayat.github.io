@@ -3,7 +3,7 @@ layout: default
 title: زندگی، زندگی کردن و شما
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/life-living-and-you
+permalink: /work/leadership-learning/leadership/resources/life-living-and-you
 ---
 
 # زندگی، زندگی کردن و شما

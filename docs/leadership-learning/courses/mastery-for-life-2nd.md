@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership-learning/courses/2nd-mastery-for-life
+permalink: /work/leadership-learning/courses/2nd-mastery-for-life
 nav_order: 49
 parent: Courses
 title: دوره‌ی دوم چیرگی بر زندگی

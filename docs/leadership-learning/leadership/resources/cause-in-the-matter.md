@@ -3,7 +3,7 @@ layout: default
 title: منشأ بودن
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/cause-in-the-matter
+permalink: /work/leadership-learning/leadership/resources/cause-in-the-matter
 ---
 
 # منشأ بودن

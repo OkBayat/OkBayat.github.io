@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership-learning/courses/1st-performance
+permalink: /work/leadership-learning/courses/1st-performance
 nav_order: 30
 parent: Courses
 title: دوره‌ی اول مدل جدید عملکرد

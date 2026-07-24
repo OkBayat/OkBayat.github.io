@@ -4,7 +4,7 @@ title: قوانین شرکت در دوره
 parent: Courses
 direction: rtl
 nav_order: 99
-permalink: /leadership-learning/courses/code-of-discipline
+permalink: /work/leadership-learning/courses/code-of-discipline
 ---
 
 # قوانین شرکت در دوره

@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership-learning/courses/2nd-leadership
+permalink: /work/leadership-learning/courses/2nd-leadership
 nav_order: 9
 parent: Courses
 title: دوره‌ی دوم راهبری

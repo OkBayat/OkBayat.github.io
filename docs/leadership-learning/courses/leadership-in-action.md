@@ -4,7 +4,7 @@ title: سطح-اول راهبری در عمل
 parent: Courses
 direction: rtl
 nav_order: 4
-permalink: /leadership-learning/courses/leadership-learning/leadership-in-action
+permalink: /work/leadership-learning/courses/leadership-learning/leadership-in-action
 ---
 
 # آشنایی کامل با سطح-اول در برنامه راهبری-در-عمل (Leadership in Action)

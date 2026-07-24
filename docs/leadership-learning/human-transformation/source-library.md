@@ -5,7 +5,7 @@ parent: Human Transformation
 nav_order: 6
 direction: ltr
 description: "A map of source material, translations, concept notes, and intellectual lineages related to human transformation."
-permalink: /leadership-learning/human-transformation/source-library
+permalink: /work/leadership-learning/human-transformation/source-library
 ---
 
 # Source Library
@@ -14,7 +14,7 @@ The Source Library maps material that influences the inquiry into human learning
 
 ## Leadership and Ontological Sources
 
-The existing [Leadership Resources](/leadership-learning/leadership/resources) section includes source documents, translations, and concept pages concerning worldview, context, integrity, authenticity, responsibility, identity, performance, and ontological or phenomenological approaches to leadership.
+The existing [Leadership Resources](/work/leadership-learning/leadership/resources) section includes source documents, translations, and concept pages concerning worldview, context, integrity, authenticity, responsibility, identity, performance, and ontological or phenomenological approaches to leadership.
 
 These pages should identify:
 
@@ -35,7 +35,7 @@ These pages should identify:
 
 ## Research Notes
 
-[Research Notes](/research/notes) is the canonical home for evidence reviews, literature notes, concept investigations, field notes, and design questions.
+[Research Notes](/research-practice/notes) is the canonical home for evidence reviews, literature notes, concept investigations, field notes, and design questions.
 
 ## Evidence Preference
 

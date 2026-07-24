@@ -3,7 +3,7 @@ layout: default
 title: اقدام
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/taking-action
+permalink: /work/leadership-learning/leadership/resources/taking-action
 ---
 
 # اقدام

@@ -3,7 +3,7 @@ layout: default
 title: ناسازگاری شناختی
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/cognitive-dissonance
+permalink: /work/leadership-learning/leadership/resources/cognitive-dissonance
 ---
 
 # ناسازگاری شناختی

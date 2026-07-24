@@ -29,7 +29,7 @@ tags:
   - یادگیری خودتنظیم
   - هدف‌گذاری
 sitemap: true
-permalink: /research/notes/commitment-context-learning-fa
+permalink: /research-practice/notes/commitment-context-learning-fa
 ---
 
 # یادگیرنده واقعاً به چه چیزی متعهد است؟ تعهد به‌مثابه بافتار یادگیری

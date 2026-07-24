@@ -18,4 +18,4 @@ This topic collects original arguments about learning, relationships, identity, 
 {% endif %}
 {% endfor %}
 
-Research questions and developing evidence remain under [Research](/research); programs and practice settings remain under [Leadership & Learning](/leadership-learning).
+Research questions and developing evidence remain under [Research & Practice](/research-practice); programs and practice settings remain discoverable through [Work](/work).

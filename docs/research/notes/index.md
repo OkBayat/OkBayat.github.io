@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Research Notes
-parent: Research
+parent: Research & Practice
 nav_order: 4
 nav_exclude: false
 direction: ltr
 description: "Working investigations, evidence reviews, field observations, and design decisions grouped by their primary body of work."
-permalink: /research/notes
+permalink: /research-practice/notes
 ---
 
 # Research Notes & Reviews
@@ -25,7 +25,7 @@ Each note remains canonical here because **Research Note** describes its epistem
 {% endif %}
 {% endfor %}
 
-These notes are also discoverable in [All Writing](/writing/all) and, when connected to the project, [Vocora Publications & Notes](/projects/vocora/publications).
+These notes are also discoverable in [All Writing](/writing/all) and, when connected to the project, [Vocora Publications & Notes](/work/projects/vocora/publications).
 
 ## Human Learning, Leadership & Transformation
 
@@ -35,10 +35,10 @@ These notes are also discoverable in [All Writing](/writing/all) and, when conne
 {% endif %}
 {% endfor %}
 
-- [Can the Learner Carry the Context?](/research/notes/can-the-learner-carry-the-context) — A reading and inquiry note on reflective practice, double-loop learning, coaching, and learning that remains available across changing contexts.
-- [What Remains When the Course Ends?](/research/notes/what-remains-when-the-course-ends) — A ten-day exploratory observation on whether leadership learning remains available across changing work and life contexts.
+- [Can the Learner Carry the Context?](/research-practice/notes/can-the-learner-carry-the-context) — A reading and inquiry note on reflective practice, double-loop learning, coaching, and learning that remains available across changing contexts.
+- [What Remains When the Course Ends?](/research-practice/notes/what-remains-when-the-course-ends) — A ten-day exploratory observation on whether leadership learning remains available across changing work and life contexts.
 
-These notes are also collected in [Selected Research-Related Work](/research/publications).
+These notes are also collected in [Selected Research-Related Work](/research-practice/publications).
 
 ## Common Note Types
 

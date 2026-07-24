@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Contact
-nav_order: 7
+nav_order: 6
+primary_nav: true
 direction: ltr
 description: "Public contact, profile, and scheduling information for Mohammad Bayat."
 permalink: /contact

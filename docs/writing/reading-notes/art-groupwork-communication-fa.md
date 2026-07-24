@@ -18,7 +18,7 @@ note_type: reading-note
 evidence_level: published-source-with-author-interpretation
 seo:
   type: Article
-permalink: /research/notes/art-groupwork-communication
+permalink: /research-practice/notes/art-groupwork-communication
 categories:
   - writing
   - reading-notes

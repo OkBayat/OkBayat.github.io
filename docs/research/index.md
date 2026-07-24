@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Research
-nav_order: 3
+title: Research & Practice
+nav_order: 4
+primary_nav: true
 direction: ltr
 description: "Mohammad Bayat's research profile, selected research-related work, methods, ethics, evidence standards, notes, reviews, and publication timeline."
-permalink: /research
+permalink: /research-practice
 ---
 
-# Research
+# Research & Practice
 
 { Selected research-related work, evidence, and methods | fs-6 }
 
@@ -17,12 +18,12 @@ This portfolio does not present professional experience as academic proof. It br
 
 ## Start Here
 
-- [Research Profile](/research/profile) explains the experience, position, and enduring interests that shape my practice-based inquiry.
-- [Selected Research-Related Work](/research/publications) presents published and documented work with clear evidence boundaries.
-- [Methods, Ethics & Evidence](/research/methods-ethics-evidence) states how I distinguish observation, self-report, interpretation, and research evidence.
-- [Research Notes & Reviews](/research/notes) contains investigations, field notes, evidence reviews, and design questions.
-- [Timeline](/research/timeline) is a chronological archive of published essays, notes, reviews, and translations.
+- [Research Profile](/research-practice/profile) explains the experience, position, and enduring interests that shape my practice-based inquiry.
+- [Selected Research-Related Work](/research-practice/publications) presents published and documented work with clear evidence boundaries.
+- [Methods, Ethics & Evidence](/research-practice/methods-ethics-evidence) states how I distinguish observation, self-report, interpretation, and research evidence.
+- [Research Notes & Reviews](/research-practice/notes) contains investigations, field notes, evidence reviews, and design questions.
+- [Timeline](/research-practice/timeline) is a chronological archive of published essays, notes, reviews, and translations.
 
 ## Relationship to the Rest of the Site
 
-[Leadership & Learning](/leadership-learning) contains the practice settings from which some questions arise. [Projects](/projects) documents systems and organizations that exist in practice. [Writing & Media](/writing) contains essays, reading notes, translations, and audio work. These sections may inform research, but they are not automatically research outputs.
+[Work](/work) brings together the projects and practice settings from which some questions arise. [Writing](/writing) contains essays, reading notes, translations, and audio work. These sections may inform research, but they are not automatically research outputs.

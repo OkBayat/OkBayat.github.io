@@ -3,7 +3,7 @@ layout: default
 title: جهان‌بینی
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/world-view
+permalink: /work/leadership-learning/leadership/resources/world-view
 ---
 
 # جهان‌بینی (مدل ما از واقعیت)

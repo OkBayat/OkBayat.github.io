@@ -6,7 +6,7 @@ nav_order: 3
 direction: ltr
 description: "An independent inquiry into learning, language, identity, context, performance, leadership, and durable human change."
 last_modified_date: 2026-07-22
-permalink: /leadership-learning/human-transformation
+permalink: /work/leadership-learning/human-transformation
 ---
 
 # Human Transformation
@@ -15,7 +15,7 @@ permalink: /leadership-learning/human-transformation
 
 I do not begin with the assumption that I already know how a person becomes permanently transformed. This section records the questions, sources, field projects, programs, observations, and revisions through which I am trying to understand the problem more carefully.
 
-The inquiry includes learning and memory, language, identity, worldview, context, performance, leadership, group coordination, and quality of life. Some material comes from cognitive and learning science, philosophy, and organizational research. Other material comes from building companies, facilitating groups, coaching, working with children, and developing software such as [Vocora](/projects/vocora).
+The inquiry includes learning and memory, language, identity, worldview, context, performance, leadership, group coordination, and quality of life. Some material comes from cognitive and learning science, philosophy, and organizational research. Other material comes from building companies, facilitating groups, coaching, working with children, and developing software such as [Vocora](/work/projects/vocora).
 
 ## Boundaries
 
@@ -36,4 +36,4 @@ A field observation, participant account, conceptual model, and controlled resul
 
 The aim is not to make every page sound final. The aim is to ask clearer questions, document what actually happened, seek relevant evidence, identify alternative explanations, protect the people involved, and revise conclusions when the work changes.
 
-[Explore selected research-related work](/research/publications) · [Read Methods, Ethics & Evidence](/research/methods-ethics-evidence)
+[Explore selected research-related work](/research-practice/publications) · [Read Methods, Ethics & Evidence](/research-practice/methods-ethics-evidence)

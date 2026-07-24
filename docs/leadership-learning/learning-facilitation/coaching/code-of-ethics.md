@@ -4,7 +4,7 @@ title: اصول اخلاقی
 parent: Coaching
 nav_order: 3
 direction: rtl
-permalink: /leadership-learning/learning-facilitation/coaching/code-of-ethics
+permalink: /work/leadership-learning/learning-facilitation/coaching/code-of-ethics
 ---
 
 # اصول اخلاقی

@@ -43,6 +43,37 @@ function closeSiblingNavBranches(navItem) {
   }
 }
 
+function primaryNavigationHref(pathname) {
+  if (pathname === "/") {
+    return "/"
+  }
+
+  if (pathname === "/about" || pathname.indexOf("/about/") === 0) {
+    return "/about"
+  }
+
+  if (pathname === "/work" || pathname.indexOf("/work/") === 0) {
+    return "/work"
+  }
+
+  if (
+    pathname === "/research-practice" ||
+    pathname.indexOf("/research-practice/") === 0
+  ) {
+    return "/research-practice"
+  }
+
+  if (pathname === "/writing" || pathname.indexOf("/writing/") === 0) {
+    return "/writing"
+  }
+
+  if (pathname === "/contact" || pathname.indexOf("/contact/") === 0) {
+    return "/contact"
+  }
+
+  return null
+}
+
 // Keep the mobile navigation compact: opening a branch closes its sibling
 // branches at the same level. Desktop navigation retains the theme's normal
 // multi-branch behavior.
@@ -88,6 +119,33 @@ jtd.onReady(function () {
   jtd.addEvent(menuButton, "click", syncBackToTopVisibility)
   jtd.addEvent(window, "resize", syncBackToTopVisibility)
   syncBackToTopVisibility()
+})
+
+// Detailed pages are intentionally absent from the global menu. Keep visitors
+// oriented by activating the durable hub that owns the current route.
+jtd.onReady(function () {
+  var pathname = document.location.pathname.replace(/\/+$/, "") || "/"
+  var hubHref = primaryNavigationHref(pathname)
+
+  if (!hubHref) {
+    return
+  }
+
+  var hubLink = document.querySelector(
+    '#site-nav .nav-list-link[href="' + hubHref + '"]'
+  )
+
+  if (!hubLink) {
+    return
+  }
+
+  hubLink.classList.add("active")
+  if (
+    hubLink.parentNode &&
+    hubLink.parentNode.classList.contains("nav-list-item")
+  ) {
+    hubLink.parentNode.classList.add("active")
+  }
 })
 
 // When a language switch is the current URL, Just the Docs activates that

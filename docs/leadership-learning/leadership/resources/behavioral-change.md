@@ -3,7 +3,7 @@ layout: default
 title: تغییر الگوی رفتاری
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/behavioral-change
+permalink: /work/leadership-learning/leadership/resources/behavioral-change
 ---
 
 # تأثیر الگوهای رفتاری و تصمیم‌گیری بر روند زندگی فردی

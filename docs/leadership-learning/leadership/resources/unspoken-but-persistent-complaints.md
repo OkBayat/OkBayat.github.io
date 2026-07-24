@@ -3,7 +3,7 @@ layout: default
 title: شکایت‌های ناگفته اما پایدار
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/unspoken-but-persistent-complaints
+permalink: /work/leadership-learning/leadership/resources/unspoken-but-persistent-complaints
 ---
 
 # شکایت‌های ناگفته اما پایدار

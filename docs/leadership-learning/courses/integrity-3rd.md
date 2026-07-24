@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership-learning/courses/3rd-integrity
+permalink: /work/leadership-learning/courses/3rd-integrity
 nav_order: 18
 parent: Courses
 title: دوره‌ی سوم یکپارچگی

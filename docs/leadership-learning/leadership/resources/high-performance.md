@@ -3,7 +3,7 @@ layout: default
 title: عملکرد بالا
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/high-performance
+permalink: /work/leadership-learning/leadership/resources/high-performance
 ---
 
 # عملکرد بالا

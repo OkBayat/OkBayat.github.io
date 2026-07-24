@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership-learning/courses/4th-integrity
+permalink: /work/leadership-learning/courses/4th-integrity
 nav_order: 17
 parent: Courses
 title: دوره‌ی چهارم یکپارچگی

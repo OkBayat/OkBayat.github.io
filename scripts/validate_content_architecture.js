@@ -6,7 +6,7 @@ const path = require("path")
 const ROOT = path.resolve(__dirname, "..")
 const errors = new Set()
 const OBSOLETE_ROUTE =
-  /^\/(?:thinking|building|human-transformation|leadership(?:\/|$)|voice(?:\/|$)|family-link(?:\/|$)|about\/(?:calendar|contact)(?:\/|$))/
+  /^\/(?:thinking|building|human-transformation|projects(?:\/|$)|leadership-learning(?:\/|$)|leadership(?:\/|$)|research(?:\/|$)|voice(?:\/|$)|family-link(?:\/|$)|about\/(?:calendar|contact)(?:\/|$))/
 
 function walk(directory) {
   if (!fs.existsSync(directory)) return []
@@ -158,38 +158,55 @@ for (const page of pages) {
 
 const expectedPages = {
   "docs/about/index.md": ["/about", undefined, "2"],
-  "docs/research/index.md": ["/research", undefined, "3"],
-  "docs/leadership-learning/index.md": ["/leadership-learning", undefined, "4"],
-  "docs/projects/index.md": ["/projects", undefined, "5"],
-  "docs/writing/index.md": ["/writing", undefined, "6"],
-  "docs/contact.md": ["/contact", undefined, "7"],
+  "docs/work/index.md": ["/work", undefined, "3"],
+  "docs/research/index.md": ["/research-practice", undefined, "4"],
+  "docs/projects/index.md": ["/work/projects", "Work", "1"],
+  "docs/leadership-learning/index.md": [
+    "/work/leadership-learning",
+    "Work",
+    "2",
+  ],
+  "docs/writing/index.md": ["/writing", undefined, "5"],
+  "docs/contact.md": ["/contact", undefined, "6"],
   "docs/contact/calendar-en.md": ["/contact/calendar", "Contact", "1"],
-  "docs/research/research-profile.md": ["/research/profile", "Research", "1"],
+  "docs/research/research-profile.md": [
+    "/research-practice/profile",
+    "Research & Practice",
+    "1",
+  ],
   "docs/research/publications-en.md": [
-    "/research/publications",
-    "Research",
+    "/research-practice/publications",
+    "Research & Practice",
     "2",
   ],
   "docs/research/methods-ethics-evidence.md": [
-    "/research/methods-ethics-evidence",
-    "Research",
+    "/research-practice/methods-ethics-evidence",
+    "Research & Practice",
     "3",
   ],
-  "docs/research/notes/index.md": ["/research/notes", "Research", "4"],
-  "docs/research/timeline.md": ["/research/timeline", "Research", "5"],
-  "docs/writing/essays/index.md": ["/writing/essays", "Writing & Media", "1"],
+  "docs/research/notes/index.md": [
+    "/research-practice/notes",
+    "Research & Practice",
+    "4",
+  ],
+  "docs/research/timeline.md": [
+    "/research-practice/timeline",
+    "Research & Practice",
+    "5",
+  ],
+  "docs/writing/essays/index.md": ["/writing/essays", "Writing", "1"],
   "docs/writing/reading-notes/index.md": [
     "/writing/reading-notes",
-    "Writing & Media",
+    "Writing",
     "2",
   ],
   "docs/writing/translations/index.md": [
     "/writing/translations",
-    "Writing & Media",
+    "Writing",
     "3",
   ],
-  "docs/writing/podcast/index.md": ["/writing/podcast", "Writing & Media", "4"],
-  "docs/writing/all-writing-en.md": ["/writing/all", "Writing & Media", "5"],
+  "docs/writing/podcast/index.md": ["/writing/podcast", "Writing", "4"],
+  "docs/writing/all-writing-en.md": ["/writing/all", "Writing", "5"],
 }
 
 for (const [file, [permalink, parent, navOrder]] of Object.entries(
@@ -213,6 +230,48 @@ for (const [file, [permalink, parent, navOrder]] of Object.entries(
   if (String(page.data.nav_order) !== navOrder) {
     errors.add(
       `${file}: expected nav_order ${navOrder}, found ${page.data.nav_order || "none"}`
+    )
+  }
+}
+
+const expectedPrimaryNavigation = new Map([
+  ["index.md", ["Home", "/", "1"]],
+  ["docs/about/index.md", ["About", "/about", "2"]],
+  ["docs/work/index.md", ["Work", "/work", "3"]],
+  [
+    "docs/research/index.md",
+    ["Research & Practice", "/research-practice", "4"],
+  ],
+  ["docs/writing/index.md", ["Writing", "/writing", "5"]],
+  ["docs/contact.md", ["Contact", "/contact", "6"]],
+])
+
+for (const page of pages) {
+  if (page.data.primary_nav !== true) continue
+  if (!expectedPrimaryNavigation.has(page.file)) {
+    errors.add(
+      `${page.file}: only the six durable hubs may set primary_nav: true`
+    )
+  }
+}
+
+for (const [file, [title, permalink, navOrder]] of expectedPrimaryNavigation) {
+  const page = pagesByFile.get(file)
+  if (!page) {
+    errors.add(`${file}: required primary navigation hub is missing`)
+    continue
+  }
+  if (page.data.primary_nav !== true) {
+    errors.add(`${file}: primary navigation hub must set primary_nav: true`)
+  }
+  if (
+    page.data.title !== title ||
+    page.data.permalink !== permalink ||
+    String(page.data.nav_order) !== navOrder ||
+    page.data.parent !== undefined
+  ) {
+    errors.add(
+      `${file}: expected primary hub ${title} at ${permalink} with nav_order ${navOrder} and no parent`
     )
   }
 }

@@ -156,7 +156,7 @@ Learning begins when we do not remove unpleasant data. If every error is treated
 
 ## Completion and the dissolution of a problem
 
-In [Mastery for Life](/leadership-learning/human-transformation/practice-programs/mastery-for-life) and in coaching conversations, I have used a concept that I call completion.
+In [Mastery for Life](/work/leadership-learning/human-transformation/practice-programs/mastery-for-life) and in coaching conversations, I have used a concept that I call completion.
 
 In this essay, completion means seeing an event, person, or relationship in its actual reality and ending my unfinished struggle with that reality—without needing to call it right, desirable, or fair.
 
@@ -176,13 +176,13 @@ Accepting what a person is and what they are not means seeing both their capabil
 
 ## What I have observed in leadership, coaching, classes, and companies
 
-This view did not begin as an abstract theory. Over years of [leadership](/leadership-learning/leadership) work, more than two thousand hours of [coaching](/leadership-learning/learning-facilitation/coaching) conversations, facilitated groups, work with teams and companies, and programs such as Mastery for Life, I have encountered different forms of the same problem: people often spend more energy protecting the image they want others to see than they spend learning.
+This view did not begin as an abstract theory. Over years of [leadership](/work/leadership-learning/leadership) work, more than two thousand hours of [coaching](/work/leadership-learning/learning-facilitation/coaching) conversations, facilitated groups, work with teams and companies, and programs such as Mastery for Life, I have encountered different forms of the same problem: people often spend more energy protecting the image they want others to see than they spend learning.
 
 In some groups, people remained silent even when they did not know an answer. In organizational meetings, an issue known to everyone was left unspoken because naming it could threaten someone’s position or reputation. In coaching, a person could spend a long time talking about changing a partner, parent, manager, or colleague without yet confronting the possibility that the other person might never change in the expected way.
 
 In some programs and groups where a safer, more candid, and less judgmental context developed, different behaviors appeared. People asked questions, said “I don’t know,” spoke about errors, initiated conversations they had delayed, and asked one another for help. Some participants reported changes in their relationships with parents, partners, anger, or the past.
 
-These experiences matter to me, but their evidence status must remain clear. They combine facilitator observation and participant self-report. There was no consistent comparison group, standardized measurement, or identical follow-up for every participant. Some reported changes also weakened after a program ended or remained dependent on the original supportive environment. The [Mastery for Life program record](/leadership-learning/human-transformation/practice-programs/mastery-for-life) describes these limitations more explicitly.
+These experiences matter to me, but their evidence status must remain clear. They combine facilitator observation and participant self-report. There was no consistent comparison group, standardized measurement, or identical follow-up for every participant. Some reported changes also weakened after a program ended or remained dependent on the original supportive environment. The [Mastery for Life program record](/work/leadership-learning/human-transformation/practice-programs/mastery-for-life) describes these limitations more explicitly.
 
 The conclusion I can responsibly state is not that one program or model transforms everyone. A more cautious conclusion is:
 

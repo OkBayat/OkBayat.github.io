@@ -3,7 +3,7 @@ layout: default
 title: اصالت
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/authentic
+permalink: /work/leadership-learning/leadership/resources/authentic
 ---
 
 # اصالت

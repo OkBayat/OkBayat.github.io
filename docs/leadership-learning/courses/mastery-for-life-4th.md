@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership-learning/courses/4th-mastery-for-life
+permalink: /work/leadership-learning/courses/4th-mastery-for-life
 nav_order: 48
 parent: Courses
 title: دوره‌ی چهارم چیرگی بر زندگی

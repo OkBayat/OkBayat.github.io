@@ -62,7 +62,9 @@ Code is always rendered left-to-right, including inside Persian pages. Use inlin
 
 ### Keep navigation structured
 
-Only durable section hubs belong in the global sidebar. Detailed concepts, old cohorts, course records, and individual notes may use `nav_exclude: true` and remain accessible through their canonical index, topical indexes, internal links, and search.
+The global sidebar is an explicit allowlist. Only these six durable hubs set `primary_nav: true`: Home, About, Work, Research & Practice, Writing, and Contact. No article, note, project detail, concept page, course record, or secondary index may opt into the primary navigation.
+
+Detailed pages remain accessible through their canonical hub, topical indexes, internal links, the footer where appropriate, and search. The navigation renderer may build the complete page tree internally for breadcrumbs and section indexes, but that tree must not leak into the global sidebar.
 
 Each section must have only one navigation page. Do not keep two pages with the same `title` and `permalink`.
 
@@ -182,73 +184,38 @@ Do not use tags as a substitute for publication architecture.
 
 ```text
 Home
-
 About
-├── Biography
-├── Professional Journey
-├── Mastery
-├── Values
-└── Resume
-
-Research
-├── Research Profile
-├── Selected Research-Related Work
-├── Methods, Ethics & Evidence
-├── Research Notes
-└── Timeline
-
-Leadership & Learning
-├── Perspective
-├── Leadership
-│   └── Resources
-├── Human Transformation
-│   ├── Field Projects
-│   │   └── Learning Circle
-│   ├── Practice & Programs
-│   │   └── Mastery for Life
-│   └── Source Library
-├── Learning & Facilitation
-│   └── Coaching
-└── Courses
-
-Projects
-├── K2Quant
-├── Vocora
-│   └── Publications & Notes
-├── K2 OS
-├── FamilyLink
-└── Experiments
-
-Writing & Media
-├── Essays
-│   ├── Artificial Intelligence
-│   ├── Software & Agentic Systems
-│   ├── Startups & Entrepreneurship
-│   ├── Leadership & Organizations
-│   └── Learning & Human Transformation
-├── Reading Notes
-├── Translations
-├── Podcast
-│   └── Inja-Anja
-└── All Writing
-
+Work
+Research & Practice
+Writing
 Contact
-└── Schedule a Meeting
 ```
 
-The footer provides secondary discovery links to All Writing, Reading Notes, Translations, Podcast, Archive, rights and licensing, and public profiles. It does not contain a global language selector.
+These are the only rows in the global sidebar. They are ordered with `nav_order` values 1–6 and marked with `primary_nav: true`.
 
-### Why Research and Writing are separate
+Each hub provides the next layer of discovery:
 
-Research answers: **What question is being pursued, with what method, evidence, ethical boundary, and uncertainty?**
+- **About** links Biography, Professional Journey, Mastery, Values, and Resume.
+- **Work** links the Projects and Leadership & Learning hubs, which in turn expose companies, software, leadership practice, facilitation, programs, courses, and project records.
+- **Research & Practice** links Research Profile, Selected Research-Related Work, Methods, Ethics & Evidence, Research Notes, and Timeline.
+- **Writing** links Essays, Reading Notes, Translations, Podcast, and All Writing.
+- **Contact** links Schedule a Meeting.
 
-Writing & Media answers: **What kind of authored or source-dependent work is this?** Essays, Reading Notes, Translations, and audio work remain distinct. Research Notes live under Research because their status and evidence boundaries are part of the research portfolio.
+Articles, Research Notes, Reading Notes, concept pages, project details, and other secondary pages are deliberately absent from the global sidebar. The footer provides secondary discovery links to All Writing, Reading Notes, Translations, Podcast, Archive, rights and licensing, and public profiles. It does not contain a global language selector.
 
-### Why Leadership & Learning is separate from Research
+### Why Research & Practice and Writing are separate
 
-Leadership & Learning contains practice: leadership material, coaching, facilitation, courses, programs, and the Human Transformation archive. Research may draw questions from those settings, but practice records and participant accounts do not become research evidence merely by moving into a research-facing site.
+Research & Practice answers: **What question is being pursued, with what method, evidence, ethical boundary, and uncertainty?**
 
-### Why projects have their own section
+Writing answers: **What kind of authored or source-dependent work is this?** Essays, Reading Notes, Translations, and audio work remain distinct. Research Notes live under Research & Practice because their status and evidence boundaries are part of the research portfolio.
+
+### Why Work is separate from Research & Practice
+
+Work contains both built systems and professional practice: projects, leadership material, coaching, facilitation, courses, programs, and the Human Transformation archive. Research & Practice may draw questions from those settings, but practice records and participant accounts do not become research evidence merely by appearing in a research-facing portfolio.
+
+### Why Projects and Leadership & Learning remain separate hubs
+
+Work is the stable primary entry point. Projects and Leadership & Learning remain separate secondary hubs because they organize different kinds of practice without crowding the global menu.
 
 Projects documents work Mohammad founded, built, or directly led. Client organizations and products he does not own are not presented as personal projects.
 
@@ -343,42 +310,42 @@ Reports with an explicit question, hypothesis, method, participants or dataset, 
 
 ### Research publishing model
 
-- `/research` — research portfolio overview;
-- `/research/profile` — practice-based inquiry, research interests, and position;
-- `/research/publications` — selected published and documented research-related work;
-- `/research/methods-ethics-evidence` — public evidence and participant-protection standard;
-- `/research/notes/...` — canonical research, field, literature, and design notes and reviews;
-- `/research/timeline` — chronological archive of registered published work.
+- `/research-practice` — research portfolio overview;
+- `/research-practice/profile` — practice-based inquiry, research interests, and position;
+- `/research-practice/publications` — selected published and documented research-related work;
+- `/research-practice/methods-ethics-evidence` — public evidence and participant-protection standard;
+- `/research-practice/notes/...` — canonical research, field, literature, and design notes and reviews;
+- `/research-practice/timeline` — chronological archive of registered published work.
 
 ### Projects publishing model
 
-- `/projects` — portfolio of work built or directly led by Mohammad;
-- `/projects/k2quant` — K2Quant overview and related writing;
-- `/projects/vocora` — Vocora overview and current state;
-- `/projects/k2-os` — K2 OS project record;
-- `/projects/familylink` — FamilyLink project record;
-- `/projects/experiments` — protocols and results when formal experiments exist;
+- `/work/projects` — portfolio of work built or directly led by Mohammad;
+- `/work/projects/k2quant` — K2Quant overview and related writing;
+- `/work/projects/vocora` — Vocora overview and current state;
+- `/work/projects/k2-os` — K2 OS project record;
+- `/work/projects/familylink` — FamilyLink project record;
+- `/work/projects/experiments` — protocols and results when formal experiments exist;
 - `/writing/all` — complete discovery index for writing and durable records.
 
 ### Leadership & Learning publishing model
 
-- `/leadership-learning` — practice overview;
-- `/leadership-learning/leadership` — leadership practice and source material;
-- `/leadership-learning/human-transformation` — Human Transformation practice archive;
-- `/leadership-learning/learning-facilitation` — facilitation, coaching, and learner-ownership questions;
-- `/leadership-learning/courses` — current and historical course records.
+- `/work/leadership-learning` — practice overview;
+- `/work/leadership-learning/leadership` — leadership practice and source material;
+- `/work/leadership-learning/human-transformation` — Human Transformation practice archive;
+- `/work/leadership-learning/learning-facilitation` — facilitation, coaching, and learner-ownership questions;
+- `/work/leadership-learning/courses` — current and historical course records.
 
-Practice pages may link to Research and Writing, but do not duplicate those canonical works.
+Practice pages may link to Research & Practice and Writing, but do not duplicate those canonical works.
 
 ### Vocora publishing model
 
 Vocora content is distributed by type, with one canonical home for each page:
 
-- `/projects/vocora` — project overview and current state;
-- `/projects/vocora/publications` — curated project index;
-- `/research/notes/...` — research and design notes;
+- `/work/projects/vocora` — project overview and current state;
+- `/work/projects/vocora/publications` — curated project index;
+- `/research-practice/notes/...` — research and design notes;
 - `/writing/translations/...` — translated work, even when an older stable permalink does not mirror the current folder;
-- `/projects/experiments/...` — protocols and results when formal experiments exist.
+- `/work/projects/experiments/...` — protocols and results when formal experiments exist.
 
 The publications page links to these items; it does not duplicate them.
 

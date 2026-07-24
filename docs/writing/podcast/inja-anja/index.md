@@ -65,4 +65,4 @@ src: /assets/inja-anja-S01-E02.MP3
 
 ## ارتباط با نوشته‌ها
 
-نوشته‌ها و یادداشت‌های مرتبط در [آثار برگزیده‌ی مرتبط با پژوهش](/research/publications-fa) گردآوری شده‌اند. منابع و مفاهیم راهبری نیز در [کتابخانه‌ی منابع](/leadership-learning/leadership/resources) و نوشته‌های مرجع در [Writing & Media](/writing) نگهداری می‌شوند.
+نوشته‌ها و یادداشت‌های مرتبط در [آثار برگزیده‌ی مرتبط با پژوهش](/research-practice/publications-fa) گردآوری شده‌اند. منابع و مفاهیم راهبری نیز در [کتابخانه‌ی منابع](/work/leadership-learning/leadership/resources) و نوشته‌های مرجع در [Writing](/writing) نگهداری می‌شوند.

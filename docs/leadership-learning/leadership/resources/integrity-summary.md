@@ -3,7 +3,7 @@ layout: default
 title: یکپارچگی - خلاصه
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/integrity-summary
+permalink: /work/leadership-learning/leadership/resources/integrity-summary
 ---
 
 # یکپارچگی - خلاصه

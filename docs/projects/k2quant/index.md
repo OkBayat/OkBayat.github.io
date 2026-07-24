@@ -5,7 +5,7 @@ parent: Projects
 nav_order: 1
 direction: ltr
 description: "Mohammad Bayat's company-building work in quantitative systems, software, artificial intelligence, and technical operations."
-permalink: /projects/k2quant
+permalink: /work/projects/k2quant
 ---
 
 # K2Quant
@@ -34,7 +34,7 @@ The wider technical, organizational, and company-building archive is collected i
 
 ## Relationship to Human Transformation
 
-K2Quant is an operating company and technical body of work, not a human-subject research laboratory. However, the day-to-day work repeatedly raises questions about decisions, language, responsibility, coordination, leadership, context, and performance. Those cross-cutting questions are documented under [Human Transformation](/leadership-learning/human-transformation) when they can be described without exposing confidential organizational information.
+K2Quant is an operating company and technical body of work, not a human-subject research laboratory. However, the day-to-day work repeatedly raises questions about decisions, language, responsibility, coordination, leadership, context, and performance. Those cross-cutting questions are documented under [Human Transformation](/work/leadership-learning/human-transformation) when they can be described without exposing confidential organizational information.
 
 This page is intended to document concrete systems, decisions, and lessons as they become suitable for public release. It does not treat ambition as evidence or present future goals as completed work.
 

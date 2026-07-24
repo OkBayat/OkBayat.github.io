@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Translations
-parent: Writing & Media
+parent: Writing
 nav_order: 3
 nav_exclude: false
 direction: ltr
@@ -21,7 +21,7 @@ This section contains translations and adaptations of work written by other auth
 {% endif %}
 {% endfor %}
 
-Translations related to learning technology are also collected in [Vocora Publications & Notes](/projects/vocora/publications). Older leadership translations and source material remain accessible through the [Human Transformation Source Library](/leadership-learning/human-transformation/source-library) and [Leadership Source Library](/leadership-learning/leadership/resources).
+Translations related to learning technology are also collected in [Vocora Publications & Notes](/work/projects/vocora/publications). Older leadership translations and source material remain accessible through the [Human Transformation Source Library](/work/leadership-learning/human-transformation/source-library) and [Leadership Source Library](/work/leadership-learning/leadership/resources).
 
 ## Required Attribution
 

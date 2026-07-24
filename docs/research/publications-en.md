@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Selected Research-Related Work
-parent: Research
+parent: Research & Practice
 nav_order: 2
 direction: ltr
 lang: en
 locale: en_US
 description: "A curated index of published essays, research notes, reading notes, translations, field records, and project pages related to human transformation."
-permalink: /research/publications
+permalink: /research-practice/publications
 ---
 
 # Selected Research-Related Work
@@ -18,9 +18,9 @@ A work may appear under more than one theme because learning, identity, relation
 
 ## Program and Field Records
 
-- [Learning Circle](/leadership-learning/human-transformation/field-projects/learning-circle) — children's autonomy, peer teaching, group coordination, and facilitator withdrawal.
-- [Mastery for Life Program Record](/leadership-learning/human-transformation/practice-programs/mastery-for-life) — program history, questions, participant self-reports, and evidence limits.
-- [Leadership](/leadership-learning/leadership) — hub for the existing coaching, course, source, and practice-based field archive.
+- [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle) — children's autonomy, peer teaching, group coordination, and facilitator withdrawal.
+- [Mastery for Life Program Record](/work/leadership-learning/human-transformation/practice-programs/mastery-for-life) — program history, questions, participant self-reports, and evidence limits.
+- [Leadership](/work/leadership-learning/leadership) — hub for the existing coaching, course, source, and practice-based field archive.
 
 ## Relationships, Acceptance & Completion
 
@@ -34,15 +34,15 @@ A work may appear under more than one theme because learning, identity, relation
 
 {% include publication-list-en.html body="human-transformation" theme="learning-memory-language" %}
 
-Vocora is a bounded software project within this wider inquiry. Its project-specific writing is collected in [Vocora Publications & Notes](/projects/vocora/publications).
+Vocora is a bounded software project within this wider inquiry. Its project-specific writing is collected in [Vocora Publications & Notes](/work/projects/vocora/publications).
 
 ## Philosophy, Worldview & Context
 
 {% include publication-list-en.html body="human-transformation" theme="philosophy-worldview" %}
 
 - [Podcast: Inja-Anja](/writing/podcast/inja-anja) — conversations about worldview, frames of reference, perception, language, and integrity.
-- [Human Transformation Source Library](/leadership-learning/human-transformation/source-library) — source lineage and concept maps.
-- [Leadership Source Library](/leadership-learning/leadership/resources) — translations and concept material whose source lineage remains visible.
+- [Human Transformation Source Library](/work/leadership-learning/human-transformation/source-library) — source lineage and concept maps.
+- [Leadership Source Library](/work/leadership-learning/leadership/resources) — translations and concept material whose source lineage remains visible.
 
 ## Selection Standard
 

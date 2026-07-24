@@ -5,7 +5,7 @@ parent: Projects
 nav_order: 3
 direction: ltr
 description: "A working project for documenting and organizing recurring business operations."
-permalink: /projects/k2-os
+permalink: /work/projects/k2-os
 ---
 
 # K2 Business Operating System

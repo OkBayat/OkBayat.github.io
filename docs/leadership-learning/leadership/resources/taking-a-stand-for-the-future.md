@@ -3,7 +3,7 @@ layout: default
 title: ایستادگی برای آینده
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/taking-a-stand-for-the-future
+permalink: /work/leadership-learning/leadership/resources/taking-a-stand-for-the-future
 ---
 
 # ایستادگی (موضع‌گیری) برای آینده

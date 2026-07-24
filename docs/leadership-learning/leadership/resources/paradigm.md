@@ -3,7 +3,7 @@ layout: default
 title: پارادایم
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/paradigm
+permalink: /work/leadership-learning/leadership/resources/paradigm
 ---
 
 # پارادایم: بررسی عمیق و کاربردهای آن در زندگی و کار

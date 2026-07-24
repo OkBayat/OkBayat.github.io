@@ -3,7 +3,7 @@ layout: default
 title: تبدیل خطا به پیشرفت
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/turn-mistakes-into-progress
+permalink: /work/leadership-learning/leadership/resources/turn-mistakes-into-progress
 ---
 
 # تبدیل خطا به پیشرفت: نگاهی عمیق به قدرت گشایش و شفافیت

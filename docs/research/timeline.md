@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Timeline
-parent: Research
+parent: Research & Practice
 nav_order: 5
 direction: ltr
 lang: en
 locale: en_US
 description: "A chronological archive of Mohammad Bayat's published reading notes, research notes, essays, and translations."
-permalink: /research/timeline
+permalink: /research-practice/timeline
 timeline_explorer: true
 has_toc: false
 ---

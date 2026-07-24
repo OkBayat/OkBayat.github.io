@@ -3,7 +3,7 @@ layout: default
 title: سکنی گزیدن در دنیا
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/dwelling-in-a-world
+permalink: /work/leadership-learning/leadership/resources/dwelling-in-a-world
 ---
 
 # بودن در يك دنياي جديد

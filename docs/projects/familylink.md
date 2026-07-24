@@ -27,7 +27,7 @@ tags:
   - social-impact
   - project-governance
 sitemap: true
-permalink: /projects/familylink
+permalink: /work/projects/familylink
 ---
 
 # FamilyLink

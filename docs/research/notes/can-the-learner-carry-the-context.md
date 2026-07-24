@@ -28,7 +28,7 @@ tags:
   - context
   - human-transformation
 sitemap: true
-permalink: /research/notes/can-the-learner-carry-the-context
+permalink: /research-practice/notes/can-the-learner-carry-the-context
 ---
 
 # Can the Learner Carry the Context?
@@ -47,7 +47,7 @@ Before I encountered the paper discussed here, I was already asking what allows 
 
 In June 2026, that search led me to Griggs, Holden, Lawless, and Rae's study, [*From Reflective Learning to Reflective Practice: Assessing Transfer*](https://eprints.whiterose.ac.uk/id/eprint/104326/3/GriggsFrom%20reflective%20learning%20to%20reflective%20practice%3B%20assessing%20.pdf). Reading it did not replace my question with a new one. It gave the question a clearer intellectual location, stronger language, and greater urgency.
 
-This note continues the inquiry I documented in [What Remains When the Course Ends?](/research/notes/what-remains-when-the-course-ends). There, I approached the question through exploratory conversations and field observations. Here, I approach it through a published study, double-loop learning, and a distinction I have encountered in coaching.
+This note continues the inquiry I documented in [What Remains When the Course Ends?](/research-practice/notes/what-remains-when-the-course-ends). There, I approached the question through exploratory conversations and field observations. Here, I approach it through a published study, double-loop learning, and a distinction I have encountered in coaching.
 
 <details open markdown="block">
   <summary>

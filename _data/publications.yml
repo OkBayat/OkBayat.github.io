@@ -7,10 +7,10 @@
 bodies_of_work:
   building:
     label: Building Systems & Organizations
-    url: /projects
+    url: /work/projects
   human-transformation:
     label: Human Transformation
-    url: /leadership-learning/human-transformation
+    url: /work/leadership-learning/human-transformation
 
 themes:
   software-ai-agent-systems:
@@ -173,11 +173,11 @@ works:
       - lang: fa
         label: فارسی
         title: "یادگیرنده واقعاً به چه چیزی متعهد است؟ تعهد به‌مثابه بافتار یادگیری"
-        url: /research/notes/commitment-context-learning-fa
+        url: /research-practice/notes/commitment-context-learning-fa
       - lang: en
         label: English
         title: "What Are Learners Actually Committed To? Commitment as a Context for Learning"
-        url: /research/notes/commitment-context-learning-en
+        url: /research-practice/notes/commitment-context-learning-en
 
   - id: awareness-transformative-learning
     content_type: essay
@@ -194,11 +194,11 @@ works:
       - lang: fa
         label: فارسی
         title: "آیا آگاهی می‌تواند فضایی برای تغییر بگشاید؟ تأملی گذشته‌نگر بر عمل تسهیل‌گری"
-        url: /research/notes/awareness-transformative-learning-fa
+        url: /research-practice/notes/awareness-transformative-learning-fa
       - lang: en
         label: English
         title: "Can Awareness Open Space for Change? A Retrospective Practitioner Reflection"
-        url: /research/notes/awareness-transformative-learning-en
+        url: /research-practice/notes/awareness-transformative-learning-en
 
   - id: can-the-learner-carry-the-context
     content_type: research-note
@@ -215,7 +215,7 @@ works:
       - lang: en
         label: English
         title: "Can the Learner Carry the Context?"
-        url: /research/notes/can-the-learner-carry-the-context
+        url: /research-practice/notes/can-the-learner-carry-the-context
 
   - id: vocora-learning-metrics
     content_type: research-note
@@ -232,7 +232,7 @@ works:
       - lang: en
         label: English
         title: What Should Vocora Measure as Learning?
-        url: /research/notes/vocora-learning-metrics
+        url: /research-practice/notes/vocora-learning-metrics
 
   - id: retrieval-practice
     content_type: research-note
@@ -248,7 +248,7 @@ works:
       - lang: en
         label: English
         title: Retrieval Practice in Vocora
-        url: /research/notes/retrieval-practice
+        url: /research-practice/notes/retrieval-practice
 
   - id: spaced-practice-and-leitner
     content_type: research-note
@@ -265,7 +265,7 @@ works:
       - lang: en
         label: English
         title: Spaced Practice and the Leitner System
-        url: /research/notes/spaced-practice-and-leitner
+        url: /research-practice/notes/spaced-practice-and-leitner
 
   - id: ethical-gamification
     content_type: research-note
@@ -283,7 +283,7 @@ works:
       - lang: en
         label: English
         title: Ethical Gamification in Vocora
-        url: /research/notes/ethical-gamification
+        url: /research-practice/notes/ethical-gamification
 
   - id: hebbs-rule
     content_type: research-note
@@ -300,7 +300,7 @@ works:
       - lang: fa
         label: فارسی
         title: قانون هب و شکل‌گیری تداعی‌ها
-        url: /research/notes/hebbs-rule
+        url: /research-practice/notes/hebbs-rule
 
   - id: art-groupwork-communication
     content_type: reading-note
@@ -317,11 +317,11 @@ works:
       - lang: fa
         label: فارسی
         title: "وقتی گفت‌وگو کافی نیست: هنر چگونه می‌تواند پویایی‌های گروه را گفت‌وگوپذیر کند؟"
-        url: /research/notes/art-groupwork-communication
+        url: /research-practice/notes/art-groupwork-communication
       - lang: en
         label: English
         title: "When Conversation Is Not Enough: How Art Can Make Group Dynamics Discussable"
-        url: /research/notes/art-groupwork-communication-en
+        url: /research-practice/notes/art-groupwork-communication-en
 
   - id: journaling
     content_type: research-note
@@ -336,7 +336,7 @@ works:
       - lang: fa
         label: فارسی
         title: پروتکل ژورنال‌نویسی
-        url: /research/notes/journaling
+        url: /research-practice/notes/journaling
 
   - id: being-and-time
     content_type: reading-note

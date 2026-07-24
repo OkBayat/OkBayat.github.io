@@ -8,7 +8,7 @@ direction: rtl
 lang: fa
 locale: fa_IR
 description: "توضیح محدوده‌ی کوچینگ محمد بیات و جایگاه آن در کار عملیِ راهبری و تحول انسان."
-permalink: /leadership-learning/learning-facilitation/coaching
+permalink: /work/leadership-learning/learning-facilitation/coaching
 ---
 
 # کوچینگ
@@ -31,7 +31,7 @@ permalink: /leadership-learning/learning-facilitation/coaching
 
 یادداشت‌های خصوصی کوچینگ به‌طور پیش‌فرض محتوای عمومی یا داده‌ی پژوهشی نیستند. استفاده از یک تجربه‌ی قابل‌شناسایی در نوشته یا گزارش، نیازمند اجازه‌ی روشن و ضرورت واقعی برای انتشار است.
 
-مشاهده‌هایی که از کار کوچینگ به پرسش عمومی تبدیل می‌شوند، باید بدون افشای جزئیات شخصی و با تفکیک مشاهده، خودگزارش‌دهی و تفسیر در [Research Notes](/research/notes) یا [Human Transformation](/leadership-learning/human-transformation) ثبت شوند.
+مشاهده‌هایی که از کار کوچینگ به پرسش عمومی تبدیل می‌شوند، باید بدون افشای جزئیات شخصی و با تفکیک مشاهده، خودگزارش‌دهی و تفسیر در [Research Notes](/research-practice/notes) یا [Human Transformation](/work/leadership-learning/human-transformation) ثبت شوند.
 
 ## منبع این تعریف
 

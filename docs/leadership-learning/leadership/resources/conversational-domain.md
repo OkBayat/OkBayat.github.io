@@ -3,7 +3,7 @@ layout: default
 title: قلم رو گفتگویی
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/conversational-domain
+permalink: /work/leadership-learning/leadership/resources/conversational-domain
 ---
 
 # قلمرو گفتگویی

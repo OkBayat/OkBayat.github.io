@@ -15,7 +15,7 @@ program: human-transformation
 translation_key: art-groupwork-communication
 edition_kind: translation
 translator: Mohammad Bayat
-original_edition: /research/notes/art-groupwork-communication
+original_edition: /research-practice/notes/art-groupwork-communication
 note_type: reading-note
 evidence_level: published-source-with-author-interpretation
 seo:
@@ -31,7 +31,7 @@ tags:
   - conflict
   - psychological-safety
 sitemap: true
-permalink: /research/notes/art-groupwork-communication-en
+permalink: /research-practice/notes/art-groupwork-communication-en
 ---
 
 # When Conversation Is Not Enough: How Art Can Make Group Dynamics Discussable

@@ -11,7 +11,7 @@ date: 2026-07-17
 last_modified_date: 2026-07-17
 status: working-note
 project: vocora
-permalink: /research/notes/ethical-gamification
+permalink: /research-practice/notes/ethical-gamification
 categories:
   - research
   - research-notes

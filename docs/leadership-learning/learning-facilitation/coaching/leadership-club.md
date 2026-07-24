@@ -3,7 +3,7 @@ layout: default
 title: Leadership Club
 parent: Coaching
 direction: rtl
-permalink: /leadership-learning/learning-facilitation/coaching/leadership-learning/leadership-club
+permalink: /work/leadership-learning/learning-facilitation/coaching/leadership-learning/leadership-club
 ---
 
 # باشگاه راهبری

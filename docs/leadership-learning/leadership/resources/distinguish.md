@@ -3,7 +3,7 @@ layout: default
 title: تمایز دادن
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/distinguish
+permalink: /work/leadership-learning/leadership/resources/distinguish
 ---
 
 # تمایز دادن

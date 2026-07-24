@@ -3,7 +3,7 @@ layout: default
 title: یکپارچگی
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/integrity
+permalink: /work/leadership-learning/leadership/resources/integrity
 ---
 
 # یکپارچگی

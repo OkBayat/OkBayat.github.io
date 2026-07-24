@@ -4,7 +4,7 @@ title: پروژه‌ی راهبری
 parent: Courses
 direction: rtl
 nav_order: 5
-permalink: /leadership-learning/courses/leadership-learning/leadership-project
+permalink: /work/leadership-learning/courses/leadership-learning/leadership-project
 ---
 
 # پروژه‌ی راهبری

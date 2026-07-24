@@ -18,4 +18,4 @@ This topic is the home for present and future essays about entrepreneurship, com
 {% endif %}
 {% endfor %}
 
-Projects that exist in practice are documented separately under [Projects](/projects).
+Projects that exist in practice remain discoverable through [Work](/work).

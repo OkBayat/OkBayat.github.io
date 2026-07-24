@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership-learning/courses/2nd-integrity
+permalink: /work/leadership-learning/courses/2nd-integrity
 nav_order: 19
 parent: Courses
 title: دوره‌ی دوم یکپارچگی
