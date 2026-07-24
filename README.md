@@ -52,6 +52,12 @@ Program records explain what a program is, where it came from, how it has been r
 
 Use **Founder, Software Engineer, and Leadership Facilitator** as Mohammad's primary professional title. Describe research-related activity as practice-based inquiry rather than repeating *Independent Researcher* as a formal identity. Reserve *practitioner-researcher* for the Research Profile's explicit discussion of method and position, not homepage, biography, resume, project-role, or section-index titles.
 
+### Keep the homepage a curated professional showcase
+
+The homepage should introduce Mohammad clearly, present the two connected bodies of work, feature three or four selected works, feature three selected writings, and provide direct routes to Biography, Resume, and Contact.
+
+Do not repeat `Evidence` and `Limits` fields across homepage cards. Evidence boundaries, status, uncertainty, and limitations belong on the canonical project, practice, research, or publication page where a reader can inspect the full context. The homepage should remain concise without weakening the standards applied to those detail pages.
+
 ### Publish articles with complete metadata and in-page navigation
 
 Every published article-like page must satisfy the metadata, language, SEO, and table-of-contents rules in this guide. Missing required front matter or a missing in-page table of contents blocks publication.
