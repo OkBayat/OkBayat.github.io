@@ -48,6 +48,10 @@ Revise the current canonical page in place as evidence, experience, or editorial
 
 Program records explain what a program is, where it came from, how it has been run, what has been observed, and what has not been demonstrated. Dates, prices, capacity, and registration calls belong on a current operational page and must not be mixed with research claims.
 
+### Keep the professional title evidence-aligned
+
+Use **Founder, Software Engineer, and Leadership Facilitator** as Mohammad's primary professional title. Describe research-related activity as practice-based inquiry rather than repeating *Independent Researcher* as a formal identity. Reserve *practitioner-researcher* for the Research Profile's explicit discussion of method and position, not homepage, biography, resume, project-role, or section-index titles.
+
 ### Publish articles with complete metadata and in-page navigation
 
 Every published article-like page must satisfy the metadata, language, SEO, and table-of-contents rules in this guide. Missing required front matter or a missing in-page table of contents blocks publication.
@@ -340,7 +344,7 @@ Reports with an explicit question, hypothesis, method, participants or dataset, 
 ### Research publishing model
 
 - `/research` — research portfolio overview;
-- `/research/profile` — practitioner-researcher identity and position;
+- `/research/profile` — practice-based inquiry, research interests, and position;
 - `/research/publications` — selected published and documented research-related work;
 - `/research/methods-ethics-evidence` — public evidence and participant-protection standard;
 - `/research/notes/...` — canonical research, field, literature, and design notes and reviews;

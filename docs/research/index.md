@@ -9,15 +9,15 @@ permalink: /research
 
 # Research
 
-{ A practitioner-researcher portfolio of selected work, evidence, and methods | fs-6 }
+{ Selected research-related work, evidence, and methods | fs-6 }
 
 My research interests developed through building software and organizations, facilitating leadership and learning, coaching, and examining how changes in performance survive—or fail to survive—outside the setting that first supported them.
 
-This is an independent research portfolio. It does not present professional experience as academic proof. It brings together selected published work while making sources, evidence types, ethical boundaries, and uncertainty visible.
+This portfolio does not present professional experience as academic proof. It brings together selected published work while making sources, evidence types, ethical boundaries, and uncertainty visible.
 
 ## Start Here
 
-- [Research Profile](/research/profile) explains the experience and enduring interests that shape my work as a practitioner-researcher.
+- [Research Profile](/research/profile) explains the experience, position, and enduring interests that shape my practice-based inquiry.
 - [Selected Research-Related Work](/research/publications) presents published and documented work with clear evidence boundaries.
 - [Methods, Ethics & Evidence](/research/methods-ethics-evidence) states how I distinguish observation, self-report, interpretation, and research evidence.
 - [Research Notes & Reviews](/research/notes) contains investigations, field notes, evidence reviews, and design questions.

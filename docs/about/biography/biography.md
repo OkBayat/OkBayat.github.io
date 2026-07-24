@@ -4,7 +4,7 @@ title: Biography
 parent: About
 nav_order: 1
 direction: ltr
-description: "A short biography of Mohammad Bayat: founder, software engineer, leadership facilitator, and independent researcher."
+description: "A short biography of Mohammad Bayat: founder, software engineer, and leadership facilitator."
 permalink: /about/biography
 ---
 
@@ -12,13 +12,13 @@ permalink: /about/biography
 
 {% include components/profile_photo.html variant="biography" %}
 
-Mohammad Bayat is a founder and software engineer whose work spans quantitative systems, web applications, technical architecture, artificial intelligence, company-building, and leadership practice.
+Mohammad Bayat is a founder, software engineer, and leadership facilitator whose work spans quantitative systems, web applications, technical architecture, artificial intelligence, company-building, and leadership practice. His practice-based inquiry focuses on human learning, reflective practice, leadership, and durable change.
 
 He has worked in software development since the early 2010s, including front-end and back-end systems, real-time market applications, testing infrastructure, data visualization, and quantitative trading software. His main company-building work is organized around [K2Quant](/projects/k2quant).
 
 Over approximately a decade, he also led [FamilyLink](/projects/familylink), a family-support initiative that provided practical assistance and explored caregiver training and livelihood support. The project paused in 2026 after its funding and operating model proved insufficiently independent and durable. Its privacy-conscious public record separates reported activity from verified outcomes and documents what would be required for a responsible return.
 
-Alongside engineering, he maintains an independent program of inquiry into [Human Transformation](/leadership-learning/human-transformation). Its questions concern human learning, language, identity, worldview, context, performance, leadership, group coordination, and the conditions under which change becomes durable rather than dependent on a single environment.
+Alongside engineering and facilitation, he develops this inquiry through [Human Transformation](/leadership-learning/human-transformation). Its questions concern language, identity, worldview, context, performance, group coordination, and the conditions under which change becomes durable rather than dependent on a single environment.
 
 This work is informed by reading and by practice-based observation through leadership facilitation, coaching, organizational work, [Learning Circle](/leadership-learning/human-transformation/field-projects/learning-circle), [Mastery for Life](/leadership-learning/human-transformation/practice-programs/mastery-for-life), and [Vocora](/projects/vocora).
 

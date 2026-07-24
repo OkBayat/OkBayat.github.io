@@ -2,16 +2,16 @@
 title: Home
 layout: home
 nav_order: 1
-description: "Mohammad Bayat builds quantitative systems and organizations while studying human learning, language, identity, context, and durable transformation."
+description: "Mohammad Bayat is a founder, software engineer, and leadership facilitator whose practice-based inquiry focuses on human learning, reflective practice, leadership, and durable change."
 permalink: /
 ---
 
 # Mohammad Bayat
-{ Founder, Software Engineer, Leadership Facilitator, and Independent Researcher | fs-6 }
+{ Founder, Software Engineer, and Leadership Facilitator | fs-6 }
 
 {% include components/profile_photo.html variant="home" link="/about/biography" %}
 
-I build quantitative systems and organizations, and I study how language, identity, context, and learning shape human performance and durable change.
+I build quantitative systems and organizations. My practice-based inquiry focuses on human learning, reflective practice, leadership, and durable change.
 
 OkBayat.com is a research and practice portfolio: a selected record of the systems, organizations, projects, and writing I have built or published, together with the evidence and limits behind them.
 
@@ -40,7 +40,7 @@ OkBayat.com is a research and practice portfolio: a selected record of the syste
   type="Project"
   title="Vocora"
   question="How should a learning product distinguish activity, current performance, and durable learning?"
-  role="Founder, builder, and independent researcher"
+  role="Founder and builder"
   evidence="Open-source software, product metrics, and published research and design notes"
   limits="Current product use does not yet demonstrate long-term learning effectiveness"
   url="/projects/vocora"
