@@ -15,25 +15,25 @@ I build quantitative systems and organizations, and I study how language, identi
 
 OkBayat.com is a research and practice portfolio: a public record of what I am building, what I am asking, what evidence is available, where the limits are, and how the work changes.
 
-## Current Inquiry
+## Proposed Master's Research
 
-**What remains when the learning space disappears?**
+**What happens to reflective practice when the learning space disappears?**
 
-I am examining what allows learning, performance, identity, or group coordination to persist after the original course, facilitator, team, product, or supportive context is no longer present.
+I am developing a six-month longitudinal, arts-informed qualitative study of how reflective practices persist, adapt, become concealed, erode, or reactivate after adults leave a supportive learning community and enter changing organizational contexts.
 
-[Read the current inquiry](/research/current-inquiry) · [View the research profile](/research/profile)
+[Read the proposed master's research](/research/current-inquiry) · [View the research profile](/research/profile)
 
 ## Selected Work
 
 <div class="evidence-card-grid">
 {% include components/evidence_card.html
-  type="Research direction"
-  status="Active"
-  title="What Remains When the Learning Space Disappears?"
-  question="What distinguishes durable transfer from change that depends on the original context?"
+  type="Proposed master's research"
+  status="In development"
+  title="When the Learning Space Disappears"
+  question="How do reflective practices persist, adapt, become concealed, erode, or reactivate across changing organizational contexts?"
   role="Practitioner-researcher"
-  evidence="Published sources, bounded field records, professional observation, and explicit open questions"
-  limits="No causal or universal claim; study design is still being narrowed"
+  evidence="A bounded six-month longitudinal qualitative design informed by published sources and explicit methodological limits"
+  limits="Not yet an approved protocol; site, access, methods, and ethics plan remain subject to supervision and review"
   url="/research/current-inquiry"
 %}
 {% include components/evidence_card.html
