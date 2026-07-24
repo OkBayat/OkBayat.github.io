@@ -18,7 +18,7 @@ This is an independent research portfolio. It does not present professional expe
 ## Start Here
 
 - [Research Profile](/research/profile) explains the experience and questions that shape my identity as a practitioner-researcher.
-- [Current Inquiry](/research/current-inquiry) presents the central question I am pursuing now.
+- [Proposed Master's Research](/research/current-inquiry) presents the central question and a bounded six-month study design.
 - [Research Agenda](/research/agenda) records the wider set of active and open questions.
 - [Methods, Ethics & Evidence](/research/methods-ethics-evidence) states how I distinguish observation, self-report, interpretation, and research evidence.
 - [Research Publications](/research/publications) curates work that contributes to the portfolio.
