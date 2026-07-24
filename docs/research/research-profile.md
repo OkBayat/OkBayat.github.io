@@ -12,7 +12,7 @@ permalink: /research/profile
 
 I am an independent practitioner-researcher whose questions emerge from more than fifteen years of building software and organizations and from years of leadership facilitation, coaching, group learning, and reflective practice.
 
-My central interest is not change inside an exceptional moment. It is what remains when the course ends, the facilitator leaves, the team changes, or the original context disappears.
+My central interest is not change inside an exceptional moment. It is [what remains when the learning space disappears](/writing/essays/what-remains-when-learning-space-disappears-en): when the course ends, the facilitator leaves, the team changes, or the original context is gone.
 
 ## Areas of Inquiry
 
