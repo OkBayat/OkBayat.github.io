@@ -40,3 +40,5 @@ My practice-based inquiry focuses on:
 - the relationship between context, identity, and the availability of prior learning.
 
 My approach to evidence and participant protection is stated in [Methods, Ethics & Evidence](/research-practice/methods-ethics-evidence).
+
+A focused route through the essays, notes, and field records most closely connected to these questions is available in [Selected Work in Human Learning and Transformation](/research-practice/human-learning-transformation).

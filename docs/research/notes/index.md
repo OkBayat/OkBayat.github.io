@@ -2,7 +2,7 @@
 layout: default
 title: Research Notes
 parent: Research & Practice
-nav_order: 4
+nav_order: 5
 nav_exclude: false
 direction: ltr
 description: "Working investigations, evidence reviews, field observations, and design decisions grouped by their primary body of work."

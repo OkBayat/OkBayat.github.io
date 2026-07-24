@@ -20,6 +20,7 @@ This portfolio does not present professional experience as academic proof. It br
 
 - [Research Profile](/research-practice/profile) explains the experience, position, and enduring interests that shape my practice-based inquiry.
 - [Selected Research-Related Work](/research-practice/publications) presents published and documented work with clear evidence boundaries.
+- [Selected Work in Human Learning and Transformation](/research-practice/human-learning-transformation) provides a focused path through work on reflective practice, learning across changing contexts, group processes, facilitation, and leadership.
 - [Methods, Ethics & Evidence](/research-practice/methods-ethics-evidence) states how I distinguish observation, self-report, interpretation, and research evidence.
 - [Research Notes & Reviews](/research-practice/notes) contains investigations, field notes, evidence reviews, and design questions.
 - [Timeline](/research-practice/timeline) is a chronological archive of published essays, notes, reviews, and translations.

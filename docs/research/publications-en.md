@@ -16,6 +16,8 @@ This page is a curated index of published and documented work related to human l
 
 A work may appear under more than one theme because learning, identity, relationships, leadership, language, and worldview overlap. Cross-listing does not create a second copy of the page.
 
+For a shorter route through the work on reflective practice, changing learning contexts, group processes, facilitation, arts-informed inquiry, and leadership, see [Selected Work in Human Learning and Transformation](/research-practice/human-learning-transformation).
+
 ## Program and Field Records
 
 - [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle) — children's autonomy, peer teaching, group coordination, and facilitator withdrawal.
