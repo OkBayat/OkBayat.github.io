@@ -35,18 +35,18 @@ has_toc: false
       <p>One is concerned with building reliable systems and organizations. The other examines the conditions in which learning, reflection, coordination, and change become possible.</p>
     </header>
     <div class="home-axis-grid">
-      <a class="home-axis-card" href="/work/projects">
+      <article class="home-axis-card">
         <span class="home-axis-number" aria-hidden="true">01</span>
-        <h3>Building systems and organizations</h3>
+        <h3><a href="/work/projects">Building systems and organizations</a></h3>
         <p>Quantitative systems, software engineering, artificial intelligence, agentic workflows, company-building, and the operating practices behind them.</p>
-        <span class="home-card-link">Explore projects <span aria-hidden="true">&rarr;</span></span>
-      </a>
-      <a class="home-axis-card" href="/work/leadership-learning/human-transformation">
+        <a class="home-card-link" href="/work/projects">Explore projects <span aria-hidden="true">&rarr;</span></a>
+      </article>
+      <article class="home-axis-card">
         <span class="home-axis-number" aria-hidden="true">02</span>
-        <h3>Human learning and transformation</h3>
+        <h3><a href="/work/leadership-learning/human-transformation">Human learning and transformation</a></h3>
         <p>Reflective practice, leadership, language, identity, context, group learning, and what makes change durable beyond a single supportive setting.</p>
-        <span class="home-card-link">Explore the inquiry <span aria-hidden="true">&rarr;</span></span>
-      </a>
+        <a class="home-card-link" href="/work/leadership-learning/human-transformation">Explore the inquiry <span aria-hidden="true">&rarr;</span></a>
+      </article>
     </div>
   </section>
 

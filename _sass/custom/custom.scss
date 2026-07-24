@@ -636,9 +636,14 @@
   h3 {
     max-width: 15ch;
     margin: $sp-8 0 $sp-4;
-    color: $body-heading-color;
     font-size: clamp(1.35rem, 3vw, 1.7rem) !important;
     line-height: 1.2;
+
+    a {
+      color: $body-heading-color;
+      text-decoration-color: transparent;
+      text-underline-offset: 0.2em;
+    }
   }
 
   p {
@@ -648,13 +653,17 @@
 
   &:hover {
     color: $body-text-color;
-    text-decoration: none;
     border-color: $link-color;
     box-shadow: 0 0.75rem 2rem rgba($body-heading-color, 0.08);
     transform: translateY(-3px);
+
+    h3 a {
+      color: $link-color;
+      text-decoration-color: currentcolor;
+    }
   }
 
-  &:focus-visible {
+  &:focus-within {
     outline: 2px solid $link-color;
     outline-offset: 3px;
   }
