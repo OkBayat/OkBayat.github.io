@@ -16,7 +16,7 @@ This section contains original essays, source-specific reading notes, attributed
 The site uses two complementary axes:
 
 1. **Content type determines the canonical home.** Essays, Research Notes, Reading Notes, Translations, and audio work describe different relationships to authorship, evidence, and completeness.
-2. **Theme and project determine discovery.** The same canonical page may also be linked from [All Writing](/writing/all), [Research Publications](/research/publications), an essay topic, or a project-specific index such as [Vocora Publications & Notes](/projects/vocora/publications).
+2. **Theme and project determine discovery.** The same canonical page may also be linked from [All Writing](/writing/all), [Selected Research-Related Work](/research/publications), an essay topic, or a project-specific index such as [Vocora Publications & Notes](/projects/vocora/publications).
 
 A page is never copied merely because it belongs to more than one subject. Cross-listing creates multiple ways to find the work while preserving one URL, one text, and one revision history.
 

@@ -41,7 +41,7 @@ Related technical, organizational, startup, and project writing is also collecte
 {% endif %}
 {% endfor %}
 
-Related research-facing writing about learning, identity, language, relationships, leadership, and coordination is also collected in [Research Publications](/research/publications).
+Related research-facing writing about learning, identity, language, relationships, leadership, and coordination is also collected in [Selected Research-Related Work](/research/publications).
 
 ## Browse by Theme
 

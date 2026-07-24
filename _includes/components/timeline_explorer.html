@@ -1,22 +1,20 @@
 {% comment %}
-  Dynamic research and writing timeline.
+  Chronological archive of published research and writing.
 
   Canonical publications are read from `_data/publications.yml`; their dates,
-  status, and page-specific tags are resolved from the edition page front matter.
-  Non-publication moments, such as an open question, can opt in with a
-  `timeline` mapping in their page front matter.
+  summaries, and page-specific tags are resolved from the edition page front matter.
 {% endcomment %}
 
 <section class="timeline-explorer" data-timeline-explorer aria-labelledby="timeline-title">
   <header class="timeline-page-intro">
-    <span class="timeline-eyebrow">Public work log</span>
+    <span class="timeline-eyebrow">Published archive</span>
     <h1 id="timeline-title">Research &amp; Writing Timeline</h1>
     <p class="timeline-intro-copy">
-      A chronological view of the questions, readings, notes, essays, and revisions that shape my work—showing not only what I published, but why each piece appeared and what it led to.
+      A chronological view of published essays, research notes, reading notes, and translations.
     </p>
     <p class="timeline-intro-note">
       <span class="timeline-spark" aria-hidden="true">↗</span>
-      <span>Newest entries appear first. Use the filters to follow one subject, content type, language, or inquiry thread. New registered work appears automatically on the next build.</span>
+      <span>Newest entries appear first. Use the filters to browse by subject, content type, or language. New registered publications appear automatically on the next build.</span>
     </p>
   </header>
 
@@ -32,7 +30,7 @@
           id="timeline-search"
           class="timeline-search-input"
           type="search"
-          placeholder="Search titles, questions, or tags…"
+          placeholder="Search titles, summaries, or tags…"
           autocomplete="off"
           data-timeline-search
         >
@@ -59,13 +57,11 @@
     <div class="timeline-filter-group" role="group" aria-labelledby="timeline-type-label">
       <span id="timeline-type-label" class="timeline-filter-label">Type</span>
       <div class="timeline-chip-row" data-timeline-type-chips>
-        <button class="timeline-chip" type="button" data-filter-value="all" aria-pressed="true">All work</button>
-        <button class="timeline-chip" type="button" data-filter-value="question" aria-pressed="false">Open questions</button>
+        <button class="timeline-chip" type="button" data-filter-value="all" aria-pressed="true">All publications</button>
         <button class="timeline-chip" type="button" data-filter-value="essay" aria-pressed="false">Essays</button>
         <button class="timeline-chip" type="button" data-filter-value="research-note" aria-pressed="false">Research notes</button>
         <button class="timeline-chip" type="button" data-filter-value="reading-note" aria-pressed="false">Reading notes</button>
         <button class="timeline-chip" type="button" data-filter-value="translation" aria-pressed="false">Translations</button>
-        <button class="timeline-chip" type="button" data-filter-value="revision" aria-pressed="false">Revisions</button>
       </div>
     </div>
 
@@ -94,35 +90,12 @@
           {% assign edition_page = site.html_pages | where: "url", edition.url | first %}
         {% endunless %}
         {% assign entry_date = edition_page.date | default: edition_page.last_modified_date | default: edition_page.date_modified %}
-        {% assign entry_status = edition_page.status | default: work.content_type %}
         {% assign entry_summary = edition_page.timeline_summary | default: edition_page.description | default: work.summary %}
         {% assign entry_thread = work.project | default: work.program | default: body_record.label %}
         {% assign entry_direction = edition_page.direction | default: "ltr" %}
 
         {% capture entry_topics %}{% for theme_id in work.themes %}{{ theme_id }} {% endfor %}{% endcapture %}
-        {% capture entry_search %}{{ edition.title }} {{ entry_summary }} {{ work.summary }} {{ work.id }} {{ entry_thread }} {{ entry_status }} {% for theme_id in work.themes %}{{ theme_id }} {{ site.data.publications.themes[theme_id].label }} {% endfor %}{% if edition_page.tags %}{% for tag in edition_page.tags %}{{ tag }} {% endfor %}{% endif %}{% endcapture %}
-
-        {% capture origin_copy %}
-          {% if edition_page.timeline_reason %}
-            {{ edition_page.timeline_reason }}
-          {% elsif work.timeline_reason %}
-            {{ work.timeline_reason }}
-          {% elsif edition.lang == "fa" %}
-            {% case work.content_type %}
-              {% when "essay" %}این مقاله برای روشن‌کردن یک استدلال یا الگویی از تجربه شکل گرفت تا بتوان آن را دقیق‌تر دید، نقد کرد و در آینده بازنگری کرد.
-              {% when "research-note" %}این یادداشت یک پرسش در حال بررسی، شواهد فعلی و محدودیت‌های آن را قابل مشاهده نگه می‌دارد.
-              {% when "reading-note" %}این یادداشت ثبت می‌کند که یک منبع چه چیزی به مسیر فکری فعلی اضافه کرد، چه چیزی را به چالش کشید و چه چیزی را بی‌پاسخ گذاشت.
-              {% when "translation" %}این ترجمه برای در دسترس‌کردن ایده‌ی اصلی منبع به فارسی و جدا نگه‌داشتن دیدگاه نویسنده از تفسیر من شکل گرفت.
-            {% endcase %}
-          {% else %}
-            {% case work.content_type %}
-              {% when "essay" %}This essay makes an argument or pattern from practice explicit enough to examine, challenge, and revise.
-              {% when "research-note" %}This note keeps an active question, its current evidence, and its limits visible while the inquiry develops.
-              {% when "reading-note" %}This note records what a source added to, challenged in, or left unresolved within an active line of inquiry.
-              {% when "translation" %}This translation makes a source available in Persian while keeping the original author’s contribution distinct from my commentary.
-            {% endcase %}
-          {% endif %}
-        {% endcapture %}
+        {% capture entry_search %}{{ edition.title }} {{ entry_summary }} {{ work.summary }} {{ work.id }} {{ entry_thread }} {% for theme_id in work.themes %}{{ theme_id }} {{ site.data.publications.themes[theme_id].label }} {% endfor %}{% if edition_page.tags %}{% for tag in edition_page.tags %}{{ tag }} {% endfor %}{% endif %}{% endcapture %}
 
         <article
           class="timeline-item"
@@ -147,7 +120,6 @@
               <div class="timeline-entry-meta">
                 <span class="timeline-type-label">{{ work.content_type | replace: "-", " " }}</span>
                 <span class="timeline-language-label">{{ edition.label }}</span>
-                <span class="timeline-status-label">{{ entry_status | replace: "-", " " }}</span>
                 {% if entry_thread %}<span class="timeline-thread-label">{{ entry_thread | replace: "-", " " }}</span>{% endif %}
               </div>
 
@@ -155,11 +127,6 @@
                 <a href="{{ edition.url | relative_url }}">{{ edition.title }}</a>
               </h2>
               <p class="timeline-entry-summary" lang="{{ edition.lang }}" dir="{{ entry_direction }}">{{ entry_summary }}</p>
-
-              <div class="timeline-entry-origin" lang="{{ edition.lang }}" dir="{{ entry_direction }}">
-                <span class="timeline-origin-label">{% if edition.lang == "fa" %}چرا اینجا آمده{% else %}Why it appeared{% endif %}</span>
-                <span>{{ origin_copy | strip }}</span>
-              </div>
             </div>
 
             <footer class="timeline-entry-footer">
@@ -181,76 +148,6 @@
           </div>
         </article>
       {% endfor %}
-    {% endfor %}
-
-    {% for timeline_page in site.html_pages %}
-      {% if timeline_page.timeline %}
-        {% assign timeline_data = timeline_page.timeline %}
-        {% assign entry_date = timeline_page.date | default: timeline_page.last_modified_date | default: timeline_page.date_modified %}
-        {% assign entry_type = timeline_data.type | default: "question" %}
-        {% assign entry_lang = timeline_page.lang | default: "en" %}
-        {% assign entry_direction = timeline_page.direction | default: "ltr" %}
-        {% assign entry_status = timeline_data.status | default: timeline_page.status | default: "active" %}
-        {% assign entry_languages = timeline_data.languages | default: entry_lang %}
-        {% assign entry_language_label = timeline_data.language_label %}
-        {% if entry_language_label == nil %}
-          {% if entry_lang == "fa" %}{% assign entry_language_label = "فارسی" %}{% else %}{% assign entry_language_label = "English" %}{% endif %}
-        {% endif %}
-        {% assign entry_thread = timeline_data.thread | default: timeline_page.parent | default: "Research" %}
-        {% assign entry_summary = timeline_data.summary | default: timeline_page.description %}
-        {% assign entry_reason = timeline_data.reason | default: "This moment records a question or shift that helps explain how the later work developed." %}
-
-        {% capture entry_topics %}{% for theme_id in timeline_data.themes %}{{ theme_id }} {% endfor %}{% endcapture %}
-        {% capture entry_search %}{{ timeline_page.title }} {{ entry_summary }} {{ entry_reason }} {{ entry_thread }} {% for theme_id in timeline_data.themes %}{{ theme_id }} {{ site.data.publications.themes[theme_id].label }} {% endfor %}{% for tag in timeline_data.tags %}{{ tag }} {% endfor %}{% endcapture %}
-
-        <article
-          class="timeline-item"
-          data-timeline-item
-          data-date="{% if entry_date %}{{ entry_date | date: "%Y-%m-%d" }}{% else %}0000-00-00{% endif %}"
-          data-type="{{ entry_type | escape }}"
-          data-topic="{{ entry_topics | strip | escape }}"
-          data-lang="{{ entry_languages | escape }}"
-          data-search="{{ entry_search | strip_html | strip_newlines | downcase | escape }}"
-        >
-          {% if entry_date %}
-            <time class="timeline-date" datetime="{{ entry_date | date: "%Y-%m-%d" }}">
-              <strong>{{ entry_date | date: "%-d %b" }}</strong>{{ entry_date | date: "%Y" }}
-            </time>
-          {% else %}
-            <span class="timeline-date"><strong>Undated</strong></span>
-          {% endif %}
-          <span class="timeline-marker" aria-hidden="true"></span>
-
-          <div class="timeline-entry-card">
-            <div class="timeline-entry-main">
-              <div class="timeline-entry-meta">
-                <span class="timeline-type-label">{{ entry_type | replace: "-", " " }}</span>
-                <span class="timeline-language-label">{{ entry_language_label }}</span>
-                <span class="timeline-status-label">{{ entry_status | replace: "-", " " }}</span>
-                <span class="timeline-thread-label">{{ entry_thread }}</span>
-              </div>
-
-              <h2 class="timeline-entry-title" lang="{{ entry_lang }}" dir="{{ entry_direction }}">
-                <a href="{{ timeline_page.url | relative_url }}">{{ timeline_data.title | default: timeline_page.title }}</a>
-              </h2>
-              <p class="timeline-entry-summary" lang="{{ entry_lang }}" dir="{{ entry_direction }}">{{ entry_summary }}</p>
-              <div class="timeline-entry-origin" lang="{{ entry_lang }}" dir="{{ entry_direction }}">
-                <span class="timeline-origin-label">{% if entry_lang == "fa" %}چرا مهم است{% else %}Question behind it{% endif %}</span>
-                <span>{{ entry_reason }}</span>
-              </div>
-            </div>
-
-            <footer class="timeline-entry-footer">
-              <div class="timeline-tag-list" role="group" aria-label="Entry tags">
-                {% for tag in timeline_data.tags limit: 4 %}
-                  <button class="timeline-tag-button" type="button" data-timeline-tag="{{ tag | escape }}">{{ tag }}</button>
-                {% endfor %}
-              </div>
-              <a class="timeline-entry-link" href="{{ timeline_page.url | relative_url }}">Open →</a>
-            </footer>
-          </div>
-        </article>
-      {% endif %}
     {% endfor %}
   </div>
 

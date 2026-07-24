@@ -44,9 +44,9 @@ The official application is available at [vocora.ir](https://vocora.ir), where a
 
 Vocora is open source. The code is available in the [Vocora GitHub repository](https://github.com/OkBayat/vocora), and anyone who would like to improve the software, documentation, or related research tooling is welcome to contribute.
 
-## What Vocora Is Studying
+## Questions Behind the Product
 
-Current questions include:
+The product is shaped by questions such as:
 
 - How should retrieval and review intervals be represented in a practical learning tool?
 - Which measures reflect practice, and which could reasonably indicate longer-term retention?
@@ -55,18 +55,7 @@ Current questions include:
 - Which forms of gamification support autonomy and regular practice rather than compulsive engagement?
 - How can language-learning software collect only the data it actually needs?
 
-## How I Work on It
-
-I use a simple cycle:
-
-1. Read relevant papers, reviews, and technical documentation.
-2. Turn a broad interest into a narrower question.
-3. Record assumptions and product hypotheses.
-4. Build a small mechanism or measurement.
-5. Define success and guardrail metrics before interpreting results.
-6. Publish what was learned, including uncertainty and limitations.
-
-## Current Boundaries
+## What the Current Product Does Not Demonstrate
 
 Vocora is not an academic laboratory, a clinical project, or a peer-reviewed neuroscience study. I am not claiming that the current application has already improved long-term memory or outperformed other methods.
 

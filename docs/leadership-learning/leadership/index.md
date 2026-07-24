@@ -30,4 +30,4 @@ Coaching and group facilitation are organized under [Learning & Facilitation](/l
 
 Leadership is not the parent category for every question about human change. It is a practical domain inside the broader [Human Transformation](/leadership-learning/human-transformation) inquiry, alongside children's independent learning, language and memory tools, identity, group coordination, and quality of life.
 
-The active cross-domain questions, evidence boundaries, and leadership-related field materials are maintained or indexed in the [Human Transformation Research Agenda](/research/agenda). Leadership therefore does not have a separate research agenda.
+Related published work and field records are collected in [Selected Research-Related Work](/research/publications), while [Methods, Ethics & Evidence](/research/methods-ethics-evidence) states the evidence and participant-protection boundaries applied to them.

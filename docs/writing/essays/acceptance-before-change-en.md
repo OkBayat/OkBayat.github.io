@@ -188,7 +188,7 @@ The conclusion I can responsibly state is not that one program or model transfor
 
 > When the cost of honesty, not knowing, and making an error becomes lower, the possibility of genuine learning and dialogue often becomes greater.
 
-To become a stronger claim, this also requires better observation and measurement across time and settings. A central part of my [Human Transformation Research Agenda](/research/agenda) is built around exactly this question: what remains of a change after the context changes?
+To become a stronger claim, this also requires better observation and measurement across time and settings. The question remains: what remains of a change after the context changes?
 
 ## A group that allows people to appear
 

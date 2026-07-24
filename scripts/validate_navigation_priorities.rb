@@ -101,11 +101,10 @@ assert_order(
   "Research navigation",
   %w[
     /research/profile
-    /research/current-inquiry
-    /research/agenda
-    /research/methods-ethics-evidence
     /research/publications
+    /research/methods-ethics-evidence
     /research/notes
+    /research/timeline
   ]
 )
 

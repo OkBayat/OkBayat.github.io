@@ -5,7 +5,7 @@ parent: About
 nav_order: 5
 direction: ltr
 description: "Selected professional experience, quantitative systems work, social-impact projects, human transformation inquiry, leadership practice, and independent projects by Mohammad Bayat."
-last_modified_date: 2026-07-23
+last_modified_date: 2026-07-24
 permalink: /about/resume
 ---
 
@@ -34,9 +34,8 @@ My current work is centered on [K2Quant](/projects/k2quant) and an independent i
 
 An independent, practice-based inquiry into human learning, language, identity, context, performance, leadership, group coordination, and durable change.
 
-Current work includes:
+Selected work includes:
 
-- maintaining a public research agenda of open questions and revisions;
 - distinguishing published evidence, direct observation, participant self-report, interpretation, and hypothesis;
 - documenting field projects and facilitated programs without presenting them as controlled research;
 - reviewing work across learning science, cognitive science, philosophy, leadership, and organizational research;
@@ -45,13 +44,13 @@ Current work includes:
 
 This work is independent and is not presented as an academic affiliation, clinical program, or peer-reviewed research institution.
 
-[Program overview](/leadership-learning/human-transformation) · [Research agenda](/research/agenda)
+[Program overview](/leadership-learning/human-transformation) · [Selected research-related work](/research/publications)
 
 #### Learning Circle — Field Project Designer and Facilitator
 
-**Ongoing field project**
+**Practice-based field project**
 
-Learning Circle began as a programming activity with children and became a longitudinal field project about independent learning and group coordination.
+Learning Circle began as a programming activity with children and became a bounded, practice-based field record about independent learning and group coordination.
 
 - Used Code.org and programming as a medium for learning how to learn.
 - Designed early sessions around peer support, learner ownership, and teaching others.
@@ -109,7 +108,7 @@ Current work includes:
 - defining product metrics that distinguish activity, current performance, and longer-term retention;
 - documenting privacy and ethical constraints for progress sharing and gamification;
 - reviewing relevant work in retrieval practice, spaced practice, motivation, and language learning;
-- publishing assumptions, limitations, research notes, and planned evaluation steps.
+- publishing assumptions, limitations, and research and design notes.
 
 Vocora is not presented as an academic affiliation, clinical project, or validated neuroscience intervention. Its current output is software and independent research documentation.
 

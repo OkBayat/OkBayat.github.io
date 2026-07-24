@@ -20,4 +20,4 @@ My current perspective is guided by five principles:
 4. **The facilitator is part of the system.** Presence, authority, expectations, and evaluation can alter what participants say and do.
 5. **Claims must match evidence.** Experience can generate insight and questions without proving a universal result.
 
-This perspective is developed through [Leadership](/leadership-learning/leadership), [Human Transformation](/leadership-learning/human-transformation), [Learning & Facilitation](/leadership-learning/learning-facilitation), and the active [Research Agenda](/research/agenda).
+This perspective is developed through [Leadership](/leadership-learning/leadership), [Human Transformation](/leadership-learning/human-transformation), [Learning & Facilitation](/leadership-learning/learning-facilitation), and the published work collected under [Selected Research-Related Work](/research/publications).

@@ -36,9 +36,9 @@ Do not use titles or claims that are larger than the work. In particular:
 
 A page should make clear which statements come from published sources, which are Mohammad's current interpretation, which are direct observations, and which remain open questions.
 
-### Keep questions publishable
+### Publish questions as complete work
 
-A question does not need a final answer before it can be published. An open question is useful when its scope, importance, current evidence, uncertainty, and next step are visible.
+A question does not need a final answer before it can be published, but the public page should stand on its own as a complete essay or note. Its scope, importance, current evidence, and uncertainty should be visible without turning the page into a status update, research queue, or future study plan.
 
 ### Treat revision as part of the work
 
@@ -91,7 +91,7 @@ A software essay and a relationship essay are both Essays when their main contri
 A canonical page may be linked from one or more topical lenses:
 
 - All Writing
-- Research Publications
+- Selected Research-Related Work
 - essay topic indexes
 - project indexes
 - Vocora Publications & Notes
@@ -188,11 +188,10 @@ About
 
 Research
 ├── Research Profile
-├── Current Inquiry
-├── Research Agenda
+├── Selected Research-Related Work
 ├── Methods, Ethics & Evidence
-├── Research Publications
-└── Research Notes
+├── Research Notes
+└── Timeline
 
 Leadership & Learning
 ├── Perspective
@@ -211,9 +210,7 @@ Leadership & Learning
 Projects
 ├── K2Quant
 ├── Vocora
-│   ├── Research Agenda
-│   ├── Publications & Notes
-│   └── Research Log
+│   └── Publications & Notes
 ├── K2 OS
 ├── FamilyLink
 └── Experiments
@@ -281,9 +278,9 @@ A useful research note normally includes:
 - implications or next questions;
 - references, where applicable.
 
-### Open Questions
+### Inquiry Notes
 
-A short record of a question that is active but not yet ready for a full evidence review. It should state what is being asked, why it matters, what would change the current view, and the next useful step.
+A bounded examination of a question that is not yet ready for a full evidence review. It should state what is being asked, why it matters, what evidence is currently available, and what remains uncertain. It must read as a complete note rather than a status update or future research plan.
 
 ### Field Notes
 
@@ -324,12 +321,11 @@ Durable descriptions of a facilitated program or recurring practice. A program r
 - format and history;
 - current evidence and observations;
 - participant reports, clearly labelled as self-report;
-- limitations and what cannot be concluded;
-- revisions and future evaluation plans.
+- limitations and what cannot be concluded.
 
 ### Experiment Reports
 
-Reports with an explicit question, hypothesis, method, participants or dataset, comparison, predeclared metrics, results, limitations, ethics, and status. `Planned`, `Running`, `Completed`, and `Inconclusive` are all acceptable statuses.
+Reports with an explicit question, hypothesis, method, participants or dataset, comparison, predeclared metrics, results, limitations, and ethics. Only completed or inconclusive reports belong on the public site; planned studies and in-progress experiment logs remain internal.
 
 ## 6. Publishing models
 
@@ -339,17 +335,16 @@ Reports with an explicit question, hypothesis, method, participants or dataset, 
 - `/writing/essays` groups works by primary body and durable theme;
 - `/writing/essays/topics/...` provides subject discovery without copying articles;
 - bilingual editions appear as one conceptual work with multiple language links.
-- All Writing, Research Publications, and project indexes may cross-list the same essay.
+- All Writing, Selected Research-Related Work, and project indexes may cross-list the same essay.
 
 ### Research publishing model
 
 - `/research` — research portfolio overview;
 - `/research/profile` — practitioner-researcher identity and position;
-- `/research/current-inquiry` — the single highlighted current inquiry;
-- `/research/agenda` — wider active and open questions;
+- `/research/publications` — selected published and documented research-related work;
 - `/research/methods-ethics-evidence` — public evidence and participant-protection standard;
-- `/research/publications` — curated research-related discovery;
-- `/research/notes/...` — canonical research, field, literature, and design notes.
+- `/research/notes/...` — canonical research, field, literature, and design notes and reviews;
+- `/research/timeline` — chronological archive of registered published work.
 
 ### Projects publishing model
 
@@ -376,9 +371,7 @@ Practice pages may link to Research and Writing, but do not duplicate those cano
 Vocora content is distributed by type, with one canonical home for each page:
 
 - `/projects/vocora` — project overview and current state;
-- `/projects/vocora/research-agenda` — questions, methods, and boundaries;
 - `/projects/vocora/publications` — curated project index;
-- `/projects/vocora/research-log` — dated changes in evidence, measurements, and decisions;
 - `/research/notes/...` — research and design notes;
 - `/writing/translations/...` — translated work, even when an older stable permalink does not mirror the current folder;
 - `/projects/experiments/...` — protocols and results when formal experiments exist.
@@ -484,7 +477,7 @@ Use a content label near the beginning of a page when readers could otherwise mi
 
 - Essay
 - Essay · Retrospective Practitioner Reflection
-- Open Question
+- Inquiry Note
 - Working Research Note
 - Field Note
 - Literature Review

@@ -11,7 +11,7 @@ permalink: /projects/experiments
 
 # Experiments
 
-This section is reserved for work with an explicit question, method, measurement plan, and result.
+This section is reserved for completed or inconclusive work with an explicit question, method, measurement, and result.
 
 A report should normally include:
 
@@ -24,8 +24,8 @@ A report should normally include:
 7. Results
 8. Interpretation
 9. Limitations and ethical considerations
-10. Decision and next step
+10. Decision and limitations
 
-Statuses may be **Planned**, **Running**, **Completed**, or **Inconclusive**. An inconclusive or unsupported hypothesis is still useful when the method and limitations are documented clearly.
+An inconclusive or unsupported hypothesis is still useful when the method, result, and limitations are documented clearly. Planned studies and in-progress experiment logs are not published here.
 
 No formal Vocora experiment report has been published here yet. Product features and design decisions remain project documentation until they are evaluated with an appropriate method.
