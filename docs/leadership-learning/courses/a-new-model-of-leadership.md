@@ -11,7 +11,7 @@ date_modified: 2026-07-22
 last_modified_date: 2026-07-22
 seo:
   type: Article
-permalink: /leadership-learning/courses/a-new-model-of-leadership
+permalink: /work/leadership-learning/courses/a-new-model-of-leadership
 categories:
   - leadership
   - courses

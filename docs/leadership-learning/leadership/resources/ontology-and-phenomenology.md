@@ -3,7 +3,7 @@ layout: default
 title: هستی شناسی و پدیدار شناسی
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/ontology-and-phenomenology
+permalink: /work/leadership-learning/leadership/resources/ontology-and-phenomenology
 ---
 
 # هستی شناسی و پدیدار شناسی: دو رویکرد به فهم وجود

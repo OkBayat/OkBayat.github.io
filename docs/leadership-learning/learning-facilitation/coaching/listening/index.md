@@ -3,7 +3,7 @@ layout: article
 title: گوش دادن
 parent: Coaching
 direction: rtl
-permalink: /leadership-learning/learning-facilitation/coaching/listening
+permalink: /work/leadership-learning/learning-facilitation/coaching/listening
 ---
 
 # گوش دادن

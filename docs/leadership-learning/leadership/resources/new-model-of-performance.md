@@ -3,7 +3,7 @@ layout: article
 title: مدل جدید عملکرد
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/new-model-of-performance
+permalink: /work/leadership-learning/leadership/resources/new-model-of-performance
 ---
 
 # مدل جدید عملکرد

@@ -10,7 +10,7 @@ author: Mohammad Bayat
 last_modified_date: 2026-07-17
 status: working-note
 project: vocora
-permalink: /research/notes/hebbs-rule
+permalink: /research-practice/notes/hebbs-rule
 categories:
   - research
   - research-notes

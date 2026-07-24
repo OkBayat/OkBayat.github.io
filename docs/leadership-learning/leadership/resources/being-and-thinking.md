@@ -3,7 +3,7 @@ layout: default
 title: تمایز بین فکر کردن و بودن
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/being-and-thinking
+permalink: /work/leadership-learning/leadership/resources/being-and-thinking
 ---
 
 # تمایز بین فکر کردن و بودن: کشف حقیقتی عمیقتر از ذهن

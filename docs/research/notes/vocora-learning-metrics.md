@@ -11,7 +11,7 @@ date: 2026-07-17
 last_modified_date: 2026-07-17
 status: working-note
 project: vocora
-permalink: /research/notes/vocora-learning-metrics
+permalink: /research-practice/notes/vocora-learning-metrics
 categories:
   - research
   - research-notes
@@ -31,7 +31,7 @@ sitemap: true
 { Working Research and Design Note · Vocora | fs-6 }
 
 > **Status:** Working note, not peer reviewed  
-> **Project:** [Vocora](/projects/vocora)
+> **Project:** [Vocora](/work/projects/vocora)
 > **Last revised:** July 17, 2026
 
 ## The Question

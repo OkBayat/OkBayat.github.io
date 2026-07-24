@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership-learning/courses/1st-leadership-in-action
+permalink: /work/leadership-learning/courses/1st-leadership-in-action
 nav_order: 6
 parent: Courses
 title: دوره‌ی اول راهبری در عمل

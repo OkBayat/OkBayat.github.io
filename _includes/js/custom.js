@@ -52,19 +52,15 @@ function primaryNavigationHref(pathname) {
     return "/about"
   }
 
-  if (
-    pathname === "/work" ||
-    pathname.indexOf("/work/") === 0 ||
-    pathname === "/projects" ||
-    pathname.indexOf("/projects/") === 0 ||
-    pathname === "/leadership-learning" ||
-    pathname.indexOf("/leadership-learning/") === 0
-  ) {
+  if (pathname === "/work" || pathname.indexOf("/work/") === 0) {
     return "/work"
   }
 
-  if (pathname === "/research" || pathname.indexOf("/research/") === 0) {
-    return "/research"
+  if (
+    pathname === "/research-practice" ||
+    pathname.indexOf("/research-practice/") === 0
+  ) {
+    return "/research-practice"
   }
 
   if (pathname === "/writing" || pathname.indexOf("/writing/") === 0) {

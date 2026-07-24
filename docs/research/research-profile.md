@@ -5,7 +5,7 @@ parent: Research & Practice
 nav_order: 1
 direction: ltr
 description: "Mohammad Bayat's practice-based research profile across learning, leadership, language, identity, coordination, and durable change."
-permalink: /research/profile
+permalink: /research-practice/profile
 ---
 
 # Research Profile
@@ -39,4 +39,4 @@ My practice-based inquiry focuses on:
 - leadership, responsibility, and group coordination;
 - the relationship between context, identity, and the availability of prior learning.
 
-My approach to evidence and participant protection is stated in [Methods, Ethics & Evidence](/research/methods-ethics-evidence).
+My approach to evidence and participant protection is stated in [Methods, Ethics & Evidence](/research-practice/methods-ethics-evidence).

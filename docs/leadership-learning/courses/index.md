@@ -8,7 +8,7 @@ direction: rtl
 lang: fa
 locale: fa_IR
 description: "آرشیو برنامه‌ها و دوره‌های راهبری محمد بیات، همراه با منابع و مرزهای ادعاهای موجود."
-permalink: /leadership-learning/courses
+permalink: /work/leadership-learning/courses
 ---
 
 # برنامه‌ها و دوره‌های راهبری
@@ -29,14 +29,14 @@ permalink: /leadership-learning/courses
 
 ## سابقه‌ی برنامه‌ی چیرگی بر زندگی
 
-صفحه‌ی [چیرگی بر زندگی؛ سابقه و پرسش‌های یک برنامه](/leadership-learning/human-transformation/practice-programs/mastery-for-life) توضیح می‌دهد که این برنامه چگونه برگزار شده، چه پرسش‌هایی را دنبال می‌کند، چه نوع مشاهده‌هایی موجود است و چه چیزهایی هنوز اندازه‌گیری نشده‌اند.
+صفحه‌ی [چیرگی بر زندگی؛ سابقه و پرسش‌های یک برنامه](/work/leadership-learning/human-transformation/practice-programs/mastery-for-life) توضیح می‌دهد که این برنامه چگونه برگزار شده، چه پرسش‌هایی را دنبال می‌کند، چه نوع مشاهده‌هایی موجود است و چه چیزهایی هنوز اندازه‌گیری نشده‌اند.
 
 ## منابع و مدل‌ها
 
 دو صفحه از منابع دوره برای آشنایی با بخشی از مدل‌ها و مبانی راهبری عبارت‌اند از:
 
-- [بوته‌های آزمایش راهبری](/leadership-learning/courses/crucibles-of-leadership)
-- [مدل جدید راهبری](/leadership-learning/courses/a-new-model-of-leadership)
+- [بوته‌های آزمایش راهبری](/work/leadership-learning/courses/crucibles-of-leadership)
+- [مدل جدید راهبری](/work/leadership-learning/courses/a-new-model-of-leadership)
 
 وضعیت ترجمه، اقتباس، نقل‌قول و تفسیر شخصی در این صفحات باید به‌روشنی مشخص بماند.
 

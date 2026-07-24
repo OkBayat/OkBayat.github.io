@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership-learning/courses/1st-integrity
+permalink: /work/leadership-learning/courses/1st-integrity
 nav_order: 20
 parent: Courses
 title: دوره‌ی اول یکپارچگی

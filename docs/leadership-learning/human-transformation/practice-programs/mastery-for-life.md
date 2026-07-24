@@ -26,7 +26,7 @@ tags:
   - راهبری
   - یادگیری گروهی
 sitemap: true
-permalink: /leadership-learning/human-transformation/practice-programs/mastery-for-life
+permalink: /work/leadership-learning/human-transformation/practice-programs/mastery-for-life
 ---
 
 # چیرگی بر زندگی؛ سابقه و پرسش‌های یک برنامه
@@ -66,7 +66,7 @@ permalink: /leadership-learning/human-transformation/practice-programs/mastery-f
 
 وجود یک منبع یا وعده در متن اصلیِ یک مدل، به معنی اثبات آن وعده در برنامه‌ی من نیست. صفحات ترجمه، یادداشت منبع، تفسیر شخصی و نتیجه‌ی ارزیابی باید از یکدیگر جدا بمانند.
 
-آرشیو فعلی منابع و دوره‌های قدیمی در بخش [Leadership](/leadership-learning/leadership) نگهداری می‌شود.
+آرشیو فعلی منابع و دوره‌های قدیمی در بخش [Leadership](/work/leadership-learning/leadership) نگهداری می‌شود.
 
 ## پرسش‌هایی که برنامه برای من زنده نگه می‌دارد
 
@@ -80,7 +80,7 @@ permalink: /leadership-learning/human-transformation/practice-programs/mastery-f
 - چه تفاوتی میان احساسِ تحول، تغییر رفتار قابل مشاهده و تحول پایدار وجود دارد؟
 - چه چیزی باعث می‌شود بعضی افراد پس از پایان دوره به الگوهای قبلی بازگردند؟
 
-نوشته‌ها و یادداشت‌های منتشرشده‌ی مرتبط با این پرسش‌ها در [آثار برگزیده‌ی مرتبط با پژوهش](/research/publications-fa) گردآوری شده‌اند.
+نوشته‌ها و یادداشت‌های منتشرشده‌ی مرتبط با این پرسش‌ها در [آثار برگزیده‌ی مرتبط با پژوهش](/research-practice/publications-fa) گردآوری شده‌اند.
 
 ## شکل اجرا
 

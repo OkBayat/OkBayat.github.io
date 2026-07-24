@@ -3,7 +3,7 @@ layout: default
 title: مدل جدید عملکرد - خلاصه
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/new-model-of-performance-summary
+permalink: /work/leadership-learning/leadership/resources/new-model-of-performance-summary
 ---
 
 # مدل جدید عملکرد - خلاصه

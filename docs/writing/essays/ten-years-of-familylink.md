@@ -215,7 +215,7 @@ FamilyLink helped people. FamilyLink also failed to become sustainable. Both sta
 
 The project is paused now. I may return to it. If I do, the goal will not be to restore the old story or prove that the original vision was right. The goal will be to build a smaller, clearer, safer, and more durable system for supporting children and the people responsible for their care.
 
-The factual project record is available at [FamilyLink](/projects/familylink).
+The factual project record is available at [FamilyLink](/work/projects/familylink).
 
 ## Revision History
 

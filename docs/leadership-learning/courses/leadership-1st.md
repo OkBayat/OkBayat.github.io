@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership-learning/courses/1st-leadership
+permalink: /work/leadership-learning/courses/1st-leadership
 nav_order: 10
 parent: Courses
 title: دوره‌ی اول راهبری

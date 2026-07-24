@@ -64,14 +64,14 @@ permalink: /writing/all-fa
 
 ## سوابق پروژه، برنامه و رسانه
 
-- [K2Quant](/projects/k2quant) — سیستم‌های کمی، نرم‌افزار، هوش مصنوعی، عملیات فنی و شرکت‌سازی.
-- [Vocora](/projects/vocora) — پروژه‌ای متن‌باز درباره‌ی یادگیری، حافظه، تمرین زبان و فناوری یادگیری.
-- [K2 OS](/projects/k2-os) — پروژه‌ی سیستم‌عامل کسب‌وکار که در حال مستندسازی است.
-- [FamilyLink](/projects/familylink) — پروژه‌ی متوقف‌شده‌ی اثر اجتماعی با سابقه‌ی عمومیِ فعالیت و محدودیت‌های شواهد.
-- [حلقه‌ی یادگیری](/leadership-learning/human-transformation/field-projects/learning-circle) — سابقه‌ای عمومی و تعمیم‌یافته درباره‌ی مالکیت یادگیری و عقب‌نشینی تسهیل‌گر.
-- [چیرگی بر زندگی](/leadership-learning/human-transformation/practice-programs/mastery-for-life) — سابقه‌ی برنامه‌ای که تاریخچه و گزارش شرکت‌کنندگان را از ادعای اثربخشی جدا می‌کند.
+- [K2Quant](/work/projects/k2quant) — سیستم‌های کمی، نرم‌افزار، هوش مصنوعی، عملیات فنی و شرکت‌سازی.
+- [Vocora](/work/projects/vocora) — پروژه‌ای متن‌باز درباره‌ی یادگیری، حافظه، تمرین زبان و فناوری یادگیری.
+- [K2 OS](/work/projects/k2-os) — پروژه‌ی سیستم‌عامل کسب‌وکار که در حال مستندسازی است.
+- [FamilyLink](/work/projects/familylink) — پروژه‌ی متوقف‌شده‌ی اثر اجتماعی با سابقه‌ی عمومیِ فعالیت و محدودیت‌های شواهد.
+- [حلقه‌ی یادگیری](/work/leadership-learning/human-transformation/field-projects/learning-circle) — سابقه‌ای عمومی و تعمیم‌یافته درباره‌ی مالکیت یادگیری و عقب‌نشینی تسهیل‌گر.
+- [چیرگی بر زندگی](/work/leadership-learning/human-transformation/practice-programs/mastery-for-life) — سابقه‌ی برنامه‌ای که تاریخچه و گزارش شرکت‌کنندگان را از ادعای اثربخشی جدا می‌کند.
 - [اینجا-آنجا](/writing/podcast/inja-anja) — پادکستی فارسی درباره‌ی جهان‌بینی، زبان، ادراک و تحول.
-- [آزمایش‌ها](/projects/experiments) — خانه‌ی مرجع پروتکل‌ها و نتایج رسمی، هر زمان که وجود داشته باشند.
+- [آزمایش‌ها](/work/projects/experiments) — خانه‌ی مرجع پروتکل‌ها و نتایج رسمی، هر زمان که وجود داشته باشند.
 
 ## قاعده‌ی انتشار
 

@@ -28,7 +28,7 @@ tags:
   - reflective-practice
   - human-transformation
 sitemap: true
-permalink: /research/notes/what-remains-when-the-course-ends
+permalink: /research-practice/notes/what-remains-when-the-course-ends
 ---
 
 # What Remains When the Course Ends?

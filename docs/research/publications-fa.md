@@ -7,7 +7,7 @@ direction: rtl
 lang: fa
 locale: fa_IR
 description: "نمایه‌ای گزیده از جستارهای منتشرشده، یادداشت‌های پژوهشی و مطالعاتی، ترجمه‌ها، سوابق میدانی و صفحات پروژه مرتبط با تحول انسان."
-permalink: /research/publications-fa
+permalink: /research-practice/publications-fa
 ---
 
 # آثار برگزیده‌ی مرتبط با پژوهش
@@ -18,9 +18,9 @@ permalink: /research/publications-fa
 
 ## سوابق برنامه‌ها و فعالیت‌های میدانی
 
-- [حلقه‌ی یادگیری](/leadership-learning/human-transformation/field-projects/learning-circle) — خودمختاری کودکان، آموزش همسالان، هماهنگی گروه و عقب‌نشینی تدریجی تسهیل‌گر.
-- [سابقه‌ی برنامه‌ی چیرگی بر زندگی](/leadership-learning/human-transformation/practice-programs/mastery-for-life) — تاریخچه‌ی برنامه، پرسش‌ها، گزارش‌های شخصی شرکت‌کنندگان و محدودیت‌های شواهد.
-- [راهبری](/leadership-learning/leadership) — درگاه کوچینگ، دوره‌ها، منابع و مواد میدانی موجود.
+- [حلقه‌ی یادگیری](/work/leadership-learning/human-transformation/field-projects/learning-circle) — خودمختاری کودکان، آموزش همسالان، هماهنگی گروه و عقب‌نشینی تدریجی تسهیل‌گر.
+- [سابقه‌ی برنامه‌ی چیرگی بر زندگی](/work/leadership-learning/human-transformation/practice-programs/mastery-for-life) — تاریخچه‌ی برنامه، پرسش‌ها، گزارش‌های شخصی شرکت‌کنندگان و محدودیت‌های شواهد.
+- [راهبری](/work/leadership-learning/leadership) — درگاه کوچینگ، دوره‌ها، منابع و مواد میدانی موجود.
 
 ## روابط، پذیرش و کامل‌شدن
 
@@ -34,15 +34,15 @@ permalink: /research/publications-fa
 
 {% include publication-list-fa.html body="human-transformation" theme="learning-memory-language" %}
 
-Vocora پروژه‌ای نرم‌افزاری با دامنه‌ی مشخص در دل این پرسش گسترده‌تر است. نوشته‌های اختصاصی آن در [انتشارات و یادداشت‌های Vocora](/projects/vocora/publications) گردآوری شده‌اند.
+Vocora پروژه‌ای نرم‌افزاری با دامنه‌ی مشخص در دل این پرسش گسترده‌تر است. نوشته‌های اختصاصی آن در [انتشارات و یادداشت‌های Vocora](/work/projects/vocora/publications) گردآوری شده‌اند.
 
 ## فلسفه، جهان‌بینی و زمینه
 
 {% include publication-list-fa.html body="human-transformation" theme="philosophy-worldview" %}
 
 - [پادکست «اینجا-آنجا»](/writing/podcast/inja-anja) — گفت‌وگوهایی درباره‌ی جهان‌بینی، چارچوب‌های مرجع، ادراک، زبان و یکپارچگی.
-- [کتابخانه‌ی منابع تحول انسان](/leadership-learning/human-transformation/source-library) — تبار منابع و نقشه‌های مفهومی.
-- [کتابخانه‌ی منابع راهبری](/leadership-learning/leadership/resources) — ترجمه‌ها و مطالب مفهومی که تبار منابعشان آشکار باقی می‌ماند.
+- [کتابخانه‌ی منابع تحول انسان](/work/leadership-learning/human-transformation/source-library) — تبار منابع و نقشه‌های مفهومی.
+- [کتابخانه‌ی منابع راهبری](/work/leadership-learning/leadership/resources) — ترجمه‌ها و مطالب مفهومی که تبار منابعشان آشکار باقی می‌ماند.
 
 ## معیار انتخاب
 

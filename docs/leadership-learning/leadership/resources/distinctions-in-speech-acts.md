@@ -3,7 +3,7 @@ layout: default
 title: تمایزهایی در اعمال گفتاری
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/distinctions-in-speech-acts
+permalink: /work/leadership-learning/leadership/resources/distinctions-in-speech-acts
 ---
 
 # تمایزهایی در اعمال گفتاری

@@ -3,7 +3,7 @@ layout: default
 title: شیوه‌ی بودن
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/way-of-being
+permalink: /work/leadership-learning/leadership/resources/way-of-being
 ---
 
 # شیوه‌ی بودن

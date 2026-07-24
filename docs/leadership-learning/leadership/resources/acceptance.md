@@ -3,7 +3,7 @@ layout: default
 title: پذیرش
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/acceptance
+permalink: /work/leadership-learning/leadership/resources/acceptance
 ---
 
 # پذیرش

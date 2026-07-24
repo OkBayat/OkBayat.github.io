@@ -4,7 +4,7 @@ title: محتوای دوره‌ی راهبری
 parent: Courses
 direction: rtl
 nav_order: 3
-permalink: /leadership-learning/courses/content-of-the-course
+permalink: /work/leadership-learning/courses/content-of-the-course
 ---
 
 # محتوای دوره‌ی راهبری

@@ -5,7 +5,7 @@ parent: Human Transformation
 nav_order: 3
 direction: ltr
 description: "Practice-based projects used to document questions about learning, coordination, context, and durable change."
-permalink: /leadership-learning/human-transformation/field-projects
+permalink: /work/leadership-learning/human-transformation/field-projects
 ---
 
 # Field Projects
@@ -14,7 +14,7 @@ Field projects document questions and observations that arise in real settings. 
 
 ## Published Field Records
 
-### [Learning Circle](/leadership-learning/human-transformation/field-projects/learning-circle)
+### [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle)
 
 A longitudinal field project about children's independent learning, peer teaching, group coordination, and the gradual withdrawal of the adult facilitator.
 

@@ -3,7 +3,7 @@ layout: default
 title: آنچه با آن سروکار دارید
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/what-you-are-dealing-with
+permalink: /work/leadership-learning/leadership/resources/what-you-are-dealing-with
 ---
 
 # آنچه با آن سروکار دارید

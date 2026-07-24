@@ -5,7 +5,7 @@ parent: Projects
 nav_order: 2
 direction: ltr
 description: "An open-source research-and-building project about learning, memory, language practice, and learning technology."
-permalink: /projects/vocora
+permalink: /work/projects/vocora
 ---
 
 # Vocora
@@ -18,7 +18,7 @@ The long-term motivation is broad: to understand learning and memory more carefu
 
 ## Relationship to Human Transformation
 
-Vocora is one bounded project within the broader [Human Transformation](/leadership-learning/human-transformation) inquiry. It provides a concrete software setting for a limited set of questions about learning and measurement. It is not the container for the wider questions about identity, worldview, leadership, children's learning, group coordination, or quality of life.
+Vocora is one bounded project within the broader [Human Transformation](/work/leadership-learning/human-transformation) inquiry. It provides a concrete software setting for a limited set of questions about learning and measurement. It is not the container for the wider questions about identity, worldview, leadership, children's learning, group coordination, or quality of life.
 
 ## Why It Exists
 

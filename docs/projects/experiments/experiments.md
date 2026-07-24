@@ -6,7 +6,7 @@ nav_order: 5
 nav_exclude: false
 direction: ltr
 description: "Documented product and research experiments, including methods, results, and limitations."
-permalink: /projects/experiments
+permalink: /work/projects/experiments
 ---
 
 # Experiments

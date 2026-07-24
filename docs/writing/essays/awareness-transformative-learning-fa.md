@@ -29,7 +29,7 @@ tags:
   - اخلاق پژوهش
   - تحول انسانی
 sitemap: true
-permalink: /research/notes/awareness-transformative-learning-fa
+permalink: /research-practice/notes/awareness-transformative-learning-fa
 ---
 
 # آیا آگاهی می‌تواند فضایی برای تغییر بگشاید؟ تأملی گذشته‌نگر بر عمل تسهیل‌گری

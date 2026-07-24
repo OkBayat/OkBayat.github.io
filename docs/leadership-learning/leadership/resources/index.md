@@ -8,7 +8,7 @@ direction: rtl
 lang: fa
 locale: fa_IR
 description: "کتابخانه‌ی منابع، ترجمه‌ها و یادداشت‌های مفهومی در حوزه راهبری، با تأکید بر نویسنده، منبع و مرز میان نقل و تفسیر."
-permalink: /leadership-learning/leadership/resources
+permalink: /work/leadership-learning/leadership/resources
 ---
 
 # کتابخانه‌ی منابع راهبری
@@ -35,8 +35,8 @@ permalink: /leadership-learning/leadership/resources
 
 صفحات جزئی این بخش از navigation اصلی کنار گذاشته شده‌اند تا sidebar شلوغ نشود؛ آن‌ها همچنان از طریق این صفحه، لینک‌های داخلی و جست‌وجوی سایت در دسترس‌اند.
 
-ترجمه‌ها و اقتباس‌هایی که به‌صورت مقاله منتشر می‌شوند باید در بخش canonicalِ [Translations](/writing/translations) قرار گیرند. مرور شواهد و تفسیر شخصی نیز باید در [Research Notes](/research/notes) منتشر شود.
+ترجمه‌ها و اقتباس‌هایی که به‌صورت مقاله منتشر می‌شوند باید در بخش canonicalِ [Translations](/writing/translations) قرار گیرند. مرور شواهد و تفسیر شخصی نیز باید در [Research Notes](/research-practice/notes) منتشر شود.
 
 ## ارتباط با برنامه‌ی تحول انسان
 
-این کتابخانه یکی از ورودی‌های [Source Library تحول انسان](/leadership-learning/human-transformation/source-library) است. نقش آن حفظ lineage منابع است، نه تبدیل همه‌ی مفاهیم به نتیجه‌ی نهایی.
+این کتابخانه یکی از ورودی‌های [Source Library تحول انسان](/work/leadership-learning/human-transformation/source-library) است. نقش آن حفظ lineage منابع است، نه تبدیل همه‌ی مفاهیم به نتیجه‌ی نهایی.

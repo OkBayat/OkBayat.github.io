@@ -3,7 +3,7 @@ layout: default
 title: برخی جنبه‌های آموزش est و روان‌شناسی فراشخصی
 parent: گفتگو‌های تحولی
 direction: rtl
-permalink: /leadership-learning/leadership/resources/transformational-conversations/some-aspects-of-the-est-training-and-transpersonal-psychology
+permalink: /work/leadership-learning/leadership/resources/transformational-conversations/some-aspects-of-the-est-training-and-transpersonal-psychology
 ---
 
 # برخی جنبه‌های آموزش est و روان‌شناسی فراشخصی

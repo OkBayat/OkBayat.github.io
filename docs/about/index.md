@@ -18,4 +18,4 @@ This section provides context for the work published on okbayat.com.
 - [Values](/about/values) — principles used to guide decisions and public work
 - [Resume](/about/resume) — selected experience, projects, and practice
 
-For practical work, see [Work](/work). For inquiry, evidence, and methods, see [Research & Practice](/research). For published work, see [Writing](/writing).
+For practical work, see [Work](/work). For inquiry, evidence, and methods, see [Research & Practice](/research-practice). For published work, see [Writing](/writing).

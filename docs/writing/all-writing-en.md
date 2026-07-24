@@ -52,14 +52,14 @@ Browse essay topics: [Artificial Intelligence](/writing/essays/topics/artificial
 
 ## Project, Program & Media Records
 
-- [K2Quant](/projects/k2quant) — quantitative systems, software, artificial intelligence, technical operations, and company-building.
-- [Vocora](/projects/vocora) — an open-source research-and-building project about learning, memory, language practice, and learning technology.
-- [K2 OS](/projects/k2-os) — a business operating-system project currently being documented.
-- [FamilyLink](/projects/familylink) — a paused social-impact project with a public record of its operating history and evidence limits.
-- [Learning Circle](/leadership-learning/human-transformation/field-projects/learning-circle) — a generalized field-project record about learner ownership and facilitator withdrawal.
-- [Mastery for Life](/leadership-learning/human-transformation/practice-programs/mastery-for-life) — a program record that separates history and participant report from efficacy claims.
+- [K2Quant](/work/projects/k2quant) — quantitative systems, software, artificial intelligence, technical operations, and company-building.
+- [Vocora](/work/projects/vocora) — an open-source research-and-building project about learning, memory, language practice, and learning technology.
+- [K2 OS](/work/projects/k2-os) — a business operating-system project currently being documented.
+- [FamilyLink](/work/projects/familylink) — a paused social-impact project with a public record of its operating history and evidence limits.
+- [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle) — a generalized field-project record about learner ownership and facilitator withdrawal.
+- [Mastery for Life](/work/leadership-learning/human-transformation/practice-programs/mastery-for-life) — a program record that separates history and participant report from efficacy claims.
 - [Inja-Anja](/writing/podcast/inja-anja) — a Persian-language podcast about worldview, language, perception, and transformation.
-- [Experiments](/projects/experiments) — the canonical home for formal protocols and results when they exist.
+- [Experiments](/work/projects/experiments) — the canonical home for formal protocols and results when they exist.
 
 ## Publication Rule
 

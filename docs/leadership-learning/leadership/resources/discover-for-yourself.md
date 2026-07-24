@@ -3,7 +3,7 @@ layout: default
 title: برای-خود-کشف-کردن
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/discover-for-yourself
+permalink: /work/leadership-learning/leadership/resources/discover-for-yourself
 ---
 
 # کشف کردن

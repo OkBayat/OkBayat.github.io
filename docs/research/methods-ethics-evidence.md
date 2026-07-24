@@ -6,7 +6,7 @@ nav_order: 3
 direction: ltr
 description: "Standards for evidence, consent, privacy, role conflicts, and research-facing public work on okbayat.com."
 last_modified_date: 2026-07-24
-permalink: /research/methods-ethics-evidence
+permalink: /research-practice/methods-ethics-evidence
 ---
 
 # Methods, Ethics & Evidence

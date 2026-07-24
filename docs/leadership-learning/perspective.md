@@ -5,7 +5,7 @@ parent: Leadership & Learning
 nav_order: 1
 direction: ltr
 description: "Mohammad Bayat's perspective on leadership, learning, context, responsibility, and durable change."
-permalink: /leadership-learning/perspective
+permalink: /work/leadership-learning/perspective
 ---
 
 # Leadership & Learning Perspective
@@ -20,4 +20,4 @@ My current perspective is guided by five principles:
 4. **The facilitator is part of the system.** Presence, authority, expectations, and evaluation can alter what participants say and do.
 5. **Claims must match evidence.** Experience can generate insight and questions without proving a universal result.
 
-This perspective is developed through [Leadership](/leadership-learning/leadership), [Human Transformation](/leadership-learning/human-transformation), [Learning & Facilitation](/leadership-learning/learning-facilitation), and the published work collected under [Selected Research-Related Work](/research/publications).
+This perspective is developed through [Leadership](/work/leadership-learning/leadership), [Human Transformation](/work/leadership-learning/human-transformation), [Learning & Facilitation](/work/leadership-learning/learning-facilitation), and the published work collected under [Selected Research-Related Work](/research-practice/publications).

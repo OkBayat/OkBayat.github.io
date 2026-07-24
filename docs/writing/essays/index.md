@@ -17,7 +17,7 @@ Subject discovery is handled separately. Each conceptual work is classified by o
 
 A page belongs elsewhere when its main purpose is different:
 
-- unfinished investigations and evidence reviews belong in [Research Notes](/research/notes);
+- unfinished investigations and evidence reviews belong in [Research Notes](/research-practice/notes);
 - source-specific reflections belong in [Reading Notes](/writing/reading-notes);
 - work written by another author belongs in [Translations](/writing/translations) with clear attribution.
 
@@ -41,7 +41,7 @@ Related technical, organizational, startup, and project writing is also collecte
 {% endif %}
 {% endfor %}
 
-Related research-facing writing about learning, identity, language, relationships, leadership, and coordination is also collected in [Selected Research-Related Work](/research/publications).
+Related research-facing writing about learning, identity, language, relationships, leadership, and coordination is also collected in [Selected Research-Related Work](/research-practice/publications).
 
 ## Browse by Theme
 

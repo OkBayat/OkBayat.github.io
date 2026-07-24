@@ -4,7 +4,7 @@ title: قوانین انصراف از دوره
 parent: Courses
 direction: rtl
 nav_order: 100
-permalink: /leadership-learning/courses/refund
+permalink: /work/leadership-learning/courses/refund
 ---
 
 ### قوانین انصراف از دوره

@@ -14,7 +14,7 @@ permalink: /about/resume
 
 Founder, Software Engineer, and Leadership Facilitator with more than 15 years of experience building web, market, and quantitative software systems.
 
-My practice-based inquiry focuses on human learning, reflective practice, leadership, and durable change. My current work is centered on [K2Quant](/projects/k2quant) and [Human Transformation](/leadership-learning/human-transformation), including [Learning Circle](/leadership-learning/human-transformation/field-projects/learning-circle), facilitated programs, leadership and organizational practice, and [Vocora](/projects/vocora). My longer project history also includes [FamilyLink](/projects/familylink), a family-support initiative that is currently paused.
+My practice-based inquiry focuses on human learning, reflective practice, leadership, and durable change. My current work is centered on [K2Quant](/work/projects/k2quant) and [Human Transformation](/work/leadership-learning/human-transformation), including [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle), facilitated programs, leadership and organizational practice, and [Vocora](/work/projects/vocora). My longer project history also includes [FamilyLink](/work/projects/familylink), a family-support initiative that is currently paused.
 
 <details open markdown="block">
   <summary>Table of contents</summary>
@@ -44,7 +44,7 @@ Selected work includes:
 
 This work is independent and is not presented as an academic affiliation, clinical program, or peer-reviewed research institution.
 
-[Program overview](/leadership-learning/human-transformation) · [Selected research-related work](/research/publications)
+[Program overview](/work/leadership-learning/human-transformation) · [Selected research-related work](/research-practice/publications)
 
 #### Learning Circle — Field Project Designer and Facilitator
 
@@ -61,7 +61,7 @@ Learning Circle began as a programming activity with children and became a bound
 
 The current record is a practice-based field observation, not a causal experiment or a claim of permanent transformation.
 
-[Field project record](/leadership-learning/human-transformation/field-projects/learning-circle)
+[Field project record](/work/leadership-learning/human-transformation/field-projects/learning-circle)
 
 #### Mastery for Life — Program Designer and Facilitator
 
@@ -76,7 +76,7 @@ A recurring facilitated program in Persian concerned with language, identity, wo
 - Documented current limitations, including the absence of standardized baseline, comparison group, longitudinal outcome, and independent evaluation.
 - Removed expired registration language from the permanent research-facing record.
 
-[Program record](/leadership-learning/human-transformation/practice-programs/mastery-for-life)
+[Program record](/work/leadership-learning/human-transformation/practice-programs/mastery-for-life)
 
 ### FamilyLink
 
@@ -93,7 +93,7 @@ FamilyLink was a family-support and social-impact initiative intended to reduce 
 - Documented the difference between services delivered and outcomes that were not consistently measured, including whether family separation was prevented or household income became durable.
 - Defined safeguarding, privacy, measurement, governance, and funding conditions for any future restart.
 
-[Project record](/projects/familylink) · [Project reflection](/writing/essays/ten-years-of-familylink)
+[Project record](/work/projects/familylink) · [Project reflection](/writing/essays/ten-years-of-familylink)
 
 ### Vocora
 
@@ -112,7 +112,7 @@ Current work includes:
 
 Vocora is not presented as an academic affiliation, clinical project, or validated neuroscience intervention. Its current output is software and practice-based research documentation.
 
-[Project overview](/projects/vocora) · [Source code](https://github.com/OkBayat/vocora)
+[Project overview](/work/projects/vocora) · [Source code](https://github.com/OkBayat/vocora)
 
 ---
 

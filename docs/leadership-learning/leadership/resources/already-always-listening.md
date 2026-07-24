@@ -3,7 +3,7 @@ layout: default
 title: گوش‌دادن ازقبل-همیشه
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/already-always-listening
+permalink: /work/leadership-learning/leadership/resources/already-always-listening
 ---
 
 # گوش‌دادنِ ازقبل-همیشه

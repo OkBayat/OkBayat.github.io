@@ -310,30 +310,30 @@ Reports with an explicit question, hypothesis, method, participants or dataset, 
 
 ### Research publishing model
 
-- `/research` — research portfolio overview;
-- `/research/profile` — practice-based inquiry, research interests, and position;
-- `/research/publications` — selected published and documented research-related work;
-- `/research/methods-ethics-evidence` — public evidence and participant-protection standard;
-- `/research/notes/...` — canonical research, field, literature, and design notes and reviews;
-- `/research/timeline` — chronological archive of registered published work.
+- `/research-practice` — research portfolio overview;
+- `/research-practice/profile` — practice-based inquiry, research interests, and position;
+- `/research-practice/publications` — selected published and documented research-related work;
+- `/research-practice/methods-ethics-evidence` — public evidence and participant-protection standard;
+- `/research-practice/notes/...` — canonical research, field, literature, and design notes and reviews;
+- `/research-practice/timeline` — chronological archive of registered published work.
 
 ### Projects publishing model
 
-- `/projects` — portfolio of work built or directly led by Mohammad;
-- `/projects/k2quant` — K2Quant overview and related writing;
-- `/projects/vocora` — Vocora overview and current state;
-- `/projects/k2-os` — K2 OS project record;
-- `/projects/familylink` — FamilyLink project record;
-- `/projects/experiments` — protocols and results when formal experiments exist;
+- `/work/projects` — portfolio of work built or directly led by Mohammad;
+- `/work/projects/k2quant` — K2Quant overview and related writing;
+- `/work/projects/vocora` — Vocora overview and current state;
+- `/work/projects/k2-os` — K2 OS project record;
+- `/work/projects/familylink` — FamilyLink project record;
+- `/work/projects/experiments` — protocols and results when formal experiments exist;
 - `/writing/all` — complete discovery index for writing and durable records.
 
 ### Leadership & Learning publishing model
 
-- `/leadership-learning` — practice overview;
-- `/leadership-learning/leadership` — leadership practice and source material;
-- `/leadership-learning/human-transformation` — Human Transformation practice archive;
-- `/leadership-learning/learning-facilitation` — facilitation, coaching, and learner-ownership questions;
-- `/leadership-learning/courses` — current and historical course records.
+- `/work/leadership-learning` — practice overview;
+- `/work/leadership-learning/leadership` — leadership practice and source material;
+- `/work/leadership-learning/human-transformation` — Human Transformation practice archive;
+- `/work/leadership-learning/learning-facilitation` — facilitation, coaching, and learner-ownership questions;
+- `/work/leadership-learning/courses` — current and historical course records.
 
 Practice pages may link to Research & Practice and Writing, but do not duplicate those canonical works.
 
@@ -341,11 +341,11 @@ Practice pages may link to Research & Practice and Writing, but do not duplicate
 
 Vocora content is distributed by type, with one canonical home for each page:
 
-- `/projects/vocora` — project overview and current state;
-- `/projects/vocora/publications` — curated project index;
-- `/research/notes/...` — research and design notes;
+- `/work/projects/vocora` — project overview and current state;
+- `/work/projects/vocora/publications` — curated project index;
+- `/research-practice/notes/...` — research and design notes;
 - `/writing/translations/...` — translated work, even when an older stable permalink does not mirror the current folder;
-- `/projects/experiments/...` — protocols and results when formal experiments exist.
+- `/work/projects/experiments/...` — protocols and results when formal experiments exist.
 
 The publications page links to these items; it does not duplicate them.
 

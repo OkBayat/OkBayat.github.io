@@ -35,7 +35,7 @@ OkBayat.com is a research and practice portfolio: a selected record of the syste
   role="Founder"
   evidence="Operating software, engineering systems, organizational practice, and published architecture essays"
   limits="Confidential operations and future goals are not presented as public evidence"
-  url="/projects/k2quant"
+  url="/work/projects/k2quant"
 %}
 {% include components/evidence_card.html
   type="Project"
@@ -44,7 +44,7 @@ OkBayat.com is a research and practice portfolio: a selected record of the syste
   role="Founder and builder"
   evidence="Open-source software, product metrics, and published research and design notes"
   limits="Current product use does not yet demonstrate long-term learning effectiveness"
-  url="/projects/vocora"
+  url="/work/projects/vocora"
 %}
 {% include components/evidence_card.html
   type="Field project"
@@ -53,7 +53,7 @@ OkBayat.com is a research and practice portfolio: a selected record of the syste
   role="Designer and facilitator"
   evidence="Generalized practice-based observations and a bounded historical field record"
   limits="No control group or causal claim; public details are restricted for child privacy"
-  url="/leadership-learning/human-transformation/field-projects/learning-circle"
+  url="/work/leadership-learning/human-transformation/field-projects/learning-circle"
 %}
 </div>
 
@@ -61,7 +61,7 @@ OkBayat.com is a research and practice portfolio: a selected record of the syste
 
 - [About](/about) — biography, professional journey, mastery, values, and resume.
 - [Work](/work) — companies, software, leadership practice, facilitation, programs, and documented projects.
-- [Research & Practice](/research) — inquiry profile, selected research-related work, methods, notes, and timeline.
+- [Research & Practice](/research-practice) — inquiry profile, selected research-related work, methods, notes, and timeline.
 - [Writing](/writing) — essays, reading notes, translations, podcast, and the complete writing index.
 - [Contact](/contact) — professional, research, project, or speaking inquiries.
 
@@ -69,4 +69,4 @@ OkBayat.com is a research and practice portfolio: a selected record of the syste
 
 An essay, research note, participant account, project record, and experiment report do not carry the same evidential weight. I try to distinguish published evidence, direct observation, participant self-report, interpretation, and open hypothesis—and to state what the available material cannot establish.
 
-[Read Methods, Ethics & Evidence](/research/methods-ethics-evidence)
+[Read Methods, Ethics & Evidence](/research-practice/methods-ethics-evidence)

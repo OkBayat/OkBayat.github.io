@@ -3,7 +3,7 @@ layout: default
 title: بدیهیات کرخت شده
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/tranquilized-obviousness
+permalink: /work/leadership-learning/leadership/resources/tranquilized-obviousness
 ---
 
 # بدیهیات کرخت شده

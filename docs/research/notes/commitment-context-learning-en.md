@@ -29,7 +29,7 @@ tags:
   - self-regulated-learning
   - goal-setting
 sitemap: true
-permalink: /research/notes/commitment-context-learning-en
+permalink: /research-practice/notes/commitment-context-learning-en
 ---
 
 # What Are Learners Actually Committed To? Commitment as a Context for Learning

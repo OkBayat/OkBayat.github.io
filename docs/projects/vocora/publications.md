@@ -5,7 +5,7 @@ parent: Vocora
 nav_order: 2
 direction: ltr
 description: "A curated index of research notes, translations, reading, and project documentation connected to Vocora."
-permalink: /projects/vocora/publications
+permalink: /work/projects/vocora/publications
 ---
 
 # Vocora Publications & Notes

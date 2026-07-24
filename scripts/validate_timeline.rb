@@ -8,7 +8,7 @@ require "yaml"
 ROOT = Pathname.new(__dir__).join("..").expand_path
 SITE_DIR = Pathname.new(ARGV.fetch(0, ROOT.join("_site").to_s)).expand_path
 REGISTRY_PATH = ROOT.join("_data/publications.yml")
-TIMELINE_URL = "/research/timeline"
+TIMELINE_URL = "/research-practice/timeline"
 
 
 def load_yaml(path)

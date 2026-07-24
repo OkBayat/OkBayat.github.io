@@ -7,7 +7,7 @@ direction: rtl
 lang: fa
 locale: fa_IR
 author: Mohammad Bayat
-permalink: /research/notes/journaling
+permalink: /research-practice/notes/journaling
 categories:
   - research
   - research-notes

@@ -1,7 +1,7 @@
 ---
 layout: course
 direction: rtl
-permalink: /leadership-learning/courses/1st-mastery-for-life
+permalink: /work/leadership-learning/courses/1st-mastery-for-life
 nav_order: 50
 parent: Courses
 title: دوره‌ی اول چیرگی بر زندگی

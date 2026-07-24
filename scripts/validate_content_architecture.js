@@ -6,7 +6,7 @@ const path = require("path")
 const ROOT = path.resolve(__dirname, "..")
 const errors = new Set()
 const OBSOLETE_ROUTE =
-  /^\/(?:thinking|building|human-transformation|leadership(?:\/|$)|voice(?:\/|$)|family-link(?:\/|$)|about\/(?:calendar|contact)(?:\/|$))/
+  /^\/(?:thinking|building|human-transformation|projects(?:\/|$)|leadership-learning(?:\/|$)|leadership(?:\/|$)|research(?:\/|$)|voice(?:\/|$)|family-link(?:\/|$)|about\/(?:calendar|contact)(?:\/|$))/
 
 function walk(directory) {
   if (!fs.existsSync(directory)) return []
@@ -159,34 +159,38 @@ for (const page of pages) {
 const expectedPages = {
   "docs/about/index.md": ["/about", undefined, "2"],
   "docs/work/index.md": ["/work", undefined, "3"],
-  "docs/research/index.md": ["/research", undefined, "4"],
-  "docs/projects/index.md": ["/projects", "Work", "1"],
-  "docs/leadership-learning/index.md": ["/leadership-learning", "Work", "2"],
+  "docs/research/index.md": ["/research-practice", undefined, "4"],
+  "docs/projects/index.md": ["/work/projects", "Work", "1"],
+  "docs/leadership-learning/index.md": [
+    "/work/leadership-learning",
+    "Work",
+    "2",
+  ],
   "docs/writing/index.md": ["/writing", undefined, "5"],
   "docs/contact.md": ["/contact", undefined, "6"],
   "docs/contact/calendar-en.md": ["/contact/calendar", "Contact", "1"],
   "docs/research/research-profile.md": [
-    "/research/profile",
+    "/research-practice/profile",
     "Research & Practice",
     "1",
   ],
   "docs/research/publications-en.md": [
-    "/research/publications",
+    "/research-practice/publications",
     "Research & Practice",
     "2",
   ],
   "docs/research/methods-ethics-evidence.md": [
-    "/research/methods-ethics-evidence",
+    "/research-practice/methods-ethics-evidence",
     "Research & Practice",
     "3",
   ],
   "docs/research/notes/index.md": [
-    "/research/notes",
+    "/research-practice/notes",
     "Research & Practice",
     "4",
   ],
   "docs/research/timeline.md": [
-    "/research/timeline",
+    "/research-practice/timeline",
     "Research & Practice",
     "5",
   ],
@@ -234,7 +238,10 @@ const expectedPrimaryNavigation = new Map([
   ["index.md", ["Home", "/", "1"]],
   ["docs/about/index.md", ["About", "/about", "2"]],
   ["docs/work/index.md", ["Work", "/work", "3"]],
-  ["docs/research/index.md", ["Research & Practice", "/research", "4"]],
+  [
+    "docs/research/index.md",
+    ["Research & Practice", "/research-practice", "4"],
+  ],
   ["docs/writing/index.md", ["Writing", "/writing", "5"]],
   ["docs/contact.md", ["Contact", "/contact", "6"]],
 ])

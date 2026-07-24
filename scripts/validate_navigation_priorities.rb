@@ -83,7 +83,7 @@ home_html = home_path.read(encoding: "UTF-8")
 raw_hrefs = navigation_hrefs(home_html)
 normalized_hrefs = raw_hrefs.map { |href| normalize_internal_url(href) }
 
-expected_primary_urls = %w[/ /about /work /research /writing /contact]
+expected_primary_urls = %w[/ /about /work /research-practice /writing /contact]
 
 unless normalized_hrefs == expected_primary_urls
   warn "Primary navigation must contain exactly the six durable hubs"
@@ -109,25 +109,25 @@ assert_page_links(
   "/work",
   "Work",
   %w[
-    /projects
-    /leadership-learning
-    /projects/k2quant
-    /projects/vocora
-    /leadership-learning/leadership
-    /leadership-learning/learning-facilitation
+    /work/projects
+    /work/leadership-learning
+    /work/projects/k2quant
+    /work/projects/vocora
+    /work/leadership-learning/leadership
+    /work/leadership-learning/learning-facilitation
   ]
 )
 
 assert_page_links(
   SITE_DIR,
-  "/research",
+  "/research-practice",
   "Research & Practice",
   %w[
-    /research/profile
-    /research/publications
-    /research/methods-ethics-evidence
-    /research/notes
-    /research/timeline
+    /research-practice/profile
+    /research-practice/publications
+    /research-practice/methods-ethics-evidence
+    /research-practice/notes
+    /research-practice/timeline
   ]
 )
 
@@ -151,7 +151,7 @@ assert_page_links(
   %w[/contact/calendar]
 )
 
-experiments_path = generated_page_path(SITE_DIR, "/projects/experiments")
+experiments_path = generated_page_path(SITE_DIR, "/work/projects/experiments")
 
 unless experiments_path
   warn "Experiments must remain published and reachable from section pages"

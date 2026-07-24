@@ -95,7 +95,7 @@ end
 
 canonical_index_urls = {
   "essay" => "/writing/essays",
-  "research-note" => "/research/notes",
+  "research-note" => "/research-practice/notes",
   "reading-note" => "/writing/reading-notes",
   "translation" => "/writing/translations"
 }
@@ -185,12 +185,12 @@ end
 
 secondary_hubs = %w[
   /writing/essays
-  /research/notes
+  /research-practice/notes
   /writing/reading-notes
   /writing/translations
   /writing/podcast
   /writing/all
-  /research/publications
+  /research-practice/publications
 ]
 
 secondary_hubs.each do |url|

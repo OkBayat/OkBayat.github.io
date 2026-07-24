@@ -3,7 +3,7 @@ layout: default
 title: تحول در روابط
 parent: Resources
 direction: rtl
-permalink: /leadership-learning/leadership/resources/shift-in-relation
+permalink: /work/leadership-learning/leadership/resources/shift-in-relation
 ---
 
 # تحول در روابط: نگاهی به فضای امکان برای ارتقاء ارتباطات

@@ -27,7 +27,7 @@ tags:
   - group-coordination
   - facilitator-withdrawal
 sitemap: true
-permalink: /leadership-learning/human-transformation/field-projects/learning-circle
+permalink: /work/leadership-learning/human-transformation/field-projects/learning-circle
 ---
 
 # Learning Circle
@@ -186,4 +186,4 @@ The record suggests practical value in designing for peer support, gradually tra
 
 These observations do not establish causality, permanent change, or a result that can be generalized to other children or groups. Selection effects, maturation, relationships, access to support, facilitator influence, and incomplete records remain plausible explanations for what was observed.
 
-Related published work is collected in [Selected Research-Related Work](/research/publications), and the evidence and safeguarding standards are stated in [Methods, Ethics & Evidence](/research/methods-ethics-evidence).
+Related published work is collected in [Selected Research-Related Work](/research-practice/publications), and the evidence and safeguarding standards are stated in [Methods, Ethics & Evidence](/research-practice/methods-ethics-evidence).

@@ -23,4 +23,4 @@ I do not understand mastery as a final state or a claim that learning is complet
 
 This approach connects my work in software engineering, quantitative systems, leadership, English learning, facilitation, and research. In each domain, the useful question is not “Do I know this?” but “What can I reliably do, under what conditions, with what evidence, and what still needs practice?”
 
-The facilitated program called [Mastery for Life](/leadership-learning/human-transformation/practice-programs/mastery-for-life) has its own program record. This page describes my personal approach to learning and professional development; it is not a claim about the program’s effectiveness.
+The facilitated program called [Mastery for Life](/work/leadership-learning/human-transformation/practice-programs/mastery-for-life) has its own program record. This page describes my personal approach to learning and professional development; it is not a claim about the program’s effectiveness.

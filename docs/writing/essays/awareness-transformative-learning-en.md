@@ -29,7 +29,7 @@ tags:
   - research-ethics
   - human-transformation
 sitemap: true
-permalink: /research/notes/awareness-transformative-learning-en
+permalink: /research-practice/notes/awareness-transformative-learning-en
 ---
 
 # Can Awareness Open Space for Change? A Retrospective Practitioner Reflection
