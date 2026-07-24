@@ -31,6 +31,6 @@ I therefore treat professional experience as a source of questions and bounded o
 
 ## Current Direction
 
-The [Current Inquiry](/research/current-inquiry) examines what allows learning or change to travel beyond the environment in which it was created. The broader [Research Agenda](/research/agenda) connects that question to language, identity, leadership, children’s independent learning, group coordination, and quality of life.
+The [Proposed Master's Research](/research/current-inquiry) examines how reflective practices persist, adapt, become concealed, erode, or reactivate after adults leave a supportive learning community and enter changing organizational contexts. The broader [Research Agenda](/research/agenda) connects that question to language, identity, leadership, children’s independent learning, group coordination, and quality of life.
 
 My approach to evidence and participant protection is stated in [Methods, Ethics & Evidence](/research/methods-ethics-evidence).
