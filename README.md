@@ -188,7 +188,7 @@ About
 
 Research
 ├── Research Profile
-├── Current Inquiry
+├── Proposed Master's Research
 ├── Research Agenda
 ├── Methods, Ethics & Evidence
 ├── Research Publications
@@ -345,7 +345,7 @@ Reports with an explicit question, hypothesis, method, participants or dataset, 
 
 - `/research` — research portfolio overview;
 - `/research/profile` — practitioner-researcher identity and position;
-- `/research/current-inquiry` — the single highlighted current inquiry;
+- `/research/current-inquiry` — the single highlighted proposed master's research;
 - `/research/agenda` — wider active and open questions;
 - `/research/methods-ethics-evidence` — public evidence and participant-protection standard;
 - `/research/publications` — curated research-related discovery;
