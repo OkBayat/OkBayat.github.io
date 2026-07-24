@@ -182,20 +182,25 @@ const expectedPages = {
     "Research & Practice",
     "2",
   ],
+  "docs/research/selected-human-learning-transformation.md": [
+    "/research-practice/human-learning-transformation",
+    "Research & Practice",
+    "3",
+  ],
   "docs/research/methods-ethics-evidence.md": [
     "/research-practice/methods-ethics-evidence",
     "Research & Practice",
-    "3",
+    "4",
   ],
   "docs/research/notes/index.md": [
     "/research-practice/notes",
     "Research & Practice",
-    "4",
+    "5",
   ],
   "docs/research/timeline.md": [
     "/research-practice/timeline",
     "Research & Practice",
-    "5",
+    "6",
   ],
   "docs/writing/essays/index.md": ["/writing/essays", "Writing", "1"],
   "docs/writing/reading-notes/index.md": [
@@ -382,6 +387,39 @@ if (cv) {
     if (pdf.length < 10_000 || pdf.subarray(0, 5).toString() !== "%PDF-") {
       errors.add("docs/about/cv.md: downloadable CV PDF is invalid")
     }
+  }
+}
+
+const humanLearningSelection = pagesByFile.get(
+  "docs/research/selected-human-learning-transformation.md"
+)
+if (humanLearningSelection) {
+  const requiredRoutes = [
+    "/writing/essays/what-remains-when-learning-space-disappears-en",
+    "/research-practice/notes/can-the-learner-carry-the-context",
+    "/work/leadership-learning/human-transformation/field-projects/learning-circle",
+    "/research-practice/notes/art-groupwork-communication-en",
+    "/research-practice/notes/commitment-context-learning-en",
+    "/writing/essays/when-the-question-changes-en",
+  ]
+  const selectedRoutes = extractInternalRoutes(humanLearningSelection.body)
+
+  for (const route of requiredRoutes) {
+    if (!selectedRoutes.includes(route)) {
+      errors.add(
+        `docs/research/selected-human-learning-transformation.md: missing selected work ${route}`
+      )
+    }
+  }
+
+  if (
+    /Rosemary Reilly|admission|application|HSI reviewer|prospective supervisor/i.test(
+      humanLearningSelection.body
+    )
+  ) {
+    errors.add(
+      "docs/research/selected-human-learning-transformation.md: selected path must remain audience-neutral"
+    )
   }
 }
 

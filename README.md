@@ -114,6 +114,7 @@ A canonical page may be linked from one or more topical lenses:
 
 - All Writing
 - Selected Research-Related Work
+- Selected Work in Human Learning and Transformation
 - essay topic indexes
 - project indexes
 - Vocora Publications & Notes
@@ -213,7 +214,7 @@ Each hub provides the next layer of discovery:
 
 - **About** links Biography, Professional Journey, Mastery, Values, Curriculum Vitae, and Resume.
 - **Work** links the Projects and Leadership & Learning hubs, which in turn expose companies, software, leadership practice, facilitation, programs, courses, and project records.
-- **Research & Practice** links Research Profile, Selected Research-Related Work, Methods, Ethics & Evidence, Research Notes, and Timeline.
+- **Research & Practice** links Research Profile, Selected Research-Related Work, Selected Work in Human Learning and Transformation, Methods, Ethics & Evidence, Research Notes, and Timeline.
 - **Writing** links Essays, Reading Notes, Translations, Podcast, and All Writing.
 - **Contact** links Schedule a Meeting.
 
@@ -329,6 +330,7 @@ Reports with an explicit question, hypothesis, method, participants or dataset, 
 - `/research-practice` — research portfolio overview;
 - `/research-practice/profile` — practice-based inquiry, research interests, and position;
 - `/research-practice/publications` — selected published and documented research-related work;
+- `/research-practice/human-learning-transformation` — a focused path through work on reflective practice, changing learning contexts, group processes, facilitation, arts-informed inquiry, and leadership;
 - `/research-practice/methods-ethics-evidence` — public evidence and participant-protection standard;
 - `/research-practice/notes/...` — canonical research, field, literature, and design notes and reviews;
 - `/research-practice/timeline` — chronological archive of registered published work.
