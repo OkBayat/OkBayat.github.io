@@ -94,6 +94,7 @@ const pagesByFile = new Map(pages.map((page) => [page.file, page]))
 const titles = new Set(pages.map((page) => page.data.title).filter(Boolean))
 const permalinks = new Map()
 const PRACTITIONER_RESEARCHER_PAGE = "docs/research/research-profile.md"
+const RESUME_PAGE = "docs/about/resume.md"
 const PROFESSIONAL_IDENTITY_PAGES = new Set([
   "index.md",
   "docs/about/biography/biography.md",
@@ -102,6 +103,26 @@ const PROFESSIONAL_IDENTITY_PAGES = new Set([
   "docs/research/index.md",
   PRACTITIONER_RESEARCHER_PAGE,
 ])
+
+const resume = pagesByFile.get(RESUME_PAGE)
+if (resume) {
+  const forbiddenResumeCopy = [
+    [
+      /maintaining a public research agenda of open questions and revisions/i,
+      "public research-agenda claim",
+    ],
+    [/\bresearch agenda\b/i, "Research agenda reference"],
+    [/\bongoing field project\b/i, "Ongoing field project label"],
+    [/\bcurrent work includes\b/i, "open-ended current-work list"],
+    [/\bfor any future restart\b/i, "future-restart plan"],
+  ]
+
+  for (const [pattern, description] of forbiddenResumeCopy) {
+    if (pattern.test(resume.body)) {
+      errors.add(`${RESUME_PAGE}: remove ${description} from the resume`)
+    }
+  }
+}
 
 for (const page of pages) {
   const { data, file, body } = page

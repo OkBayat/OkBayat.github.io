@@ -36,13 +36,13 @@ For a concise professional and academic-facing document, see the [Curriculum Vit
 
 An inquiry grounded in practice and concerned with human learning, language, identity, context, performance, leadership, group coordination, and durable change.
 
-Selected work includes:
+The published records from this work:
 
-- distinguishing published evidence, direct observation, participant self-report, interpretation, and hypothesis;
-- documenting field projects and facilitated programs without presenting them as controlled research;
-- reviewing work across learning science, cognitive science, philosophy, leadership, and organizational research;
-- developing privacy, consent, and evidence standards for public field records;
-- connecting questions from software, company-building, coaching, groups, and education.
+- distinguish published evidence, direct observation, participant self-report, interpretation, and hypothesis;
+- document field projects and facilitated programs without presenting them as controlled research;
+- draw on reviewed work across learning science, cognitive science, philosophy, leadership, and organizational research;
+- state privacy, consent, and evidence standards for public field records;
+- connect questions from software, company-building, coaching, groups, and education.
 
 This work is independent and is not presented as an academic affiliation, clinical program, or peer-reviewed research institution.
 
@@ -50,7 +50,7 @@ This work is independent and is not presented as an academic affiliation, clinic
 
 #### Learning Circle — Field Project Designer and Facilitator
 
-**Practice-based field project**
+**Practice-based record of programming, peer learning, and group coordination**
 
 Learning Circle began as a programming activity with children and became a bounded, practice-based field record about independent learning and group coordination.
 
@@ -74,7 +74,7 @@ A recurring facilitated program in Persian concerned with language, identity, wo
 - Facilitated cohorts ranging from small groups to larger groups and, in some instances, several hundred participants.
 - Used live dialogue, individual and group practice, feedback, reflection, and follow-up.
 - Collected facilitator observations and participant accounts across multiple cohorts.
-- Began separating source lineage, program design, participant self-report, observed behavior, and claims of efficacy.
+- Published a program record that separates source lineage, program design, participant self-report, observed behavior, and claims of efficacy.
 - Documented current limitations, including the absence of standardized baseline, comparison group, longitudinal outcome, and independent evaluation.
 - Removed expired registration language from the permanent research-facing record.
 
@@ -86,14 +86,14 @@ A recurring facilitated program in Persian concerned with language, identity, wo
 
 **Approximately ten years of work — Paused in 2026**
 
-FamilyLink was a family-support and social-impact initiative intended to reduce avoidable family separation when material hardship and lack of opportunity were major parts of the problem.
+FamilyLink was a family-support and social-impact initiative focused on reducing avoidable family separation when material hardship and lack of opportunity were major parts of the problem.
 
 - Coordinated practical support, caregiver capacity-building, and livelihood-related efforts.
 - Used existing organizational capabilities and external collaboration to operate the project over approximately a decade.
 - Reached a substantial number of children and caregivers according to internal records and current recollection; unaudited totals, identities, locations, and case histories are omitted from the public record.
 - Paused the project when its principal source of support contracted and the project lacked sufficiently independent funding, reserves, governance, and continuity planning.
 - Documented the difference between services delivered and outcomes that were not consistently measured, including whether family separation was prevented or household income became durable.
-- Defined safeguarding, privacy, measurement, governance, and funding conditions for any future restart.
+- Recorded the safeguarding, privacy, measurement, governance, and funding gaps revealed by the project.
 
 [Project record](/work/projects/familylink) · [Project reflection](/writing/essays/ten-years-of-familylink)
 
@@ -103,16 +103,16 @@ FamilyLink was a family-support and social-impact initiative intended to reduce 
 
 Vocora is a research-and-building project about learning, memory, language practice, motivation, and learning technology.
 
-Current work includes:
+Completed and published work includes:
 
-- designing and developing a full-stack vocabulary-practice application based on Leitner-style review;
-- storing user accounts and learning state in MySQL for access across devices;
-- defining product metrics that distinguish activity, current performance, and longer-term retention;
-- documenting privacy and ethical constraints for progress sharing and gamification;
-- reviewing relevant work in retrieval practice, spaced practice, motivation, and language learning;
-- publishing assumptions, limitations, and research and design notes.
+- Built and deployed a full-stack vocabulary-practice application based on Leitner-style review.
+- Implemented account registration, sign-in, and learning state stored in MySQL for access across devices.
+- Defined product metrics that distinguish practice activity, current performance, and longer-term retention, while documenting that the application does not yet have a validated retention outcome.
+- Published privacy and ethical constraints for progress sharing and gamification.
+- Published research and design notes informed by work on retrieval practice, spaced practice, motivation, and language learning.
+- Released the source code with automated tests and a Docker-based development environment.
 
-Vocora is not presented as an academic affiliation, clinical project, or validated neuroscience intervention. Its current output is software and practice-based research documentation.
+Vocora is not presented as an academic affiliation, clinical project, or validated neuroscience intervention. Its published outputs are software and practice-based research documentation.
 
 [Project overview](/work/projects/vocora) · [Source code](https://github.com/OkBayat/vocora)
 
