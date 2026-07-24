@@ -50,11 +50,21 @@ Program records explain what a program is, where it came from, how it has been r
 
 ### Keep the professional title evidence-aligned
 
-Use **Founder, Software Engineer, and Leadership Facilitator** as Mohammad's primary professional title. Describe research-related activity as practice-based inquiry rather than repeating *Independent Researcher* as a formal identity. Reserve *practitioner-researcher* for the Research Profile's explicit discussion of method and position, not homepage, biography, resume, project-role, or section-index titles.
+Use **Founder, Software Engineer, and Leadership Facilitator** as Mohammad's primary professional title. Describe research-related activity as practice-based inquiry rather than repeating *Independent Researcher* as a formal identity. Reserve *practitioner-researcher* for the Research Profile's explicit discussion of method and position, not homepage, biography, CV, resume, project-role, or section-index titles.
+
+### Keep the CV, Resume, and publication record distinct
+
+The Curriculum Vitae is a concise professional and academic-facing document. It separates education and credentials, selected professional experience, leadership and facilitation, projects, and independent research-related work. The downloadable PDF must reflect the same distinctions as the web page.
+
+`docs/about/cv.md` is the source for both editions. After changing it, regenerate the PDF with `python3 scripts/generate_cv_pdf.py`, render all pages, and inspect them before committing.
+
+The Resume is the longer practice record. It may retain detailed project context, operating history, and evidence boundaries that would make a conventional CV too long.
+
+Do not use `Research Publications` for independent essays, Research Notes, field records, project documentation, or practice-based inquiry. Use `Selected Writing and Research-Related Work` in the CV. Add a peer-reviewed academic publication section only when there is an actual publication whose authorship and review status can be verified.
 
 ### Keep the homepage a curated professional showcase
 
-The homepage should introduce Mohammad clearly, present the two connected bodies of work, feature three or four selected works, feature three selected writings, and provide direct routes to Biography, Resume, and Contact.
+The homepage should introduce Mohammad clearly, present the two connected bodies of work, feature three or four selected works, feature three selected writings, and provide direct routes to Biography, CV, and Contact.
 
 Do not repeat `Evidence` and `Limits` fields across homepage cards. Evidence boundaries, status, uncertainty, and limitations belong on the canonical project, practice, research, or publication page where a reader can inspect the full context. The homepage should remain concise without weakening the standards applied to those detail pages.
 
@@ -201,7 +211,7 @@ These are the only rows in the global sidebar. They are ordered with `nav_order`
 
 Each hub provides the next layer of discovery:
 
-- **About** links Biography, Professional Journey, Mastery, Values, and Resume.
+- **About** links Biography, Professional Journey, Mastery, Values, Curriculum Vitae, and Resume.
 - **Work** links the Projects and Leadership & Learning hubs, which in turn expose companies, software, leadership practice, facilitation, programs, courses, and project records.
 - **Research & Practice** links Research Profile, Selected Research-Related Work, Methods, Ethics & Evidence, Research Notes, and Timeline.
 - **Writing** links Essays, Reading Notes, Translations, Podcast, and All Writing.

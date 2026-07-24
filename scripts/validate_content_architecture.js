@@ -97,6 +97,7 @@ const PRACTITIONER_RESEARCHER_PAGE = "docs/research/research-profile.md"
 const PROFESSIONAL_IDENTITY_PAGES = new Set([
   "index.md",
   "docs/about/biography/biography.md",
+  "docs/about/cv.md",
   "docs/about/resume.md",
   "docs/research/index.md",
   PRACTITIONER_RESEARCHER_PAGE,
@@ -169,6 +170,8 @@ const expectedPages = {
   "docs/writing/index.md": ["/writing", undefined, "5"],
   "docs/contact.md": ["/contact", undefined, "6"],
   "docs/contact/calendar-en.md": ["/contact/calendar", "Contact", "1"],
+  "docs/about/cv.md": ["/about/cv", "About", "5"],
+  "docs/about/resume.md": ["/about/resume", "About", "6"],
   "docs/research/research-profile.md": [
     "/research-practice/profile",
     "Research & Practice",
@@ -307,7 +310,7 @@ const homepage = pagesByFile.get("index.md")
 if (homepage) {
   const requiredHomepageRoutes = [
     "/about/biography",
-    "/about/resume",
+    "/about/cv",
     "/contact",
     "/work/projects",
     "/work/leadership-learning/human-transformation",
@@ -335,6 +338,50 @@ if (homepage) {
     errors.add(
       "index.md: Evidence and Limits belong on detail pages, not homepage cards"
     )
+  }
+}
+
+const cv = pagesByFile.get("docs/about/cv.md")
+if (cv) {
+  const requiredSections = [
+    "Professional Profile",
+    "Education",
+    "Coaching and Professional Credentials",
+    "Selected Professional Experience",
+    "Leadership and Facilitation Experience",
+    "Selected Projects",
+    "Selected Writing and Research-Related Work",
+    "Technical Skills",
+    "Languages",
+    "Contact",
+    "Download PDF",
+  ]
+
+  for (const section of requiredSections) {
+    if (!cv.body.includes(`## ${section}`)) {
+      errors.add(`docs/about/cv.md: missing required section ${section}`)
+    }
+  }
+
+  if (/^##\s+Research Publications\s*$/im.test(cv.body)) {
+    errors.add(
+      "docs/about/cv.md: independent work must not be titled Research Publications"
+    )
+  }
+  if (!/not presented as peer-reviewed academic publication/i.test(cv.body)) {
+    errors.add(
+      "docs/about/cv.md: peer-reviewed publication status must remain explicit"
+    )
+  }
+
+  const pdfPath = path.join(ROOT, "assets/downloads/mohammad-bayat-cv.pdf")
+  if (!fs.existsSync(pdfPath)) {
+    errors.add("docs/about/cv.md: downloadable CV PDF is missing")
+  } else {
+    const pdf = fs.readFileSync(pdfPath)
+    if (pdf.length < 10_000 || pdf.subarray(0, 5).toString() !== "%PDF-") {
+      errors.add("docs/about/cv.md: downloadable CV PDF is invalid")
+    }
   }
 }
 

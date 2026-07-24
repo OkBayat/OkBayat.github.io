@@ -19,7 +19,7 @@ has_toc: false
       <nav class="home-hero-links" aria-label="About Mohammad Bayat">
         <a class="home-button home-button-primary" href="/work">Explore my work</a>
         <a class="home-button" href="/about/biography">Bio</a>
-        <a class="home-button" href="/about/resume">CV</a>
+        <a class="home-button" href="/about/cv">CV</a>
         <a class="home-button" href="/contact">Contact</a>
       </nav>
     </div>

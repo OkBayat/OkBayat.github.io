@@ -2,7 +2,7 @@
 layout: default
 title: Resume
 parent: About
-nav_order: 5
+nav_order: 6
 direction: ltr
 description: "Selected professional experience, quantitative systems work, social-impact projects, human transformation inquiry, leadership practice, and independent projects by Mohammad Bayat."
 last_modified_date: 2026-07-24
@@ -15,6 +15,8 @@ permalink: /about/resume
 Founder, Software Engineer, and Leadership Facilitator with more than 15 years of experience building web, market, and quantitative software systems.
 
 My practice-based inquiry focuses on human learning, reflective practice, leadership, and durable change. My current work is centered on [K2Quant](/work/projects/k2quant) and [Human Transformation](/work/leadership-learning/human-transformation), including [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle), facilitated programs, leadership and organizational practice, and [Vocora](/work/projects/vocora). My longer project history also includes [FamilyLink](/work/projects/familylink), a family-support initiative that is currently paused.
+
+For a concise professional and academic-facing document, see the [Curriculum Vitae](/about/cv).
 
 <details open markdown="block">
   <summary>Table of contents</summary>
