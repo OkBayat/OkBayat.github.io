@@ -218,7 +218,7 @@ For that reason, a powerful experience in a class or group should not immediatel
 - Do people around the participant report an observable difference?
 - Under what conditions does the previous pattern return?
 
-These questions do not reduce the value of the experience. They separate experience from a larger claim and create the next path for inquiry and learning.
+These questions do not reduce the value of the experience. They separate experience from a larger claim. I examine the wider problem in [What Remains When the Learning Space Disappears?](/writing/essays/what-remains-when-learning-space-disappears-en).
 
 ## Accepting someone does not mean changing nothing
 

@@ -112,6 +112,28 @@ works:
         title: Acceptance Before Change; On Human Nature and Relationships
         url: /writing/essays/acceptance-before-change-en
 
+  - id: what-remains-when-learning-space-disappears
+    content_type: essay
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+    themes:
+      - learning-memory-language
+      - leadership-identity-coordination
+      - philosophy-worldview
+    program: human-transformation
+    translation_key: what-remains-when-learning-space-disappears
+    summary: An evidence-aware synthesis of temporary performance, durable learning, transfer, and what learners may carry into changing groups and contexts.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: "وقتی فضای یادگیری ناپدید می‌شود، چه چیزی باقی می‌ماند؟"
+        url: /writing/essays/what-remains-when-learning-space-disappears-fa
+      - lang: en
+        label: English
+        title: "What Remains When the Learning Space Disappears?"
+        url: /writing/essays/what-remains-when-learning-space-disappears-en
+
   - id: when-the-question-changes
     content_type: essay
     primary_body: human-transformation
