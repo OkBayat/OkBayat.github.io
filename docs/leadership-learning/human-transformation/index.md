@@ -25,8 +25,8 @@ A field observation, participant account, conceptual model, and controlled resul
 
 ## How the Work Is Organized
 
-- **Research Agenda** records the active questions and their status.
-- **Publications & Notes** is a curated index of canonical writing across the site.
+- **Selected Research-Related Work** is a curated index of published and documented work across the site.
+- **Methods, Ethics & Evidence** explains the standards applied to research-facing material.
 - **Field Projects** document settings in which learning and coordination are observed over time.
 - **Practice & Programs** preserve the history, questions, and limitations of facilitated programs.
 - **Leadership** contains the existing coaching, course, source, and practice-based field archive.
@@ -35,3 +35,5 @@ A field observation, participant account, conceptual model, and controlled resul
 ## Working Standard
 
 The aim is not to make every page sound final. The aim is to ask clearer questions, document what actually happened, seek relevant evidence, identify alternative explanations, protect the people involved, and revise conclusions when the work changes.
+
+[Explore selected research-related work](/research/publications) · [Read Methods, Ethics & Evidence](/research/methods-ethics-evidence)

@@ -29,8 +29,14 @@ Practice gives me access to real questions, repeated patterns, failed assumption
 
 I therefore treat professional experience as a source of questions and bounded observations—not as a substitute for independent measurement, informed consent, comparison, or peer review.
 
-## Current Direction
+## Research Focus
 
-The [Current Inquiry](/research/current-inquiry) examines what allows learning or change to travel beyond the environment in which it was created. The broader [Research Agenda](/research/agenda) connects that question to language, identity, leadership, children’s independent learning, group coordination, and quality of life.
+My practice-based inquiry focuses on:
+
+- reflective practice and how it supports learning across changing settings;
+- durable learning and the difference between transfer and context-dependent performance;
+- learning communities, peer support, and facilitator withdrawal;
+- leadership, responsibility, and group coordination;
+- the relationship between context, identity, and the availability of prior learning.
 
 My approach to evidence and participant protection is stated in [Methods, Ethics & Evidence](/research/methods-ethics-evidence).

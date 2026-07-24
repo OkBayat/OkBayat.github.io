@@ -13,32 +13,22 @@ permalink: /
 
 I build quantitative systems and organizations, and I study how language, identity, context, and learning shape human performance and durable change.
 
-OkBayat.com is a research and practice portfolio: a public record of what I am building, what I am asking, what evidence is available, where the limits are, and how the work changes.
-
-## Current Inquiry
-
-**What remains when the learning space disappears?**
-
-I am examining what allows learning, performance, identity, or group coordination to persist after the original course, facilitator, team, product, or supportive context is no longer present.
-
-[Read the current inquiry](/research/current-inquiry) · [View the research profile](/research/profile)
+OkBayat.com is a research and practice portfolio: a selected record of the systems, organizations, projects, and writing I have built or published, together with the evidence and limits behind them.
 
 ## Selected Work
 
 <div class="evidence-card-grid">
 {% include components/evidence_card.html
-  type="Research direction"
-  status="Active"
-  title="What Remains When the Learning Space Disappears?"
-  question="What distinguishes durable transfer from change that depends on the original context?"
-  role="Practitioner-researcher"
-  evidence="Published sources, bounded field records, professional observation, and explicit open questions"
-  limits="No causal or universal claim; study design is still being narrowed"
-  url="/research/current-inquiry"
+  type="Essay"
+  title="Acceptance Before Change"
+  question="How can accepting reality make room for learning, dialogue, boundaries, and responsible change?"
+  role="Author"
+  evidence="A published argument grounded in professional observation, participant self-report, and explicit evidence limits"
+  limits="A practice-based interpretation, not a causal or universal claim"
+  url="/writing/essays/acceptance-before-change-en"
 %}
 {% include components/evidence_card.html
   type="Company"
-  status="Active"
   title="K2Quant"
   question="How can quantitative systems, AI-assisted workflows, and a technical organization be built reliably?"
   role="Founder"
@@ -48,21 +38,19 @@ I am examining what allows learning, performance, identity, or group coordinatio
 %}
 {% include components/evidence_card.html
   type="Project"
-  status="Active"
   title="Vocora"
   question="How should a learning product distinguish activity, current performance, and durable learning?"
   role="Founder, builder, and independent researcher"
-  evidence="Open-source software, product instrumentation, research notes, and planned delayed measures"
+  evidence="Open-source software, product metrics, and published research and design notes"
   limits="Current product use does not yet demonstrate long-term learning effectiveness"
   url="/projects/vocora"
 %}
 {% include components/evidence_card.html
   type="Field project"
-  status="Ongoing record"
   title="Learning Circle"
   question="What can a learning group continue doing after the facilitator leaves the center?"
   role="Designer and facilitator"
-  evidence="Generalized practice-based observation and a longitudinal field record"
+  evidence="Generalized practice-based observations and a bounded historical field record"
   limits="No control group or causal claim; public details are restricted for child privacy"
   url="/leadership-learning/human-transformation/field-projects/learning-circle"
 %}
@@ -71,7 +59,7 @@ I am examining what allows learning, performance, identity, or group coordinatio
 ## Explore the Portfolio
 
 - [About](/about) — biography, professional journey, mastery, values, and resume.
-- [Research](/research) — profile, current inquiry, agenda, methods, ethics, evidence, publications, and notes.
+- [Research](/research) — profile, selected research-related work, methods, notes, and timeline.
 - [Leadership & Learning](/leadership-learning) — leadership, human transformation, facilitation, coaching, programs, and courses.
 - [Projects](/projects) — K2Quant, Vocora, K2 OS, FamilyLink, and documented experiments.
 - [Writing & Media](/writing) — essays, reading notes, translations, podcast, and the complete writing index.

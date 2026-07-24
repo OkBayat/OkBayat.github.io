@@ -3,27 +3,25 @@ layout: default
 title: Research
 nav_order: 3
 direction: ltr
-description: "Mohammad Bayat's research profile, current inquiry, agenda, methods, ethics, evidence standards, publications, and research notes."
+description: "Mohammad Bayat's research profile, selected research-related work, methods, ethics, evidence standards, notes, reviews, and publication timeline."
 permalink: /research
 ---
 
 # Research
 
-{ A practitioner-researcher portfolio of questions, evidence, methods, and revision | fs-6 }
+{ A practitioner-researcher portfolio of selected work, evidence, and methods | fs-6 }
 
 My research interests developed through building software and organizations, facilitating leadership and learning, coaching, and examining how changes in performance survive—or fail to survive—outside the setting that first supported them.
 
-This is an independent research portfolio. It does not present professional experience as academic proof. The purpose is to make the question, source, evidence type, ethical boundary, uncertainty, and next step visible.
+This is an independent research portfolio. It does not present professional experience as academic proof. It brings together selected published work while making sources, evidence types, ethical boundaries, and uncertainty visible.
 
 ## Start Here
 
-- [Research Profile](/research/profile) explains the experience and questions that shape my identity as a practitioner-researcher.
-- [Current Inquiry](/research/current-inquiry) presents the central question I am pursuing now.
-- [Research Agenda](/research/agenda) records the wider set of active and open questions.
+- [Research Profile](/research/profile) explains the experience and enduring interests that shape my work as a practitioner-researcher.
+- [Selected Research-Related Work](/research/publications) presents published and documented work with clear evidence boundaries.
 - [Methods, Ethics & Evidence](/research/methods-ethics-evidence) states how I distinguish observation, self-report, interpretation, and research evidence.
-- [Research Publications](/research/publications) curates work that contributes to the portfolio.
-- [Research Notes](/research/notes) contains developing investigations, field notes, evidence reviews, and design questions.
-- [Timeline](/research/timeline) shows how questions, reading, research notes, essays, and translations have developed over time.
+- [Research Notes & Reviews](/research/notes) contains investigations, field notes, evidence reviews, and design questions.
+- [Timeline](/research/timeline) is a chronological archive of published essays, notes, reviews, and translations.
 
 ## Relationship to the Rest of the Site
 

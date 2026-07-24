@@ -112,7 +112,7 @@ The categories should not be collapsed. A message showing that a session was coo
 
 This page was assembled retrospectively from incomplete practice materials, not from a predeclared observation protocol. It does not provide a public age band, group-size band, date range, session count, attendance pattern, or phase-by-phase record. Some details are withheld to reduce the risk of identifying children; others were not recorded consistently enough to report.
 
-Because those gaps prevent a reader from assessing duration, sampling, and safeguarding, I no longer describe the evidence as a longitudinal field observation. The page is a mixed historical practice record under review and a basis for better prospective documentation.
+Because those gaps prevent a reader from assessing duration, sampling, and safeguarding, I no longer describe the evidence as a longitudinal field observation. The page is a mixed historical practice record, and its limits are stated here.
 
 ## What the Record Currently Contains
 
@@ -171,7 +171,7 @@ This page does not treat participation in the learning activity as permission fo
 
 A participant or parent or guardian may request a correction or removal through the site's [contact page](/contact). The request does not need to identify the person publicly.
 
-Future public documentation should follow these safeguards:
+Public documentation follows these safeguards:
 
 - obtain clear parent or guardian permission before publishing identifiable material;
 - seek the child's age-appropriate assent as well as adult permission;
@@ -180,22 +180,10 @@ Future public documentation should follow these safeguards:
 - separate educational participation from consent to research or publication;
 - collect only the information needed for a defined question.
 
-## Next Documentation Steps
+## Implications and Limitations
 
-The next useful step is not to make a larger claim. It is to make the observation process more explicit.
+The record suggests practical value in designing for peer support, gradually transferring responsibility, and observing what a group can coordinate without the facilitator at its center. It also shows why task completion, later recall, transfer, and durable learning must not be treated as the same outcome.
 
-Possible next steps include:
+These observations do not establish causality, permanent change, or a result that can be generalized to other children or groups. Selection effects, maturation, relationships, access to support, facilitator influence, and incomplete records remain plausible explanations for what was observed.
 
-1. define observable indicators of independent learning before the next observation period;
-2. record how often adults, peers, and external resources resolve a learning problem;
-3. document how session coordination changes when different children lead;
-4. distinguish task completion from later recall and transfer;
-5. record when peer teaching helps, fails, or creates misconceptions;
-6. record source provenance (direct observation, report, or artifact) separately from claim status (description, interpretation, change over time, or unknown);
-7. verify and document the adult supervision, escalation, and safeguarding arrangements for each future phase;
-8. ask children what they believe keeps the group continuing, using a consent-aware process;
-9. publish negative and inconclusive observations as well as successful ones.
-
-## Related Questions
-
-This project contributes to the broader [Human Transformation Research Agenda](/research/agenda), especially the questions about context-dependent performance, children's ownership of learning, peer teaching, group coordination, and what remains after a facilitator leaves.
+Related published work is collected in [Selected Research-Related Work](/research/publications), and the evidence and safeguarding standards are stated in [Methods, Ethics & Evidence](/research/methods-ethics-evidence).

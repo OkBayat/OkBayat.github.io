@@ -424,8 +424,7 @@ html[data-theme="dark"] .timeline-entry-card:hover {
 }
 
 .timeline-type-label,
-.timeline-language-label,
-.timeline-status-label {
+.timeline-language-label {
   display: inline-flex;
   align-items: center;
   min-height: 1.4375rem;
@@ -442,8 +441,7 @@ html[data-theme="dark"] .timeline-entry-card:hover {
   background: var(--timeline-accent-soft);
 }
 
-.timeline-language-label,
-.timeline-status-label {
+.timeline-language-label {
   color: var(--timeline-muted);
   background: var(--timeline-surface);
   border: 1px solid var(--timeline-border);
@@ -458,7 +456,7 @@ html[data-theme="dark"] .timeline-entry-card:hover {
 
 .timeline-thread-label::before {
   color: var(--timeline-faint);
-  content: "Thread · ";
+  content: "Collection · ";
 }
 
 .main-content .timeline-entry-title {

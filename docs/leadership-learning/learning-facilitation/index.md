@@ -27,4 +27,4 @@ This section examines facilitation as the design of conditions for learning—no
 - Which outcomes belong to the learning design, and which depend on selection, relationships, incentives, or the original setting?
 - What consent is required before material from a learning relationship is used publicly?
 
-Research-facing answers and evidence standards are maintained under [Research](/research), especially [Current Inquiry](/research/current-inquiry) and [Methods, Ethics & Evidence](/research/methods-ethics-evidence).
+Related published work is collected under [Selected Research-Related Work](/research/publications), and the evidence standards are stated in [Methods, Ethics & Evidence](/research/methods-ethics-evidence).

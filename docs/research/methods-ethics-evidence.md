@@ -2,10 +2,10 @@
 layout: default
 title: Methods, Ethics & Evidence
 parent: Research
-nav_order: 4
+nav_order: 3
 direction: ltr
-description: "Standards for evidence, consent, privacy, role conflicts, public field records, and future research on okbayat.com."
-last_modified_date: 2026-07-23
+description: "Standards for evidence, consent, privacy, role conflicts, and research-facing public work on okbayat.com."
+last_modified_date: 2026-07-24
 permalink: /research/methods-ethics-evidence
 ---
 
@@ -48,7 +48,7 @@ Without appropriate consent, public pages should prefer:
 - the author’s own reflection;
 - generalized descriptions of a practice;
 - published sources;
-- open hypotheses and future study designs;
+- questions or hypotheses that do not expose participant-derived material;
 - aggregate information that cannot reasonably be traced to a person.
 
 Identifiable participant narratives, private messages, images, longitudinal follow-ups, attendance tables, and behavior records require a clear necessity, appropriate consent, and a defensible publication plan.
@@ -61,13 +61,13 @@ Work involving children requires stronger safeguards: guardian permission where 
 
 Every research-facing page should make clear:
 
-- the question and status;
+- the question and scope;
 - the setting and the author’s role;
 - what material was used and under what permission;
 - which claims are observation, self-report, interpretation, or published evidence;
 - alternative explanations and missing cases;
 - privacy and role-conflict limits;
 - what cannot be concluded;
-- the next responsible step.
+- practical implications that remain within the available evidence.
 
-When those conditions cannot be met, the page should remain a personal reflection or an open research proposal rather than a public account of participant-derived evidence.
+When those conditions cannot be met, participant-derived material should remain private rather than becoming a public research account.

@@ -140,23 +140,18 @@ const expectedPages = {
   "docs/contact.md": ["/contact", undefined, "7"],
   "docs/contact/calendar-en.md": ["/contact/calendar", "Contact", "1"],
   "docs/research/research-profile.md": ["/research/profile", "Research", "1"],
-  "docs/research/current-inquiry.md": [
-    "/research/current-inquiry",
-    "Research",
-    "2",
-  ],
-  "docs/research/research-agenda-en.md": ["/research/agenda", "Research", "3"],
-  "docs/research/methods-ethics-evidence.md": [
-    "/research/methods-ethics-evidence",
-    "Research",
-    "4",
-  ],
   "docs/research/publications-en.md": [
     "/research/publications",
     "Research",
-    "5",
+    "2",
   ],
-  "docs/research/notes/index.md": ["/research/notes", "Research", "6"],
+  "docs/research/methods-ethics-evidence.md": [
+    "/research/methods-ethics-evidence",
+    "Research",
+    "3",
+  ],
+  "docs/research/notes/index.md": ["/research/notes", "Research", "4"],
+  "docs/research/timeline.md": ["/research/timeline", "Research", "5"],
   "docs/writing/essays/index.md": ["/writing/essays", "Writing & Media", "1"],
   "docs/writing/reading-notes/index.md": [
     "/writing/reading-notes",

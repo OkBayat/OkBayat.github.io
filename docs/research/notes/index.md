@@ -2,14 +2,14 @@
 layout: default
 title: Research Notes
 parent: Research
-nav_order: 6
+nav_order: 4
 nav_exclude: false
 direction: ltr
 description: "Working investigations, evidence reviews, field observations, and design decisions grouped by their primary body of work."
 permalink: /research/notes
 ---
 
-# Research Notes
+# Research Notes & Reviews
 
 Research Notes contain work in progress: a question being clarified, evidence being reviewed, a field observation being documented, a design assumption being examined, or an interpretation being revised.
 
@@ -38,13 +38,13 @@ These notes are also discoverable in [All Writing](/writing/all) and, when conne
 - [Can the Learner Carry the Context?](/research/notes/can-the-learner-carry-the-context) — A reading and inquiry note on reflective practice, double-loop learning, coaching, and learning that remains available across changing contexts.
 - [What Remains When the Course Ends?](/research/notes/what-remains-when-the-course-ends) — A ten-day exploratory observation on whether leadership learning remains available across changing work and life contexts.
 
-These notes are also collected in [Research Publications](/research/publications).
+These notes are also collected in [Selected Research-Related Work](/research/publications).
 
 ## Common Note Types
 
-### Open Question
+### Inquiry Note
 
-A concise statement of an active question, why it matters, what is currently known, and what would be a useful next step.
+A bounded examination of a question, why it matters, what evidence is available, and what remains uncertain. It should read as a complete note rather than a status update or research plan.
 
 ### Field Note
 
@@ -69,5 +69,4 @@ A record of a project or program decision, the assumptions behind it, alternativ
 7. Alternative explanations
 8. Implications for practice or a project
 9. Limitations, privacy, and uncertainty
-10. Open questions and next step
-11. References
+10. References
