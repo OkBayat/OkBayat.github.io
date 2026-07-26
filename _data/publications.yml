@@ -134,6 +134,30 @@ works:
         title: "What Remains When the Learning Space Disappears?"
         url: /writing/essays/what-remains-when-learning-space-disappears-en
 
+  - id: when-too-many-tasks-stop-the-work
+    content_type: essay
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+      - building
+    themes:
+      - learning-memory-language
+      - leadership-identity-coordination
+      - systems-operations-decision-making
+      - philosophy-worldview
+    program: human-transformation
+    translation_key: when-too-many-tasks-stop-the-work
+    summary: A practice-based inquiry into task overload, discussable priorities, end-to-end work scopes, reflective awareness, and whether better ways of working persist across changing contexts.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: "وقتی تعدد کارها، کار را متوقف می‌کند: شفافیت، اسکوپ و پرسشِ آنچه منتقل می‌شود"
+        url: /writing/essays/when-too-many-tasks-stop-the-work-fa
+      - lang: en
+        label: English
+        title: "When Too Many Tasks Stop the Work: Clarity, Scope, and the Question of What Transfers"
+        url: /writing/essays/when-too-many-tasks-stop-the-work-en
+
   - id: when-the-question-changes
     content_type: essay
     primary_body: human-transformation
