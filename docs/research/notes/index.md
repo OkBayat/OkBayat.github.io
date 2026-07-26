@@ -19,21 +19,13 @@ Each note remains canonical here because **Research Note** describes its epistem
 
 ## Building, Product Design & Learning Technology
 
-{% for work in site.data.publications.works %}
-{% if work.content_type == "research-note" and work.primary_body == "building" %}
-- {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include canonical-work-list-en.html content_type="research-note" primary_body="building" %}
 
 These notes are also discoverable in [All Writing](/writing/all) and, when connected to the project, [Vocora Publications & Notes](/work/projects/vocora/publications).
 
 ## Human Learning, Leadership & Transformation
 
-{% for work in site.data.publications.works %}
-{% if work.content_type == "research-note" and work.primary_body == "human-transformation" %}
-- {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %} · {% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include canonical-work-list-en.html content_type="research-note" primary_body="human-transformation" %}
 
 - [Can the Learner Carry the Context?](/research-practice/notes/can-the-learner-carry-the-context) — A reading and inquiry note on reflective practice, double-loop learning, coaching, and learning that remains available across changing contexts.
 - [What Remains When the Course Ends?](/research-practice/notes/what-remains-when-the-course-ends) — A ten-day exploratory observation on whether leadership learning remains available across changing work and life contexts.

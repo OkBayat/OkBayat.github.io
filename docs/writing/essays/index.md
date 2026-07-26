@@ -25,21 +25,13 @@ A page belongs elsewhere when its main purpose is different:
 
 ### Building Systems & Organizations
 
-{% for work in site.data.publications.works %}
-{% if work.content_type == "essay" and work.bodies_of_work contains "building" %}
-- {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %}<br>{% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include canonical-work-list-en.html content_type="essay" body="building" %}
 
 Related technical, organizational, startup, and project writing is also collected in [All Writing](/writing/all).
 
 ### Human Transformation
 
-{% for work in site.data.publications.works %}
-{% if work.content_type == "essay" and work.bodies_of_work contains "human-transformation" %}
-- {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %}<br>{% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include canonical-work-list-en.html content_type="essay" body="human-transformation" %}
 
 Related research-facing writing about learning, identity, language, relationships, leadership, and coordination is also collected in [Selected Research-Related Work](/research-practice/publications).
 
@@ -47,27 +39,15 @@ Related research-facing writing about learning, identity, language, relationship
 
 ### Software, AI & Agent Systems
 
-{% for work in site.data.publications.works %}
-{% if work.content_type == "essay" and work.themes contains "software-ai-agent-systems" %}
-- {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% unless forloop.last %} · {% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include canonical-work-list-en.html content_type="essay" theme="software-ai-agent-systems" %}
 
 ### Entrepreneurship, Company Building & Project Reflection
 
-{% for work in site.data.publications.works %}
-{% if work.content_type == "essay" and work.themes contains "entrepreneurship-company-building" %}
-- {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% unless forloop.last %} · {% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include canonical-work-list-en.html content_type="essay" theme="entrepreneurship-company-building" %}
 
 ### Relationships, Identity & Human Transformation
 
-{% for work in site.data.publications.works %}
-{% if work.content_type == "essay" and work.bodies_of_work contains "human-transformation" %}
-- {% for edition in work.editions %}[{{ edition.title }}]({{ edition.url }}){% if work.editions.size > 1 %} — {{ edition.label }}{% endif %}{% unless forloop.last %}<br>{% endunless %}{% endfor %} — {{ work.summary }}
-{% endif %}
-{% endfor %}
+{% include canonical-work-list-en.html content_type="essay" body="human-transformation" %}
 
 ## Language Editions
 
