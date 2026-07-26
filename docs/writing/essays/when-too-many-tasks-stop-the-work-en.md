@@ -189,7 +189,7 @@ The responsible conclusion is therefore not “this method makes employees produ
 
 ## Awareness was not an abstract idea; it was built into the work
 
-In an earlier practitioner reflection, [*Can Awareness Open Space for Change?*](/research/notes/awareness-transformative-learning-en), I explored whether seeing a recurring pattern—without immediately being judged or told how to fix it—can create room for different action.
+In an earlier practitioner reflection, [*Can Awareness Open Space for Change?*](/research-practice/notes/awareness-transformative-learning-en), I explored whether seeing a recurring pattern—without immediately being judged or told how to fix it—can create room for different action.
 
 This organizational experience gave that question a more operational form.
 
