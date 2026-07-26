@@ -158,6 +158,31 @@ works:
         title: "When Too Many Tasks Stop the Work: Clarity, Scope, and the Question of What Transfers"
         url: /writing/essays/when-too-many-tasks-stop-the-work-en
 
+  - id: from-ai-guardrails-to-human-judgment
+    content_type: essay
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+      - building
+    themes:
+      - software-ai-agent-systems
+      - systems-operations-decision-making
+      - learning-memory-language
+      - leadership-identity-coordination
+    program: human-transformation
+    project: k2quant
+    translation_key: from-ai-guardrails-to-human-judgment
+    summary: A retrospective practitioner reflection on transferring evidence gates from an AI-agent workflow to high-stakes human decisions, supporting self-coaching, and reducing unsupported judgment.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: "از گاردریل‌های هوش مصنوعی تا قضاوت انسانی: وقتی آموزش کافی نبود"
+        url: /writing/essays/from-ai-guardrails-to-human-judgment-fa
+      - lang: en
+        label: English
+        title: "From AI Guardrails to Human Judgment: When Training Was Not Enough"
+        url: /writing/essays/from-ai-guardrails-to-human-judgment-en
+
   - id: when-the-question-changes
     content_type: essay
     primary_body: human-transformation
