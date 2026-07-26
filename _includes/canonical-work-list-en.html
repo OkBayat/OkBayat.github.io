@@ -1,0 +1,24 @@
+{% for work in site.data.publications.works %}
+{% assign matches_filters = true %}
+{% if include.content_type and work.content_type != include.content_type %}
+{% assign matches_filters = false %}
+{% endif %}
+{% if include.primary_body and work.primary_body != include.primary_body %}
+{% assign matches_filters = false %}
+{% endif %}
+{% if include.body %}
+{% unless work.bodies_of_work contains include.body %}
+{% assign matches_filters = false %}
+{% endunless %}
+{% endif %}
+{% if include.theme %}
+{% unless work.themes contains include.theme %}
+{% assign matches_filters = false %}
+{% endunless %}
+{% endif %}
+{% if matches_filters %}
+{% assign english_edition = work.editions | where: "lang", "en" | first %}
+{% assign persian_edition = work.editions | where: "lang", "fa" | first %}
+- {% if english_edition %}[{{ english_edition.title }}]({{ english_edition.url }}){% if persian_edition %} (<bdi dir="rtl"><a href="{{ persian_edition.url }}" lang="fa" hreflang="fa" rel="alternate">نسخه‌ی فارسی</a></bdi>){% endif %}{% elsif persian_edition %}[{{ persian_edition.title }}]({{ persian_edition.url }}) (<bdi dir="rtl" lang="fa">نسخه‌ی فارسی</bdi>){% endif %} — {{ work.summary }}
+{% endif %}
+{% endfor %}
