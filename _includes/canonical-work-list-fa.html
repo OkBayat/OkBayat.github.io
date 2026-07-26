@@ -1,0 +1,25 @@
+{% for work in site.data.publications.works %}
+{% assign matches_filters = true %}
+{% if include.content_type and work.content_type != include.content_type %}
+{% assign matches_filters = false %}
+{% endif %}
+{% if include.primary_body and work.primary_body != include.primary_body %}
+{% assign matches_filters = false %}
+{% endif %}
+{% if include.body %}
+{% unless work.bodies_of_work contains include.body %}
+{% assign matches_filters = false %}
+{% endunless %}
+{% endif %}
+{% if include.theme %}
+{% unless work.themes contains include.theme %}
+{% assign matches_filters = false %}
+{% endunless %}
+{% endif %}
+{% if matches_filters %}
+{% assign localized_summary = site.data.publications_fa.summaries[work.id] | default: work.summary %}
+{% assign persian_edition = work.editions | where: "lang", "fa" | first %}
+{% assign english_edition = work.editions | where: "lang", "en" | first %}
+- {% if persian_edition %}[{{ persian_edition.title }}]({{ persian_edition.url }}){% if english_edition %} { ([English Version]({{ english_edition.url }})) | ltr }{% endif %}{% elsif english_edition %}{ [{{ english_edition.title }}]({{ english_edition.url }}) (English Version) | ltr }{% endif %} — {{ localized_summary }}
+{% endif %}
+{% endfor %}
