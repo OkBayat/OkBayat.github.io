@@ -183,6 +183,32 @@ works:
         title: "From AI Guardrails to Human Judgment: When Training Was Not Enough"
         url: /writing/essays/from-ai-guardrails-to-human-judgment-en
 
+  - id: the-last-pickaxe
+    content_type: essay
+    primary_body: building
+    bodies_of_work:
+      - building
+      - human-transformation
+    themes:
+      - entrepreneurship-company-building
+      - systems-operations-decision-making
+      - learning-memory-language
+      - leadership-identity-coordination
+      - philosophy-worldview
+    program: human-transformation
+    project: k2quant
+    translation_key: the-last-pickaxe
+    summary: A retrospective founder reflection on persistence, hyperfocus, reflective practice, decision criteria, and whether reflective capacity survives a change of context.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: "آخرین کلنگ: عمل تأملی، هایپرفوکوس و تصمیم یک بنیان‌گذار برای ادامه‌دادن"
+        url: /writing/essays/the-last-pickaxe-fa
+      - lang: en
+        label: English
+        title: "The Last Pickaxe: Reflective Practice, Hyperfocus, and a Founder’s Decision to Continue"
+        url: /writing/essays/the-last-pickaxe-en
+
   - id: when-the-question-changes
     content_type: essay
     primary_body: human-transformation
