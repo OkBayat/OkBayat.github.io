@@ -14,7 +14,7 @@ permalink: /about/cv
 # Mohammad Bayat
 {: .no_toc }
 
-Founder, Software Engineer, and Leadership Facilitator
+Founder, Software Engineer, and Systems Builder
 
 { Last updated July 24, 2026 | sub }
 
@@ -34,7 +34,7 @@ Founder, Software Engineer, and Leadership Facilitator
 
 ## Professional Profile
 
-Founder, software engineer, and leadership facilitator with more than 15 years of experience building web, market, and quantitative software systems. Founded and continues to build [K2Quant](/work/projects/k2quant), combining software engineering, artificial intelligence, quantitative systems, technical operations, and company-building.
+Founder, software engineer, and systems builder with more than 15 years of experience building web, market, quantitative, and organizational systems. Founded and continues to build [K2Quant](/work/projects/k2quant), combining software engineering, artificial intelligence, quantitative systems, technical operations, and company-building.
 
 Professional work also includes organizational leadership, coaching, facilitation, and the design of group-learning programs. Current independent inquiry examines reflective practice, durable learning, leadership, and what happens when people move from supportive learning environments into contexts that do not reinforce the same ways of thinking and acting.
 
