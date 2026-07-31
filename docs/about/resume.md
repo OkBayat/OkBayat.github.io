@@ -12,7 +12,7 @@ permalink: /about/resume
 # Mohammad Bayat
 {: .no_toc }
 
-Founder, Software Engineer, and Leadership Facilitator with more than 15 years of experience building web, market, and quantitative software systems.
+Founder, Software Engineer, and Systems Builder with more than 15 years of experience building web, market, quantitative, and organizational systems.
 
 My practice-based inquiry focuses on human learning, reflective practice, leadership, and durable change. My current work is centered on [K2Quant](/work/projects/k2quant) and [Human Transformation](/work/leadership-learning/human-transformation), including [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle), facilitated programs, leadership and organizational practice, and [Vocora](/work/projects/vocora). My longer project history also includes [FamilyLink](/work/projects/familylink), a family-support initiative that is currently paused.
 
