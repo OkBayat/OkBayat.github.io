@@ -3,7 +3,7 @@ title: Home
 layout: home
 nav_order: 1
 primary_nav: true
-description: "Mohammad Bayat is a founder, software engineer, and leadership facilitator whose practice-based inquiry focuses on human learning, reflective practice, leadership, and durable change."
+description: "Mohammad Bayat is a founder, software engineer, and systems builder whose practice-based inquiry focuses on human learning, reflective practice, leadership, and durable change."
 permalink: /
 has_toc: false
 ---
@@ -13,7 +13,7 @@ has_toc: false
     <div class="home-hero-copy">
       <p class="home-eyebrow">Systems · Organizations · Human Learning</p>
       <h1 id="home-title" class="home-hero-title">Mohammad Bayat</h1>
-      <p class="home-hero-role">Founder, Software Engineer, and Leadership Facilitator</p>
+      <p class="home-hero-role">Founder, Software Engineer, and Systems Builder</p>
       <p class="home-hero-intro">I build quantitative software, AI-assisted systems, and organizations. Alongside that work, I study how people learn, reflect, coordinate, and carry change across contexts.</p>
       <p class="home-hero-summary">This site brings those two bodies of work together through selected projects, practice records, and writing.</p>
       <nav class="home-hero-links" aria-label="About Mohammad Bayat">
