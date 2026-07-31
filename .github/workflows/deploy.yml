@@ -37,6 +37,19 @@ jobs:
           ruby-version: "3.4"
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Install CV generator dependencies
+        run: |
+          if [ ! -f /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf ]; then
+            sudo apt-get update
+            sudo apt-get install --yes fonts-dejavu-core
+          fi
+          python -m pip install --disable-pip-version-check "reportlab==5.0.0"
+      - name: Generate CV PDF
+        run: python scripts/generate_cv_pdf.py
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
