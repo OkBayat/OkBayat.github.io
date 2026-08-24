@@ -73,6 +73,23 @@ works:
         title: Designing Large Agent Skills as Deterministic, Phase-Oriented Systems
         url: /writing/essays/phase-oriented-agent-skills-en
 
+  - id: evidence-over-ai-badges
+    content_type: essay
+    primary_body: building
+    bodies_of_work:
+      - building
+    themes:
+      - software-ai-agent-systems
+      - systems-operations-decision-making
+      - learning-memory-language
+    project: k2quant
+    summary: A practitioner reflection on moving the AI conversation from disclosure alone toward evidence, verification, AI literacy, and responsibility for the work we submit.
+    editions:
+      - lang: en
+        label: English
+        title: "Maybe Evidence Matters More Than an AI Badge"
+        url: /writing/essays/evidence-over-ai-badges
+
   - id: ten-years-of-familylink
     content_type: essay
     primary_body: building
