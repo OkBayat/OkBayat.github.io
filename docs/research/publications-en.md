@@ -36,7 +36,7 @@ For a shorter route through the work on reflective practice, changing learning c
 
 {% include publication-list-en.html body="human-transformation" theme="learning-memory-language" %}
 
-Vocora is a bounded software project within this wider inquiry. Its project-specific writing is collected in [Vocora Publications & Notes](/work/projects/vocora/publications).
+Some of this writing informs the learning principles and product decisions behind Vocora, my language-learning startup focused on English learning and IELTS preparation. Related reading is collected in [Vocora Publications & Notes](/work/projects/vocora/publications).
 
 ## Philosophy, Worldview & Context
 

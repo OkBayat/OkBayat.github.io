@@ -15,7 +15,7 @@ permalink: /work/leadership-learning/human-transformation
 
 I do not begin with the assumption that I already know how a person becomes permanently transformed. This section records the questions, sources, field projects, programs, observations, and revisions through which I am trying to understand the problem more carefully.
 
-The inquiry includes learning and memory, language, identity, worldview, context, performance, leadership, group coordination, and quality of life. Some material comes from cognitive and learning science, philosophy, and organizational research. Other material comes from building companies, facilitating groups, coaching, working with children, and developing software such as [Vocora](/work/projects/vocora).
+The inquiry includes learning and memory, language, identity, worldview, context, performance, leadership, group coordination, and quality of life. Some material comes from cognitive and learning science, philosophy, and organizational research. Other material comes from building companies, facilitating groups, coaching, working with children, and building [Vocora](/work/projects/vocora), my language-learning startup focused on English learning and IELTS preparation. These experiences inform the inquiry; the startup has its own product and business identity.
 
 ## Boundaries
 

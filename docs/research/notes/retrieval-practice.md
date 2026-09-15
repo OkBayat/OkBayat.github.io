@@ -8,7 +8,10 @@ lang: en
 locale: en_US
 author: Mohammad Bayat
 date: 2026-07-17
-last_modified_date: 2026-07-17
+last_modified_date: 2026-09-15
+date_modified: 2026-09-15
+seo:
+  type: Article
 status: working-note
 project: vocora
 permalink: /research-practice/notes/retrieval-practice
@@ -29,7 +32,16 @@ sitemap: true
 { Working Research Note · Vocora | fs-6 }
 
 > **Status:** Working note, not peer reviewed  
-> **Last revised:** July 17, 2026
+> **Last revised:** September 15, 2026
+
+This note discusses the vocabulary-review design documented in July 2026, not the full current product. For the startup's current direction, see [Vocora](/work/projects/vocora).
+
+<details open markdown="block">
+  <summary>Table of contents</summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 ## The Question
 
@@ -90,5 +102,7 @@ The next measurement step is to define a delayed, unaided spelling-recall outcom
 - Rowland, C. A. (2014). [The Effect of Testing Versus Restudy on Retention: A Meta-Analytic Review of the Testing Effect](https://doi.org/10.1037/a0037559). *Psychological Bulletin, 140*(6), 1432–1463.
 
 ## Revision History
+
+- **September 15, 2026:** Clarified the scope of the earlier product examples and linked to the current startup overview.
 
 - **July 17, 2026:** First published.
