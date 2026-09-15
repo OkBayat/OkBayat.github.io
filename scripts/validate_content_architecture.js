@@ -444,6 +444,55 @@ if (humanLearningSelection) {
   }
 }
 
+// Keep the startup identity and public links consistent across current pages.
+for (const page of pages) {
+  if (
+    /https:\/\/github\.com\/OkBayat\/vocora(?:[\s/\)"#]|$)/i.test(page.body)
+  ) {
+    errors.add(
+      `${page.file}: link to the Vocora application, not its private source`
+    )
+  }
+  for (const paragraph of page.body.split(/\n\s*\n/)) {
+    if (
+      /vocora/i.test(paragraph) &&
+      /open[ -]source|research-and-building|متن[‌ -]باز/i.test(paragraph)
+    ) {
+      errors.add(`${page.file}: stale Vocora positioning`)
+    }
+  }
+}
+
+const vocora = pagesByFile.get("docs/projects/vocora/index.md")
+if (
+  !vocora ||
+  !/language-learning startup/i.test(vocora.body) ||
+  !/IELTS/.test(vocora.body) ||
+  !/https:\/\/vocora\.ir/.test(vocora.body)
+) {
+  errors.add(
+    "Vocora must be introduced as an IELTS-focused startup with an app link"
+  )
+}
+
+for (const [file, section, nextSection] of [
+  [
+    "docs/about/cv.md",
+    "Selected Professional Experience",
+    "Leadership and Facilitation Experience",
+  ],
+  ["docs/about/resume.md", "Experience", "Education"],
+]) {
+  const body = pagesByFile.get(file)?.body || ""
+  const experience =
+    body.split(`## ${section}\n`)[1]?.split(`## ${nextSection}\n`)[0] || ""
+  if (!/### Vocora(?: — Founder|\n[\s\S]*?#### Founder)/.test(experience)) {
+    errors.add(
+      `${file}: Vocora founding role must appear in professional experience`
+    )
+  }
+}
+
 const footer = fs.readFileSync(
   path.join(ROOT, "_includes/footer_custom.html"),
   "utf8"

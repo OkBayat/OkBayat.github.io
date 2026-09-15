@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import html
 import re
+from datetime import date
 from pathlib import Path
 
 from reportlab.lib import colors
@@ -265,7 +266,7 @@ def footer(canvas, doc) -> None:
     canvas.drawString(
         17 * mm,
         8.5 * mm,
-        "Mohammad Bayat | Curriculum Vitae | July 2026",
+        f"Mohammad Bayat | Curriculum Vitae | {doc.revision_label}",
     )
     canvas.drawRightString(width - 17 * mm, 8.5 * mm, f"Page {doc.page}")
     canvas.restoreState()
@@ -274,6 +275,10 @@ def footer(canvas, doc) -> None:
 def build_pdf(source_path: Path, output_path: Path) -> None:
     register_fonts()
     source = source_path.read_text(encoding="utf-8")
+    revision = re.search(r"^last_modified_date: (\d{4}-\d{2}-\d{2})$", source, re.MULTILINE)
+    if revision is None:
+        raise ValueError("CV source is missing last_modified_date")
+    revision_label = date.fromisoformat(revision.group(1)).strftime("%B %Y")
     body = source_body(source)
     name, tagline = extract_header(body)
     blocks = content_blocks(body)
@@ -294,6 +299,8 @@ def build_pdf(source_path: Path, output_path: Path) -> None:
         pageCompression=1,
         invariant=1,
     )
+
+    document.revision_label = revision_label
 
     story = [
         Paragraph(html.escape(name), styles["name"]),

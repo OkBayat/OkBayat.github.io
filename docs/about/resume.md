@@ -4,8 +4,8 @@ title: Resume
 parent: About
 nav_order: 6
 direction: ltr
-description: "Selected professional experience, quantitative systems work, social-impact projects, human transformation inquiry, leadership practice, and independent projects by Mohammad Bayat."
-last_modified_date: 2026-07-24
+description: "Mohammad Bayat’s experience as founder of K2Quant and Vocora, alongside software engineering, leadership practice, facilitation, and social-impact work."
+last_modified_date: 2026-09-15
 permalink: /about/resume
 ---
 
@@ -14,7 +14,7 @@ permalink: /about/resume
 
 Founder, Software Engineer, and Systems Builder with more than 15 years of experience building web, market, quantitative, and organizational systems.
 
-My practice-based inquiry focuses on human learning, reflective practice, leadership, and durable change. My current work is centered on [K2Quant](/work/projects/k2quant) and [Human Transformation](/work/leadership-learning/human-transformation), including [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle), facilitated programs, leadership and organizational practice, and [Vocora](/work/projects/vocora). My longer project history also includes [FamilyLink](/work/projects/familylink), a family-support initiative that is currently paused.
+I am the founder of [K2Quant](/work/projects/k2quant) and [Vocora](/work/projects/vocora), building businesses in quantitative technology and language learning. Alongside this work, my [Human Transformation](/work/leadership-learning/human-transformation) inquiry focuses on reflective practice, leadership, and durable change through [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle), facilitated programs, and organizational practice. My longer project history also includes [FamilyLink](/work/projects/familylink), a family-support initiative that is currently paused.
 
 For a concise professional and academic-facing document, see the [Curriculum Vitae](/about/cv).
 
@@ -97,25 +97,6 @@ FamilyLink was a family-support and social-impact initiative focused on reducing
 
 [Project record](/work/projects/familylink) · [Project reflection](/writing/essays/ten-years-of-familylink)
 
-### Vocora
-
-#### Founder and Builder
-
-Vocora is a research-and-building project about learning, memory, language practice, motivation, and learning technology.
-
-Completed and published work includes:
-
-- Built and deployed a full-stack vocabulary-practice application based on Leitner-style review.
-- Implemented account registration, sign-in, and learning state stored in MySQL for access across devices.
-- Defined product metrics that distinguish practice activity, current performance, and longer-term retention, while documenting that the application does not yet have a validated retention outcome.
-- Published privacy and ethical constraints for progress sharing and gamification.
-- Published research and design notes informed by work on retrieval practice, spaced practice, motivation, and language learning.
-- Released the source code with automated tests and a Docker-based development environment.
-
-Vocora is not presented as an academic affiliation, clinical project, or validated neuroscience intervention. Its published outputs are software and practice-based research documentation.
-
-[Project overview](/work/projects/vocora) · [Source code](https://github.com/OkBayat/vocora)
-
 ---
 
 ## Experience
@@ -146,6 +127,24 @@ The work includes facilitating conversations, examining recurring operating prob
 - Work on sustainable business and contribution models for long-term projects.
 
 **Technical skills:** C++, Java, Python, JavaScript, Node.js, databases, quantitative systems, server operations
+
+---
+
+### Vocora
+
+**Active**
+
+#### Founder and Software Engineer
+
+My language-learning startup, focused on English learning and IELTS preparation. Vocora has developed beyond its initial vocabulary-practice application into a broader self-study product.
+
+- Lead product direction, software development, and learning-experience design.
+- Connect lessons, language practice, and review in a structured self-study experience.
+- Use learning research to inform product decisions without promising a particular IELTS score or claiming validated learning outcomes.
+
+Vocora is developed as a proprietary product.
+
+[Startup overview](/work/projects/vocora) · [Visit Vocora](https://vocora.ir)
 
 ---
 

@@ -6,8 +6,8 @@ nav_order: 5
 direction: ltr
 lang: en
 locale: en_US
-description: "Professional CV for Mohammad Bayat, covering education, coaching credentials, selected experience, leadership and facilitation, projects, independent research-related work, technical skills, and languages."
-last_modified_date: 2026-07-24
+description: "Professional CV for Mohammad Bayat, founder of K2Quant and Vocora, covering software engineering, leadership, facilitation, education, and selected writing."
+last_modified_date: 2026-09-15
 permalink: /about/cv
 ---
 
@@ -16,7 +16,7 @@ permalink: /about/cv
 
 Founder, Software Engineer, and Systems Builder
 
-{ Last updated July 24, 2026 | sub }
+{ Last updated September 15, 2026 | sub }
 
 <p class="cv-actions">
   <a class="btn btn-primary" href="/assets/downloads/mohammad-bayat-cv.pdf" download>Download CV as PDF</a>
@@ -34,7 +34,7 @@ Founder, Software Engineer, and Systems Builder
 
 ## Professional Profile
 
-Founder, software engineer, and systems builder with more than 15 years of experience building web, market, quantitative, and organizational systems. Founded and continues to build [K2Quant](/work/projects/k2quant), combining software engineering, artificial intelligence, quantitative systems, technical operations, and company-building.
+Founder, software engineer, and systems builder with more than 15 years of experience building web, market, quantitative, and organizational systems. Founder of [K2Quant](/work/projects/k2quant) and [Vocora](/work/projects/vocora), building businesses in quantitative technology and language learning, with Vocora focused on English learning and IELTS preparation.
 
 Professional work also includes organizational leadership, coaching, facilitation, and the design of group-learning programs. Current independent inquiry examines reflective practice, durable learning, leadership, and what happens when people move from supportive learning environments into contexts that do not reinforce the same ways of thinking and acting.
 
@@ -72,6 +72,14 @@ Professional work also includes organizational leadership, coaching, facilitatio
 - Founded and continue to build quantitative, market-related, and artificial-intelligence-assisted software systems.
 - Work across software architecture, front-end and back-end development, infrastructure, data analysis, technical operations, testing, and reliability.
 - Lead technical and organizational decisions, contributor coordination, and the development of sustainable operating structures.
+
+### Vocora — Founder and Software Engineer
+
+**Active**
+{: .cv-entry-meta }
+
+- Lead product direction, software development, and learning-experience design for a language-learning startup focused on English learning and IELTS preparation.
+- Develop a structured self-study product connecting lessons, language practice, and review.
 
 ### Radin Bourse — Full-Stack Developer
 
@@ -153,7 +161,7 @@ Company-building and technical work around quantitative systems, software engine
 
 ### [Vocora](/work/projects/vocora)
 
-An open-source research-and-building project that turns questions about vocabulary learning, memory, retrieval, feedback, motivation, and measurement into working software.
+A proprietary language-learning product focused on English learning and IELTS preparation, developed beyond its initial vocabulary-practice application.
 
 ### [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle)
 
