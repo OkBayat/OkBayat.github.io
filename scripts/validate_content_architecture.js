@@ -400,6 +400,32 @@ if (cv) {
     )
   }
 
+  const coachingEntries = [
+    [
+      "Master-Level Coaching Training",
+      "Self-study and Private Classes · 2021 - 2023",
+    ],
+    [
+      "Professional Coaching Certification",
+      "Farsi Coaching Academy · 2019 - 2021",
+    ],
+    [
+      "Associate Coaching Certification",
+      "Farsi Coaching Academy · 2018 - 2019",
+    ],
+    ["Business Coaching Certification", "IBC Academy · 2019"],
+  ]
+  for (const [title, details] of coachingEntries) {
+    if (!cv.body.includes(`### ${title}\n\n**${details}**`)) {
+      errors.add(`docs/about/cv.md: missing or incorrect coaching entry ${title}`)
+    }
+  }
+  if (/Master Coaching Certification/i.test(cv.body)) {
+    errors.add(
+      "docs/about/cv.md: self-study and private classes must not be presented as Master Coaching Certification"
+    )
+  }
+
   const pdfPath = path.join(ROOT, "assets/downloads/mohammad-bayat-cv.pdf")
   if (!fs.existsSync(pdfPath)) {
     errors.add("docs/about/cv.md: downloadable CV PDF is missing")
