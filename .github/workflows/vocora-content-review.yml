@@ -1,0 +1,26 @@
+name: Vocora branch content review
+
+on:
+  push:
+    branches: [content/vocora-ielts-startup]
+    paths: [.github/workflows/vocora-content-review.yml]
+
+permissions:
+  contents: read
+
+jobs:
+  source-review:
+    if: github.repository == 'OkBayat/OkBayat.github.io'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Export source for content review
+        run: git archive --format=tar.gz --output=/tmp/vocora-review-source.tar.gz HEAD -- . ':!assets/*.MP3'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vocora-review-source
+          path: /tmp/vocora-review-source.tar.gz
+          retention-days: 1
