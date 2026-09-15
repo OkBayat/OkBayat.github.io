@@ -521,6 +521,42 @@ for (const [file, section, nextSection] of [
   }
 }
 
+// Guard the current company identity in pages, metadata, and shared templates.
+const profileContentFiles = [
+  ...pageFiles,
+  path.join(ROOT, "_config.yml"),
+  ...["_includes", "_layouts", "_data"].flatMap((directory) =>
+    walk(path.join(ROOT, directory)).filter((file) =>
+      [".md", ".html", ".yml", ".yaml", ".json"].includes(path.extname(file))
+    )
+  ),
+]
+for (const file of profileContentFiles) {
+  if (/\bK2[\s_-]*Group\b/i.test(fs.readFileSync(file, "utf8"))) {
+    errors.add(`${relative(file)}: retired company name or domain; use K2Quant`)
+  }
+}
+
+for (const file of ["docs/about/cv.md", "docs/about/resume.md"]) {
+  const body = pagesByFile.get(file)?.body || ""
+  const entries = body.split(/\n### /)
+  const startup = entries.find((entry) => /^Vocora(?: —|\n)/.test(entry)) || ""
+  const gruccia = entries.filter((entry) => /^Gruccia(?: —|\n)/.test(entry))
+  if (!/\*\*July 2026 [-–] Present\*\*/.test(startup)) {
+    errors.add(`${file}: Vocora experience must start in July 2026`)
+  }
+  if (
+    gruccia.length !== 1 ||
+    !/Leadership Facilitator/.test(gruccia[0]) ||
+    !/July 2024 [-–] Present/.test(gruccia[0])
+  ) {
+    errors.add(`${file}: keep one current Gruccia leadership facilitation role`)
+  }
+}
+if (!/July 2026 [-–] Present/.test(vocora?.body || "")) {
+  errors.add("docs/projects/vocora/index.md: include the July 2026 start date")
+}
+
 const footer = fs.readFileSync(
   path.join(ROOT, "_includes/footer_custom.html"),
   "utf8"

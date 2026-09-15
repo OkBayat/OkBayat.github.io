@@ -3,7 +3,7 @@ title: Home
 layout: home
 nav_order: 1
 primary_nav: true
-description: "Mohammad Bayat, founder of K2Quant and Vocora, builds quantitative technology and language-learning products while exploring human learning and leadership."
+description: "Mohammad Bayat, founder of K2Quant and Vocora, builds quantitative technology and language-learning products and works as a Leadership Facilitator at Gruccia."
 permalink: /
 has_toc: false
 ---
@@ -14,7 +14,7 @@ has_toc: false
       <p class="home-eyebrow">Systems · Organizations · Human Learning</p>
       <h1 id="home-title" class="home-hero-title">Mohammad Bayat</h1>
       <p class="home-hero-role">Founder, Software Engineer, and Systems Builder</p>
-      <p class="home-hero-intro">I’m the founder of K2Quant and Vocora. I build software products and businesses in quantitative technology and language learning. Alongside that work, I study how people learn, reflect, coordinate, and carry change across contexts.</p>
+      <p class="home-hero-intro">I’m the founder of K2Quant and Vocora. I build software products and businesses in quantitative technology and language learning. I also work as a Leadership Facilitator at Gruccia. Alongside that work, I study how people learn, reflect, coordinate, and carry change across contexts.</p>
       <p class="home-hero-summary">This site brings those two bodies of work together through selected projects, practice records, and writing.</p>
       <nav class="home-hero-links" aria-label="About Mohammad Bayat">
         <a class="home-button home-button-primary" href="/work">Explore my work</a>
@@ -68,7 +68,7 @@ has_toc: false
       <article class="home-work-card">
         <p class="home-card-label">Startup · Language Learning · IELTS</p>
         <h3><a href="/work/projects/vocora">Vocora</a></h3>
-        <p>My language-learning startup, focused on helping people build their English skills and prepare for IELTS through structured self-study.</p>
+        <p>My language-learning startup, founded in July 2026, focused on helping people build their English skills and prepare for IELTS through structured self-study.</p>
         <a class="home-card-link" href="/work/projects/vocora">Explore Vocora <span aria-hidden="true">&rarr;</span></a>
       </article>
       <article class="home-work-card">

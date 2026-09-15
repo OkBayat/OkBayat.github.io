@@ -4,7 +4,7 @@ title: Professional Journey
 parent: About
 nav_order: 2
 direction: ltr
-description: "How Mohammad Bayat's work in K2Quant, Vocora, software, organizations, leadership, and human learning developed."
+description: "How Mohammad Bayat's work in K2Quant, Vocora, Gruccia, software, leadership, and human learning developed."
 last_modified_date: 2026-09-15
 permalink: /about/professional-journey
 ---
@@ -19,7 +19,9 @@ I began working in software in the early 2010s. Over time, front-end and back-en
 
 As the technical systems and organization grew, questions about communication, responsibility, decision-making, and coordination became as important as questions about code. Since approximately 2017–2018, I have studied and facilitated leadership, coaching, group learning, and organizational practice alongside the engineering work.
 
-That path also includes [FamilyLink](/work/projects/familylink), a long-running social-impact initiative that is now paused, and founding [Vocora](/work/projects/vocora), my language-learning startup focused on English learning and IELTS preparation.
+That path also includes [FamilyLink](/work/projects/familylink), a long-running social-impact initiative that is now paused. In July 2026, I founded [Vocora](/work/projects/vocora), my language-learning startup focused on English learning and IELTS preparation.
+
+I also currently work as a Leadership Facilitator at Gruccia, a role I have held since July 2024, supporting leadership practice, team coordination, and organizational communication.
 
 Today, these experiences inform an independent [Research & Practice](/research-practice) portfolio. The portfolio does not treat professional observation as academic proof. It distinguishes published work, evidence type, uncertainty, and ethical boundaries.
 
@@ -40,6 +42,8 @@ Through [K2Quant](/work/projects/k2quant), I continue to work on:
 K2Quant is both a body of technical work and a real operating environment in which questions about decisions, communication, responsibility, and coordination appear.
 
 ## 2. Vocora and Language Learning
+
+**Founder and Software Engineer · July 2026 – Present**
 
 Through [Vocora](/work/projects/vocora), I am building a language-learning business centered on English learning and IELTS preparation. I lead product direction, software development, and learning-experience design.
 

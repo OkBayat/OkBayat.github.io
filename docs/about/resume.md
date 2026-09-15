@@ -4,7 +4,7 @@ title: Resume
 parent: About
 nav_order: 6
 direction: ltr
-description: "Mohammad Bayat’s experience as founder of K2Quant and Vocora, alongside software engineering, leadership practice, facilitation, and social-impact work."
+description: "Mohammad Bayat’s experience as founder of K2Quant and Vocora, alongside his current Leadership Facilitator role at Gruccia, software engineering, and social-impact work."
 last_modified_date: 2026-09-15
 permalink: /about/resume
 ---
@@ -14,7 +14,7 @@ permalink: /about/resume
 
 Founder, Software Engineer, and Systems Builder with more than 15 years of experience building web, market, quantitative, and organizational systems.
 
-I am the founder of [K2Quant](/work/projects/k2quant) and [Vocora](/work/projects/vocora), building businesses in quantitative technology and language learning. Alongside this work, my [Human Transformation](/work/leadership-learning/human-transformation) inquiry focuses on reflective practice, leadership, and durable change through [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle), facilitated programs, and organizational practice. My longer project history also includes [FamilyLink](/work/projects/familylink), a family-support initiative that is currently paused.
+I am the founder of [K2Quant](/work/projects/k2quant) and [Vocora](/work/projects/vocora), building businesses in quantitative technology and language learning. I also currently work as a Leadership Facilitator at Gruccia. Alongside this work, my [Human Transformation](/work/leadership-learning/human-transformation) inquiry focuses on reflective practice, leadership, and durable change through [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle), facilitated programs, and organizational practice. My longer project history also includes [FamilyLink](/work/projects/familylink), a family-support initiative that is currently paused.
 
 For a concise professional and academic-facing document, see the [Curriculum Vitae](/about/cv).
 
@@ -102,7 +102,7 @@ FamilyLink was a family-support and social-impact initiative focused on reducing
 ## Experience
 {: .no_toc }
 
-### K2 Group / K2Quant
+### K2Quant
 
 **May 2010 – Present**
 
@@ -132,7 +132,7 @@ The work includes facilitating conversations, examining recurring operating prob
 
 ### Vocora
 
-**Active**
+**July 2026 – Present**
 
 #### Founder and Software Engineer
 

@@ -236,8 +236,10 @@ Work is the stable primary entry point. Projects and Leadership & Learning remai
 
 Projects documents work Mohammad founded, built, or directly led. Client organizations and products he does not own are not presented as personal projects.
 
-- **K2Quant** is Mohammad's quantitative-technology business.
-- **Vocora** is Mohammad's language-learning startup, focused on English learning and IELTS preparation. It is a proprietary product, not a public source-code contribution project.
+- **K2Quant** is Mohammad's quantitative-technology business. Use this name consistently in all pages, shared templates, metadata, CV, and resume.
+- **Vocora** is Mohammad's language-learning startup, founded in July 2026, focused on English learning and IELTS preparation. It is a proprietary product, not a public source-code contribution project.
+
+Mohammad also currently works as a **Leadership Facilitator at Gruccia**. Keep this role in both CV and resume, without duplicate experience entries; the existing start date is July 2024. Regenerate the downloadable CV with `python scripts/generate_cv_pdf.py` after changing its source.
 
 Present both under **Companies & Startups** in Projects and include both founding roles in professional profiles. Research informs Vocora's design; it is not the startup's primary identity. Keep the overview short and product-focused, without a product tour or unsupported growth and IELTS-score claims.
 

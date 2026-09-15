@@ -6,7 +6,7 @@ nav_order: 5
 direction: ltr
 lang: en
 locale: en_US
-description: "Professional CV for Mohammad Bayat, founder of K2Quant and Vocora, covering software engineering, leadership, facilitation, education, and selected writing."
+description: "Professional CV for Mohammad Bayat, founder of K2Quant and Vocora, and Leadership Facilitator at Gruccia, covering software engineering, education, and selected writing."
 last_modified_date: 2026-09-15
 permalink: /about/cv
 ---
@@ -36,7 +36,7 @@ Founder, Software Engineer, and Systems Builder
 
 Founder, software engineer, and systems builder with more than 15 years of experience building web, market, quantitative, and organizational systems. Founder of [K2Quant](/work/projects/k2quant) and [Vocora](/work/projects/vocora), building businesses in quantitative technology and language learning, with Vocora focused on English learning and IELTS preparation.
 
-Professional work also includes organizational leadership, coaching, facilitation, and the design of group-learning programs. Current independent inquiry examines reflective practice, durable learning, leadership, and what happens when people move from supportive learning environments into contexts that do not reinforce the same ways of thinking and acting.
+I currently work as a Leadership Facilitator at Gruccia. Professional work also includes organizational leadership, coaching, facilitation, and the design of group-learning programs. Current independent inquiry examines reflective practice, durable learning, leadership, and what happens when people move from supportive learning environments into contexts that do not reinforce the same ways of thinking and acting.
 
 ## Education
 
@@ -69,7 +69,7 @@ Professional work also includes organizational leadership, coaching, facilitatio
 
 ## Selected Professional Experience
 
-### K2 Group / K2Quant — Founder and Software Engineer
+### K2Quant — Founder and Software Engineer
 
 **May 2010 - Present**
 {: .cv-entry-meta }
@@ -80,11 +80,18 @@ Professional work also includes organizational leadership, coaching, facilitatio
 
 ### Vocora — Founder and Software Engineer
 
-**Active**
+**July 2026 - Present**
 {: .cv-entry-meta }
 
 - Lead product direction, software development, and learning-experience design for a language-learning startup focused on English learning and IELTS preparation.
 - Develop a structured self-study product connecting lessons, language practice, and review.
+
+### Gruccia — Leadership Facilitator
+
+**July 2024 - Present**
+{: .cv-entry-meta }
+
+Work with the organization on leadership practice, employee well-being, team coordination, organizational communication, and sales strategy.
 
 ### Radin Bourse — Full-Stack Developer
 
@@ -137,16 +144,9 @@ Built JavaScript libraries for stock-market visualization, interactive charting,
 - Work with individual contributors, managers, teams, and business leaders on listening, feedback, responsibility, decision-making, relationships, and action.
 - Maintain confidentiality and keep client experience separate from public research claims.
 
-### Leadership Facilitator
-
-**Gruccia · July 2024 - Present**
-{: .cv-entry-meta }
-
-Work with the organization on leadership practice, employee well-being, team coordination, organizational communication, and sales strategy.
-
 ### Organizational Leadership and Facilitation
 
-**K2 Group / K2Quant · Since approximately 2017-2018**
+**K2Quant · Since approximately 2017-2018**
 {: .cv-entry-meta }
 
 Facilitate leadership and coordination work, examine recurring operating problems, and develop structures for shared responsibility, communication, and decision-making.
