@@ -30,6 +30,8 @@ The aim is to connect lessons, language practice, and regular review in one self
 
 ## My Role
 
+**Founder and Software Engineer · July 2026 – Present**
+
 As Vocora's founder, I lead the product direction, software development, and learning-experience design. The work brings together building a business and making practical decisions about how a language-learning product should work.
 
 Vocora is an actively developed proprietary product. Its source code is not offered for public contribution.

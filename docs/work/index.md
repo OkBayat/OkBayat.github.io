@@ -17,14 +17,14 @@ This section is the starting point for work I have founded, built, or directly l
 This branch documents companies, startups, software, operating systems, bounded initiatives, and explicit experiments.
 
 - [K2Quant](/work/projects/k2quant) — my quantitative-technology business, bringing together software engineering, artificial intelligence, and the operation of a technical organization.
-- [Vocora](/work/projects/vocora) — my language-learning startup, focused on English learning and IELTS preparation through structured self-study.
+- [Vocora](/work/projects/vocora) — my language-learning startup, founded in July 2026, focused on English learning and IELTS preparation through structured self-study.
 - [K2 OS](/work/projects/k2-os) — a business operating-system project.
 - [FamilyLink](/work/projects/familylink) — a long-running family-support initiative that is currently paused.
 - [Experiments](/work/projects/experiments) — documented protocols and results when work meets the site's definition of an experiment.
 
 ## Leadership, Learning & Facilitation
 
-This branch documents professional perspective, leadership practice, facilitation, coaching, programs, and course records.
+This branch documents professional perspective, leadership practice, facilitation, coaching, programs, and course records. My current professional work includes serving as a Leadership Facilitator at Gruccia; details are in my [CV](/about/cv) and [resume](/about/resume).
 
 - [Perspective](/work/leadership-learning/perspective) — principles connecting leadership, learning, context, and responsibility.
 - [Leadership](/work/leadership-learning/leadership) — leadership practice, source material, and organizational questions.

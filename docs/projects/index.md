@@ -22,7 +22,7 @@ My company-building work around quantitative systems, software development, arti
 
 ### [Vocora](/work/projects/vocora)
 
-My language-learning startup, focused on English learning and IELTS preparation. Vocora has grown beyond its initial vocabulary-practice application into a broader self-study product.
+My language-learning startup, founded in July 2026, focused on English learning and IELTS preparation. Vocora has grown beyond its initial vocabulary-practice application into a broader self-study product.
 
 I lead its product direction, software development, and learning-experience design. Research informs the product; the startup is a business in its own right.
 
