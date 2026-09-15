@@ -31,10 +31,6 @@ jobs:
           test "$(git branch --show-current)" = "$BRANCH"
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.4'
-          bundler-cache: true
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -44,29 +40,6 @@ jobs:
         with:
           python-version: '3.11'
       - run: python -m pip install --disable-pip-version-check reportlab==4.4.9
-      - name: Update supporting references and remove gamification
-        shell: bash
-        run: |
-          set -euo pipefail
-          python .github/vocora-content-update.py supporting
-          node scripts/validate_content_architecture.js
-          node scripts/validate_site_integrity.js
-          ruby scripts/validate_publications.rb
-          git diff --check
-          git add _data/publications.yml _data/publications_fa.yml docs/research docs/writing/all-writing-en.md docs/writing/all-writing-fa.md docs/projects/project-records.md docs/projects/vocora/publications.md docs/leadership-learning/human-transformation/index.md
-          git commit -m 'docs(vocora): remove gamification and align supporting references'
-          git push origin "HEAD:refs/heads/$BRANCH"
-      - name: Align editorial guide and site descriptions
-        shell: bash
-        run: |
-          set -euo pipefail
-          python .github/vocora-content-update.py editorial
-          node scripts/validate_content_architecture.js
-          node scripts/validate_site_integrity.js
-          git diff --check
-          git add README.md _config.yml _includes/footer_custom.html
-          git commit -m 'docs(brand): align editorial guide, metadata and footer'
-          git push origin "HEAD:refs/heads/$BRANCH"
       - name: Update professional profiles and regenerate the reviewed CV
         shell: bash
         run: |
@@ -82,13 +55,18 @@ jobs:
           python scripts/generate_cv_pdf.py
           echo 'ce586b74309bf365a48963a288974071acdaaa02843491e7491a27051105b75d  assets/downloads/mohammad-bayat-cv.pdf' | sha256sum --check
           npm test
-          ruby scripts/validate_publications.rb
-          ruby scripts/validate_list_and_sidebar_styles.rb
-          bundle exec ruby scripts/validate_custom_markdown_processor.rb
+          git diff --check
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.4'
+          bundler-cache: true
       - name: Build and validate the complete site
         shell: bash
         run: |
           set -euo pipefail
+          ruby scripts/validate_publications.rb
+          ruby scripts/validate_list_and_sidebar_styles.rb
+          bundle exec ruby scripts/validate_custom_markdown_processor.rb
           bundle exec jekyll build
           node scripts/validate_site_integrity.js _site
           ruby scripts/validate_profile_photos.rb _site
@@ -123,7 +101,7 @@ jobs:
           if test -d _site; then
             tar --exclude='*.MP3' -czf /tmp/vocora-output/site.tar.gz -C _site .
           fi
-          git log -6 --oneline > /tmp/vocora-output/commits.txt
+          git log -8 --oneline > /tmp/vocora-output/commits.txt
           git status --short > /tmp/vocora-output/worktree-status.txt
       - uses: actions/upload-artifact@v4
         if: always()
