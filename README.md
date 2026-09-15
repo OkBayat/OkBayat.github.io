@@ -8,7 +8,7 @@ okbayat.com is a durable public record of what Mohammad Bayat is building, study
 
 The work has two connected bodies:
 
-1. **Building systems and organizations** — quantitative systems, software engineering, artificial intelligence, agent systems, K2Quant, company-building, technical decisions, operating systems, and bounded social-impact initiatives.
+1. **Building systems and organizations** — quantitative systems, software engineering, artificial intelligence, agent systems, K2Quant, Vocora, language-learning products, company-building, technical decisions, operating systems, and bounded social-impact initiatives.
 2. **Studying human learning and transformation** — learning, memory, language, identity, context, performance, leadership, group coordination, relationships, and quality of life.
 
 The site is not a stream of promotional posts and does not present open questions as settled answers. It should help a reader distinguish among:
@@ -236,8 +236,10 @@ Work is the stable primary entry point. Projects and Leadership & Learning remai
 
 Projects documents work Mohammad founded, built, or directly led. Client organizations and products he does not own are not presented as personal projects.
 
-- **K2Quant** is the main company-building and quantitative-systems work.
-- **Vocora** is an independent research-and-building project about learning, memory, language practice, and learning technology.
+- **K2Quant** is Mohammad's quantitative-technology business.
+- **Vocora** is Mohammad's language-learning startup, focused on English learning and IELTS preparation. It is a proprietary product, not a public source-code contribution project.
+
+Present both under **Companies & Startups** in Projects and include both founding roles in professional profiles. Research informs Vocora's design; it is not the startup's primary identity. Keep the overview short and product-focused, without a product tour or unsupported growth and IELTS-score claims.
 
 K2 OS and FamilyLink are bounded project records. Projects may be active, paused, completed, discontinued, or inconclusive. `Experiments` is reserved for explicit protocols and results.
 
@@ -359,8 +361,8 @@ Practice pages may link to Research & Practice and Writing, but do not duplicate
 
 Vocora content is distributed by type, with one canonical home for each page:
 
-- `/work/projects/vocora` — project overview and current state;
-- `/work/projects/vocora/publications` — curated project index;
+- `/work/projects/vocora` — startup overview, product direction, founder's role, and application link;
+- `/work/projects/vocora/publications` — public reading and design notes that support the product;
 - `/research-practice/notes/...` — research and design notes;
 - `/writing/translations/...` — translated work, even when an older stable permalink does not mirror the current folder;
 - `/work/projects/experiments/...` — protocols and results when formal experiments exist.
