@@ -4,14 +4,14 @@ title: Professional Journey
 parent: About
 nav_order: 2
 direction: ltr
-description: "How Mohammad Bayat's work in software, quantitative systems, organizations, leadership, learning, and independent research developed."
-last_modified_date: 2026-07-24
+description: "How Mohammad Bayat's work in K2Quant, Vocora, software, organizations, leadership, and human learning developed."
+last_modified_date: 2026-09-15
 permalink: /about/professional-journey
 ---
 
 # Professional Journey
 
-{ Last updated July 24, 2026 | sub }
+{ Last updated September 15, 2026 | sub }
 
 My professional journey has developed through two connected forms of work: building software, quantitative systems, projects, and organizations; and examining how people learn, coordinate, perform, and change.
 
@@ -19,7 +19,7 @@ I began working in software in the early 2010s. Over time, front-end and back-en
 
 As the technical systems and organization grew, questions about communication, responsibility, decision-making, and coordination became as important as questions about code. Since approximately 2017–2018, I have studied and facilitated leadership, coaching, group learning, and organizational practice alongside the engineering work.
 
-That path also includes [FamilyLink](/work/projects/familylink), a long-running social-impact initiative that is now paused, and [Vocora](/work/projects/vocora), an open-source learning project that turns a bounded set of questions about memory, retrieval, language practice, motivation, and measurement into working software.
+That path also includes [FamilyLink](/work/projects/familylink), a long-running social-impact initiative that is now paused, and founding [Vocora](/work/projects/vocora), my language-learning startup focused on English learning and IELTS preparation.
 
 Today, these experiences inform an independent [Research & Practice](/research-practice) portfolio. The portfolio does not treat professional observation as academic proof. It distinguishes published work, evidence type, uncertainty, and ethical boundaries.
 
@@ -39,7 +39,15 @@ Through [K2Quant](/work/projects/k2quant), I continue to work on:
 
 K2Quant is both a body of technical work and a real operating environment in which questions about decisions, communication, responsibility, and coordination appear.
 
-## 2. Human Transformation
+## 2. Vocora and Language Learning
+
+Through [Vocora](/work/projects/vocora), I am building a language-learning business centered on English learning and IELTS preparation. I lead product direction, software development, and learning-experience design.
+
+Vocora began with vocabulary practice and Leitner-style review. It has grown into a broader self-study product that connects lessons, language practice, and review. It is developed as a proprietary product, rather than a public code-contribution project.
+
+My interest in learning informs its design, while the startup has its own product and business identity alongside K2Quant.
+
+## 3. Human Transformation
 
 Through [Human Transformation](/work/leadership-learning/human-transformation), I am currently examining:
 
@@ -51,18 +59,3 @@ Through [Human Transformation](/work/leadership-learning/human-transformation), 
 - group coordination, leadership, coaching, and facilitator withdrawal;
 - the design and documentation of programs such as [Mastery for Life](/work/leadership-learning/human-transformation/practice-programs/mastery-for-life);
 - the relationship between external conditions, lived experience, and quality of life.
-
-## Vocora
-
-[Vocora](/work/projects/vocora) is a bounded research-and-building project within the broader interest in human learning. Its present scope includes:
-
-- retrieval practice and delayed recall;
-- spaced review and forgetting;
-- vocabulary and spelling practice;
-- feedback after errors;
-- motivation, autonomy, and ethical gamification;
-- the difference between activity, current performance, and durable learning;
-- privacy-conscious learning analytics;
-- context and pattern recognition in language learning.
-
-Vocora does not stand for every question about human transformation. It provides one concrete software setting in which a limited set of learning questions can be made traceable and measurable.

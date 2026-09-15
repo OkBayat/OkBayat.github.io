@@ -8,7 +8,10 @@ lang: en
 locale: en_US
 author: Mohammad Bayat
 date: 2026-07-17
-last_modified_date: 2026-07-17
+last_modified_date: 2026-09-15
+date_modified: 2026-09-15
+seo:
+  type: Article
 status: working-note
 project: vocora
 permalink: /research-practice/notes/spaced-practice-and-leitner
@@ -29,7 +32,16 @@ sitemap: true
 { Working Research Note · Vocora | fs-6 }
 
 > **Status:** Working note, not peer reviewed  
-> **Last revised:** July 17, 2026
+> **Last revised:** September 15, 2026
+
+This note discusses the vocabulary-review design documented in July 2026, not the full current product. For the startup's current direction, see [Vocora](/work/projects/vocora).
+
+<details open markdown="block">
+  <summary>Table of contents</summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 ## The Question
 
@@ -99,5 +111,7 @@ Vocora will keep the Leitner-style scheduler because it is simple and functional
 - Bahrick, H. P., Bahrick, L. E., Bahrick, A. S., & Bahrick, P. E. (1993). [Maintenance of Foreign Language Vocabulary and the Spacing Effect](https://doi.org/10.1111/j.1467-9280.1993.tb00571.x). *Psychological Science, 4*(5), 316–321.
 
 ## Revision History
+
+- **September 15, 2026:** Clarified the scope of the earlier product examples and linked to the current startup overview.
 
 - **July 17, 2026:** First published.

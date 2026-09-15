@@ -335,7 +335,7 @@ works:
     themes:
       - learning-memory-language
     project: vocora
-    summary: Reviews what retrieval practice can support, what it does not prove, and how the mechanism is currently used in Vocora.
+    summary: Reviews what retrieval practice can support, what it does not prove, and how it informs vocabulary review in Vocora.
     editions:
       - lang: en
         label: English
@@ -352,30 +352,12 @@ works:
       - learning-memory-language
       - systems-operations-decision-making
     project: vocora
-    summary: Distinguishes the general spacing effect from the practical but not yet optimized schedule used by Vocora.
+    summary: Distinguishes general spacing evidence from the design choices and limitations of Leitner-style vocabulary review in Vocora.
     editions:
       - lang: en
         label: English
         title: Spaced Practice and the Leitner System
         url: /research-practice/notes/spaced-practice-and-leitner
-
-  - id: ethical-gamification
-    content_type: research-note
-    primary_body: building
-    bodies_of_work:
-      - building
-      - human-transformation
-    themes:
-      - learning-memory-language
-      - software-ai-agent-systems
-      - systems-operations-decision-making
-    project: vocora
-    summary: Defines autonomy, motivation, privacy, and evidence guardrails for goals, streaks, progress feedback, and sharing.
-    editions:
-      - lang: en
-        label: English
-        title: Ethical Gamification in Vocora
-        url: /research-practice/notes/ethical-gamification
 
   - id: hebbs-rule
     content_type: research-note

@@ -1,7 +1,7 @@
 # Site settings
 # These values are available to Jekyll templates through the `site` object.
 title: OkBayat
-description: "Mohammad Bayat — building quantitative systems and studying human learning and transformation."
+description: "Mohammad Bayat — founder of K2Quant and Vocora, building quantitative technology and language-learning products."
 baseurl: ""
 url: "https://www.okbayat.com"
 repository: OkBayat/OkBayat.github.io

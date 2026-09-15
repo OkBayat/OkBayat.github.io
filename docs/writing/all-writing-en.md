@@ -53,7 +53,7 @@ Browse essay topics: [Artificial Intelligence](/writing/essays/topics/artificial
 ## Project, Program & Media Records
 
 - [K2Quant](/work/projects/k2quant) — quantitative systems, software, artificial intelligence, technical operations, and company-building.
-- [Vocora](/work/projects/vocora) — an open-source research-and-building project about learning, memory, language practice, and learning technology.
+- [Vocora](/work/projects/vocora) — my language-learning startup, focused on English learning and IELTS preparation.
 - [K2 OS](/work/projects/k2-os) — a business operating-system project currently being documented.
 - [FamilyLink](/work/projects/familylink) — a paused social-impact project with a public record of its operating history and evidence limits.
 - [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle) — a generalized field-project record about learner ownership and facilitator withdrawal.

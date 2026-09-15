@@ -4,7 +4,7 @@ title: Work
 nav_order: 3
 primary_nav: true
 direction: ltr
-description: "Companies, software, leadership practice, facilitation, programs, and documented projects built or led by Mohammad Bayat."
+description: "K2Quant and Vocora, alongside software, leadership practice, facilitation, programs, and documented projects built or led by Mohammad Bayat."
 permalink: /work
 ---
 
@@ -14,10 +14,10 @@ This section is the starting point for work I have founded, built, or directly l
 
 ## Systems, Organizations & Projects
 
-This branch documents companies, software, operating systems, bounded initiatives, and explicit experiments.
+This branch documents companies, startups, software, operating systems, bounded initiatives, and explicit experiments.
 
-- [K2Quant](/work/projects/k2quant) — quantitative systems, software engineering, artificial intelligence, and the operation of a technical organization.
-- [Vocora](/work/projects/vocora) — an open-source learning product and a bounded setting for examining memory, language practice, and learning technology.
+- [K2Quant](/work/projects/k2quant) — my quantitative-technology business, bringing together software engineering, artificial intelligence, and the operation of a technical organization.
+- [Vocora](/work/projects/vocora) — my language-learning startup, focused on English learning and IELTS preparation through structured self-study.
 - [K2 OS](/work/projects/k2-os) — a business operating-system project.
 - [FamilyLink](/work/projects/familylink) — a long-running family-support initiative that is currently paused.
 - [Experiments](/work/projects/experiments) — documented protocols and results when work meets the site's definition of an experiment.

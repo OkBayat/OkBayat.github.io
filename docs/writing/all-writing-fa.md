@@ -65,7 +65,7 @@ permalink: /writing/all-fa
 ## سوابق پروژه، برنامه و رسانه
 
 - [K2Quant](/work/projects/k2quant) — سیستم‌های کمی، نرم‌افزار، هوش مصنوعی، عملیات فنی و شرکت‌سازی.
-- [Vocora](/work/projects/vocora) — پروژه‌ای متن‌باز درباره‌ی یادگیری، حافظه، تمرین زبان و فناوری یادگیری.
+- [Vocora](/work/projects/vocora) — استارت‌آپ من برای یادگیری زبان انگلیسی و آمادگی IELTS.
 - [K2 OS](/work/projects/k2-os) — پروژه‌ی سیستم‌عامل کسب‌وکار که در حال مستندسازی است.
 - [FamilyLink](/work/projects/familylink) — پروژه‌ی متوقف‌شده‌ی اثر اجتماعی با سابقه‌ی عمومیِ فعالیت و محدودیت‌های شواهد.
 - [حلقه‌ی یادگیری](/work/leadership-learning/human-transformation/field-projects/learning-circle) — سابقه‌ای عمومی و تعمیم‌یافته درباره‌ی مالکیت یادگیری و عقب‌نشینی تسهیل‌گر.

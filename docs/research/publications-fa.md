@@ -34,7 +34,7 @@ permalink: /research-practice/publications-fa
 
 {% include publication-list-fa.html body="human-transformation" theme="learning-memory-language" %}
 
-Vocora پروژه‌ای نرم‌افزاری با دامنه‌ی مشخص در دل این پرسش گسترده‌تر است. نوشته‌های اختصاصی آن در [انتشارات و یادداشت‌های Vocora](/work/projects/vocora/publications) گردآوری شده‌اند.
+بخشی از این نوشته‌ها به اصول یادگیری و تصمیم‌های طراحی در Vocora، استارت‌آپ من برای یادگیری زبان انگلیسی و آمادگی IELTS، مرتبط‌اند. نوشته‌های مرتبط در [انتشارات و یادداشت‌های Vocora](/work/projects/vocora/publications) گردآوری شده‌اند.
 
 ## فلسفه، جهان‌بینی و زمینه
 

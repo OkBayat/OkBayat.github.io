@@ -4,69 +4,40 @@ title: Vocora
 parent: Projects
 nav_order: 2
 direction: ltr
-description: "An open-source research-and-building project about learning, memory, language practice, and learning technology."
+description: "Vocora is Mohammad Bayat's language-learning startup, focused on English learning and IELTS preparation."
 permalink: /work/projects/vocora
 ---
 
 # Vocora
 
-{ An independent research-and-building project about human learning | fs-6 }
+{ Startup · Language Learning · IELTS | fs-6 }
 
-Vocora is my independent open-source project for studying how people practice, retain, and retrieve knowledge, and for turning some of those questions into working software.
+Vocora is my language-learning startup, focused on helping people build their English skills and prepare for IELTS. Alongside [K2Quant](/work/projects/k2quant), it is one of the businesses I am building.
 
-The long-term motivation is broad: to understand learning and memory more carefully. The current work is deliberately narrower and easier to examine: vocabulary practice, retrieval, spacing, feedback, motivation, progress measurement, and language learning.
+[Visit Vocora](https://vocora.ir){: .btn .btn-primary }
 
-## Relationship to Human Transformation
+## Why I Founded Vocora
 
-Vocora is one bounded project within the broader [Human Transformation](/work/leadership-learning/human-transformation) inquiry. It provides a concrete software setting for a limited set of questions about learning and measurement. It is not the container for the wider questions about identity, worldview, leadership, children's learning, group coordination, or quality of life.
+I founded Vocora to make independent language study more structured: a clear path through lessons and practice, with review and progress that learners can return to over time.
 
-## Why It Exists
+The focus is on English learning and IELTS preparation, rather than vocabulary practice alone.
 
-Learning applications can measure activity easily, but activity is not the same as durable learning. Vocora gives me a concrete system in which to examine that difference: define what a metric means, implement a small decision, observe its limits, and revise it.
+## Product Direction
 
-The goal is not to attach scientific language to an ordinary product. It is to make the questions, sources, assumptions, measurements, and corrections behind the product visible.
+Vocora began as a vocabulary-practice application using Leitner-style review. It has developed into a broader language-learning product, with IELTS preparation at the center of its direction.
 
-## What Exists Today
+The aim is to connect lessons, language practice, and regular review in one self-study experience. The application is the place to explore the currently available courses and exercises.
 
-The first working artifact is a full-stack vocabulary-practice application based on the Leitner system, currently focused on spelling for IELTS Listening.
+## My Role
 
-The application currently includes:
+As Vocora's founder, I lead the product direction, software development, and learning-experience design. The work brings together building a business and making practical decisions about how a language-learning product should work.
 
-- account registration and sign-in;
-- learning state stored in MySQL and available across devices;
-- Leitner-style review scheduling;
-- import of Markdown and text word lists;
-- progress and practice history;
-- optional progress-story generation with privacy constraints;
-- automated tests and a Docker-based development environment.
+Vocora is an actively developed proprietary product. Its source code is not offered for public contribution.
 
-The official application is available at [vocora.ir](https://vocora.ir), where anyone can register and use it.
+## Learning Principles
 
-Vocora is open source. The code is available in the [Vocora GitHub repository](https://github.com/OkBayat/vocora), and anyone who would like to improve the software, documentation, or related research tooling is welcome to contribute.
+My interest in [human learning and transformation](/work/leadership-learning/human-transformation) informs Vocora's design, but the startup is a product and business in its own right.
 
-## Questions Behind the Product
+Research is a design input, not a claim that the product has proven a learning outcome. Practice activity is not the same as durable learning, and Vocora does not promise a particular IELTS score.
 
-The product is shaped by questions such as:
-
-- How should retrieval and review intervals be represented in a practical learning tool?
-- Which measures reflect practice, and which could reasonably indicate longer-term retention?
-- How can feedback support persistence without creating shame or dependence?
-- How should progress be communicated without claiming permanent mastery?
-- Which forms of gamification support autonomy and regular practice rather than compulsive engagement?
-- How can language-learning software collect only the data it actually needs?
-
-## What the Current Product Does Not Demonstrate
-
-Vocora is not an academic laboratory, a clinical project, or a peer-reviewed neuroscience study. I am not claiming that the current application has already improved long-term memory or outperformed other methods.
-
-At this stage, Vocora is an independent software and research project informed by published work in cognitive and learning science. Formal claims about effectiveness require appropriate comparison, delayed measurement, sufficient data, and a method that can be reviewed.
-
-## Project Principles
-
-- Learning outcomes matter more than time spent in the product.
-- Short-term correct answers are not the same as durable learning.
-- Claims should not be stronger than the available evidence.
-- Motivation should be supported rather than manipulated.
-- Progress should be represented honestly.
-- Privacy and user choice are product requirements.
-- Unsupported and inconclusive hypotheses should be documented, not hidden.
+Related reading is collected in [Vocora Publications & Notes](/work/projects/vocora/publications).

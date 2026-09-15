@@ -13,7 +13,7 @@ permalink: /work/projects/project-records
 
 This section contains bounded work with a distinct purpose, operating history, scope, and current status. A project may be active, paused, completed, discontinued, or inconclusive.
 
-K2Quant and Vocora are listed directly under [Projects](/work/projects) because they are ongoing bodies of work rather than individual bounded projects.
+K2Quant and Vocora are listed directly under [Projects](/work/projects) as the businesses I am building, rather than individual bounded projects.
 
 ## Current Projects
 

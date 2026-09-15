@@ -4,13 +4,13 @@ title: Publications & Notes
 parent: Vocora
 nav_order: 2
 direction: ltr
-description: "A curated index of research notes, translations, reading, and project documentation connected to Vocora."
+description: "Research notes, translations, and reading that inform the learning principles and product decisions behind the Vocora startup."
 permalink: /work/projects/vocora/publications
 ---
 
 # Vocora Publications & Notes
 
-This page collects work related to Vocora. Each item remains in its canonical section according to its content type. Inclusion here means that the item informs the project; it does not mean that it is a peer-reviewed publication or that a product-specific effect has been established.
+This page collects reading and design notes that inform Vocora, my language-learning startup focused on English learning and IELTS preparation. Each item remains in its canonical section according to its content type. Inclusion here means that the item informs the product; it does not mean that it is a peer-reviewed publication or that a product-specific effect has been established.
 
 ## Research and Design Notes
 
@@ -28,15 +28,6 @@ This page collects work related to Vocora. Each item remains in its canonical se
 {% endif %}
 {% endfor %}
 
-## Project Documentation
+## Product
 
-### [Gamification and Sharing Principles](https://github.com/OkBayat/vocora/blob/main/docs/GAMIFICATION.md)
-
-**Type:** Product design and evidence note  
-**Location:** Vocora repository
-
-Documents the motivation principles, metric definitions, privacy constraints, and design boundaries for progress sharing and gamification.
-
-### [Vocora Source and Technical Overview](https://github.com/OkBayat/vocora)
-
-The application source, setup instructions, architecture, tests, and current product capabilities.
+[Vocora overview](/work/projects/vocora) · [Visit Vocora](https://vocora.ir)

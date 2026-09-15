@@ -8,7 +8,10 @@ lang: en
 locale: en_US
 author: Mohammad Bayat
 date: 2026-07-17
-last_modified_date: 2026-07-17
+last_modified_date: 2026-09-15
+date_modified: 2026-09-15
+seo:
+  type: Article
 status: working-note
 project: vocora
 permalink: /research-practice/notes/vocora-learning-metrics
@@ -32,11 +35,20 @@ sitemap: true
 
 > **Status:** Working note, not peer reviewed  
 > **Project:** [Vocora](/work/projects/vocora)
-> **Last revised:** July 17, 2026
+> **Last revised:** September 15, 2026
+
+This note discusses the vocabulary-review design documented in July 2026, not the full current product. For the startup's current direction, see [Vocora](/work/projects/vocora).
+
+<details open markdown="block">
+  <summary>Table of contents</summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 ## The Question
 
-A learning application can count many things: sessions, answers, time, streaks, completed reviews, and items that move to a later box. None of those numbers is automatically equivalent to learning.
+A learning application can count many things: sessions, answers, time, completed reviews, and items that move to a later box. None of those numbers is automatically equivalent to learning.
 
 The question for Vocora is:
 
@@ -53,8 +65,7 @@ These metrics describe behavior inside the product:
 - reviews completed;
 - active practice days;
 - due reviews completed within a defined period;
-- words encountered or retrieved;
-- selected weekly goal completion.
+- words encountered or retrieved.
 
 They can describe consistency and workload. They do not show that an item will be remembered later.
 
@@ -89,9 +100,9 @@ Research on distributed practice also indicates that spacing study or practice e
 
 These findings support using retrieval and spacing as design inputs. They do **not** demonstrate that every retrieval schedule is effective, that the Leitner system is optimal, or that the current Vocora implementation has produced the same outcomes.
 
-## Current Vocora Metrics
+## Interpreting Product Metrics
 
-The current application can calculate several honest product measures:
+The following examples show how practice measures should be labelled. They are design guidance, not a list of features available in the current release:
 
 | Metric | What it describes | What it does not establish |
 |---|---|---|
@@ -101,20 +112,12 @@ The current application can calculate several honest product measures:
 | Words strengthened today | Unique words promoted during the day | Permanent memory |
 | Words in box 5 | Current scheduler state | Guaranteed long-term retention |
 | Active days | Days with at least one real answer | Quality of practice |
-| Current streak | Consecutive active days | Motivation, well-being, or learning quality |
 
 Product copy should use these narrow descriptions. For example, “words strengthened today” is preferable to “words permanently learned.”
 
-## Guardrails
+## Measurement Boundaries
 
-Vocora currently applies several measurement and communication constraints:
-
-- Low accuracy should not become a public comparison signal.
-- A progress card should not include email, typed answers, difficult-word names, or detailed errors.
-- Sharing should be optional and reviewed by the user before leaving the product.
-- Opening the application is not counted as an active learning day; at least one answer is required.
-- A broken streak should not erase total practice history or be used to shame the learner.
-- Engagement should not be optimized without checking learning and well-being guardrails.
+Practice measures should refer to recorded answers, not merely opening the application. Low accuracy or a small sample should not become a claim about a learner's lasting ability. Any learning analysis should use only the data it needs and distinguish performance from retention.
 
 ## What Needs to Be Added
 
@@ -145,9 +148,9 @@ The practical standard is simple:
 
 - Karpicke, J. D., & Roediger, H. L. (2008). [The Critical Importance of Retrieval for Learning](https://doi.org/10.1126/science.1152408). *Science, 319*(5865), 966–968.
 - Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). [Distributed Practice in Verbal Recall Tasks: A Review and Quantitative Synthesis](https://doi.org/10.1037/0033-2909.132.3.354). *Psychological Bulletin, 132*(3), 354–380.
-- Ryan, R. M., & Deci, E. L. (2020). [Intrinsic and Extrinsic Motivation from a Self-Determination Theory Perspective](https://doi.org/10.1016/j.cedpsych.2020.101860). *Contemporary Educational Psychology, 61*, 101860.
-- [Vocora Gamification and Sharing Principles](https://github.com/OkBayat/vocora/blob/main/docs/GAMIFICATION.md).
 
 ## Revision History
+
+- **September 15, 2026:** Clarified the scope of the earlier product examples and linked to the current startup overview.
 
 - **July 17, 2026:** First published.
