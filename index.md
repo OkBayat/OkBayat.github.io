@@ -3,7 +3,7 @@ title: Home
 layout: home
 nav_order: 1
 primary_nav: true
-description: "Mohammad Bayat is a founder, software engineer, and systems builder whose practice-based inquiry focuses on human learning, reflective practice, leadership, and durable change."
+description: "Mohammad Bayat, founder of K2Quant and Vocora, builds quantitative technology and language-learning products while exploring human learning and leadership."
 permalink: /
 has_toc: false
 ---
@@ -14,7 +14,7 @@ has_toc: false
       <p class="home-eyebrow">Systems · Organizations · Human Learning</p>
       <h1 id="home-title" class="home-hero-title">Mohammad Bayat</h1>
       <p class="home-hero-role">Founder, Software Engineer, and Systems Builder</p>
-      <p class="home-hero-intro">I build quantitative software, AI-assisted systems, and organizations. Alongside that work, I study how people learn, reflect, coordinate, and carry change across contexts.</p>
+      <p class="home-hero-intro">I’m the founder of K2Quant and Vocora. I build software products and businesses in quantitative technology and language learning. Alongside that work, I study how people learn, reflect, coordinate, and carry change across contexts.</p>
       <p class="home-hero-summary">This site brings those two bodies of work together through selected projects, practice records, and writing.</p>
       <nav class="home-hero-links" aria-label="About Mohammad Bayat">
         <a class="home-button home-button-primary" href="/work">Explore my work</a>
@@ -38,7 +38,7 @@ has_toc: false
       <article class="home-axis-card">
         <span class="home-axis-number" aria-hidden="true">01</span>
         <h3><a href="/work/projects">Building systems and organizations</a></h3>
-        <p>Quantitative systems, software engineering, artificial intelligence, agentic workflows, company-building, and the operating practices behind them.</p>
+        <p>Quantitative systems, language-learning products, software engineering, artificial intelligence, agentic workflows, and the operating practices behind them.</p>
         <a class="home-card-link" href="/work/projects">Explore projects <span aria-hidden="true">&rarr;</span></a>
       </article>
       <article class="home-axis-card">
@@ -62,13 +62,13 @@ has_toc: false
       <article class="home-work-card">
         <p class="home-card-label">Company · Quantitative systems</p>
         <h3><a href="/work/projects/k2quant">K2Quant</a></h3>
-        <p>My main company-building work around quantitative systems, software, artificial intelligence, and the operation of a technical organization.</p>
+        <p>My company-building work around quantitative systems, software, artificial intelligence, and the operation of a technical organization.</p>
         <a class="home-card-link" href="/work/projects/k2quant">Explore K2Quant <span aria-hidden="true">&rarr;</span></a>
       </article>
       <article class="home-work-card">
-        <p class="home-card-label">Open-source learning product</p>
+        <p class="home-card-label">Startup · Language Learning · IELTS</p>
         <h3><a href="/work/projects/vocora">Vocora</a></h3>
-        <p>A working software project that turns questions about memory, language practice, feedback, motivation, and measurement into product decisions.</p>
+        <p>My language-learning startup, focused on helping people build their English skills and prepare for IELTS through structured self-study.</p>
         <a class="home-card-link" href="/work/projects/vocora">Explore Vocora <span aria-hidden="true">&rarr;</span></a>
       </article>
       <article class="home-work-card">
