@@ -61,9 +61,6 @@ jobs:
             }
           
           '''
-          # Remove the two extra spaces used to align the multiline Python literal.
-          lines = addition.splitlines(keepends=True)
-          addition = lines[0] + ''.join(line[2:] if line.startswith('  ') else line for line in lines[1:])
           path.write_text(content.replace(needle, addition + needle), encoding='utf-8')
       - name: Generate PDF and validate corrected source
         run: |
