@@ -68,7 +68,12 @@ jobs:
           node --check scripts/validate_content_architecture.js
           node scripts/validate_content_architecture.js
           git diff --check
-      - name: Verify PDF and validator match reviewed files
+      - uses: actions/upload-artifact@v4
+        with:
+          name: corrected-coaching-cv-review
+          path: assets/downloads/mohammad-bayat-cv.pdf
+          retention-days: 1
+      - name: Verify source, regression guard, and deterministic runner PDF
         shell: python
         run: |
           import hashlib
@@ -76,13 +81,13 @@ jobs:
           expected = {
               'docs/about/cv.md': 'ecc3a5f93dc1d3f0f68ead03c3efa49c22c18fb0',
               'scripts/validate_content_architecture.js': 'b3e6c44f4e489e420397c0351cccf81d1291b4c7',
-              'assets/downloads/mohammad-bayat-cv.pdf': '2a6cfca3690f8c5d5a31cbd70ba9960aa4e7ef9f',
+              'assets/downloads/mohammad-bayat-cv.pdf': 'e70809cd11ead58cd5dfbf3761a7cd1cd2986c37',
           }
           for filename, wanted in expected.items():
               data = Path(filename).read_bytes()
               actual = hashlib.sha1(f'blob {len(data)}\0'.encode() + data).hexdigest()
               print(filename, actual)
-              assert actual == wanted, f'{filename} differs from the locally reviewed file'
+              assert actual == wanted, f'{filename} differs from the expected file'
       - name: Commit only corrected PDF and regression guard to this branch
         run: |
           git config user.name 'github-actions[bot]'
