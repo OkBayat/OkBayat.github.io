@@ -1,0 +1,38 @@
+name: Format coaching regression check (one-off)
+
+on:
+  push:
+    branches: [fix/coaching-credentials]
+    paths: [.github/workflows/format-coaching-check-once.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  format:
+    if: github.repository == 'OkBayat/OkBayat.github.io' && github.ref == 'refs/heads/fix/coaching-credentials'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/coaching-credentials
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 22.x
+      - run: npm install
+      - name: Apply the repository formatter to the changed validator only
+        run: |
+          test "$(git hash-object scripts/validate_content_architecture.js)" = b3e6c44f4e489e420397c0351cccf81d1291b4c7
+          npx prettier --write scripts/validate_content_architecture.js
+          npm run lint:architecture
+          npm run lint:content
+          npm run lint:formatting
+          git diff -- scripts/validate_content_architecture.js
+          git diff --check
+      - name: Commit only the validator formatting to this branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/validate_content_architecture.js
+          git commit -m "style(cv): format credential regression checks"
+          git push origin HEAD:fix/coaching-credentials
