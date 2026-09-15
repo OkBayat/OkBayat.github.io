@@ -1,0 +1,49 @@
+name: Profile refresh audit (temporary)
+on:
+  push:
+    branches: [fix/profile-k2quant-vocora-gruccia]
+    paths: [.github/workflows/profile-refresh-audit.yml]
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Audit tracked content and package review sources
+        run: |
+          python3 - <<'PY'
+          import json, pathlib, re, subprocess, zipfile
+          root = pathlib.Path('.')
+          files = subprocess.check_output(['git', 'ls-files', '-z']).decode().split('\0')
+          matches = []
+          with zipfile.ZipFile('/tmp/profile-review-sources.zip', 'w', zipfile.ZIP_DEFLATED) as archive:
+              for name in filter(None, files):
+                  path = root / name
+                  data = path.read_bytes()
+                  try:
+                      text = data.decode('utf-8')
+                  except UnicodeDecodeError:
+                      if path.suffix.lower() == '.pdf':
+                          archive.write(path, name)
+                      continue
+                  archive.write(path, name)
+                  if name.startswith('.github/workflows/profile-refresh'):
+                      continue
+                  for line_number, line in enumerate(text.splitlines(), 1):
+                      if re.search(r'K2[\s_-]*Group|Gruccia|Vocora|گروه\s*(?:K2|کی\s*۲|کی\s*دو)', line, re.I):
+                          matches.append({'path': name, 'line': line_number, 'text': line})
+          pathlib.Path('/tmp/profile-audit.json').write_text(json.dumps(matches, ensure_ascii=False, indent=2))
+          print(json.dumps(matches, ensure_ascii=False, indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: profile-review-sources
+          path: |
+            /tmp/profile-review-sources.zip
+            /tmp/profile-audit.json
+          retention-days: 1
+          if-no-files-found: error
