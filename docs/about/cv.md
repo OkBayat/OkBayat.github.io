@@ -47,14 +47,19 @@ Professional work also includes organizational leadership, coaching, facilitatio
 
 ## Coaching and Professional Credentials
 
-### Master Coaching Certification
+### Master-Level Coaching Training
 
-**Farsi Coaching Academy · 2021 - 2023**
+**Self-study and Private Classes · 2021 - 2023**
 {: .cv-entry-meta }
 
 ### Professional Coaching Certification
 
 **Farsi Coaching Academy · 2019 - 2021**
+{: .cv-entry-meta }
+
+### Associate Coaching Certification
+
+**Farsi Coaching Academy · 2018 - 2019**
 {: .cv-entry-meta }
 
 ### Business Coaching Certification
