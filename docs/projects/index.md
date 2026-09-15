@@ -4,7 +4,7 @@ title: Projects
 parent: Work
 nav_order: 1
 direction: ltr
-description: "K2Quant, Vocora, K2 OS, FamilyLink, and other systems or initiatives built and documented by Mohammad Bayat."
+description: "K2Quant and Vocora, the companies and startups founded by Mohammad Bayat, alongside other documented projects."
 permalink: /work/projects
 ---
 
@@ -14,17 +14,17 @@ This section documents work that exists in practice: companies, software, system
 
 It is organized by what is being built rather than by every question that the work raises. Cross-cutting questions about learning, language, identity, context, performance, leadership, and coordination are indexed separately under [Human Transformation](/work/leadership-learning/human-transformation).
 
-## Active Bodies of Work
+## Companies & Startups
 
 ### [K2Quant](/work/projects/k2quant)
 
-My main company-building work around quantitative systems, software development, artificial intelligence, and the operation of a technical organization.
+My company-building work around quantitative systems, software development, artificial intelligence, and the operation of a technical organization.
 
 ### [Vocora](/work/projects/vocora)
 
-An independent research-and-building project about learning, memory, language practice, and learning technology. Its first working artifact is a vocabulary-practice application.
+My language-learning startup, focused on English learning and IELTS preparation. Vocora has grown beyond its initial vocabulary-practice application into a broader self-study product.
 
-Vocora is a concrete software project and also one bounded setting inside the broader Human Transformation inquiry. It does not represent every question in that program.
+I lead its product direction, software development, and learning-experience design. Research informs the product; the startup is a business in its own right.
 
 ## Related Writing
 
