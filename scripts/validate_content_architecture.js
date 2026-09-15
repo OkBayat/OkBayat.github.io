@@ -417,7 +417,9 @@ if (cv) {
   ]
   for (const [title, details] of coachingEntries) {
     if (!cv.body.includes(`### ${title}\n\n**${details}**`)) {
-      errors.add(`docs/about/cv.md: missing or incorrect coaching entry ${title}`)
+      errors.add(
+        `docs/about/cv.md: missing or incorrect coaching entry ${title}`
+      )
     }
   }
   if (/Master Coaching Certification/i.test(cv.body)) {
