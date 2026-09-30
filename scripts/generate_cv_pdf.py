@@ -327,8 +327,6 @@ def build_pdf(source_path: Path, output_path: Path) -> None:
         markup = inline_markup(value)
         if kind == "section":
             flush_entry()
-            if value == "Selected Writing and Research-Related Work":
-                story.append(PageBreak())
             story.append(Paragraph(markup, styles["section"]))
         elif kind == "entry":
             flush_entry()
