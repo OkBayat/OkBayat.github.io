@@ -72,16 +72,16 @@ has_toc: false
         <a class="home-card-link" href="/work/projects/vocora">Explore Vocora <span aria-hidden="true">&rarr;</span></a>
       </article>
       <article class="home-work-card">
-        <p class="home-card-label">Field project · Learning</p>
-        <h3><a href="/work/leadership-learning/human-transformation/field-projects/learning-circle">Learning Circle</a></h3>
-        <p>A practice-based project about independent learning, peer teaching, group coordination, and what may continue after the facilitator steps back.</p>
-        <a class="home-card-link" href="/work/leadership-learning/human-transformation/field-projects/learning-circle">Explore Learning Circle <span aria-hidden="true">&rarr;</span></a>
-      </article>
-      <article class="home-work-card">
         <p class="home-card-label">Startup · Product Photography · AI</p>
         <h3><a href="/work/projects/photora">Photora</a></h3>
         <p>My AI-assisted product-photography startup, founded in September 2026, focused on turning ordinary product photos into polished advertising and social-media images.</p>
         <a class="home-card-link" href="/work/projects/photora">Explore Photora <span aria-hidden="true">&rarr;</span></a>
+      </article>
+      <article class="home-work-card">
+        <p class="home-card-label">Field project · Learning</p>
+        <h3><a href="/work/leadership-learning/human-transformation/field-projects/learning-circle">Learning Circle</a></h3>
+        <p>A practice-based project about independent learning, peer teaching, group coordination, and what may continue after the facilitator steps back.</p>
+        <a class="home-card-link" href="/work/leadership-learning/human-transformation/field-projects/learning-circle">Explore Learning Circle <span aria-hidden="true">&rarr;</span></a>
       </article>
     </div>
   </section>
