@@ -50,7 +50,7 @@ I currently work as a Leadership Facilitator at Gruccia. My work also includes a
 **Two-year programme**
 {: .cv-entry-meta }
 
-## Coaching Training and Certifications
+## Coaching and Professional Credentials
 
 ### Master-Level Coaching Training
 
@@ -142,7 +142,7 @@ Designed and maintained single-page interfaces for capital-market products, incl
 
 Built JavaScript libraries and tools for market visualization, interactive charting, SVG and Canvas drawing, and event-driven interfaces.
 
-## Leadership, Coaching and Facilitation
+## Leadership and Facilitation Experience
 
 ### Independent Coaching and Consulting — Leadership, Life and Business Coach
 
@@ -186,6 +186,28 @@ Built JavaScript libraries and tools for market visualization, interactive chart
 - Coordinated financial and practical assistance, including children's clothing and household essentials, drawing on K2Quant resources.
 - Helped caregivers access training and livelihood-related support.
 
+## Selected Projects
+
+### [K2Quant](/work/projects/k2quant)
+
+Quantitative-technology company-building and software work spanning market systems, architecture, testing, technical operations, and reliability. [Visit K2Quant](https://www.k2quant.com).
+
+### [Vocora](/work/projects/vocora)
+
+English-learning and IELTS-preparation startup focused on structured lessons, language practice, and review. [Visit Vocora](https://vocora.ir).
+
+### [Photora](/work/projects/photora)
+
+AI-assisted product-photography startup focused on turning ordinary product photos into advertising and social-media images. [Visit Photora](https://photora.ir).
+
+### [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle)
+
+Practice-based educational project about independent learning, peer teaching, group coordination, and facilitator withdrawal.
+
+### [FamilyLink](/work/projects/familylink)
+
+Long-running family-support and social-impact initiative that is currently paused.
+
 ## Selected Writing and Research-Related Work
 
 The work in this section is independent and practice-based. It is distinct from professional employment and is not presented as peer-reviewed academic publication; no peer-reviewed academic publications are claimed at present.
@@ -197,11 +219,16 @@ The work in this section is independent and practice-based. It is distinct from 
 - **Leadership Essay:** [When the Question Changes, the Organization Changes](/writing/essays/when-the-question-changes-en)
 - **Reading Note:** [When Conversation Is Not Enough: How Art Can Make Group Dynamics Discussable](/writing/reading-notes/art-groupwork-communication-en)
 
-## Technical Skills and Languages
+## Technical Skills
 
 - **Development:** Broad polyglot development experience across multiple languages and web/backend stacks, including Java, Kotlin, TypeScript/JavaScript, Python, and C++; relational and NoSQL databases.
 - **Systems and delivery:** Software architecture, automated testing, continuous integration and delivery, server operations, quantitative systems, and AI-assisted workflows.
-- **Languages:** Iranian Azerbaijani Turkish — Native; Persian — Second language; English — B1-B2.
+
+## Languages
+
+- Iranian Azerbaijani Turkish — Native
+- Persian — Second language
+- English — B1-B2
 
 ## Contact
 
