@@ -217,7 +217,7 @@ The work in this section is independent and practice-based. It is distinct from 
 - **Research Note:** [Can the Learner Carry the Context?](/research-practice/notes/can-the-learner-carry-the-context)
 - **Research Note:** [Commitment, Context, and Learning](/research-practice/notes/commitment-context-learning-en)
 - **Leadership Essay:** [When the Question Changes, the Organization Changes](/writing/essays/when-the-question-changes-en)
-- **Reading Note:** [When Conversation Is Not Enough: How Art Can Make Group Dynamics Discussable](/writing/reading-notes/art-groupwork-communication-en)
+- **Reading Note:** [When Conversation Is Not Enough: How Art Can Make Group Dynamics Discussable](/research-practice/notes/art-groupwork-communication-en)
 
 ## Technical Skills
 
