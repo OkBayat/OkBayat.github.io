@@ -4,7 +4,7 @@ title: Biography
 parent: About
 nav_order: 1
 direction: ltr
-description: "A short biography of Mohammad Bayat, founder of K2Quant and Vocora, software engineer, systems builder, and Leadership Facilitator at Gruccia."
+description: "A short biography of Mohammad Bayat, founder of K2Quant, Vocora, and Photora, software engineer, systems builder, and Leadership Facilitator at Gruccia."
 permalink: /about/biography
 ---
 
@@ -12,11 +12,13 @@ permalink: /about/biography
 
 {% include components/profile_photo.html variant="biography" %}
 
-Mohammad Bayat is the founder of K2Quant and Vocora, a software engineer, and a systems builder. His work has developed at the intersection of building technical systems and understanding how people learn, coordinate, and change.
+Mohammad Bayat is the founder of K2Quant, Vocora, and Photora, a software engineer, and a systems builder. His work has developed at the intersection of building technical systems and understanding how people learn, coordinate, and change.
 
 He began working in software in the early 2010s, moving across front-end and back-end development, real-time market applications, testing, data visualization, infrastructure, and quantitative trading systems. That work led him to found and build [K2Quant](/work/projects/k2quant), where he continues to develop quantitative software, artificial-intelligence tools, and the technical and operating systems behind the organization.
 
 In July 2026, he founded [Vocora](/work/projects/vocora), a language-learning startup focused on English learning and IELTS preparation. He leads its product direction, software development, and learning-experience design. What began as a vocabulary-practice application has developed into a broader self-study product and a business alongside K2Quant.
+
+In September 2026, he founded [Photora](/work/projects/photora), an AI-assisted product-photography startup. He leads its product direction and software development, building a workflow that turns ordinary product photos into advertising and social-media images while keeping each product's visual identity central to the output.
 
 Building K2Quant also changed the questions at the center of his work. As the company grew, problems of communication, responsibility, decision-making, and coordination became as important as problems of code and reliability. His experience has since included company-building, team leadership, organizational work, and the long-running [FamilyLink](/work/projects/familylink) social-impact initiative.
 

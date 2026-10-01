@@ -4,7 +4,7 @@ title: Projects
 parent: Work
 nav_order: 1
 direction: ltr
-description: "K2Quant and Vocora, the companies and startups founded by Mohammad Bayat, alongside other documented projects."
+description: "K2Quant, Vocora, and Photora, the companies and startups founded by Mohammad Bayat, alongside other documented projects."
 permalink: /work/projects
 ---
 
@@ -25,6 +25,12 @@ My company-building work around quantitative systems, software development, arti
 My language-learning startup, founded in July 2026, focused on English learning and IELTS preparation. Vocora has grown beyond its initial vocabulary-practice application into a broader self-study product.
 
 I lead its product direction, software development, and learning-experience design. Research informs the product; the startup is a business in its own right.
+
+### [Photora](/work/projects/photora)
+
+My AI-assisted product-photography startup, founded in September 2026, focused on turning ordinary product photos into polished advertising and social-media images.
+
+I lead its product direction, software development, and image-generation workflow. Photora is a separate product business alongside K2Quant and Vocora.
 
 ## Related Writing
 

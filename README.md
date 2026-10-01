@@ -8,7 +8,7 @@ okbayat.com is a durable public record of what Mohammad Bayat is building, study
 
 The work has two connected bodies:
 
-1. **Building systems and organizations** — quantitative systems, software engineering, artificial intelligence, agent systems, K2Quant, Vocora, language-learning products, company-building, technical decisions, operating systems, and bounded social-impact initiatives.
+1. **Building systems and organizations** — quantitative systems, software engineering, artificial intelligence, agent systems, K2Quant, Vocora, Photora, language-learning products, AI-assisted product photography, company-building, technical decisions, operating systems, and bounded social-impact initiatives.
 2. **Studying human learning and transformation** — learning, memory, language, identity, context, performance, leadership, group coordination, relationships, and quality of life.
 
 The site is not a stream of promotional posts and does not present open questions as settled answers. It should help a reader distinguish among:
@@ -236,12 +236,13 @@ Work is the stable primary entry point. Projects and Leadership & Learning remai
 
 Projects documents work Mohammad founded, built, or directly led. Client organizations and products he does not own are not presented as personal projects.
 
-- **K2Quant** is Mohammad's quantitative-technology business. Use this name consistently in all pages, shared templates, metadata, CV, and resume.
-- **Vocora** is Mohammad's language-learning startup, founded in July 2026, focused on English learning and IELTS preparation. It is a proprietary product, not a public source-code contribution project.
+- **K2Quant** is Mohammad's quantitative-technology business. Use this name consistently in all pages, shared templates, metadata, CV, and resume. Official site: [K2Quant.com](https://www.k2quant.com).
+- **Vocora** is Mohammad's language-learning startup, founded in July 2026, focused on English learning and IELTS preparation. It is a proprietary product, not a public source-code contribution project. Official site: [vocora.ir](https://vocora.ir).
+- **Photora** is Mohammad's AI-assisted product-photography startup, founded in September 2026, focused on turning ordinary product photos into polished advertising and social-media images. Official site: [photora.ir](https://photora.ir).
 
 Mohammad also currently works as a **Leadership Facilitator at Gruccia**. Keep this role in both CV and resume, without duplicate experience entries; the existing start date is July 2024. Regenerate the downloadable CV with `python scripts/generate_cv_pdf.py` after changing its source.
 
-Present both under **Companies & Startups** in Projects and include both founding roles in professional profiles. Research informs Vocora's design; it is not the startup's primary identity. Keep the overview short and product-focused, without a product tour or unsupported growth and IELTS-score claims.
+Present all three under **Companies & Startups** in Projects and include all three founding roles in professional profiles. Research informs Vocora's design; it is not the startup's primary identity. Keep startup overviews short and product-focused, without unsupported growth, learning-outcome, or image-quality claims.
 
 K2 OS and FamilyLink are bounded project records. Projects may be active, paused, completed, discontinued, or inconclusive. `Experiments` is reserved for explicit protocols and results.
 
@@ -344,6 +345,7 @@ Reports with an explicit question, hypothesis, method, participants or dataset, 
 - `/work/projects` — portfolio of work built or directly led by Mohammad;
 - `/work/projects/k2quant` — K2Quant overview and related writing;
 - `/work/projects/vocora` — Vocora overview and current state;
+- `/work/projects/photora` — Photora overview and current state;
 - `/work/projects/k2-os` — K2 OS project record;
 - `/work/projects/familylink` — FamilyLink project record;
 - `/work/projects/experiments` — protocols and results when formal experiments exist;
@@ -543,5 +545,5 @@ The site is succeeding when a reader can quickly understand:
 - where a work canonically belongs and which subjects or projects it informs;
 - how to browse technical, company-building, human, and cross-disciplinary writing without encountering separate competing archives;
 - what evidence supports a claim and what remains uncertain;
-- how K2Quant, Vocora, FamilyLink, Learning Circle, leadership practice, and facilitated programs relate without being collapsed into one kind of work;
+- how K2Quant, Vocora, Photora, FamilyLink, Learning Circle, leadership practice, and facilitated programs relate without being collapsed into one kind of work;
 - how questions, methods, and interpretations change over time.

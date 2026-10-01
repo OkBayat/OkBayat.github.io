@@ -4,14 +4,14 @@ title: Professional Journey
 parent: About
 nav_order: 2
 direction: ltr
-description: "How Mohammad Bayat's work in K2Quant, Vocora, Gruccia, software, leadership, and human learning developed."
-last_modified_date: 2026-09-15
+description: "How Mohammad Bayat's work in K2Quant, Vocora, Photora, Gruccia, software, leadership, and human learning developed."
+last_modified_date: 2026-09-30
 permalink: /about/professional-journey
 ---
 
 # Professional Journey
 
-{ Last updated September 15, 2026 | sub }
+{ Last updated September 30, 2026 | sub }
 
 My professional journey has developed through two connected forms of work: building software, quantitative systems, projects, and organizations; and examining how people learn, coordinate, perform, and change.
 
@@ -19,7 +19,7 @@ I began working in software in the early 2010s. Over time, front-end and back-en
 
 As the technical systems and organization grew, questions about communication, responsibility, decision-making, and coordination became as important as questions about code. Since approximately 2017–2018, I have studied and facilitated leadership, coaching, group learning, and organizational practice alongside the engineering work.
 
-That path also includes [FamilyLink](/work/projects/familylink), a long-running social-impact initiative that is now paused. In July 2026, I founded [Vocora](/work/projects/vocora), my language-learning startup focused on English learning and IELTS preparation.
+That path also includes [FamilyLink](/work/projects/familylink), a long-running social-impact initiative that is now paused. In July 2026, I founded [Vocora](/work/projects/vocora), my language-learning startup focused on English learning and IELTS preparation. In September 2026, I founded [Photora](/work/projects/photora), an AI-assisted product-photography startup focused on advertising and social-media images for products.
 
 I also currently work as a Leadership Facilitator at Gruccia, a role I have held since July 2024, supporting leadership practice, team coordination, and organizational communication.
 
@@ -51,7 +51,17 @@ Vocora began with vocabulary practice and Leitner-style review. It has grown int
 
 My interest in learning informs its design, while the startup has its own product and business identity alongside K2Quant.
 
-## 3. Human Transformation
+## 3. Photora and Product Photography
+
+**Founder and Software Engineer · September 2026 – Present**
+
+Through [Photora](/work/projects/photora), I am building an AI-assisted product-photography business for creating polished advertising and social-media images from ordinary product photos.
+
+I lead product direction, software development, and the image-generation workflow. The product is designed around a private upload-to-output experience, with attention to preserving the identity and visual details of the source product.
+
+Photora has its own product and business identity alongside K2Quant and Vocora.
+
+## 4. Human Transformation
 
 Through [Human Transformation](/work/leadership-learning/human-transformation), I am currently examining:
 

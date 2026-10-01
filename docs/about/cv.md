@@ -6,17 +6,17 @@ nav_order: 5
 direction: ltr
 lang: en
 locale: en_US
-description: "Professional CV for Mohammad Bayat, founder of K2Quant and Vocora, and Leadership Facilitator at Gruccia, covering software engineering, education, and selected writing."
-last_modified_date: 2026-09-15
+description: "Professional CV for Mohammad Bayat, founder of K2Quant, Vocora, and Photora, and Leadership Facilitator at Gruccia, covering software engineering, education, coaching, facilitation, and selected writing."
+last_modified_date: 2026-09-30
 permalink: /about/cv
 ---
 
 # Mohammad Bayat
 {: .no_toc }
 
-Founder, Software Engineer, and Systems Builder
+Founder, Software Engineer, and Leadership Facilitator
 
-{ Last updated September 15, 2026 | sub }
+{ Last updated September 30, 2026 | sub }
 
 <p class="cv-actions">
   <a class="btn btn-primary" href="/assets/downloads/mohammad-bayat-cv.pdf" download>Download CV as PDF</a>
@@ -34,15 +34,20 @@ Founder, Software Engineer, and Systems Builder
 
 ## Professional Profile
 
-Founder, software engineer, and systems builder with more than 15 years of experience building web, market, quantitative, and organizational systems. Founder of [K2Quant](/work/projects/k2quant) and [Vocora](/work/projects/vocora), building businesses in quantitative technology and language learning, with Vocora focused on English learning and IELTS preparation.
+Founder, software engineer, leadership facilitator, and coach with more than 16 years of programming experience and more than four years of professional coaching and consulting experience. Founder of [K2Quant](/work/projects/k2quant), [Vocora](/work/projects/vocora), and [Photora](/work/projects/photora), building businesses in quantitative technology, language learning, and AI-assisted product photography.
 
-I currently work as a Leadership Facilitator at Gruccia. Professional work also includes organizational leadership, coaching, facilitation, and the design of group-learning programs. Current independent inquiry examines reflective practice, durable learning, leadership, and what happens when people move from supportive learning environments into contexts that do not reinforce the same ways of thinking and acting.
+I currently work as a Leadership Facilitator at Gruccia. My work also includes approximately a decade of leadership-course involvement, group facilitation, learning-program design, and family-support work. Current independent inquiry examines reflective practice, durable learning, leadership, and what happens when people move from supportive learning environments into contexts that do not reinforce the same ways of thinking and acting.
 
 ## Education
 
 ### Bachelor of Science in Civil Engineering
 
-**University of Zanjan, Iran · September 2009 - June 2013**
+**Two-year programme following an associate degree**
+{: .cv-entry-meta }
+
+### Associate Degree in Civil Engineering
+
+**Two-year programme**
 {: .cv-entry-meta }
 
 ## Coaching and Professional Credentials
@@ -74,17 +79,26 @@ I currently work as a Leadership Facilitator at Gruccia. Professional work also 
 **May 2010 - Present**
 {: .cv-entry-meta }
 
-- Founded and continue to build quantitative, market-related, and artificial-intelligence-assisted software systems.
-- Work across software architecture, front-end and back-end development, infrastructure, data analysis, technical operations, testing, and reliability.
-- Lead technical and organizational decisions, contributor coordination, and the development of sustainable operating structures.
+- Founded K2Quant and continue to develop quantitative and market-related software, with responsibility for architecture, development, testing, technical operations, and reliability.
+- Support team coordination, communication, and shared decision-making.
+- Website: [K2Quant.com](https://www.k2quant.com)
 
 ### Vocora — Founder and Software Engineer
 
 **July 2026 - Present**
 {: .cv-entry-meta }
 
-- Lead product direction, software development, and learning-experience design for a language-learning startup focused on English learning and IELTS preparation.
-- Develop a structured self-study product connecting lessons, language practice, and review.
+- Build Vocora, an English-learning and IELTS-preparation startup, developing its software and learning experience around structured lessons, language practice, and review.
+- Website: [vocora.ir](https://vocora.ir)
+
+### Photora — Founder and Software Engineer
+
+**September 2026 - Present**
+{: .cv-entry-meta }
+
+- Build Photora, an AI-assisted product-photography startup for turning ordinary product photos into polished advertising and social-media images.
+- Lead product direction, software development, and the image-generation workflow.
+- Website: [photora.ir](https://photora.ir)
 
 ### Gruccia — Leadership Facilitator
 
@@ -95,111 +109,126 @@ Work with the organization on leadership practice, employee well-being, team coo
 
 ### Radin Bourse — Full-Stack Developer
 
-**March 2020 - Present**
+**March 2020 - September 2025**
 {: .cv-entry-meta }
 
-- Develop test infrastructure, contract and end-to-end tests, and maintainable TypeScript and Angular application code.
-- Collaborate with Java back-end developers on shared design principles, architecture, accessibility, and delivery quality.
+Developed TypeScript and Angular applications and automated tests; collaborated with Java back-end developers on architecture, accessibility, and delivery quality.
 
 ### Eghtesad Bidar Securities — Full-Stack Developer
 
 **October 2018 - March 2020**
 {: .cv-entry-meta }
 
-- Built real-time market-data processing and technical-analysis charting for an online trading platform.
-- Expanded automated test coverage and contributed to prototyping, interface testing, continuous integration, and continuous delivery.
-- Trained team members in object-oriented design and reusable application structure.
+Built real-time market-data processing and technical-analysis charting for an online trading platform. Contributed to automated testing and delivery, and trained colleagues in object-oriented design.
 
 ### Alibaba Travels Co. — Full-Stack Developer
 
 **May 2017 - October 2018**
 {: .cv-entry-meta }
 
-- Worked across the development lifecycle of a single-page booking back-office application.
-- Built a Node.js template compiler that reduced a multi-day manual process to under an hour.
-- Contributed to application design, debugging, performance, maintainability, and user experience.
+Developed a single-page booking back-office application and a Node.js template compiler to automate a manual workflow. Contributed to application design, debugging, and maintainability.
 
 ### Tadbir Pardaz IT Group Ltd. — Developer
 
 **February 2016 - April 2018**
 {: .cv-entry-meta }
 
-Developed and designed single-page interfaces for capital-market products, with responsibility for implementation, maintenance, and UI/UX work.
+Designed and maintained single-page interfaces for capital-market products, including implementation, user-interface design, and usability work.
 
 ### Independent Software Project — Full-Stack Developer
 
 **April 2012 - May 2017**
 {: .cv-entry-meta }
 
-Built JavaScript libraries for stock-market visualization, interactive charting, SVG and Canvas drawing tools, DOM and event utilities, and functional reactive data flows.
+Built JavaScript libraries and tools for market visualization, interactive charting, SVG and Canvas drawing, and event-driven interfaces.
 
 ## Leadership and Facilitation Experience
 
-### Leadership, Life, and Business Coach
+### Independent Coaching and Consulting — Leadership, Life and Business Coach
 
-**Transformation and Personal Development · April 2020 - Present**
+**Practice began April 2020 · Currently paused**
 {: .cv-entry-meta }
 
-- Completed more than 2,000 hours of direct individual, group, and organizational coaching, excluding teaching, leadership facilitation, and program delivery.
-- Work with individual contributors, managers, teams, and business leaders on listening, feedback, responsibility, decision-making, relationships, and action.
-- Maintain confidentiality and keep client experience separate from public research claims.
+- Provided professional coaching and consulting in individual, group, and organizational settings, working with individual contributors, managers, teams, and business leaders.
+- Supported work on listening, feedback, responsibility, decision-making, relationships, and action, while maintaining client confidentiality.
 
-### Organizational Leadership and Facilitation
+### Leadership Courses and Workshops — Facilitator and Programme Contributor
 
-**K2Quant · Since approximately 2017-2018**
+**Approximately ten years of involvement · Course delivery currently paused**
 {: .cv-entry-meta }
 
-Facilitate leadership and coordination work, examine recurring operating problems, and develop structures for shared responsibility, communication, and decision-making.
+- Delivered and helped organize recurring leadership courses and workshops, both independently and as part of facilitation and organizing teams.
+- Facilitated group dialogue, reflection, and practical exercises connecting course material with participants' own projects and everyday situations.
 
-### Mastery for Life — Program Designer and Facilitator
+### Mastery for Life — Programme Designer and Facilitator
 
-**2020 - Present**
+**Programme designed in 2024 · Delivery currently paused**
 {: .cv-entry-meta }
 
-Design and facilitate a recurring Persian-language program concerned with language, identity, worldview, responsibility, relationships, reflection, and human change.
+- Designed and facilitated a recurring Persian-language group-learning programme exploring language, identity, worldview, responsibility, relationships, and reflection.
+- Used group discussion and reflective activities to connect the programme's themes with participants' everyday lives.
+
+### Learning Circle — Project Designer and Facilitator
+
+**Started around 2023 · Educational project for children under 12**
+{: .cv-entry-meta }
+
+- Introduced programming through Code.org, combining independent progress, peer support, and peer teaching.
+- Supported early group organization, then gradually stepped back from central teaching and coordination so children could take greater responsibility for their learning.
+- Developed practice-based reflections on learning and group coordination after facilitator withdrawal; the project is not presented as a controlled research study.
+
+### FamilyLink — Community Support Initiative Lead
+
+**Approximately ten years of service · Currently paused**
+{: .cv-entry-meta }
+
+- Led sustained community support for children and families facing financial hardship, including children who had lost one or both parents.
+- Coordinated financial and practical assistance, including children's clothing and household essentials, drawing on K2Quant resources.
+- Helped caregivers access training and livelihood-related support.
 
 ## Selected Projects
 
 ### [K2Quant](/work/projects/k2quant)
 
-Company-building and technical work around quantitative systems, software engineering, artificial intelligence, agent-based workflows, and the operation of a technical organization.
+Quantitative-technology company-building and software work spanning market systems, architecture, testing, technical operations, and reliability. [Visit K2Quant](https://www.k2quant.com).
 
 ### [Vocora](/work/projects/vocora)
 
-A proprietary language-learning product focused on English learning and IELTS preparation, developed beyond its initial vocabulary-practice application.
+English-learning and IELTS-preparation startup focused on structured lessons, language practice, and review. [Visit Vocora](https://vocora.ir).
+
+### [Photora](/work/projects/photora)
+
+AI-assisted product-photography startup focused on turning ordinary product photos into advertising and social-media images. [Visit Photora](https://photora.ir).
 
 ### [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle)
 
-A practice-based field project about independent learning, peer teaching, group coordination, and what may continue after the facilitator withdraws.
+Practice-based educational project about independent learning, peer teaching, group coordination, and facilitator withdrawal.
 
 ### [FamilyLink](/work/projects/familylink)
 
-A family-support and social-impact initiative led for approximately ten years. The project is currently paused, and its public record separates services delivered from outcomes that were not consistently measured.
+Long-running family-support and social-impact initiative that is currently paused.
 
 ## Selected Writing and Research-Related Work
 
 The work in this section is independent and practice-based. It is distinct from professional employment and is not presented as peer-reviewed academic publication; no peer-reviewed academic publications are claimed at present.
 {: .cv-scope-note }
 
-- **Research focus:** [Research Profile](/research-practice/profile) — reflective practice, durable learning, changing contexts, leadership, and group coordination.
-- **Essay:** [What Remains When the Learning Space Disappears?](/writing/essays/what-remains-when-learning-space-disappears-en) — a synthesis of published scholarship and bounded professional observation.
-- **Research Note:** [Can the Learner Carry the Context?](/research-practice/notes/can-the-learner-carry-the-context) — an inquiry into whether reflective learning remains available across changing settings.
-- **Research Note:** [Commitment, Context, and Learning](/research-practice/notes/commitment-context-learning-en) — a field-based examination of commitment and learning in project-based leadership education.
-- **Technical Essay:** [Designing Large Agent Skills as Deterministic, Phase-Oriented Systems](/writing/essays/phase-oriented-agent-skills-en) — an architecture for reliable, resumable agent workflows.
-- **Leadership Essay:** [When the Question Changes, the Organization Changes](/writing/essays/when-the-question-changes-en) — a practice-based account of leadership inquiry and organizational possibility.
+- **Essay:** [What Remains When the Learning Space Disappears?](/writing/essays/what-remains-when-learning-space-disappears-en)
+- **Research Note:** [Can the Learner Carry the Context?](/research-practice/notes/can-the-learner-carry-the-context)
+- **Research Note:** [Commitment, Context, and Learning](/research-practice/notes/commitment-context-learning-en)
+- **Leadership Essay:** [When the Question Changes, the Organization Changes](/writing/essays/when-the-question-changes-en)
+- **Reading Note:** [When Conversation Is Not Enough: How Art Can Make Group Dynamics Discussable](/research-practice/notes/art-groupwork-communication-en)
 
 ## Technical Skills
 
-- **Programming:** C++, Java, Python, JavaScript, TypeScript, C#
-- **Front end:** Angular, RxJS, responsive web interfaces, SVG, Canvas
-- **Back end and data:** Node.js, SQL Server, MongoDB, MySQL, WebSocket systems
-- **Testing and delivery:** Unit, integration, contract, and end-to-end testing; Jasmine, Cypress, Cucumber; CI/CD
-- **Systems:** Quantitative and market systems, software architecture, server operations, technical indicators, AI-assisted and agent-based workflows
+- **Development:** Broad polyglot development experience across multiple languages and web/backend stacks, including Java, Kotlin, TypeScript/JavaScript, Python, and C++; relational and NoSQL databases.
+- **Systems and delivery:** Software architecture, automated testing, continuous integration and delivery, server operations, quantitative systems, and AI-assisted workflows.
 
 ## Languages
 
-- Persian — Native
-- English — Working proficiency
+- Iranian Azerbaijani Turkish — Native
+- Persian — Second language
+- English — B1-B2
 
 ## Contact
 

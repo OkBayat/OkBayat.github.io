@@ -3,7 +3,7 @@ title: Home
 layout: home
 nav_order: 1
 primary_nav: true
-description: "Mohammad Bayat, founder of K2Quant and Vocora, builds quantitative technology and language-learning products and works as a Leadership Facilitator at Gruccia."
+description: "Mohammad Bayat, founder of K2Quant, Vocora, and Photora, builds quantitative technology, language-learning, and AI-assisted product-photography products and works as a Leadership Facilitator at Gruccia."
 permalink: /
 has_toc: false
 ---
@@ -13,8 +13,8 @@ has_toc: false
     <div class="home-hero-copy">
       <p class="home-eyebrow">Systems · Organizations · Human Learning</p>
       <h1 id="home-title" class="home-hero-title">Mohammad Bayat</h1>
-      <p class="home-hero-role">Founder, Software Engineer, and Systems Builder</p>
-      <p class="home-hero-intro">I’m the founder of K2Quant and Vocora. I build software products and businesses in quantitative technology and language learning. I also work as a Leadership Facilitator at Gruccia. Alongside that work, I study how people learn, reflect, coordinate, and carry change across contexts.</p>
+      <p class="home-hero-role">Founder, Software Engineer, and Leadership Facilitator</p>
+      <p class="home-hero-intro">I’m the founder of K2Quant, Vocora, and Photora. I build software products and businesses in quantitative technology, language learning, and AI-assisted product photography. I also work as a Leadership Facilitator at Gruccia. Alongside that work, I study how people learn, reflect, coordinate, and carry change across contexts.</p>
       <p class="home-hero-summary">This site brings those two bodies of work together through selected projects, practice records, and writing.</p>
       <nav class="home-hero-links" aria-label="About Mohammad Bayat">
         <a class="home-button home-button-primary" href="/work">Explore my work</a>
@@ -38,7 +38,7 @@ has_toc: false
       <article class="home-axis-card">
         <span class="home-axis-number" aria-hidden="true">01</span>
         <h3><a href="/work/projects">Building systems and organizations</a></h3>
-        <p>Quantitative systems, language-learning products, software engineering, artificial intelligence, agentic workflows, and the operating practices behind them.</p>
+        <p>Quantitative systems, language-learning products, AI-assisted product photography, software engineering, artificial intelligence, agentic workflows, and the operating practices behind them.</p>
         <a class="home-card-link" href="/work/projects">Explore projects <span aria-hidden="true">&rarr;</span></a>
       </article>
       <article class="home-axis-card">
@@ -72,16 +72,16 @@ has_toc: false
         <a class="home-card-link" href="/work/projects/vocora">Explore Vocora <span aria-hidden="true">&rarr;</span></a>
       </article>
       <article class="home-work-card">
+        <p class="home-card-label">Startup · Product Photography · AI</p>
+        <h3><a href="/work/projects/photora">Photora</a></h3>
+        <p>My AI-assisted product-photography startup, founded in September 2026, focused on turning ordinary product photos into polished advertising and social-media images.</p>
+        <a class="home-card-link" href="/work/projects/photora">Explore Photora <span aria-hidden="true">&rarr;</span></a>
+      </article>
+      <article class="home-work-card">
         <p class="home-card-label">Field project · Learning</p>
         <h3><a href="/work/leadership-learning/human-transformation/field-projects/learning-circle">Learning Circle</a></h3>
         <p>A practice-based project about independent learning, peer teaching, group coordination, and what may continue after the facilitator steps back.</p>
         <a class="home-card-link" href="/work/leadership-learning/human-transformation/field-projects/learning-circle">Explore Learning Circle <span aria-hidden="true">&rarr;</span></a>
-      </article>
-      <article class="home-work-card">
-        <p class="home-card-label">Social-impact initiative · Paused</p>
-        <h3><a href="/work/projects/familylink">FamilyLink</a></h3>
-        <p>A decade-long family-support initiative, now paused, documented through its practical work, operating model, and lessons for a responsible return.</p>
-        <a class="home-card-link" href="/work/projects/familylink">Explore FamilyLink <span aria-hidden="true">&rarr;</span></a>
       </article>
     </div>
   </section>

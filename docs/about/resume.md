@@ -4,17 +4,17 @@ title: Resume
 parent: About
 nav_order: 6
 direction: ltr
-description: "Mohammad Bayat’s experience as founder of K2Quant and Vocora, alongside his current Leadership Facilitator role at Gruccia, software engineering, and social-impact work."
-last_modified_date: 2026-09-15
+description: "Mohammad Bayat’s experience as founder of K2Quant, Vocora, and Photora, alongside his current Leadership Facilitator role at Gruccia, software engineering, coaching, facilitation, and social-impact work."
+last_modified_date: 2026-09-30
 permalink: /about/resume
 ---
 
 # Mohammad Bayat
 {: .no_toc }
 
-Founder, Software Engineer, and Systems Builder with more than 15 years of experience building web, market, quantitative, and organizational systems.
+Founder, Software Engineer, and Leadership Facilitator with more than 16 years of experience building web, market, quantitative, and organizational systems.
 
-I am the founder of [K2Quant](/work/projects/k2quant) and [Vocora](/work/projects/vocora), building businesses in quantitative technology and language learning. I also currently work as a Leadership Facilitator at Gruccia. Alongside this work, my [Human Transformation](/work/leadership-learning/human-transformation) inquiry focuses on reflective practice, leadership, and durable change through [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle), facilitated programs, and organizational practice. My longer project history also includes [FamilyLink](/work/projects/familylink), a family-support initiative that is currently paused.
+I am the founder of [K2Quant](/work/projects/k2quant), [Vocora](/work/projects/vocora), and [Photora](/work/projects/photora), building businesses in quantitative technology, language learning, and AI-assisted product photography. I also currently work as a Leadership Facilitator at Gruccia. Alongside this work, my [Human Transformation](/work/leadership-learning/human-transformation) inquiry focuses on reflective practice, leadership, and durable change through [Learning Circle](/work/leadership-learning/human-transformation/field-projects/learning-circle), facilitated programs, and organizational practice. My longer project history also includes [FamilyLink](/work/projects/familylink), a family-support initiative that is currently paused.
 
 For a concise professional and academic-facing document, see the [Curriculum Vitae](/about/cv).
 
@@ -67,7 +67,7 @@ The current record is a practice-based field observation, not a causal experimen
 
 #### Mastery for Life — Program Designer and Facilitator
 
-**2020 – Present**
+**Programme designed in 2024 — Delivery currently paused**
 
 A recurring facilitated program in Persian concerned with language, identity, worldview, responsibility, relationships, and the possibility of human change.
 
@@ -128,6 +128,8 @@ The work includes facilitating conversations, examining recurring operating prob
 
 **Technical skills:** C++, Java, Python, JavaScript, Node.js, databases, quantitative systems, server operations
 
+[Visit K2Quant](https://www.k2quant.com)
+
 ---
 
 ### Vocora
@@ -148,6 +150,22 @@ Vocora is developed as a proprietary product.
 
 ---
 
+### Photora
+
+**September 2026 – Present**
+
+#### Founder and Software Engineer
+
+My AI-assisted product-photography startup, focused on turning ordinary product photos into polished advertising and social-media images.
+
+- Lead product direction, software development, and the image-generation workflow.
+- Build the private upload-to-output experience, including account-based storage, generation history, and product-focused image rules.
+- Keep the source product's identity and visual details central to the generated output.
+
+[Startup overview](/work/projects/photora) · [Visit Photora](https://photora.ir)
+
+---
+
 ### Gruccia
 
 **July 2024 – Present**
@@ -160,17 +178,15 @@ Work with the organization on employee well-being, leadership practice, team coo
 
 ---
 
-### Transformation and Personal Development
+### Independent Coaching and Consulting
 
-**April 2020 – Present**
+**Practice began April 2020 — Currently paused**
 
 #### Leadership, Life, and Business Coach
 
-- Completed more than 2,000 hours of direct individual, group, and organizational coaching. This total covers coaching only and excludes teaching, leadership facilitation, and program delivery.
-- Work with clients on listening, feedback, responsibility, decision-making, and action.
-- Facilitate regular reflection, assessment, and follow-up.
-- Work with people at different organizational levels, from individual contributors to managers.
-- Treat private coaching material as confidential by default and separate client experience from public research claims.
+- Provided professional coaching and consulting in individual, group, and organizational settings.
+- Worked with individual contributors, managers, teams, and business leaders on listening, feedback, responsibility, decision-making, relationships, and action.
+- Maintained client confidentiality and kept private coaching material separate from public research claims.
 
 **Skills:** Effective listening, feedback, questioning, relationship-building, coaching
 
@@ -178,7 +194,7 @@ Work with the organization on employee well-being, leadership practice, team coo
 
 ### Radin Bourse
 
-**March 2020 – Present**
+**March 2020 – September 2025**
 
 #### Full-Stack Developer
 
@@ -256,4 +272,17 @@ Developed JavaScript libraries for stock-market data visualization and interacti
 
 ### Bachelor of Science in Civil Engineering
 
-**2009–2013 · Zanjan, Iran**
+**Two-year programme following an associate degree**
+
+### Associate Degree in Civil Engineering
+
+**Two-year programme**
+
+---
+
+## Languages
+{: .no_toc }
+
+- Iranian Azerbaijani Turkish — Native
+- Persian — Second language
+- English — B1-B2

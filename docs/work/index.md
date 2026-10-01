@@ -4,7 +4,7 @@ title: Work
 nav_order: 3
 primary_nav: true
 direction: ltr
-description: "K2Quant and Vocora, alongside software, leadership practice, facilitation, programs, and documented projects built or led by Mohammad Bayat."
+description: "K2Quant, Vocora, and Photora, alongside software, leadership practice, facilitation, programs, and documented projects built or led by Mohammad Bayat."
 permalink: /work
 ---
 
@@ -18,6 +18,7 @@ This branch documents companies, startups, software, operating systems, bounded 
 
 - [K2Quant](/work/projects/k2quant) — my quantitative-technology business, bringing together software engineering, artificial intelligence, and the operation of a technical organization.
 - [Vocora](/work/projects/vocora) — my language-learning startup, founded in July 2026, focused on English learning and IELTS preparation through structured self-study.
+- [Photora](/work/projects/photora) — my AI-assisted product-photography startup, founded in September 2026, for creating advertising and social-media images from ordinary product photos.
 - [K2 OS](/work/projects/k2-os) — a business operating-system project.
 - [FamilyLink](/work/projects/familylink) — a long-running family-support initiative that is currently paused.
 - [Experiments](/work/projects/experiments) — documented protocols and results when work meets the site's definition of an experiment.
