@@ -540,3 +540,20 @@ works:
         label: فارسی
         title: مغز چگونه الگوهای زبان را دنبال می‌کند
         url: /writing/essays/how-your-brain-finds-patterns
+
+  - id: commitment-beyond-self
+    content_type: essay
+    primary_body: human-transformation
+    bodies_of_work:
+      - human-transformation
+      - building
+    themes:
+      - leadership-identity-coordination
+      - relationships-acceptance
+      - entrepreneurship-company-building
+    summary: A personal essay on the commitment to making amends and the learning, career changes, automation, and startup building that followed.
+    editions:
+      - lang: fa
+        label: فارسی
+        title: "تعهدی فراتر از خود؛ داستان شش ماهی که زندگی‌ام را تغییر داد"
+        url: /writing/essays/commitment-beyond-self
