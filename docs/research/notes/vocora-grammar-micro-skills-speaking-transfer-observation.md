@@ -117,7 +117,7 @@ I also need to distinguish a feeling of less conscious effort from a demonstrate
 
 A useful next step would collect speaking and listening measures before a defined practice period and again afterward. Recorded responses to unfamiliar speaking prompts could be assessed by independent raters for the accuracy and appropriateness of target structures. New listening clips could separate literal understanding from interpretation of speaker intention, avoiding the familiarity of a rewatched film.
 
-Practice records would need to show the targets, exercises, session duration, and review schedule. A comparison using a similar amount of practice would help distinguish the effects of smaller targets from scheduling and general exposure. Delayed assessment would show whether any measured change persists.
+Practice records would need to show the targets, exercises, session duration, and review schedule. To examine the contribution of smaller practice targets, a comparison would need similar practice time, review schedules, target material, and feedback, alongside records of other English exposure. Delayed assessment would show whether any measured change persists.
 
 For now, the account supports a narrower question: **Can focused grammar practice help a learner access familiar structures during conversation, and what evidence would distinguish that change from general practice, exposure, and expectation?**
 
@@ -133,3 +133,7 @@ The practice periods may overlap. The six-week description in the other note and
 - DeKeyser, R. M. (1997). [Beyond Explicit Rule Learning: Automatizing Second Language Morphosyntax](https://doi.org/10.1017/S0272263197002040). *Studies in Second Language Acquisition, 19*(2), 195–221.
 - Kim, S. K., & Webb, S. (2022). [The Effects of Spaced Practice on Second Language Learning: A Meta-Analysis](https://doi.org/10.1111/lang.12479). *Language Learning, 72*(1), 269–319.
 - Schmidt, R. W. (1990). [The Role of Consciousness in Second Language Learning](https://doi.org/10.1093/applin/11.2.129). *Applied Linguistics, 11*(2), 129–158.
+
+## Acknowledgement of AI Use
+
+ChatGPT (OpenAI) assisted with drafting, organizing, and editing this note. The author supplied the underlying observations and retains responsibility for the account and its interpretation.
