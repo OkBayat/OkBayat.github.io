@@ -318,7 +318,7 @@ works:
     themes:
       - learning-memory-language
     project: vocora
-    summary: A first-person early observation after roughly six weeks of grammar micro-skill and spaced review practice: rapid pattern anticipation and non-linear assembly of shuffled sentences from grammatical chunks, with alternative explanations and an open transfer question.
+    summary: "A first-person early observation after roughly six weeks of grammar micro-skill and spaced review practice: rapid pattern anticipation and non-linear assembly of shuffled sentences from grammatical chunks, with alternative explanations and an open transfer question."
     editions:
       - lang: en
         label: English
