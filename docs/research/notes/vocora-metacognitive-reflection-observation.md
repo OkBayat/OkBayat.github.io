@@ -48,7 +48,7 @@ I built something small in Vocora: after a learner makes two consecutive incorre
 
 I expected that the questions might encourage reflection. What surprised me was the kind of mistake I began to notice in myself.
 
-I had assumed that my main problem was **not knowing enough**. Yet I began to see another pattern: **sometimes I rushed precisely because I thought I already knew the answer**.
+Initially, the incorrect answers themselves were what I noticed. Then another pattern came into focus: **sometimes I rushed precisely because I thought I already knew the answer**.
 
 That discovery, rather than an accuracy percentage, is the reason I want to preserve this early observation.
 
@@ -161,7 +161,7 @@ I can separate three layers of this experience.
 
 **What was recorded:** Vocora recorded correct and incorrect attempts over the broader period. The reported daily accuracy ranges were summarized from those records. Logging of responses to the reflection questions **began only recently**, so I cannot reconstruct a complete historical record linking a selected reason or plan to subsequent responses.
 
-**What I experienced:** After seeing and answering the two prompts, I sometimes paid closer attention to my own approach, especially the tendency to rush through material I thought I already knew. My sister independently described the pause as useful in a general sense, but her performance was not assessed.
+**What I experienced:** After seeing and answering the two prompts, I sometimes paid closer attention to my own approach, especially the tendency to rush through material I thought I already knew. My sister also described the pause as useful in a general sense, but her performance was not assessed.
 
 **What I hypothesize:** A reason-and-next-step prompt might encourage self-monitoring that carries forward into practice. However, the same behavioral shift might also be caused by simply interrupting an automatic sequence of responses, allowing a short rest, or drawing attention to the most recent mistake.
 
