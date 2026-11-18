@@ -309,6 +309,22 @@ works:
         title: "Can the Learner Carry the Context?"
         url: /research-practice/notes/can-the-learner-carry-the-context
 
+  - id: vocora-grammar-automaticity-observation
+    content_type: research-note
+    primary_body: building
+    bodies_of_work:
+      - building
+      - human-transformation
+    themes:
+      - learning-memory-language
+    project: vocora
+    summary: "A first-person early observation after roughly six weeks of grammar micro-skill and spaced review practice: rapid pattern anticipation and non-linear assembly of shuffled sentences from grammatical chunks, with alternative explanations and an open transfer question."
+    editions:
+      - lang: en
+        label: English
+        title: "From Rules to Chunks: An Early Observation of Automatic Grammar Processing in Vocora"
+        url: /research-practice/notes/vocora-grammar-automaticity-observation
+
   - id: vocora-learning-metrics
     content_type: research-note
     primary_body: building
