@@ -309,6 +309,22 @@ works:
         title: "Can the Learner Carry the Context?"
         url: /research-practice/notes/can-the-learner-carry-the-context
 
+  - id: vocora-dictation-attention-observation
+    content_type: research-note
+    primary_body: building
+    bodies_of_work:
+      - building
+      - human-transformation
+    themes:
+      - learning-memory-language
+    project: vocora
+    summary: "A first-person early observation that responses in some Vocora dictation exercises seem more accurate when explicit spelling-by-spelling monitoring recedes; the note discusses alternatives and a testable question, without claiming a measured effect."
+    editions:
+      - lang: en
+        label: English
+        title: "When Less Attention to Spelling Seems to Help: An Early Observation from Vocora Dictation"
+        url: /research-practice/notes/vocora-dictation-attention-observation
+
   - id: vocora-grammar-automaticity-observation
     content_type: research-note
     primary_body: building
