@@ -309,6 +309,22 @@ works:
         title: "Can the Learner Carry the Context?"
         url: /research-practice/notes/can-the-learner-carry-the-context
 
+  - id: vocora-leitner-spelling-retention-observation
+    content_type: research-note
+    primary_body: building
+    bodies_of_work:
+      - building
+      - human-transformation
+    themes:
+      - learning-memory-language
+    project: vocora
+    summary: "A first-person early observation comparing self-managed daily auditory spelling practice stopped after about seven days with a Leitner-style routine completed in about 45 days; a later informal check suggested roughly 60 versus 94 correct spellings per 100, with important differences in practice duration and stopping criteria."
+    editions:
+      - lang: en
+        label: English
+        title: "Knowing the Spelling Today, Remembering It Weeks Later: An Early Observation from Vocora"
+        url: /research-practice/notes/vocora-leitner-spelling-retention-observation
+
   - id: vocora-grammar-micro-skills-speaking-transfer-observation
     content_type: research-note
     primary_body: building
