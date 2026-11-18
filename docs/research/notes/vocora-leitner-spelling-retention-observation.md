@@ -72,7 +72,7 @@ Both sets used the same general task in Vocora: hear a word and enter its spelli
 
 The system's mastered state was a progression label, not an independent assessment of permanent learning. Similarly, my all-correct practice result established what I could do at that point, not what would remain later.
 
-**Both routines involved spacing across days.** The comparison was between different schedules and stopping rules, not spaced practice versus no spacing. I did not match the total number of retrieval attempts, minutes practiced, or feedback exposures.
+**Both routines involved spacing across days.** The comparison was between different schedules and stopping rules, not spaced practice versus no spacing. I did not match the total number of retrieval attempts, minutes practiced, or feedback exposures. A longer calendar period alone does not establish more practice time or more retrieval attempts.
 
 ## The delayed spelling check
 
@@ -95,7 +95,7 @@ The largest limitation is that I changed several things together. Leitner progre
 
 The word sets could also have differed in initial familiarity or spelling difficulty. Random allocation reduced deliberate selection but did not remove that possibility. The approximate delay, unreported scoring details, and possible incidental exposure further limit interpretation. Finally, I was the learner, the person arranging the comparison, and the person reporting its outcome.
 
-These limitations do not change the numbers I reported. They limit what those numbers can support: an informal contrast in my later spelling performance, rather than an estimate of how much Leitner scheduling improves retention.
+The figures describe an informal contrast in my later spelling performance; they do not estimate how much Leitner scheduling improves retention.
 
 The feeling that a word returned “just before I forgot it” belongs to the same account. I did not measure an individual forgetting threshold or show that the algorithm identified one. Effortful recall is a possible clue for a future study, not a verified mechanism behind the result.
 
@@ -131,3 +131,7 @@ The grammar and reflection notes also describe aspects of my learning with the s
 - Karpicke, J. D., & Roediger, H. L. (2008). [The critical importance of retrieval for learning](https://doi.org/10.1126/science.1152408). *Science*, 319(5865), 966–968.
 - Kang, S. H. K. (2016). [Spaced repetition promotes efficient and effective learning: Policy implications for instruction](https://doi.org/10.1177/2372732215624708). *Policy Insights from the Behavioral and Brain Sciences*, 3(1), 12–19.
 - Kim, S. K., & Webb, S. (2022). [The effects of spaced practice on second language learning: A meta-analysis](https://doi.org/10.1111/lang.12479). *Language Learning*, 72(1), 269–319.
+
+## Acknowledgement of AI Use
+
+ChatGPT (OpenAI) assisted with drafting, organizing, and editing this note. The author supplied the underlying observations and retains responsibility for the account and its interpretation.

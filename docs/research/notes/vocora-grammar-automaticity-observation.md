@@ -116,7 +116,7 @@ Both belong to my ongoing experience with Vocora. Their practice periods may ove
 
 ## A focused next question
 
-The first useful test would record **accuracy, response time, and tile-selection order** on both practiced and unfamiliar sentences. This could establish whether the reported change in assembly actually occurs and whether it extends beyond repeated items. Sentence production without supplied words, followed by a delayed assessment, would address a further question about transfer and retention.
+A prospective study would establish a baseline and then record **accuracy, response time, and tile-selection order** during a defined practice period, using both practiced and unfamiliar sentences. This could test whether assembly changes over time and whether the change extends beyond repeated items. Sentence production without supplied words, followed by a delayed assessment, would address a further question about transfer and retention.
 
 **Does practice make familiar grammatical patterns easier to recognize and combine, and how much of that change carries over when the words are no longer supplied?**
 
@@ -124,5 +124,9 @@ The first useful test would record **accuracy, response time, and tile-selection
 
 - DeKeyser, R. M. (1997). [Beyond Explicit Rule Learning: Automatizing Second Language Morphosyntax](https://doi.org/10.1017/S0272263197002040). *Studies in Second Language Acquisition, 19*(2), 195–221.
 - Gobet, F., Lane, P. C. R., Croker, S., Cheng, P. C.-H., Jones, G., Oliver, I., & Pine, J. M. (2001). [Chunking Mechanisms in Human Learning](https://doi.org/10.1016/S1364-6613(00)01662-4). *Trends in Cognitive Sciences, 5*(6), 236–243.
-- Ellis, N. C. (2003). [Constructions, Chunking, and Connectionism: The Emergence of Second Language Structure](https://doi.org/10.1002/9780470756492.ch4). In C. J. Doughty & M. H. Long (Eds.), *The Handbook of Second Language Acquisition* (pp. 33–68). Blackwell.
+- Ellis, N. C. (2003). [Constructions, Chunking, and Connectionism: The Emergence of Second Language Structure](https://doi.org/10.1002/9780470756492.ch4). In C. J. Doughty & M. H. Long (Eds.), *The Handbook of Second Language Acquisition* (pp. 63–103). Blackwell.
 - Kim, S. K., & Webb, S. (2022). [The Effects of Spaced Practice on Second Language Learning: A Meta-Analysis](https://doi.org/10.1111/lang.12479). *Language Learning, 72*(1), 269–319.
+
+## Acknowledgement of AI Use
+
+ChatGPT (OpenAI) assisted with drafting, organizing, and editing this note. The author supplied the underlying observations and retains responsibility for the account and its interpretation.

@@ -74,7 +74,7 @@ Three research perspectives help frame the question, with different limits on th
 
 **Monitoring a practiced action.** [Beilock and Carr (2001)](https://doi.org/10.1037/0096-3445.130.4.701) studied performance under pressure in golf putting and alphabet arithmetic. Their findings supported an explicit-monitoring account for skilled putting, with different results in alphabet arithmetic. This makes the task boundary important: the study gives a reason to ask about step-by-step monitoring, but it does not show that monitoring spelling harms dictation. I also did not manipulate performance pressure in my own practice.
 
-**Attention in learning.** [Schmidt (1990)](https://doi.org/10.1093/applin/11.2.129) distinguished questions about noticing, incidental learning, and implicit learning. That discussion concerns how language is learned, whereas my immediate observation concerns how familiar material feels to perform. It would be a mistake to turn my account into advice to pay less attention when learning an unfamiliar spelling or reviewing feedback.
+**Attention in learning.** [Schmidt (1990)](https://doi.org/10.1093/applin/11.2.129) distinguished questions about noticing, incidental learning, and implicit learning. That discussion concerns how language is learned, whereas my immediate observation concerns how it feels to spell familiar words during dictation. It would be a mistake to turn my account into advice to pay less attention when learning an unfamiliar spelling or reviewing feedback.
 
 These sources provide questions and distinctions. None tested this observation in Vocora.
 
@@ -95,13 +95,13 @@ These possibilities cannot be separated by recollection alone. Even an immediate
 
 My [grammar assembly note](/research-practice/notes/vocora-grammar-automaticity-observation) concerns recognizing patterns in visible word tiles. This note concerns spelling in response to audio. Both arose during the same broad practice period, but they describe different tasks and are not independent demonstrations of a common mechanism.
 
-There is also an apparent tension with my [reflection note](/research-practice/notes/vocora-metacognitive-reflection-observation), where a short pause helped me notice rushing through familiar exercises. The two accounts concern different moments and targets of attention: pausing to reconsider a learning habit differs from consciously checking every letter while producing an answer. That is a useful distinction to test, not a demonstrated explanation that resolves the two observations.
+There is also an apparent tension with my [reflection note](/research-practice/notes/vocora-metacognitive-reflection-observation), where I reported becoming more aware of rushing through familiar exercises after introducing brief reflection prompts. The two accounts concern different moments and targets of attention: pausing to reconsider a learning habit differs from consciously checking every letter while producing an answer. That is a useful distinction to test, not a demonstrated explanation that resolves the two observations.
 
 The [delayed spelling comparison](/research-practice/notes/vocora-leitner-spelling-retention-observation) reports a later spelling check under two review routines. Its figures do not measure the attention contrast described here and should not be used as evidence for it.
 
 ## What I would measure next
 
-A useful first study would compare clearly defined attention instructions on balanced dictation items. It could ask a learner to monitor spelling explicitly on some trials and to focus on the spoken message while responding naturally on others. Familiarity, item length, audio conditions, and order would need to be addressed so that difficult words were not systematically assigned to one condition.
+A prospective study could test the effects of explicit attention instructions. These instructions would differ from the spontaneous changes in monitoring described here. It could ask a learner to monitor spelling explicitly on some trials and to focus on the spoken message while responding naturally on others. Familiarity, item length, audio conditions, and order would need to be addressed so that difficult words were not systematically assigned to one condition.
 
 The main outcomes would be spelling accuracy, error types, and response time considered together. A brief self-report could record the learner's experienced focus, without treating it as a direct measure of unconscious processing. Delayed checks would address retention separately from immediate performance.
 
@@ -112,3 +112,7 @@ The main outcomes would be spelling accuracy, error types, and response time con
 - Logan, G. D. (1988). [Toward an instance theory of automatization](https://doi.org/10.1037/0033-295X.95.4.492). *Psychological Review*, 95(4), 492–527.
 - Beilock, S. L., & Carr, T. H. (2001). [On the fragility of skilled performance: What governs choking under pressure?](https://doi.org/10.1037/0096-3445.130.4.701). *Journal of Experimental Psychology: General*, 130(4), 701–725.
 - Schmidt, R. W. (1990). [The role of consciousness in second language learning](https://doi.org/10.1093/applin/11.2.129). *Applied Linguistics*, 11(2), 129–158.
+
+## Acknowledgement of AI Use
+
+ChatGPT (OpenAI) assisted with drafting, organizing, and editing this note. The author supplied the underlying observations and retains responsibility for the account and its interpretation.

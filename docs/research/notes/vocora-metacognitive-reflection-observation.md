@@ -46,7 +46,7 @@ permalink: /research-practice/notes/vocora-metacognitive-reflection-observation
 
 After adding two short reflection questions to Vocora, I noticed a habit I had previously overlooked: **I sometimes rushed because I thought I already knew the answer**.
 
-New material usually made me careful. Familiar questions could have the opposite effect. When I recognized a word or grammar pattern, I sometimes answered before checking it properly. A brief pause after mistakes helped me notice that difference in my own approach.
+New material usually made me careful. Familiar questions could have the opposite effect. When I recognized a word or grammar pattern, I sometimes answered before checking it properly. During the pauses after mistakes, I began to notice that difference in my own approach.
 
 Over approximately two weeks, I found myself rushing less, checking irregular verb forms more carefully, and recalling a word's meaning before working through its spelling. I also noticed higher daily accuracy ranges during this period. The experience raised two related questions: was I becoming better at monitoring my approach, and what explained the change in my answers?
 
@@ -59,7 +59,7 @@ Over approximately two weeks, I found myself rushing less, checking irregular ve
 
 ## How the reflection worked
 
-In the version I used, the **first two consecutive incorrect answers in a practice session** triggered two multiple-choice slides:
+In the version I used, the **first occurrence of two consecutive incorrect answers in a practice session** triggered two multiple-choice slides:
 
 1. **Why do you think you made this mistake?**
 2. **What will you do differently next time?**
@@ -123,10 +123,14 @@ A prospective comparison could examine usual practice, a duration-matched neutra
 
 Delayed checks and practice without prompts would help show whether any change persists. That would move the question beyond whether I enjoyed the pause or answered more items correctly during a short period.
 
-The observation I want to preserve is simple: a small interruption made me notice how familiarity could change my attention. Whether that awareness leads to reliable, lasting learning gains remains open.
+The observation I want to preserve is simple: after introducing the prompts, I became more aware of how familiarity could change my attention. Whether that awareness leads to reliable, lasting learning gains remains open.
 
 ## References
 
 - Reilly, R. C. (2005). [The use of public reflection to promote workplace learning and expert thinking skills](https://spectrum.library.concordia.ca/id/eprint/6434/). *The International Journal of Learning*, 12(9), 17–32.
 - Reilly, R. C., & Bramwell, G. (2007). [The use of public reflection circles and the promotion of metacognition: Teaching for autonomy and good practice](https://ojs.adelaide.edu.au/index.php/EDEQ/article/view/494). *Journal of Educational Enquiry*, 7(1), 44–63.
 - Smith, A., Fernández Galeote, D., Legaki, N. Z., & Hamari, J. (2025). [Gamified reflection: How interaction design shapes student engagement with prompts: Gamification and metacognitive reflection](https://doi.org/10.1145/3757980.3758006). *Proceedings of the 28th International Academic Mindtrek Conference*, 22–33.
+
+## Acknowledgement of AI Use
+
+ChatGPT (OpenAI) assisted with drafting, organizing, and editing this note. The author supplied the underlying observations and retains responsibility for the account and its interpretation.
