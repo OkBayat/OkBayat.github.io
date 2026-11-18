@@ -318,7 +318,7 @@ works:
     themes:
       - learning-memory-language
     project: vocora
-    summary: "A first-person two-week observation of brief, private metacognitive prompts in Vocora: the author noticed a tendency to rush through familiar material and described approximate daily accuracy ranges of 65–72% before and 78–82% during use, with non-equivalent practice and no controlled comparison."
+    summary: "A two-week personal account of noticing rushed responses to familiar material after brief reflection prompts, with descriptive daily accuracy ranges and informal family feedback. The note separates the observed experience from an untested explanation of improvement."
     editions:
       - lang: en
         label: English
@@ -334,7 +334,7 @@ works:
     themes:
       - learning-memory-language
     project: vocora
-    summary: "A first-person early observation comparing self-managed daily auditory spelling practice stopped after about seven days with a Leitner-style routine completed in about 45 days; a later informal check suggested roughly 60 versus 94 correct spellings per 100, with important differences in practice duration and stopping criteria."
+    summary: "An informal comparison of daily spelling review completed in about one week and Leitner-style review completed in about 45 days. A later check was reported as roughly 60 versus 94 correct spellings per 100; practice duration and stopping rules differed, and equal test delays were not established."
     editions:
       - lang: en
         label: English
@@ -350,7 +350,7 @@ works:
     themes:
       - learning-memory-language
     project: vocora
-    summary: "A first-person early observation of more spontaneous grammar use in speaking within two weeks of once-daily micro-skill review, followed by a later impression of richer meaning in film dialogue; informal teacher and peer reports are explicitly distinguished from measured evidence."
+    summary: "A personal account of more spontaneous grammar use within approximately two weeks of once-daily micro-skill review, followed around another month and a half later by a more established sense of access and richer perceived film dialogue. Teacher and peer comments remain informal reports."
     editions:
       - lang: en
         label: English
@@ -366,11 +366,11 @@ works:
     themes:
       - learning-memory-language
     project: vocora
-    summary: "A first-person early observation that responses in some Vocora dictation exercises seem more accurate when explicit spelling-by-spelling monitoring recedes; the note discusses alternatives and a testable question, without claiming a measured effect."
+    summary: "A subjective impression during dictation that answers sometimes seemed more accurate with less deliberate spelling monitoring. The note distinguishes this from general inattention and asks whether the impression survives a comparison of similar items."
     editions:
       - lang: en
         label: English
-        title: "When Less Attention to Spelling Seems to Help: An Early Observation from Vocora Dictation"
+        title: "When Less Spelling Monitoring Seems to Help: An Early Observation from Vocora Dictation"
         url: /research-practice/notes/vocora-dictation-attention-observation
 
   - id: vocora-grammar-automaticity-observation
@@ -382,11 +382,11 @@ works:
     themes:
       - learning-memory-language
     project: vocora
-    summary: "A first-person early observation after roughly six weeks of grammar micro-skill and spaced review practice: rapid pattern anticipation and non-linear assembly of shuffled sentences from grammatical chunks, with alternative explanations and an open transfer question."
+    summary: "A personal observation after roughly six weeks of grammar micro-skill and spaced review practice: familiar patterns seemed easier to anticipate, and shuffled sentences could be assembled from recognizable parts. Speed and transfer were not independently measured."
     editions:
       - lang: en
         label: English
-        title: "From Rules to Chunks: An Early Observation of Automatic Grammar Processing in Vocora"
+        title: "From Rules to Chunks: An Early Observation of Grammar Practice in Vocora"
         url: /research-practice/notes/vocora-grammar-automaticity-observation
 
   - id: vocora-learning-metrics
