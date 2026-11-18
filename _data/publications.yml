@@ -309,6 +309,22 @@ works:
         title: "Can the Learner Carry the Context?"
         url: /research-practice/notes/can-the-learner-carry-the-context
 
+  - id: vocora-grammar-micro-skills-speaking-transfer-observation
+    content_type: research-note
+    primary_body: building
+    bodies_of_work:
+      - building
+      - human-transformation
+    themes:
+      - learning-memory-language
+    project: vocora
+    summary: "A first-person early observation of more spontaneous grammar use in speaking within two weeks of once-daily micro-skill review, followed by a later impression of richer meaning in film dialogue; informal teacher and peer reports are explicitly distinguished from measured evidence."
+    editions:
+      - lang: en
+        label: English
+        title: "From Knowing Grammar to Using It Naturally: An Early Observation from Vocora"
+        url: /research-practice/notes/vocora-grammar-micro-skills-speaking-transfer-observation
+
   - id: vocora-dictation-attention-observation
     content_type: research-note
     primary_body: building
