@@ -309,6 +309,22 @@ works:
         title: "Can the Learner Carry the Context?"
         url: /research-practice/notes/can-the-learner-carry-the-context
 
+  - id: vocora-second-chance-self-correction-observation
+    content_type: research-note
+    primary_body: building
+    bodies_of_work:
+      - building
+      - human-transformation
+    themes:
+      - learning-memory-language
+    project: vocora
+    summary: "A personal account with informal observations of other users: a yellow first-error message invited another attempt without a supplied answer or new hint. Frequent immediate self-correction was noticed; the rough frequency estimate is unverified and later learning was not tested."
+    editions:
+      - lang: en
+        label: English
+        title: "A Second Chance to Find the Error: An Early Observation from Vocora"
+        url: /research-practice/notes/vocora-second-chance-self-correction-observation
+
   - id: vocora-mixed-practice-observation
     content_type: research-note
     primary_body: building
