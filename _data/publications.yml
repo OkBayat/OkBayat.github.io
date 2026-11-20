@@ -309,6 +309,22 @@ works:
         title: "Can the Learner Carry the Context?"
         url: /research-practice/notes/can-the-learner-carry-the-context
 
+  - id: vocora-mixed-practice-observation
+    content_type: research-note
+    primary_body: building
+    bodies_of_work:
+      - building
+      - human-transformation
+    themes:
+      - learning-memory-language
+    project: vocora
+    summary: "A personal account of mixing content, skills, and response formats in a central Leitner practice flow. The author experienced less monotony and perceived fewer errors and less stress, without a matched accuracy analysis or evidence of improved retention."
+    editions:
+      - lang: en
+        label: English
+        title: "When Practice Became More Varied: An Early Observation from Vocora"
+        url: /research-practice/notes/vocora-mixed-practice-observation
+
   - id: vocora-session-boundaries-observation
     content_type: research-note
     primary_body: building
