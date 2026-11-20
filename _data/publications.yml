@@ -309,6 +309,22 @@ works:
         title: "Can the Learner Carry the Context?"
         url: /research-practice/notes/can-the-learner-carry-the-context
 
+  - id: vocora-session-boundaries-observation
+    content_type: research-note
+    primary_body: building
+    bodies_of_work:
+      - building
+      - human-transformation
+    themes:
+      - learning-memory-language
+    project: vocora
+    summary: "A personal account of dividing the same daily practice into learner-selected sessions, with 50 slides as the author's chosen size. Repeated completion felt satisfying; daily persistence, fatigue, and learning gains were not measured."
+    editions:
+      - lang: en
+        label: English
+        title: "The Same Practice, Smaller Finish Lines: An Early Observation from Vocora"
+        url: /research-practice/notes/vocora-session-boundaries-observation
+
   - id: vocora-metacognitive-reflection-observation
     content_type: research-note
     primary_body: building
