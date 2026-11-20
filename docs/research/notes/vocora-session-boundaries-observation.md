@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "The Same Practice, Smaller Finish Lines: An Early Observation from Vocora"
-description: "A personal observation of dividing an unchanged daily practice workload into learner-selected sessions, with a stronger sense of completion and no measured claim about learning gains."
+description: "A retrospective personal account of dividing the same daily practice workload into learner-selected sessions, with a stronger sense of completion and no measured claim about learning gains."
 parent: Research Notes
 direction: ltr
 lang: en
@@ -47,7 +47,7 @@ My daily practice could involve **200–300 slides**, and sometimes around **400
 
 I changed Vocora so that the learner could choose how many slides to see in each session. For my own practice, I selected **50**. Reaching the end of those 50 slides gave me a clear feeling that I had finished a meaningful part of the work. There could still be more sessions to complete that day, but each one now had its own finish line.
 
-**The total daily study remained the same in my account.** The change was from one large session to several smaller sessions, with the size chosen by the learner. I was not describing a reduction from 300 slides a day to 50.
+**In my account, I kept the same daily workload and divided it into smaller, learner-selected sessions.** I was not describing a reduction from 300 slides a day to 50.
 
 <details open markdown="block">
   <summary>Table of contents</summary>
@@ -80,7 +80,7 @@ The remaining work did not disappear. Completing a session meant that one portio
 
 The practice also felt more manageable than the earlier long session. This is a description of my experience, not a score from a fatigue scale. I did not measure whether I worked faster, sustained attention longer, or returned to the next session more reliably.
 
-In describing the satisfaction informally, it is tempting to reach for a biological explanation. I have no measurements of dopamine, adrenaline, or any other physiological response. The supported observation is the feeling of completion and success; its biological basis is outside the evidence available here.
+I have no physiological measurements that could explain this feeling biologically.
 
 ## Session boundaries and learner choice
 
@@ -114,11 +114,11 @@ The [other Vocora notes](/work/projects/vocora/publications) concern related asp
 
 ## A focused next question
 
-**When total daily practice is held constant, how do learner-selected session boundaries affect perceived manageability, satisfaction after completion, and continuation through the remaining work?**
+**With the same planned daily workload, how do learner-selected session boundaries affect perceived manageability, satisfaction with practice, and continuation through the remaining work?**
 
-A prospective comparison could examine one long session, assigned smaller sessions, and learner-selected smaller sessions. The assigned and selected conditions would need comparable session sizes to distinguish the effect of choice from the size itself. Total material, difficulty, exercise mix, and feedback would need to be comparable as well.
+A prospective comparison could examine one long session, assigned smaller sessions, and learner-selected smaller sessions. The assigned and selected conditions would need comparable session sizes to distinguish the effect of choice from the size itself. The planned material, difficulty, exercise mix, and feedback would need to be comparable; the amount actually completed would remain an outcome.
 
-Brief ratings could capture the experience at session boundaries. Records of completed slides, return to the next session, time spent, and actual breaks would show what happened across the whole day. Analysis should include unfinished days, rather than only learners who completed every session. Any question about learning would require a separate delayed assessment.
+Brief ratings at common points in the daily workload, as well as at session boundaries, could capture the experience. Records of completed slides, return to the next session, time spent, and actual breaks would show what happened across the whole day. Analysis should include unfinished days, rather than only learners who completed every session. Any question about learning would require a separate delayed assessment.
 
 For now, the observation is that the same daily work felt different when I could complete it in portions I had chosen. The satisfaction of finishing each portion is clear in my recollection. Whether that experience supports sustained practice or better learning remains open.
 
