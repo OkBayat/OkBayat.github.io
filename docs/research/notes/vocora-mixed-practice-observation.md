@@ -51,8 +51,6 @@ I later brought different activities into a **central Leitner practice flow**. A
 
 The most immediate difference was how the session felt. I was no longer doing the same thing throughout. I also had the impression that, for the same number of slides, I made fewer mistakes. Previously, repeated mistakes could make me feel stressed; with fewer mistakes apparent to me, that experience felt less stressful.
 
-Those impressions motivated this note. They are not yet a numerical result or an explanation of what caused the change.
-
 <details open markdown="block">
   <summary>Table of contents</summary>
   {: .text-delta }
@@ -99,7 +97,7 @@ The stress observation has the same boundary. Repeated mistakes had felt discour
 
 Research on interleaving examines the order of practice, often by alternating related categories or problem types instead of completing a block of one type before moving to another. This is relevant to some aspects of the design, but **mixing unrelated skills and changing an interface format do not automatically reproduce a studied interleaving condition**.
 
-[Nakata and Suzuki (2019)](https://doi.org/10.1111/modl.12581) examined blocked, interleaved, and initially blocked then interleaved practice of five English grammatical structures among Japanese learners. Interleaving produced more incorrect responses during training, yet better performance than blocking on a grammaticality judgment test one week later. Their study makes the distinction between practice errors and later retention especially important here. It does not support using my impression of fewer immediate mistakes as proof of an interleaving benefit.
+[Nakata and Suzuki (2019)](https://doi.org/10.1111/modl.12581) examined blocked, interleaved, and initially blocked then interleaved practice of five English grammatical structures among Japanese learners. Interleaving produced more incorrect responses during training, yet better performance than blocking on a grammaticality judgment test one week later. Their design also changed the spacing between repetitions of each grammatical structure, so it did not isolate interleaving from spacing. Their study makes the distinction between practice errors and later retention especially important here. It does not support using my impression of fewer immediate mistakes as proof of an interleaving benefit.
 
 [Rogers and Monsell (1995)](https://doi.org/10.1037/0096-3445.124.2.207) found performance costs when participants switched between simple classification tasks, even when the switches were predictable. Those laboratory tasks differ from language practice, but the result is a useful counterweight to the idea that more switching must always be better. A design can feel pleasantly varied while also imposing a cost when the learner changes task.
 
@@ -121,11 +119,11 @@ Reading a sentence to find a grammatical error is also a particular activity. Su
 
 **When content, difficulty, practice opportunities, and feedback are comparable, does mixing skills or response formats change the experience of practice, first-attempt accuracy, or later learning?**
 
-The two forms of variety should be examined separately. One comparison could keep the content and response formats fixed while changing their order from blocked to mixed. Another could keep the grammatical targets comparable while varying the response formats. A study of the complete product experience could compare the whole routines, but would need to report that several features differ together.
+The two forms of variety should be examined separately. One comparison could keep the content and response formats fixed while changing their order from blocked to mixed. Changing order may also change the gaps between repetitions of the same target. Unless those gaps are controlled, the comparison would estimate the combined effects of mixing and spacing. Another could keep the grammatical targets comparable while varying the response formats. A study of the complete product experience could compare the whole routines, but would need to report that several features differ together.
 
 Useful records would include the target skill, item, response format, prior exposure, presentation order, review interval, time spent, and feedback received. **First-attempt errors and success after a retry should be counted separately.** Accuracy should be examined within comparable skills and formats as well as across the whole session, so that a change in composition is not mistaken for an improvement on the same work.
 
-Brief ratings could assess monotony, engagement, and stress without treating them as learning measures. Delayed checks with comparable new items would address retention and transfer. Both benefits and costs of switching would remain possible outcomes.
+Brief ratings could assess monotony, engagement, and stress without treating them as learning measures. Delayed assessments should specify whether they test previously practiced items, new examples of the same targets, or broader transfer, using comparable test conditions across groups. Both benefits and costs of switching would remain possible outcomes.
 
 ## Relationship to the other observations
 

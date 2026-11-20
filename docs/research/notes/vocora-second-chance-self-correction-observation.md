@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "A Second Chance to Find the Error: An Early Observation from Vocora"
-description: "A personal account with informal observations of other users: a first-error retry prompt often led to self-correction without a supplied answer, but the reported frequency and learning effects remain unverified."
+description: "A personal account with informal observations of other users: the author recalls frequent self-correction after a first-error retry prompt without a supplied answer; the frequency and learning effects remain unverified."
 parent: Research Notes
 direction: ltr
 lang: en
@@ -48,7 +48,7 @@ After a wrong answer, I sometimes needed an opportunity to look again. In gramma
 
 This became more visible after I changed the feedback in Vocora. The earlier footer used green for a correct response and red for an incorrect one. In the revised interaction, a **first incorrect response receives a yellow message and an opportunity to revise**. The message says that the answer is not correct and invites the learner to find and fix the problem.
 
-At that point, the correct answer is not displayed and no additional hint is supplied. The learner returns to the existing exercise and checks a revised answer. What interested me was how often that small invitation seemed sufficient for a successful correction.
+At that point, the correct answer is not displayed and no new explanatory hint is supplied. The learner returns to the existing exercise and checks a revised answer. What interested me was how often that small invitation seemed sufficient for a successful correction.
 
 <details open markdown="block">
   <summary>Table of contents</summary>
@@ -62,7 +62,7 @@ At that point, the correct answer is not displayed and no additional hint is sup
 The interaction I am describing has five steps:
 
 1. The learner submits an answer.
-2. The first answer is marked incorrect through a yellow feedback state.
+2. If the first answer is incorrect, the interface displays a yellow feedback state.
 3. A brief message invites the learner to inspect and correct it.
 4. The learner revisits the same exercise without receiving the correct answer or a new explanatory hint.
 5. The learner changes the response and selects **Check** again.
@@ -85,7 +85,7 @@ One possible explanation is that the first error was a slip: I already had enoug
 
 ## The informal frequency estimate
 
-I noticed a similar pattern while observing a few other users. In describing my own experience and those occasions, I roughly estimated successful self-correction at **more than 90% of the cases I noticed**.
+I noticed a similar pattern while observing a few other users. In describing my own experience and those occasions, I roughly estimated successful self-correction at more than 90% of the cases I noticed.
 
 That figure needs a clear boundary. **It is an informal impression, not a rate calculated from an audited set of attempts.** I have not provided a defined observation window, an exact user count, a numerator of successful corrections, or a denominator of all eligible first errors. I also have not separated my own attempts from other users' attempts in a documented analysis.
 
@@ -105,7 +105,7 @@ That leaves two separate questions: **Can the learner repair this response now?*
 
 [Lyster and Ranta (1997)](https://doi.org/10.1017/S0272263197001034) examined corrective feedback and learners' immediate responses in primary-level immersion classrooms. Some feedback types that invited learners to reconsider their output were associated with more learner-generated repair than recasts, where the teacher supplied a reformulated version. Their classroom observations help distinguish receiving a correction from producing one. They do not establish that immediate repair is lasting acquisition, and a teacher's interaction can provide more information than Vocora's brief message.
 
-[Finn and Metcalfe (2010)](https://doi.org/10.3758/MC.38.7.951) provide a particularly useful challenge to an optimistic interpretation. In general-knowledge tasks, a minimal-feedback condition gave an additional attempt after an error, but self-correction was rare and later memory was weakest in that condition. Incremental hints that supported generating the answer produced better delayed correction. Vocora's retry supplies no new hint, so it does not reproduce their successful scaffolded condition. Revisiting a familiar grammar construction with visible word tiles may differ from retrieving an unavailable fact, but that possible distinction needs testing.
+[Finn and Metcalfe (2010)](https://doi.org/10.3758/MC.38.7.951) provide a particularly useful challenge to an optimistic interpretation. In general-knowledge tasks, a minimal-feedback condition gave an additional attempt after an error, but self-correction was rare and later memory was weakest in that condition. After an unsuccessful retry, participants moved on without receiving the correct answer. This differs from a routine that offers a retry and then supplies corrective information. Incremental hints that supported generating the answer produced better delayed correction. Vocora's retry supplies no new hint, so it does not reproduce their successful scaffolded condition. Revisiting a familiar grammar construction with visible word tiles may differ from retrieving an unavailable fact, but that possible distinction needs testing.
 
 [Fyfe (2016)](https://doi.org/10.1016/j.chb.2016.05.082) compared feedback conditions in computer-based algebra homework, including a try-again condition. Feedback benefits depended on prior knowledge, and the study did not establish that try-again feedback was superior to the other feedback types. Its try-again condition also permitted repeated attempts and access to a correct-answer button, unlike the specific first retry described here. It is a useful design comparison, not validation of this interaction.
 
@@ -123,11 +123,11 @@ Nothing here shows that yellow itself improves learning, that red feedback harms
 
 **Compared with immediate corrective information, does a brief opportunity for self-correction improve later independent performance?**
 
-A prospective study could compare immediate corrective information with a retry before corrective information. Matched items, prior knowledge, response format, timing, and feedback after an unsuccessful retry would need to be defined. To investigate color or wording, those features would need a separate comparison with the retry opportunity held constant.
+A prospective study could randomly assign learners to immediate corrective information or a brief retry followed by the same corrective information, whether or not the retry succeeds. Comparable items and response formats, prior knowledge, a defined retry window, and a consistent delayed-test interval would be needed. Time on the problem should be recorded. This would compare the complete routines; it would not by itself separate the effect of another attempt from extra time on the problem. To investigate color or wording, those features would need a separate comparison with the retry opportunity held constant.
 
 The records should distinguish first errors, retries offered, retries attempted, and successful corrections. Reporting success only among completed retries would miss learners who stopped. Repeated attempts from one person also should not be counted as independent participants, and results should be examined by task and learner rather than collapsed into one percentage.
 
-Later tests should include new sentences and conditions without the original word tiles or second-chance prompt where appropriate. Brief experience ratings could address perceived engagement separately. Any prospective collection of other learners' data would require appropriate consent and a defined, limited recording plan.
+Delayed assessments should distinguish performance on practiced items from performance on new sentences targeting the same structures. Tasks without the original word tiles or second-chance prompt could assess less supported performance where appropriate. Brief experience ratings could address perceived engagement separately. Any prospective collection of other learners' data would require appropriate consent and a defined, limited recording plan.
 
 ## Relationship to the other Vocora notes
 
